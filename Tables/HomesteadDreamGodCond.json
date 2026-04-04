@@ -1,0 +1,2463 @@
+{
+  "_meta": {
+    "table": "HomesteadDreamGodCond",
+    "header_table": "HomesteadDreamGodCondHeaderTable",
+    "schema_size": 9,
+    "row_count": 174,
+    "array_fields": [
+      "FinishClientEvent"
+    ],
+    "unresolved_array_refs": 160
+  },
+  "default": {
+    "ID": "null",
+    "GroupID": 0,
+    "HSLevel": 0,
+    "Des": null,
+    "DesParam": null,
+    "FinishClientEvent": {},
+    "FinishCondition": "true",
+    "EnableCondition": "true",
+    "EntranceType": null
+  },
+  "row_keys": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    4001,
+    4002,
+    4003,
+    4004,
+    4005,
+    4006,
+    4007,
+    4008,
+    4009,
+    4010,
+    4011,
+    4012,
+    4013,
+    4014,
+    4015,
+    4016,
+    4017,
+    4018,
+    4019,
+    4020,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008,
+    5009,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019,
+    5020,
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008,
+    6009,
+    6010,
+    6011,
+    6012,
+    6013,
+    6014,
+    6015,
+    6016,
+    6017,
+    6018,
+    6019,
+    6020,
+    7001,
+    7002,
+    7003,
+    7004,
+    7005,
+    7006,
+    7007,
+    7008,
+    7009,
+    7010,
+    7011,
+    7012,
+    7013,
+    7014,
+    7015,
+    7016,
+    7017,
+    7018,
+    7019,
+    7020,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007,
+    8008,
+    8009,
+    8010,
+    8011,
+    8012,
+    8013,
+    8014,
+    8015,
+    8016,
+    8017,
+    8018,
+    8019,
+    8020,
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    9006,
+    9007,
+    9008,
+    9009,
+    9010,
+    9011,
+    9012,
+    9013,
+    9014,
+    9015,
+    9016,
+    9017,
+    9018,
+    9019,
+    9020
+  ],
+  "rows": [
+    {
+      "ID": 1001,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "新建${1}个建筑（功能/生产建筑均可）",
+      "DesParam": "1",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3000"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3000)>=1",
+      "EnableCondition": "ed.ConditionX.HSCanBuildingBuild(2)",
+      "EntranceType": "HSOpenBuild"
+    },
+    {
+      "ID": 1002,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "升级任意${1}个建筑",
+      "DesParam": "1",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3001"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3001)>=1",
+      "EnableCondition": "ed.ConditionX.HSCanBuildingUpgrade(2)",
+      "EntranceType": "HSFindCanUpgradeBuilding"
+    },
+    {
+      "ID": 1003,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "解锁任意${1}个地块",
+      "DesParam": "1",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3002"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3002)>=1",
+      "EnableCondition": "ed.ConditionX.HSCanRegionExpand(2) and ed.ConditionX.HSBuildingMaxLv(2,1)<=8",
+      "EntranceType": "HSFindRegion"
+    },
+    {
+      "ID": 1004,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "在厨房制造${1}个产品",
+      "DesParam": "5",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3003"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3003)>=5",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 1005,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "在锻造工坊制造${1}个产品",
+      "DesParam": "5",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3004"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3004)>=5",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,11)>=1",
+      "EntranceType": "HSFindBuilding|11"
+    },
+    {
+      "ID": 1006,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "在炼金工坊制造${1}个产品",
+      "DesParam": "5",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3005"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3005)>=5",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,12)>=1",
+      "EntranceType": "HSFindBuilding|12"
+    },
+    {
+      "ID": 1007,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "在他人家园制造${1}个产品",
+      "DesParam": "1",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3006"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3006)>=1",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,15)>=1",
+      "EntranceType": "Friend"
+    },
+    {
+      "ID": 1008,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "交付${1}个包含厨房产品的愿望单",
+      "DesParam": "5",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3007"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3007)>=5",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSOrder"
+    },
+    {
+      "ID": 1009,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "交付${1}个包含锻造工坊产品的愿望单",
+      "DesParam": "5",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3008"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3008)>=5",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,11)>=1",
+      "EntranceType": "HSOrder"
+    },
+    {
+      "ID": 1010,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "交付${1}个包含炼金工坊产品的愿望单",
+      "DesParam": "5",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3009"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3009)>=5",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,12)>=1",
+      "EntranceType": "HSOrder"
+    },
+    {
+      "ID": 1011,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "参与${1}场魔潮入侵战斗",
+      "DesParam": "3",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3010"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3010)>=3",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=5",
+      "EntranceType": "HSDarkInvasion"
+    },
+    {
+      "ID": 1012,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "在装饰工坊制造${1}个装饰品",
+      "DesParam": "3",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3011"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3011)>=3",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,13)>=1",
+      "EntranceType": "HSFindBuilding|13"
+    },
+    {
+      "ID": 1013,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "调整${1}次家园布局",
+      "DesParam": "1",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3012"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3012)>=1",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3",
+      "EntranceType": "HSEditView"
+    },
+    {
+      "ID": 1014,
+      "GroupID": 1,
+      "HSLevel": 0,
+      "Des": "拜访其他玩家的家园，并在家园留言台进行${1}次留言",
+      "DesParam": "1",
+      "FinishClientEvent": {
+        "1": "UpdateCounter:3013"
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3013)>=1",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,16)>=1 and ed.ConditionX.DateAfter(2026,3,11)",
+      "EntranceType": "Friend"
+    },
+    {
+      "ID": 2001,
+      "GroupID": 2,
+      "HSLevel": 1,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2002,
+      "GroupID": 2,
+      "HSLevel": 2,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2003,
+      "GroupID": 2,
+      "HSLevel": 3,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2004,
+      "GroupID": 2,
+      "HSLevel": 4,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "20",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=20",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2005,
+      "GroupID": 2,
+      "HSLevel": 5,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "40",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=40",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2006,
+      "GroupID": 2,
+      "HSLevel": 6,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "60",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=60",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2007,
+      "GroupID": 2,
+      "HSLevel": 7,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "80",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=80",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2008,
+      "GroupID": 2,
+      "HSLevel": 8,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "100",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=100",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2009,
+      "GroupID": 2,
+      "HSLevel": 9,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "120",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=120",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2010,
+      "GroupID": 2,
+      "HSLevel": 10,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "170",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=170",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2011,
+      "GroupID": 2,
+      "HSLevel": 11,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "190",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=190",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2012,
+      "GroupID": 2,
+      "HSLevel": 12,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "210",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=210",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2013,
+      "GroupID": 2,
+      "HSLevel": 13,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "240",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=240",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2014,
+      "GroupID": 2,
+      "HSLevel": 14,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "280",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=280",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2015,
+      "GroupID": 2,
+      "HSLevel": 15,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "340",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=340",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2016,
+      "GroupID": 2,
+      "HSLevel": 16,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "390",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=390",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2017,
+      "GroupID": 2,
+      "HSLevel": 17,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "430",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=430",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2018,
+      "GroupID": 2,
+      "HSLevel": 18,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "520",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=520",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2019,
+      "GroupID": 2,
+      "HSLevel": 19,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "580",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=580",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 2020,
+      "GroupID": 2,
+      "HSLevel": 20,
+      "Des": "收获${1}个任意农作物",
+      "DesParam": "650",
+      "FinishClientEvent": {
+        "$arrayRef": 76528
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3014)>=650",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
+      "EntranceType": "HSFindBuilding|2"
+    },
+    {
+      "ID": 3001,
+      "GroupID": 3,
+      "HSLevel": 1,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3002,
+      "GroupID": 3,
+      "HSLevel": 2,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3003,
+      "GroupID": 3,
+      "HSLevel": 3,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "130",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=130",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3004,
+      "GroupID": 3,
+      "HSLevel": 4,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "190",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=190",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3005,
+      "GroupID": 3,
+      "HSLevel": 5,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "290",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=290",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3006,
+      "GroupID": 3,
+      "HSLevel": 6,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "710",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=710",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3007,
+      "GroupID": 3,
+      "HSLevel": 7,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "920",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=920",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3008,
+      "GroupID": 3,
+      "HSLevel": 8,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "1200",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=1200",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3009,
+      "GroupID": 3,
+      "HSLevel": 9,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "1680",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=1680",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3010,
+      "GroupID": 3,
+      "HSLevel": 10,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "3540",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=3540",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3011,
+      "GroupID": 3,
+      "HSLevel": 11,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "3900",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=3900",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3012,
+      "GroupID": 3,
+      "HSLevel": 12,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "4290",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=4290",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3013,
+      "GroupID": 3,
+      "HSLevel": 13,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "4720",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=4720",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3014,
+      "GroupID": 3,
+      "HSLevel": 14,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "6610",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=6610",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3015,
+      "GroupID": 3,
+      "HSLevel": 15,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "7270",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=7270",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3016,
+      "GroupID": 3,
+      "HSLevel": 16,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "8000",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=8000",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3017,
+      "GroupID": 3,
+      "HSLevel": 17,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "8800",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=8800",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3018,
+      "GroupID": 3,
+      "HSLevel": 18,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "9680",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=9680",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3019,
+      "GroupID": 3,
+      "HSLevel": 19,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "10640",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=10640",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 3020,
+      "GroupID": 3,
+      "HSLevel": 20,
+      "Des": "收获${1}个粗矿源",
+      "DesParam": "11710",
+      "FinishClientEvent": {
+        "$arrayRef": 76529
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3015)>=11710",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
+      "EntranceType": "HSFindBuilding|3"
+    },
+    {
+      "ID": 4001,
+      "GroupID": 4,
+      "HSLevel": 1,
+      "Des": "收获${1}个原木",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4002,
+      "GroupID": 4,
+      "HSLevel": 2,
+      "Des": "收获${1}个原木",
+      "DesParam": "120",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=120",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4003,
+      "GroupID": 4,
+      "HSLevel": 3,
+      "Des": "收获${1}个原木",
+      "DesParam": "170",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=170",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4004,
+      "GroupID": 4,
+      "HSLevel": 4,
+      "Des": "收获${1}个原木",
+      "DesParam": "240",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=240",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4005,
+      "GroupID": 4,
+      "HSLevel": 5,
+      "Des": "收获${1}个原木",
+      "DesParam": "690",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=690",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4006,
+      "GroupID": 4,
+      "HSLevel": 6,
+      "Des": "收获${1}个原木",
+      "DesParam": "950",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=950",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4007,
+      "GroupID": 4,
+      "HSLevel": 7,
+      "Des": "收获${1}个原木",
+      "DesParam": "1140",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=1140",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4008,
+      "GroupID": 4,
+      "HSLevel": 8,
+      "Des": "收获${1}个原木",
+      "DesParam": "2060",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=2060",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4009,
+      "GroupID": 4,
+      "HSLevel": 9,
+      "Des": "收获${1}个原木",
+      "DesParam": "2670",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=2670",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4010,
+      "GroupID": 4,
+      "HSLevel": 10,
+      "Des": "收获${1}个原木",
+      "DesParam": "3480",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=3480",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4011,
+      "GroupID": 4,
+      "HSLevel": 11,
+      "Des": "收获${1}个原木",
+      "DesParam": "3760",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=3760",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4012,
+      "GroupID": 4,
+      "HSLevel": 12,
+      "Des": "收获${1}个原木",
+      "DesParam": "6510",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=6510",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4013,
+      "GroupID": 4,
+      "HSLevel": 13,
+      "Des": "收获${1}个原木",
+      "DesParam": "7160",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=7160",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4014,
+      "GroupID": 4,
+      "HSLevel": 14,
+      "Des": "收获${1}个原木",
+      "DesParam": "7880",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=7880",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4015,
+      "GroupID": 4,
+      "HSLevel": 15,
+      "Des": "收获${1}个原木",
+      "DesParam": "8510",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=8510",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4016,
+      "GroupID": 4,
+      "HSLevel": 16,
+      "Des": "收获${1}个原木",
+      "DesParam": "9190",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=9190",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4017,
+      "GroupID": 4,
+      "HSLevel": 17,
+      "Des": "收获${1}个原木",
+      "DesParam": "9930",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=9930",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4018,
+      "GroupID": 4,
+      "HSLevel": 18,
+      "Des": "收获${1}个原木",
+      "DesParam": "10730",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=10730",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4019,
+      "GroupID": 4,
+      "HSLevel": 19,
+      "Des": "收获${1}个原木",
+      "DesParam": "12010",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=12010",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 4020,
+      "GroupID": 4,
+      "HSLevel": 20,
+      "Des": "收获${1}个原木",
+      "DesParam": "13210",
+      "FinishClientEvent": {
+        "$arrayRef": 76530
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3016)>=13210",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
+      "EntranceType": "HSFindBuilding|4"
+    },
+    {
+      "ID": 5001,
+      "GroupID": 5,
+      "HSLevel": 1,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5002,
+      "GroupID": 5,
+      "HSLevel": 2,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5003,
+      "GroupID": 5,
+      "HSLevel": 3,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5004,
+      "GroupID": 5,
+      "HSLevel": 4,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5005,
+      "GroupID": 5,
+      "HSLevel": 5,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5006,
+      "GroupID": 5,
+      "HSLevel": 6,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "350",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=350",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5007,
+      "GroupID": 5,
+      "HSLevel": 7,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "440",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=440",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5008,
+      "GroupID": 5,
+      "HSLevel": 8,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "580",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=580",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5009,
+      "GroupID": 5,
+      "HSLevel": 9,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "810",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=810",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5010,
+      "GroupID": 5,
+      "HSLevel": 10,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "1130",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=1130",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5011,
+      "GroupID": 5,
+      "HSLevel": 11,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "2780",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=2780",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5012,
+      "GroupID": 5,
+      "HSLevel": 12,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "3060",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=3060",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5013,
+      "GroupID": 5,
+      "HSLevel": 13,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "3370",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=3370",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5014,
+      "GroupID": 5,
+      "HSLevel": 14,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "3700",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=3700",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5015,
+      "GroupID": 5,
+      "HSLevel": 15,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "5840",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=5840",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5016,
+      "GroupID": 5,
+      "HSLevel": 16,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "6420",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=6420",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5017,
+      "GroupID": 5,
+      "HSLevel": 17,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "7060",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=7060",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5018,
+      "GroupID": 5,
+      "HSLevel": 18,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "9890",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=9890",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5019,
+      "GroupID": 5,
+      "HSLevel": 19,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "10880",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=10880",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 5020,
+      "GroupID": 5,
+      "HSLevel": 20,
+      "Des": "收获${1}个地脉精华",
+      "DesParam": "11970",
+      "FinishClientEvent": {
+        "$arrayRef": 76531
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3017)>=11970",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
+      "EntranceType": "HSFindBuilding|5"
+    },
+    {
+      "ID": 6001,
+      "GroupID": 6,
+      "HSLevel": 1,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6002,
+      "GroupID": 6,
+      "HSLevel": 2,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6003,
+      "GroupID": 6,
+      "HSLevel": 3,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6004,
+      "GroupID": 6,
+      "HSLevel": 4,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "20",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=20",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6005,
+      "GroupID": 6,
+      "HSLevel": 5,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "40",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=40",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6006,
+      "GroupID": 6,
+      "HSLevel": 6,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "60",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=60",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6007,
+      "GroupID": 6,
+      "HSLevel": 7,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "80",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=80",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6008,
+      "GroupID": 6,
+      "HSLevel": 8,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "100",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=100",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6009,
+      "GroupID": 6,
+      "HSLevel": 9,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "120",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=120",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6010,
+      "GroupID": 6,
+      "HSLevel": 10,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "170",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=170",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6011,
+      "GroupID": 6,
+      "HSLevel": 11,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "190",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=190",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6012,
+      "GroupID": 6,
+      "HSLevel": 12,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "210",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=210",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6013,
+      "GroupID": 6,
+      "HSLevel": 13,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "240",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=240",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6014,
+      "GroupID": 6,
+      "HSLevel": 14,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "280",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=280",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6015,
+      "GroupID": 6,
+      "HSLevel": 15,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "340",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=340",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6016,
+      "GroupID": 6,
+      "HSLevel": 16,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "390",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=390",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6017,
+      "GroupID": 6,
+      "HSLevel": 17,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "430",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=430",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6018,
+      "GroupID": 6,
+      "HSLevel": 18,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "520",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=520",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6019,
+      "GroupID": 6,
+      "HSLevel": 19,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "580",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=580",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 6020,
+      "GroupID": 6,
+      "HSLevel": 20,
+      "Des": "消耗${1}个任意农作物",
+      "DesParam": "650",
+      "FinishClientEvent": {
+        "$arrayRef": 76532
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3018)>=650",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
+      "EntranceType": "HSFindBuilding|10"
+    },
+    {
+      "ID": 7001,
+      "GroupID": 7,
+      "HSLevel": 1,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7002,
+      "GroupID": 7,
+      "HSLevel": 2,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7003,
+      "GroupID": 7,
+      "HSLevel": 3,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "130",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=130",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7004,
+      "GroupID": 7,
+      "HSLevel": 4,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "190",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=190",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7005,
+      "GroupID": 7,
+      "HSLevel": 5,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "290",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=290",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7006,
+      "GroupID": 7,
+      "HSLevel": 6,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "710",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=710",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7007,
+      "GroupID": 7,
+      "HSLevel": 7,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "920",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=920",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7008,
+      "GroupID": 7,
+      "HSLevel": 8,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "1200",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=1200",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7009,
+      "GroupID": 7,
+      "HSLevel": 9,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "1680",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=1680",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7010,
+      "GroupID": 7,
+      "HSLevel": 10,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "3540",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=3540",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7011,
+      "GroupID": 7,
+      "HSLevel": 11,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "3900",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=3900",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7012,
+      "GroupID": 7,
+      "HSLevel": 12,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "4290",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=4290",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7013,
+      "GroupID": 7,
+      "HSLevel": 13,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "4720",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=4720",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7014,
+      "GroupID": 7,
+      "HSLevel": 14,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "6610",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=6610",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7015,
+      "GroupID": 7,
+      "HSLevel": 15,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "7270",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=7270",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7016,
+      "GroupID": 7,
+      "HSLevel": 16,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "8000",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=8000",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7017,
+      "GroupID": 7,
+      "HSLevel": 17,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "8800",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=8800",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7018,
+      "GroupID": 7,
+      "HSLevel": 18,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "9680",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=9680",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7019,
+      "GroupID": 7,
+      "HSLevel": 19,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "10640",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=10640",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 7020,
+      "GroupID": 7,
+      "HSLevel": 20,
+      "Des": "消耗${1}个粗矿源",
+      "DesParam": "11710",
+      "FinishClientEvent": {
+        "$arrayRef": 76533
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3019)>=11710",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
+      "EntranceType": "HSFindBuilding|8"
+    },
+    {
+      "ID": 8001,
+      "GroupID": 8,
+      "HSLevel": 1,
+      "Des": "消耗${1}个原木",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8002,
+      "GroupID": 8,
+      "HSLevel": 2,
+      "Des": "消耗${1}个原木",
+      "DesParam": "120",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=120",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8003,
+      "GroupID": 8,
+      "HSLevel": 3,
+      "Des": "消耗${1}个原木",
+      "DesParam": "170",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=170",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8004,
+      "GroupID": 8,
+      "HSLevel": 4,
+      "Des": "消耗${1}个原木",
+      "DesParam": "240",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=240",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8005,
+      "GroupID": 8,
+      "HSLevel": 5,
+      "Des": "消耗${1}个原木",
+      "DesParam": "690",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=690",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8006,
+      "GroupID": 8,
+      "HSLevel": 6,
+      "Des": "消耗${1}个原木",
+      "DesParam": "950",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=950",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8007,
+      "GroupID": 8,
+      "HSLevel": 7,
+      "Des": "消耗${1}个原木",
+      "DesParam": "1140",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=1140",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8008,
+      "GroupID": 8,
+      "HSLevel": 8,
+      "Des": "消耗${1}个原木",
+      "DesParam": "2060",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=2060",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8009,
+      "GroupID": 8,
+      "HSLevel": 9,
+      "Des": "消耗${1}个原木",
+      "DesParam": "2670",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=2670",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8010,
+      "GroupID": 8,
+      "HSLevel": 10,
+      "Des": "消耗${1}个原木",
+      "DesParam": "3480",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=3480",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8011,
+      "GroupID": 8,
+      "HSLevel": 11,
+      "Des": "消耗${1}个原木",
+      "DesParam": "3760",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=3760",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8012,
+      "GroupID": 8,
+      "HSLevel": 12,
+      "Des": "消耗${1}个原木",
+      "DesParam": "6510",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=6510",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8013,
+      "GroupID": 8,
+      "HSLevel": 13,
+      "Des": "消耗${1}个原木",
+      "DesParam": "7160",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=7160",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8014,
+      "GroupID": 8,
+      "HSLevel": 14,
+      "Des": "消耗${1}个原木",
+      "DesParam": "7880",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=7880",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8015,
+      "GroupID": 8,
+      "HSLevel": 15,
+      "Des": "消耗${1}个原木",
+      "DesParam": "8510",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=8510",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8016,
+      "GroupID": 8,
+      "HSLevel": 16,
+      "Des": "消耗${1}个原木",
+      "DesParam": "9190",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=9190",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8017,
+      "GroupID": 8,
+      "HSLevel": 17,
+      "Des": "消耗${1}个原木",
+      "DesParam": "9930",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=9930",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8018,
+      "GroupID": 8,
+      "HSLevel": 18,
+      "Des": "消耗${1}个原木",
+      "DesParam": "10730",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=10730",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8019,
+      "GroupID": 8,
+      "HSLevel": 19,
+      "Des": "消耗${1}个原木",
+      "DesParam": "12010",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=12010",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 8020,
+      "GroupID": 8,
+      "HSLevel": 20,
+      "Des": "消耗${1}个原木",
+      "DesParam": "13210",
+      "FinishClientEvent": {
+        "$arrayRef": 76534
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3020)>=13210",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
+      "EntranceType": "HSFindBuilding|7"
+    },
+    {
+      "ID": 9001,
+      "GroupID": 9,
+      "HSLevel": 1,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9002,
+      "GroupID": 9,
+      "HSLevel": 2,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9003,
+      "GroupID": 9,
+      "HSLevel": 3,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9004,
+      "GroupID": 9,
+      "HSLevel": 4,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9005,
+      "GroupID": 9,
+      "HSLevel": 5,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "10",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9006,
+      "GroupID": 9,
+      "HSLevel": 6,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "350",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=350",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9007,
+      "GroupID": 9,
+      "HSLevel": 7,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "440",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=440",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9008,
+      "GroupID": 9,
+      "HSLevel": 8,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "580",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=580",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9009,
+      "GroupID": 9,
+      "HSLevel": 9,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "810",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=810",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9010,
+      "GroupID": 9,
+      "HSLevel": 10,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "1130",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=1130",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9011,
+      "GroupID": 9,
+      "HSLevel": 11,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "2780",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=2780",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9012,
+      "GroupID": 9,
+      "HSLevel": 12,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "3060",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=3060",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9013,
+      "GroupID": 9,
+      "HSLevel": 13,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "3370",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=3370",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9014,
+      "GroupID": 9,
+      "HSLevel": 14,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "3700",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=3700",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9015,
+      "GroupID": 9,
+      "HSLevel": 15,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "5840",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=5840",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9016,
+      "GroupID": 9,
+      "HSLevel": 16,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "6420",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=6420",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9017,
+      "GroupID": 9,
+      "HSLevel": 17,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "7060",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=7060",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9018,
+      "GroupID": 9,
+      "HSLevel": 18,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "9890",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=9890",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9019,
+      "GroupID": 9,
+      "HSLevel": 19,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "10880",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=10880",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    },
+    {
+      "ID": 9020,
+      "GroupID": 9,
+      "HSLevel": 20,
+      "Des": "消耗${1}个地脉精华",
+      "DesParam": "11970",
+      "FinishClientEvent": {
+        "$arrayRef": 76535
+      },
+      "FinishCondition": "ed.ConditionX.Counter(3021)>=11970",
+      "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
+      "EntranceType": "HSFindBuilding|9"
+    }
+  ]
+}

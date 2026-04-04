@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "table": "GalaxyFestivalPuzzle",
+    "header_table": "GalaxyFestivalPuzzleHeaderTable",
+    "schema_size": 29,
+    "row_count": 3,
+    "array_fields": [
+      "ChallengeLinesID",
+      "UnlockConditionTipsParams"
+    ],
+    "unresolved_array_refs": 4
+  },
+  "default": {
+    "ID": "null",
+    "PuzzleName": null,
+    "PuzzleType": null,
+    "Des": null,
+    "UnlockCondition": "true",
+    "UnlockConditionTips": null,
+    "UnlockConditionTipsParams": {},
+    "SpecUnlockParam": {},
+    "PuzzleBg": null,
+    "MapID": 0,
+    "ZoneID": 0,
+    "LinesID": {},
+    "MainLinesID": 0,
+    "ChallengeLinesID": {},
+    "PreviewSeconds": 0,
+    "PreviewAction": "true",
+    "ActiveAction": "true",
+    "EnterAction": "true",
+    "ExitAction": "true",
+    "EndAction": "true",
+    "ParamID": 0,
+    "MainLinesDisplayParam": 0,
+    "PreObjCategory": null,
+    "PrePathObj": 0,
+    "ActiveObjCategory": null,
+    "ActivePathObj": 0,
+    "RankBoardType": null,
+    "WzRankBoardType": null,
+    "RankOrder": null
+  },
+  "row_keys": [
+    3,
+    4,
+    5
+  ],
+  "rows": [
+    {
+      "ID": 3,
+      "PuzzleName": "欢歌宴会",
+      "PuzzleType": 14,
+      "Des": "群星盛典期间，秘银商会将在伊索米亚大陆各地举办宴会，庆祝这个特殊的节日。(活动期间的周末开启)",
+      "UnlockCondition": "ed.ConditionX.IsZoneUnlocked(41,7)",
+      "UnlockConditionTips": "解锁${1}后开启。",
+      "UnlockConditionTipsParams": {
+        "$arrayRef": 75727
+      },
+      "SpecUnlockParam": {},
+      "PuzzleBg": "ui/prefabs/activity/activitygalaxyfestival/galaxyfestivalbg/pbui_galaxyfestival_item_bg_danceparty.prefab",
+      "MapID": 41,
+      "ZoneID": 1,
+      "LinesID": {
+        "1": 722,
+        "2": 724,
+        "3": 726
+      },
+      "MainLinesID": 724,
+      "ChallengeLinesID": {
+        "1": 722,
+        "2": 726
+      },
+      "PreviewSeconds": 250,
+      "PreviewAction": "ed.ActionX.C_GalaxyFestivalShowObjs(65)",
+      "ActiveAction": "true",
+      "EnterAction": "ed.ActionX.C_GalaxyFestivalHideObjs(65)",
+      "ExitAction": "ed.ActionX.C_GalaxyFestivalShowObjs(65)",
+      "EndAction": "ed.ActionX.C_GalaxyFestivalHideObjs(65)",
+      "ParamID": 1,
+      "MainLinesDisplayParam": 0,
+      "PreObjCategory": 6,
+      "PrePathObj": 65,
+      "ActiveObjCategory": 6,
+      "ActivePathObj": 65,
+      "RankBoardType": null,
+      "WzRankBoardType": null,
+      "RankOrder": null
+    },
+    {
+      "ID": 4,
+      "PuzzleName": "知识问答",
+      "PuzzleType": 11,
+      "Des": "群星盛典期间，伊索米亚的学者们会在各地举办知识问答活动，以此作为庆祝。梅林大人可以通过移动到选项区域上进行作答，答对问题就会被戴上象征智慧的礼帽！礼帽越高智慧越高！",
+      "UnlockCondition": "ed.ConditionX.IsZoneUnlocked(41,7)",
+      "UnlockConditionTips": "解锁${1}后开启。",
+      "UnlockConditionTipsParams": {
+        "$arrayRef": 75727
+      },
+      "SpecUnlockParam": {},
+      "PuzzleBg": "UI/Prefabs/Activity/ActivityGalaxyFestival/GalaxyFestivalBg/pbui_galaxyfestival_item_bg_knowledge.prefab",
+      "MapID": 41,
+      "ZoneID": 1,
+      "LinesID": {
+        "1": 701,
+        "2": 704,
+        "3": 708
+      },
+      "MainLinesID": 704,
+      "ChallengeLinesID": {
+        "$arrayRef": 75728
+      },
+      "PreviewSeconds": 250,
+      "PreviewAction": "ed.ActionX.C_GalaxyFestivalShowObjs(51,49,53)",
+      "ActiveAction": "true",
+      "EnterAction": "true",
+      "ExitAction": "true",
+      "EndAction": "ed.ActionX.C_GalaxyFestivalHideObjs(51,49,53)",
+      "ParamID": 1,
+      "MainLinesDisplayParam": 0,
+      "PreObjCategory": 6,
+      "PrePathObj": 51,
+      "ActiveObjCategory": 6,
+      "ActivePathObj": 51,
+      "RankBoardType": 42,
+      "WzRankBoardType": 43,
+      "RankOrder": 1
+    },
+    {
+      "ID": 5,
+      "PuzzleName": "繁花礼祀",
+      "PuzzleType": 15,
+      "Des": "每当沐灵花伴随着特殊星象出现，绿裔就会在情人之愿举行祭典，收集沐灵花献给弥萨忒。",
+      "UnlockCondition": "ed.ConditionX.IsExplTaskFinished(10030125,2)",
+      "UnlockConditionTips": "完成主线${1}后开启。",
+      "UnlockConditionTipsParams": {
+        "1": "鹿灵的祝福"
+      },
+      "SpecUnlockParam": {
+        "1": "task",
+        "2": "10030125"
+      },
+      "PuzzleBg": "UI/Prefabs/Activity/ActivityGalaxyFestival/GalaxyFestivalBg/pbui_galaxyfestival_item_bg_flower.prefab",
+      "MapID": 41,
+      "ZoneID": 1,
+      "LinesID": {
+        "1": 721,
+        "2": 723,
+        "3": 725
+      },
+      "MainLinesID": 725,
+      "ChallengeLinesID": {
+        "$arrayRef": 2923
+      },
+      "PreviewSeconds": 250,
+      "PreviewAction": "ed.ActionX.C_GalaxyFestivalShowObjs(57)",
+      "ActiveAction": "true",
+      "EnterAction": "true",
+      "ExitAction": "true",
+      "EndAction": "ed.ActionX.C_GalaxyFestivalHideObjs(57)",
+      "ParamID": 1,
+      "MainLinesDisplayParam": 10,
+      "PreObjCategory": 6,
+      "PrePathObj": 57,
+      "ActiveObjCategory": 6,
+      "ActivePathObj": 57,
+      "RankBoardType": null,
+      "WzRankBoardType": null,
+      "RankOrder": null
+    }
+  ]
+}

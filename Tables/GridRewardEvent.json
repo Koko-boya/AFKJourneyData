@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "table": "GridRewardEvent",
+    "header_table": "GridRewardEventHeaderTable",
+    "schema_size": 9,
+    "row_count": 3,
+    "array_fields": [
+      "TriggerLevel"
+    ],
+    "unresolved_array_refs": 3
+  },
+  "default": {
+    "GridRewardEvent": "null",
+    "Type": null,
+    "TriggerLevel": {},
+    "GroupID": 0,
+    "Percent": 0,
+    "DisplayTitle": null,
+    "DisplayContent": null,
+    "TriggerContent": null,
+    "DisplayIcon": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "GridRewardEvent": 1,
+      "Type": 1,
+      "TriggerLevel": {
+        "$arrayRef": 440
+      },
+      "GroupID": 1,
+      "Percent": 10,
+      "DisplayTitle": "二重升级",
+      "DisplayContent": "馈赠将会连续提升2级。（仅在升至满级前触发）",
+      "TriggerContent": null,
+      "DisplayIcon": "UI/Sprites/GridReward/spui_gridreward_effect_tag_wishlvlup_ex.png"
+    },
+    {
+      "GridRewardEvent": 2,
+      "Type": 2,
+      "TriggerLevel": {
+        "$arrayRef": 47
+      },
+      "GroupID": 2,
+      "Percent": 10,
+      "DisplayTitle": "魂石种族许愿",
+      "DisplayContent": "可以将一个阵营的灵魂石排除掉，揭开馈赠时不会出现该阵营的灵魂石。（仅在升至满级时概率触发）",
+      "TriggerContent": "将一个阵营的灵魂石排除掉，揭开馈赠时不会出现该阵营的灵魂石。",
+      "DisplayIcon": "UI/Sprites/GridReward/spui_gridreward_effect_icon_wishfaction.png"
+    },
+    {
+      "GridRewardEvent": 3,
+      "Type": 2,
+      "TriggerLevel": {
+        "$arrayRef": 47
+      },
+      "GroupID": 2,
+      "Percent": 20,
+      "DisplayTitle": "基础奖励许愿",
+      "DisplayContent": "可以在招募资源、英雄专属武器资源中选择一个倾向，揭开馈赠时必定出现该类型资源。（仅在升至满级时概率触发）",
+      "TriggerContent": "在招募资源、英雄专属武器资源中选择一个倾向，揭开馈赠时必定出现该类型资源。",
+      "DisplayIcon": "UI/Sprites/GridReward/spui_gridreward_effect_icon_wishres.png"
+    }
+  ]
+}

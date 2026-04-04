@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "table": "ExplObjTrigger",
+    "header_table": "ExplObjTriggerHeaderTable",
+    "schema_size": 4,
+    "row_count": 2,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "MapObjID": "null",
+    "ClientCondition": "true",
+    "ClientEvents": {},
+    "ClientAction": "true"
+  },
+  "row_keys": [
+    901042,
+    700831
+  ],
+  "rows": [
+    {
+      "MapObjID": 901042,
+      "ClientCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(26,901042)",
+      "ClientEvents": {
+        "1": "C_PlaySocialBehaviour:26:901042"
+      },
+      "ClientAction": "ed.ActionX.C_RunBPEvent(901042,\"Click\")"
+    },
+    {
+      "MapObjID": 700831,
+      "ClientCondition": "ed.ConditionX.C_PlotPlayed(14320020)",
+      "ClientEvents": {
+        "1": "C_PlayPlot:14320020"
+      },
+      "ClientAction": "ed.ActionX.C_RunBPEvent(700831,\"Click\")"
+    }
+  ]
+}

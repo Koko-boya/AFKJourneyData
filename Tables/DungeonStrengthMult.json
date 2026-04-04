@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "table": "DungeonStrengthMult",
+    "header_table": "DungeonStrengthMultHeaderTable",
+    "schema_size": 6,
+    "row_count": 3,
+    "array_fields": [
+      "Multiple"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "ID": "null",
+    "DungeonStrengthMultiType": null,
+    "Desc": null,
+    "MapBuffID": 0,
+    "Multiple": {},
+    "LabelID": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "DungeonStrengthMultiType": 1,
+      "Desc": "奇袭",
+      "MapBuffID": 0,
+      "Multiple": {
+        "$arrayRef": 3030
+      },
+      "LabelID": 3
+    },
+    {
+      "ID": 2,
+      "DungeonStrengthMultiType": 2,
+      "Desc": "${1}连战",
+      "MapBuffID": 24,
+      "Multiple": {
+        "1": 1.01,
+        "2": 1.02,
+        "3": 1.04,
+        "4": 1.06,
+        "5": 1.08
+      },
+      "LabelID": 1
+    },
+    {
+      "ID": 3,
+      "DungeonStrengthMultiType": 3,
+      "Desc": "弱点克制",
+      "MapBuffID": 0,
+      "Multiple": {
+        "$arrayRef": 69791
+      },
+      "LabelID": 2
+    }
+  ]
+}

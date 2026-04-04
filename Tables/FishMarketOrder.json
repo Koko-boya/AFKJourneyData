@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "table": "FishMarketOrder",
+    "header_table": "FishMarketOrderHeaderTable",
+    "schema_size": 7,
+    "row_count": 3,
+    "array_fields": [
+      "FishQuality",
+      "Reward"
+    ],
+    "unresolved_array_refs": 6
+  },
+  "default": {
+    "OrderID": "null",
+    "FishQuality": {},
+    "Special": 0,
+    "Cost": 0,
+    "Reward": {},
+    "DisplayName": null,
+    "CounterID": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "OrderID": 1,
+      "FishQuality": {
+        "$arrayRef": 45
+      },
+      "Special": 0,
+      "Cost": 3,
+      "Reward": {
+        "$arrayRef": 75030
+      },
+      "DisplayName": "普通鱼",
+      "CounterID": 866
+    },
+    {
+      "OrderID": 2,
+      "FishQuality": {
+        "$arrayRef": 21
+      },
+      "Special": 0,
+      "Cost": 1,
+      "Reward": {
+        "$arrayRef": 75030
+      },
+      "DisplayName": "普通王冠鱼",
+      "CounterID": 867
+    },
+    {
+      "OrderID": 3,
+      "FishQuality": {
+        "$arrayRef": 21
+      },
+      "Special": 1,
+      "Cost": 1,
+      "Reward": {
+        "$arrayRef": 75031
+      },
+      "DisplayName": "异色王冠鱼",
+      "CounterID": 868
+    }
+  ]
+}

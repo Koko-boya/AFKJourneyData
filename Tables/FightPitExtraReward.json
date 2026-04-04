@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "table": "FightPitExtraReward",
+    "header_table": "FightPitExtraRewardHeaderTable",
+    "schema_size": 3,
+    "row_count": 2,
+    "array_fields": [
+      "ExtraReward"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "LimitID": "null",
+    "RuleDesc": null,
+    "ExtraReward": {}
+  },
+  "row_keys": [
+    5100,
+    5101
+  ],
+  "rows": [
+    {
+      "LimitID": 5100,
+      "RuleDesc": "战斗结束时，剩余时间不少于80秒",
+      "ExtraReward": {
+        "$arrayRef": 75021
+      }
+    },
+    {
+      "LimitID": 5101,
+      "RuleDesc": "战斗结束时，存活的英雄不少于2位",
+      "ExtraReward": {
+        "$arrayRef": 75022
+      }
+    }
+  ]
+}

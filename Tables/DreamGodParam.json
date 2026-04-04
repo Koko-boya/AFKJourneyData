@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "table": "DreamGodParam",
+    "header_table": "DreamGodParamHeaderTable",
+    "schema_size": 8,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "ObjectName": null,
+    "UIEntryUnlockCondition": "true",
+    "HeroID": 0,
+    "AwakenCost": {},
+    "AwakenReward": {},
+    "ActivityID": 0,
+    "StargazerConfirmCondition": "true"
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "ObjectName": "沉睡的奥萝菈",
+      "UIEntryUnlockCondition": "ed.ConditionX.IsTutorialCompleted(410)",
+      "HeroID": 108,
+      "AwakenCost": {
+        "1": 1,
+        "2": 215,
+        "3": 4
+      },
+      "AwakenReward": {
+        "1": 3,
+        "2": 108,
+        "3": 1,
+        "4": 1,
+        "5": 216,
+        "6": 1
+      },
+      "ActivityID": 562,
+      "StargazerConfirmCondition": "(ed.ConditionX.HeroRaiseHeroStoneCount(108)+ed.ConditionX.ItemCount(501108)<14) and not ed.ConditionX.IsQuesManagerPointRecvd(130,65)"
+    }
+  ]
+}

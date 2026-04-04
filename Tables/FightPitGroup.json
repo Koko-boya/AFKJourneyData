@@ -1,0 +1,261 @@
+{
+  "_meta": {
+    "table": "FightPitGroup",
+    "header_table": "FightPitGroupHeaderTable",
+    "schema_size": 18,
+    "row_count": 7,
+    "array_fields": [
+      "RecoverRuleIDs",
+      "RewardOnLose"
+    ],
+    "unresolved_array_refs": 14
+  },
+  "default": {
+    "ID": "null",
+    "PitDisplayName": null,
+    "StdlvID": 0,
+    "RewardOnWin": {},
+    "RewardOnLose": {},
+    "TicketCost": 0,
+    "PitIconRes": null,
+    "PitCondition": "true",
+    "PitConditionDes": null,
+    "RecoverRuleIDs": {},
+    "RecoverRuleDesc": null,
+    "SaveWinTeamRatio": 0,
+    "SaveLoseTeamRatio": 0,
+    "NPCID": 0,
+    "PracticeMax": 0,
+    "RetryMax": 0,
+    "BotRate": 0,
+    "PlayerMatchAt": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "PitDisplayName": "公平擂台",
+      "StdlvID": 37001,
+      "RewardOnWin": {
+        "1": 1,
+        "2": 138,
+        "3": 10,
+        "4": 1,
+        "5": 139,
+        "6": 2
+      },
+      "RewardOnLose": {
+        "$arrayRef": 75023
+      },
+      "TicketCost": 20,
+      "PitIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_0.png",
+      "PitCondition": "true",
+      "PitConditionDes": "初始解锁",
+      "RecoverRuleIDs": {
+        "$arrayRef": 75025
+      },
+      "RecoverRuleDesc": "战斗胜利时，即可恢复3点体力\n战斗胜利时，如存活的英雄数不少于2位，则额外返还3点体力\n如迅速解决战斗，战斗胜利时剩余时间不少于80秒，则额外返还2点体力",
+      "SaveWinTeamRatio": 0.5,
+      "SaveLoseTeamRatio": 0.5,
+      "NPCID": 701039,
+      "PracticeMax": 3,
+      "RetryMax": 1,
+      "BotRate": 0.3,
+      "PlayerMatchAt": 10
+    },
+    {
+      "ID": 2,
+      "PitDisplayName": "学徒擂台",
+      "StdlvID": 37002,
+      "RewardOnWin": {
+        "1": 1,
+        "2": 138,
+        "3": 10,
+        "4": 1,
+        "5": 139,
+        "6": 3
+      },
+      "RewardOnLose": {
+        "$arrayRef": 75023
+      },
+      "TicketCost": 20,
+      "PitIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_3.png",
+      "PitCondition": "true",
+      "PitConditionDes": "初始解锁",
+      "RecoverRuleIDs": {
+        "$arrayRef": 75025
+      },
+      "RecoverRuleDesc": "战斗胜利时，即可恢复3点体力\n战斗胜利时，如存活的英雄数不少于2位，则额外返还3点体力\n如迅速解决战斗，战斗胜利时剩余时间不少于80秒，则额外返还2点体力",
+      "SaveWinTeamRatio": 0.4,
+      "SaveLoseTeamRatio": 0.6,
+      "NPCID": 701040,
+      "PracticeMax": 3,
+      "RetryMax": 1,
+      "BotRate": 0.3,
+      "PlayerMatchAt": 10
+    },
+    {
+      "ID": 3,
+      "PitDisplayName": "工匠擂台",
+      "StdlvID": 37003,
+      "RewardOnWin": {
+        "1": 1,
+        "2": 138,
+        "3": 12,
+        "4": 1,
+        "5": 139,
+        "6": 5
+      },
+      "RewardOnLose": {
+        "$arrayRef": 75023
+      },
+      "TicketCost": 20,
+      "PitIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_4.png",
+      "PitCondition": "ed.ConditionX.Counter(2532)>=5 or ed.ConditionX.Best(16)<=300",
+      "PitConditionDes": "在学徒擂台获得5场胜利可解锁，或者巅峰竞技场历史最高排名高于300名可以直接解锁",
+      "RecoverRuleIDs": {
+        "$arrayRef": 75025
+      },
+      "RecoverRuleDesc": "战斗胜利时，即可恢复3点体力\n战斗胜利时，如存活的英雄数不少于2位，则额外返还3点体力\n如迅速解决战斗，战斗胜利时剩余时间不少于80秒，则额外返还2点体力",
+      "SaveWinTeamRatio": 1,
+      "SaveLoseTeamRatio": 0.3,
+      "NPCID": 701061,
+      "PracticeMax": 3,
+      "RetryMax": 1,
+      "BotRate": 0.3,
+      "PlayerMatchAt": 10
+    },
+    {
+      "ID": 4,
+      "PitDisplayName": "大师擂台",
+      "StdlvID": 37004,
+      "RewardOnWin": {
+        "1": 1,
+        "2": 138,
+        "3": 15,
+        "4": 1,
+        "5": 139,
+        "6": 8
+      },
+      "RewardOnLose": {
+        "$arrayRef": 75023
+      },
+      "TicketCost": 20,
+      "PitIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_4.png",
+      "PitCondition": "ed.ConditionX.Counter(2533)>=5 or ed.ConditionX.Best(16)<=150",
+      "PitConditionDes": "在工匠擂台获得5场胜利可解锁，或者巅峰竞技场历史最高排名高于150名可以直接解锁",
+      "RecoverRuleIDs": {
+        "$arrayRef": 75025
+      },
+      "RecoverRuleDesc": "战斗胜利时，即可恢复3点体力\n战斗胜利时，如存活的英雄数不少于2位，则额外返还3点体力\n如迅速解决战斗，战斗胜利时剩余时间不少于80秒，则额外返还2点体力",
+      "SaveWinTeamRatio": 1,
+      "SaveLoseTeamRatio": 0,
+      "NPCID": 701062,
+      "PracticeMax": 3,
+      "RetryMax": 1,
+      "BotRate": 0.3,
+      "PlayerMatchAt": 10
+    },
+    {
+      "ID": 5,
+      "PitDisplayName": "公平擂台",
+      "StdlvID": 37001,
+      "RewardOnWin": {
+        "1": 1,
+        "2": 186,
+        "3": 10,
+        "4": 1,
+        "5": 187,
+        "6": 3
+      },
+      "RewardOnLose": {
+        "$arrayRef": 75024
+      },
+      "TicketCost": 1,
+      "PitIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_0.png",
+      "PitCondition": "true",
+      "PitConditionDes": "初始解锁",
+      "RecoverRuleIDs": {
+        "$arrayRef": 75026
+      },
+      "RecoverRuleDesc": "战斗胜利时，如存活的英雄数不少于2位，则额外获得金秋南瓜币*2\n如迅速解决战斗，战斗胜利时剩余时间不少于80秒，则额外获得金秋南瓜币*3\n连胜场数超过3/5/8场时，战斗胜利额外获得1/2/3金秋南瓜币",
+      "SaveWinTeamRatio": 0.5,
+      "SaveLoseTeamRatio": 0.5,
+      "NPCID": 4178445,
+      "PracticeMax": 3,
+      "RetryMax": 1,
+      "BotRate": 0.5,
+      "PlayerMatchAt": 10
+    },
+    {
+      "ID": 6,
+      "PitDisplayName": "金穗擂台",
+      "StdlvID": 37003,
+      "RewardOnWin": {
+        "1": 1,
+        "2": 186,
+        "3": 12,
+        "4": 1,
+        "5": 187,
+        "6": 5
+      },
+      "RewardOnLose": {
+        "$arrayRef": 75024
+      },
+      "TicketCost": 1,
+      "PitIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_3.png",
+      "PitCondition": "true",
+      "PitConditionDes": "初始解锁",
+      "RecoverRuleIDs": {
+        "$arrayRef": 75026
+      },
+      "RecoverRuleDesc": "战斗胜利时，如存活的英雄数不少于2位，则额外获得金秋南瓜币*2\n如迅速解决战斗，战斗胜利时剩余时间不少于80秒，则额外获得金秋南瓜币*3\n连胜场数超过3/5/8场时，战斗胜利额外获得1/2/3金秋南瓜币",
+      "SaveWinTeamRatio": 0.4,
+      "SaveLoseTeamRatio": 0.6,
+      "NPCID": 4178448,
+      "PracticeMax": 3,
+      "RetryMax": 1,
+      "BotRate": 0.5,
+      "PlayerMatchAt": 10
+    },
+    {
+      "ID": 7,
+      "PitDisplayName": "丰收擂台",
+      "StdlvID": 37004,
+      "RewardOnWin": {
+        "1": 1,
+        "2": 186,
+        "3": 15,
+        "4": 1,
+        "5": 187,
+        "6": 8
+      },
+      "RewardOnLose": {
+        "$arrayRef": 75024
+      },
+      "TicketCost": 1,
+      "PitIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_4.png",
+      "PitCondition": "ed.ConditionX.HeroCountByQuality(14)>=5",
+      "PitConditionDes": "至少有5位英雄到达冠阶",
+      "RecoverRuleIDs": {
+        "$arrayRef": 75026
+      },
+      "RecoverRuleDesc": "战斗胜利时，如存活的英雄数不少于2位，则额外获得金秋南瓜币*2\n如迅速解决战斗，战斗胜利时剩余时间不少于80秒，则额外获得金秋南瓜币*3\n连胜场数超过3/5/8场时，战斗胜利额外获得1/2/3金秋南瓜币",
+      "SaveWinTeamRatio": 1,
+      "SaveLoseTeamRatio": 0.3,
+      "NPCID": 4178447,
+      "PracticeMax": 3,
+      "RetryMax": 1,
+      "BotRate": 0.3,
+      "PlayerMatchAt": 10
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "table": "GuildWarSkirmish",
+    "header_table": "GuildWarSkirmishHeaderTable",
+    "schema_size": 25,
+    "row_count": 1,
+    "array_fields": [
+      "GeneralWinReward",
+      "HurtSelfBuff",
+      "NemesisWinReward",
+      "ToGuildCurrencyRatio"
+    ],
+    "unresolved_array_refs": 4
+  },
+  "default": {
+    "SkirmishID": "null",
+    "TipRuleID": null,
+    "SkirmishIntroText": {},
+    "BattleTitle": null,
+    "HeaderText": null,
+    "AutoRefreshSec": 0,
+    "NemesisTip": null,
+    "RefreshRandomRange": 0,
+    "ChangeNemesisRoundLimit": 0,
+    "DmgPerSkirmish": 0,
+    "DmgTakenLimitPerRound": 0,
+    "BaseWinReward": {},
+    "BaseLoseReward": {},
+    "GeneralWinReward": {},
+    "NemesisWinReward": {},
+    "BaseBotWinReward": {},
+    "BaseBotLoseReward": {},
+    "GeneralBotWinReward": {},
+    "ToGuildCurrencyRatio": {},
+    "BattleAttemptLimit": 0,
+    "BattleGroupID": 0,
+    "NormalOppoSlotCnt": 0,
+    "NemesisOppoSlotCnt": 0,
+    "HurtSelfBuff": {},
+    "DefeatLimitPerTeam": 0
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "SkirmishID": 1,
+      "TipRuleID": "GuildWarSkirmish",
+      "SkirmishIntroText": {
+        "1": "<b>在公会突袭玩法中，本轮派遣的每支编队会获得<color=#5C9874>3</color>次挑战机会，可对上一轮其他玩家派遣的队伍进行挑战，每场首轮为发育战，不会刷新其他玩家</b>",
+        "2": "会长/副会长设置宿敌公会后，会出现宿敌对手，战胜后可以获得<color=#5C9874>额外奖励</color>",
+        "3": "每次挑战胜利可使目标玩家在地块争夺攻城阶段开始时随机队伍耐力减少1(有上限)，还会获得<sprite name=icon_guildwar_1>${1}和<sprite name=currency_guildwar_2>${2}",
+        "4": "挑战失败时虽然会<color=#C63F00>扣除挑战次数</color>，但也能使目标队伍进入受伤状态，大幅削弱实力，抓住机会对强力敌手持续进攻吧！"
+      },
+      "BattleTitle": "突袭战",
+      "HeaderText": "突袭胜利可获得【突袭币】，同时为公会贡献等量【攻城币】，会长/副会长可用于购买【攻城魔法】",
+      "AutoRefreshSec": 7200,
+      "NemesisTip": "每轮可选择某一敌方公会设置为宿敌，设置后本轮不可更改，击败公会宿敌成员队伍会使其随机队伍耐力在攻城阶段-1(有上限)，并给予额外的突袭币和攻城币奖励",
+      "RefreshRandomRange": 10,
+      "ChangeNemesisRoundLimit": 1,
+      "DmgPerSkirmish": 1,
+      "DmgTakenLimitPerRound": 10,
+      "BaseWinReward": {
+        "1": 1002,
+        "2": 110003005,
+        "3": 80
+      },
+      "BaseLoseReward": {
+        "1": 1002,
+        "2": 110003005,
+        "3": 40
+      },
+      "GeneralWinReward": {
+        "$arrayRef": 76099
+      },
+      "NemesisWinReward": {
+        "$arrayRef": 76099
+      },
+      "BaseBotWinReward": {
+        "1": 1002,
+        "2": 110003005,
+        "3": 60
+      },
+      "BaseBotLoseReward": {
+        "1": 1002,
+        "2": 110003005,
+        "3": 30
+      },
+      "GeneralBotWinReward": {
+        "1": 1002,
+        "2": 110003005,
+        "3": 10
+      },
+      "ToGuildCurrencyRatio": {
+        "$arrayRef": 58050
+      },
+      "BattleAttemptLimit": 3,
+      "BattleGroupID": 506101,
+      "NormalOppoSlotCnt": 2,
+      "NemesisOppoSlotCnt": 2,
+      "HurtSelfBuff": {
+        "$arrayRef": 76100
+      },
+      "DefeatLimitPerTeam": 10
+    }
+  ]
+}

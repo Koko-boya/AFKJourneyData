@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "table": "DisasterPeriodDisplay",
+    "header_table": "DisasterPeriodDisplayHeaderTable",
+    "schema_size": 6,
+    "row_count": 3,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "PortalTimeTip": null,
+    "PortalMessage": null,
+    "PeriodTip": null,
+    "TimeTip": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Name": "小队轮替",
+      "PortalTimeTip": "${1}后结算",
+      "PortalMessage": "${1}/${2}",
+      "PeriodTip": "${1}后小队轮替结束",
+      "TimeTip": "${1}后结算"
+    },
+    {
+      "ID": 2,
+      "Name": "全线总攻",
+      "PortalTimeTip": "${1}后结算",
+      "PortalMessage": "全线总攻",
+      "PeriodTip": "${1}后全线总攻结束",
+      "TimeTip": "${1}后结算"
+    },
+    {
+      "ID": 3,
+      "Name": "征伐授奖",
+      "PortalTimeTip": "${1}后结束领奖",
+      "PortalMessage": "前往领奖<key:dialog1>",
+      "PeriodTip": "${1}后结束领奖",
+      "TimeTip": null
+    }
+  ]
+}

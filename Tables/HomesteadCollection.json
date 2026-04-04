@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "table": "HomesteadCollection",
+    "header_table": "HomesteadCollectionHeaderTable",
+    "schema_size": 12,
+    "row_count": 3,
+    "array_fields": [
+      "EntityWeight",
+      "SingleClusterCount"
+    ],
+    "unresolved_array_refs": 6
+  },
+  "default": {
+    "ID": "null",
+    "HomesteadID": 0,
+    "MainBuildLv": 0,
+    "EntityID": {},
+    "EntityWeight": {},
+    "UpperLimitRat": 0,
+    "DifferenceRat": 0,
+    "InflationCoeff": 0,
+    "InflationLimit": 0,
+    "MinDiffNum": 0,
+    "SingleClusterCount": {},
+    "DefID": 0
+  },
+  "row_keys": [
+    2001,
+    2002,
+    2003
+  ],
+  "rows": [
+    {
+      "ID": 2001,
+      "HomesteadID": 2,
+      "MainBuildLv": 4,
+      "EntityID": {
+        "1": 30001,
+        "2": 30002,
+        "3": 30003,
+        "4": 30004
+      },
+      "EntityWeight": {
+        "$arrayRef": 58049
+      },
+      "UpperLimitRat": 20,
+      "DifferenceRat": 50,
+      "InflationCoeff": 10,
+      "InflationLimit": 100,
+      "MinDiffNum": 15,
+      "SingleClusterCount": {
+        "$arrayRef": 55545
+      },
+      "DefID": 394
+    },
+    {
+      "ID": 2002,
+      "HomesteadID": 2,
+      "MainBuildLv": 4,
+      "EntityID": {
+        "1": 30005,
+        "2": 30006,
+        "3": 30007
+      },
+      "EntityWeight": {
+        "$arrayRef": 156
+      },
+      "UpperLimitRat": 20,
+      "DifferenceRat": 50,
+      "InflationCoeff": 10,
+      "InflationLimit": 100,
+      "MinDiffNum": 6,
+      "SingleClusterCount": {
+        "$arrayRef": 58050
+      },
+      "DefID": 394
+    },
+    {
+      "ID": 2003,
+      "HomesteadID": 2,
+      "MainBuildLv": 4,
+      "EntityID": {
+        "1": 30008
+      },
+      "EntityWeight": {
+        "$arrayRef": 45
+      },
+      "UpperLimitRat": 20,
+      "DifferenceRat": 50,
+      "InflationCoeff": 10,
+      "InflationLimit": 100,
+      "MinDiffNum": 3,
+      "SingleClusterCount": {
+        "$arrayRef": 58050
+      },
+      "DefID": 394
+    }
+  ]
+}

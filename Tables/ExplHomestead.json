@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "table": "ExplHomestead",
+    "header_table": "ExplHomesteadHeaderTable",
+    "schema_size": 2,
+    "row_count": 2,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ExplLineID": "null",
+    "Condition": "true"
+  },
+  "row_keys": [
+    16010231,
+    16010101
+  ],
+  "rows": [
+    {
+      "ExplLineID": 16010231,
+      "Condition": "not ed.ConditionX.IsExplStepFinished(16010231,4,3)"
+    },
+    {
+      "ExplLineID": 16010101,
+      "Condition": "not ed.ConditionX.IsExplStepFinished(16010101,1,5)"
+    }
+  ]
+}

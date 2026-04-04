@@ -1,0 +1,157 @@
+{
+  "_meta": {
+    "table": "Feed",
+    "header_table": "FeedHeaderTable",
+    "schema_size": 5,
+    "row_count": 14,
+    "array_fields": [
+      "Params"
+    ],
+    "unresolved_array_refs": 11
+  },
+  "default": {
+    "ID": "null",
+    "Type": null,
+    "Condition": "true",
+    "Text": null,
+    "Params": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Type": 1,
+      "Condition": "ed.ConditionX.Param(\"HeroQuality\")>=15",
+      "Text": "英雄之证！<style=highlight><u><player></u></style>成功将<color=#E89425>${1}</color>升至<color=#E89425>${2}</color>！",
+      "Params": {
+        "$arrayRef": 440
+      }
+    },
+    {
+      "ID": 2,
+      "Type": 10,
+      "Condition": "true",
+      "Text": "英雄之证！<style=highlight><u><player></u></style>成功将<color=#E89425>${1}</color>解锁至<color=#E89425>冠翼</color>！",
+      "Params": {
+        "$arrayRef": 45
+      }
+    },
+    {
+      "ID": 3,
+      "Type": 2,
+      "Condition": "ed.ConditionX.Param(\"HeroExclusive\")==20 or ed.ConditionX.Param(\"HeroExclusive\")==25",
+      "Text": "突破极限！<style=highlight><u><player></u></style>成功将<color=#E89425>${1}</color>专属装备升至<color=#E89425>${2}</color>！",
+      "Params": {
+        "$arrayRef": 20
+      }
+    },
+    {
+      "ID": 5,
+      "Type": 3,
+      "Condition": "ed.ConditionX.Param(\"TavernLuckyCount\")>=2 and ((ed.ConditionX.Param(\"TavernPoolType\")==1 or ed.ConditionX.Param(\"TavernPoolType\")==2) or (ed.ConditionX.Param(\"TavernPoolType\")==3 and ed.ConditionX.Param(\"TavernPoolUpRarity\")==1) or (ed.ConditionX.Param(\"TavernPoolType\")==5 and ed.ConditionX.Param(\"TavernPoolUpRarity\")==1))",
+      "Text": "耀眼强光！<style=highlight><u><player></u></style>在<color=#E89425>${1}</color>的十连招募中获得<color=#E89425>${2}</color>个史诗英雄！",
+      "Params": {
+        "$arrayRef": 71658
+      }
+    },
+    {
+      "ID": 6,
+      "Type": 3,
+      "Condition": "ed.ConditionX.Param(\"TavernLuckyCount\")>=2 and (ed.ConditionX.Param(\"TavernPoolType\")==3 and ed.ConditionX.Param(\"TavernPoolUpRarity\")==2 or ed.ConditionX.Param(\"TavernPoolType\")==5 and ed.ConditionX.Param(\"TavernPoolUpRarity\")==2)",
+      "Text": "耀眼强光！<style=highlight><u><player></u></style>在<color=#E89425>${1}</color>的十连招募中获得<color=#E89425>${2}</color>个稀有英雄*8！",
+      "Params": {
+        "$arrayRef": 71658
+      }
+    },
+    {
+      "ID": 7,
+      "Type": 3,
+      "Condition": "ed.ConditionX.Param(\"TavernLuckyCount\")>=2 and ed.ConditionX.Param(\"TavernPoolType\")==4",
+      "Text": "耀眼强光！<style=highlight><u><player></u></style>在<color=#E89425>${1}</color>的十连显影中获得<color=#E89425>${2}</color>个金玫瑰高定外观部件！",
+      "Params": {
+        "$arrayRef": 71658
+      }
+    },
+    {
+      "ID": 8,
+      "Type": 4,
+      "Condition": "ed.ConditionX.Param(\"DreamBossBestRank\")<=3 and ed.ConditionX.Param(\"DreamBossBestRank\")<ed.ConditionX.LastParam(\"DreamBossBestRank\") and ed.ConditionX.Param(\"WzSvrType\")==1",
+      "Text": "幻梦主宰！<style=highlight><u><player></u></style>在<color=#E89425>迷梦之域</color>中本服榜获得<color=#E89425>第${1}名</color>！",
+      "Params": {
+        "$arrayRef": 49
+      }
+    },
+    {
+      "ID": 9,
+      "Type": 4,
+      "Condition": "ed.ConditionX.Param(\"DreamBossBestRank\")<=3 and ed.ConditionX.Param(\"DreamBossBestRank\")<ed.ConditionX.LastParam(\"DreamBossBestRank\") and ed.ConditionX.Param(\"WzSvrType\")==2",
+      "Text": "幻梦主宰！<style=highlight><u><player></u></style>在<color=#E89425>迷梦之域</color>中战区榜获得<color=#E89425>第${1}名</color>！",
+      "Params": {
+        "$arrayRef": 49
+      }
+    },
+    {
+      "ID": 10,
+      "Type": 5,
+      "Condition": "ed.ConditionX.Param(\"WzArenaBestRank\")<=5 and ed.ConditionX.Param(\"WzArenaBestRank\")<ed.ConditionX.LastParam(\"WzArenaBestRank\")",
+      "Text": "巅峰行者！<style=highlight><u><player></u></style>在<color=#E89425>巅峰竞技场</color>中获得<color=#E89425>第${1}名</color>！",
+      "Params": {
+        "$arrayRef": 181
+      }
+    },
+    {
+      "ID": 11,
+      "Type": 6,
+      "Condition": "ed.ConditionX.Param(\"LocalArenaTopRank\")<=5 and ed.ConditionX.Param(\"LocalArenaTopRank\")<ed.ConditionX.LastParam(\"LocalArenaTopRank\")",
+      "Text": "新晋黑马！<style=highlight><u><player></u></style>在<color=#E89425>竞技场殿堂排名</color>中获得<color=#E89425>第${1}名</color>！",
+      "Params": {
+        "$arrayRef": 60
+      }
+    },
+    {
+      "ID": 12,
+      "Type": 7,
+      "Condition": "false",
+      "Text": "秘钥永动机！<style=highlight><u><player></u></style>在<color=#E89425>翻翻乐</color>中馈赠均达到<color=#E89425>满级</color>！",
+      "Params": {}
+    },
+    {
+      "ID": 13,
+      "Type": 8,
+      "Condition": "true",
+      "Text": "卓越贡献！<style=highlight><u><player></u></style>完成本周所有公会任务！",
+      "Params": {}
+    },
+    {
+      "ID": 14,
+      "Type": 9,
+      "Condition": "ed.ConditionX.Param(\"GuildBossDamageRank\")==1 and ed.ConditionX.Param(\"GuildBossDamageRank\")<ed.ConditionX.LastParam(\"GuildBossDamageRank\")",
+      "Text": "狩魔高手！<style=highlight><u><player></u></style>在<color=#E89425>公会狩魔</color>中获得伤害排行<color=#E89425>第${1}名</color>！",
+      "Params": {
+        "$arrayRef": 62
+      }
+    },
+    {
+      "ID": 15,
+      "Type": 11,
+      "Condition": "true",
+      "Text": "天选之子！<style=highlight><u><player></u></style>运气爆棚，获得了超稀有<color=#E89425>夜辉月灵兽装饰</color>！",
+      "Params": {}
+    }
+  ]
+}

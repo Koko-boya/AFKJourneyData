@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "table": "Homestead",
+    "header_table": "HomesteadHeaderTable",
+    "schema_size": 15,
+    "row_count": 3,
+    "array_fields": [
+      "InitUnlockRegionID",
+      "UnlockQuestGroups"
+    ],
+    "unresolved_array_refs": 3
+  },
+  "default": {
+    "ID": "null",
+    "MapID": 0,
+    "UnlockCondition": "true",
+    "SystemObjID": 0,
+    "InitUnlockRegionID": {},
+    "MapWidth": 0,
+    "MapHeight": 0,
+    "MainBuildingID": 0,
+    "HomesteadType": null,
+    "MainQuestGroup": 0,
+    "BranchQuestGroup": 0,
+    "ColCycleTime": 0,
+    "ColCycleUpperLimitTime": 0,
+    "UnlockDarkInvasionLv": 0,
+    "UnlockQuestGroups": {}
+  },
+  "row_keys": [
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 2,
+      "MapID": 3003,
+      "UnlockCondition": "true",
+      "SystemObjID": 2,
+      "InitUnlockRegionID": {
+        "1": 1,
+        "2": 255
+      },
+      "MapWidth": 300,
+      "MapHeight": 300,
+      "MainBuildingID": 1,
+      "HomesteadType": 1,
+      "MainQuestGroup": 9002,
+      "BranchQuestGroup": 9003,
+      "ColCycleTime": 43200,
+      "ColCycleUpperLimitTime": 86400,
+      "UnlockDarkInvasionLv": 4,
+      "UnlockQuestGroups": {
+        "$arrayRef": 76313
+      }
+    },
+    {
+      "ID": 3,
+      "MapID": 3004,
+      "UnlockCondition": "true",
+      "SystemObjID": 5,
+      "InitUnlockRegionID": {
+        "$arrayRef": 45
+      },
+      "MapWidth": 100,
+      "MapHeight": 100,
+      "MainBuildingID": 0,
+      "HomesteadType": 2,
+      "MainQuestGroup": 0,
+      "BranchQuestGroup": 0,
+      "ColCycleTime": 43200,
+      "ColCycleUpperLimitTime": 86400,
+      "UnlockDarkInvasionLv": 3,
+      "UnlockQuestGroups": {}
+    },
+    {
+      "ID": 4,
+      "MapID": 3005,
+      "UnlockCondition": "true",
+      "SystemObjID": 4,
+      "InitUnlockRegionID": {
+        "$arrayRef": 45
+      },
+      "MapWidth": 40,
+      "MapHeight": 40,
+      "MainBuildingID": 0,
+      "HomesteadType": 2,
+      "MainQuestGroup": 0,
+      "BranchQuestGroup": 0,
+      "ColCycleTime": 43200,
+      "ColCycleUpperLimitTime": 86400,
+      "UnlockDarkInvasionLv": 3,
+      "UnlockQuestGroups": {}
+    }
+  ]
+}

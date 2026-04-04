@@ -1,0 +1,776 @@
+{
+  "_meta": {
+    "table": "FightElementObjectTrigger",
+    "header_table": "FightElementObjectTriggerHeaderTable",
+    "schema_size": 8,
+    "row_count": 58,
+    "array_fields": [
+      "TriggerParam"
+    ],
+    "unresolved_array_refs": 55
+  },
+  "default": {
+    "TriggerID": "null",
+    "TriggerType": null,
+    "CDPath": null,
+    "IsClockRun": false,
+    "TriggerParam": {},
+    "TriggerCompare": null,
+    "TriggerParamS": null,
+    "NeedCheckAnyway": false
+  },
+  "row_keys": [
+    9101,
+    9201,
+    9999,
+    1,
+    2,
+    3,
+    4,
+    60100,
+    60101,
+    60102,
+    60110,
+    60111,
+    60112,
+    20100,
+    20101,
+    20102,
+    20300,
+    20301,
+    20302,
+    20601,
+    20602,
+    20603,
+    20604,
+    20605,
+    20700,
+    20701,
+    20702,
+    20800,
+    20801,
+    20802,
+    20900,
+    20901,
+    20902,
+    21105,
+    30101,
+    30201,
+    30301,
+    30401,
+    30501,
+    30601,
+    30901,
+    31001,
+    31101,
+    31201,
+    31301,
+    31401,
+    31501,
+    31601,
+    31701,
+    31801,
+    31901,
+    32001,
+    32101,
+    32201,
+    32301,
+    32401,
+    32501,
+    32601
+  ],
+  "rows": [
+    {
+      "TriggerID": 9101,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 48
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 9201,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 9999,
+      "TriggerType": "WaitEnemyDeadInSlot",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 1,
+      "TriggerType": "WaitTouch",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": "Click",
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 2,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 3,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 69025
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 4,
+      "TriggerType": "IsEmpty",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 60100,
+      "TriggerType": "InRangeTimer",
+      "CDPath": "ui/prefabs/battle/pbui_battle_minecd.prefab",
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 75011
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 60101,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 60102,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 60110,
+      "TriggerType": "InRangeTimer",
+      "CDPath": "ui/prefabs/battle/pbui_battle_minecd.prefab",
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 75011
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 60111,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 60112,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20100,
+      "TriggerType": "ManualCastSkill",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20101,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20102,
+      "TriggerType": "WaitTime",
+      "CDPath": "ui/prefabs/battle/pbui_battle_cd.prefab",
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20300,
+      "TriggerType": "ManualCastSkill",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20301,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20302,
+      "TriggerType": "WaitTime",
+      "CDPath": "ui/prefabs/battle/pbui_battle_cd.prefab",
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20601,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20602,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 69025
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20603,
+      "TriggerType": "WaitTime",
+      "CDPath": "ui/prefabs/battle/pbui_battle_cd.prefab",
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20604,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20605,
+      "TriggerType": "ManualCastSkill",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20700,
+      "TriggerType": "ManualCastSkill",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20701,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20702,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20800,
+      "TriggerType": "ManualCastSkill",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20801,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "1": 0.54
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20802,
+      "TriggerType": "CheckHp",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20900,
+      "TriggerType": "ManualCastSkill",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": true
+    },
+    {
+      "TriggerID": 20901,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 20902,
+      "TriggerType": "WaitTime",
+      "CDPath": "ui/prefabs/battle/pbui_battle_cd.prefab",
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 44
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 21105,
+      "TriggerType": "ManualCastSkill",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 183
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 30101,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 30201,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 30301,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 30401,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 30501,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 30601,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 30901,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31001,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31101,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31201,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31301,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31401,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31501,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31601,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31701,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31801,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 31901,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 32001,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 32101,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 32201,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 32301,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 32401,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 32501,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    },
+    {
+      "TriggerID": 32601,
+      "TriggerType": "WaitTime",
+      "CDPath": null,
+      "IsClockRun": false,
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null,
+      "NeedCheckAnyway": false
+    }
+  ]
+}

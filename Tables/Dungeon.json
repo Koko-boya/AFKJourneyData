@@ -1,0 +1,1704 @@
+{
+  "_meta": {
+    "table": "Dungeon",
+    "header_table": "DungeonHeaderTable",
+    "schema_size": 39,
+    "row_count": 24,
+    "array_fields": [
+      "BattleRecoverStamina",
+      "ControlObjs",
+      "DisaplayConditionDesc",
+      "DisplayCondition",
+      "DungeonMode",
+      "DungeonModeDes",
+      "DungeonModeRes",
+      "InitItem",
+      "MoveCutStamina",
+      "NpcTeamList",
+      "RecommendCamp",
+      "ResourceBarAssets"
+    ],
+    "unresolved_array_refs": 155
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "Group": 0,
+    "DisplayOrder": 0,
+    "MapsID": {},
+    "EnterCondition": "true",
+    "DisplayCondition": {},
+    "DisaplayConditionDesc": {},
+    "InitialObj": 0,
+    "ControlObjs": {},
+    "TargetID": {},
+    "InitTeamStamina": 0,
+    "PotionAddStamina": 0,
+    "RecommendTeamStrength": 0,
+    "StdLv": 0,
+    "TeamNum": 0,
+    "FormationBattleGroupID": 0,
+    "RecommendCamp": {},
+    "EntrancePic": null,
+    "BgPic": null,
+    "ResourceBarAssets": {},
+    "IsUseNpcTeam": false,
+    "CanUseNonNpcUnit": false,
+    "NpcTeamList": {},
+    "QuestGroupID": 0,
+    "DungeonMode": {},
+    "DungeonModeDes": {},
+    "DungeonModeRes": {},
+    "MoveCutStamina": {},
+    "BattleRecoverStamina": {},
+    "CanUseStamina": false,
+    "SpecialRuleDesc": null,
+    "InitItem": {},
+    "LeaderSlot": 0,
+    "LineID": {},
+    "CanUseTransform": false,
+    "RangeRadius": 0,
+    "NeedMinimapItem": 0,
+    "RetainedFinalObjectIDs": {}
+  },
+  "row_keys": [
+    10301,
+    10302,
+    10303,
+    10304,
+    10305,
+    10403,
+    10401,
+    10405,
+    10406,
+    10402,
+    10404,
+    10502,
+    10504,
+    10503,
+    10506,
+    10501,
+    10505,
+    10507,
+    10508,
+    10601,
+    10602,
+    10603,
+    10604,
+    10605
+  ],
+  "rows": [
+    {
+      "ID": 10301,
+      "Name": "探险初训-1",
+      "Group": 1,
+      "DisplayOrder": 1,
+      "MapsID": {
+        "1": 7001
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 700100074,
+      "ControlObjs": {
+        "$arrayRef": 72789
+      },
+      "TargetID": {
+        "1": 700101,
+        "2": 700102,
+        "3": 700103,
+        "4": 700104
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72811
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_1_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_1.png",
+      "ResourceBarAssets": {},
+      "IsUseNpcTeam": true,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {
+        "$arrayRef": 72323
+      },
+      "QuestGroupID": 1073,
+      "DungeonMode": {
+        "$arrayRef": 72819
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72825
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72830
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10302,
+      "Name": "探险初训-2",
+      "Group": 1,
+      "DisplayOrder": 2,
+      "MapsID": {
+        "1": 7002
+      },
+      "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700101)",
+      "DisplayCondition": {
+        "1": "ed.ConditionX.IsDungeonTargetFinished(700101)"
+      },
+      "DisaplayConditionDesc": {
+        "1": "完成「探险初训-1」主要目标"
+      },
+      "InitialObj": 700200065,
+      "ControlObjs": {
+        "$arrayRef": 72790
+      },
+      "TargetID": {
+        "1": 700201,
+        "2": 700202,
+        "3": 700203,
+        "4": 700204
+      },
+      "InitTeamStamina": 55,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72811
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_2_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_2.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": true,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {
+        "$arrayRef": 55008
+      },
+      "QuestGroupID": 1073,
+      "DungeonMode": {
+        "$arrayRef": 72819
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72825
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72830
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10303,
+      "Name": "密林探索",
+      "Group": 2,
+      "DisplayOrder": 5,
+      "MapsID": {
+        "1": 7003
+      },
+      "EnterCondition": "false",
+      "DisplayCondition": {
+        "$arrayRef": 72786
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 700300089,
+      "ControlObjs": {
+        "$arrayRef": 72791
+      },
+      "TargetID": {
+        "1": 700301,
+        "2": 700302,
+        "3": 700303,
+        "4": 700304
+      },
+      "InitTeamStamina": 40,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "1": "Human",
+        "2": "1",
+        "3": "Undead",
+        "4": "1"
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_3_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_3.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1073,
+      "DungeonMode": {
+        "$arrayRef": 72820
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72826
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72831
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10304,
+      "Name": "奥术遗迹-1",
+      "Group": 2,
+      "DisplayOrder": 3,
+      "MapsID": {
+        "1": 7004
+      },
+      "EnterCondition": "false",
+      "DisplayCondition": {
+        "$arrayRef": 72786
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 700400095,
+      "ControlObjs": {
+        "$arrayRef": 72792
+      },
+      "TargetID": {
+        "1": 700401,
+        "2": 700402,
+        "3": 700403,
+        "4": 700404
+      },
+      "InitTeamStamina": 60,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72812
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_4_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_4.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1073,
+      "DungeonMode": {
+        "$arrayRef": 72821
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72827
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72832
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10305,
+      "Name": "奥术遗迹-2",
+      "Group": 2,
+      "DisplayOrder": 4,
+      "MapsID": {
+        "1": 7005
+      },
+      "EnterCondition": "false",
+      "DisplayCondition": {
+        "$arrayRef": 72786
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 700500002,
+      "ControlObjs": {
+        "$arrayRef": 72793
+      },
+      "TargetID": {
+        "1": 700501,
+        "2": 700502,
+        "3": 700503,
+        "4": 700504
+      },
+      "InitTeamStamina": 60,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72813
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_5_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_5.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1073,
+      "DungeonMode": {
+        "$arrayRef": 72821
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72827
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72832
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10403,
+      "Name": "星象寻踪",
+      "Group": 3,
+      "DisplayOrder": 6,
+      "MapsID": {
+        "1": 7007
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 700700003,
+      "ControlObjs": {
+        "$arrayRef": 72794
+      },
+      "TargetID": {
+        "1": 700701,
+        "2": 700702,
+        "3": 700703,
+        "4": 700704
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72813
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_8_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_8.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1094,
+      "DungeonMode": {
+        "$arrayRef": 72820
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72826
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72831
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10401,
+      "Name": "光径迷域-1",
+      "Group": 3,
+      "DisplayOrder": 7,
+      "MapsID": {
+        "1": 7008
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 700800150,
+      "ControlObjs": {
+        "$arrayRef": 72795
+      },
+      "TargetID": {
+        "1": 700801,
+        "2": 700802,
+        "3": 700803,
+        "4": 700804
+      },
+      "InitTeamStamina": 30,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "1": "Elf",
+        "2": "1",
+        "3": "Undead",
+        "4": "1"
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_6_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_6.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1094,
+      "DungeonMode": {
+        "$arrayRef": 72822
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72828
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72833
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10405,
+      "Name": "光径迷域-2",
+      "Group": 3,
+      "DisplayOrder": 8,
+      "MapsID": {
+        "1": 7012
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 701200001,
+      "ControlObjs": {
+        "$arrayRef": 72796
+      },
+      "TargetID": {
+        "1": 701201,
+        "2": 701202,
+        "3": 701203,
+        "4": 701204
+      },
+      "InitTeamStamina": 100,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72814
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_10_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_10.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1094,
+      "DungeonMode": {
+        "$arrayRef": 72822
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72828
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72833
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10406,
+      "Name": "晶矿遗迹",
+      "Group": 3,
+      "DisplayOrder": 9,
+      "MapsID": {
+        "1": 7010
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 701000001,
+      "ControlObjs": {
+        "$arrayRef": 72797
+      },
+      "TargetID": {
+        "1": 701001,
+        "2": 701002,
+        "3": 701003,
+        "4": 701004
+      },
+      "InitTeamStamina": 100,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "1": "Elf",
+        "2": "1",
+        "3": "GodDevil",
+        "4": "1"
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_11_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_11.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1094,
+      "DungeonMode": {
+        "$arrayRef": 72821
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72827
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72832
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10402,
+      "Name": "矿洞探索",
+      "Group": 3,
+      "DisplayOrder": 10,
+      "MapsID": {
+        "1": 7006
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 700600147,
+      "ControlObjs": {
+        "$arrayRef": 72798
+      },
+      "TargetID": {
+        "1": 700601,
+        "2": 700602,
+        "3": 700603,
+        "4": 700604
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72811
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_7_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_7.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1094,
+      "DungeonMode": {
+        "$arrayRef": 72820
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72826
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72831
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10404,
+      "Name": "暗祭追猎",
+      "Group": 3,
+      "DisplayOrder": 11,
+      "MapsID": {
+        "1": 7011
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 701100001,
+      "ControlObjs": {
+        "$arrayRef": 72799
+      },
+      "TargetID": {
+        "1": 701101,
+        "2": 701102,
+        "3": 701103,
+        "4": 701104
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72815
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_9_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_9.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1094,
+      "DungeonMode": {
+        "$arrayRef": 72823
+      },
+      "DungeonModeDes": {
+        "1": "关卡中存在虚空会战战斗"
+      },
+      "DungeonModeRes": {
+        "1": "ui/sprites/Dungeon/spui_dungeon_type6.png"
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10502,
+      "Name": "探秘之旅",
+      "Group": 4,
+      "DisplayOrder": 12,
+      "MapsID": {
+        "1": 7014
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {
+        "1": "活动开启第3天",
+        "2": "完成「探险初训-2」主要目标"
+      },
+      "InitialObj": 701400001,
+      "ControlObjs": {
+        "$arrayRef": 72800
+      },
+      "TargetID": {
+        "1": 701401,
+        "2": 701402,
+        "3": 701403,
+        "4": 701404
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72811
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_13_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_13.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72820
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72826
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72831
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10504,
+      "Name": "星钥遗迹-1",
+      "Group": 4,
+      "DisplayOrder": 13,
+      "MapsID": {
+        "1": 7016
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {
+        "1": "活动开启第4天",
+        "2": "完成「探险初训-2」主要目标"
+      },
+      "InitialObj": 701600073,
+      "ControlObjs": {
+        "$arrayRef": 72801
+      },
+      "TargetID": {
+        "1": 701601,
+        "2": 701602,
+        "3": 701603,
+        "4": 701604
+      },
+      "InitTeamStamina": 80,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72812
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_15_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_15.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72821
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72827
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72832
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10503,
+      "Name": "魔偶轮战",
+      "Group": 4,
+      "DisplayOrder": 14,
+      "MapsID": {
+        "1": 7015
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {
+        "1": "活动开启第5天",
+        "2": "完成「探险初训-2」主要目标"
+      },
+      "InitialObj": 701500003,
+      "ControlObjs": {
+        "1": 701500004
+      },
+      "TargetID": {
+        "1": 701501,
+        "2": 701502,
+        "3": 701503,
+        "4": 701504
+      },
+      "InitTeamStamina": 90,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "1": "GodDevil",
+        "2": "1",
+        "3": "Elf",
+        "4": "1"
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_14_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_14.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72824
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72829
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72834
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10506,
+      "Name": "星钥遗迹-2",
+      "Group": 4,
+      "DisplayOrder": 15,
+      "MapsID": {
+        "1": 7018
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {
+        "1": "活动开启第9天",
+        "2": "完成「探险初训-2」主要目标"
+      },
+      "InitialObj": 701800008,
+      "ControlObjs": {
+        "$arrayRef": 72802
+      },
+      "TargetID": {
+        "1": 701801,
+        "2": 701802,
+        "3": 701803,
+        "4": 701804
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72815
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_17_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_17.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72821
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72827
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72832
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10501,
+      "Name": "时空镜域",
+      "Group": 4,
+      "DisplayOrder": 16,
+      "MapsID": {
+        "1": 7021,
+        "2": 7013
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {
+        "1": "活动开启第10天",
+        "2": "完成「探险初训-2」主要目标"
+      },
+      "InitialObj": 702100001,
+      "ControlObjs": {
+        "1": 702100002,
+        "2": 701300002
+      },
+      "TargetID": {
+        "1": 701301,
+        "2": 701302,
+        "3": 701303,
+        "4": 701304
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72813
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_12_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_12.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72822
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72828
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72833
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10505,
+      "Name": "紫雾花园",
+      "Group": 4,
+      "DisplayOrder": 17,
+      "MapsID": {
+        "1": 7017
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {
+        "1": "活动开启第11天",
+        "2": "完成「探险初训-2」主要目标"
+      },
+      "InitialObj": 701700010,
+      "ControlObjs": {
+        "$arrayRef": 72803
+      },
+      "TargetID": {
+        "1": 701701,
+        "2": 701702,
+        "3": 701703,
+        "4": 701704
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "1": "GodDevil",
+        "2": "1",
+        "3": "Undead",
+        "4": "1"
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_16_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_16.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72824
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72829
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72834
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10507,
+      "Name": "膳食挑战-1",
+      "Group": 5,
+      "DisplayOrder": 18,
+      "MapsID": {
+        "1": 7019
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 701900001,
+      "ControlObjs": {
+        "$arrayRef": 72804
+      },
+      "TargetID": {
+        "1": 701901,
+        "2": 701902,
+        "3": 701903,
+        "4": 701904
+      },
+      "InitTeamStamina": 105,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72811
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_18_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_18.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": true,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {
+        "1": 301,
+        "2": 302
+      },
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72819
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72825
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72830
+      },
+      "MoveCutStamina": {
+        "$arrayRef": 72835
+      },
+      "BattleRecoverStamina": {
+        "$arrayRef": 72836
+      },
+      "CanUseStamina": false,
+      "SpecialRuleDesc": "1、探险中移动会消耗英雄小队的体力。\n2、击败怪物后自动获得对应种类的食材，英雄小队会立即自动食用并恢复体力。\n3、系统自动记录最近食用的3种食材，根据食材重复程度给予不同恢复效果。\n4、该探险无法使用体力药水。",
+      "InitItem": {
+        "$arrayRef": 72837
+      },
+      "LeaderSlot": 1,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10508,
+      "Name": "膳食挑战-2",
+      "Group": 6,
+      "DisplayOrder": 19,
+      "MapsID": {
+        "1": 7020
+      },
+      "EnterCondition": "true",
+      "DisplayCondition": {
+        "$arrayRef": 72785
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 702000001,
+      "ControlObjs": {
+        "$arrayRef": 72805
+      },
+      "TargetID": {
+        "1": 702001,
+        "2": 702002,
+        "3": 702003,
+        "4": 702004
+      },
+      "InitTeamStamina": 185,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72811
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_19_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_19.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1133,
+      "DungeonMode": {
+        "$arrayRef": 72822
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 72828
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 72833
+      },
+      "MoveCutStamina": {
+        "$arrayRef": 72835
+      },
+      "BattleRecoverStamina": {
+        "$arrayRef": 72836
+      },
+      "CanUseStamina": false,
+      "SpecialRuleDesc": "1、探险中移动会消耗英雄小队的体力。\n2、击败怪物后自动获得对应种类的食材，英雄小队会立即自动食用并恢复体力。\n3、系统自动记录最近食用的3种食材，根据食材重复程度给予不同恢复效果。\n4、该探险无法使用体力药水。",
+      "InitItem": {
+        "$arrayRef": 72837
+      },
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": false,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {}
+    },
+    {
+      "ID": 10601,
+      "Name": "虚空小径",
+      "Group": 7,
+      "DisplayOrder": 23,
+      "MapsID": {
+        "1": 7025
+      },
+      "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "DisplayCondition": {
+        "$arrayRef": 72787
+      },
+      "DisaplayConditionDesc": {
+        "$arrayRef": 72788
+      },
+      "InitialObj": 702500003,
+      "ControlObjs": {
+        "$arrayRef": 72806
+      },
+      "TargetID": {
+        "1": 702501
+      },
+      "InitTeamStamina": 45,
+      "PotionAddStamina": 10,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72814
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_20_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_20.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1175,
+      "DungeonMode": {
+        "1": "变形术",
+        "2": "虚空会战"
+      },
+      "DungeonModeDes": {
+        "1": "需要使用变形术来探索关卡",
+        "2": "关卡中存在虚空会战战斗"
+      },
+      "DungeonModeRes": {
+        "1": "ui/sprites/Dungeon/spui_dungeon_type9.png",
+        "2": "ui/sprites/Dungeon/spui_dungeon_type6.png"
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": true,
+      "RangeRadius": 2,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {
+        "1": 702500220,
+        "2": 702500243,
+        "3": 702500244,
+        "4": 702500245,
+        "5": 702500246,
+        "6": 702500247,
+        "7": 702500248,
+        "8": 702500249
+      }
+    },
+    {
+      "ID": 10602,
+      "Name": "无扰之地",
+      "Group": 8,
+      "DisplayOrder": 24,
+      "MapsID": {
+        "1": 7024
+      },
+      "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "DisplayCondition": {
+        "$arrayRef": 72787
+      },
+      "DisaplayConditionDesc": {
+        "$arrayRef": 72788
+      },
+      "InitialObj": 702400003,
+      "ControlObjs": {
+        "$arrayRef": 72807
+      },
+      "TargetID": {
+        "1": 702401
+      },
+      "InitTeamStamina": 85,
+      "PotionAddStamina": 10,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 1,
+      "FormationBattleGroupID": 4200002,
+      "RecommendCamp": {
+        "$arrayRef": 72816
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_21_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_21.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1175,
+      "DungeonMode": {
+        "1": "变形术",
+        "2": "地图迷雾"
+      },
+      "DungeonModeDes": {
+        "1": "需要使用变形术来探索关卡",
+        "2": "副本中需要寻找到探索地图才能开启小地图功能"
+      },
+      "DungeonModeRes": {
+        "1": "ui/sprites/Dungeon/spui_dungeon_type9.png",
+        "2": "ui/sprites/Dungeon/spui_dungeon_type10.png"
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": true,
+      "RangeRadius": 2,
+      "NeedMinimapItem": 2010,
+      "RetainedFinalObjectIDs": {
+        "1": 702400227,
+        "2": 702400234,
+        "3": 702400235,
+        "4": 702400109,
+        "5": 702400110,
+        "6": 702400115,
+        "7": 702400024,
+        "8": 702400143
+      }
+    },
+    {
+      "ID": 10603,
+      "Name": "谧林迷踪",
+      "Group": 9,
+      "DisplayOrder": 25,
+      "MapsID": {
+        "1": 7027
+      },
+      "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "DisplayCondition": {
+        "$arrayRef": 72787
+      },
+      "DisaplayConditionDesc": {
+        "$arrayRef": 72788
+      },
+      "InitialObj": 702700002,
+      "ControlObjs": {
+        "$arrayRef": 72808
+      },
+      "TargetID": {
+        "1": 702701
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 10,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72811
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_22_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_22.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1175,
+      "DungeonMode": {
+        "1": "变形术",
+        "2": "解谜"
+      },
+      "DungeonModeDes": {
+        "1": "需要使用变形术来探索关卡",
+        "2": "关卡中存在较多解谜元素"
+      },
+      "DungeonModeRes": {
+        "1": "ui/sprites/Dungeon/spui_dungeon_type9.png",
+        "2": "ui/sprites/Dungeon/spui_dungeon_type3.png"
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": true,
+      "RangeRadius": 2,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {
+        "1": 702700238,
+        "2": 702700239,
+        "3": 702700240,
+        "4": 702700241,
+        "5": 702700242,
+        "6": 702700243,
+        "7": 702700244,
+        "8": 702700333
+      }
+    },
+    {
+      "ID": 10604,
+      "Name": "月光洞窟",
+      "Group": 10,
+      "DisplayOrder": 26,
+      "MapsID": {
+        "1": 7022
+      },
+      "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "DisplayCondition": {
+        "$arrayRef": 72787
+      },
+      "DisaplayConditionDesc": {
+        "$arrayRef": 72788
+      },
+      "InitialObj": 702200005,
+      "ControlObjs": {
+        "$arrayRef": 72809
+      },
+      "TargetID": {
+        "1": 702201
+      },
+      "InitTeamStamina": 80,
+      "PotionAddStamina": 10,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 1,
+      "FormationBattleGroupID": 4200002,
+      "RecommendCamp": {
+        "$arrayRef": 72817
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_23_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_23.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1175,
+      "DungeonMode": {
+        "1": "变形术",
+        "2": "剧情",
+        "3": "地图迷雾"
+      },
+      "DungeonModeDes": {
+        "1": "需要使用变形术来探索关卡",
+        "2": "关卡中存在剧情故事",
+        "3": "副本中需要寻找到探索地图才能开启小地图功能"
+      },
+      "DungeonModeRes": {
+        "1": "ui/sprites/Dungeon/spui_dungeon_type9.png",
+        "2": "ui/sprites/Dungeon/spui_dungeon_type7.png",
+        "3": "ui/sprites/Dungeon/spui_dungeon_type10.png"
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {
+        "1": 16010602,
+        "2": 16010474,
+        "3": 16010475,
+        "4": 16010476,
+        "5": 16010477,
+        "6": 16010478
+      },
+      "CanUseTransform": true,
+      "RangeRadius": 2,
+      "NeedMinimapItem": 2010,
+      "RetainedFinalObjectIDs": {
+        "1": 702200187,
+        "2": 702200188,
+        "3": 702200339,
+        "4": 702200341,
+        "5": 702200342,
+        "6": 702200344,
+        "7": 702200345,
+        "8": 702200346
+      }
+    },
+    {
+      "ID": 10605,
+      "Name": "雾瘴迷穴",
+      "Group": 11,
+      "DisplayOrder": 27,
+      "MapsID": {
+        "1": 7023
+      },
+      "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "DisplayCondition": {
+        "$arrayRef": 72787
+      },
+      "DisaplayConditionDesc": {
+        "$arrayRef": 72788
+      },
+      "InitialObj": 702300001,
+      "ControlObjs": {
+        "$arrayRef": 72810
+      },
+      "TargetID": {
+        "1": 702301
+      },
+      "InitTeamStamina": 50,
+      "PotionAddStamina": 10,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 2,
+      "FormationBattleGroupID": 4200003,
+      "RecommendCamp": {
+        "$arrayRef": 72813
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_24_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_24.png",
+      "ResourceBarAssets": {
+        "$arrayRef": 72818
+      },
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1175,
+      "DungeonMode": {
+        "1": "变形术",
+        "2": "解谜",
+        "3": "地图迷雾"
+      },
+      "DungeonModeDes": {
+        "1": "需要使用变形术来探索关卡",
+        "2": "关卡中存在较多解谜元素",
+        "3": "副本中需要寻找到探索地图才能开启小地图功能"
+      },
+      "DungeonModeRes": {
+        "1": "ui/sprites/Dungeon/spui_dungeon_type9.png",
+        "2": "ui/sprites/Dungeon/spui_dungeon_type3.png",
+        "3": "ui/sprites/Dungeon/spui_dungeon_type10.png"
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {},
+      "CanUseTransform": true,
+      "RangeRadius": 2,
+      "NeedMinimapItem": 2010,
+      "RetainedFinalObjectIDs": {
+        "1": 702300206,
+        "2": 702300207,
+        "3": 702300209,
+        "4": 702300210,
+        "5": 702300212,
+        "6": 702300213,
+        "7": 702300214,
+        "8": 702300215,
+        "9": 702300224,
+        "10": 702300225
+      }
+    }
+  ]
+}

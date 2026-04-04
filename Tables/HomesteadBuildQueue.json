@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "table": "HomesteadBuildQueue",
+    "header_table": "HomesteadBuildQueueHeaderTable",
+    "schema_size": 11,
+    "row_count": 4,
+    "array_fields": [
+      "Cost",
+      "LockTipsParam"
+    ],
+    "unresolved_array_refs": 3
+  },
+  "default": {
+    "ID": "null",
+    "HomesteadID": "null",
+    "Cost": {},
+    "UnlockCondition": "true",
+    "LockTipsText": null,
+    "LockTipsParam": {},
+    "InitUnlock": false,
+    "AutoUnlock": false,
+    "AutoUnlockParam": 0,
+    "LootInfo": null,
+    "ConfirmTipName": null
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "ID": 1,
+      "HomesteadID": 2,
+      "Cost": {},
+      "UnlockCondition": "true",
+      "LockTipsText": "默认解锁",
+      "LockTipsParam": {},
+      "InitUnlock": true,
+      "AutoUnlock": false,
+      "AutoUnlockParam": 0,
+      "LootInfo": null,
+      "ConfirmTipName": null
+    },
+    {
+      "ID": 2,
+      "HomesteadID": 2,
+      "Cost": {
+        "1": 1,
+        "2": 168,
+        "3": 1
+      },
+      "UnlockCondition": "true",
+      "LockTipsText": "神光之石升至${1}级解锁",
+      "LockTipsParam": {
+        "$arrayRef": 298
+      },
+      "InitUnlock": false,
+      "AutoUnlock": true,
+      "AutoUnlockParam": 168,
+      "LootInfo": 178,
+      "ConfirmTipName": null
+    },
+    {
+      "ID": 3,
+      "HomesteadID": 2,
+      "Cost": {
+        "1": 1,
+        "2": 144,
+        "3": 1
+      },
+      "UnlockCondition": "true",
+      "LockTipsText": "首充礼包奖励",
+      "LockTipsParam": {},
+      "InitUnlock": false,
+      "AutoUnlock": true,
+      "AutoUnlockParam": 144,
+      "LootInfo": 39,
+      "ConfirmTipName": null
+    },
+    {
+      "ID": 4,
+      "HomesteadID": 2,
+      "Cost": {
+        "$arrayRef": 76318
+      },
+      "UnlockCondition": "true",
+      "LockTipsText": "花费<sprite name=BBBCharge><b><color=#FFFFFF>${1}</B></COLOR>永久解锁",
+      "LockTipsParam": {
+        "$arrayRef": 351
+      },
+      "InitUnlock": false,
+      "AutoUnlock": false,
+      "AutoUnlockParam": 0,
+      "LootInfo": null,
+      "ConfirmTipName": 296
+    }
+  ]
+}

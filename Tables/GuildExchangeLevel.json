@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "table": "GuildExchangeLevel",
+    "header_table": "GuildExchangeLevelHeaderTable",
+    "schema_size": 8,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "Level": "null",
+    "QualityNameRichText": null,
+    "QualityName": null,
+    "PointRange": {},
+    "Description": null,
+    "ForceOpenDay": 0,
+    "LockTips": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Level": 1,
+      "QualityNameRichText": "<style=\"quality_2\">精英品阶</style>",
+      "QualityName": "精英",
+      "PointRange": {
+        "1": 0,
+        "2": 120000
+      },
+      "Description": "可兑换${1}物品",
+      "ForceOpenDay": 1,
+      "LockTips": "暂无法升级"
+    },
+    {
+      "ID": 1,
+      "Level": 2,
+      "QualityNameRichText": "<style=\"quality_3\">史诗品阶</style>",
+      "QualityName": "史诗",
+      "PointRange": {
+        "1": 120000,
+        "2": 600000
+      },
+      "Description": "可兑换${1}物品",
+      "ForceOpenDay": 3,
+      "LockTips": "暂无法升级"
+    },
+    {
+      "ID": 1,
+      "Level": 3,
+      "QualityNameRichText": "<style=\"quality_4\">传说品阶</style>",
+      "QualityName": "传说",
+      "PointRange": {
+        "1": 600000,
+        "2": 2100000
+      },
+      "Description": "可兑换${1}物品",
+      "ForceOpenDay": 6,
+      "LockTips": "暂无法升级"
+    },
+    {
+      "ID": 1,
+      "Level": 4,
+      "QualityNameRichText": "<quality_5>神话品阶</quality_5>",
+      "QualityName": "神话",
+      "PointRange": {
+        "1": 2100000,
+        "2": 99999999
+      },
+      "Description": "可兑换${1}物品",
+      "ForceOpenDay": 9,
+      "LockTips": "暂无法升级"
+    }
+  ]
+}

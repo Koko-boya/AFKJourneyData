@@ -1,0 +1,117 @@
+{
+  "_meta": {
+    "table": "GuildWarSiegeWeapon",
+    "header_table": "GuildWarSiegeWeaponHeaderTable",
+    "schema_size": 14,
+    "row_count": 4,
+    "array_fields": [
+      "EffectParam1",
+      "EffectParam2"
+    ],
+    "unresolved_array_refs": 8
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "Icon": null,
+    "Order": 0,
+    "Description": null,
+    "Cost": 0,
+    "CostInc": 0,
+    "CostMax": 0,
+    "EffectID": 0,
+    "EffectParam1": {},
+    "EffectParam2": {},
+    "HighlightType": null,
+    "HighlightParam": 0,
+    "ReportText": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Name": "灵息回愈",
+      "Icon": "UI/Icon/GuildWar/spui_guildwar_skill_supply_${1}.png",
+      "Order": 1,
+      "Description": "攻城阶段开始时，回复我方所有成员最多10点因突袭受到的耐力伤害",
+      "Cost": 4000,
+      "CostInc": 4000,
+      "CostMax": 12000,
+      "EffectID": 1001,
+      "EffectParam1": {
+        "$arrayRef": 62
+      },
+      "EffectParam2": {
+        "$arrayRef": 1459
+      },
+      "HighlightType": 1,
+      "HighlightParam": 100,
+      "ReportText": "回复耐力:${1}"
+    },
+    {
+      "ID": 2,
+      "Name": "二重雷怒",
+      "Icon": "UI/Icon/GuildWar/spui_guildwar_skill_arrow_${1}.png",
+      "Order": 2,
+      "Description": "攻城阶段中对宿敌公会玩家造成3点耐力伤害，生效2次",
+      "Cost": 3000,
+      "CostInc": 2000,
+      "CostMax": 7000,
+      "EffectID": 2001,
+      "EffectParam1": {
+        "$arrayRef": 22
+      },
+      "EffectParam2": {
+        "$arrayRef": 1459
+      },
+      "HighlightType": 2,
+      "HighlightParam": 2,
+      "ReportText": "造成耐力伤害:${1}"
+    },
+    {
+      "ID": 3,
+      "Name": "炽焰轰击",
+      "Icon": "UI/Icon/GuildWar/spui_guildwar_skill_fireball_${1}.png",
+      "Order": 2,
+      "Description": "攻城阶段中对宿敌公会玩家造成10点耐力伤害",
+      "Cost": 4000,
+      "CostInc": 2000,
+      "CostMax": 8000,
+      "EffectID": 2001,
+      "EffectParam1": {
+        "$arrayRef": 62
+      },
+      "EffectParam2": {
+        "$arrayRef": 1459
+      },
+      "HighlightType": 3,
+      "HighlightParam": 50,
+      "ReportText": "造成耐力伤害:${1}"
+    },
+    {
+      "ID": 4,
+      "Name": "坚壁守护",
+      "Icon": "UI/Icon/GuildWar/spui_guildwar_skill_shield_${1}.png",
+      "Order": 999,
+      "Description": "攻城阶段中我方公会受到攻城魔法伤害时，免疫1次伤害",
+      "Cost": 2500,
+      "CostInc": 2000,
+      "CostMax": 6500,
+      "EffectID": 3001,
+      "EffectParam1": {
+        "$arrayRef": 45
+      },
+      "EffectParam2": {
+        "$arrayRef": 7789
+      },
+      "HighlightType": 4,
+      "HighlightParam": 90,
+      "ReportText": "成功抵御伤害:${1}"
+    }
+  ]
+}

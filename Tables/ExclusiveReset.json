@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "table": "ExclusiveReset",
+    "header_table": "ExclusiveResetHeaderTable",
+    "schema_size": 9,
+    "row_count": 3,
+    "array_fields": [
+      "Cost"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "ID": "null",
+    "Cost": {},
+    "ResetLv": 0,
+    "TipsText": null,
+    "Tips": null,
+    "WarningLv": 0,
+    "WarningTips": null,
+    "IsCommon": false,
+    "HeroID": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Cost": {
+        "$arrayRef": 73502
+      },
+      "ResetLv": 0,
+      "TipsText": "所选英雄的专属装备强化等级将被<color=#86D58C>重置到+0级</color>",
+      "Tips": "ExclusiveResetLevel",
+      "WarningLv": 10,
+      "WarningTips": "所选专属装备的强化等级较低,请确认无误后再进行重置,避免造成不必要的损失",
+      "IsCommon": true,
+      "HeroID": 0
+    },
+    {
+      "ID": 2,
+      "Cost": {
+        "$arrayRef": 73503
+      },
+      "ResetLv": 15,
+      "TipsText": "所选英雄的专属装备强化等级将被<color=#86D58C>重置到+15级</color>",
+      "Tips": "ExclusiveResetLevel",
+      "WarningLv": 20,
+      "WarningTips": "所选专属装备的强化等级较低,请确认无误后再进行重置,避免造成不必要的损失",
+      "IsCommon": true,
+      "HeroID": 0
+    },
+    {
+      "ID": 3,
+      "Cost": {
+        "1": 1,
+        "2": 214,
+        "3": 1
+      },
+      "ResetLv": 0,
+      "TipsText": "所选英雄的专属装备强化等级将被<color=#86D58C>重置到+0级</color>",
+      "Tips": "ExclusiveResetLevel",
+      "WarningLv": 10,
+      "WarningTips": "所选专属装备的强化等级较低,请确认无误后再进行重置,避免造成不必要的损失",
+      "IsCommon": false,
+      "HeroID": 1
+    }
+  ]
+}

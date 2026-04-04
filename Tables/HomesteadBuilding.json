@@ -1,0 +1,812 @@
+{
+  "_meta": {
+    "table": "HomesteadBuilding",
+    "header_table": "HomesteadBuildingHeaderTable",
+    "schema_size": 26,
+    "row_count": 20,
+    "array_fields": [
+      "AllowHeroIDs",
+      "DefaultMaterial",
+      "ForbidHeroIDs",
+      "MaxBuildingNum",
+      "MaxNumDes"
+    ],
+    "unresolved_array_refs": 55
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "HSBuildingType": null,
+    "Type": null,
+    "ClientType": null,
+    "EntityID": 0,
+    "LimitBuildingID": 0,
+    "MaxBuildingNum": {},
+    "MaxNumDes": {},
+    "EffectBuildID": 0,
+    "TabID": 0,
+    "NameText": null,
+    "BuildCondition": "true",
+    "ErrorNote": null,
+    "MainUIRes": null,
+    "IconRes": null,
+    "DefaultMaterial": {},
+    "DefaultFormula": 0,
+    "CoverArea": null,
+    "Schedule": 0,
+    "ScheduleUIPrefab": null,
+    "ScheduleManual": 0,
+    "AllowHeroIDs": {},
+    "ForbidHeroIDs": {},
+    "CanHeroAssgin": false,
+    "BuildPreviewLevel": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    23
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Name": "神光之塔",
+      "HSBuildingType": 1,
+      "Type": 10007,
+      "ClientType": "HSMainBuilding",
+      "EntityID": 1,
+      "LimitBuildingID": 0,
+      "MaxBuildingNum": {},
+      "MaxNumDes": {},
+      "EffectBuildID": 1,
+      "TabID": 0,
+      "NameText": "神光之塔",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 2,
+      "Name": "农田",
+      "HSBuildingType": 2,
+      "Type": 10001,
+      "ClientType": "HSFarmland",
+      "EntityID": 2,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "1": 1,
+        "2": 4,
+        "3": 2,
+        "4": 6,
+        "5": 3,
+        "6": 8,
+        "7": 4,
+        "8": 12,
+        "9": 5,
+        "10": 16,
+        "11": 6,
+        "12": 18,
+        "13": 7,
+        "14": 20,
+        "15": 8,
+        "16": 22,
+        "17": 9,
+        "18": 24,
+        "19": 11,
+        "20": 26,
+        "21": 13,
+        "22": 28,
+        "23": 16,
+        "24": 30,
+        "25": 17,
+        "26": 32,
+        "27": 19,
+        "28": 34,
+        "29": 20,
+        "30": 36
+      },
+      "MaxNumDes": {
+        "1": "<b>神光之塔</B>${1}级时可造${2}个",
+        "2": "<b>神光之塔</B>${3}级时可造${4}个",
+        "3": "<b>神光之塔</B>${5}级时可造${6}个",
+        "4": "<b>神光之塔</B>${7}级时可造${8}个",
+        "5": "<b>神光之塔</B>${9}级时可造${10}个",
+        "6": "<b>神光之塔</B>${11}级时可造${12}个",
+        "7": "<b>神光之塔</B>${13}级时可造${14}个",
+        "8": "<b>神光之塔</B>${15}级时可造${16}个",
+        "9": "<b>神光之塔</B>${17}级时可造${18}个",
+        "10": "<b>神光之塔</B>${19}级时可造${20}个",
+        "11": "<b>神光之塔</B>${21}级时可造${22}个",
+        "12": "<b>神光之塔</B>${23}级时可造${24}个",
+        "13": "<b>神光之塔</B>${25}级时可造${26}个"
+      },
+      "EffectBuildID": 6,
+      "TabID": 10,
+      "NameText": "农田${1}",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_resource_farmland.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_farmland_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "4x4",
+      "Schedule": 472,
+      "ScheduleUIPrefab": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_resource_btn_activity_mid.prefab",
+      "ScheduleManual": 138,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 3,
+      "Name": "矿井",
+      "HSBuildingType": 3,
+      "Type": 10001,
+      "ClientType": "HSMine",
+      "EntityID": 3,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "1": 5,
+        "2": 1,
+        "3": 6,
+        "4": 2,
+        "5": 10,
+        "6": 3,
+        "7": 14,
+        "8": 4
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76319
+      },
+      "EffectBuildID": 3,
+      "TabID": 10,
+      "NameText": "矿井${1}",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_resource_mine.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_mine_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 100,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 4,
+      "Name": "林场",
+      "HSBuildingType": 4,
+      "Type": 10001,
+      "ClientType": "HSLogyard",
+      "EntityID": 4,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "1": 3,
+        "2": 1,
+        "3": 5,
+        "4": 2,
+        "5": 8,
+        "6": 3,
+        "7": 12,
+        "8": 4
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76319
+      },
+      "EffectBuildID": 4,
+      "TabID": 10,
+      "NameText": "林场${1}",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_resource_logyard.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_logyard_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 200,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 5,
+      "Name": "元素收集场",
+      "HSBuildingType": 5,
+      "Type": 10001,
+      "ClientType": "HSElemenrich",
+      "EntityID": 5,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "1": 4,
+        "2": 1,
+        "3": 11,
+        "4": 2,
+        "5": 15,
+        "6": 3,
+        "7": 18,
+        "8": 4
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76319
+      },
+      "EffectBuildID": 5,
+      "TabID": 10,
+      "NameText": "元素收集场${1}",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_resource_elemenrich.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_elemenrich_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 300,
+      "CoverArea": "6x6",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 6,
+      "Name": "农舍",
+      "HSBuildingType": 6,
+      "Type": 10005,
+      "ClientType": "HSFarmerHouse",
+      "EntityID": 6,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 68995
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 6,
+      "TabID": 9,
+      "NameText": "农舍",
+      "BuildCondition": "ed.ConditionX.IsHSRegionUnlocked(2,13)",
+      "ErrorNote": "所在地块未解锁",
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_farmerhouse.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_farmland_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 7,
+      "Name": "木材加工厂",
+      "HSBuildingType": 7,
+      "Type": 10002,
+      "ClientType": "HSWoodmill",
+      "EntityID": 7,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 68995
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 7,
+      "TabID": 9,
+      "NameText": "木材加工厂",
+      "BuildCondition": "ed.ConditionX.HSBuildingMaxLv(2,6)>=1",
+      "ErrorNote": "农舍1级",
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_convert.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_woodmill_white.png",
+      "DefaultMaterial": {
+        "$arrayRef": 134
+      },
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 8,
+      "Name": "矿石冶炼厂",
+      "HSBuildingType": 8,
+      "Type": 10002,
+      "ClientType": "HSOreproc",
+      "EntityID": 8,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 72273
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 8,
+      "TabID": 9,
+      "NameText": "矿石冶炼厂",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_convert.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_oreproc_white.png",
+      "DefaultMaterial": {
+        "$arrayRef": 133
+      },
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 472,
+      "ScheduleUIPrefab": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_resource_btn_activity_mid.prefab",
+      "ScheduleManual": 138,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 9,
+      "Name": "元素精炼所",
+      "HSBuildingType": 9,
+      "Type": 10002,
+      "ClientType": "HSElerefine",
+      "EntityID": 9,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 71712
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 9,
+      "TabID": 9,
+      "NameText": "元素精炼所",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_convert.prefab",
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_elerefine_white.png",
+      "DefaultMaterial": {
+        "$arrayRef": 135
+      },
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 10,
+      "Name": "厨房",
+      "HSBuildingType": 10,
+      "Type": 10003,
+      "ClientType": "HSKitchen",
+      "EntityID": 10,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 58050
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 10,
+      "TabID": 9,
+      "NameText": "厨房",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_kitchen_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 472,
+      "ScheduleUIPrefab": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_resource_btn_activity_mid.prefab",
+      "ScheduleManual": 138,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 11,
+      "Name": "锻造工坊<key:function>",
+      "HSBuildingType": 11,
+      "Type": 10003,
+      "ClientType": "HSBlacksmith",
+      "EntityID": 11,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 72273
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 11,
+      "TabID": 9,
+      "NameText": "锻造工坊<key:function>",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_blacksmith_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 12,
+      "Name": "炼金工坊",
+      "HSBuildingType": 12,
+      "Type": 10003,
+      "ClientType": "HSAlmhut",
+      "EntityID": 12,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 70707
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 12,
+      "TabID": 9,
+      "NameText": "炼金工坊",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": "UI/Icon/Homestead_SkillIcon/spui_homestead_skill_almhut_white.png",
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": true,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 13,
+      "Name": "装饰工坊",
+      "HSBuildingType": 13,
+      "Type": 10004,
+      "ClientType": "HSDecowork",
+      "EntityID": 13,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 12267
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 13,
+      "TabID": 9,
+      "NameText": "装饰工坊",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/homestead_building/pbui_homestead_building_decowork.prefab",
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 15,
+      "Name": "阿瓦隆之门",
+      "HSBuildingType": 15,
+      "Type": 10009,
+      "ClientType": "HSPortalStoneHouse",
+      "EntityID": 15,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 68995
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 15,
+      "TabID": 9,
+      "NameText": "阿瓦隆之门",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "4x4",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 16,
+      "Name": "家园留言台",
+      "HSBuildingType": 16,
+      "Type": 10010,
+      "ClientType": "HSMsgBoardHouse",
+      "EntityID": 16,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 12267
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 16,
+      "TabID": 9,
+      "NameText": "家园留言台",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "4x4",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 17,
+      "Name": "梦现亭",
+      "HSBuildingType": 18,
+      "Type": 10013,
+      "ClientType": "HSDreamGod",
+      "EntityID": 17,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 68995
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 17,
+      "TabID": 9,
+      "NameText": "梦现亭",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "ForbidHeroIDs": {},
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 2
+    },
+    {
+      "ID": 18,
+      "Name": "神秘屋",
+      "HSBuildingType": 19,
+      "Type": 10015,
+      "ClientType": "Carrier",
+      "EntityID": 18,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 68995
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 18,
+      "TabID": 9,
+      "NameText": "神秘屋",
+      "BuildCondition": "ed.ConditionX.IsHSRegionUnlocked(2,15)",
+      "ErrorNote": "所在地块未解锁",
+      "MainUIRes": null,
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "10x10",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 19,
+      "Name": "仓鼠之家",
+      "HSBuildingType": 20,
+      "Type": 10014,
+      "ClientType": "HSStageHouse",
+      "EntityID": 19,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 68995
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 19,
+      "TabID": 9,
+      "NameText": "仓鼠之家",
+      "BuildCondition": "ed.ConditionX.IsHSRegionUnlocked(2,5)",
+      "ErrorNote": "所在地块未解锁",
+      "MainUIRes": null,
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 20,
+      "Name": "琳琅百宝箱",
+      "HSBuildingType": 17,
+      "Type": 77,
+      "ClientType": "HSDecoShop",
+      "EntityID": 20,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 71712
+      },
+      "MaxNumDes": {
+        "1": "需要<b>神光之石</B>升至${1}级"
+      },
+      "EffectBuildID": 20,
+      "TabID": 9,
+      "NameText": "琳琅百宝箱",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": "ui/prefabs/homestead/decoshop/pbui_decoshop_main.prefab",
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "8x8",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    },
+    {
+      "ID": 23,
+      "Name": "千音留声机",
+      "HSBuildingType": 23,
+      "Type": 10018,
+      "ClientType": "HSMusicPlayer",
+      "EntityID": 23,
+      "LimitBuildingID": 1,
+      "MaxBuildingNum": {
+        "$arrayRef": 12267
+      },
+      "MaxNumDes": {
+        "$arrayRef": 76320
+      },
+      "EffectBuildID": 23,
+      "TabID": 9,
+      "NameText": "千音留声机",
+      "BuildCondition": "true",
+      "ErrorNote": null,
+      "MainUIRes": null,
+      "IconRes": null,
+      "DefaultMaterial": {},
+      "DefaultFormula": 0,
+      "CoverArea": "4x4",
+      "Schedule": 0,
+      "ScheduleUIPrefab": null,
+      "ScheduleManual": 0,
+      "AllowHeroIDs": {},
+      "ForbidHeroIDs": {
+        "$arrayRef": 13480
+      },
+      "CanHeroAssgin": false,
+      "BuildPreviewLevel": 1
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "table": "FailGuide",
+    "header_table": "FailGuideHeaderTable",
+    "schema_size": 7,
+    "row_count": 7,
+    "array_fields": [
+      "Param"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "ID": "null",
+    "Description": null,
+    "Weight": 0,
+    "Module": null,
+    "EntranceType": null,
+    "BattleMode": null,
+    "Param": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Description": "提升英雄战力",
+      "Weight": 10,
+      "Module": null,
+      "EntranceType": "Knight",
+      "BattleMode": null,
+      "Param": {}
+    },
+    {
+      "ID": 2,
+      "Description": "领取挂机奖励",
+      "Weight": 10,
+      "Module": 14,
+      "EntranceType": "IdleIncome",
+      "BattleMode": null,
+      "Param": {}
+    },
+    {
+      "ID": 3,
+      "Description": "获取更多英雄",
+      "Weight": 10,
+      "Module": 4,
+      "EntranceType": "Tavern",
+      "BattleMode": null,
+      "Param": {}
+    },
+    {
+      "ID": 4,
+      "Description": "查看图鉴",
+      "Weight": 0,
+      "Module": null,
+      "EntranceType": null,
+      "BattleMode": null,
+      "Param": {}
+    },
+    {
+      "ID": 5,
+      "Description": "提升英雄品阶",
+      "Weight": 0,
+      "Module": null,
+      "EntranceType": null,
+      "BattleMode": null,
+      "Param": {}
+    },
+    {
+      "ID": 6,
+      "Description": "使用克制敌人的阵营",
+      "Weight": 10,
+      "Module": 43,
+      "EntranceType": "Manual",
+      "BattleMode": 61,
+      "Param": {
+        "$arrayRef": 74862
+      }
+    },
+    {
+      "ID": 7,
+      "Description": "提升队伍强度",
+      "Weight": 5,
+      "Module": 43,
+      "EntranceType": "Manual",
+      "BattleMode": 61,
+      "Param": {
+        "$arrayRef": 328
+      }
+    }
+  ]
+}

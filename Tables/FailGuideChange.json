@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "table": "FailGuideChange",
+    "header_table": "FailGuideChangeHeaderTable",
+    "schema_size": 4,
+    "row_count": 1,
+    "array_fields": [
+      "FailGuideID",
+      "NewWeight"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "ID": "null",
+    "Condition": "true",
+    "FailGuideID": {},
+    "NewWeight": {}
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Condition": "not ed.ConditionX.IsWildMonsterKilled(109081)",
+      "FailGuideID": {
+        "$arrayRef": 48
+      },
+      "NewWeight": {
+        "$arrayRef": 1459
+      }
+    }
+  ]
+}

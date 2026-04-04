@@ -1,0 +1,233 @@
+{
+  "_meta": {
+    "table": "EventpathTrigger",
+    "header_table": "EventpathTriggerHeaderTable",
+    "schema_size": 7,
+    "row_count": 21,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "Trigger": "null",
+    "SubTrigger": null,
+    "StartCondition": null,
+    "StartAction": null,
+    "FinishCondition": null,
+    "FinishAction": null,
+    "InActiveAction": null
+  },
+  "row_keys": [
+    "MapObj_Raid_goblin_cave_02_Puzzle",
+    "MapObj_Raid_goblin_cave_02_Puzzle_Stage1",
+    "MapObj_Raid_goblin_cave_02_Puzzle_Stage2",
+    "MapObj_Raid_goblin_cave_02_Puzzle_Stage3",
+    "MapObj_Raid_goblin_cave_02_Puzzle_Stage4",
+    "MainViewToBag",
+    "HeroViewShowVoice",
+    "pbsc_prop_westfall_stonearray_05_Puzzle",
+    "pbsc_prop_westfall_stonearray_05_Puzzle_Stage1",
+    "pbsc_prop_westfall_stonearray_05_Puzzle_Stage2",
+    "pbsc_prop_westfall_stonearray_05_Puzzle_Stage3",
+    "pbsc_prop_westfall_stonearray_05_Puzzle_Stage4",
+    "raid_mercenary_cave_Puzzle",
+    "raid_mercenary_cave_Puzzle_mailpile_state",
+    "laser_01_puzzle",
+    "laser_02_puzzle",
+    "laser_03_puzzle",
+    "laser_04_puzzle",
+    "laser_05_puzzle",
+    "laser_06_puzzle",
+    "pbsc_prop_runner_control"
+  ],
+  "rows": [
+    {
+      "Trigger": "MapObj_Raid_goblin_cave_02_Puzzle",
+      "SubTrigger": "ed.TriggerAnySub(\"MapObj_Raid_goblin_cave_02_Puzzle_Stage1\",\"MapObj_Raid_goblin_cave_02_Puzzle_Stage2\",\"MapObj_Raid_goblin_cave_02_Puzzle_Stage3\",\"MapObj_Raid_goblin_cave_02_Puzzle_Stage4\")",
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)>0 ",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==0",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_MapObj_Raid_goblin_cave_02_Puzzle_finish\");",
+      "InActiveAction": "ed.SoundCommandManager:FireEvent(\"on_MapObj_Raid_goblin_cave_02_Puzzle_inactive\");"
+    },
+    {
+      "Trigger": "MapObj_Raid_goblin_cave_02_Puzzle_Stage1",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==4",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==3",
+      "FinishAction": "ed.log(\"Now we have 3 chests left\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "MapObj_Raid_goblin_cave_02_Puzzle_Stage2",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==3",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==2",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_MapObj_Raid_goblin_cave_02_Puzzle_Stage02_finish\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "MapObj_Raid_goblin_cave_02_Puzzle_Stage3",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==2",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==1",
+      "FinishAction": "ed.log(\"Now we have only 1 chest !\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "MapObj_Raid_goblin_cave_02_Puzzle_Stage4",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==1",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",500215933,500215934,500215935,500215936)==0",
+      "FinishAction": "ed.log(\"Congratulations! You Finish The Puzzle!\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "MainViewToBag",
+      "SubTrigger": null,
+      "StartCondition": "true",
+      "StartAction": null,
+      "FinishCondition": "false",
+      "FinishAction": null,
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "HeroViewShowVoice",
+      "SubTrigger": null,
+      "StartCondition": "true",
+      "StartAction": null,
+      "FinishCondition": "false",
+      "FinishAction": null,
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "pbsc_prop_westfall_stonearray_05_Puzzle",
+      "SubTrigger": "ed.TriggerAnySub(\"pbsc_prop_westfall_stonearray_05_Puzzle_Stage1\",\"pbsc_prop_westfall_stonearray_05_Puzzle_Stage2\",\"pbsc_prop_westfall_stonearray_05_Puzzle_Stage3\",\"pbsc_prop_westfall_stonearray_05_Puzzle_Stage4\")",
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",131973)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_pbsc_prop_westfall_stonearray\")",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",131973)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_pbsc_com_treasure_chest_03\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "pbsc_prop_westfall_stonearray_05_Puzzle_Stage1",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",124914,124915,124916)==3",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",124914,124915,124916)==2",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_pbsc_prop_westfall_stonearray_05_Puzzle_Stage1\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "pbsc_prop_westfall_stonearray_05_Puzzle_Stage2",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",124914,124915,124916)==2",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",124914,124915,124916)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_pbsc_prop_westfall_stonearray_05_Puzzle_Stage2\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "pbsc_prop_westfall_stonearray_05_Puzzle_Stage3",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",124914,124915,124916)==1",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",124914,124915,124916)==0",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_pbsc_prop_westfall_stonearray_05_Puzzle_Stage3\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "pbsc_prop_westfall_stonearray_05_Puzzle_Stage4",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Show\",124914,124915,124916)==0",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",131973)==1",
+      "FinishAction": null,
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "raid_mercenary_cave_Puzzle",
+      "SubTrigger": "ed.TriggerAnySub(\"raid_mercenary_cave_Puzzle_mailpile_state\")",
+      "StartCondition": "ed.ConditionX.StateCount2(\"Blocked\",500126776)==1",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_Raid_mercenary_cave_Puzzle_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"DoorOpen\",500126776)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_MapObj_Raid_goblin_cave_02_Puzzle_finish\");",
+      "InActiveAction": "ed.SoundCommandManager:FireEvent(\"on_MapObj_Raid_goblin_cave_02_Puzzle_inactive\");"
+    },
+    {
+      "Trigger": "raid_mercenary_cave_Puzzle_mailpile_state",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Blocked\",500126776)==1",
+      "StartAction": null,
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",500126902)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_raid_mercenary_cave_Puzzle_mailpile_received\")",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "laser_01_puzzle",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",130461)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_01_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",130461)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_01_finish\");",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "laser_02_puzzle",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",126180)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_02_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",126180)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_02_finish\");",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "laser_03_puzzle",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",126174)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_03_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",126174)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_03_finish\");",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "laser_04_puzzle",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",126789)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_04_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",126789)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_04_finish\");",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "laser_05_puzzle",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",125325)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_05_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",125325)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_05_finish\");",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "laser_06_puzzle",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",125401)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_06_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",125401)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_laser_puzzle_06_finish\");",
+      "InActiveAction": null
+    },
+    {
+      "Trigger": "pbsc_prop_runner_control",
+      "SubTrigger": null,
+      "StartCondition": "ed.ConditionX.StateCount2(\"Treasure_Recvd\",500029860)==0",
+      "StartAction": "ed.SoundCommandManager:FireEvent(\"on_runner_00_start\");",
+      "FinishCondition": "ed.ConditionX.StateCount2(\"Show\",500029860)==1",
+      "FinishAction": "ed.SoundCommandManager:FireEvent(\"on_runner_00_chestshow\");",
+      "InActiveAction": null
+    }
+  ]
+}

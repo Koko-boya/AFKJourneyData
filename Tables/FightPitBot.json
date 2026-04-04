@@ -1,0 +1,6502 @@
+{
+  "_meta": {
+    "table": "FightPitBot",
+    "header_table": "FightPitBotHeaderTable",
+    "schema_size": 6,
+    "row_count": 720,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "DisplayName": null,
+    "MonstersID": 0,
+    "Count": 0,
+    "GrowthID": 0,
+    "BotGroupID": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    453,
+    454,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    565,
+    566,
+    567,
+    568,
+    569,
+    570,
+    571,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    588,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    631,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644,
+    645,
+    646,
+    647,
+    648,
+    649,
+    650,
+    651,
+    652,
+    653,
+    654,
+    655,
+    656,
+    657,
+    658,
+    659,
+    660,
+    661,
+    662,
+    663,
+    664,
+    665,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671,
+    672,
+    673,
+    674,
+    675,
+    676,
+    677,
+    678,
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    687,
+    688,
+    689,
+    690,
+    691,
+    692,
+    693,
+    694,
+    695,
+    696,
+    697,
+    698,
+    699,
+    700,
+    701,
+    702,
+    703,
+    704,
+    705,
+    706,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    720
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80001,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 2,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80002,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 3,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80003,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 4,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80004,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 5,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80005,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 6,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80006,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 7,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80007,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 8,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80008,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 9,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80009,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 10,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80010,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 11,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80011,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 12,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80012,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 13,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80013,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 14,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80014,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 15,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80015,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 1
+    },
+    {
+      "ID": 16,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80016,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 17,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80017,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 18,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80018,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 19,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80019,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 20,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80020,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 21,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80021,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 22,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80022,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 23,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80023,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 24,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80024,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 25,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80025,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 26,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80026,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 27,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80027,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 28,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80028,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 29,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80029,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 30,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80030,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 2
+    },
+    {
+      "ID": 31,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80031,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 32,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80032,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 33,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80033,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 34,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80034,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 35,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80035,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 36,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80036,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 37,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80037,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 38,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80038,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 39,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80039,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 40,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80040,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 41,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80041,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 42,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80042,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 43,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80043,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 44,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80044,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 45,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80045,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 3
+    },
+    {
+      "ID": 46,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80046,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 47,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80047,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 48,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80048,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 49,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80049,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 50,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80050,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 51,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80051,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 52,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80052,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 53,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80053,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 54,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80054,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 55,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80055,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 56,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80056,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 57,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80057,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 58,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80058,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 59,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80059,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 60,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80060,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 4
+    },
+    {
+      "ID": 61,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80101,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 62,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80102,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 63,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80103,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 64,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80104,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 65,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80105,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 66,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80106,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 67,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80107,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 68,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80108,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 69,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80109,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 70,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80110,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 71,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80111,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 72,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80112,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 73,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80113,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 74,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80114,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 75,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80115,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 11
+    },
+    {
+      "ID": 76,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80116,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 77,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80117,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 78,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80118,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 79,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80119,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 80,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80120,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 81,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80121,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 82,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80122,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 83,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80123,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 84,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80124,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 85,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80125,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 86,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80126,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 87,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80127,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 88,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80128,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 89,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80129,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 90,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80130,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 12
+    },
+    {
+      "ID": 91,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80131,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 92,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80132,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 93,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80133,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 94,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80134,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 95,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80135,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 96,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80136,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 97,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80137,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 98,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80138,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 99,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80139,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 100,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80140,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 101,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80141,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 102,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80142,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 103,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80143,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 104,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80144,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 105,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80145,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 13
+    },
+    {
+      "ID": 106,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80146,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 107,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80147,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 108,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80148,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 109,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80149,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 110,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80150,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 111,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80151,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 112,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80152,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 113,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80153,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 114,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80154,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 115,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80155,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 116,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80156,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 117,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80157,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 118,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80158,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 119,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80159,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 120,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80160,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 14
+    },
+    {
+      "ID": 121,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80201,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 122,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80202,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 123,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80203,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 124,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80204,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 125,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80205,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 126,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80206,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 127,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80207,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 128,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80208,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 129,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80209,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 130,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80210,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 131,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80211,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 132,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80212,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 133,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80213,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 134,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80214,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 135,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80215,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 21
+    },
+    {
+      "ID": 136,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80216,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 137,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80217,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 138,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80218,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 139,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80219,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 140,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80220,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 141,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80221,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 142,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80222,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 143,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80223,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 144,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80224,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 145,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80225,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 146,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80226,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 147,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80227,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 148,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80228,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 149,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80229,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 150,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80230,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 22
+    },
+    {
+      "ID": 151,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80231,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 152,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80232,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 153,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80233,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 154,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80234,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 155,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80235,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 156,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80236,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 157,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80237,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 158,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80238,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 159,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80239,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 160,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80240,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 161,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80241,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 162,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80242,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 163,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80243,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 164,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80244,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 165,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80245,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 23
+    },
+    {
+      "ID": 166,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80246,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 167,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80247,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 168,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80248,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 169,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80249,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 170,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80250,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 171,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80251,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 172,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80252,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 173,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80253,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 174,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80254,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 175,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80255,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 176,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80256,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 177,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80257,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 178,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80258,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 179,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80259,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 180,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80260,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 24
+    },
+    {
+      "ID": 181,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80301,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 182,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80302,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 183,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80303,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 184,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80304,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 185,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80305,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 186,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80306,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 187,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80307,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 188,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80308,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 189,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80309,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 190,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80310,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 191,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80311,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 192,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80312,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 193,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80313,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 194,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80314,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 195,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80315,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 31
+    },
+    {
+      "ID": 196,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80316,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 197,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80317,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 198,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80318,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 199,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80319,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 200,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80320,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 201,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80321,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 202,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80322,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 203,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80323,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 204,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80324,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 205,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80325,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 206,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80326,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 207,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80327,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 208,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80328,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 209,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80329,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 210,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80330,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 32
+    },
+    {
+      "ID": 211,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80331,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 212,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80332,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 213,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80333,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 214,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80334,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 215,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80335,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 216,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80336,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 217,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80337,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 218,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80338,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 219,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80339,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 220,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80340,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 221,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80341,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 222,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80342,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 223,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80343,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 224,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80344,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 225,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80345,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 33
+    },
+    {
+      "ID": 226,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80346,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 227,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80347,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 228,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80348,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 229,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80349,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 230,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80350,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 231,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80351,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 232,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80352,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 233,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80353,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 234,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80354,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 235,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80355,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 236,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80356,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 237,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80357,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 238,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80358,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 239,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80359,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 240,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80360,
+      "Count": 2,
+      "GrowthID": 2000001,
+      "BotGroupID": 34
+    },
+    {
+      "ID": 241,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80001,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 242,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80002,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 243,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80003,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 244,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80004,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 245,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80005,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 246,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80006,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 247,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80007,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 248,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80008,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 249,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80009,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 250,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80010,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 251,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80011,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 252,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80012,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 253,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80013,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 254,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80014,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 255,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80015,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 101
+    },
+    {
+      "ID": 256,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80016,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 257,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80017,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 258,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80018,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 259,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80019,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 260,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80020,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 261,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80021,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 262,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80022,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 263,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80023,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 264,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80024,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 265,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80025,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 266,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80026,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 267,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80027,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 268,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80028,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 269,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80029,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 270,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80030,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 102
+    },
+    {
+      "ID": 271,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80031,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 272,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80032,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 273,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80033,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 274,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80034,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 275,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80035,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 276,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80036,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 277,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80037,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 278,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80038,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 279,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80039,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 280,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80040,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 281,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80041,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 282,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80042,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 283,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80043,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 284,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80044,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 285,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80045,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 103
+    },
+    {
+      "ID": 286,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80046,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 287,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80047,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 288,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80048,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 289,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80049,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 290,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80050,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 291,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80051,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 292,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80052,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 293,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80053,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 294,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80054,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 295,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80055,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 296,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80056,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 297,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80057,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 298,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80058,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 299,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80059,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 300,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80060,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 104
+    },
+    {
+      "ID": 301,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80101,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 302,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80102,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 303,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80103,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 304,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80104,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 305,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80105,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 306,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80106,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 307,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80107,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 308,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80108,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 309,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80109,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 310,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80110,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 311,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80111,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 312,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80112,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 313,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80113,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 314,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80114,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 315,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80115,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 111
+    },
+    {
+      "ID": 316,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80116,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 317,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80117,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 318,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80118,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 319,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80119,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 320,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80120,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 321,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80121,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 322,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80122,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 323,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80123,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 324,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80124,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 325,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80125,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 326,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80126,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 327,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80127,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 328,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80128,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 329,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80129,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 330,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80130,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 112
+    },
+    {
+      "ID": 331,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80131,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 332,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80132,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 333,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80133,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 334,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80134,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 335,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80135,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 336,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80136,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 337,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80137,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 338,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80138,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 339,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80139,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 340,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80140,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 341,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80141,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 342,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80142,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 343,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80143,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 344,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80144,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 345,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80145,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 113
+    },
+    {
+      "ID": 346,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80146,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 347,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80147,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 348,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80148,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 349,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80149,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 350,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80150,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 351,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80151,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 352,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80152,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 353,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80153,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 354,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80154,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 355,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80155,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 356,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80156,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 357,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80157,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 358,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80158,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 359,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80159,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 360,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80160,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 114
+    },
+    {
+      "ID": 361,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80201,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 362,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80202,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 363,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80203,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 364,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80204,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 365,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80205,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 366,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80206,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 367,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80207,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 368,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80208,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 369,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80209,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 370,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80210,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 371,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80211,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 372,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80212,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 373,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80213,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 374,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80214,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 375,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80215,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 121
+    },
+    {
+      "ID": 376,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80216,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 377,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80217,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 378,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80218,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 379,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80219,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 380,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80220,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 381,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80221,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 382,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80222,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 383,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80223,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 384,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80224,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 385,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80225,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 386,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80226,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 387,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80227,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 388,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80228,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 389,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80229,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 390,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80230,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 122
+    },
+    {
+      "ID": 391,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80231,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 392,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80232,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 393,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80233,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 394,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80234,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 395,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80235,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 396,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80236,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 397,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80237,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 398,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80238,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 399,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80239,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 400,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80240,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 401,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80241,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 402,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80242,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 403,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80243,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 404,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80244,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 405,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80245,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 123
+    },
+    {
+      "ID": 406,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80246,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 407,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80247,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 408,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80248,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 409,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80249,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 410,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80250,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 411,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80251,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 412,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80252,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 413,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80253,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 414,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80254,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 415,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80255,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 416,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80256,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 417,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80257,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 418,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80258,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 419,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80259,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 420,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80260,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 124
+    },
+    {
+      "ID": 421,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80301,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 422,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80302,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 423,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80303,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 424,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80304,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 425,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80305,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 426,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80306,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 427,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80307,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 428,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80308,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 429,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80309,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 430,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80310,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 431,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80311,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 432,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80312,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 433,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80313,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 434,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80314,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 435,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80315,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 131
+    },
+    {
+      "ID": 436,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80316,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 437,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80317,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 438,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80318,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 439,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80319,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 440,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80320,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 441,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80321,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 442,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80322,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 443,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80323,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 444,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80324,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 445,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80325,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 446,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80326,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 447,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80327,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 448,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80328,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 449,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80329,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 450,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80330,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 132
+    },
+    {
+      "ID": 451,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80331,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 452,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80332,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 453,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80333,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 454,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80334,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 455,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80335,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 456,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80336,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 457,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80337,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 458,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80338,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 459,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80339,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 460,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80340,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 461,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80341,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 462,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80342,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 463,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80343,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 464,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80344,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 465,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80345,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 133
+    },
+    {
+      "ID": 466,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80346,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 467,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80347,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 468,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80348,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 469,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80349,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 470,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80350,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 471,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80351,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 472,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80352,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 473,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80353,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 474,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80354,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 475,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80355,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 476,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80356,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 477,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80357,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 478,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80358,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 479,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80359,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 480,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80360,
+      "Count": 2,
+      "GrowthID": 2000002,
+      "BotGroupID": 134
+    },
+    {
+      "ID": 481,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80001,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 482,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80002,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 483,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80003,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 484,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80004,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 485,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80005,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 486,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80006,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 487,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80007,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 488,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80008,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 489,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80009,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 490,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80010,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 491,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80011,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 492,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80012,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 493,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80013,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 494,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80014,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 495,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80015,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 201
+    },
+    {
+      "ID": 496,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80016,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 497,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80017,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 498,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80018,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 499,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80019,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 500,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80020,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 501,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80021,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 502,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80022,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 503,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80023,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 504,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80024,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 505,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80025,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 506,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80026,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 507,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80027,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 508,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80028,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 509,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80029,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 510,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80030,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 202
+    },
+    {
+      "ID": 511,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80031,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 512,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80032,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 513,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80033,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 514,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80034,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 515,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80035,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 516,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80036,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 517,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80037,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 518,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80038,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 519,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80039,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 520,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80040,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 521,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80041,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 522,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80042,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 523,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80043,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 524,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80044,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 525,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80045,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 203
+    },
+    {
+      "ID": 526,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80046,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 527,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80047,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 528,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80048,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 529,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80049,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 530,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80050,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 531,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80051,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 532,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80052,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 533,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80053,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 534,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80054,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 535,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80055,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 536,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80056,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 537,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80057,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 538,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80058,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 539,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80059,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 540,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80060,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 204
+    },
+    {
+      "ID": 541,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80101,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 542,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80102,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 543,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80103,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 544,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80104,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 545,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80105,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 546,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80106,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 547,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80107,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 548,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80108,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 549,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80109,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 550,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80110,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 551,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80111,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 552,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80112,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 553,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80113,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 554,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80114,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 555,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80115,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 211
+    },
+    {
+      "ID": 556,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80116,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 557,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80117,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 558,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80118,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 559,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80119,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 560,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80120,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 561,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80121,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 562,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80122,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 563,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80123,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 564,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80124,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 565,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80125,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 566,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80126,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 567,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80127,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 568,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80128,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 569,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80129,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 570,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80130,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 212
+    },
+    {
+      "ID": 571,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80131,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 572,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80132,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 573,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80133,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 574,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80134,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 575,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80135,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 576,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80136,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 577,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80137,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 578,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80138,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 579,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80139,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 580,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80140,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 581,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80141,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 582,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80142,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 583,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80143,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 584,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80144,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 585,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80145,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 213
+    },
+    {
+      "ID": 586,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80146,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 587,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80147,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 588,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80148,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 589,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80149,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 590,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80150,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 591,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80151,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 592,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80152,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 593,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80153,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 594,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80154,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 595,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80155,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 596,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80156,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 597,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80157,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 598,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80158,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 599,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80159,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 600,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80160,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 214
+    },
+    {
+      "ID": 601,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80201,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 602,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80202,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 603,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80203,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 604,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80204,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 605,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80205,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 606,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80206,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 607,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80207,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 608,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80208,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 609,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80209,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 610,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80210,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 611,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80211,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 612,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80212,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 613,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80213,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 614,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80214,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 615,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80215,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 221
+    },
+    {
+      "ID": 616,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80216,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 617,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80217,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 618,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80218,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 619,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80219,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 620,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80220,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 621,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80221,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 622,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80222,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 623,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80223,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 624,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80224,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 625,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80225,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 626,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80226,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 627,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80227,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 628,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80228,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 629,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80229,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 630,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80230,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 222
+    },
+    {
+      "ID": 631,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80231,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 632,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80232,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 633,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80233,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 634,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80234,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 635,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80235,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 636,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80236,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 637,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80237,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 638,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80238,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 639,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80239,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 640,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80240,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 641,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80241,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 642,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80242,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 643,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80243,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 644,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80244,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 645,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80245,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 223
+    },
+    {
+      "ID": 646,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80246,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 647,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80247,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 648,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80248,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 649,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80249,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 650,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80250,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 651,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80251,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 652,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80252,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 653,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80253,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 654,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80254,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 655,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80255,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 656,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80256,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 657,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80257,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 658,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80258,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 659,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80259,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 660,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80260,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 224
+    },
+    {
+      "ID": 661,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80301,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 662,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80302,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 663,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80303,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 664,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80304,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 665,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80305,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 666,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80306,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 667,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80307,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 668,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80308,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 669,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80309,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 670,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80310,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 671,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80311,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 672,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80312,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 673,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80313,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 674,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80314,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 675,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80315,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 231
+    },
+    {
+      "ID": 676,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80316,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 677,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80317,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 678,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80318,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 679,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80319,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 680,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80320,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 681,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80321,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 682,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80322,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 683,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80323,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 684,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80324,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 685,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80325,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 686,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80326,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 687,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80327,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 688,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80328,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 689,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80329,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 690,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80330,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 232
+    },
+    {
+      "ID": 691,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80331,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 692,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80332,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 693,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80333,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 694,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80334,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 695,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80335,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 696,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80336,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 697,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80337,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 698,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80338,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 699,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80339,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 700,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80340,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 701,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80341,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 702,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80342,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 703,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80343,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 704,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80344,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 705,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80345,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 233
+    },
+    {
+      "ID": 706,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80346,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 707,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80347,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 708,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80348,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 709,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80349,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 710,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80350,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 711,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80351,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 712,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80352,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 713,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80353,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 714,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80354,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 715,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80355,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 716,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80356,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 717,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80357,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 718,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80358,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 719,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80359,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    },
+    {
+      "ID": 720,
+      "DisplayName": "擂台对手",
+      "MonstersID": 80360,
+      "Count": 2,
+      "GrowthID": 2000004,
+      "BotGroupID": 234
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "_meta": {
+    "table": "HomesteadBuff",
+    "header_table": "HomesteadBuffHeaderTable",
+    "schema_size": 9,
+    "row_count": 24,
+    "array_fields": [
+      "BuildingIDs",
+      "Param",
+      "Reward"
+    ],
+    "unresolved_array_refs": 44
+  },
+  "default": {
+    "ID": "null",
+    "GroupID": 0,
+    "Des": null,
+    "HSBuffType": null,
+    "BuildingIDs": {},
+    "Reward": {},
+    "Param": {},
+    "EffectRes": null,
+    "RelatedItemID": 0
+  },
+  "row_keys": [
+    101,
+    201,
+    301,
+    401,
+    501,
+    601,
+    602,
+    603,
+    604,
+    605,
+    701,
+    702,
+    703,
+    704,
+    705,
+    801,
+    802,
+    803,
+    804,
+    805,
+    901,
+    1001,
+    1101,
+    1201
+  ],
+  "rows": [
+    {
+      "ID": 101,
+      "GroupID": 1,
+      "Des": "立即获得${1}体力",
+      "HSBuffType": 1,
+      "BuildingIDs": {},
+      "Reward": {
+        "$arrayRef": 71546
+      },
+      "Param": {
+        "$arrayRef": 5828
+      },
+      "EffectRes": null,
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 201,
+      "GroupID": 1,
+      "Des": "所有农田立即增加${1}小时的产出",
+      "HSBuffType": 1,
+      "BuildingIDs": {},
+      "Reward": {
+        "1": 18,
+        "2": 31001,
+        "3": 1
+      },
+      "Param": {
+        "$arrayRef": 46
+      },
+      "EffectRes": null,
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 301,
+      "GroupID": 1,
+      "Des": "所有林场立即增加${1}小时的产出",
+      "HSBuffType": 1,
+      "BuildingIDs": {},
+      "Reward": {
+        "1": 18,
+        "2": 31002,
+        "3": 1
+      },
+      "Param": {
+        "$arrayRef": 46
+      },
+      "EffectRes": null,
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 401,
+      "GroupID": 1,
+      "Des": "所有矿井立即增加${1}小时的产出",
+      "HSBuffType": 1,
+      "BuildingIDs": {},
+      "Reward": {
+        "1": 18,
+        "2": 31003,
+        "3": 1
+      },
+      "Param": {
+        "$arrayRef": 46
+      },
+      "EffectRes": null,
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 501,
+      "GroupID": 1,
+      "Des": "所有元素收集场立即增加${1}小时的产出",
+      "HSBuffType": 1,
+      "BuildingIDs": {},
+      "Reward": {
+        "1": 18,
+        "2": 31004,
+        "3": 1
+      },
+      "Param": {
+        "$arrayRef": 46
+      },
+      "EffectRes": null,
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 601,
+      "GroupID": 1,
+      "Des": "锻造工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 183
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 72377
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 602,
+      "GroupID": 1,
+      "Des": "锻造工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 183
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76314
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 603,
+      "GroupID": 1,
+      "Des": "锻造工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 183
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76315
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 604,
+      "GroupID": 1,
+      "Des": "锻造工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 183
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76316
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 605,
+      "GroupID": 1,
+      "Des": "锻造工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 183
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 75831
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 701,
+      "GroupID": 1,
+      "Des": "厨房接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 62
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 72377
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 702,
+      "GroupID": 1,
+      "Des": "厨房接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 62
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76314
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 703,
+      "GroupID": 1,
+      "Des": "厨房接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 62
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76315
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 704,
+      "GroupID": 1,
+      "Des": "厨房接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 62
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76316
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 705,
+      "GroupID": 1,
+      "Des": "厨房接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 62
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 75831
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 801,
+      "GroupID": 1,
+      "Des": "炼金工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 182
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 72377
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 802,
+      "GroupID": 1,
+      "Des": "炼金工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 182
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76314
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 803,
+      "GroupID": 1,
+      "Des": "炼金工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 182
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76315
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 804,
+      "GroupID": 1,
+      "Des": "炼金工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 182
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76316
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 805,
+      "GroupID": 1,
+      "Des": "炼金工坊接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 182
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 75831
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_pointup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 901,
+      "GroupID": 1,
+      "Des": "锻造工坊产品的愿望单奖励增加${2}（${1}个愿望单生效）",
+      "HSBuffType": 3,
+      "BuildingIDs": {
+        "$arrayRef": 183
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76317
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_rewardup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 1001,
+      "GroupID": 1,
+      "Des": "厨房产品的愿望单奖励增加${2}（${1}个愿望单生效）",
+      "HSBuffType": 3,
+      "BuildingIDs": {
+        "$arrayRef": 62
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76317
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_rewardup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 1101,
+      "GroupID": 1,
+      "Des": "炼金工坊产品的愿望单奖励增加${2}（${1}个愿望单生效）",
+      "HSBuffType": 3,
+      "BuildingIDs": {
+        "$arrayRef": 182
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 76317
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_rewardup.prefab",
+      "RelatedItemID": 0
+    },
+    {
+      "ID": 1201,
+      "GroupID": 2,
+      "Des": "接下来的${1}次制造，分数增加${2}",
+      "HSBuffType": 2,
+      "BuildingIDs": {
+        "$arrayRef": 72360
+      },
+      "Reward": {},
+      "Param": {
+        "$arrayRef": 75831
+      },
+      "EffectRes": "Fx/Prefab/Map/pbfx_homestead_rewardup.prefab",
+      "RelatedItemID": 220
+    }
+  ]
+}

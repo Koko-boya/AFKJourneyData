@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "table": "GuildVaultEventBuff",
+    "header_table": "GuildVaultEventBuffHeaderTable",
+    "schema_size": 8,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "Buff": 0,
+    "BuffTitle": null,
+    "BuffStory": null,
+    "BuffResult": null,
+    "BuffWeight": 0,
+    "PicPath": null,
+    "ButtonDes": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Buff": 7,
+      "BuffTitle": "小精灵的音乐会",
+      "BuffStory": "你在梦境中前行，突然听到有人在演奏音乐。音乐随风而来，带着你的思绪随之漫游，让你深深沉醉其中。",
+      "BuffResult": "音乐结束，你猛然惊醒，感觉自己前所未有的精神，耳聪目明。\n${1}",
+      "BuffWeight": 1,
+      "PicPath": "UI/Icon/Item/item_quest_musicbox.png",
+      "ButtonDes": "触发奇遇"
+    },
+    {
+      "ID": 2,
+      "Buff": 8,
+      "BuffTitle": "树洞里的贤者",
+      "BuffStory": "一颗大树挡在你的面前，上面有一扇门。你尝试了一下，似乎无法绕开它，于是你敲响了那扇门。",
+      "BuffResult": "那扇门打开了，里面伸出一只苍老的手。这只手在你的额头上摸了摸，你似乎领悟了一些梦境中的知识。\n${1}",
+      "BuffWeight": 1,
+      "PicPath": "UI/Icon/Item/item_quest_magictree.png",
+      "ButtonDes": "触发奇遇"
+    },
+    {
+      "ID": 3,
+      "Buff": 9,
+      "BuffTitle": "甘美泉水",
+      "BuffStory": "你在梦中走了很久，感觉精疲力竭，口干舌燥。你看到很远的地方有光点闪烁，是水，那边有水！",
+      "BuffResult": "你饱饮了甘甜的泉水，感觉神清气爽，如获新生。\n${1}",
+      "BuffWeight": 1,
+      "PicPath": "UI/Icon/Item/spui_icon_item_wellwater.png",
+      "ButtonDes": "触发奇遇"
+    },
+    {
+      "ID": 4,
+      "Buff": 10,
+      "BuffTitle": "奇怪的蘑菇",
+      "BuffStory": "树木的根部，灌木丛的深处，生长这一些蘑菇。这些蘑菇色彩艳丽，伞盖饱满。你忍不住烤着吃了一些。",
+      "BuffResult": "你中毒了，眼前一片模糊，暂时失去部分判断能力。\n${1}",
+      "BuffWeight": 1,
+      "PicPath": "UI/Icon/Item/item_quest_mushroom_01.png",
+      "ButtonDes": "触发奇遇"
+    }
+  ]
+}

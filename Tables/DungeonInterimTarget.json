@@ -1,0 +1,238 @@
+{
+  "_meta": {
+    "table": "DungeonInterimTarget",
+    "header_table": "DungeonInterimTargetHeaderTable",
+    "schema_size": 8,
+    "row_count": 14,
+    "array_fields": [
+      "TargetObjs"
+    ],
+    "unresolved_array_refs": 13
+  },
+  "default": {
+    "DungeonID": "null",
+    "StageID": "null",
+    "StageTarget": null,
+    "FinishCondition": "true",
+    "ProgressCondition": "true",
+    "TargetObjs": {},
+    "FinishEvents": {},
+    "FinishAction": "true"
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "DungeonID": 10404,
+      "StageID": 1,
+      "StageTarget": "探索区域",
+      "FinishCondition": "not ed.ConditionX.HasState(701100216,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72842
+      },
+      "FinishEvents": {
+        "1": "AddState:701100216"
+      },
+      "FinishAction": "ed.ActionX.C_RunPlot(14602010) and ed.ActionX.JumpToObj(701100221)"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 2,
+      "StageTarget": "击败狂化的祭司",
+      "FinishCondition": "ed.ConditionX.HasState(701100041,\"CShow_1\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72843
+      },
+      "FinishEvents": {
+        "1": "AddState:701100041"
+      },
+      "FinishAction": "ed.ActionX.C_RunPlot(14602020) and ed.ActionX.JumpToObj(701100218)"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 3,
+      "StageTarget": "到达目标点",
+      "FinishCondition": "not ed.ConditionX.HasState(701100217,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72844
+      },
+      "FinishEvents": {
+        "1": "AddState:701100217"
+      },
+      "FinishAction": "ed.ActionX.C_RunPlot(1041040401)"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 4,
+      "StageTarget": "收集足够的修理零件修复矿车",
+      "FinishCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701100276,701100326,701100327,701100328,701100329,701100330,701100331,701100332,701100333,701100334,701100335,701100336,701100337,701100338,701100339,701100340,701100341,701100342,701100343,701100344)>=15",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701100276,701100326,701100327,701100328,701100329,701100330,701100331,701100332,701100333,701100334,701100335,701100336,701100337,701100338,701100339,701100340,701100341,701100342,701100343,701100344)>=15",
+      "TargetObjs": {
+        "$arrayRef": 72845
+      },
+      "FinishEvents": {
+        "1": "AddState:701100276",
+        "2": "AddState:701100326",
+        "3": "AddState:701100327",
+        "4": "AddState:701100328",
+        "5": "AddState:701100329",
+        "6": "AddState:701100330",
+        "7": "AddState:701100331",
+        "8": "AddState:701100332",
+        "9": "AddState:701100333",
+        "10": "AddState:701100334",
+        "11": "AddState:701100335",
+        "12": "AddState:701100336",
+        "13": "AddState:701100337",
+        "14": "AddState:701100338",
+        "15": "AddState:701100339",
+        "16": "AddState:701100340",
+        "17": "AddState:701100341",
+        "18": "AddState:701100342",
+        "19": "AddState:701100343",
+        "20": "AddState:701100344"
+      },
+      "FinishAction": "true"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 5,
+      "StageTarget": "修理损坏的矿车",
+      "FinishCondition": "not ed.ConditionX.HasState(701100017,\"Show\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72845
+      },
+      "FinishEvents": {
+        "1": "AddState:701100017"
+      },
+      "FinishAction": "ed.ActionX.AddStates(701100160,\"Show\") and ed.ActionX.C_RunPlot(14602090)"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 6,
+      "StageTarget": "继续探索",
+      "FinishCondition": "not ed.ConditionX.HasState(701100261,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72846
+      },
+      "FinishEvents": {
+        "1": "AddState:701100261"
+      },
+      "FinishAction": "true"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 7,
+      "StageTarget": "逃离狂化的祭司的追捕",
+      "FinishCondition": "not ed.ConditionX.HasState(701100264,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72847
+      },
+      "FinishEvents": {
+        "1": "AddState:701100264"
+      },
+      "FinishAction": "ed.ActionX.C_RunPlot(1041040403) and ed.ActionX.JumpToObj(701100412)"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 8,
+      "StageTarget": "击败狂化的祭司",
+      "FinishCondition": "not ed.ConditionX.HasState(701100043,\"TriggerClickable\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72848
+      },
+      "FinishEvents": {
+        "1": "AddState:701100043"
+      },
+      "FinishAction": "ed.ActionX.C_RunPlot(14602140)"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 9,
+      "StageTarget": "交互矿车",
+      "FinishCondition": "not ed.ConditionX.HasState(701100421,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72849
+      },
+      "FinishEvents": {
+        "1": "AddState:701100421"
+      },
+      "FinishAction": "true"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 10,
+      "StageTarget": "到达目标点",
+      "FinishCondition": "not ed.ConditionX.HasState(701100265,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72850
+      },
+      "FinishEvents": {
+        "1": "AddState:701100265"
+      },
+      "FinishAction": "true"
+    },
+    {
+      "DungeonID": 10404,
+      "StageID": 11,
+      "StageTarget": "击败狂化的祭司",
+      "FinishCondition": "not ed.ConditionX.HasState(701100042,\"TriggerClickable\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72851
+      },
+      "FinishEvents": {
+        "1": "AddState:701100042"
+      },
+      "FinishAction": "true"
+    },
+    {
+      "DungeonID": 10605,
+      "StageID": 1,
+      "StageTarget": "探索山洞前往深处",
+      "FinishCondition": "not ed.ConditionX.HasState(702300427,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:702300427"
+      },
+      "FinishAction": "true"
+    },
+    {
+      "DungeonID": 10605,
+      "StageID": 2,
+      "StageTarget": "想办法离开雾瘴",
+      "FinishCondition": "not ed.ConditionX.HasState(702300327,\"BpVirtualRange_ListenEnter\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72852
+      },
+      "FinishEvents": {
+        "1": "AddState:702300327"
+      },
+      "FinishAction": "true"
+    },
+    {
+      "DungeonID": 10605,
+      "StageID": 3,
+      "StageTarget": "从洞口处离开",
+      "FinishCondition": "not ed.ConditionX.HasState(702300436,\"Interactive\")",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72852
+      },
+      "FinishEvents": {
+        "1": "AddState:702300436"
+      },
+      "FinishAction": "true"
+    }
+  ]
+}

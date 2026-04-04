@@ -1,0 +1,164 @@
+{
+  "_meta": {
+    "table": "HomesteadEcology",
+    "header_table": "HomesteadEcologyHeaderTable",
+    "schema_size": 19,
+    "row_count": 4,
+    "array_fields": [
+      "AnimatorParams",
+      "EntityID",
+      "FinishEvent",
+      "HomesteadId",
+      "PlayEvent"
+    ],
+    "unresolved_array_refs": 11
+  },
+  "default": {
+    "ID": "null",
+    "HomesteadId": {},
+    "EntityCondition": "true",
+    "ResPath": null,
+    "EntityID": {},
+    "Probability": 0,
+    "MaxCount": 0,
+    "PlayMode": null,
+    "LoopIntervalTime": 0,
+    "PlayEvent": {},
+    "PlayCondition": "true",
+    "FinishEvent": {},
+    "FinishCondition": "true",
+    "WaitingforInView": false,
+    "ShowType": null,
+    "AnimatorParams": {},
+    "ControlEntryAnimator": false,
+    "EntryAnimatorParams": {},
+    "BehaviourTreeId": 0
+  },
+  "row_keys": [
+    4,
+    6,
+    7,
+    13
+  ],
+  "rows": [
+    {
+      "ID": 4,
+      "HomesteadId": {
+        "$arrayRef": 46
+      },
+      "EntityCondition": "ed.ConditionX.CO_HasCropOnFarmland()",
+      "ResPath": "character/creature/pbsc_char_wild_sheep_01.prefab",
+      "EntityID": {
+        "$arrayRef": 46
+      },
+      "Probability": 20,
+      "MaxCount": 1,
+      "PlayMode": 2,
+      "LoopIntervalTime": 180,
+      "PlayEvent": {
+        "$arrayRef": 73555
+      },
+      "PlayCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3",
+      "FinishEvent": {},
+      "FinishCondition": "true",
+      "WaitingforInView": false,
+      "ShowType": 1,
+      "AnimatorParams": {},
+      "ControlEntryAnimator": false,
+      "EntryAnimatorParams": {},
+      "BehaviourTreeId": 121
+    },
+    {
+      "ID": 6,
+      "HomesteadId": {
+        "$arrayRef": 46
+      },
+      "EntityCondition": "true",
+      "ResPath": "character/creature/pbsc_char_wild_squirrel.prefab",
+      "EntityID": {
+        "$arrayRef": 58
+      },
+      "Probability": 10,
+      "MaxCount": 1,
+      "PlayMode": 2,
+      "LoopIntervalTime": 120,
+      "PlayEvent": {},
+      "PlayCondition": "true",
+      "FinishEvent": {},
+      "FinishCondition": "true",
+      "WaitingforInView": true,
+      "ShowType": 1,
+      "AnimatorParams": {
+        "$arrayRef": 76537
+      },
+      "ControlEntryAnimator": true,
+      "EntryAnimatorParams": {
+        "1": "on",
+        "2": "0"
+      },
+      "BehaviourTreeId": 123
+    },
+    {
+      "ID": 7,
+      "HomesteadId": {
+        "$arrayRef": 46
+      },
+      "EntityCondition": "ed.ConditionX.CO_IsEntityNearPlayer(10,5031,5002,5083,5033,5034,5008,5010,5012,5013)",
+      "ResPath": "fx/prefab/map/pbfx_prop_butterfly.prefab",
+      "EntityID": {
+        "1": 5031,
+        "2": 5002,
+        "3": 5083,
+        "4": 5033,
+        "5": 5034,
+        "6": 5008,
+        "7": 5010,
+        "8": 5012,
+        "9": 5013
+      },
+      "Probability": 100,
+      "MaxCount": 20,
+      "PlayMode": 3,
+      "LoopIntervalTime": 30,
+      "PlayEvent": {
+        "$arrayRef": 76536
+      },
+      "PlayCondition": "ed.ConditionX.CO_IsPlayingBehavior(31) or ed.ConditionX.CO_IsPlayingBehavior(32)",
+      "FinishEvent": {
+        "$arrayRef": 76536
+      },
+      "FinishCondition": "(not ed.ConditionX.CO_IsPlayingBehavior(31)) and (not ed.ConditionX.CO_IsPlayingBehavior(32))",
+      "WaitingforInView": false,
+      "ShowType": 3,
+      "AnimatorParams": {},
+      "ControlEntryAnimator": false,
+      "EntryAnimatorParams": {},
+      "BehaviourTreeId": 0
+    },
+    {
+      "ID": 13,
+      "HomesteadId": {
+        "$arrayRef": 46
+      },
+      "EntityCondition": "true",
+      "ResPath": "prefabs/object/fx/pbfx_wild_fishshadow.prefab",
+      "EntityID": {
+        "$arrayRef": 407
+      },
+      "Probability": 5,
+      "MaxCount": 2,
+      "PlayMode": 2,
+      "LoopIntervalTime": 30,
+      "PlayEvent": {},
+      "PlayCondition": "true",
+      "FinishEvent": {},
+      "FinishCondition": "true",
+      "WaitingforInView": true,
+      "ShowType": 1,
+      "AnimatorParams": {},
+      "ControlEntryAnimator": false,
+      "EntryAnimatorParams": {},
+      "BehaviourTreeId": 126
+    }
+  ]
+}

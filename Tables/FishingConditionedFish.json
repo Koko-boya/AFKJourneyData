@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "table": "FishingConditionedFish",
+    "header_table": "FishingConditionedFishHeaderTable",
+    "schema_size": 9,
+    "row_count": 5,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "TypeID": 0,
+    "FishCategory": null,
+    "FishingCondition": "true",
+    "FishKingSlots": {},
+    "BonusCondition": "true",
+    "GalleryButtonCondition": "true",
+    "ItemID": 0
+  },
+  "row_keys": [
+    1335,
+    1665,
+    4195,
+    5155,
+    6195
+  ],
+  "rows": [
+    {
+      "ID": 1335,
+      "Name": "黄金孔雀",
+      "TypeID": 133,
+      "FishCategory": 4,
+      "FishingCondition": "ed.ConditionX.IsExplTaskFinished(12010225,2)",
+      "FishKingSlots": {},
+      "BonusCondition": "ed.ConditionX.C_TimeOfDaySetting(\"Dusk\") or ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "GalleryButtonCondition": "ed.ConditionX.IsExplTaskFinished(12010225,2)",
+      "ItemID": 2801475
+    },
+    {
+      "ID": 1665,
+      "Name": "雾凇影",
+      "TypeID": 166,
+      "FishCategory": 4,
+      "FishingCondition": "ed.ConditionX.IsExplTaskFinished(13010220,5)",
+      "FishKingSlots": {
+        "1": 181,
+        "2": 194,
+        "3": 183,
+        "4": 184,
+        "5": 189,
+        "6": 190,
+        "7": 191
+      },
+      "BonusCondition": "ed.ConditionX.C_TimeOfDaySetting(\"Dawn\")",
+      "GalleryButtonCondition": "ed.ConditionX.IsExplTaskFinished(13010220,5)",
+      "ItemID": 3801599
+    },
+    {
+      "ID": 4195,
+      "Name": "古岩鬣蜥",
+      "TypeID": 419,
+      "FishCategory": 4,
+      "FishingCondition": "ed.ConditionX.IsExplTaskFinished(14010229,2)",
+      "FishKingSlots": {
+        "1": 210,
+        "2": 211,
+        "3": 212,
+        "4": 213
+      },
+      "BonusCondition": "ed.ConditionX.C_TimeOfDaySetting(\"Noon\")",
+      "GalleryButtonCondition": "ed.ConditionX.IsExplTaskFinished(14010229,2)",
+      "ItemID": 4801696
+    },
+    {
+      "ID": 5155,
+      "Name": "金鳞蛇皇",
+      "TypeID": 515,
+      "FishCategory": 4,
+      "FishingCondition": "ed.ConditionX.IsExplTaskFinished(15010233,4)",
+      "FishKingSlots": {
+        "1": 242,
+        "2": 246,
+        "3": 247
+      },
+      "BonusCondition": "ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "GalleryButtonCondition": "ed.ConditionX.IsExplTaskFinished(15010233,4)",
+      "ItemID": 5801903
+    },
+    {
+      "ID": 6195,
+      "Name": "幻灵星游",
+      "TypeID": 619,
+      "FishCategory": 4,
+      "FishingCondition": "ed.ConditionX.IsExplTaskFinished(16010223,400)",
+      "FishKingSlots": {
+        "1": 266,
+        "2": 267,
+        "3": 268,
+        "4": 269,
+        "5": 264,
+        "6": 263,
+        "7": 261,
+        "8": 262,
+        "9": 260,
+        "10": 258
+      },
+      "BonusCondition": "ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "GalleryButtonCondition": "ed.ConditionX.IsExplTaskFinished(16010223,400)",
+      "ItemID": 6801926
+    }
+  ]
+}

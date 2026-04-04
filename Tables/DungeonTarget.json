@@ -1,0 +1,1124 @@
+{
+  "_meta": {
+    "table": "DungeonTarget",
+    "header_table": "DungeonTargetHeaderTable",
+    "schema_size": 8,
+    "row_count": 81,
+    "array_fields": [
+      "FinishEvents",
+      "TargetObjs"
+    ],
+    "unresolved_array_refs": 19
+  },
+  "default": {
+    "ID": "null",
+    "SuccQuestID": 0,
+    "FinishCondition": "true",
+    "FailCondition": "true",
+    "ProgressCondition": "true",
+    "TargetObjs": {},
+    "FinishEvents": {},
+    "FailEvent": null
+  },
+  "row_keys": [
+    700101,
+    700102,
+    700103,
+    700104,
+    700201,
+    700202,
+    700203,
+    700204,
+    700301,
+    700302,
+    700303,
+    700304,
+    700401,
+    700402,
+    700403,
+    700404,
+    700501,
+    700502,
+    700503,
+    700504,
+    701001,
+    701002,
+    701003,
+    701004,
+    700801,
+    700802,
+    700803,
+    700804,
+    700601,
+    700602,
+    700603,
+    700604,
+    700701,
+    700702,
+    700703,
+    700704,
+    701101,
+    701102,
+    701103,
+    701104,
+    701201,
+    701202,
+    701203,
+    701204,
+    701601,
+    701602,
+    701603,
+    701604,
+    701701,
+    701702,
+    701703,
+    701704,
+    701801,
+    701802,
+    701803,
+    701804,
+    701401,
+    701402,
+    701403,
+    701404,
+    701501,
+    701502,
+    701503,
+    701504,
+    701301,
+    701302,
+    701303,
+    701304,
+    701901,
+    701902,
+    701903,
+    701904,
+    702001,
+    702002,
+    702003,
+    702004,
+    702401,
+    702701,
+    702201,
+    702501,
+    702301
+  ],
+  "rows": [
+    {
+      "ID": 700101,
+      "SuccQuestID": 1073001,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10301)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700102,
+      "SuccQuestID": 1073002,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700100022)>=1 and ed.ConditionX.DungeonCounter(10301,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10301,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700100022"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700103,
+      "SuccQuestID": 1073003,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10301,\"MonsterKill\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10301,\"MonsterKill\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700104,
+      "SuccQuestID": 1073004,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10301,\"Weakness\")>=5",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10301,\"Weakness\")>=5",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700201,
+      "SuccQuestID": 1073005,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10302)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700202,
+      "SuccQuestID": 1073006,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700200094)>=1 and ed.ConditionX.DungeonCounter(10302,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10302,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700200094"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700203,
+      "SuccQuestID": 1073007,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10302,\"BackAttack\")>=5",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10302,\"BackAttack\")>=5",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700204,
+      "SuccQuestID": 1073008,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10302,\"MonsterKill\")>=15",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10302,\"MonsterKill\")>=15",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700301,
+      "SuccQuestID": 1073009,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10303)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72864
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700302,
+      "SuccQuestID": 1073010,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700300270)>=1 and ed.ConditionX.DungeonCounter(10303,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10303,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700300270"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700303,
+      "SuccQuestID": 1073011,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10303,\"Weakness\")>=5",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10303,\"Weakness\")>=5",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700304,
+      "SuccQuestID": 1073012,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10303,\"MonsterKill\")>=25",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10303,\"MonsterKill\")>=25",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700401,
+      "SuccQuestID": 1073013,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10304)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72865
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700402,
+      "SuccQuestID": 1073014,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10304,\"Weakness\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10304,\"Weakness\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700403,
+      "SuccQuestID": 1073015,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700400004,700400005)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700400004,700400005)>=2",
+      "TargetObjs": {
+        "1": 700400004,
+        "2": 700400005
+      },
+      "FinishEvents": {
+        "1": "AddState:700400004",
+        "2": "AddState:700400005"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700404,
+      "SuccQuestID": 1073016,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700400092)>=1 and ed.ConditionX.DungeonCounter(10304,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10304,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700400092"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700501,
+      "SuccQuestID": 1073017,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10305)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72866
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700502,
+      "SuccQuestID": 1073018,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700500034,700500023)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700500034,700500023)>=2",
+      "TargetObjs": {
+        "1": 700500034,
+        "2": 700500023
+      },
+      "FinishEvents": {
+        "1": "AddState:700500034",
+        "2": "AddState:700500023"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700503,
+      "SuccQuestID": 1073019,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10305,\"BackAttack\")>=5",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10305,\"BackAttack\")>=5",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700504,
+      "SuccQuestID": 1073020,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700500003)>=1 and ed.ConditionX.DungeonCounter(10305,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10305,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700500003"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701001,
+      "SuccQuestID": 1094001,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10406)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72867
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701002,
+      "SuccQuestID": 1094002,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701000131,701000132)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701000131,701000132)>=2",
+      "TargetObjs": {
+        "1": 701000131,
+        "2": 701000132
+      },
+      "FinishEvents": {
+        "1": "AddState:701000131",
+        "2": "AddState:701000132"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701003,
+      "SuccQuestID": 1094003,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10406,\"BackAttack\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10406,\"BackAttack\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701004,
+      "SuccQuestID": 1094004,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701000103)>=1 and ed.ConditionX.DungeonCounter(10406,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10406,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:701000103"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700801,
+      "SuccQuestID": 1094005,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10401)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72868
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700802,
+      "SuccQuestID": 1094006,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700800101)>=1 and ed.ConditionX.DungeonCounter(10401,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10401,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700800101"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700803,
+      "SuccQuestID": 1094007,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10401,\"BackAttack\")>=3",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10401,\"BackAttack\")>=3",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700804,
+      "SuccQuestID": 1094008,
+      "FinishCondition": "ed.ConditionX.StateCount(\"CShow_2\",700800180,700800181,700800182,700800188,700800195,700800199,700800204,700800205)>=8",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"CShow_2\",700800180,700800181,700800182,700800188,700800195,700800199,700800204,700800205)>=8",
+      "TargetObjs": {
+        "1": 700800180,
+        "2": 700800181,
+        "3": 700800182,
+        "4": 700800188,
+        "5": 700800195,
+        "6": 700800199,
+        "7": 700800204,
+        "8": 700800205
+      },
+      "FinishEvents": {
+        "1": "AddState:700800180",
+        "2": "AddState:700800181",
+        "3": "AddState:700800182",
+        "4": "AddState:700800188",
+        "5": "AddState:700800195",
+        "6": "AddState:700800199",
+        "7": "AddState:700800204",
+        "8": "AddState:700800205"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700601,
+      "SuccQuestID": 1094009,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10402)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72869
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700602,
+      "SuccQuestID": 1094010,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",700600021)>=1 and ed.ConditionX.DungeonCounter(10402,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10402,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700600021"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700603,
+      "SuccQuestID": 1094011,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10402,\"BackAttack\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10402,\"BackAttack\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700604,
+      "SuccQuestID": 1094012,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10402,\"MonsterKill\")>=25",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10402,\"MonsterKill\")>=25",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700701,
+      "SuccQuestID": 1094013,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10403)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "1": 700700002
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 700702,
+      "SuccQuestID": 1094014,
+      "FinishCondition": "not ed.ConditionX.HasState(700700002,\"Interactive\") and ed.ConditionX.DungeonCounter(10403,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10403,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "$arrayRef": 72881
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700703,
+      "SuccQuestID": 1094015,
+      "FinishCondition": "ed.ConditionX.HasState(700700002,\"CShow_1\")",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "$arrayRef": 72881
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 700704,
+      "SuccQuestID": 1094016,
+      "FinishCondition": "ed.ConditionX.StateCount(\"CShow_1\",700700125,700700126,700700127,700700128,700700129,700700130,700700131,700700132,700700133,700700134,700700135,700700136,700700137)>=13",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"CShow_1\",700700125,700700126,700700127,700700128,700700129,700700130,700700131,700700132,700700133,700700134,700700135,700700136,700700137)>=13",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:700700125",
+        "2": "AddState:700700126",
+        "3": "AddState:700700127",
+        "4": "AddState:700700128",
+        "5": "AddState:700700129",
+        "6": "AddState:700700130",
+        "7": "AddState:700700131",
+        "8": "AddState:700700132",
+        "9": "AddState:700700133",
+        "10": "AddState:700700134",
+        "11": "AddState:700700135",
+        "12": "AddState:700700136",
+        "13": "AddState:700700137"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701101,
+      "SuccQuestID": 1094017,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10404)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701102,
+      "SuccQuestID": 1094018,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10404) and ed.ConditionX.DungeonCounter(10404,\"UseStaminaPoint\")<=1",
+      "FailCondition": "ed.ConditionX.DungeonCounter(10404,\"UseStaminaPoint\")>1",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701103,
+      "SuccQuestID": 1094019,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10404,\"MonsterKill\")>=20",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10404,\"MonsterKill\")>=20",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701104,
+      "SuccQuestID": 1094020,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10404,\"BoxReward\")>=15",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10404,\"BoxReward\")>=15",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701201,
+      "SuccQuestID": 1094021,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10405)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72870
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701202,
+      "SuccQuestID": 1094022,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10405,\"BackAttack\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10405,\"BackAttack\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701203,
+      "SuccQuestID": 1094023,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10405,\"BoxReward\")>=8",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10405,\"BoxReward\")>=8",
+      "TargetObjs": {
+        "1": 701200121,
+        "2": 701200122,
+        "3": 701200123,
+        "4": 701200124,
+        "5": 701200125,
+        "6": 701200126,
+        "7": 701200127,
+        "8": 701200128
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701204,
+      "SuccQuestID": 1094024,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701200117)>=1",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701200117)>=1",
+      "TargetObjs": {
+        "$arrayRef": 72871
+      },
+      "FinishEvents": {
+        "1": "AddState:701200117"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701601,
+      "SuccQuestID": 1133001,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10504)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72872
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701602,
+      "SuccQuestID": 1133002,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10504,\"MonsterKill\")>=20",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10504,\"MonsterKill\")>=20",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701603,
+      "SuccQuestID": 1133003,
+      "FinishCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701600218,701600220,701600462)>=3",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701600218,701600220,701600462)>=3",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:701600218",
+        "2": "AddState:701600220",
+        "3": "AddState:701600462"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701604,
+      "SuccQuestID": 1133004,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701600243,701600244)>=1",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701600243,701600244)>=1",
+      "TargetObjs": {
+        "1": 701600243,
+        "2": 701600244
+      },
+      "FinishEvents": {
+        "1": "AddState:701600243",
+        "2": "AddState:701600244"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701701,
+      "SuccQuestID": 1133005,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10505)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701702,
+      "SuccQuestID": 1133006,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10505,\"MonsterKill\")>=15",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10505,\"MonsterKill\")>=15",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701703,
+      "SuccQuestID": 1133007,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10505,\"BackAttack\")>=5",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10505,\"BackAttack\")>=5",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701704,
+      "SuccQuestID": 1133008,
+      "FinishCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701701352,701701353,701701354,701701355)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701701352,701701353,701701354,701701355)>=2",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:701701352",
+        "2": "AddState:701701353",
+        "3": "AddState:701701354",
+        "4": "AddState:701701355"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701801,
+      "SuccQuestID": 1133009,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10506)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72873
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701802,
+      "SuccQuestID": 1133010,
+      "FinishCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701800168,701800169,701800170,701800171,701800172,701800173)>=6",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",701800168,701800169,701800170,701800171,701800172,701800173)>=6",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:701800168",
+        "2": "AddState:701800169",
+        "3": "AddState:701800170",
+        "4": "AddState:701800171",
+        "5": "AddState:701800172",
+        "6": "AddState:701800173"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701803,
+      "SuccQuestID": 1133011,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701800224,701800225)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701800224,701800225)>=2",
+      "TargetObjs": {
+        "1": 701800224,
+        "2": 701800225
+      },
+      "FinishEvents": {
+        "1": "AddState:701800224",
+        "2": "AddState:701800225"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701804,
+      "SuccQuestID": 1133012,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10506,\"BoxReward\")>=15",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10506,\"BoxReward\")>=15",
+      "TargetObjs": {
+        "1": 701800174,
+        "2": 701800175,
+        "3": 701800176,
+        "4": 701800177,
+        "5": 701800178,
+        "6": 701800179,
+        "7": 701800180,
+        "8": 701800181,
+        "9": 701800182,
+        "10": 701800184,
+        "11": 701800185,
+        "12": 701800186,
+        "13": 701800187,
+        "14": 701800188,
+        "15": 701800189,
+        "16": 701800190,
+        "17": 701800191,
+        "18": 701800197,
+        "19": 701800247,
+        "20": 701800260,
+        "21": 701800261,
+        "22": 701800262,
+        "23": 701800297,
+        "24": 701800299,
+        "25": 701800300,
+        "26": 701800301,
+        "27": 701800302,
+        "28": 701800303,
+        "29": 701800304,
+        "30": 701800305,
+        "31": 701800306,
+        "32": 701800307
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701401,
+      "SuccQuestID": 1133013,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10502)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72874
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701402,
+      "SuccQuestID": 1133014,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10502,\"BoxReward\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10502,\"BoxReward\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701403,
+      "SuccQuestID": 1133015,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10502,\"BackAttack\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10502,\"BackAttack\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701404,
+      "SuccQuestID": 1133016,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DoorOpen\",701400171,701400172,701400173)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DoorOpen\",701400171,701400172,701400173)>=2",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:701400171",
+        "2": "AddState:701400172",
+        "3": "AddState:701400173"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701501,
+      "SuccQuestID": 1133017,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10503)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701502,
+      "SuccQuestID": 1133018,
+      "FinishCondition": "ed.ConditionX.StateCount(\"CShow_3\",701500291,701500343,701500344)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"CShow_3\",701500291,701500343,701500344)>=2",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:701500291",
+        "2": "AddState:701500343",
+        "3": "AddState:701500344"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701503,
+      "SuccQuestID": 1133019,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10503,\"MonsterKill\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10503,\"MonsterKill\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701504,
+      "SuccQuestID": 1133020,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DoorOpen\",701500204,701500205,701500206,701500346,701500523)>=4",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DoorOpen\",701500204,701500205,701500206,701500346,701500523)>=4",
+      "TargetObjs": {},
+      "FinishEvents": {
+        "1": "AddState:701500204",
+        "2": "AddState:701500205",
+        "3": "AddState:701500206",
+        "4": "AddState:701500346",
+        "5": "AddState:701500523"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701301,
+      "SuccQuestID": 1133021,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10501)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72875
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701302,
+      "SuccQuestID": 1133022,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10501,\"MonsterKill\")>=15",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10501,\"MonsterKill\")>=15",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701303,
+      "SuccQuestID": 1133023,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10501,\"BackAttack\")>=5",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10501,\"BackAttack\")>=5",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701304,
+      "SuccQuestID": 1133024,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",702100159,701300159)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",702100159,701300159)>=2",
+      "TargetObjs": {
+        "1": 702100159,
+        "2": 701300159
+      },
+      "FinishEvents": {
+        "1": "AddState:702100159",
+        "2": "AddState:701300159"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701901,
+      "SuccQuestID": 1133025,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10507)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72876
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701902,
+      "SuccQuestID": 1133026,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10507,\"MonsterGroupUnique\")>=3",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10507,\"MonsterGroupUnique\")>=3",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 701903,
+      "SuccQuestID": 1133027,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701900088,701900089)>=2",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701900088,701900089)>=2",
+      "TargetObjs": {
+        "1": 701900088,
+        "2": 701900089
+      },
+      "FinishEvents": {
+        "1": "AddState:701900088",
+        "2": "AddState:701900089"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 701904,
+      "SuccQuestID": 1133028,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10507,\"Weakness\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10507,\"Weakness\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702001,
+      "SuccQuestID": 1133029,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10508)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72877
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702002,
+      "SuccQuestID": 1133030,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10508,\"MonsterGroupUnique\")>=5",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10508,\"MonsterGroupUnique\")>=5",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702003,
+      "SuccQuestID": 1133031,
+      "FinishCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",702000294)>=1",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",702000294)>=1",
+      "TargetObjs": {
+        "$arrayRef": 72878
+      },
+      "FinishEvents": {
+        "1": "AddState:702000294"
+      },
+      "FailEvent": null
+    },
+    {
+      "ID": 702004,
+      "SuccQuestID": 1133032,
+      "FinishCondition": "ed.ConditionX.DungeonCounter(10508,\"Weakness\")>=10",
+      "FailCondition": "false",
+      "ProgressCondition": "ed.ConditionX.DungeonCounter(10508,\"Weakness\")>=10",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702401,
+      "SuccQuestID": 1175001,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10602)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72879
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702701,
+      "SuccQuestID": 1175003,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10603)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {
+        "$arrayRef": 72880
+      },
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702201,
+      "SuccQuestID": 1175002,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10604)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702501,
+      "SuccQuestID": 1175004,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10601)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 702301,
+      "SuccQuestID": 1175005,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10605)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    }
+  ]
+}
