@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "table": "HomesteadOrderParam",
+    "header_table": "HomesteadOrderParamHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 13,
+    "row_count": 1,
+    "array_fields": [
+      "BuildingID",
+      "RandomSameBuildingFactor",
+      "RandomSameItemGroupFactor",
+      "RefreshSpeedUpCost",
+      "UnlockByBuildingIDLevel"
+    ],
+    "unresolved_array_refs": 5
+  },
+  "default": {
+    "ID": "null",
+    "BubbleTime": 0,
+    "DailyRewardQuestGroup": 0,
+    "BuildingID": {},
+    "RefreshInterval": 0,
+    "RefreshSpeedUpCost": {},
+    "BuildingLevelUpInterventionNum": 0,
+    "RandomBuildingLevelGap": 0,
+    "RandomBuildingLevelGapFactor": {},
+    "RandomSameBuildingFactor": {},
+    "RandomSameItemGroupFactor": {},
+    "UnlockByBuildingIDLevel": {},
+    "StarShowMax": 0
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "BubbleTime": 10,
+      "DailyRewardQuestGroup": 1183,
+      "BuildingID": {
+        "$arrayRef": 72360
+      },
+      "RefreshInterval": 300,
+      "RefreshSpeedUpCost": {
+        "$arrayRef": 76670
+      },
+      "BuildingLevelUpInterventionNum": 3,
+      "RandomBuildingLevelGap": 2,
+      "RandomBuildingLevelGapFactor": {
+        "1": 1,
+        "2": 70,
+        "3": 2,
+        "4": 50
+      },
+      "RandomSameBuildingFactor": {
+        "$arrayRef": 76671
+      },
+      "RandomSameItemGroupFactor": {
+        "$arrayRef": 76671
+      },
+      "UnlockByBuildingIDLevel": {
+        "$arrayRef": 58050
+      },
+      "StarShowMax": 15
+    }
+  ]
+}

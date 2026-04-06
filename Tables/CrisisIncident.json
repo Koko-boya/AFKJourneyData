@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "table": "CrisisIncident",
+    "header_table": "CrisisIncidentHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 22,
+    "row_count": 1,
+    "array_fields": [
+      "MapIDs",
+      "MonsterSpawnTime"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "IncidentID": "null",
+    "IncidentName": null,
+    "ActivityType": null,
+    "OpenCondition": "true",
+    "DefaultStamina": 0,
+    "RatingScoreCoeff": {},
+    "InteractionStaminaContributionRatio": 0,
+    "MonsterLifeCycle": {},
+    "ClientMonsterHideTime": 0,
+    "MonsterSpawnTime": {},
+    "BattleStaminaSuccessCost": 0,
+    "BattleStaminaFailCost": 0,
+    "ContributionRewardFloor": 0,
+    "ContributionReward": {},
+    "TeamCfgId": 0,
+    "ShareMonsterScoreCoeff": {},
+    "StaminaBoostValue": {},
+    "MatchInterval": 0,
+    "MatchTimeout": 0,
+    "StdLvID": 0,
+    "Duration": 0,
+    "MapIDs": {}
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "IncidentID": 1,
+      "IncidentName": "3653177851595683099",
+      "ActivityType": 1,
+      "OpenCondition": "ed.ConditionX.IsScheduleOpened(\"ProgressionBar\") and not ed.ConditionX.C_IsHarvestGodPointReach() and ed.ConditionX.IsExplStepFinished(15010234,3,4)",
+      "DefaultStamina": 50,
+      "RatingScoreCoeff": {
+        "1": 49,
+        "2": 100,
+        "3": 79,
+        "4": 110,
+        "5": 99,
+        "6": 130,
+        "7": 159,
+        "8": 150,
+        "9": 199,
+        "10": 180,
+        "11": 9999,
+        "12": 200
+      },
+      "InteractionStaminaContributionRatio": 1,
+      "MonsterLifeCycle": {
+        "1": 60,
+        "2": 90,
+        "3": 90,
+        "4": 120
+      },
+      "ClientMonsterHideTime": 30,
+      "MonsterSpawnTime": {
+        "$arrayRef": 71652
+      },
+      "BattleStaminaSuccessCost": 20,
+      "BattleStaminaFailCost": 10,
+      "ContributionRewardFloor": 80,
+      "ContributionReward": {},
+      "TeamCfgId": 3,
+      "ShareMonsterScoreCoeff": {
+        "1": 5,
+        "2": 30,
+        "3": 10,
+        "4": 35,
+        "5": 13,
+        "6": 38,
+        "7": 15,
+        "8": 40,
+        "9": 18,
+        "10": 43,
+        "11": 20,
+        "12": 45,
+        "13": 22,
+        "14": 48,
+        "15": 24,
+        "16": 50
+      },
+      "StaminaBoostValue": {
+        "1": 1,
+        "2": 10,
+        "3": 5,
+        "4": 10,
+        "5": 9,
+        "6": 10
+      },
+      "MatchInterval": 5,
+      "MatchTimeout": 8,
+      "StdLvID": 29009,
+      "Duration": 1800,
+      "MapIDs": {
+        "$arrayRef": 62
+      }
+    }
+  ]
+}

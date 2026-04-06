@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "table": "ShareSocialMedia",
+    "header_table": "ShareSocialMediaHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 5,
+    "array_fields": [
+      "FirstShareReward"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "ShareAction": "null",
+    "FirstShareReward": {},
+    "Condition": "true",
+    "InsideBubbleHint": false
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rows": [
+    {
+      "ShareAction": 1,
+      "FirstShareReward": {
+        "$arrayRef": 71907
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
+      "InsideBubbleHint": false
+    },
+    {
+      "ShareAction": 2,
+      "FirstShareReward": {},
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
+      "InsideBubbleHint": false
+    },
+    {
+      "ShareAction": 3,
+      "FirstShareReward": {},
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
+      "InsideBubbleHint": true
+    },
+    {
+      "ShareAction": 4,
+      "FirstShareReward": {},
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
+      "InsideBubbleHint": false
+    },
+    {
+      "ShareAction": 5,
+      "FirstShareReward": {},
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
+      "InsideBubbleHint": false
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "table": "RecordSlotRule",
+    "header_table": "RecordSlotRuleHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 8,
+    "row_count": 3,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "MaxCount": 0,
+    "MinVicRate": 0,
+    "MinMatchScore": 0,
+    "MatchScoreWeight": 0,
+    "RateWeight": 0,
+    "MinAutoCount": 0,
+    "MinAttempt": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "MaxCount": 3,
+      "MinVicRate": 50,
+      "MinMatchScore": 50,
+      "MatchScoreWeight": 1,
+      "RateWeight": 0,
+      "MinAutoCount": 1,
+      "MinAttempt": 20
+    },
+    {
+      "ID": 2,
+      "MaxCount": 3,
+      "MinVicRate": 10,
+      "MinMatchScore": 200,
+      "MatchScoreWeight": 1,
+      "RateWeight": 0,
+      "MinAutoCount": 1,
+      "MinAttempt": 20
+    },
+    {
+      "ID": 3,
+      "MaxCount": 2,
+      "MinVicRate": 5,
+      "MinMatchScore": 0,
+      "MatchScoreWeight": 0,
+      "RateWeight": 100,
+      "MinAutoCount": 0,
+      "MinAttempt": 20
+    }
+  ]
+}

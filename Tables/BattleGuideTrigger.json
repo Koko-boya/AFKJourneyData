@@ -1,0 +1,361 @@
+{
+  "_meta": {
+    "table": "BattleGuideTrigger",
+    "header_table": "BattleGuideTriggerHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 23,
+    "array_fields": [
+      "TargetParam",
+      "TriggerParam"
+    ],
+    "unresolved_array_refs": 19
+  },
+  "default": {
+    "GuideTriggerID": "null",
+    "RuleDes": null,
+    "TargetType": null,
+    "TargetCamp": 0,
+    "TargetParam": {},
+    "TriggerType": null,
+    "TriggerParam": {},
+    "TriggerCompare": null,
+    "TriggerParamS": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    101,
+    102,
+    104,
+    105,
+    902,
+    201,
+    202,
+    203,
+    204
+  ],
+  "rows": [
+    {
+      "GuideTriggerID": 1,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TriggerType": "in_circle",
+      "TriggerParam": {
+        "$arrayRef": 69000
+      },
+      "TriggerCompare": "greater",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 2,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TriggerType": "out_circle",
+      "TriggerParam": {
+        "$arrayRef": 69000
+      },
+      "TriggerCompare": "less",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 3,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TriggerType": "in_rect",
+      "TriggerParam": {
+        "$arrayRef": 69001
+      },
+      "TriggerCompare": "equal",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 4,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TriggerType": "out_rect",
+      "TriggerParam": {
+        "$arrayRef": 69001
+      },
+      "TriggerCompare": "greater_equal",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 5,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "in_circle",
+      "TriggerParam": {
+        "1": 0,
+        "2": 10,
+        "3": 4,
+        "4": 2
+      },
+      "TriggerCompare": "less_equal",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 6,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "organ_detector",
+      "TriggerParam": {
+        "1": 4,
+        "2": 1,
+        "3": 5,
+        "4": 0
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 7,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "duration_time",
+      "TriggerParam": {
+        "$arrayRef": 69002
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 10,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "duration_time",
+      "TriggerParam": {
+        "$arrayRef": 55545
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 11,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "duration_time",
+      "TriggerParam": {
+        "$arrayRef": 435
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 12,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "organ_detector",
+      "TriggerParam": {
+        "1": 31,
+        "2": 0
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 13,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TriggerType": "in_circle",
+      "TriggerParam": {
+        "1": 9.84,
+        "2": -2.1,
+        "3": 200,
+        "4": 1
+      },
+      "TriggerCompare": "greater_equal",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 14,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "organ_detector",
+      "TriggerParam": {
+        "$arrayRef": 69003
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 15,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "organ_detector",
+      "TriggerParam": {
+        "$arrayRef": 69004
+      },
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 16,
+      "RuleDes": null,
+      "TargetType": "Slot",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 45
+      },
+      "TriggerType": "unit_hpr",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerCompare": "less",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 101,
+      "RuleDes": null,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 68997
+      },
+      "TriggerType": "can_cast_manual",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 102,
+      "RuleDes": null,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 68998
+      },
+      "TriggerType": "can_cast_manual",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 104,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {
+        "$arrayRef": 68999
+      },
+      "TriggerType": "in_fightele_skillrange",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": "manual"
+    },
+    {
+      "GuideTriggerID": 105,
+      "RuleDes": null,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TriggerType": "duration_time",
+      "TriggerParam": {
+        "$arrayRef": 3028
+      },
+      "TriggerCompare": "greater_equal",
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 902,
+      "RuleDes": null,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 2442
+      },
+      "TriggerType": "can_cast_manual",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 201,
+      "RuleDes": null,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 58
+      },
+      "TriggerType": "can_cast_manual",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 202,
+      "RuleDes": null,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 405
+      },
+      "TriggerType": "can_cast_manual",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 203,
+      "RuleDes": null,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 192
+      },
+      "TriggerType": "can_cast_manual",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    },
+    {
+      "GuideTriggerID": 204,
+      "RuleDes": null,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TriggerType": "can_cast_manual",
+      "TriggerParam": {},
+      "TriggerCompare": null,
+      "TriggerParamS": null
+    }
+  ]
+}

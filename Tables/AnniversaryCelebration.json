@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "table": "AnniversaryCelebration",
+    "header_table": "AnniversaryCelebrationHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 27,
+    "row_count": 1,
+    "array_fields": [
+      "QuestGroupReward",
+      "TreeReward"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "ID": "null",
+    "DancePartyID": 0,
+    "PreviewSeconds": 0,
+    "QuestGroupID": 0,
+    "QuestGroupReward": {},
+    "ScheduleID": 0,
+    "DancePartyNPC": 0,
+    "SeedTag": null,
+    "QuestTag": null,
+    "FinalQuestDes": null,
+    "DanceScheduleTitle": null,
+    "DanceScheduleDes": null,
+    "PhotoDes": null,
+    "SeedTipTitle": null,
+    "SeedTipContent": null,
+    "TreeTipTitle": null,
+    "TreeTipContent": null,
+    "SeedTutorial": null,
+    "TreeTutorial": null,
+    "SeedButton": null,
+    "SeedEditButton": null,
+    "TreeButton": null,
+    "ProgressBarDes": null,
+    "EnterTreeTimelineAction": "true",
+    "ExitrTreeTimelineAction": "true",
+    "DanceCondition": "true",
+    "TreeReward": {}
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "DancePartyID": 2,
+      "PreviewSeconds": 250,
+      "QuestGroupID": 9,
+      "QuestGroupReward": {
+        "$arrayRef": 50
+      },
+      "ScheduleID": 64,
+      "DancePartyNPC": 4177951,
+      "SeedTag": "10407835690223852119",
+      "QuestTag": "15448385435892886993",
+      "FinalQuestDes": "15216697509075014120",
+      "DanceScheduleTitle": "9106906591443764732",
+      "DanceScheduleDes": "11257556045432912722",
+      "PhotoDes": "6800049093890061221",
+      "SeedTipTitle": "882492773744913961",
+      "SeedTipContent": "7383164302526391479",
+      "TreeTipTitle": "7262793514617233084",
+      "TreeTipContent": "13543057870718172557",
+      "SeedTutorial": "5553572042979997968",
+      "TreeTutorial": "17471004458549152046",
+      "SeedButton": "15303244439476970037",
+      "SeedEditButton": "489008473597228428",
+      "TreeButton": "2005052482978936113",
+      "ProgressBarDes": "714891318966494963",
+      "EnterTreeTimelineAction": "ed.ActionX.HideObject(4177951)",
+      "ExitrTreeTimelineAction": "ed.ActionX.ShowObject(4177951)",
+      "DanceCondition": "ed.ConditionX.ScheduleOpenedDays(64)>17 and ed.ConditionX.ScheduleOpenedDays(64)<25",
+      "TreeReward": {
+        "$arrayRef": 51
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "table": "ShareRank",
+    "header_table": "ShareRankHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 5,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ModeCategory": "null",
+    "Type": null,
+    "ShareCondition": "true",
+    "ShareIconDisplayCondition": "true"
+  },
+  "row_keys": [
+    5,
+    22,
+    29,
+    14,
+    47
+  ],
+  "rows": [
+    {
+      "ModeCategory": 5,
+      "Type": 1,
+      "ShareCondition": "(ed.ConditionX.GetDreamBossCurrentBattleRank()<100 and ed.ConditionX.GetDreamBossCurrentBattleRank()>0 and ed.ConditionX.IsDreamBossLastBattleTodayNewDamage()) or (ed.ConditionX.Best(9)<0.1 and ed.ConditionX.IsDreamBossLastBattleTodayNewDamage())",
+      "ShareIconDisplayCondition": "ed.ConditionX.GetDreamBossCurrentBattleRank()<100 and ed.ConditionX.GetDreamBossCurrentBattleRank()>0 or ed.ConditionX.Best(9)<0.1"
+    },
+    {
+      "ModeCategory": 22,
+      "Type": 2,
+      "ShareCondition": "ed.ConditionX.IsDisasterLastBattleNewPeriodDamage() and ed.ConditionX.GetDisasterBossCurrentBattleRank()<100 and ed.ConditionX.GetDisasterBossCurrentBattleRank()>0",
+      "ShareIconDisplayCondition": "ed.ConditionX.GetDisasterBossCurrentBattleRank()<100 and ed.ConditionX.GetDisasterBossCurrentBattleRank()>0"
+    },
+    {
+      "ModeCategory": 29,
+      "Type": 4,
+      "ShareCondition": "ed.ConditionX.IsBossRushBattleNewMaxDamage()",
+      "ShareIconDisplayCondition": "true"
+    },
+    {
+      "ModeCategory": 14,
+      "Type": 3,
+      "ShareCondition": "true",
+      "ShareIconDisplayCondition": "true"
+    },
+    {
+      "ModeCategory": 47,
+      "Type": 5,
+      "ShareCondition": "false",
+      "ShareIconDisplayCondition": "ed.ConditionX.C_CurrentHarvestGodBattleNotLock()"
+    }
+  ]
+}

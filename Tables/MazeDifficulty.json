@@ -1,0 +1,496 @@
+{
+  "_meta": {
+    "table": "MazeDifficulty",
+    "header_table": "MazeDifficultyHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 18,
+    "row_count": 15,
+    "array_fields": [
+      "FirstPassRewards",
+      "UnlockDescParam1",
+      "UnlockDescParam2",
+      "UnlockDescParam3",
+      "UnlockHeirloomSeries"
+    ],
+    "unresolved_array_refs": 46
+  },
+  "default": {
+    "ID": "null",
+    "MaxRoomAmount": 0,
+    "PassRoomID": 0,
+    "PassRewardPoint": 0,
+    "FirstPassRewards": {},
+    "UnlockHeirloomSeries": {},
+    "MaxPointRewardID": 0,
+    "StdLvID": 0,
+    "HeroNum": 0,
+    "UnlockCondition1": "true",
+    "UnlockDesc1": null,
+    "UnlockDescParam1": {},
+    "UnlockCondition2": "true",
+    "UnlockDesc2": null,
+    "UnlockDescParam2": {},
+    "UnlockCondition3": "true",
+    "UnlockDesc3": null,
+    "UnlockDescParam3": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "MaxRoomAmount": 15,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1350,
+      "FirstPassRewards": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 1001,
+        "5": 100000007,
+        "6": 200
+      },
+      "UnlockHeirloomSeries": {
+        "$arrayRef": 54481
+      },
+      "MaxPointRewardID": 8,
+      "StdLvID": 1001,
+      "HeroNum": 5,
+      "UnlockCondition1": "true",
+      "UnlockDesc1": null,
+      "UnlockDescParam1": {},
+      "UnlockCondition2": "true",
+      "UnlockDesc2": null,
+      "UnlockDescParam2": {},
+      "UnlockCondition3": "true",
+      "UnlockDesc3": null,
+      "UnlockDescParam3": {}
+    },
+    {
+      "ID": 2,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1400,
+      "FirstPassRewards": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 1001,
+        "5": 100000007,
+        "6": 400
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 9,
+      "StdLvID": 1002,
+      "HeroNum": 10,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=1",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 45
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=50",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 5828
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(6)>=4",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "$arrayRef": 71657
+      }
+    },
+    {
+      "ID": 3,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1500,
+      "FirstPassRewards": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 1001,
+        "5": 100000007,
+        "6": 600
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 10,
+      "StdLvID": 1003,
+      "HeroNum": 10,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=2",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 46
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=65",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 1436
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(7)>=4",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 7,
+        "2": 4
+      }
+    },
+    {
+      "ID": 4,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1600,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 11,
+      "StdLvID": 1004,
+      "HeroNum": 10,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=3",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 47
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=80",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 207
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(8)>=2",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "$arrayRef": 93288
+      }
+    },
+    {
+      "ID": 5,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1650,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 12,
+      "StdLvID": 1005,
+      "HeroNum": 10,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=4",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 48
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=90",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 1582
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(8)>=4",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "$arrayRef": 77416
+      }
+    },
+    {
+      "ID": 6,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1750,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 13,
+      "StdLvID": 1006,
+      "HeroNum": 10,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=5",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 44
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=100",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 213
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(9)>=2",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 9,
+        "2": 2
+      }
+    },
+    {
+      "ID": 7,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1850,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 14,
+      "StdLvID": 1007,
+      "HeroNum": 10,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=6",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 49
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=110",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 216
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(9)>=4",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 9,
+        "2": 4
+      }
+    },
+    {
+      "ID": 8,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 1900,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 15,
+      "StdLvID": 1008,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=7",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 405
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=120",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 2774
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(10)>=2",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 10,
+        "2": 2
+      }
+    },
+    {
+      "ID": 9,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 2000,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 16,
+      "StdLvID": 1009,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=8",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 181
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=130",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 68
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(10)>=4",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 10,
+        "2": 4
+      }
+    },
+    {
+      "ID": 10,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 2100,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 17,
+      "StdLvID": 1010,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=9",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 60
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=140",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 229
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(11)>=2",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "$arrayRef": 93289
+      }
+    },
+    {
+      "ID": 11,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 2150,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 18,
+      "StdLvID": 1011,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=10",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 62
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=150",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 234
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(11)>=4",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 11,
+        "2": 4
+      }
+    },
+    {
+      "ID": 12,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 2250,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 19,
+      "StdLvID": 1012,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=11",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 183
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=160",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 2779
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(12)>=2",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 12,
+        "2": 2
+      }
+    },
+    {
+      "ID": 13,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 2350,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 20,
+      "StdLvID": 1013,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=12",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 182
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=170",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 7096
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(12)>=4",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 12,
+        "2": 4
+      }
+    },
+    {
+      "ID": 14,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 2400,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 21,
+      "StdLvID": 1014,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=13",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 61
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=190",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 1441
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(13)>=1",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "$arrayRef": 77372
+      }
+    },
+    {
+      "ID": 15,
+      "MaxRoomAmount": 20,
+      "PassRoomID": 15,
+      "PassRewardPoint": 2500,
+      "FirstPassRewards": {
+        "$arrayRef": 438
+      },
+      "UnlockHeirloomSeries": {},
+      "MaxPointRewardID": 22,
+      "StdLvID": 1015,
+      "HeroNum": 12,
+      "UnlockCondition1": "ed.ConditionX.Best(12)>=14",
+      "UnlockDesc1": "9928979908079291720",
+      "UnlockDescParam1": {
+        "$arrayRef": 63
+      },
+      "UnlockCondition2": "ed.ConditionX.KnightLevel()>=210",
+      "UnlockDesc2": "14477651220126931583",
+      "UnlockDescParam2": {
+        "$arrayRef": 72
+      },
+      "UnlockCondition3": "ed.ConditionX.HeroCountByQuality(13)>=2",
+      "UnlockDesc3": "2137037273767088902",
+      "UnlockDescParam3": {
+        "1": 13,
+        "2": 2
+      }
+    }
+  ]
+}

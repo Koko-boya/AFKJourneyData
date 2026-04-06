@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "table": "SpringFishStrongRobTimes",
+    "header_table": "SpringFishStrongRobTimesHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 3,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "Condition": "true",
+    "MaxTimes": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Condition": "ed.ConditionX.SpringBusinessShopLevel()>=1",
+      "MaxTimes": 10
+    },
+    {
+      "ID": 2,
+      "Condition": "ed.ConditionX.SpringBusinessShopLevel()>=5",
+      "MaxTimes": 15
+    },
+    {
+      "ID": 3,
+      "Condition": "ed.ConditionX.SpringBusinessShopLevel()>=8",
+      "MaxTimes": 20
+    },
+    {
+      "ID": 4,
+      "Condition": "ed.ConditionX.SpringBusinessShopLevel()>=11",
+      "MaxTimes": 25
+    }
+  ]
+}

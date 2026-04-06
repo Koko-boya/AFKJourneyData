@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "table": "OceanTradeFunctionUnlock",
+    "header_table": "OceanTradeFunctionUnlockHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 3,
+    "row_count": 5,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "FunctionName": "null",
+    "UnlockCondition": "true",
+    "UnlockRoundSet": 0
+  },
+  "row_keys": [
+    "Trade",
+    "Request",
+    "Battle",
+    "Traveler",
+    "BlackShop"
+  ],
+  "rows": [
+    {
+      "FunctionName": "Trade",
+      "UnlockCondition": "true",
+      "UnlockRoundSet": 0
+    },
+    {
+      "FunctionName": "Request",
+      "UnlockCondition": "true",
+      "UnlockRoundSet": 0
+    },
+    {
+      "FunctionName": "Battle",
+      "UnlockCondition": "ed.ConditionX.Best(96)>=1",
+      "UnlockRoundSet": 2
+    },
+    {
+      "FunctionName": "Traveler",
+      "UnlockCondition": "ed.ConditionX.Best(96)>=2",
+      "UnlockRoundSet": 3
+    },
+    {
+      "FunctionName": "BlackShop",
+      "UnlockCondition": "ed.ConditionX.Best(96)>=6",
+      "UnlockRoundSet": 7
+    }
+  ]
+}

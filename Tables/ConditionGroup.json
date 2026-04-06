@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "table": "ConditionGroup",
+    "header_table": "ConditionGroupHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 6,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "InteractCondition": "true",
+    "Param": {},
+    "ErrorNote": null
+  },
+  "row_keys": [
+    101,
+    103,
+    104,
+    105,
+    106,
+    107
+  ],
+  "rows": [
+    {
+      "ID": 101,
+      "InteractCondition": "false",
+      "Param": {},
+      "ErrorNote": "313527765149717120"
+    },
+    {
+      "ID": 103,
+      "InteractCondition": "ed.ConditionX.KnightLevel()>10 and ed.ConditionX.KnightLevel()<20",
+      "Param": {
+        "1": "10",
+        "2": "20"
+      },
+      "ErrorNote": "12378601837241584403"
+    },
+    {
+      "ID": 104,
+      "InteractCondition": "ed.ConditionX.IsExplTaskFinished(10020272,1)",
+      "Param": {},
+      "ErrorNote": "14886854761343764645"
+    },
+    {
+      "ID": 105,
+      "InteractCondition": "ed.ConditionX.IsExplTaskFinished(10020273,1)",
+      "Param": {},
+      "ErrorNote": "15297493377469871112"
+    },
+    {
+      "ID": 106,
+      "InteractCondition": "ed.ConditionX.IsExplTaskFinished(10020272,1) and ed.ConditionX.IsExplTaskFinished(10020115,3)",
+      "Param": {},
+      "ErrorNote": "6747901498692576935"
+    },
+    {
+      "ID": 107,
+      "InteractCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
+      "Param": {},
+      "ErrorNote": "12876382526692962156"
+    }
+  ]
+}

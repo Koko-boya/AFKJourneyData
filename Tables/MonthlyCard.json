@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "table": "MonthlyCard",
+    "header_table": "MonthlyCardHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 15,
+    "row_count": 4,
+    "array_fields": [
+      "DailyReward",
+      "InstantReward"
+    ],
+    "unresolved_array_refs": 5
+  },
+  "default": {
+    "ID": "null",
+    "CategoryName": null,
+    "Type": null,
+    "Showtime": 0,
+    "DiscountDisplay": 0,
+    "Duration": 0,
+    "MaxDuration": 0,
+    "FirstReward": {},
+    "InstantReward": {},
+    "DailyReward": {},
+    "MaxRewardStorageDay": 0,
+    "BackgroundIcon": null,
+    "RedDotID": 0,
+    "SpriteName": null,
+    "BuyCondition": "true"
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "CategoryName": "伊索米亚月刊",
+      "Type": 1,
+      "Showtime": 4,
+      "DiscountDisplay": 3500,
+      "Duration": 30,
+      "MaxDuration": 300,
+      "FirstReward": {},
+      "InstantReward": {
+        "$arrayRef": 72189
+      },
+      "DailyReward": {
+        "$arrayRef": 361
+      },
+      "MaxRewardStorageDay": 300,
+      "BackgroundIcon": null,
+      "RedDotID": 0,
+      "SpriteName": "<size=140%><sprite name=Diamond></size>x${1}",
+      "BuyCondition": "true"
+    },
+    {
+      "ID": 2,
+      "CategoryName": "3723839776565035641",
+      "Type": 1,
+      "Showtime": 4,
+      "DiscountDisplay": 3000,
+      "Duration": 30,
+      "MaxDuration": 300,
+      "FirstReward": {},
+      "InstantReward": {
+        "$arrayRef": 72190
+      },
+      "DailyReward": {
+        "$arrayRef": 71538
+      },
+      "MaxRewardStorageDay": 300,
+      "BackgroundIcon": null,
+      "RedDotID": 0,
+      "SpriteName": "<size=140%><sprite name=currency_sys_invite_letter_s></size>x${1}",
+      "BuyCondition": "true"
+    },
+    {
+      "ID": 3,
+      "CategoryName": "4424154068763641715",
+      "Type": 2,
+      "Showtime": 4,
+      "DiscountDisplay": 2400,
+      "Duration": 7,
+      "MaxDuration": 7,
+      "FirstReward": {},
+      "InstantReward": {
+        "1": 1001,
+        "2": 100000002,
+        "3": 60,
+        "4": 1002,
+        "5": 100000031,
+        "6": 100,
+        "7": 1003,
+        "8": 130000001,
+        "9": 20
+      },
+      "DailyReward": {
+        "$arrayRef": 73
+      },
+      "MaxRewardStorageDay": 7,
+      "BackgroundIcon": null,
+      "RedDotID": 0,
+      "SpriteName": "<size=140%><sprite name=Diamond></size>x${1}",
+      "BuyCondition": "ed.ConditionX.IsMonthlyCardExpire(4) and ed.ConditionX.IsMonthlyCardExpire(3)"
+    },
+    {
+      "ID": 4,
+      "CategoryName": "3674595571269579385",
+      "Type": 2,
+      "Showtime": 4,
+      "DiscountDisplay": 1100,
+      "Duration": 1,
+      "MaxDuration": 1,
+      "FirstReward": {},
+      "InstantReward": {
+        "1": 1001,
+        "2": 100000002,
+        "3": 20,
+        "4": 1002,
+        "5": 100000031,
+        "6": 100,
+        "7": 1003,
+        "8": 130000001,
+        "9": 6
+      },
+      "DailyReward": {
+        "1": 1001,
+        "2": 100000002,
+        "3": 20,
+        "4": 1002,
+        "5": 100000031,
+        "6": 100
+      },
+      "MaxRewardStorageDay": 7,
+      "BackgroundIcon": null,
+      "RedDotID": 0,
+      "SpriteName": "<size=140%><sprite name=Diamond></size>x${1}",
+      "BuyCondition": "ed.ConditionX.IsMonthlyCardExpire(4) and ed.ConditionX.IsMonthlyCardExpire(3)"
+    }
+  ]
+}

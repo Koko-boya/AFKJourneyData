@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "table": "SkillBuffUI",
+    "header_table": "SkillBuffUIHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 17,
+    "array_fields": [
+      "CoverEffectNames"
+    ],
+    "unresolved_array_refs": 6
+  },
+  "default": {
+    "BuffEffectName": "null",
+    "PopupText": null,
+    "IsBuff": false,
+    "PopupType": 0,
+    "PopupIcon": null,
+    "CoverEffectNames": {}
+  },
+  "row_keys": [
+    "stun",
+    "frozen",
+    "silence",
+    "disarm",
+    "fear",
+    "taunted",
+    "unmanual",
+    "unheal",
+    "noAddMp",
+    "twine",
+    "immobilize",
+    "invulnerable",
+    "uncontrollable",
+    "blind",
+    "suppress",
+    "sleep",
+    "unshield"
+  ],
+  "rows": [
+    {
+      "BuffEffectName": "stun",
+      "PopupText": "8916278348205271970",
+      "IsBuff": false,
+      "PopupType": 14,
+      "PopupIcon": "UI/Sprites/Battle/spui_font_battlestate_stun.png",
+      "CoverEffectNames": {
+        "$arrayRef": 97307
+      }
+    },
+    {
+      "BuffEffectName": "frozen",
+      "PopupText": "15045199252900218689",
+      "IsBuff": false,
+      "PopupType": 16,
+      "PopupIcon": null,
+      "CoverEffectNames": {
+        "$arrayRef": 97307
+      }
+    },
+    {
+      "BuffEffectName": "silence",
+      "PopupText": "7125887753822859312",
+      "IsBuff": false,
+      "PopupType": 15,
+      "PopupIcon": "UI/Sprites/Battle/spui_font_battlestate_silence.png",
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "disarm",
+      "PopupText": "8635939982886861085",
+      "IsBuff": false,
+      "PopupType": 15,
+      "PopupIcon": "UI/Sprites/Battle/spui_font_battlestate_disarm.png",
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "fear",
+      "PopupText": "6096120159215946761",
+      "IsBuff": false,
+      "PopupType": 17,
+      "PopupIcon": null,
+      "CoverEffectNames": {
+        "1": "silence",
+        "2": "disarm",
+        "3": "unmanual"
+      }
+    },
+    {
+      "BuffEffectName": "taunted",
+      "PopupText": "7703368102806109279",
+      "IsBuff": false,
+      "PopupType": 18,
+      "PopupIcon": null,
+      "CoverEffectNames": {
+        "1": "silence",
+        "2": "unmanual"
+      }
+    },
+    {
+      "BuffEffectName": "unmanual",
+      "PopupText": "16098717850133072065",
+      "IsBuff": false,
+      "PopupType": 15,
+      "PopupIcon": "UI/Sprites/Battle/spui_font_battlestate_forbid.png",
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "unheal",
+      "PopupText": "6331202207790623985",
+      "IsBuff": false,
+      "PopupType": 16,
+      "PopupIcon": "UI/Sprites/Battle/spui_font_battlestate_forbid.png",
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "noAddMp",
+      "PopupText": "4663108178334241197",
+      "IsBuff": false,
+      "PopupType": 16,
+      "PopupIcon": "UI/Sprites/Battle/spui_font_battlestate_forbid.png",
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "twine",
+      "PopupText": "14484990646448680041",
+      "IsBuff": false,
+      "PopupType": 16,
+      "PopupIcon": null,
+      "CoverEffectNames": {
+        "$arrayRef": 97307
+      }
+    },
+    {
+      "BuffEffectName": "immobilize",
+      "PopupText": "1285964990932096067",
+      "IsBuff": false,
+      "PopupType": 15,
+      "PopupIcon": null,
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "invulnerable",
+      "PopupText": "1132097639498451434",
+      "IsBuff": true,
+      "PopupType": 19,
+      "PopupIcon": null,
+      "CoverEffectNames": {
+        "$arrayRef": 97191
+      }
+    },
+    {
+      "BuffEffectName": "uncontrollable",
+      "PopupText": "7431601734070337289",
+      "IsBuff": true,
+      "PopupType": 19,
+      "PopupIcon": null,
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "blind",
+      "PopupText": "11498045327468708999",
+      "IsBuff": false,
+      "PopupType": 16,
+      "PopupIcon": null,
+      "CoverEffectNames": {}
+    },
+    {
+      "BuffEffectName": "suppress",
+      "PopupText": "10131111453046523760",
+      "IsBuff": false,
+      "PopupType": 14,
+      "PopupIcon": null,
+      "CoverEffectNames": {
+        "$arrayRef": 97245
+      }
+    },
+    {
+      "BuffEffectName": "sleep",
+      "PopupText": "1325439571002453246",
+      "IsBuff": false,
+      "PopupType": 16,
+      "PopupIcon": null,
+      "CoverEffectNames": {
+        "$arrayRef": 97307
+      }
+    },
+    {
+      "BuffEffectName": "unshield",
+      "PopupText": "657025560663041075",
+      "IsBuff": false,
+      "PopupType": 16,
+      "PopupIcon": "UI/Sprites/Battle/spui_font_battlestate_forbid.png",
+      "CoverEffectNames": {}
+    }
+  ]
+}

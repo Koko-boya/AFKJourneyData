@@ -1,0 +1,1104 @@
+{
+  "_meta": {
+    "table": "ObjectExtraRules",
+    "header_table": "ObjectExtraRulesHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 108,
+    "array_fields": [
+      "ClientExtraRulesEvents"
+    ],
+    "unresolved_array_refs": 108
+  },
+  "default": {
+    "ID": "null",
+    "ClientExtraRulesEvents": {},
+    "ExtraRulesCondition": "true",
+    "TrueAction": "true",
+    "FalseAction": "true"
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    2001,
+    2002,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    2003,
+    2004,
+    38,
+    39,
+    40,
+    2005,
+    2006,
+    2007,
+    2008,
+    50,
+    41,
+    42,
+    44,
+    45,
+    46,
+    47,
+    2009,
+    2010,
+    2011,
+    2012,
+    48,
+    49,
+    51,
+    52,
+    2013,
+    2014,
+    2015,
+    2016,
+    3001,
+    3002,
+    3003,
+    2017,
+    2018,
+    2019,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    2020,
+    2021,
+    3004,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    70,
+    71,
+    72,
+    73,
+    74
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73560
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93878
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInWeather(\"Rain\",\"HeavyRain\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73560
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 4,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73750
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 5,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73753
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 6,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73751
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 7,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73750
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 8,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73753
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 9,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73751
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 10,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73560
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 11,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73750
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 12,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73753
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 13,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73751
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 14,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(151)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 15,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93879
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_HasBindedObject()",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 16,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(196,197)>=2",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 18,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93880
+      },
+      "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(64)>17 and ed.ConditionX.ScheduleOpenedDays(64)<25",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 19,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(232)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 20,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(231)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 21,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93881
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInPairsShow()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 22,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(196)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 23,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93882
+      },
+      "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(145)>=1 and ed.ConditionX.ScheduleOpenedDays(145)<=10 and ed.ConditionX.CO_IsInActivity(145)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 24,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73908
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",1)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 25,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93883
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",2)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 26,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93884
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",3)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 27,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93885
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",4)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2001,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93886
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(507300140)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2002,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93886
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(507300140)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 28,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93887
+      },
+      "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(156)>=1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 29,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93888
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336,337)>=2 and ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 30,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 31,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73751
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 32,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(369)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 33,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336,337)>=2",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Interactive\") and ed.ActionX.CO_AddStates(\"C_Show\")"
+    },
+    {
+      "ID": 34,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336,337)>=2",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 35,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93889
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SnowballFight\",4) or ed.ConditionX.IsZoneUnlocked(6,4)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 36,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93890
+      },
+      "ExtraRulesCondition": "ed.ConditionX.HasState(600395,\"CMark_2\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 37,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Interactive\") and ed.ActionX.CO_AddStates(\"C_Show\")"
+    },
+    {
+      "ID": 2003,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93891
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(507700189)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2004,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93891
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(507700189)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 38,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93892
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.HasState(605481,\"Changeable\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 39,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73750
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",C)"
+    },
+    {
+      "ID": 40,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73753
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",C)"
+    },
+    {
+      "ID": 2005,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93893
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(900709)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2006,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93893
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(900709)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2007,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93894
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(509000248)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2008,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93894
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(509000248)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 50,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73560
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\")"
+    },
+    {
+      "ID": 41,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(483)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 42,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(479,480)>=2",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 44,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93895
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_HasTherapyNPC()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 45,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(88)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 46,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93896
+      },
+      "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(541)>=1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 47,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(685)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 2009,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93897
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(1002997)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2010,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93897
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(1002997)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2011,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93898
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(1002911)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2012,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93898
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(1002911)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 48,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(816,817)>=2",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 49,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93899
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.HasState(1004084,\"Changeable\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 51,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(684)==1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 52,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73708
+      },
+      "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(65)>=1",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\") and ed.ActionX.CO_AddStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 2013,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93900
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510100308)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2014,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93900
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510100308)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2015,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93901
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510400068)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2016,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93901
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510400068)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3001,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 74411
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3002,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3003,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2017,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93903
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(1101522)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2018,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93903
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(1101522)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2019,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93904
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_CheckInStalk(1004628)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 53,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 73560
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 54,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93905
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and (ed.ConditionX.CO_IsInDayNight(\"Dawn\") or ed.ConditionX.CO_IsInDayNight(\"Noon\") or ed.ConditionX.CO_IsInDayNight(\"Dusk\"))",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 55,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\")"
+    },
+    {
+      "ID": 56,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93906
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and (not ed.ConditionX.IsExplTaskFinished(16010332,2))",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 57,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93907
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.IsExplTaskFinished(16010332,2) and (not ed.ConditionX.IsExplTaskFinished(16010332,3))",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\")"
+    },
+    {
+      "ID": 58,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93908
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.IsExplTaskFinished(16010332,3) and (not ed.ConditionX.IsExplTaskFinished(16010332,4))",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\")"
+    },
+    {
+      "ID": 59,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93909
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.IsExplTaskFinished(16010332,4)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\")"
+    },
+    {
+      "ID": 60,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 74411
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 61,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3005,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\")"
+    },
+    {
+      "ID": 3006,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 74411
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3007,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93910
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") or ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3008,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93911
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") and (ed.ConditionX.CO_IsInDayNight(\"Dawn\") or ed.ConditionX.CO_IsInDayNight(\"Noon\") or ed.ConditionX.CO_IsInDayNight(\"Dusk\"))",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3009,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 62,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93912
+      },
+      "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(16010463,1)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 63,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93912
+      },
+      "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(16010463,1)",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 64,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 74411
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformHamster\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 65,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93910
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") and ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 66,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93913
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 67,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93914
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(15010512)",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 68,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93915
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(15010520)",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 69,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93916
+      },
+      "ExtraRulesCondition": "ed.ConditionX.HasState(510100197,\"CMark_2\") and ed.ConditionX.HasState(510100197,\"Show\")",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\")"
+    },
+    {
+      "ID": 2020,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93917
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510100180)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2021,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93917
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510100180)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 3004,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2022,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93918
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510600004)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2023,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93918
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510600004)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2024,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93919
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510700068)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2025,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93919
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510700068)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2026,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93920
+      },
+      "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510700071)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 2027,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93920
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510700071)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 70,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93921
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(10010261)",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 71,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93910
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") and ed.ConditionX.CO_IsInDayNight(\"Night\")",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")"
+    },
+    {
+      "ID": 72,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93902
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Interactive\") and ed.ActionX.CO_AddStates(\"C_Show\")"
+    },
+    {
+      "ID": 73,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93922
+      },
+      "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(15010234) or ed.ConditionX.C_CheckFollowTaskByLineID(15010238) or ed.ConditionX.C_CheckFollowTaskByLineID(15010241)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 74,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 93922
+      },
+      "ExtraRulesCondition": "not ed.ConditionX.C_CheckFollowTaskByLineID(15010234) or not ed.ConditionX.C_CheckFollowTaskByLineID(15010238) or not ed.ConditionX.C_CheckFollowTaskByLineID(15010241)",
+      "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "table": "CrisisIncidentGameplay",
+    "header_table": "CrisisIncidentGameplayHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 13,
+    "row_count": 3,
+    "array_fields": [
+      "TaskTarget"
+    ],
+    "unresolved_array_refs": 3
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "GameplayType": null,
+    "ActivityType": null,
+    "ParamID": 0,
+    "MinimapIcon": null,
+    "EndTimeMinimapIcon": null,
+    "TaskTarget": {},
+    "CompContrib": 0,
+    "SuccessSlimID": 0,
+    "FailedSlimID": 0,
+    "TaskIcon": null,
+    "TaskCompletedIcon": null
+  },
+  "row_keys": [
+    1001,
+    2001,
+    3001
+  ],
+  "rows": [
+    {
+      "ID": 1001,
+      "Name": "9360358131529840759",
+      "GameplayType": 1,
+      "ActivityType": 1,
+      "ParamID": 1,
+      "MinimapIcon": "UI/Sprites/Map/spui_icon_minimap_ritual_icon.png",
+      "EndTimeMinimapIcon": "UI/Sprites/Map/spui_icon_minimap_ritual_icon_done.png",
+      "TaskTarget": {
+        "$arrayRef": 1574
+      },
+      "CompContrib": 0,
+      "SuccessSlimID": 15660670,
+      "FailedSlimID": 15660700,
+      "TaskIcon": "UI/Sprites/MapCrisisIncident/spui_crisisincident_icon_ritual.png",
+      "TaskCompletedIcon": "UI/Sprites/MapCrisisIncident/spui_crisisincident_icon_done.png"
+    },
+    {
+      "ID": 2001,
+      "Name": "16334725677712384409",
+      "GameplayType": 2,
+      "ActivityType": 1,
+      "ParamID": 1,
+      "MinimapIcon": "UI/Sprites/Map/spui_icon_minimap_escort_icon.png",
+      "EndTimeMinimapIcon": "UI/Sprites/Map/spui_icon_minimap_escort_icon_done.png",
+      "TaskTarget": {
+        "$arrayRef": 55545
+      },
+      "CompContrib": 0,
+      "SuccessSlimID": 15660660,
+      "FailedSlimID": 15660690,
+      "TaskIcon": "UI/Sprites/MapCrisisIncident/spui_crisisincident_icon_escort.png",
+      "TaskCompletedIcon": "UI/Sprites/MapCrisisIncident/spui_crisisincident_icon_done.png"
+    },
+    {
+      "ID": 3001,
+      "Name": "12946912429610347890",
+      "GameplayType": 3,
+      "ActivityType": 1,
+      "ParamID": 1,
+      "MinimapIcon": "UI/Sprites/Map/spui_icon_minimap_monster_icon.png",
+      "EndTimeMinimapIcon": "UI/Sprites/Map/spui_icon_minimap_monster_icon_done.png",
+      "TaskTarget": {
+        "$arrayRef": 71652
+      },
+      "CompContrib": 0,
+      "SuccessSlimID": 15660650,
+      "FailedSlimID": 15660680,
+      "TaskIcon": "UI/Sprites/MapCrisisIncident/spui_crisisincident_icon_monster.png",
+      "TaskCompletedIcon": "UI/Sprites/MapCrisisIncident/spui_crisisincident_icon_done.png"
+    }
+  ]
+}

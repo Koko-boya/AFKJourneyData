@@ -1,0 +1,160 @@
+{
+  "_meta": {
+    "table": "RevivalEntrance",
+    "header_table": "RevivalEntranceHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 14,
+    "row_count": 7,
+    "array_fields": [
+      "Reward"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "ScheduleID": "null",
+    "ID": "null",
+    "Type": null,
+    "ShowCondition": "true",
+    "Title": null,
+    "IntroduceText": null,
+    "EntranceType": null,
+    "BGImage": null,
+    "Reward": {},
+    "Order": 0,
+    "RedDotID": 0,
+    "SubTitleType": null,
+    "Text": null,
+    "ShowScheduleID": null
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "ScheduleID": 233,
+      "ID": 1,
+      "Type": 0,
+      "ShowCondition": "true",
+      "Title": "937530052764515355",
+      "IntroduceText": "15077881262101505495",
+      "EntranceType": "RevivalGoToDailyLogin",
+      "BGImage": null,
+      "Reward": {
+        "1": 1,
+        "2": 1,
+        "3": 26,
+        "4": 1001,
+        "5": 100000002,
+        "6": 1500
+      },
+      "Order": 1,
+      "RedDotID": 0,
+      "SubTitleType": 0,
+      "Text": null,
+      "ShowScheduleID": null
+    },
+    {
+      "ScheduleID": 233,
+      "ID": 2,
+      "Type": 0,
+      "ShowCondition": "true",
+      "Title": "8939114485200783264",
+      "IntroduceText": "6707735519679517872",
+      "EntranceType": "RevivalGoToMilestone",
+      "BGImage": null,
+      "Reward": {
+        "1": 1,
+        "2": 10,
+        "3": 15,
+        "4": 1001,
+        "5": 100000002,
+        "6": 1500
+      },
+      "Order": 2,
+      "RedDotID": 0,
+      "SubTitleType": 0,
+      "Text": null,
+      "ShowScheduleID": null
+    },
+    {
+      "ScheduleID": 233,
+      "ID": 3,
+      "Type": 1,
+      "ShowCondition": "ed.ConditionX.HasRevivalUpPool()",
+      "Title": "12083506115385325990",
+      "IntroduceText": null,
+      "EntranceType": "GoToTavernRevivalUp",
+      "BGImage": "UI/Icon/Revival/spui_activity_tab_bg_revival_time.png",
+      "Reward": {},
+      "Order": 4,
+      "RedDotID": 0,
+      "SubTitleType": 1,
+      "Text": null,
+      "ShowScheduleID": "0"
+    },
+    {
+      "ScheduleID": 233,
+      "ID": 4,
+      "Type": 1,
+      "ShowCondition": "ed.ConditionX.SvrOpenedDays()>=28 and not ed.ConditionX.IsStageReachPoint(1125) and ed.ConditionX.IsModuleUnlocked(\"EpOneKeyUpgrade\")",
+      "Title": "18071010427051080015",
+      "IntroduceText": null,
+      "EntranceType": "SeasonForceSetLevel",
+      "BGImage": "UI/Icon/Revival/spui_activity_tab_bg_revival_super.png",
+      "Reward": {},
+      "Order": 5,
+      "RedDotID": 0,
+      "SubTitleType": 0,
+      "Text": "7567287708882954287",
+      "ShowScheduleID": null
+    },
+    {
+      "ScheduleID": 369,
+      "ID": 1,
+      "Type": 0,
+      "ShowCondition": "true",
+      "Title": "8939114485200783264",
+      "IntroduceText": "6707735519679517872",
+      "EntranceType": "RevivalGoToMilestone",
+      "BGImage": null,
+      "Reward": {
+        "$arrayRef": 78
+      },
+      "Order": 2,
+      "RedDotID": 0,
+      "SubTitleType": 0,
+      "Text": null,
+      "ShowScheduleID": null
+    },
+    {
+      "ScheduleID": 369,
+      "ID": 2,
+      "Type": 1,
+      "ShowCondition": "ed.ConditionX.HasRevivalUpPool()",
+      "Title": "12083506115385325990",
+      "IntroduceText": null,
+      "EntranceType": "GoToTavernRevivalUp",
+      "BGImage": "UI/Icon/Revival/spui_activity_tab_bg_revival_time.png",
+      "Reward": {},
+      "Order": 4,
+      "RedDotID": 0,
+      "SubTitleType": 1,
+      "Text": null,
+      "ShowScheduleID": "0"
+    },
+    {
+      "ScheduleID": 369,
+      "ID": 3,
+      "Type": 1,
+      "ShowCondition": "ed.ConditionX.SvrOpenedDays()>=28 and not ed.ConditionX.IsStageReachPoint(1125) and ed.ConditionX.IsModuleUnlocked(\"EpOneKeyUpgrade\")",
+      "Title": "18071010427051080015",
+      "IntroduceText": null,
+      "EntranceType": "SeasonForceSetLevel",
+      "BGImage": "UI/Icon/Revival/spui_activity_tab_bg_revival_super.png",
+      "Reward": {},
+      "Order": 5,
+      "RedDotID": 0,
+      "SubTitleType": 0,
+      "Text": "7567287708882954287",
+      "ShowScheduleID": null
+    }
+  ]
+}

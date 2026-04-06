@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "table": "Mercenary",
+    "header_table": "MercenaryHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 3,
+    "array_fields": [
+      "BattleModeWhiteList"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "TypeName": "null",
+    "BattleModeWhiteList": {},
+    "CD": null,
+    "ReplyMaxCount": 0,
+    "ResponseTimeMinute": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    4
+  ],
+  "rows": [
+    {
+      "TypeName": 1,
+      "BattleModeWhiteList": {
+        "1": 2,
+        "2": 3,
+        "3": 5,
+        "4": 7,
+        "5": 22
+      },
+      "CD": 43,
+      "ReplyMaxCount": 3,
+      "ResponseTimeMinute": 1440
+    },
+    {
+      "TypeName": 2,
+      "BattleModeWhiteList": {
+        "$arrayRef": 71903
+      },
+      "CD": 44,
+      "ReplyMaxCount": 0,
+      "ResponseTimeMinute": 0
+    },
+    {
+      "TypeName": 4,
+      "BattleModeWhiteList": {
+        "$arrayRef": 75189
+      },
+      "CD": 112,
+      "ReplyMaxCount": 0,
+      "ResponseTimeMinute": 0
+    }
+  ]
+}

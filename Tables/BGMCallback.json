@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "table": "BGMCallback",
+    "header_table": "BGMCallbackHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 6,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "EventPath": null,
+    "Stop": false,
+    "Beat": false,
+    "Marker": false
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "EventPath": "event:/BGM/Battle/Prepare",
+      "Stop": false,
+      "Beat": true,
+      "Marker": false
+    },
+    {
+      "ID": 2,
+      "EventPath": "event:/BGM/Battle/BattleScene",
+      "Stop": false,
+      "Beat": true,
+      "Marker": false
+    },
+    {
+      "ID": 3,
+      "EventPath": "event:/BGM/Stinger/NewHero",
+      "Stop": false,
+      "Beat": false,
+      "Marker": true
+    },
+    {
+      "ID": 4,
+      "EventPath": "event:/BGM/Stinger/Puzzle",
+      "Stop": true,
+      "Beat": false,
+      "Marker": true
+    },
+    {
+      "ID": 5,
+      "EventPath": "event:/BGM/Stinger/POI",
+      "Stop": true,
+      "Beat": false,
+      "Marker": true
+    },
+    {
+      "ID": 6,
+      "EventPath": "event:/BGM/Others/LegendaryArenaIntro",
+      "Stop": false,
+      "Beat": false,
+      "Marker": true
+    }
+  ]
+}

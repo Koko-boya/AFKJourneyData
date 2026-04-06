@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "table": "VehicleMapForcedSwitch",
+    "header_table": "VehicleMapForcedSwitchHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 3,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "MapID": "null",
+    "Condition": "null",
+    "MapVehicleID": null
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "MapID": 5104,
+      "Condition": "true",
+      "MapVehicleID": 11
+    },
+    {
+      "MapID": 5106,
+      "Condition": "true",
+      "MapVehicleID": 11
+    },
+    {
+      "MapID": 5107,
+      "Condition": "true",
+      "MapVehicleID": 11
+    },
+    {
+      "MapID": 5132,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010102,4) and not ed.ConditionX.IsExplTaskFinished(17010103,1)",
+      "MapVehicleID": 20
+    }
+  ]
+}

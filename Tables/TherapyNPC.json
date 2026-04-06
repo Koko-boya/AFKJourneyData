@@ -1,0 +1,278 @@
+{
+  "_meta": {
+    "table": "TherapyNPC",
+    "header_table": "TherapyNPCHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 8,
+    "row_count": 23,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ObjID": "null",
+    "DiseaseID": 0,
+    "SickStateAction": "true",
+    "SuccessStateAction": "true",
+    "FailStateAction": "true",
+    "Weight": 0,
+    "Condition": "true",
+    "Refresh": false
+  },
+  "row_keys": [
+    802006,
+    802064,
+    802007,
+    802065,
+    802010,
+    802070,
+    802076,
+    802062,
+    802063,
+    802066,
+    802067,
+    802071,
+    802072,
+    802073,
+    802074,
+    802075,
+    802077,
+    801858,
+    802028,
+    1103265,
+    1103266,
+    1103267,
+    1103268
+  ],
+  "rows": [
+    {
+      "ObjID": 802006,
+      "DiseaseID": 1,
+      "SickStateAction": "ed.ActionX.AddStates(802006,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802006,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802006,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802006,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802006,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "true",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802064,
+      "DiseaseID": 2,
+      "SickStateAction": "ed.ActionX.AddStates(802064,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802064,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802064,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802064,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802064,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "true",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802007,
+      "DiseaseID": 3,
+      "SickStateAction": "ed.ActionX.AddStates(802007,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802007,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802007,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802007,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802007,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "true",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802065,
+      "DiseaseID": 7,
+      "SickStateAction": "ed.ActionX.AddStates(802065,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802065,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802065,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802065,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802065,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=2",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802010,
+      "DiseaseID": 9,
+      "SickStateAction": "ed.ActionX.AddStates(802010,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802010,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802010,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802010,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802010,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=3",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802070,
+      "DiseaseID": 12,
+      "SickStateAction": "ed.ActionX.AddStates(802070,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802070,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802070,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802070,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802070,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=3",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802076,
+      "DiseaseID": 16,
+      "SickStateAction": "ed.ActionX.AddStates(802076,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802076,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802076,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802076,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802076,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=4",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802062,
+      "DiseaseID": 4,
+      "SickStateAction": "ed.ActionX.AddStates(802062,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802062,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802062,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802062,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802062,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "true",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802063,
+      "DiseaseID": 5,
+      "SickStateAction": "ed.ActionX.AddStates(802063,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802063,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802063,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802063,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802063,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=2",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802066,
+      "DiseaseID": 2,
+      "SickStateAction": "ed.ActionX.AddStates(802066,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802066,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802066,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802066,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802066,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "true",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802067,
+      "DiseaseID": 8,
+      "SickStateAction": "ed.ActionX.AddStates(802067,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802067,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802067,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802067,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802067,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=2",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802071,
+      "DiseaseID": 10,
+      "SickStateAction": "ed.ActionX.AddStates(802071,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802071,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802071,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802071,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802071,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=3",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802072,
+      "DiseaseID": 11,
+      "SickStateAction": "ed.ActionX.AddStates(802072,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802072,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802072,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802072,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802072,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=3",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802073,
+      "DiseaseID": 13,
+      "SickStateAction": "ed.ActionX.AddStates(802073,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802073,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802073,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802073,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802073,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=4",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802074,
+      "DiseaseID": 15,
+      "SickStateAction": "ed.ActionX.AddStates(802074,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802074,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802074,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802074,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802074,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=4",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802075,
+      "DiseaseID": 14,
+      "SickStateAction": "ed.ActionX.AddStates(802075,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802075,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802075,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802075,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802075,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=4",
+      "Refresh": true
+    },
+    {
+      "ObjID": 802077,
+      "DiseaseID": 6,
+      "SickStateAction": "ed.ActionX.AddStates(802077,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802077,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802077,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802077,\"Interactive\",\"CShow_1\",\"CShow_2\") and ed.ActionX.AddStates(802077,\"CShow_3\")",
+      "Weight": 10,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(398)>=2",
+      "Refresh": true
+    },
+    {
+      "ObjID": 801858,
+      "DiseaseID": 2,
+      "SickStateAction": "ed.ActionX.AddStates(802077,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802006,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802006,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802006,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802006,\"CShow_2\")",
+      "Weight": 0,
+      "Condition": "true",
+      "Refresh": false
+    },
+    {
+      "ObjID": 802028,
+      "DiseaseID": 12,
+      "SickStateAction": "ed.ActionX.AddStates(802077,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(802006,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802006,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(802006,\"Interactive\",\"CShow_1\",\"CShow_3\") and ed.ActionX.AddStates(802006,\"CShow_2\")",
+      "Weight": 0,
+      "Condition": "true",
+      "Refresh": false
+    },
+    {
+      "ObjID": 1103265,
+      "DiseaseID": 1,
+      "SickStateAction": "ed.ActionX.AddStates(1103265,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(1103265,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103265,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(1103265,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103265,\"CShow_2\")",
+      "Weight": 0,
+      "Condition": "true",
+      "Refresh": false
+    },
+    {
+      "ObjID": 1103266,
+      "DiseaseID": 2,
+      "SickStateAction": "ed.ActionX.AddStates(1103266,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(1103266,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103266,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(1103266,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103266,\"CShow_2\")",
+      "Weight": 0,
+      "Condition": "true",
+      "Refresh": false
+    },
+    {
+      "ObjID": 1103267,
+      "DiseaseID": 3,
+      "SickStateAction": "ed.ActionX.AddStates(1103267,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(1103267,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103267,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(1103267,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103267,\"CShow_2\")",
+      "Weight": 0,
+      "Condition": "true",
+      "Refresh": false
+    },
+    {
+      "ObjID": 1103268,
+      "DiseaseID": 4,
+      "SickStateAction": "ed.ActionX.AddStates(1103268,\"Interactive\",\"CShow_1\")",
+      "SuccessStateAction": "ed.ActionX.DelStates(1103268,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103268,\"CShow_2\")",
+      "FailStateAction": "ed.ActionX.DelStates(1103268,\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1103268,\"CShow_2\")",
+      "Weight": 0,
+      "Condition": "true",
+      "Refresh": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "table": "HSScheduleObj",
+    "header_table": "HSScheduleObjHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 4,
+    "array_fields": [
+      "ListerShowEvents"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "ID": "null",
+    "ScheduleID": 0,
+    "ObjCategory": null,
+    "ObjID": 0,
+    "ShowCondition": "true",
+    "ListerShowEvents": {},
+    "HomesteadID": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "ScheduleID": 472,
+      "ObjCategory": 16,
+      "ObjID": 3,
+      "ShowCondition": "ed.ConditionX.IsInSchedule(472)",
+      "ListerShowEvents": {
+        "$arrayRef": 76145
+      },
+      "HomesteadID": {
+        "1": 2
+      }
+    },
+    {
+      "ID": 2,
+      "ScheduleID": 615,
+      "ObjCategory": 16,
+      "ObjID": 4,
+      "ShowCondition": "ed.ConditionX.IsInSchedule(615) and ed.ConditionX.IsExplStepFinished(16010231,1,2)",
+      "ListerShowEvents": {
+        "1": "ScheduleEvent",
+        "2": "NewScheduleOpen",
+        "3": "ScheduleEvent",
+        "4": "ScheduleEnd",
+        "5": "SpringBusinessEvent",
+        "6": "OnActivityTaskFinished"
+      },
+      "HomesteadID": {
+        "1": 2
+      }
+    },
+    {
+      "ID": 3,
+      "ScheduleID": 669,
+      "ObjCategory": 16,
+      "ObjID": 5,
+      "ShowCondition": "ed.ConditionX.C_HSHasEnvelope()",
+      "ListerShowEvents": {
+        "1": "GuildVaultEvent",
+        "2": "RemoveEnvelope"
+      },
+      "HomesteadID": {
+        "1": 2
+      }
+    },
+    {
+      "ID": 4,
+      "ScheduleID": 684,
+      "ObjCategory": 16,
+      "ObjID": 6,
+      "ShowCondition": "ed.ConditionX.IsInSchedule(684)",
+      "ListerShowEvents": {
+        "$arrayRef": 76145
+      },
+      "HomesteadID": {
+        "1": 2
+      }
+    }
+  ]
+}

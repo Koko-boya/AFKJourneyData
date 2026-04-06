@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "table": "TowerSeason",
+    "header_table": "TowerSeasonHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 2,
+    "array_fields": [
+      "RewardDisplay"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "SeasonType": "null",
+    "TowerName": null,
+    "UnlockConditionTotal": "true",
+    "UnlockConditionTotalDesc": null,
+    "UnlockCondition": "true",
+    "UnlockConditionDesc": null,
+    "RewardDisplay": {}
+  },
+  "row_keys": [
+    1,
+    106
+  ],
+  "rows": [
+    {
+      "SeasonType": 1,
+      "TowerName": "14112231367534837191",
+      "UnlockConditionTotal": "true",
+      "UnlockConditionTotalDesc": null,
+      "UnlockCondition": "true",
+      "UnlockConditionDesc": null,
+      "RewardDisplay": {
+        "1": 1,
+        "2": 101102,
+        "3": 1,
+        "4": 1001,
+        "5": 100000007,
+        "6": 1,
+        "7": 1001,
+        "8": 100000003,
+        "9": 1
+      }
+    },
+    {
+      "SeasonType": 106,
+      "TowerName": "7017923358524643568",
+      "UnlockConditionTotal": "ed.ConditionX.IsUserInEp(\"Ep06\") and ed.ConditionX.MinFloorAllTowersFinished(\"Mn\")>=90",
+      "UnlockConditionTotalDesc": "14560167151998709954",
+      "UnlockCondition": "ed.ConditionX.IsUserInEp(\"Ep06\") and ed.ConditionX.IsTowerFloorFinished(\"Mn\",\"Human\",90) and ed.ConditionX.IsTowerFloorFinished(\"Mn\",\"Elf\",90) and ed.ConditionX.IsTowerFloorFinished(\"Mn\",\"Undead\",90) and ed.ConditionX.IsTowerFloorFinished(\"Mn\",\"Orc\",90)",
+      "UnlockConditionDesc": "进入光影迷局赛季;光辉之塔通关<style=\"highlight\">90</style>层;自然之塔通关<style=\"highlight\">90</style>层;不朽之塔通关<style=\"highlight\">90</style>层;意志之塔通关<style=\"highlight\">90</style>层",
+      "RewardDisplay": {
+        "$arrayRef": 94156
+      }
+    }
+  ]
+}

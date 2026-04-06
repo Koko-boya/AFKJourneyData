@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "table": "CustomTrialPhase",
+    "header_table": "CustomTrialPhaseHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 10,
+    "row_count": 2,
+    "array_fields": [
+      "ChallengeGroup"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "CustomTrialID": "null",
+    "PhaseID": "null",
+    "Name": null,
+    "ChallengeGroup": {},
+    "UnlockCondition": "true",
+    "Param": 0,
+    "Tips": null,
+    "PhaseFirstDes": null,
+    "PhaseSecondDes": null,
+    "DetailDes": null
+  },
+  "row_keys": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "CustomTrialID": 1,
+      "PhaseID": 1,
+      "Name": "4278220093983029486",
+      "ChallengeGroup": {
+        "$arrayRef": 72365
+      },
+      "UnlockCondition": "true",
+      "Param": 0,
+      "Tips": null,
+      "PhaseFirstDes": "6227482334481350153",
+      "PhaseSecondDes": "16869753872206531004",
+      "DetailDes": "12055634667316477167"
+    },
+    {
+      "CustomTrialID": 1,
+      "PhaseID": 2,
+      "Name": "16581726083495024768",
+      "ChallengeGroup": {
+        "$arrayRef": 72366
+      },
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(286)>=4",
+      "Param": 3,
+      "Tips": "16985116120584543576",
+      "PhaseFirstDes": "9249237454645570931",
+      "PhaseSecondDes": "15647300036878231319",
+      "DetailDes": "10867214178383744615"
+    }
+  ]
+}

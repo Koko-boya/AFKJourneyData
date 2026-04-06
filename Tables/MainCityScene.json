@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "table": "MainCityScene",
+    "header_table": "MainCitySceneHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "LightName": null,
+    "UnlockCondition": "true",
+    "IsNowShow": false,
+    "BGM": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Name": "inside_winter",
+      "LightName": "_winter",
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(151)>=1 and ed.ConditionX.IsExplTaskFinished(10010296,2)",
+      "IsNowShow": true,
+      "BGM": null
+    },
+    {
+      "ID": 2,
+      "Name": "inside_springfestival",
+      "LightName": "_springfestival",
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010296,2)",
+      "IsNowShow": true,
+      "BGM": "SpringFestival"
+    },
+    {
+      "ID": 3,
+      "Name": "inside_winter_2",
+      "LightName": "_winter_2",
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(566)>=1 and ed.ConditionX.IsExplTaskFinished(10010296,2)",
+      "IsNowShow": true,
+      "BGM": null
+    },
+    {
+      "ID": 4,
+      "Name": "inside_springfestival_2",
+      "LightName": "_springfestival_2",
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(615)>=1 and ed.ConditionX.IsExplTaskFinished(10010296,2)",
+      "IsNowShow": true,
+      "BGM": "SpringFestival"
+    }
+  ]
+}

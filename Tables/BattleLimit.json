@@ -1,0 +1,4026 @@
+{
+  "_meta": {
+    "table": "BattleLimit",
+    "header_table": "BattleLimitHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 13,
+    "row_count": 216,
+    "array_fields": [
+      "TargetParam",
+      "TriggerParam"
+    ],
+    "unresolved_array_refs": 265
+  },
+  "default": {
+    "ID": "null",
+    "Des": null,
+    "CanShow": false,
+    "TargetType": null,
+    "TargetCamp": 0,
+    "TargetParam": {},
+    "TargetParamS": null,
+    "TriggerType": null,
+    "TriggerCompare": null,
+    "TriggerParam": {},
+    "TriggerParamS": null,
+    "ResultType": false,
+    "Icon": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    100,
+    101,
+    102,
+    103,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039,
+    1040,
+    1041,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027,
+    3001,
+    3002,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    3026,
+    3027,
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036,
+    3040,
+    3041,
+    3042,
+    3043,
+    3044,
+    3045,
+    3046,
+    3047,
+    3048,
+    3050,
+    3051,
+    3052,
+    3053,
+    3054,
+    3055,
+    3056,
+    3057,
+    3058,
+    3060,
+    3061,
+    3062,
+    3063,
+    3064,
+    3065,
+    3066,
+    3067,
+    3068,
+    4001,
+    4002,
+    4003,
+    4004,
+    5001,
+    5002,
+    5100,
+    5101,
+    5102,
+    5501,
+    5502,
+    5503,
+    5504,
+    5505,
+    5506,
+    5507,
+    5508,
+    5509,
+    5510,
+    5511,
+    5512,
+    5513,
+    5514,
+    5515,
+    5516,
+    5517,
+    5518,
+    5519,
+    5520,
+    6001,
+    6101
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Des": "1620745085898714611",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69020
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_icon02.png"
+    },
+    {
+      "ID": 2,
+      "Des": "我方英雄血量需要保持在30%以上（不用翻译）",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 44827
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69021
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_icon02.png"
+    },
+    {
+      "ID": 3,
+      "Des": "对敌方造成一定伤害（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "damage",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "1": 1000000
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_icon01.png"
+    },
+    {
+      "ID": 4,
+      "Des": "敌方boss死亡（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 34625
+      },
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_bgred.png"
+    },
+    {
+      "ID": 5,
+      "Des": "我方幸存人数大于2人（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "alive_num",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 46
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_icon02.png"
+    },
+    {
+      "ID": 6,
+      "Des": "我方狮子造成1000点伤害（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 60
+      },
+      "TargetParamS": null,
+      "TriggerType": "damage",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 69022
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_bgred.png"
+    },
+    {
+      "ID": 7,
+      "Des": "释放大招次数不能超过10次。（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "ult_count",
+      "TriggerCompare": null,
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_icon02.png"
+    },
+    {
+      "ID": 8,
+      "Des": "击败敌方<color=#fc7566>维伦</color>即可胜利。（不用翻译）",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 45
+      },
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_bgred.png"
+    },
+    {
+      "ID": 10,
+      "Des": "我方站位1的角色血量保持20%以上。（不用翻译）",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 45
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_icon02.png"
+    },
+    {
+      "ID": 13,
+      "Des": "时间结束被保护的目标仍存活。（不用翻译）",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "greater",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 14,
+      "Des": "敌方boss死亡。（不用翻译）",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_bgred.png"
+    },
+    {
+      "ID": 15,
+      "Des": "我方马车死亡。（不用翻译）",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 16,
+      "Des": "1275877751253732494",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "alive_num",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 17,
+      "Des": "敌方boss死亡。（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "leader_death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": "UI/Sprites/Battle_Ready/spui_victory_conditions_bgred.png"
+    },
+    {
+      "ID": 18,
+      "Des": "击败敌方魔法水晶。（不用翻译）",
+      "CanShow": false,
+      "TargetType": "SlotID",
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 19,
+      "Des": "2875181964565871928",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Soldier",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 20,
+      "Des": "11707429924009506121",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Tank",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 21,
+      "Des": "4950899481769413519",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Ranger",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 22,
+      "Des": "14196329078927105480",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Archer",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 23,
+      "Des": "126871442245115677",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Mage",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 24,
+      "Des": "5800108611443387693",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Support",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 25,
+      "Des": "6535615000007138899",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Human",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 26,
+      "Des": "1349941153876350118",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Orc",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 27,
+      "Des": "11456941061196772470",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Elf",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 28,
+      "Des": "11381945536777063911",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Undead",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 29,
+      "Des": "2289761342013262889",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Soldier",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 30,
+      "Des": "5460884555734164066",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Tank",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 31,
+      "Des": "7574132891077296433",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Ranger",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 32,
+      "Des": "8047131063442414272",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Archer",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 33,
+      "Des": "5832778495430204314",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Mage",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 34,
+      "Des": "13814632149197245782",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Support",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 35,
+      "Des": "15054440137089065475",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Human",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 36,
+      "Des": "12857525491213877379",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Orc",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 37,
+      "Des": "4390332017592478509",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Elf",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 38,
+      "Des": "3903788983700490039",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Undead",
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 39,
+      "Des": "3213254083362036265",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "different",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 40,
+      "Des": "10695066864152213385",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "different",
+      "TriggerCompare": "equal",
+      "TriggerParam": {
+        "$arrayRef": 46
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 41,
+      "Des": "11577676169740271062",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "different",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 48
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 42,
+      "Des": "4870007430548174120",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "different",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 43,
+      "Des": "15066902543129826784",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 48
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 44,
+      "Des": "16485574106555544222",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "ult_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 44
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 45,
+      "Des": "9817781688049665249",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "fast_kill",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 69023
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 46,
+      "Des": "4750082171418151155",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "fast_kill",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "1": 15,
+        "2": 2
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 47,
+      "Des": "17744594131883802032",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 48,
+      "Des": "16267945228260196719",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "fast_wipe",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 58
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 49,
+      "Des": "321264137696891792",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 50,
+      "Des": "17744594131883802032",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 51,
+      "Des": "10527085401489247187",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 8210
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 52,
+      "Des": "16150612172574187873",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 67
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 53,
+      "Des": "2962983991622449518",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "atk_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 234
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 54,
+      "Des": "15802227929082081172",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "ult_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 58
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 55,
+      "Des": "627349412060920896",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "crit_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 1429
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 56,
+      "Des": "无剩余敌方单位（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "all_alive_num",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 100,
+      "Des": "测试数据，废弃（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "unit_id",
+      "TriggerCompare": "contains",
+      "TriggerParam": {
+        "$arrayRef": 438
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 101,
+      "Des": "测试数据，废弃（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "unit_id",
+      "TriggerCompare": "contains",
+      "TriggerParam": {
+        "$arrayRef": 69024
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 102,
+      "Des": "测试数据，废弃（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "fairy_id",
+      "TriggerCompare": "contains",
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 103,
+      "Des": "测试数据，废弃（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "fairy_id",
+      "TriggerCompare": "contains",
+      "TriggerParam": {
+        "$arrayRef": 183
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1001,
+      "Des": "击杀四名敌人即可取得胜利，c2支线（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "alive_num",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1002,
+      "Des": "我方仅剩1人时胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "alive_num",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1003,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 57867
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1004,
+      "Des": "开战30s后自动胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1005,
+      "Des": "开战15s后自动胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 58
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1006,
+      "Des": "8731633984639001054",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 69006
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69021
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1007,
+      "Des": "4843795612672644180",
+      "CanShow": true,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 60
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 1008,
+      "Des": "9636571934060239021",
+      "CanShow": true,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 60
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 1009,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 201
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1010,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 71
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1011,
+      "Des": "敌方首领血量<=40%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2436
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1013,
+      "Des": "敌方首领血量<=20%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 12273
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1014,
+      "Des": "敌方首领血量<=20%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 182
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "1": 0.35
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1015,
+      "Des": "敌方首领血量<=20%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2402
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69021
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1016,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2038
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1017,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 60
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1018,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2100
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1019,
+      "Des": "敌方首领血量<=10%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2102
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1020,
+      "Des": "敌方首领血量<=10%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 63
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1021,
+      "Des": "敌方首领血量<=10%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 183
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1022,
+      "Des": "敌方首领血量<=10%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2132
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1023,
+      "Des": "敌方首领血量<=20%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2100
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1024,
+      "Des": "5999815373855677192",
+      "CanShow": true,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 183
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 1025,
+      "Des": "敌方首领血量<=20%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 69007
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1026,
+      "Des": "敌方首领血量<=30%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 69008
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69021
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1027,
+      "Des": "敌方首领血量<=30%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2770
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69021
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1028,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2770
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1029,
+      "Des": "敌方首领血量<=30%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 1447
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1030,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 20286
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69026
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1031,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 2436
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69027
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1032,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 69009
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69027
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1033,
+      "Des": "7952481868953790323",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 55383
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1034,
+      "Des": "我方仓鼠血量低于30%（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 190
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69021
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1035,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 4654
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69027
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1036,
+      "Des": "击杀3名敌人即可取得胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "alive_num",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1037,
+      "Des": "EP3支线限制（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 210
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69021
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1038,
+      "Des": "17322680403624013271",
+      "CanShow": true,
+      "TargetType": "Slot",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 63
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 1039,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 58
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69005
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1040,
+      "Des": "我方仓鼠血量低于30%（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 44748
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69026
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1041,
+      "Des": "我方仓鼠血量低于30%（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 44766
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69028
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1042,
+      "Des": "我方仓鼠血量低于30%（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 69010
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1043,
+      "Des": "我方仓鼠血量低于30%（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 44777
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1044,
+      "Des": "我方仓鼠血量低于30%（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 192
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3026
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1045,
+      "Des": "我方仓鼠血量低于30%（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 20405
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 3025
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1046,
+      "Des": "我方仓鼠死亡>=2（不用翻译）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 46
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 2001,
+      "Des": "16150612172574187873",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 67
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2002,
+      "Des": "321264137696891792",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2003,
+      "Des": "7299815325767471577",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1436
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2004,
+      "Des": "12464071804442953915",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2005,
+      "Des": "6705355121048779067",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1447
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2006,
+      "Des": "7017627595755730019",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 46
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2007,
+      "Des": "9486232688244098507",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 207
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2008,
+      "Des": "11955825448697623262",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2009,
+      "Des": "7940384298511723571",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1582
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2010,
+      "Des": "14112530839577333756",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 48
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2011,
+      "Des": "7053806226303859786",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 2012,
+      "Des": "5966455351006386072",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 190
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 2013,
+      "Des": "16557688965775075132",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 394
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2014,
+      "Des": "16557688965775075132",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 44
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2015,
+      "Des": null,
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 190
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 2016,
+      "Des": "16557688965775075132",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 49
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2017,
+      "Des": null,
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1582
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2018,
+      "Des": "（不用翻译）胜利方存活5名或以上英雄",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "win_alive_num",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 44
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2019,
+      "Des": "（不用翻译）胜利方存活4名英雄",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "win_alive_num",
+      "TriggerCompare": "equal",
+      "TriggerParam": {
+        "$arrayRef": 48
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2020,
+      "Des": "（不用翻译）胜利方存活3名英雄",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "win_alive_num",
+      "TriggerCompare": "equal",
+      "TriggerParam": {
+        "$arrayRef": 47
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2021,
+      "Des": "（不用翻译）胜利方存活2名英雄",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "win_alive_num",
+      "TriggerCompare": "equal",
+      "TriggerParam": {
+        "$arrayRef": 46
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2022,
+      "Des": "（不用翻译）胜利方存活1名英雄",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 0,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "win_alive_num",
+      "TriggerCompare": "equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2023,
+      "Des": "（不用翻译）战斗时长大于等于0秒",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2024,
+      "Des": "（不用翻译）战斗时长大于等于30秒",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2025,
+      "Des": "（不用翻译）战斗时长大于等于50秒",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 5828
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2026,
+      "Des": "（不用翻译）战斗时长大于等于70秒",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 1447
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 2027,
+      "Des": "（不用翻译）战斗时长大于等于90秒",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 1582
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 3001,
+      "Des": "16557688965775075132",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 182
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 3002,
+      "Des": "16557688965775075132",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 423
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 3010,
+      "Des": "（不用翻译）152-关卡1-击杀数1 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2407
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3011,
+      "Des": "（不用翻译）152-关卡1-击杀数2 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2442
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3012,
+      "Des": "（不用翻译）152-关卡1-击杀数3 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 8210
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3013,
+      "Des": "（不用翻译）152-关卡2-击杀数1 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2436
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3014,
+      "Des": "（不用翻译）152-关卡2-击杀数2 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3015,
+      "Des": "（不用翻译）152-关卡2-击杀数3 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2407
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3016,
+      "Des": "（不用翻译）152-关卡3-击杀数1 -蜂群",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 193
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3017,
+      "Des": "（不用翻译）152-关卡3-击杀数2 -蜂群",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 196
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3018,
+      "Des": "（不用翻译）152-关卡3-击杀数3 -蜂群",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 67
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3019,
+      "Des": "（不用翻译）153-关卡1-击杀数1 -初始B",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 58
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3020,
+      "Des": "（不用翻译）153-关卡1-击杀数2 -初始B",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 190
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3021,
+      "Des": "（不用翻译）153-关卡1-击杀数3 -初始B",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2436
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3022,
+      "Des": "（不用翻译）153-关卡2-击杀数1 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2436
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3023,
+      "Des": "（不用翻译）153-关卡2-击杀数2 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3024,
+      "Des": "（不用翻译）153-关卡2-击杀数3 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2407
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3025,
+      "Des": "（不用翻译）153-关卡3-战场时间1 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3026,
+      "Des": "（不用翻译）153-关卡3-战场时间2 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 8210
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3027,
+      "Des": "（不用翻译）153-关卡3-战场时间3 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 67
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3028,
+      "Des": "（不用翻译）154-关卡1-击杀数1 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 190
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3029,
+      "Des": "（不用翻译）154-关卡1-击杀数2 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2436
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3030,
+      "Des": "（不用翻译）154-关卡1-击杀数3 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3031,
+      "Des": "（不用翻译）154-关卡2-击杀数1 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 58
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3032,
+      "Des": "（不用翻译）154-关卡2-击杀数2 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 189
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3033,
+      "Des": "（不用翻译）154-关卡2-击杀数3 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 201
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3034,
+      "Des": "（不用翻译）154-关卡3-击杀数1 -蜂群",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 8210
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3035,
+      "Des": "（不用翻译）154-关卡3-击杀数2 -蜂群",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2932
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3036,
+      "Des": "（不用翻译）154-关卡3-击杀数3 -蜂群",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 1436
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3040,
+      "Des": "（不用翻译）161-关卡1-击杀数1 -初始B",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 44
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3041,
+      "Des": "（不用翻译）161-关卡1-击杀数2 -初始B",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 181
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3042,
+      "Des": "（不用翻译）161-关卡1-击杀数3 -初始B",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 183
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3043,
+      "Des": "（不用翻译）161-关卡2-击杀数1 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 58
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3044,
+      "Des": "（不用翻译）161-关卡2-击杀数2 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 189
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3045,
+      "Des": "（不用翻译）161-关卡2-击杀数3 -递进",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 201
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3046,
+      "Des": "（不用翻译）161-关卡3-战场时间1 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2442
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3047,
+      "Des": "（不用翻译）161-关卡3-战场时间2 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 67
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3048,
+      "Des": "（不用翻译）161-关卡3-战场时间3 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 1447
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3050,
+      "Des": "（不用翻译）162-关卡1-击杀数1 -巨怪",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 48
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3051,
+      "Des": "（不用翻译）162-关卡1-击杀数2 -巨怪",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 181
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3052,
+      "Des": "（不用翻译）162-关卡1-击杀数3 -巨怪",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3053,
+      "Des": "（不用翻译）162-关卡2-击杀数1 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 181
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3054,
+      "Des": "（不用翻译）162-关卡2-击杀数2 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 184
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3055,
+      "Des": "（不用翻译）162-关卡2-击杀数3 -正常",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 190
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3056,
+      "Des": "（不用翻译）162-关卡3-战场时间1 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3057,
+      "Des": "（不用翻译）162-关卡3-战场时间2 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2442
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3058,
+      "Des": "（不用翻译）162-关卡3-战场时间3 ≥ x",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 8210
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3060,
+      "Des": "（不用翻译）163-关卡1-击杀数1 -正常（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2407
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3061,
+      "Des": "（不用翻译）163-关卡1-击杀数2 -正常（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2442
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3062,
+      "Des": "（不用翻译）163-关卡1-击杀数3 -正常（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 8210
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3063,
+      "Des": "（不用翻译）163-关卡2-击杀数1 -递进（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2436
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3064,
+      "Des": "（不用翻译）163-关卡2-击杀数2 -递进（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2402
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3065,
+      "Des": "（不用翻译）163-关卡2-击杀数3 -递进（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 2407
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3066,
+      "Des": "（不用翻译）163-关卡3-击杀数1 -蜂群（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 193
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3067,
+      "Des": "（不用翻译）163-关卡3-击杀数2 -蜂群（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 196
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 3068,
+      "Des": "（不用翻译）163-关卡3-击杀数3 -蜂群（ID、内容占位）",
+      "CanShow": false,
+      "TargetType": null,
+      "TargetCamp": -1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 67
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 4001,
+      "Des": "（不用翻译）怪物攻城-样例胜利",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 47
+      },
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 4002,
+      "Des": "（不用翻译）怪物攻城-通用胜利，水晶固定slot6",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 49
+      },
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 4003,
+      "Des": "（不用翻译）怪物攻城-通用胜利，水晶固定slot1",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 45
+      },
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 4004,
+      "Des": "（不用翻译）怪物攻城-通用胜利，水晶固定slot5",
+      "CanShow": false,
+      "TargetType": "Slot",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 44
+      },
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5001,
+      "Des": "7053806226303859786",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 45
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 5002,
+      "Des": "7299815325767471577",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "greater_equal",
+      "TriggerParam": {
+        "$arrayRef": 1436
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 5100,
+      "Des": "（不用翻译）战斗胜利时，剩余时间≥80，经过的时间≤10",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 62
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5101,
+      "Des": "（不用翻译）战斗胜利时，被击败的英雄不超过2个",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "death_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 46
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5102,
+      "Des": "（不用翻译）基础战斗胜利，战斗时长≤90",
+      "CanShow": true,
+      "TargetType": null,
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": null,
+      "TriggerType": "elapsed_time",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1582
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5501,
+      "Des": "15054440137089065475",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Human",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5502,
+      "Des": "4390332017592478509",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Elf",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5503,
+      "Des": "12857525491213877379",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Orc",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5504,
+      "Des": "3903788983700490039",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Undead",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5505,
+      "Des": "6768921811811826091",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "God",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5506,
+      "Des": "14103062539056608223",
+      "CanShow": true,
+      "TargetType": "UnitRace",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Devil",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5507,
+      "Des": "5460884555734164066",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Tank",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5508,
+      "Des": "13814632149197245782",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Support",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5509,
+      "Des": "2289761342013262889",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Soldier",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5510,
+      "Des": "5832778495430204314",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Mage",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5511,
+      "Des": "8047131063442414272",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Archer",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5512,
+      "Des": "7574132891077296433",
+      "CanShow": true,
+      "TargetType": "UnitJob",
+      "TargetCamp": 1,
+      "TargetParam": {},
+      "TargetParamS": "Ranger",
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5513,
+      "Des": "8502550290683923708",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69011
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5514,
+      "Des": "18020429541295680005",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69012
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5515,
+      "Des": "813120533843812360",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69013
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5516,
+      "Des": "6711289090961354542",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69014
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5517,
+      "Des": "5987567974091504328",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69015
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5518,
+      "Des": "5008204412694022169",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69016
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5519,
+      "Des": "12322813003491546390",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69017
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 5520,
+      "Des": "15087089382917548912",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 69018
+      },
+      "TargetParamS": null,
+      "TriggerType": "tournament_unit_count",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 6001,
+      "Des": "10630135514630684797",
+      "CanShow": true,
+      "TargetType": "ID",
+      "TargetCamp": 1,
+      "TargetParam": {
+        "$arrayRef": 2442
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 1459
+      },
+      "TriggerParamS": null,
+      "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 6101,
+      "Des": "（不用翻译）敌方首领死亡即可获胜",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 69019
+      },
+      "TargetParamS": null,
+      "TriggerType": "death",
+      "TriggerCompare": null,
+      "TriggerParam": {},
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    }
+  ]
+}

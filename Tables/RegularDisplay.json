@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "table": "RegularDisplay",
+    "header_table": "RegularDisplayHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 2,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "DisplayCondition": "true",
+    "DisplayPriorityWeight": 0,
+    "Prefab": null,
+    "Type": null,
+    "ScheduleClientType": null
+  },
+  "row_keys": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "DisplayCondition": "true",
+      "DisplayPriorityWeight": 1,
+      "Prefab": "ui/prefabs/taskdaily/daily/pbui_task_daily.prefab",
+      "Type": null,
+      "ScheduleClientType": null
+    },
+    {
+      "ID": 2,
+      "DisplayCondition": "ed.ConditionX.IsUserInEp(\"Ep05\") and ((ed.ConditionX.ScheduleOpenedDays(529)>=1 and ed.ConditionX.ScheduleOpenedDays(529)<=14) or (ed.ConditionX.ScheduleOpenedDays(597)>=1 and ed.ConditionX.ScheduleOpenedDays(597)<=14))",
+      "DisplayPriorityWeight": 2,
+      "Prefab": "ui/prefabs/taskdaily/daily/harvestgod/pbui_harvestgod_task_daily.prefab",
+      "Type": 57,
+      "ScheduleClientType": 14
+    }
+  ]
+}

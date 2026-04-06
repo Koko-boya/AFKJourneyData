@@ -1,0 +1,178 @@
+{
+  "_meta": {
+    "table": "TournamentDifficulty",
+    "header_table": "TournamentDifficultyHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 12,
+    "row_count": 8,
+    "array_fields": [
+      "InitialItems"
+    ],
+    "unresolved_array_refs": 7
+  },
+  "default": {
+    "TournamentID": "null",
+    "DifficultyID": "null",
+    "DifficultyName": null,
+    "DifficultyIconRes": null,
+    "HeroUseTimes": 0,
+    "InitialItems": {},
+    "Tips": null,
+    "Des": null,
+    "RetryCnt": 0,
+    "UnlockCondition": "true",
+    "ExpectedReward": {},
+    "DifficultyComponentPrefab": null
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "TournamentID": 1,
+      "DifficultyID": 1,
+      "DifficultyName": "14223667216999750819",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_0.png",
+      "HeroUseTimes": 6,
+      "InitialItems": {
+        "$arrayRef": 97990
+      },
+      "Tips": null,
+      "Des": "12109506953746287061",
+      "RetryCnt": 0,
+      "UnlockCondition": "true",
+      "ExpectedReward": {},
+      "DifficultyComponentPrefab": null
+    },
+    {
+      "TournamentID": 1,
+      "DifficultyID": 2,
+      "DifficultyName": "8690973182530755816",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_3.png",
+      "HeroUseTimes": 3,
+      "InitialItems": {
+        "1": 40,
+        "2": 1001,
+        "3": 1,
+        "4": 40,
+        "5": 1002,
+        "6": 1,
+        "7": 40,
+        "8": 1005,
+        "9": 1
+      },
+      "Tips": "9630038190787527377",
+      "Des": "2173242105390947430",
+      "RetryCnt": 0,
+      "UnlockCondition": "true",
+      "ExpectedReward": {},
+      "DifficultyComponentPrefab": null
+    },
+    {
+      "TournamentID": 1,
+      "DifficultyID": 3,
+      "DifficultyName": "11707621282404090417",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_4.png",
+      "HeroUseTimes": 3,
+      "InitialItems": {
+        "$arrayRef": 97991
+      },
+      "Tips": "9630038190787527377",
+      "Des": "126964872357224033",
+      "RetryCnt": 0,
+      "UnlockCondition": "true",
+      "ExpectedReward": {},
+      "DifficultyComponentPrefab": null
+    },
+    {
+      "TournamentID": 1,
+      "DifficultyID": 4,
+      "DifficultyName": "12544065748288240145",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_5.png",
+      "HeroUseTimes": 2,
+      "InitialItems": {
+        "$arrayRef": 97991
+      },
+      "Tips": "9630038190787527377",
+      "Des": "17263202162591187",
+      "RetryCnt": 0,
+      "UnlockCondition": "true",
+      "ExpectedReward": {},
+      "DifficultyComponentPrefab": null
+    },
+    {
+      "TournamentID": 1,
+      "DifficultyID": 5,
+      "DifficultyName": "1101321066404658714",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_6.png",
+      "HeroUseTimes": 1,
+      "InitialItems": {
+        "$arrayRef": 97991
+      },
+      "Tips": "9630038190787527377",
+      "Des": "16901913045590312701",
+      "RetryCnt": 0,
+      "UnlockCondition": "true",
+      "ExpectedReward": {},
+      "DifficultyComponentPrefab": null
+    },
+    {
+      "TournamentID": 2,
+      "DifficultyID": 1,
+      "DifficultyName": "11707621282404090417",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_4.png",
+      "HeroUseTimes": 3,
+      "InitialItems": {
+        "$arrayRef": 97991
+      },
+      "Tips": null,
+      "Des": "12109506953746287061",
+      "RetryCnt": 3,
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(584)>=1",
+      "ExpectedReward": {
+        "1": 1,
+        "2": 190,
+        "3": 510
+      },
+      "DifficultyComponentPrefab": "ui/prefabs/tournament/difficulty/pbui_tournament_main_difficulty_3.prefab"
+    },
+    {
+      "TournamentID": 2,
+      "DifficultyID": 2,
+      "DifficultyName": "12544065748288240145",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_5.png",
+      "HeroUseTimes": 2,
+      "InitialItems": {
+        "$arrayRef": 97991
+      },
+      "Tips": "9630038190787527377",
+      "Des": "2173242105390947430",
+      "RetryCnt": 2,
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(584)>=1",
+      "ExpectedReward": {
+        "1": 1,
+        "2": 190,
+        "3": 760
+      },
+      "DifficultyComponentPrefab": "ui/prefabs/tournament/difficulty/pbui_tournament_main_difficulty_4.prefab"
+    },
+    {
+      "TournamentID": 2,
+      "DifficultyID": 3,
+      "DifficultyName": "12463957293807149147",
+      "DifficultyIconRes": "UI/Sprites/Common/spui_icon_boss_difficulty_6.png",
+      "HeroUseTimes": 1,
+      "InitialItems": {
+        "$arrayRef": 97991
+      },
+      "Tips": "9630038190787527377",
+      "Des": "126964872357224033",
+      "RetryCnt": 1,
+      "UnlockCondition": "ed.ConditionX.ScheduleOpenedDays(584)>=1",
+      "ExpectedReward": {
+        "1": 1,
+        "2": 190,
+        "3": 1440
+      },
+      "DifficultyComponentPrefab": "ui/prefabs/tournament/difficulty/pbui_tournament_main_difficulty_5.prefab"
+    }
+  ]
+}

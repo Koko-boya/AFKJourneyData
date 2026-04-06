@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "table": "Boost",
+    "header_table": "BoostHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 3,
+    "array_fields": [
+      "BattleModeWhiteList"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "TypeName": "null",
+    "BattleModeWhiteList": {},
+    "ReplyMaxCount": 0,
+    "ResponseTimeMinute": 0,
+    "BoostCD": null,
+    "CanDuplicated": false
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "TypeName": 1,
+      "BattleModeWhiteList": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 22
+      },
+      "ReplyMaxCount": 3,
+      "ResponseTimeMinute": 30,
+      "BoostCD": 101,
+      "CanDuplicated": false
+    },
+    {
+      "TypeName": 2,
+      "BattleModeWhiteList": {
+        "$arrayRef": 71903
+      },
+      "ReplyMaxCount": 0,
+      "ResponseTimeMinute": 0,
+      "BoostCD": 102,
+      "CanDuplicated": false
+    },
+    {
+      "TypeName": 3,
+      "BattleModeWhiteList": {
+        "$arrayRef": 196
+      },
+      "ReplyMaxCount": 0,
+      "ResponseTimeMinute": 0,
+      "BoostCD": 103,
+      "CanDuplicated": true
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "_meta": {
+    "table": "CustomTrialStageQuest",
+    "header_table": "CustomTrialStageQuestHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 13,
+    "array_fields": [
+      "EnemyBuffBuffID",
+      "SelfBuffID"
+    ],
+    "unresolved_array_refs": 9
+  },
+  "default": {
+    "LineID": "null",
+    "UnlockCondition": "true",
+    "DisplayCondition": "true",
+    "UnlockDes": null,
+    "SelfBuffID": {},
+    "EnemyBuffBuffID": {},
+    "Score": 0
+  },
+  "row_keys": [
+    6201,
+    6202,
+    6203,
+    6204,
+    6205,
+    6206,
+    6207,
+    6208,
+    6209,
+    6210,
+    6211,
+    6212,
+    6213
+  ],
+  "rows": [
+    {
+      "LineID": 6201,
+      "UnlockCondition": "true",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,7)",
+      "UnlockDes": null,
+      "SelfBuffID": {
+        "$arrayRef": 72023
+      },
+      "EnemyBuffBuffID": {},
+      "Score": 1600
+    },
+    {
+      "LineID": 6202,
+      "UnlockCondition": "ed.ConditionX.Counter(2242)>=1",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,7)",
+      "UnlockDes": "12205779017903049139",
+      "SelfBuffID": {},
+      "EnemyBuffBuffID": {
+        "$arrayRef": 72367
+      },
+      "Score": 3200
+    },
+    {
+      "LineID": 6203,
+      "UnlockCondition": "true",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,8)",
+      "UnlockDes": null,
+      "SelfBuffID": {
+        "$arrayRef": 71655
+      },
+      "EnemyBuffBuffID": {},
+      "Score": 1600
+    },
+    {
+      "LineID": 6204,
+      "UnlockCondition": "ed.ConditionX.Counter(2244)>=1",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,8)",
+      "UnlockDes": "6050197972981593919",
+      "SelfBuffID": {},
+      "EnemyBuffBuffID": {
+        "1": 43,
+        "2": 31
+      },
+      "Score": 3200
+    },
+    {
+      "LineID": 6205,
+      "UnlockCondition": "true",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,9)",
+      "UnlockDes": null,
+      "SelfBuffID": {
+        "$arrayRef": 72273
+      },
+      "EnemyBuffBuffID": {},
+      "Score": 1600
+    },
+    {
+      "LineID": 6206,
+      "UnlockCondition": "ed.ConditionX.Counter(2246)>=1",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,9)",
+      "UnlockDes": "1074459921817710611",
+      "SelfBuffID": {},
+      "EnemyBuffBuffID": {
+        "$arrayRef": 71345
+      },
+      "Score": 3200
+    },
+    {
+      "LineID": 6207,
+      "UnlockCondition": "true",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,10)",
+      "UnlockDes": null,
+      "SelfBuffID": {
+        "$arrayRef": 71712
+      },
+      "EnemyBuffBuffID": {},
+      "Score": 1600
+    },
+    {
+      "LineID": 6208,
+      "UnlockCondition": "ed.ConditionX.Counter(2248)>=1",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,10)",
+      "UnlockDes": "6088514143108672871",
+      "SelfBuffID": {},
+      "EnemyBuffBuffID": {
+        "1": 4,
+        "2": 35
+      },
+      "Score": 3200
+    },
+    {
+      "LineID": 6209,
+      "UnlockCondition": "true",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,11)",
+      "UnlockDes": null,
+      "SelfBuffID": {
+        "$arrayRef": 71657
+      },
+      "EnemyBuffBuffID": {},
+      "Score": 1600
+    },
+    {
+      "LineID": 6210,
+      "UnlockCondition": "ed.ConditionX.Counter(2250)>=1",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,11)",
+      "UnlockDes": "2084118985647694682",
+      "SelfBuffID": {},
+      "EnemyBuffBuffID": {
+        "$arrayRef": 72368
+      },
+      "Score": 3200
+    },
+    {
+      "LineID": 6211,
+      "UnlockCondition": "true",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,12)",
+      "UnlockDes": null,
+      "SelfBuffID": {
+        "$arrayRef": 71650
+      },
+      "EnemyBuffBuffID": {},
+      "Score": 1600
+    },
+    {
+      "LineID": 6212,
+      "UnlockCondition": "ed.ConditionX.Counter(2252)>=1",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,12)",
+      "UnlockDes": "10905687847069235454",
+      "SelfBuffID": {},
+      "EnemyBuffBuffID": {
+        "1": 38,
+        "2": 43,
+        "3": 30
+      },
+      "Score": 4000
+    },
+    {
+      "LineID": 6213,
+      "UnlockCondition": "ed.ConditionX.Counter(2253)>=1",
+      "DisplayCondition": "ed.ConditionX.IsCustomTrialChallengeUnlock(1,12)",
+      "UnlockDes": "11805669144333212042",
+      "SelfBuffID": {},
+      "EnemyBuffBuffID": {
+        "1": 41,
+        "2": 45,
+        "3": 43,
+        "4": 8
+      },
+      "Score": 10000
+    }
+  ]
+}

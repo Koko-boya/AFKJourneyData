@@ -1,0 +1,2083 @@
+{
+  "_meta": {
+    "table": "Trigger",
+    "header_table": "TriggerHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 219,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "ServerEvents": {},
+    "Condition": "true",
+    "Action": "true"
+  },
+  "row_keys": [
+    9,
+    19,
+    20,
+    21,
+    34,
+    35,
+    56,
+    59,
+    60,
+    65,
+    70,
+    71,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    1003,
+    2001,
+    2002,
+    2003,
+    2012,
+    2021,
+    2022,
+    2027,
+    2028,
+    2029,
+    2031,
+    2032,
+    2800,
+    2801,
+    3003,
+    3006,
+    3012,
+    3013,
+    3014,
+    3015,
+    3016,
+    3017,
+    3018,
+    3019,
+    3020,
+    3021,
+    3022,
+    3023,
+    3024,
+    3025,
+    4001,
+    4002,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019,
+    5020,
+    5021,
+    5022,
+    5023,
+    5024,
+    5025,
+    5026,
+    5027,
+    5028,
+    5029,
+    5030,
+    5031,
+    5032,
+    5033,
+    5034,
+    5035,
+    5036,
+    5037,
+    5038,
+    5039,
+    5040,
+    5041,
+    5042,
+    5043,
+    5044,
+    5045,
+    5046,
+    5047,
+    5048,
+    5049,
+    5050,
+    5051,
+    5052,
+    5053,
+    5054,
+    5055,
+    5056,
+    5057,
+    5058,
+    5059,
+    5060,
+    5061,
+    5062,
+    5063,
+    5064,
+    5065,
+    5066,
+    5067,
+    5068,
+    5069,
+    5070,
+    5071,
+    5072,
+    5073,
+    5074,
+    5075,
+    5076,
+    5077,
+    5078,
+    5079,
+    5080,
+    5081,
+    5082,
+    5083,
+    5084,
+    5085,
+    5086,
+    5087,
+    5088,
+    5089,
+    5090,
+    5091,
+    5092,
+    5093,
+    5094,
+    5095,
+    5096,
+    5097,
+    5098,
+    5099,
+    5101,
+    5120,
+    5121,
+    5159,
+    9000,
+    9001,
+    9002,
+    9003,
+    9004,
+    9005,
+    9006,
+    9007,
+    9008,
+    9012,
+    9013,
+    9014,
+    9017,
+    9018,
+    9019,
+    9020,
+    9021,
+    9022,
+    8001,
+    8002,
+    8003,
+    8004,
+    8005,
+    8006,
+    8007,
+    8008,
+    8009,
+    8010,
+    8011,
+    8012,
+    8013,
+    11008,
+    11010,
+    13001,
+    14001,
+    14002,
+    14003,
+    14004,
+    14005,
+    14006,
+    14007,
+    14008,
+    14009,
+    14010,
+    14011,
+    14012,
+    14013,
+    17001,
+    19003,
+    19004,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    21003,
+    21004,
+    11801,
+    23001,
+    23002,
+    23003
+  ],
+  "rows": [
+    {
+      "ID": 9,
+      "ServerEvents": {
+        "1": "HeroQualityUpByQuality:9"
+      },
+      "Condition": "ed.ConditionX.HeroCountByQuality(9)>=1",
+      "Action": "ed.ActionX.UnlockModule(\"Exclusive\")"
+    },
+    {
+      "ID": 19,
+      "ServerEvents": {
+        "1": "UnlockVaultEntry:*"
+      },
+      "Condition": "ed.ConditionX.HasVaultEntryUnlocked()",
+      "Action": "ed.ActionX.UnlockModule(\"Vault\")"
+    },
+    {
+      "ID": 20,
+      "ServerEvents": {
+        "1": "UnlockModule:StarGazer"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"StarGazer\")",
+      "Action": "ed.ActionX.UnlockMallGoods(113) and ed.ActionX.UnlockMallGoods(229) and ed.ActionX.UnlockMallGoods(312)"
+    },
+    {
+      "ID": 21,
+      "ServerEvents": {
+        "1": "HeroExclusiveLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.HeroCountByExclusiveLv(15)>=1",
+      "Action": "ed.ActionX.UnlockMallGoods(225) and ed.ActionX.UnlockMallGoods(316)"
+    },
+    {
+      "ID": 34,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1500",
+      "Action": "ed.ActionX.UnlockLocalArenaDefendMap(402004) and ed.ActionX.FinishGuildChallenge(8)"
+    },
+    {
+      "ID": 35,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2000",
+      "Action": "ed.ActionX.UnlockLocalArenaDefendMap(402005) and ed.ActionX.FinishGuildChallenge(9)"
+    },
+    {
+      "ID": 56,
+      "ServerEvents": {
+        "1": "UnlockModule:MainCity"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
+      "Action": "ed.ActionX.UnlockQuestGroup(2)"
+    },
+    {
+      "ID": 59,
+      "ServerEvents": {
+        "1": "UnlockModule:Exclusive"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"Exclusive\")",
+      "Action": "ed.ActionX.UnlockMallGoods(111) and ed.ActionX.UnlockMallGoods(112) and ed.ActionX.UnlockMallGoods(222) and ed.ActionX.UnlockMallGoods(223) and ed.ActionX.UnlockMallGoods(224) and ed.ActionX.UnlockMallGoods(313) and ed.ActionX.UnlockMallGoods(314) and ed.ActionX.UnlockMallGoods(315)"
+    },
+    {
+      "ID": 60,
+      "ServerEvents": {
+        "1": "UnlockModule:Fairy"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"Fairy\")",
+      "Action": "ed.ActionX.UnlockMallGoods(7) and ed.ActionX.UnlockMallGoods(8)"
+    },
+    {
+      "ID": 65,
+      "ServerEvents": {
+        "1": "AddHero:*"
+      },
+      "Condition": "ed.ConditionX.HeroCount()>=6",
+      "Action": "ed.ActionX.UnlockModule(\"Equip\")"
+    },
+    {
+      "ID": 70,
+      "ServerEvents": {
+        "1": "UnlockModule:Behaviour"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"Behaviour\")",
+      "Action": "ed.ActionX.AddBehaviourAsr(1) and ed.ActionX.AddBehaviourAsr(2) and ed.ActionX.AddBehaviourAsr(5) and ed.ActionX.AddBehaviourAsr(35) and ed.ActionX.AddBehaviourAsr(36) and ed.ActionX.AddBehaviourAsr(37) and ed.ActionX.AddBehaviourAsr(38) and ed.ActionX.AddBehaviourAsr(39) and ed.ActionX.AddBehaviourAsr(40) and ed.ActionX.AddBehaviourAsr(41)"
+    },
+    {
+      "ID": 71,
+      "ServerEvents": {
+        "1": "UnlockModule:ChannelChat",
+        "2": "UnlockModule:PrivateChat",
+        "3": "StageAddPoint:6"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"ChannelChat\") and ed.ConditionX.IsModuleUnlocked(\"PrivateChat\") and ed.ConditionX.IsStageReachPoint(6)",
+      "Action": "ed.ActionX.UnlockModule(\"Boost\") and ed.ActionX.UnlockModule(\"Mercenary\")"
+    },
+    {
+      "ID": 74,
+      "ServerEvents": {
+        "1": "ExplTaskFinish:10010100:4"
+      },
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10010100,4)",
+      "Action": "ed.ActionX.UnlockModule(\"Retro\")"
+    },
+    {
+      "ID": 75,
+      "ServerEvents": {
+        "1": "UnlockModule:Stage"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"Stage\")",
+      "Action": "ed.ActionX.UnlockModule(\"Fairy\")"
+    },
+    {
+      "ID": 76,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2500",
+      "Action": "ed.ActionX.UnlockLocalArenaDefendMap(402007)"
+    },
+    {
+      "ID": 77,
+      "ServerEvents": {
+        "1": "UpdateCounter:2583"
+      },
+      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Action": "ed.ActionX.UnlockModule(\"Portal\")"
+    },
+    {
+      "ID": 78,
+      "ServerEvents": {
+        "1": "UpdateCounter:2583"
+      },
+      "Condition": "ed.ConditionX.Counter(2583)>=4",
+      "Action": "ed.ActionX.UnlockModule(\"SwitchZoom\")"
+    },
+    {
+      "ID": 79,
+      "ServerEvents": {
+        "1": "HSExpandRegion:2"
+      },
+      "Condition": "ed.ConditionX.IsHSRegionUnlocked(2,15)",
+      "Action": "ed.ActionX.UnlockModule(\"MainCity\")"
+    },
+    {
+      "ID": 80,
+      "ServerEvents": {
+        "1": "HSExpandRegion:2"
+      },
+      "Condition": "ed.ConditionX.IsHSRegionUnlocked(2,4)",
+      "Action": "ed.ActionX.AddHSFormula(6,3)"
+    },
+    {
+      "ID": 81,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3",
+      "Action": "ed.ActionX.UnlockModule(\"Shop\") and ed.ActionX.UnlockModule(\"Tavern\") and ed.ActionX.UnlockModule(\"Assistant\") and ed.ActionX.UnlockModule(\"Mall\") and ed.ActionX.UnlockModule(\"MonthlyCard\") and ed.ActionX.UnlockModule(\"Crowd\") and ed.ActionX.UnlockModule(\"Behaviour\") and ed.ActionX.UnlockQuestGroup(1183) and ed.ActionX.UnlockModule(\"Friend\") and ed.ActionX.UnlockModule(\"ChannelChat\") and ed.ActionX.UnlockModule(\"PrivateChat\")"
+    },
+    {
+      "ID": 82,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=5",
+      "Action": "ed.ActionX.UnlockModule(\"DualCapture\")"
+    },
+    {
+      "ID": 83,
+      "ServerEvents": {
+        "1": "HSExpandRegion:2"
+      },
+      "Condition": "ed.ConditionX.HSBuildingRegionCnt(2)>=6",
+      "Action": "ed.ActionX.UnlockModule(\"Guild\")"
+    },
+    {
+      "ID": 84,
+      "ServerEvents": {
+        "1": "UpdateCounter:2923"
+      },
+      "Condition": "ed.ConditionX.Counter(2923)>=4",
+      "Action": "ed.ActionX.UnlockModule(\"Stage\")"
+    },
+    {
+      "ID": 1003,
+      "ServerEvents": {
+        "1": "UnlockZone:41:3"
+      },
+      "Condition": "ed.ConditionX.IsZoneUnlocked(41,3)",
+      "Action": "true"
+    },
+    {
+      "ID": 2001,
+      "ServerEvents": {
+        "1": "StageAddPoint:1"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(1)",
+      "Action": "ed.ActionX.UnlockModule(\"CustomPicture\") and ed.ActionX.UnlockModule(\"Gem\") and ed.ActionX.UnlockModule(\"MegaBoss\")"
+    },
+    {
+      "ID": 2002,
+      "ServerEvents": {
+        "1": "StageAddPoint:5",
+        "2": "UnlockModule:Knight"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(5) and ed.ConditionX.IsModuleUnlocked(\"Knight\")",
+      "Action": "ed.ActionX.UnlockModule(\"EpOneKeyUpgrade\")"
+    },
+    {
+      "ID": 2003,
+      "ServerEvents": {
+        "1": "StageAddPoint:5"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(5)",
+      "Action": "ed.ActionX.UnlockModule(\"QuickIdle\")"
+    },
+    {
+      "ID": 2012,
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "Action": "ed.ActionX.UnlockModule(\"LocalArena\")"
+    },
+    {
+      "ID": 2021,
+      "ServerEvents": {
+        "1": "StageAddPoint:21"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(21)",
+      "Action": "ed.ActionX.UnlockModule(\"Sparring\")"
+    },
+    {
+      "ID": 2022,
+      "ServerEvents": {
+        "1": "StageAddPoint:40"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(40)",
+      "Action": "ed.ActionX.UnlockModule(\"DreamBoss\")"
+    },
+    {
+      "ID": 2027,
+      "ServerEvents": {
+        "1": "StageAddPoint:45"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(45)",
+      "Action": "ed.ActionX.UnlockModule(\"EquipEnhance\")"
+    },
+    {
+      "ID": 2028,
+      "ServerEvents": {
+        "1": "StageAddPoint:120"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(120)",
+      "Action": "ed.ActionX.UnlockModule(\"Maze\")"
+    },
+    {
+      "ID": 2029,
+      "ServerEvents": {
+        "1": "StageAddPoint:160"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(160)",
+      "Action": "ed.ActionX.UnlockModule(\"Tower\")"
+    },
+    {
+      "ID": 2031,
+      "ServerEvents": {
+        "1": "StageAddPoint:80"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(80)",
+      "Action": "ed.ActionX.UnlockModule(\"Duel\")"
+    },
+    {
+      "ID": 2032,
+      "ServerEvents": {
+        "1": "StageAddPoint:25"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(25)",
+      "Action": "ed.ActionX.UnlockModule(\"Regular\") and ed.ActionX.UnlockModule(\"Growth\")"
+    },
+    {
+      "ID": 2800,
+      "ServerEvents": {
+        "1": "StageAddPoint:70"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(70)",
+      "Action": "ed.ActionX.UnlockModule(\"GRaid\")"
+    },
+    {
+      "ID": 2801,
+      "ServerEvents": {
+        "1": "StageAddPoint:50"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(50)",
+      "Action": "ed.ActionX.UnlockModule(\"GridReward\")"
+    },
+    {
+      "ID": 3003,
+      "ServerEvents": {
+        "1": "UpdateBest:12"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=2",
+      "Action": "ed.ActionX.FinishGuildChallenge(18)"
+    },
+    {
+      "ID": 3006,
+      "ServerEvents": {
+        "1": "UpdateBest:12"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=5",
+      "Action": "ed.ActionX.FinishGuildChallenge(19)"
+    },
+    {
+      "ID": 3012,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:6"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=1 and ed.ConditionX.KnightLevel()>=50 and ed.ConditionX.HeroCountByQuality(6)>=4",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(2)"
+    },
+    {
+      "ID": 3013,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:7"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=2 and ed.ConditionX.KnightLevel()>=65 and ed.ConditionX.HeroCountByQuality(7)>=4",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(3)"
+    },
+    {
+      "ID": 3014,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:8"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=3 and ed.ConditionX.KnightLevel()>=80 and ed.ConditionX.HeroCountByQuality(8)>=2",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(4)"
+    },
+    {
+      "ID": 3015,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:8"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=4 and ed.ConditionX.KnightLevel()>=90 and ed.ConditionX.HeroCountByQuality(8)>=4",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(5)"
+    },
+    {
+      "ID": 3016,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:9"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=5 and ed.ConditionX.KnightLevel()>=100 and ed.ConditionX.HeroCountByQuality(9)>=2",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(6)"
+    },
+    {
+      "ID": 3017,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:9"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=6 and ed.ConditionX.KnightLevel()>=110 and ed.ConditionX.HeroCountByQuality(9)>=4",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(7)"
+    },
+    {
+      "ID": 3018,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:10"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=7 and ed.ConditionX.KnightLevel()>=120 and ed.ConditionX.HeroCountByQuality(10)>=2",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(8)"
+    },
+    {
+      "ID": 3019,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:10"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=8 and ed.ConditionX.KnightLevel()>=130 and ed.ConditionX.HeroCountByQuality(10)>=4",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(9)"
+    },
+    {
+      "ID": 3020,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:11"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=9 and ed.ConditionX.KnightLevel()>=140 and ed.ConditionX.HeroCountByQuality(11)>=2",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(10)"
+    },
+    {
+      "ID": 3021,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:11"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=10 and ed.ConditionX.KnightLevel()>=150 and ed.ConditionX.HeroCountByQuality(11)>=4",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(11)"
+    },
+    {
+      "ID": 3022,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:12"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=11 and ed.ConditionX.KnightLevel()>=160 and ed.ConditionX.HeroCountByQuality(12)>=2",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(12)"
+    },
+    {
+      "ID": 3023,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:12"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=12 and ed.ConditionX.KnightLevel()>=170 and ed.ConditionX.HeroCountByQuality(12)>=4",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(13)"
+    },
+    {
+      "ID": 3024,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:13"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=13 and ed.ConditionX.KnightLevel()>=190 and ed.ConditionX.HeroCountByQuality(13)>=1",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(14)"
+    },
+    {
+      "ID": 3025,
+      "ServerEvents": {
+        "1": "UpdateBest:12",
+        "2": "KnightLevelUp:*",
+        "3": "HeroQualityUpByQuality:13"
+      },
+      "Condition": "ed.ConditionX.Best(12)>=14 and ed.ConditionX.KnightLevel()>=210 and ed.ConditionX.HeroCountByQuality(13)>=2",
+      "Action": "ed.ActionX.UnlockMazeDifficulty(15)"
+    },
+    {
+      "ID": 4001,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=30",
+      "Action": "ed.ActionX.UnlockModule(\"Gallery\")"
+    },
+    {
+      "ID": 4002,
+      "ServerEvents": {
+        "1": "TavernDraw:1"
+      },
+      "Condition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
+      "Action": "ed.ActionX.UnlockModule(\"WishHero\")"
+    },
+    {
+      "ID": 5010,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=20",
+      "Action": "ed.ActionX.UnlockVault(20101)"
+    },
+    {
+      "ID": 5011,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=40",
+      "Action": "ed.ActionX.UnlockVault(20102)"
+    },
+    {
+      "ID": 5012,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=60",
+      "Action": "ed.ActionX.UnlockVault(20103)"
+    },
+    {
+      "ID": 5013,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=80",
+      "Action": "ed.ActionX.UnlockVault(20104)"
+    },
+    {
+      "ID": 5014,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=110",
+      "Action": "ed.ActionX.UnlockVault(20105)"
+    },
+    {
+      "ID": 5015,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=140",
+      "Action": "ed.ActionX.UnlockVault(20106)"
+    },
+    {
+      "ID": 5016,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=170",
+      "Action": "ed.ActionX.UnlockVault(20107)"
+    },
+    {
+      "ID": 5017,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=200",
+      "Action": "ed.ActionX.UnlockVault(20108)"
+    },
+    {
+      "ID": 5018,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=220",
+      "Action": "ed.ActionX.UnlockVault(20109)"
+    },
+    {
+      "ID": 5019,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=50",
+      "Action": "ed.ActionX.UnlockVault(30101)"
+    },
+    {
+      "ID": 5020,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=60",
+      "Action": "ed.ActionX.UnlockVault(30102)"
+    },
+    {
+      "ID": 5021,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=70",
+      "Action": "ed.ActionX.UnlockVault(30103)"
+    },
+    {
+      "ID": 5022,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=90",
+      "Action": "ed.ActionX.UnlockVault(30104)"
+    },
+    {
+      "ID": 5023,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=110",
+      "Action": "ed.ActionX.UnlockVault(30105)"
+    },
+    {
+      "ID": 5024,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=130",
+      "Action": "ed.ActionX.UnlockVault(30106)"
+    },
+    {
+      "ID": 5025,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=150",
+      "Action": "ed.ActionX.UnlockVault(30107)"
+    },
+    {
+      "ID": 5026,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=170",
+      "Action": "ed.ActionX.UnlockVault(30108)"
+    },
+    {
+      "ID": 5027,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1050",
+      "Action": "ed.ActionX.UnlockVault(40101)"
+    },
+    {
+      "ID": 5028,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1150",
+      "Action": "ed.ActionX.UnlockVault(40102)"
+    },
+    {
+      "ID": 5029,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1300",
+      "Action": "ed.ActionX.UnlockVault(40103)"
+    },
+    {
+      "ID": 5030,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1450",
+      "Action": "ed.ActionX.UnlockVault(40104)"
+    },
+    {
+      "ID": 5031,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1600",
+      "Action": "ed.ActionX.UnlockVault(40105)"
+    },
+    {
+      "ID": 5032,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1750",
+      "Action": "ed.ActionX.UnlockVault(40106)"
+    },
+    {
+      "ID": 5033,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=1900",
+      "Action": "ed.ActionX.UnlockVault(40107)"
+    },
+    {
+      "ID": 5034,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2050",
+      "Action": "ed.ActionX.UnlockVault(40108)"
+    },
+    {
+      "ID": 5035,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2200",
+      "Action": "ed.ActionX.UnlockVault(40109)"
+    },
+    {
+      "ID": 5036,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2350",
+      "Action": "ed.ActionX.UnlockVault(40110)"
+    },
+    {
+      "ID": 5037,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2500",
+      "Action": "ed.ActionX.UnlockVault(40111)"
+    },
+    {
+      "ID": 5038,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2650",
+      "Action": "ed.ActionX.UnlockVault(40112)"
+    },
+    {
+      "ID": 5039,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=2800",
+      "Action": "ed.ActionX.UnlockVault(40113)"
+    },
+    {
+      "ID": 5040,
+      "ServerEvents": {
+        "1": "UpdateBest:1"
+      },
+      "Condition": "ed.ConditionX.Best(1)>=3000",
+      "Action": "ed.ActionX.UnlockVault(40114)"
+    },
+    {
+      "ID": 5041,
+      "ServerEvents": {
+        "1": "UpdateBest:3"
+      },
+      "Condition": "ed.ConditionX.Best(3)<=200",
+      "Action": "ed.ActionX.UnlockVault(40115)"
+    },
+    {
+      "ID": 5042,
+      "ServerEvents": {
+        "1": "UpdateCounter:202"
+      },
+      "Condition": "ed.ConditionX.Counter(202)>=1",
+      "Action": "ed.ActionX.UnlockVault(50101)"
+    },
+    {
+      "ID": 5043,
+      "ServerEvents": {
+        "1": "UpdateCounter:202"
+      },
+      "Condition": "ed.ConditionX.Counter(202)>=3",
+      "Action": "ed.ActionX.UnlockVault(50102)"
+    },
+    {
+      "ID": 5044,
+      "ServerEvents": {
+        "1": "UpdateCounter:202"
+      },
+      "Condition": "ed.ConditionX.Counter(202)>=5",
+      "Action": "ed.ActionX.UnlockVault(50103)"
+    },
+    {
+      "ID": 5045,
+      "ServerEvents": {
+        "1": "UpdateCounter:202"
+      },
+      "Condition": "ed.ConditionX.Counter(202)>=7",
+      "Action": "ed.ActionX.UnlockVault(50104)"
+    },
+    {
+      "ID": 5046,
+      "ServerEvents": {
+        "1": "UpdateCounter:202"
+      },
+      "Condition": "ed.ConditionX.Counter(202)>=10",
+      "Action": "ed.ActionX.UnlockVault(50105)"
+    },
+    {
+      "ID": 5047,
+      "ServerEvents": {
+        "1": "UpdateCounter:202"
+      },
+      "Condition": "ed.ConditionX.Counter(202)>=15",
+      "Action": "ed.ActionX.UnlockVault(50106)"
+    },
+    {
+      "ID": 5048,
+      "ServerEvents": {
+        "1": "UpdateCounter:202"
+      },
+      "Condition": "ed.ConditionX.Counter(202)>=20",
+      "Action": "ed.ActionX.UnlockVault(50107)"
+    },
+    {
+      "ID": 5049,
+      "ServerEvents": {
+        "1": "UpdateCounter:206"
+      },
+      "Condition": "ed.ConditionX.Counter(206)>=1",
+      "Action": "ed.ActionX.UnlockVault(50201)"
+    },
+    {
+      "ID": 5050,
+      "ServerEvents": {
+        "1": "UpdateCounter:206"
+      },
+      "Condition": "ed.ConditionX.Counter(206)>=3",
+      "Action": "ed.ActionX.UnlockVault(50202)"
+    },
+    {
+      "ID": 5051,
+      "ServerEvents": {
+        "1": "UpdateCounter:206"
+      },
+      "Condition": "ed.ConditionX.Counter(206)>=5",
+      "Action": "ed.ActionX.UnlockVault(50203)"
+    },
+    {
+      "ID": 5052,
+      "ServerEvents": {
+        "1": "UpdateCounter:206"
+      },
+      "Condition": "ed.ConditionX.Counter(206)>=7",
+      "Action": "ed.ActionX.UnlockVault(50204)"
+    },
+    {
+      "ID": 5053,
+      "ServerEvents": {
+        "1": "UpdateCounter:206"
+      },
+      "Condition": "ed.ConditionX.Counter(206)>=10",
+      "Action": "ed.ActionX.UnlockVault(50205)"
+    },
+    {
+      "ID": 5054,
+      "ServerEvents": {
+        "1": "UpdateCounter:206"
+      },
+      "Condition": "ed.ConditionX.Counter(206)>=15",
+      "Action": "ed.ActionX.UnlockVault(50206)"
+    },
+    {
+      "ID": 5055,
+      "ServerEvents": {
+        "1": "UpdateCounter:206"
+      },
+      "Condition": "ed.ConditionX.Counter(206)>=20",
+      "Action": "ed.ActionX.UnlockVault(50207)"
+    },
+    {
+      "ID": 5056,
+      "ServerEvents": {
+        "1": "UpdateCounter:209"
+      },
+      "Condition": "ed.ConditionX.Counter(209)>=1",
+      "Action": "ed.ActionX.UnlockVault(50301)"
+    },
+    {
+      "ID": 5057,
+      "ServerEvents": {
+        "1": "UpdateCounter:209"
+      },
+      "Condition": "ed.ConditionX.Counter(209)>=3",
+      "Action": "ed.ActionX.UnlockVault(50302)"
+    },
+    {
+      "ID": 5058,
+      "ServerEvents": {
+        "1": "UpdateCounter:209"
+      },
+      "Condition": "ed.ConditionX.Counter(209)>=5",
+      "Action": "ed.ActionX.UnlockVault(50303)"
+    },
+    {
+      "ID": 5059,
+      "ServerEvents": {
+        "1": "UpdateCounter:209"
+      },
+      "Condition": "ed.ConditionX.Counter(209)>=7",
+      "Action": "ed.ActionX.UnlockVault(50304)"
+    },
+    {
+      "ID": 5060,
+      "ServerEvents": {
+        "1": "UpdateCounter:209"
+      },
+      "Condition": "ed.ConditionX.Counter(209)>=10",
+      "Action": "ed.ActionX.UnlockVault(50305)"
+    },
+    {
+      "ID": 5061,
+      "ServerEvents": {
+        "1": "UpdateCounter:209"
+      },
+      "Condition": "ed.ConditionX.Counter(209)>=15",
+      "Action": "ed.ActionX.UnlockVault(50306)"
+    },
+    {
+      "ID": 5062,
+      "ServerEvents": {
+        "1": "UpdateCounter:209"
+      },
+      "Condition": "ed.ConditionX.Counter(209)>=20",
+      "Action": "ed.ActionX.UnlockVault(50307)"
+    },
+    {
+      "ID": 5063,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=1",
+      "Action": "ed.ActionX.UnlockVault(60101)"
+    },
+    {
+      "ID": 5064,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=2",
+      "Action": "ed.ActionX.UnlockVault(60102)"
+    },
+    {
+      "ID": 5065,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=3",
+      "Action": "ed.ActionX.UnlockVault(60103)"
+    },
+    {
+      "ID": 5066,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=4",
+      "Action": "ed.ActionX.UnlockVault(60104)"
+    },
+    {
+      "ID": 5067,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=5",
+      "Action": "ed.ActionX.UnlockVault(60105)"
+    },
+    {
+      "ID": 5068,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=6",
+      "Action": "ed.ActionX.UnlockVault(60106)"
+    },
+    {
+      "ID": 5069,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=7",
+      "Action": "ed.ActionX.UnlockVault(60107)"
+    },
+    {
+      "ID": 5070,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=8",
+      "Action": "ed.ActionX.UnlockVault(60108) and ed.ActionX.UnlockVault(70101)"
+    },
+    {
+      "ID": 5071,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=9",
+      "Action": "ed.ActionX.UnlockVault(70102)"
+    },
+    {
+      "ID": 5072,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=10",
+      "Action": "ed.ActionX.UnlockVault(70103)"
+    },
+    {
+      "ID": 5073,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=11",
+      "Action": "ed.ActionX.UnlockVault(70104)"
+    },
+    {
+      "ID": 5074,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=12",
+      "Action": "ed.ActionX.UnlockVault(70105)"
+    },
+    {
+      "ID": 5075,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=13",
+      "Action": "ed.ActionX.UnlockVault(70106)"
+    },
+    {
+      "ID": 5076,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=14",
+      "Action": "ed.ActionX.UnlockVault(70107)"
+    },
+    {
+      "ID": 5077,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=15",
+      "Action": "ed.ActionX.UnlockVault(70108)"
+    },
+    {
+      "ID": 5078,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=16",
+      "Action": "ed.ActionX.UnlockVault(70109)"
+    },
+    {
+      "ID": 5079,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=17",
+      "Action": "ed.ActionX.UnlockVault(70110)"
+    },
+    {
+      "ID": 5080,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=18",
+      "Action": "ed.ActionX.UnlockVault(70111)"
+    },
+    {
+      "ID": 5081,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=19",
+      "Action": "ed.ActionX.UnlockVault(70112)"
+    },
+    {
+      "ID": 5082,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipLevel()>=20",
+      "Action": "ed.ActionX.UnlockVault(70113)"
+    },
+    {
+      "ID": 5083,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=200",
+      "Action": "ed.ActionX.UnlockVault(30109)"
+    },
+    {
+      "ID": 5084,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=5",
+      "Action": "ed.ActionX.UnlockVault(10101)"
+    },
+    {
+      "ID": 5085,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=10",
+      "Action": "ed.ActionX.UnlockVault(10102)"
+    },
+    {
+      "ID": 5086,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=25",
+      "Action": "ed.ActionX.UnlockVault(10103)"
+    },
+    {
+      "ID": 5087,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=50",
+      "Action": "ed.ActionX.UnlockVault(10104)"
+    },
+    {
+      "ID": 5088,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=75",
+      "Action": "ed.ActionX.UnlockVault(10105)"
+    },
+    {
+      "ID": 5089,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=100",
+      "Action": "ed.ActionX.UnlockVault(10106)"
+    },
+    {
+      "ID": 5090,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=125",
+      "Action": "ed.ActionX.UnlockVault(10107)"
+    },
+    {
+      "ID": 5091,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=150",
+      "Action": "ed.ActionX.UnlockVault(10108)"
+    },
+    {
+      "ID": 5092,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=175",
+      "Action": "ed.ActionX.UnlockVault(10109)"
+    },
+    {
+      "ID": 5093,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=200",
+      "Action": "ed.ActionX.UnlockVault(10110)"
+    },
+    {
+      "ID": 5094,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=225",
+      "Action": "ed.ActionX.UnlockVault(10111)"
+    },
+    {
+      "ID": 5095,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=250",
+      "Action": "ed.ActionX.UnlockVault(10112)"
+    },
+    {
+      "ID": 5096,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=275",
+      "Action": "ed.ActionX.UnlockVault(10113)"
+    },
+    {
+      "ID": 5097,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=300",
+      "Action": "ed.ActionX.UnlockVault(10114)"
+    },
+    {
+      "ID": 5098,
+      "ServerEvents": {
+        "1": "UpdateCounter:91"
+      },
+      "Condition": "ed.ConditionX.Counter(91)>=350",
+      "Action": "ed.ActionX.UnlockVault(10115)"
+    },
+    {
+      "ID": 5099,
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "Condition": "ed.ConditionX.Counter(25)>=400",
+      "Action": "ed.ActionX.UnlockVault(30110) and ed.ActionX.UnlockModule(\"StarGazer\")"
+    },
+    {
+      "ID": 5101,
+      "ServerEvents": {
+        "1": "AddVipExp:*"
+      },
+      "Condition": "ed.ConditionX.VipExp()>=2500",
+      "Action": "ed.ActionX.UnlockMallGoods(309) and ed.ActionX.UnlockMallGoods(310) and ed.ActionX.UnlockMallGoods(311)"
+    },
+    {
+      "ID": 5120,
+      "ServerEvents": {
+        "1": "AddVipExp:*",
+        "2": "UnlockModule:StarGazer"
+      },
+      "Condition": "ed.ConditionX.VipExp()>=2500 and ed.ConditionX.IsModuleUnlocked(\"StarGazer\")",
+      "Action": "ed.ActionX.UnlockMallGoods(312)"
+    },
+    {
+      "ID": 5121,
+      "ServerEvents": {
+        "1": "AddVipExp:*",
+        "2": "HeroExclusiveLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.VipExp()>=2500 and ed.ConditionX.HeroCountByExclusiveLv(15)>=1",
+      "Action": "ed.ActionX.UnlockMallGoods(313) and ed.ActionX.UnlockMallGoods(314) and ed.ActionX.UnlockMallGoods(315)"
+    },
+    {
+      "ID": 5159,
+      "ServerEvents": {
+        "1": "AddVipExp:*",
+        "2": "UnlockModule:Exclusive"
+      },
+      "Condition": "ed.ConditionX.VipExp()>=2500 and ed.ConditionX.IsModuleUnlocked(\"Exclusive\")",
+      "Action": "ed.ActionX.UnlockMallGoods(316)"
+    },
+    {
+      "ID": 9000,
+      "ServerEvents": {
+        "1": "UpdateBest:13"
+      },
+      "Condition": "ed.ConditionX.Best(13)>=1",
+      "Action": "ed.ActionX.FinishGuildChallenge(4)"
+    },
+    {
+      "ID": 9001,
+      "ServerEvents": {
+        "1": "UpdateBest:13"
+      },
+      "Condition": "ed.ConditionX.Best(13)>=2",
+      "Action": "ed.ActionX.FinishGuildChallenge(5)"
+    },
+    {
+      "ID": 9002,
+      "ServerEvents": {
+        "1": "UpdateBest:13"
+      },
+      "Condition": "ed.ConditionX.Best(13)>=3",
+      "Action": "ed.ActionX.FinishGuildChallenge(6)"
+    },
+    {
+      "ID": 9003,
+      "ServerEvents": {
+        "1": "UpdateBest:13"
+      },
+      "Condition": "ed.ConditionX.Best(13)>=4",
+      "Action": "ed.ActionX.FinishGuildChallenge(7)"
+    },
+    {
+      "ID": 9004,
+      "ServerEvents": {
+        "1": "StageAddPoint:83"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(83)",
+      "Action": "ed.ActionX.FinishGuildChallenge(10)"
+    },
+    {
+      "ID": 9005,
+      "ServerEvents": {
+        "1": "StageAddPoint:166"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(166)",
+      "Action": "ed.ActionX.FinishGuildChallenge(11)"
+    },
+    {
+      "ID": 9006,
+      "ServerEvents": {
+        "1": "StageAddPoint:250"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(250)",
+      "Action": "ed.ActionX.FinishGuildChallenge(12)"
+    },
+    {
+      "ID": 9007,
+      "ServerEvents": {
+        "1": "StageAddPoint:333"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(333)",
+      "Action": "ed.ActionX.FinishGuildChallenge(13)"
+    },
+    {
+      "ID": 9008,
+      "ServerEvents": {
+        "1": "StageAddPoint:500"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(500)",
+      "Action": "ed.ActionX.FinishGuildChallenge(14)"
+    },
+    {
+      "ID": 9012,
+      "ServerEvents": {
+        "1": "FinishTowerFloor:Mn"
+      },
+      "Condition": "ed.ConditionX.MinFloorAllTowersFinished(\"Mn\")>=10",
+      "Action": "ed.ActionX.FinishGuildChallenge(15)"
+    },
+    {
+      "ID": 9013,
+      "ServerEvents": {
+        "1": "FinishTowerFloor:Mn"
+      },
+      "Condition": "ed.ConditionX.MinFloorAllTowersFinished(\"Mn\")>=45",
+      "Action": "ed.ActionX.FinishGuildChallenge(16)"
+    },
+    {
+      "ID": 9014,
+      "ServerEvents": {
+        "1": "FinishTowerFloor:Mn"
+      },
+      "Condition": "ed.ConditionX.MinFloorAllTowersFinished(\"Mn\")>=80",
+      "Action": "ed.ActionX.FinishGuildChallenge(17)"
+    },
+    {
+      "ID": 9017,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=50",
+      "Action": "ed.ActionX.FinishGuildChallenge(20)"
+    },
+    {
+      "ID": 9018,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=100",
+      "Action": "ed.ActionX.FinishGuildChallenge(21)"
+    },
+    {
+      "ID": 9019,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=240",
+      "Action": "ed.ActionX.FinishGuildChallenge(22)"
+    },
+    {
+      "ID": 9020,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=6",
+      "Action": "ed.ActionX.FinishGuildChallenge(23)"
+    },
+    {
+      "ID": 9021,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=7",
+      "Action": "ed.ActionX.FinishGuildChallenge(24)"
+    },
+    {
+      "ID": 9022,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=8",
+      "Action": "ed.ActionX.FinishGuildChallenge(25)"
+    },
+    {
+      "ID": 8001,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*",
+        "2": "UnlockZone:41:8"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=70 and ed.ConditionX.IsZoneUnlocked(41,8)",
+      "Action": "ed.ActionX.UnlockTownPhase(1)"
+    },
+    {
+      "ID": 8002,
+      "ServerEvents": {
+        "1": "FinishTownPhase:1",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:10"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(1) and ed.ConditionX.KnightLevel()>=84 and ed.ConditionX.IsZoneUnlocked(41,10)",
+      "Action": "ed.ActionX.UnlockTownPhase(2)"
+    },
+    {
+      "ID": 8003,
+      "ServerEvents": {
+        "1": "FinishTownPhase:2",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:12"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(2) and ed.ConditionX.KnightLevel()>=100 and ed.ConditionX.IsZoneUnlocked(41,12)",
+      "Action": "ed.ActionX.UnlockTownPhase(3)"
+    },
+    {
+      "ID": 8004,
+      "ServerEvents": {
+        "1": "FinishTownPhase:3",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:14"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(3) and ed.ConditionX.KnightLevel()>=116 and ed.ConditionX.IsZoneUnlocked(41,14)",
+      "Action": "ed.ActionX.UnlockTownPhase(4)"
+    },
+    {
+      "ID": 8005,
+      "ServerEvents": {
+        "1": "FinishTownPhase:4",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:16"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(4) and ed.ConditionX.KnightLevel()>=132 and ed.ConditionX.IsZoneUnlocked(41,16)",
+      "Action": "ed.ActionX.UnlockTownPhase(5)"
+    },
+    {
+      "ID": 8006,
+      "ServerEvents": {
+        "1": "FinishTownPhase:5",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:18"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(5) and ed.ConditionX.KnightLevel()>=151 and ed.ConditionX.IsZoneUnlocked(41,18)",
+      "Action": "ed.ActionX.UnlockTownPhase(6)"
+    },
+    {
+      "ID": 8007,
+      "ServerEvents": {
+        "1": "FinishTownPhase:6",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:20"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(6) and ed.ConditionX.KnightLevel()>=166 and ed.ConditionX.IsZoneUnlocked(41,20)",
+      "Action": "ed.ActionX.UnlockTownPhase(7)"
+    },
+    {
+      "ID": 8008,
+      "ServerEvents": {
+        "1": "FinishTownPhase:7",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:22"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(7) and ed.ConditionX.KnightLevel()>=182 and ed.ConditionX.IsZoneUnlocked(41,22)",
+      "Action": "ed.ActionX.UnlockTownPhase(8)"
+    },
+    {
+      "ID": 8009,
+      "ServerEvents": {
+        "1": "FinishTownPhase:8",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:24"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(8) and ed.ConditionX.KnightLevel()>=197 and ed.ConditionX.IsZoneUnlocked(41,24)",
+      "Action": "ed.ActionX.UnlockTownPhase(9)"
+    },
+    {
+      "ID": 8010,
+      "ServerEvents": {
+        "1": "FinishTownPhase:9",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:26"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(9) and ed.ConditionX.KnightLevel()>=212 and ed.ConditionX.IsZoneUnlocked(41,26)",
+      "Action": "ed.ActionX.UnlockTownPhase(10)"
+    },
+    {
+      "ID": 8011,
+      "ServerEvents": {
+        "1": "FinishTownPhase:10",
+        "2": "KnightLevelUp:*",
+        "3": "UnlockZone:41:28"
+      },
+      "Condition": "ed.ConditionX.IsTownPhaseFinished(10) and ed.ConditionX.KnightLevel()>=227 and ed.ConditionX.IsZoneUnlocked(41,28)",
+      "Action": "ed.ActionX.UnlockTownPhase(11)"
+    },
+    {
+      "ID": 8012,
+      "ServerEvents": {
+        "1": "AddState:4130325",
+        "2": "AddState:4168365",
+        "3": "AddState:4168370"
+      },
+      "Condition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",4130325,4168365,4168370)>=3",
+      "Action": "ed.ActionX.ExploredLandZone(41,27) and ed.ActionX.ExploredLandZone(41,28)"
+    },
+    {
+      "ID": 8013,
+      "ServerEvents": {
+        "1": "AddState:503400264",
+        "2": "AddState:503400163",
+        "3": "AddState:503700065"
+      },
+      "Condition": "ed.ConditionX.StateCount(\"Treasure_Recvd\",503400264,503400163,503700065)>=3",
+      "Action": "ed.ActionX.ExploredLandZone(3,11) and ed.ActionX.ExploredLandZone(3,12)"
+    },
+    {
+      "ID": 11008,
+      "ServerEvents": {
+        "1": "ScheduleChange:61"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(61)>=28",
+      "Action": "ed.ActionX.SendMail(\"QuestManagerFish\")"
+    },
+    {
+      "ID": 11010,
+      "ServerEvents": {
+        "1": "ExplTaskFinish:11010108:3"
+      },
+      "Condition": "ed.ConditionX.IsExplTaskFinished(11010108,3)",
+      "Action": "ed.ActionX.AddFlag(\"AvatarShop_New\",0)"
+    },
+    {
+      "ID": 13001,
+      "ServerEvents": {
+        "1": "KnightLevelUp:*",
+        "2": "StageAddPoint:50"
+      },
+      "Condition": "ed.ConditionX.KnightLevel()>=35 or ed.ConditionX.IsStageReachPoint(50)",
+      "Action": "ed.ActionX.UnlockModule(\"PresetFormation\")"
+    },
+    {
+      "ID": 14001,
+      "ServerEvents": {
+        "1": "ScheduleChange:154"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(154)>=1",
+      "Action": "ed.ActionX.SendMail(\"QuestManagerFill01\")"
+    },
+    {
+      "ID": 14002,
+      "ServerEvents": {
+        "1": "ScheduleChange:154"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(154)>=3",
+      "Action": "ed.ActionX.SendMail(\"QuestManagerFill02\")"
+    },
+    {
+      "ID": 14003,
+      "ServerEvents": {
+        "1": "ScheduleChange:154"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(154)>=5",
+      "Action": "ed.ActionX.SendMail(\"QuestManagerFill03\")"
+    },
+    {
+      "ID": 14004,
+      "ServerEvents": {
+        "1": "ScheduleChange:217"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(217)>=1",
+      "Action": "ed.ActionX.SendMail(\"ValentineDay01\")"
+    },
+    {
+      "ID": 14005,
+      "ServerEvents": {
+        "1": "ScheduleChange:217"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(217)>=2",
+      "Action": "ed.ActionX.SendMail(\"ValentineDay02\")"
+    },
+    {
+      "ID": 14006,
+      "ServerEvents": {
+        "1": "ScheduleChange:217"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(217)>=3",
+      "Action": "ed.ActionX.SendMail(\"ValentineDay03\")"
+    },
+    {
+      "ID": 14007,
+      "ServerEvents": {
+        "1": "ScheduleChange:217"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(217)>=4",
+      "Action": "ed.ActionX.SendMail(\"ValentineDay04\")"
+    },
+    {
+      "ID": 14008,
+      "ServerEvents": {
+        "1": "ScheduleChange:217"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(217)>=5",
+      "Action": "ed.ActionX.SendMail(\"ValentineDay05\")"
+    },
+    {
+      "ID": 14009,
+      "ServerEvents": {
+        "1": "ScheduleChange:217"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(217)>=6",
+      "Action": "ed.ActionX.SendMail(\"ValentineDay06\")"
+    },
+    {
+      "ID": 14010,
+      "ServerEvents": {
+        "1": "ScheduleChange:217"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(217)>=7",
+      "Action": "ed.ActionX.SendMail(\"ValentineDay07\")"
+    },
+    {
+      "ID": 14011,
+      "ServerEvents": {
+        "1": "ScheduleChange:272"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(272)>=1",
+      "Action": "ed.ActionX.SendMail(\"AssistantFestivalHeroLetter01\")"
+    },
+    {
+      "ID": 14012,
+      "ServerEvents": {
+        "1": "ScheduleChange:272"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(272)>=3",
+      "Action": "ed.ActionX.SendMail(\"AssistantFestivalHeroLetter02\")"
+    },
+    {
+      "ID": 14013,
+      "ServerEvents": {
+        "1": "ScheduleChange:272"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(272)>=6",
+      "Action": "ed.ActionX.SendMail(\"AssistantFestivalHeroLetter03\")"
+    },
+    {
+      "ID": 17001,
+      "ServerEvents": {
+        "1": "StageAddPoint:300"
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(300)",
+      "Action": "ed.ActionX.UnlockModule(\"Overwhelm\")"
+    },
+    {
+      "ID": 19003,
+      "ServerEvents": {
+        "1": "AddTutorial:433"
+      },
+      "Condition": "ed.ConditionX.IsTutorialCompleted(433)",
+      "Action": "ed.ActionX.UnlockQuestGroup(9002) and ed.ActionX.UnlockQuestGroup(9003)"
+    },
+    {
+      "ID": 19004,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3",
+      "Action": "ed.ActionX.UnlockQuestGroup(9005)"
+    },
+    {
+      "ID": 20002,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=1 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards1\")"
+    },
+    {
+      "ID": 20003,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=2 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards2\")"
+    },
+    {
+      "ID": 20004,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=3 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards3\")"
+    },
+    {
+      "ID": 20005,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=4 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards4\")"
+    },
+    {
+      "ID": 20006,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=5 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards5\")"
+    },
+    {
+      "ID": 20007,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=6 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards6\")"
+    },
+    {
+      "ID": 20008,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=7 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards7\")"
+    },
+    {
+      "ID": 20009,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=8 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards8\")"
+    },
+    {
+      "ID": 20010,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=9 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards9\")"
+    },
+    {
+      "ID": 20011,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=10 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards10\")"
+    },
+    {
+      "ID": 20012,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=11 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards11\")"
+    },
+    {
+      "ID": 20013,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=12 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards12\")"
+    },
+    {
+      "ID": 20014,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=13 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards13\")"
+    },
+    {
+      "ID": 20015,
+      "ServerEvents": {
+        "1": "DayChange:*",
+        "2": "Reserved:*",
+        "3": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.ServerEnterEpDays(\"Ep04\")>=14 and ed.ConditionX.IsRevivalSvr() and ed.ConditionX.IsUserInCurEp()",
+      "Action": "ed.ActionX.SendMail(\"RevivalSvrInitRewards14\")"
+    },
+    {
+      "ID": 21003,
+      "ServerEvents": {
+        "1": "ScheduleChange:472"
+      },
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(472)>=13",
+      "Action": "ed.ActionX.SendMail(\"HSMidAutumn\")"
+    },
+    {
+      "ID": 21004,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1",
+        "2": "HSUpgradeConfirm:2:20"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=6 and ed.ConditionX.HSBuildingMaxLv(2,20)>=1",
+      "Action": "ed.ActionX.UnlockExchange(33) and ed.ActionX.UnlockExchange(34) and ed.ActionX.UnlockExchange(32)"
+    },
+    {
+      "ID": 11801,
+      "ServerEvents": {
+        "1": "UnlockModule:Behaviour"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"Behaviour\")",
+      "Action": "ed.ActionX.UnlockQuestGroup(1180)"
+    },
+    {
+      "ID": 23001,
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep06\")",
+      "Action": "ed.ActionX.UnlockModule(\"CampPet\") and ed.ActionX.RefreshShop(\"Ep06TownEquipShop\") and ed.ActionX.UnlockExchange(40)"
+    },
+    {
+      "ID": 23002,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1",
+        "2": "Reserved:*"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and not ed.ConditionX.IsUniUser()",
+      "Action": "ed.ActionX.SendMail(\"CharacterCreation\")"
+    },
+    {
+      "ID": 23003,
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1",
+        "2": "Reserved:*"
+      },
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.IsUniUser()",
+      "Action": "ed.ActionX.SendMail(\"CharacterCreationUni\")"
+    }
+  ]
+}

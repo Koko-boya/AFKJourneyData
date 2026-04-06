@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "table": "PuzzleLevelGroupParam",
+    "header_table": "PuzzleLevelGroupParamHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 2,
+    "array_fields": [
+      "LevelGroupID",
+      "RankIDs"
+    ],
+    "unresolved_array_refs": 3
+  },
+  "default": {
+    "ParamID": "null",
+    "LevelGroupID": {},
+    "RankIDs": {},
+    "PuzzleType": null,
+    "VerifyTime": {},
+    "EndText": null
+  },
+  "row_keys": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "ParamID": 1,
+      "LevelGroupID": {
+        "$arrayRef": 44827
+      },
+      "RankIDs": {
+        "$arrayRef": 79835
+      },
+      "PuzzleType": 9,
+      "VerifyTime": {
+        "1": 3,
+        "2": 6,
+        "3": 10
+      },
+      "EndText": "10247190102021277988"
+    },
+    {
+      "ParamID": 2,
+      "LevelGroupID": {
+        "1": 6,
+        "2": 7,
+        "3": 8,
+        "4": 9,
+        "5": 10
+      },
+      "RankIDs": {
+        "$arrayRef": 79835
+      },
+      "PuzzleType": 10,
+      "VerifyTime": {
+        "1": 10,
+        "2": 15,
+        "3": 15
+      },
+      "EndText": "10924801358914433406"
+    }
+  ]
+}

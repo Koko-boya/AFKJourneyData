@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "table": "TournamentNewbie",
+    "header_table": "TournamentNewbieHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 2,
+    "array_fields": [
+      "LimitHeroID",
+      "LimitUnitJob",
+      "LimitUnitRace"
+    ],
+    "unresolved_array_refs": 3
+  },
+  "default": {
+    "QuestID": "null",
+    "LimitHeroID": {},
+    "LimitUnitRace": {},
+    "LimitUnitJob": {}
+  },
+  "row_keys": [
+    10001,
+    10002
+  ],
+  "rows": [
+    {
+      "QuestID": 10001,
+      "LimitHeroID": {
+        "$arrayRef": 438
+      },
+      "LimitUnitRace": {},
+      "LimitUnitJob": {}
+    },
+    {
+      "QuestID": 10002,
+      "LimitHeroID": {},
+      "LimitUnitRace": {
+        "$arrayRef": 72023
+      },
+      "LimitUnitJob": {
+        "$arrayRef": 47
+      }
+    }
+  ]
+}

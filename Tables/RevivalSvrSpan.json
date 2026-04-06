@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "table": "RevivalSvrSpan",
+    "header_table": "RevivalSvrSpanHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 10,
+    "row_count": 1,
+    "array_fields": [
+      "BanHeroIDs"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "SpanID": "null",
+    "SvrIDBegin": 0,
+    "SvrIDEnd": 0,
+    "HeroMinQuality": 0,
+    "MinIntervalLimitDay": 0,
+    "ColdDownTime": 0,
+    "BanHeroIDs": {},
+    "ForbidAvatar": {},
+    "DelayPopupCondition": "true",
+    "PopupType": {}
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "SpanID": 1,
+      "SvrIDBegin": 2000001,
+      "SvrIDEnd": 2000002,
+      "HeroMinQuality": 9,
+      "MinIntervalLimitDay": 90,
+      "ColdDownTime": 86400,
+      "BanHeroIDs": {
+        "$arrayRef": 371
+      },
+      "ForbidAvatar": {
+        "1": 2,
+        "2": 65,
+        "3": 66,
+        "4": 67,
+        "5": 68,
+        "6": 69,
+        "7": 232,
+        "8": 231,
+        "9": 196,
+        "10": 197,
+        "11": 151,
+        "12": 369,
+        "13": 336,
+        "14": 337,
+        "15": 479,
+        "16": 480,
+        "17": 483,
+        "18": 685,
+        "19": 88,
+        "20": 112
+      },
+      "DelayPopupCondition": "ed.ConditionX.IsExplTaskFinished(14010102,1) and ed.ConditionX.IsCreateRoleTutorialCompleted() and ed.ConditionX.IsRevivalSvr()",
+      "PopupType": {
+        "1": 11,
+        "2": 25,
+        "3": 64,
+        "4": 82
+      }
+    }
+  ]
+}

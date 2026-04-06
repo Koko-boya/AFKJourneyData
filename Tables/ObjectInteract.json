@@ -1,0 +1,6225 @@
+{
+  "_meta": {
+    "table": "ObjectInteract",
+    "header_table": "ObjectInteractHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 12,
+    "row_count": 364,
+    "array_fields": [
+      "InteractOptions",
+      "InteractOutlineColor"
+    ],
+    "unresolved_array_refs": 457
+  },
+  "default": {
+    "ID": "null",
+    "State": "null",
+    "Condition": "true",
+    "InteractOptions": {},
+    "InteractOutlineColor": {},
+    "InteractOutlineWidth": 0,
+    "InteractOutlineLayer": 0,
+    "DisplayRange": 0,
+    "MotionLess": false,
+    "HeadIcon": 0,
+    "HasBracket": false,
+    "CanClickInteract": false
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "ID": 2,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 184
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 3,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 3,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 71
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 5,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsWaitSocialBehaviour()",
+      "InteractOptions": {
+        "1": 200002,
+        "2": 0,
+        "3": 0,
+        "4": 200001
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 5,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 200001
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 6,
+      "State": 1,
+      "Condition": "not ed.ConditionX.HasState(\"TransportTower_Active\")",
+      "InteractOptions": {
+        "$arrayRef": 44
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 6,
+      "State": 2,
+      "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()>5",
+      "InteractOptions": {
+        "$arrayRef": 49
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 6,
+      "State": 3,
+      "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()<=5",
+      "InteractOptions": {
+        "$arrayRef": 423
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 7,
+      "State": 1,
+      "Condition": "not ed.ConditionX.HasBindedObject()",
+      "InteractOptions": {
+        "$arrayRef": 47
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 8,
+      "State": 1,
+      "Condition": "ed.ConditionX.CanBeOverwhelmedInRetro()",
+      "InteractOptions": {
+        "$arrayRef": 12273
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93927
+      },
+      "InteractOutlineWidth": 0.08,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 8,
+      "State": 2,
+      "Condition": "ed.ConditionX.CanBeOverwhelmed()",
+      "InteractOptions": {
+        "1": 32,
+        "2": 2,
+        "3": 1
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93927
+      },
+      "InteractOutlineWidth": 0.08,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 8,
+      "State": 3,
+      "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
+      "InteractOptions": {
+        "$arrayRef": 70707
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 8,
+      "State": 4,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 70707
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93927
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 9,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsObjectUnlocked()",
+      "InteractOptions": {
+        "1": 25,
+        "2": 1
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93927
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 9,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 75188
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93927
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 10,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 11,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 12,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 12275
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 13,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 14,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 15,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 16,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 63
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 3,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 17,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_ObjHasTimeOfDayTask(false)",
+      "InteractOptions": {
+        "$arrayRef": 5831
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 1,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 17,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_ObjHasTimeOfDayTask(true)",
+      "InteractOptions": {
+        "$arrayRef": 63975
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 1,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 17,
+      "State": 3,
+      "Condition": "ed.ConditionX.HasState(\"NPC_FluteTask_Submit\")",
+      "InteractOptions": {
+        "$arrayRef": 75079
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 1,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 17,
+      "State": 4,
+      "Condition": "ed.ConditionX.C_WearingAvatar(false)",
+      "InteractOptions": {
+        "$arrayRef": 69020
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 1,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 17,
+      "State": 5,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 62
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 1,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 18,
+      "State": 1,
+      "Condition": "not ed.ConditionX.IsCarrierInStationPark() and not ed.ConditionX.IsModuleLocked(\"MainCity\")",
+      "InteractOptions": {
+        "$arrayRef": 63
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 3,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 19,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 58
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 20,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 21,
+      "State": 1,
+      "Condition": "not ed.ConditionX.HasState(\"LaserLauncher_Active\")",
+      "InteractOptions": {
+        "$arrayRef": 189
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 22,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 23,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 2400
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 24,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 2400
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 25,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 188
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 26,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 29,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
+      "InteractOptions": {
+        "$arrayRef": 424
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 29,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 30,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 31,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 32,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 33,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 35,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 424
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 36,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100001,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 75143
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93927
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100002,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 100007
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100003,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 100008
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100004,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 100009
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100005,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 100003
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100006,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 100005
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100007,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 75147
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 37,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 38,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
+      "InteractOptions": {
+        "$arrayRef": 7007
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 38,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 39,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 41,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 42,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 43,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 44,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 60
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 45,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 13487
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 46,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"RunnerControl_Off\")",
+      "InteractOptions": {
+        "$arrayRef": 2132
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 47,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 13487
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 48,
+      "State": 1,
+      "Condition": "not ed.ConditionX.HasBindedObject()",
+      "InteractOptions": {
+        "$arrayRef": 66967
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 49,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()>5",
+      "InteractOptions": {
+        "$arrayRef": 49
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 49,
+      "State": 2,
+      "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()<=5",
+      "InteractOptions": {
+        "$arrayRef": 423
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 50,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 64
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 51,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"CShow_1\") and ed.ConditionX.CheckInteractTimes()",
+      "InteractOptions": {
+        "$arrayRef": 68997
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 52,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsBoost() and ed.ConditionX.IsMercenary() and ed.ConditionX.IsOtherMonster()",
+      "InteractOptions": {
+        "1": 39,
+        "2": 40,
+        "3": 1
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 52,
+      "State": 2,
+      "Condition": "ed.ConditionX.IsBoost() and ed.ConditionX.IsOtherMonster()",
+      "InteractOptions": {
+        "1": 40,
+        "2": 1
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 52,
+      "State": 3,
+      "Condition": "ed.ConditionX.IsMercenary() and ed.ConditionX.IsOtherMonster()",
+      "InteractOptions": {
+        "1": 39,
+        "2": 1
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 53,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 195
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 54,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93928
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 55,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93929
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 56,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsModuleLocked(\"Hunt\")",
+      "InteractOptions": {
+        "$arrayRef": 196
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 56,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 198
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 58,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 194
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 59,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 5828
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 2,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 60,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"NPC_CanBattle\") and not ed.ConditionX.HasState(\"NPC_Killed\")",
+      "InteractOptions": {
+        "$arrayRef": 69008
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 3,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 60,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 62
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 3,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 61,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 8211
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 62,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"DoorClosed\")",
+      "InteractOptions": {
+        "$arrayRef": 21876
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 62,
+      "State": 2,
+      "Condition": "ed.ConditionX.HasState(\"CShow_1\")",
+      "InteractOptions": {
+        "$arrayRef": 21636
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 62,
+      "State": 3,
+      "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
+      "InteractOptions": {
+        "$arrayRef": 57234
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 62,
+      "State": 4,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 21636
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 63,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 2038
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 64,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 75197
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93929
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 65,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 67
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93929
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 66,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasBindedObject()",
+      "InteractOptions": {
+        "$arrayRef": 75188
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 66,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 47
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 67,
+      "State": 1,
+      "Condition": "not ed.ConditionX.IsMegaBossActive()",
+      "InteractOptions": {
+        "$arrayRef": 203
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93930
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 67,
+      "State": 2,
+      "Condition": "not ed.ConditionX.IsMegaBossDead()",
+      "InteractOptions": {
+        "$arrayRef": 75199
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93930
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 67,
+      "State": 3,
+      "Condition": "not ed.ConditionX.IsMegaBossOverwhelmed()",
+      "InteractOptions": {
+        "$arrayRef": 14078
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93927
+      },
+      "InteractOutlineWidth": 0.08,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 67,
+      "State": 4,
+      "Condition": "not ed.ConditionX.IsMegaBossReceivedReward()",
+      "InteractOptions": {
+        "$arrayRef": 75189
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 67,
+      "State": 5,
+      "Condition": "ed.ConditionX.IsMegaBossReceivedReward()",
+      "InteractOptions": {
+        "$arrayRef": 75200
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 68,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93930
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 69,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasHeroHubPreset()",
+      "InteractOptions": {
+        "$arrayRef": 21635
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 4,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 69,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 55383
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 5,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 70,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 69035
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 6,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 71,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsAbyssComplete()",
+      "InteractOptions": {
+        "$arrayRef": 21633
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 71,
+      "State": 2,
+      "Condition": "ed.ConditionX.IsAbyssUnlock()",
+      "InteractOptions": {
+        "$arrayRef": 67952
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 71,
+      "State": 3,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 196
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 72,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"NPC_FluteTask_Submit\")",
+      "InteractOptions": {
+        "1": 70,
+        "2": 30
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 7,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 72,
+      "State": 2,
+      "Condition": "ed.ConditionX.IsNPCStatus(\"None\") or ed.ConditionX.IsNPCStatus(\"Submit\")",
+      "InteractOptions": {
+        "$arrayRef": 1447
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 7,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 72,
+      "State": 3,
+      "Condition": "ed.ConditionX.IsNPCStatus(\"Pending\")",
+      "InteractOptions": {
+        "$arrayRef": 1447
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 7,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 72,
+      "State": 4,
+      "Condition": "ed.ConditionX.IsNPCStatus(\"Doing\")",
+      "InteractOptions": {
+        "$arrayRef": 1447
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 7,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 72,
+      "State": 5,
+      "Condition": "ed.ConditionX.IsNPCStatus(\"Completed\")",
+      "InteractOptions": {
+        "$arrayRef": 1447
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 7,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 73,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 7000
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 14,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 74,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 78143
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 75,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 205
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 76,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 76187
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 77,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsVehicleUsed() and ed.ConditionX.HasState(\"CMark_1\")",
+      "InteractOptions": {
+        "$arrayRef": 21875
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 77,
+      "State": 2,
+      "Condition": "ed.ConditionX.IsVehicleUsed() and ed.ConditionX.HasState(\"CMark_2\")",
+      "InteractOptions": {
+        "$arrayRef": 244
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 77,
+      "State": 3,
+      "Condition": "ed.ConditionX.HasState(\"CMark_2\")",
+      "InteractOptions": {
+        "$arrayRef": 57240
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 77,
+      "State": 4,
+      "Condition": "ed.ConditionX.IsVehicleUsed()",
+      "InteractOptions": {
+        "$arrayRef": 57998
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 77,
+      "State": 5,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 74772
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 79,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 22464
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 80,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 207
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 81,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsPuzzleEnter(2)",
+      "InteractOptions": {
+        "$arrayRef": 2770
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 8,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 81,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 13478
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 8,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 82,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsPuzzleEnter(1)",
+      "InteractOptions": {
+        "$arrayRef": 74773
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 8,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 82,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 13478
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 8,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 83,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 202
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 84,
+      "State": 1,
+      "Condition": "not ed.ConditionX.IsPuzzleEnter(4)",
+      "InteractOptions": {
+        "$arrayRef": 13478
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 8,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 85,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsIAmGuildPresident()",
+      "InteractOptions": {
+        "$arrayRef": 197
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93929
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 85,
+      "State": 2,
+      "Condition": "ed.ConditionX.HasGuildSculpture()",
+      "InteractOptions": {
+        "$arrayRef": 210
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93929
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 86,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsAnniversaryDanceActive()",
+      "InteractOptions": {
+        "$arrayRef": 5934
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 86,
+      "State": 2,
+      "Condition": "ed.ConditionX.IsPuzzleEnter(3)",
+      "InteractOptions": {
+        "$arrayRef": 209
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 9,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 86,
+      "State": 3,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 58013
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 8,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 88,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 220
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 11,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 89,
+      "State": 1,
+      "Condition": "not ed.ConditionX.IsPuzzleEnter(5)",
+      "InteractOptions": {
+        "$arrayRef": 13478
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 8,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 90,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_WearingAvatar(false)",
+      "InteractOptions": {
+        "$arrayRef": 69020
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 87,
+      "State": 1,
+      "Condition": "not ed.ConditionX.IsFishSlotEmpty() and not ed.ConditionX.IsTaskFishSlot() and not ed.ConditionX.IsSpringFishSlot()",
+      "InteractOptions": {
+        "1": 87,
+        "2": 94
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 87,
+      "State": 2,
+      "Condition": "ed.ConditionX.IsTaskFishSlot() or ed.ConditionX.IsSpringFishSlot()",
+      "InteractOptions": {
+        "$arrayRef": 208
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 87,
+      "State": 3,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 104,
+        "2": 94
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 100,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 213
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 101,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 214
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 102,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 424
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 12,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 103,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 12,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 104,
+      "State": 1,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(64)>0",
+      "InteractOptions": {
+        "$arrayRef": 13479
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 13,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 105,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"CShow_1\")",
+      "InteractOptions": {
+        "$arrayRef": 71
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 105,
+      "State": 2,
+      "Condition": "ed.ConditionX.HasState(\"CShow_2\")",
+      "InteractOptions": {
+        "$arrayRef": 424
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 105,
+      "State": 3,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 71
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 106,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.03,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 107,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 13480
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 108,
+      "State": 1,
+      "Condition": "not ed.ConditionX.HasBindedObject()",
+      "InteractOptions": {
+        "$arrayRef": 47
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 109,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93929
+      },
+      "InteractOutlineWidth": 0.03,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 110,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 216
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 15,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 111,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 194
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 12,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 112,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 5836
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 10,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 113,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 54982
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 114,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 54982
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 115,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 215
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 16,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 116,
+      "State": 1,
+      "Condition": "ed.ConditionX.CanUnlockKeyConsumingDoor()",
+      "InteractOptions": {
+        "$arrayRef": 57232
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 19,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 116,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 75188
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 19,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 117,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 424
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 118,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 18,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 119,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 57231
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 17,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 120,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 62
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 14,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 121,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasBindedObject()",
+      "InteractOptions": {
+        "$arrayRef": 75188
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 20,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 122,
+      "State": 1,
+      "Condition": "not ed.ConditionX.HasBindedObject()",
+      "InteractOptions": {
+        "$arrayRef": 424
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 123,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_RegionIdIsCase(-1,8) and ed.ConditionX.C_IsMonsterRegion() and ed.ConditionX.HasState(\"Interactive\")",
+      "InteractOptions": {
+        "$arrayRef": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 33,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_RegionIdIsCase(-1,8) and ed.ConditionX.HasState(\"Interactive\") and ed.ConditionX.C_RegionUnlockNeedResEnough()",
+      "InteractOptions": {
+        "$arrayRef": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 21,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 3,
+      "Condition": "ed.ConditionX.C_RegionIdIsCase(-1,8) and ed.ConditionX.HasState(\"Interactive\")",
+      "InteractOptions": {
+        "$arrayRef": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 34,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 4,
+      "Condition": "ed.ConditionX.C_RegionStateIsEqual(2) and ed.ConditionX.HasState(\"Interactive\")",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 5,
+      "Condition": "ed.ConditionX.C_RegionStateIsEqual(3) and ed.ConditionX.HasState(\"Interactive\")",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 6,
+      "Condition": "ed.ConditionX.C_IsMonsterRegion() and ed.ConditionX.HasState(\"Interactive\") and not ed.ConditionX.C_IsRegionUnlockReachedCurrLimit()",
+      "InteractOptions": {
+        "$arrayRef": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 33,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 7,
+      "Condition": "ed.ConditionX.HasState(\"Interactive\") and not ed.ConditionX.C_IsRegionUnlockReachedCurrLimit() and ed.ConditionX.C_RegionUnlockNeedResEnough()",
+      "InteractOptions": {
+        "$arrayRef": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 21,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 8,
+      "Condition": "ed.ConditionX.C_RegionUnlockNeedResEnough() and ed.ConditionX.C_RegionIdIsCase(1,100) and ed.ConditionX.HasState(\"Interactive\")",
+      "InteractOptions": {
+        "$arrayRef": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 21,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 124,
+      "State": 9,
+      "Condition": "ed.ConditionX.HasState(\"Interactive\")",
+      "InteractOptions": {
+        "$arrayRef": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 22,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 125,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 57234
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 126,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 1584
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 127,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 127,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 127,
+      "State": 3,
+      "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
+      "InteractOptions": {
+        "$arrayRef": 76333
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 127,
+      "State": 4,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 127,
+      "State": 5,
+      "Condition": "ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 127,
+      "State": 6,
+      "Condition": "ed.ConditionX.IsExplStepFinished(10010296,1,3) and ed.ConditionX.C_HSGetMainBuildingLevel(2)>=4",
+      "InteractOptions": {
+        "1": 131,
+        "2": 0,
+        "3": 0,
+        "4": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 127,
+      "State": 7,
+      "Condition": "ed.ConditionX.IsExplStepFinished(10010296,1,3)",
+      "InteractOptions": {
+        "$arrayRef": 12665
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 128,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 128,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 128,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 2379
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 128,
+      "State": 4,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 128,
+      "State": 5,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 145,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 128,
+      "State": 6,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 145,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 3,
+      "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
+      "InteractOptions": {
+        "$arrayRef": 76333
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 4,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading() and ed.ConditionX.C_HSGetMainBuildingLevel(2)>=4",
+      "InteractOptions": {
+        "1": 135,
+        "2": 0,
+        "3": 0,
+        "4": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 5,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 2420
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 6,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "1": 135,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 7,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 8,
+      "Condition": "ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 129,
+      "State": 9,
+      "Condition": "ed.ConditionX.C_HSGetMainBuildingLevel(2)>=4",
+      "InteractOptions": {
+        "1": 135,
+        "2": 0,
+        "3": 132,
+        "4": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 129,
+      "State": 10,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 135,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 3,
+      "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
+      "InteractOptions": {
+        "$arrayRef": 76333
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 4,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading() and ed.ConditionX.C_HSGetMainBuildingLevel(2)>=4",
+      "InteractOptions": {
+        "1": 136,
+        "2": 0,
+        "3": 0,
+        "4": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 5,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 226
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 6,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "1": 136,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 7,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 8,
+      "Condition": "ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 130,
+      "State": 9,
+      "Condition": "ed.ConditionX.C_HSGetMainBuildingLevel(2)>=4",
+      "InteractOptions": {
+        "1": 136,
+        "2": 0,
+        "3": 132,
+        "4": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 130,
+      "State": 10,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 136,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 3,
+      "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
+      "InteractOptions": {
+        "$arrayRef": 76333
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 4,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading() and ed.ConditionX.C_HSGetMainBuildingLevel(2)>=4",
+      "InteractOptions": {
+        "1": 137,
+        "2": 0,
+        "3": 0,
+        "4": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 5,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 57235
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 6,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "1": 137,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 7,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 8,
+      "Condition": "ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 131,
+      "State": 9,
+      "Condition": "ed.ConditionX.C_HSGetMainBuildingLevel(2)>=4",
+      "InteractOptions": {
+        "1": 137,
+        "2": 0,
+        "3": 132,
+        "4": 221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 131,
+      "State": 10,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 137,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 132,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 132,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 132,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 228
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 132,
+      "State": 4,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 138,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 132,
+      "State": 5,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 132,
+      "State": 6,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 138,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 133,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 133,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 133,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 225
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 133,
+      "State": 4,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 139,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 133,
+      "State": 5,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 133,
+      "State": 6,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 139,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 134,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 134,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 134,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 229
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 134,
+      "State": 4,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 140,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 134,
+      "State": 5,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 134,
+      "State": 6,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 140,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHasHSVisitPermission()",
+      "InteractOptions": {
+        "$arrayRef": 76334
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_IsHSVisitor() and ed.ConditionX.C_IsHasHSVisitPermission()",
+      "InteractOptions": {
+        "$arrayRef": 240
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 4,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 5,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 13421
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 6,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 141,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 7,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 8,
+      "Condition": "ed.ConditionX.C_HSGetMainBuildingLevel(2)<3",
+      "InteractOptions": {
+        "$arrayRef": 93923
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 135,
+      "State": 9,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 93923
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHasHSVisitPermission()",
+      "InteractOptions": {
+        "$arrayRef": 76334
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_IsHSVisitor() and ed.ConditionX.C_IsHasHSVisitPermission()",
+      "InteractOptions": {
+        "$arrayRef": 240
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 4,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 5,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 57236
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 6,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 142,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 7,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 8,
+      "Condition": "ed.ConditionX.C_HSGetMainBuildingLevel(2)<3",
+      "InteractOptions": {
+        "$arrayRef": 93924
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 136,
+      "State": 9,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 93924
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHasHSVisitPermission()",
+      "InteractOptions": {
+        "$arrayRef": 76334
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_IsHSVisitor() and ed.ConditionX.C_IsHasHSVisitPermission()",
+      "InteractOptions": {
+        "$arrayRef": 240
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 4,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 5,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 57237
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 6,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 143,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 7,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 137,
+      "State": 8,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 143,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 138,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 138,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 68
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 138,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 57238
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 138,
+      "State": 4,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "1": 144,
+        "2": 0,
+        "3": 134
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 138,
+      "State": 5,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 138,
+      "State": 6,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 144,
+        "2": 0,
+        "3": 132
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 140,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"CMark_2\")",
+      "InteractOptions": {
+        "$arrayRef": 65575
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 140,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 57239
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 141,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 230
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 3,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 142,
+      "State": 1,
+      "Condition": "ed.ConditionX.ItemCount(10000408)>=3 and not ed.ConditionX.IsExplStepFinished(10010296,1,3)",
+      "InteractOptions": {
+        "$arrayRef": 75005
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 142,
+      "State": 2,
+      "Condition": "not ed.ConditionX.IsExplStepFinished(10010296,1,3)",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 142,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 142,
+      "State": 4,
+      "Condition": "not ed.ConditionX.IsExplTaskFinished(10010296,1)",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 142,
+      "State": 5,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
+      "InteractOptions": {
+        "$arrayRef": 67955
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 142,
+      "State": 6,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 142,
+      "State": 7,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 142,
+      "State": 8,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 142,
+      "State": 9,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 77934
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 143,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93928
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 144,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 23,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 145,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 234
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 25,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 146,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 235
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 24,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 147,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
+      "InteractOptions": {
+        "$arrayRef": 57234
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 147,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 236
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 148,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 390
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 149,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 383
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 27,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 150,
+      "State": 1,
+      "Condition": "ed.ConditionX.Counter(2532)>=5 or ed.ConditionX.Best(16)<=300",
+      "InteractOptions": {
+        "$arrayRef": 383
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 27,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 150,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 383
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 26,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 151,
+      "State": 1,
+      "Condition": "ed.ConditionX.Counter(2533)>=5 or ed.ConditionX.Best(16)<=150",
+      "InteractOptions": {
+        "$arrayRef": 383
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 27,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 151,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 383
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 26,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 152,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 70
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 28,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 153,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 154,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 155,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 155,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 64
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 156,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 65176
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 157,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsPlayerSitting()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 157,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 77937
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 158,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHSMidAutumnHasMonster()",
+      "InteractOptions": {
+        "$arrayRef": 76335
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 158,
+      "State": 2,
+      "Condition": "ed.ConditionX.IsInSchedule(472,\"nil\",false) and ed.ConditionX.C_IsMidAutumnSelfPlayPlot(1) and ed.ConditionX.C_IsCurrentHSMidAutumnFeed()",
+      "InteractOptions": {
+        "$arrayRef": 2383
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 158,
+      "State": 3,
+      "Condition": "ed.ConditionX.IsInSchedule(472,\"nil\",false) and ed.ConditionX.C_IsMidAutumnSelfPlayPlot(15602370) and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 2383
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 158,
+      "State": 4,
+      "Condition": "ed.ConditionX.IsInSchedule(472,\"nil\",false)",
+      "InteractOptions": {
+        "$arrayRef": 2782
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 158,
+      "State": 5,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 159,
+      "State": 1,
+      "Condition": "not ed.ConditionX.C_IsInVehicleCategory(\"Ship\") and ed.ConditionX.C_IsAllowTransform(10)",
+      "InteractOptions": {
+        "$arrayRef": 5842
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 160,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 77940
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 161,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
+      "InteractOptions": {
+        "$arrayRef": 57234
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 161,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 77941
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 162,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHarvestGodCanBattleBoss()",
+      "InteractOptions": {
+        "$arrayRef": 67954
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 162,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_CanKillHarvestGodBoss()",
+      "InteractOptions": {
+        "$arrayRef": 238
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 162,
+      "State": 3,
+      "Condition": "ed.ConditionX.C_CanGetHarvestGodBossReward()",
+      "InteractOptions": {
+        "$arrayRef": 1441
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 162,
+      "State": 4,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 93925
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 163,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 163,
+      "State": 2,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(2)",
+      "InteractOptions": {
+        "1": 178
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 163,
+      "State": 3,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(1) and ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 163,
+      "State": 4,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(1) and not ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 2783
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 164,
+      "State": 1,
+      "Condition": "ed.ConditionX.CI_IsTeamMatching()",
+      "InteractOptions": {
+        "1": 197
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 164,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 65183
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 165,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 182
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 29,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 166,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 237
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 30,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 167,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 76548
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 31,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 168,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 5843
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 32,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 169,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsCrystalBallState(2) and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "1": 188,
+        "2": 0,
+        "3": 187
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 169,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_IsCrystalBallState(2)",
+      "InteractOptions": {
+        "$arrayRef": 67957
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 169,
+      "State": 3,
+      "Condition": "ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 169,
+      "State": 4,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 58047
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 170,
+      "State": 1,
+      "Condition": "not ed.ConditionX.CI_IsCanCasting()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 170,
+      "State": 2,
+      "Condition": "ed.ConditionX.CI_InAssistedCasting()",
+      "InteractOptions": {
+        "$arrayRef": 2945
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 170,
+      "State": 3,
+      "Condition": "true",
+      "InteractOptions": {
+        "1": 179
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 171,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 93353
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 172,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 21870
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 173,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 78147
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 174,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 174,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 174,
+      "State": 3,
+      "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
+      "InteractOptions": {
+        "$arrayRef": 227
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 174,
+      "State": 4,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 77938
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 175,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 8248
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 14,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 177,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 76547
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 178,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 78144
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 179,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 241
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 180,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 20221
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 181,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 242
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 182,
+      "State": 1,
+      "Condition": "ed.ConditionX.CI_BossIsSurvival()",
+      "InteractOptions": {
+        "$arrayRef": 76547
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 182,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 183,
+      "State": 1,
+      "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 7096
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 183,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 233
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 183,
+      "State": 3,
+      "Condition": "ed.ConditionX.PlayerDistance()>5",
+      "InteractOptions": {
+        "$arrayRef": 72
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 183,
+      "State": 4,
+      "Condition": "ed.ConditionX.PlayerDistance()<=5 and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "1": 26,
+        "2": 0,
+        "3": 209
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 183,
+      "State": 5,
+      "Condition": "ed.ConditionX.PlayerDistance()<=5 and ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 423
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 4,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 184,
+      "State": 1,
+      "Condition": "not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "1": 211,
+        "2": 0,
+        "3": 212
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 185,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 75009
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 1,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 186,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 47
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 187,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsRemoteInteract()",
+      "InteractOptions": {
+        "$arrayRef": 245
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 188,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_IsRemoteInteract() and not ed.ConditionX.C_IsCinerariumJumperActivated()",
+      "InteractOptions": {
+        "$arrayRef": 199
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 189,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 246
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 190,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {},
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": false,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 191,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_HSEnvelopeIsAcc()",
+      "InteractOptions": {
+        "$arrayRef": 75008
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 191,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_HSEnvelopeIsAccDone()",
+      "InteractOptions": {
+        "$arrayRef": 392
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 191,
+      "State": 3,
+      "Condition": "ed.ConditionX.C_HSEnvelopeIsRoll()",
+      "InteractOptions": {
+        "$arrayRef": 391
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 93926
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 192,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 249
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 193,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 77942
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 194,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 77943
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 195,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 1455
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 196,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 8231
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 197,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 65584
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 198,
+      "State": 1,
+      "Condition": "ed.ConditionX.CO_CheckHeroInteractCD() and not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "1": 233,
+        "2": 234
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": false
+    },
+    {
+      "ID": 198,
+      "State": 2,
+      "Condition": "not ed.ConditionX.C_IsHSVisitor()",
+      "InteractOptions": {
+        "$arrayRef": 65585
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": false
+    }
+  ]
+}

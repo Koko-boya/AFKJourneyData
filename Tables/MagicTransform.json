@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "table": "MagicTransform",
+    "header_table": "MagicTransformHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 10,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "Name": null,
+    "VehicleID": null,
+    "IconRes": null,
+    "DESCID": 0,
+    "UseCondition": "true",
+    "CancelCondition": "true",
+    "UnlockCondition": "true",
+    "CastBlockTip": null,
+    "ManualID": 0
+  },
+  "row_keys": [
+    1001
+  ],
+  "rows": [
+    {
+      "ID": 1001,
+      "Name": "3640453776166871573",
+      "VehicleID": 10,
+      "IconRes": "UI/Icon/Transform/spui_transform_icon_wolf.png",
+      "DESCID": 1,
+      "UseCondition": "ed.ConditionX.C_IsAllowTransform(10)",
+      "CancelCondition": "not ed.ConditionX.IsInWolfObjBlock()",
+      "UnlockCondition": "ed.ConditionX.IsExplStepFinished(16010102,4,4)",
+      "CastBlockTip": "14717959565331063777",
+      "ManualID": 167
+    }
+  ]
+}

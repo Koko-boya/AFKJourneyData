@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "table": "MainCityBtConfig",
+    "header_table": "MainCityBtConfigHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 3,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "Puppet": "null",
+    "Condition": "true",
+    "SceneCharacterConfig": null
+  },
+  "row_keys": [
+    "pandora"
+  ],
+  "rows": [
+    {
+      "Puppet": "pandora",
+      "Condition": "ed.ConditionX.IsTavernPoolTypeValid(\"VoidUp\")",
+      "SceneCharacterConfig": "VoidHero"
+    }
+  ]
+}

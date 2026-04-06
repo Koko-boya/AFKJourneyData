@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "table": "BGMMenuExtra",
+    "header_table": "BGMMenuExtraHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 3,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "EventPath": null,
+    "Condition": "true"
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "EventPath": "event:/BGM/Menu/Login/Login_EP5_03",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(595)>=1 and ed.ConditionX.IsExplTaskFinished(15010111,1,12)"
+    }
+  ]
+}

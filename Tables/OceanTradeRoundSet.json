@@ -1,0 +1,610 @@
+{
+  "_meta": {
+    "table": "OceanTradeRoundSet",
+    "header_table": "OceanTradeRoundSetHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 11,
+    "row_count": 26,
+    "array_fields": [
+      "Buffs",
+      "EventInfoPrice",
+      "RoundAsset"
+    ],
+    "unresolved_array_refs": 33
+  },
+  "default": {
+    "RoundSetID": "null",
+    "NextRoundSet": 0,
+    "Buffs": {},
+    "EventID": 0,
+    "RoundAsset": {},
+    "EnergyLimit": 0,
+    "EndRoundEnergyCnt": 0,
+    "StartCondition": "true",
+    "LockText": null,
+    "LineID": 0,
+    "EventInfoPrice": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "rows": [
+    {
+      "RoundSetID": 1,
+      "NextRoundSet": 2,
+      "Buffs": {},
+      "EventID": 0,
+      "RoundAsset": {
+        "1": 1002,
+        "2": 110011002,
+        "3": 350,
+        "4": 1002,
+        "5": 110011001,
+        "6": 100000
+      },
+      "EnergyLimit": 350,
+      "EndRoundEnergyCnt": 70,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,2)",
+      "LockText": "3077205113957665148",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 6600
+      }
+    },
+    {
+      "RoundSetID": 2,
+      "NextRoundSet": 3,
+      "Buffs": {},
+      "EventID": 0,
+      "RoundAsset": {
+        "1": 1002,
+        "2": 110011002,
+        "3": 400
+      },
+      "EnergyLimit": 400,
+      "EndRoundEnergyCnt": 120,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,5)",
+      "LockText": "4887378337631403789",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 11000
+      }
+    },
+    {
+      "RoundSetID": 3,
+      "NextRoundSet": 4,
+      "Buffs": {},
+      "EventID": 0,
+      "RoundAsset": {
+        "1": 1002,
+        "2": 110011002,
+        "3": 420
+      },
+      "EnergyLimit": 420,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,7)",
+      "LockText": "4887378337631403789",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 19000
+      }
+    },
+    {
+      "RoundSetID": 4,
+      "NextRoundSet": 5,
+      "Buffs": {},
+      "EventID": 0,
+      "RoundAsset": {
+        "1": 1002,
+        "2": 110011002,
+        "3": 450
+      },
+      "EnergyLimit": 450,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 21000
+      }
+    },
+    {
+      "RoundSetID": 5,
+      "NextRoundSet": 6,
+      "Buffs": {
+        "1": 51,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "1": 1002,
+        "2": 110011002,
+        "3": 500
+      },
+      "EnergyLimit": 500,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,9)",
+      "LockText": "4887378337631403789",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 29000
+      }
+    },
+    {
+      "RoundSetID": 6,
+      "NextRoundSet": 7,
+      "Buffs": {
+        "1": 11,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "1": 1002,
+        "2": 110011002,
+        "3": 550
+      },
+      "EnergyLimit": 550,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 60000
+      }
+    },
+    {
+      "RoundSetID": 7,
+      "NextRoundSet": 8,
+      "Buffs": {
+        "1": 12,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,11)",
+      "LockText": "4887378337631403789",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 62000
+      }
+    },
+    {
+      "RoundSetID": 8,
+      "NextRoundSet": 9,
+      "Buffs": {
+        "$arrayRef": 93969
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 150000
+      }
+    },
+    {
+      "RoundSetID": 9,
+      "NextRoundSet": 10,
+      "Buffs": {
+        "1": 14,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 220000
+      }
+    },
+    {
+      "RoundSetID": 10,
+      "NextRoundSet": 11,
+      "Buffs": {
+        "1": 15,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 230000
+      }
+    },
+    {
+      "RoundSetID": 11,
+      "NextRoundSet": 12,
+      "Buffs": {
+        "1": 16,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,13)",
+      "LockText": "4887378337631403789",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 530000
+      }
+    },
+    {
+      "RoundSetID": 12,
+      "NextRoundSet": 13,
+      "Buffs": {
+        "$arrayRef": 77359
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 820000
+      }
+    },
+    {
+      "RoundSetID": 13,
+      "NextRoundSet": 14,
+      "Buffs": {
+        "1": 18,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,15)",
+      "LockText": "4887378337631403789",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 850000
+      }
+    },
+    {
+      "RoundSetID": 14,
+      "NextRoundSet": 15,
+      "Buffs": {
+        "1": 19,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 2000000
+      }
+    },
+    {
+      "RoundSetID": 15,
+      "NextRoundSet": 16,
+      "Buffs": {
+        "$arrayRef": 93970
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 3100000
+      }
+    },
+    {
+      "RoundSetID": 16,
+      "NextRoundSet": 1001,
+      "Buffs": {
+        "1": 21,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "true",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "1": 1002,
+        "2": 110011001,
+        "3": 4800000
+      }
+    },
+    {
+      "RoundSetID": 1001,
+      "NextRoundSet": 1002,
+      "Buffs": {
+        "1": 22,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 10010297,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1002,
+      "NextRoundSet": 1003,
+      "Buffs": {
+        "1": 23,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1003,
+      "NextRoundSet": 1004,
+      "Buffs": {
+        "1": 24,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1004,
+      "NextRoundSet": 1005,
+      "Buffs": {
+        "1": 25,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1005,
+      "NextRoundSet": 1006,
+      "Buffs": {
+        "1": 26,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1006,
+      "NextRoundSet": 1007,
+      "Buffs": {
+        "1": 27,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1007,
+      "NextRoundSet": 1008,
+      "Buffs": {
+        "1": 28,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1008,
+      "NextRoundSet": 1009,
+      "Buffs": {
+        "1": 29,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1009,
+      "NextRoundSet": 1010,
+      "Buffs": {
+        "1": 30,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    },
+    {
+      "RoundSetID": 1010,
+      "NextRoundSet": 1001,
+      "Buffs": {
+        "1": 50,
+        "2": 10
+      },
+      "EventID": 0,
+      "RoundAsset": {
+        "$arrayRef": 93971
+      },
+      "EnergyLimit": 600,
+      "EndRoundEnergyCnt": 160,
+      "StartCondition": "ed.ConditionX.IsExplTaskFinished(10010297,17)",
+      "LockText": "4887378337631403789",
+      "LineID": 0,
+      "EventInfoPrice": {
+        "$arrayRef": 93972
+      }
+    }
+  ]
+}

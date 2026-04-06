@@ -1,0 +1,146 @@
+{
+  "_meta": {
+    "table": "CrisisIncidentGuide",
+    "header_table": "CrisisIncidentGuideHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 10,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "CrisisIncidentState": "null",
+    "Desc1": null,
+    "Condition1": "true",
+    "SucAction1": "true",
+    "FailAction1": "true",
+    "Desc2": null,
+    "Condition2": "true",
+    "SucAction2": "true",
+    "FailAction2": "true"
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15
+  ],
+  "rows": [
+    {
+      "CrisisIncidentState": 1,
+      "Desc1": "12335989824464410961",
+      "Condition1": "ed.ConditionX.CI_BossIsSurvival()",
+      "SucAction1": "ed.ActionX.C_CIFindCurShareMonster()",
+      "FailAction1": "ed.ActionX.C_ShowToast(\"CrisisIncidentHumanPillarDoneTip\")",
+      "Desc2": "12422268352814935645",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"EndPoint\",1)",
+      "FailAction2": "true"
+    },
+    {
+      "CrisisIncidentState": 2,
+      "Desc1": "10183229608252717424",
+      "Condition1": "ed.ConditionX.CI_GetCurrentWildMonsterNum()>0",
+      "SucAction1": "ed.ActionX.C_CIFindCurWildMonster()",
+      "FailAction1": "true",
+      "Desc2": "12422268352814935645",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"EndPoint\",1)",
+      "FailAction2": "true"
+    },
+    {
+      "CrisisIncidentState": 3,
+      "Desc1": "12335989824464410961",
+      "Condition1": "ed.ConditionX.CI_BossIsSurvival()",
+      "SucAction1": "ed.ActionX.C_CIFindCurShareMonster()",
+      "FailAction1": "ed.ActionX.C_ShowToast(\"CrisisIncidentHumanPillarDoneTip\")",
+      "Desc2": "12040496156152275612",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"EndPoint\",1)",
+      "FailAction2": "true"
+    },
+    {
+      "CrisisIncidentState": 8,
+      "Desc1": "14039875683561959606",
+      "Condition1": "ed.ConditionX.CI_GetCurrentWildMonsterNum()>0",
+      "SucAction1": "ed.ActionX.C_CIFindCurWildMonster()",
+      "FailAction1": "ed.ActionX.C_ShowToast(\"CrisisIncidentNoCurWildMonster\")",
+      "Desc2": "14146195342253005096",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"DisplayNpc\",1)",
+      "FailAction2": "ed.ActionX.C_ShowToast(\"CrisisIncidentNoHelpNeeded\")"
+    },
+    {
+      "CrisisIncidentState": 9,
+      "Desc1": "16906640731611298438",
+      "Condition1": "true",
+      "SucAction1": "ed.ActionX.C_CIFindCurShareMonster()",
+      "FailAction1": "true",
+      "Desc2": null,
+      "Condition2": "true",
+      "SucAction2": "true",
+      "FailAction2": "true"
+    },
+    {
+      "CrisisIncidentState": 10,
+      "Desc1": "517672624784823177",
+      "Condition1": "not ed.ConditionX.CI_IsIncidentInFree()",
+      "SucAction1": "ed.ActionX.C_CIFindActiveCICenter()",
+      "FailAction1": "ed.ActionX.C_ShowToast(\"CrisisIncidentFinishTip\")",
+      "Desc2": "14146195342253005096",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"DisplayNpc\",1)",
+      "FailAction2": "ed.ActionX.C_ShowToast(\"CrisisIncidentNoHelpNeeded\")"
+    },
+    {
+      "CrisisIncidentState": 12,
+      "Desc1": "14039875683561959606",
+      "Condition1": "ed.ConditionX.CI_GetCurrentWildMonsterNum()>0",
+      "SucAction1": "ed.ActionX.C_CIFindCurWildMonster()",
+      "FailAction1": "ed.ActionX.C_ShowToast(\"CrisisIncidentNoCurWildMonster\")",
+      "Desc2": "10282162430146400782",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"Npc\",1)",
+      "FailAction2": "true"
+    },
+    {
+      "CrisisIncidentState": 13,
+      "Desc1": "13582219913947653675",
+      "Condition1": "true",
+      "SucAction1": "ed.ActionX.C_CIFindCurShareMonster()",
+      "FailAction1": "true",
+      "Desc2": "10282162430146400782",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"Npc\",1)",
+      "FailAction2": "true"
+    },
+    {
+      "CrisisIncidentState": 14,
+      "Desc1": "517672624784823177",
+      "Condition1": "true",
+      "SucAction1": "ed.ActionX.C_CIFindActiveRitualRange()",
+      "FailAction1": "ed.ActionX.C_ShowToast(\"CrisisIncidentNoActiveCICenter\")",
+      "Desc2": "14039875683561959606",
+      "Condition2": "ed.ConditionX.CI_GetCurrentWildMonsterNum()>0",
+      "SucAction2": "ed.ActionX.C_CIFindCurWildMonster()",
+      "FailAction2": "ed.ActionX.C_ShowToast(\"CrisisIncidentNoCurWildMonster\")"
+    },
+    {
+      "CrisisIncidentState": 15,
+      "Desc1": "517672624784823177",
+      "Condition1": "not ed.ConditionX.CI_IsIncidentInFree()",
+      "SucAction1": "ed.ActionX.C_CIFindActiveCICenter()",
+      "FailAction1": "ed.ActionX.C_ShowToast(\"CrisisIncidentFinishTip\")",
+      "Desc2": "16152752357576674768",
+      "Condition2": "true",
+      "SucAction2": "ed.ActionX.C_CIFindObjIDByPresentationType(\"Npc\",1)",
+      "FailAction2": "true"
+    }
+  ]
+}

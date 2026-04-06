@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "table": "CrowdStatusBattle",
+    "header_table": "CrowdStatusBattleHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 2,
+    "row_count": 3,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "BattleStatus": "null",
+    "CrowdStatusIcon": null
+  },
+  "row_keys": [
+    "win",
+    "fail",
+    "streak"
+  ],
+  "rows": [
+    {
+      "BattleStatus": "win",
+      "CrowdStatusIcon": "ui/prefabs/crowdstatus/pbui_crowdstatus_fightpit_win.prefab"
+    },
+    {
+      "BattleStatus": "fail",
+      "CrowdStatusIcon": "ui/prefabs/crowdstatus/pbui_crowdstatus_fightpit_fail.prefab"
+    },
+    {
+      "BattleStatus": "streak",
+      "CrowdStatusIcon": "ui/prefabs/crowdstatus/pbui_crowdstatus_fightpit_streak.prefab"
+    }
+  ]
+}

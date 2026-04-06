@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "table": "CrisisIncidentMap2DynObj",
+    "header_table": "CrisisIncidentMap2DynObjHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 3,
+    "row_count": 2,
+    "array_fields": [
+      "MapSystemIDs"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "MapID": "null",
+    "ClientType": "null",
+    "MapSystemIDs": {}
+  },
+  "row_keys": [
+    "CIWildMonster",
+    "CITeamWildMonster"
+  ],
+  "rows": [
+    {
+      "MapID": 10,
+      "ClientType": "CIWildMonster",
+      "MapSystemIDs": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15
+      }
+    },
+    {
+      "MapID": 10,
+      "ClientType": "CITeamWildMonster",
+      "MapSystemIDs": {
+        "$arrayRef": 72323
+      }
+    }
+  ]
+}

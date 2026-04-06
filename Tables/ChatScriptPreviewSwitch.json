@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "table": "ChatScriptPreviewSwitch",
+    "header_table": "ChatScriptPreviewSwitchHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 8,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "ScriptBGMControllerPrefab": null,
+    "ScriptDialogueTreeAssets": null,
+    "ScriptCommandTable": null,
+    "RequestListRaw": null,
+    "RequiredStatesRaw": null,
+    "Weight": null
+  },
+  "row_keys": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "rows": [
+    {
+      "ID": "1",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_001",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected",
+      "RequiredStatesRaw": "select,friend",
+      "Weight": "1"
+    },
+    {
+      "ID": "2",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_001",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected;conditionStates",
+      "RequiredStatesRaw": "select,friend;no_interact",
+      "Weight": "1"
+    },
+    {
+      "ID": "3",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_004",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected;local.friend1",
+      "RequiredStatesRaw": "chris,select,friend;faye,friend",
+      "Weight": "10"
+    },
+    {
+      "ID": "4",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_002",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected;local.friend1",
+      "RequiredStatesRaw": "faye,select,friend;chris,friend",
+      "Weight": "10"
+    },
+    {
+      "ID": "5",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_003",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected;local.friend1",
+      "RequiredStatesRaw": "faye,select,friend;chris,friend",
+      "Weight": "10"
+    },
+    {
+      "ID": "6",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_005",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected;local.enemy1;local.enemy2;local.enemy3;conditionStates",
+      "RequiredStatesRaw": "select,friend;enemy;enemy;enemy;enemy_ready",
+      "Weight": "50"
+    },
+    {
+      "ID": "7",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_006",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected;local.friend1;local.enemy1;local.enemy2;conditionStates",
+      "RequiredStatesRaw": "select,friend;chris,friend;enemy;enemy;enemy_ready",
+      "Weight": "50"
+    },
+    {
+      "ID": "8",
+      "ScriptBGMControllerPrefab": "chat_script_prepare_switch_007",
+      "ScriptDialogueTreeAssets": null,
+      "ScriptCommandTable": null,
+      "RequestListRaw": "local.selected;local.enemy1;local.enemy2;local.enemy3;conditionStates",
+      "RequiredStatesRaw": "select,friend;enemy;enemy;enemy;enemy_ready",
+      "Weight": "50"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "table": "BriefMsgBattleTypeConfig",
+    "header_table": "BriefMsgBattleTypeConfigHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 7,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "AttackTypeID": "null",
+    "AttackTypeName": null,
+    "JobType": null,
+    "DutyType": null,
+    "PrepareResPath": null,
+    "ActionResPath": null,
+    "ImpactResPath": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "rows": [
+    {
+      "AttackTypeID": 1,
+      "AttackTypeName": "A_ad",
+      "JobType": "Attack",
+      "DutyType": "Damage",
+      "PrepareResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonphysics_prepare.prefab",
+      "ActionResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonphysics_action.prefab",
+      "ImpactResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonphysics_impact.prefab"
+    },
+    {
+      "AttackTypeID": 2,
+      "AttackTypeName": "A_ap",
+      "JobType": "Attack",
+      "DutyType": "Damage",
+      "PrepareResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonmagic_prepare.prefab",
+      "ActionResPath": null,
+      "ImpactResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonmagic_impact.prefab"
+    },
+    {
+      "AttackTypeID": 3,
+      "AttackTypeName": "A_ctrl",
+      "JobType": "Attack",
+      "DutyType": "Controll",
+      "PrepareResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonctrl_prepare.prefab",
+      "ActionResPath": null,
+      "ImpactResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonctrl_impact.prefab"
+    },
+    {
+      "AttackTypeID": 4,
+      "AttackTypeName": "C_buff",
+      "JobType": "Collaborate",
+      "DutyType": "Buff",
+      "PrepareResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonbuff_prepare.prefab",
+      "ActionResPath": null,
+      "ImpactResPath": null
+    },
+    {
+      "AttackTypeID": 5,
+      "AttackTypeName": "C_debuff",
+      "JobType": "Collaborate",
+      "DutyType": "Debuff",
+      "PrepareResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonbuff_prepare.prefab",
+      "ActionResPath": null,
+      "ImpactResPath": null
+    },
+    {
+      "AttackTypeID": 6,
+      "AttackTypeName": "D_heal",
+      "JobType": "Defend",
+      "DutyType": "Heal",
+      "PrepareResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonheal_prepare.prefab",
+      "ActionResPath": null,
+      "ImpactResPath": null
+    },
+    {
+      "AttackTypeID": 7,
+      "AttackTypeName": "D_shield",
+      "JobType": "Defend",
+      "DutyType": "ReduceDmg",
+      "PrepareResPath": "Fx/Prefab/UiPrefab/pbfx_simple_battle_commonshield_prepare.prefab",
+      "ActionResPath": null,
+      "ImpactResPath": null
+    }
+  ]
+}

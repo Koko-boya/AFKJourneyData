@@ -1,0 +1,4107 @@
+{
+  "_meta": {
+    "table": "TitlePrefix",
+    "header_table": "TitlePrefixHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 16,
+    "row_count": 183,
+    "array_fields": [
+      "ClientAchieveEvents",
+      "LootInfo"
+    ],
+    "unresolved_array_refs": 295
+  },
+  "default": {
+    "ID": "null",
+    "Type": null,
+    "Order": 0,
+    "Name": null,
+    "Description": null,
+    "RequireDes": null,
+    "Gender": 0,
+    "Quality": 0,
+    "FadeType": null,
+    "FadeParam": 0,
+    "ConditionCount": 0,
+    "ClientAchieveEvents": {},
+    "AchieveCondition": "true",
+    "ShowCondition": "true",
+    "LootInfo": {},
+    "FadeDes": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    61,
+    62,
+    63,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    188,
+    189,
+    190
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Type": 1,
+      "Order": 1,
+      "Name": "星露之",
+      "Description": "17079074267946344471",
+      "RequireDes": "9842762797786610018",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 6,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97847
+      },
+      "AchieveCondition": "ed.ConditionX.FairyCountByLevel(1)>=6",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 2,
+      "Type": 1,
+      "Order": 2,
+      "Name": "华丽的",
+      "Description": "1801113114313493516",
+      "RequireDes": "16228909722145569434",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "1": "WearEquip:*"
+      },
+      "AchieveCondition": "ed.ConditionX.EquipWearingMinLv()>=70",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 3,
+      "Type": 1,
+      "Order": 3,
+      "Name": "友善的",
+      "Description": "4372849416233928327",
+      "RequireDes": "8022626683621149086",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 5,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97848
+      },
+      "AchieveCondition": "ed.ConditionX.Counter(1006)+ed.ConditionX.Counter(1007)>=5",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 4,
+      "Type": 1,
+      "Order": 4,
+      "Name": "高人气的",
+      "Description": "10018085776900392871",
+      "RequireDes": "8022626683621149086",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 20,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97848
+      },
+      "AchieveCondition": "ed.ConditionX.Counter(1006)+ed.ConditionX.Counter(1007)>=20",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 5,
+      "Type": 1,
+      "Order": 5,
+      "Name": "人见人爱的",
+      "Description": "17460848397579679735",
+      "RequireDes": "8022626683621149086",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 50,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97848
+      },
+      "AchieveCondition": "ed.ConditionX.Counter(1006)+ed.ConditionX.Counter(1007)>=50",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 6,
+      "Type": 1,
+      "Order": 10006,
+      "Name": "才华横溢的",
+      "Description": "4835952479590543090",
+      "RequireDes": "3870501515778708588",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97849
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(2)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 7,
+      "Type": 1,
+      "Order": 10007,
+      "Name": "双重身份的",
+      "Description": "971414918477469236",
+      "RequireDes": "11510997668883284282",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97850
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(4)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 8,
+      "Type": 1,
+      "Order": 10008,
+      "Name": "富有的",
+      "Description": "10254427921834722724",
+      "RequireDes": "4977882545426726971",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97851
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(10)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 9,
+      "Type": 1,
+      "Order": 10009,
+      "Name": "手到擒来的",
+      "Description": "15971795668686108134",
+      "RequireDes": "1211682578324679025",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97852
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(32)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 10,
+      "Type": 1,
+      "Order": 10010,
+      "Name": "高洁的",
+      "Description": "17044557613055570776",
+      "RequireDes": "8562434872684532553",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97853
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(44)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 11,
+      "Type": 1,
+      "Order": 10011,
+      "Name": "侠肝义胆的",
+      "Description": "6061565431544811959",
+      "RequireDes": "16693927622324639680",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97854
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(50)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 12,
+      "Type": 1,
+      "Order": 10012,
+      "Name": "提不起劲的",
+      "Description": "1186596330573100996",
+      "RequireDes": "13794162010140333256",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97855
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(1)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 13,
+      "Type": 1,
+      "Order": 10013,
+      "Name": "灰烬之",
+      "Description": "13114387235929785198",
+      "RequireDes": "7897234502825323598",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97856
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(5)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 14,
+      "Type": 1,
+      "Order": 10014,
+      "Name": "自学成才的",
+      "Description": "2723405470489743322",
+      "RequireDes": "4158287688263616029",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97857
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(6)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 15,
+      "Type": 1,
+      "Order": 10015,
+      "Name": "洁白无瑕的",
+      "Description": "16125581554112849339",
+      "RequireDes": "9197005267341788461",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97858
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(18)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 16,
+      "Type": 1,
+      "Order": 10016,
+      "Name": "老当益壮的",
+      "Description": "8241617091445434524",
+      "RequireDes": "18428956915339522314",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97859
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(24)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 17,
+      "Type": 1,
+      "Order": 10017,
+      "Name": "宝石般的",
+      "Description": "13065996964676648911",
+      "RequireDes": "9817875489537040729",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97860
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(37)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 18,
+      "Type": 1,
+      "Order": 10018,
+      "Name": "所向披靡的",
+      "Description": "3646195094582842046",
+      "RequireDes": "2737870969611166556",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97861
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(9)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 19,
+      "Type": 1,
+      "Order": 10019,
+      "Name": "天真的",
+      "Description": "9651322880953214067",
+      "RequireDes": "12261849116587683168",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97862
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(11)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 20,
+      "Type": 1,
+      "Order": 10020,
+      "Name": "香喷喷的",
+      "Description": "3700338695213825106",
+      "RequireDes": "11520365814288209074",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97863
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(14)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 21,
+      "Type": 1,
+      "Order": 10021,
+      "Name": "好战的",
+      "Description": "14411272243200112550",
+      "RequireDes": "13298761035662604828",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97864
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(33)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 23,
+      "Type": 1,
+      "Order": 10023,
+      "Name": "热血的",
+      "Description": "6264043505357546598",
+      "RequireDes": "7941075784655384559",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97865
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(30)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 24,
+      "Type": 1,
+      "Order": 10024,
+      "Name": "流浪的",
+      "Description": "4318568014342815258",
+      "RequireDes": "10256535996858661996",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97866
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(47)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 25,
+      "Type": 1,
+      "Order": 10025,
+      "Name": "摸鱼的",
+      "Description": "5618137402487373600",
+      "RequireDes": "13633197576804356888",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97867
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(12)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 26,
+      "Type": 1,
+      "Order": 10026,
+      "Name": "暗影的",
+      "Description": "4716247669263024712",
+      "RequireDes": "16591902531442510920",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97868
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(13)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 27,
+      "Type": 1,
+      "Order": 10027,
+      "Name": "碎甲的",
+      "Description": "7218690218678123436",
+      "RequireDes": "10178067718777551689",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97869
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(23)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 28,
+      "Type": 1,
+      "Order": 10028,
+      "Name": "热情如火的",
+      "Description": "9421029305120919390",
+      "RequireDes": "16097806943103570577",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97870
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(28)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 29,
+      "Type": 1,
+      "Order": 10029,
+      "Name": "害羞的",
+      "Description": "2774403043768499479",
+      "RequireDes": "10413497324852121727",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97871
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(7)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 30,
+      "Type": 1,
+      "Order": 10030,
+      "Name": "众望所归的",
+      "Description": "1928136194865172169",
+      "RequireDes": "9153116570310795348",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97872
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(15)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 31,
+      "Type": 1,
+      "Order": 10031,
+      "Name": "慈爱的",
+      "Description": "13592927781004122405",
+      "RequireDes": "692523518288274601",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97873
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(26)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 32,
+      "Type": 1,
+      "Order": 10032,
+      "Name": "从天而降的",
+      "Description": "14581564511662933671",
+      "RequireDes": "17377553529797008088",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97874
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(41)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 33,
+      "Type": 1,
+      "Order": 10033,
+      "Name": "白胡子的",
+      "Description": "11546985647755542628",
+      "RequireDes": "6096188482711297510",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97875
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(16)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 34,
+      "Type": 1,
+      "Order": 10034,
+      "Name": "星辰的",
+      "Description": "17748722456174534887",
+      "RequireDes": "16090279119184381276",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97876
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(17)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 35,
+      "Type": 1,
+      "Order": 10035,
+      "Name": "奇思妙想的",
+      "Description": "17346064255134133941",
+      "RequireDes": "83049227470832245",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97877
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(22)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 36,
+      "Type": 1,
+      "Order": 10036,
+      "Name": "坚定不移的",
+      "Description": "11294127534483591948",
+      "RequireDes": "7688954547132430882",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97878
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(27)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 37,
+      "Type": 1,
+      "Order": 10037,
+      "Name": "繁花的",
+      "Description": "4679586480618403969",
+      "RequireDes": "2072163654879488057",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97879
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(36)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 38,
+      "Type": 1,
+      "Order": 10038,
+      "Name": "耐心十足的",
+      "Description": "9446577738970665544",
+      "RequireDes": "7504253594959581033",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97880
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(46)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(46)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 39,
+      "Type": 1,
+      "Order": 10039,
+      "Name": "归来的",
+      "Description": "6193956080141591127",
+      "RequireDes": "17864714037203398772",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97881
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(3)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 40,
+      "Type": 1,
+      "Order": 10040,
+      "Name": "冷若冰霜的",
+      "Description": "2484904882967923224",
+      "RequireDes": "11944691145135960685",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97882
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(8)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 41,
+      "Type": 1,
+      "Order": 10041,
+      "Name": "神出鬼没的",
+      "Description": "18096276845737821496",
+      "RequireDes": "12350966840338986694",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97883
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(19)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 42,
+      "Type": 1,
+      "Order": 10042,
+      "Name": "苦痛之",
+      "Description": "5982382659275575006",
+      "RequireDes": "11609134072261518197",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97884
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(25)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 43,
+      "Type": 1,
+      "Order": 10043,
+      "Name": "夺魂之",
+      "Description": "15292283840000094639",
+      "RequireDes": "13818637965837472274",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97885
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(29)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 44,
+      "Type": 1,
+      "Order": 10044,
+      "Name": "苍白之",
+      "Description": "17569162926162927137",
+      "RequireDes": "8237933386848667553",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97886
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(34)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 45,
+      "Type": 1,
+      "Order": 10045,
+      "Name": "优雅的",
+      "Description": "10826401638755562054",
+      "RequireDes": "362615074864909439",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97887
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(35)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 46,
+      "Type": 1,
+      "Order": 10046,
+      "Name": "冷酷无情的",
+      "Description": "4052501649795493470",
+      "RequireDes": "17957936825314242655",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97888
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(45)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 47,
+      "Type": 1,
+      "Order": 10047,
+      "Name": "纵情欢愉的",
+      "Description": "10737730268098596080",
+      "RequireDes": "7127951309880593484",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97889
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(48)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 48,
+      "Type": 1,
+      "Order": 10048,
+      "Name": "精准无缺的",
+      "Description": "9163264920791409812",
+      "RequireDes": "3085782990417408374",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97890
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(42)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 49,
+      "Type": 1,
+      "Order": 10049,
+      "Name": "千变万化的",
+      "Description": "15628940517534394543",
+      "RequireDes": "18067901375223427360",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97891
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(31)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 50,
+      "Type": 1,
+      "Order": 10050,
+      "Name": "黄金比例的",
+      "Description": "16510613826385256266",
+      "RequireDes": "17344995735313894025",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97892
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(49)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 51,
+      "Type": 1,
+      "Order": 10051,
+      "Name": "大口吃肉的",
+      "Description": "18139177258203141154",
+      "RequireDes": "48343144408511800",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97893
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(43)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 52,
+      "Type": 1,
+      "Order": 6,
+      "Name": "星愿的",
+      "Description": "14584533689657385076",
+      "RequireDes": "6092767870606260423",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "1": "UpdateCounter:98"
+      },
+      "AchieveCondition": "ed.ConditionX.Counter(98)>=30",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 53,
+      "Type": 2,
+      "Order": 7,
+      "Name": "一尘不染的",
+      "Description": "1942322508551404297",
+      "RequireDes": "6922829584932405646",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 54,
+      "Type": 1,
+      "Order": 10052,
+      "Name": "武艺高强的",
+      "Description": "12826012558780192451",
+      "RequireDes": "18143093969939640737",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97894
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(20)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 55,
+      "Type": 1,
+      "Order": 10053,
+      "Name": "小巧玲珑的",
+      "Description": "6927637650112367387",
+      "RequireDes": "3753166505968256641",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97895
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(21)>=2000",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 56,
+      "Type": 1,
+      "Order": 10054,
+      "Name": "滚来滚去的",
+      "Description": "8062283663403918556",
+      "RequireDes": "11751340070018609464",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97896
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(52)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(52)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 57,
+      "Type": 1,
+      "Order": 10055,
+      "Name": "护短的",
+      "Description": "2245975664805551004",
+      "RequireDes": "11708279026611033187",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97897
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(53)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(53)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 58,
+      "Type": 2,
+      "Order": 8,
+      "Name": "打呼噜的",
+      "Description": "5801628992397664023",
+      "RequireDes": "4193699670230823629",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 61,
+      "Type": 2,
+      "Order": 11,
+      "Name": "改过自新的",
+      "Description": "14596054322256511817",
+      "RequireDes": "15389536948107903089",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 62,
+      "Type": 2,
+      "Order": 12,
+      "Name": "返乡的",
+      "Description": "11883497520640549043",
+      "RequireDes": "15922291663540622099",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 63,
+      "Type": 2,
+      "Order": 13,
+      "Name": "淳朴的",
+      "Description": "6160501993973974236",
+      "RequireDes": "2101465957891003127",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 65,
+      "Type": 1,
+      "Order": 10056,
+      "Name": "不朽的",
+      "Description": "5597874011741535021",
+      "RequireDes": "1704451062558401414",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97898
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(57)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(57)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 66,
+      "Type": 1,
+      "Order": 10057,
+      "Name": "亦真亦幻的",
+      "Description": "17132741169491747133",
+      "RequireDes": "16634712782243089316",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97899
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(76)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(76)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 67,
+      "Type": 2,
+      "Order": 14,
+      "Name": "潜伏的",
+      "Description": "16691717351435955419",
+      "RequireDes": "1417473788562261433",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 68,
+      "Type": 1,
+      "Order": 10058,
+      "Name": "忧郁的",
+      "Description": "3296055294709845820",
+      "RequireDes": "980579373789823458",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97900
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(60)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(60)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 69,
+      "Type": 1,
+      "Order": 10059,
+      "Name": "涅槃的",
+      "Description": "14466625009548400342",
+      "RequireDes": "10727663181672545106",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97901
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(75)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(75)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 70,
+      "Type": 1,
+      "Order": 10060,
+      "Name": "懒洋洋的",
+      "Description": "7017159375286574734",
+      "RequireDes": "12371532891397187292",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97902
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(58)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(58)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 71,
+      "Type": 1,
+      "Order": 10061,
+      "Name": "激情澎湃的",
+      "Description": "9345173154010548663",
+      "RequireDes": "18021817977476582630",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97903
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(64)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(64)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 72,
+      "Type": 1,
+      "Order": 10062,
+      "Name": "飞翔的",
+      "Description": "2467010748708437780",
+      "RequireDes": "15141105235366874504",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97904
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(81)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(81)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 73,
+      "Type": 1,
+      "Order": 10063,
+      "Name": "亘古的",
+      "Description": "10651091599598229887",
+      "RequireDes": "7482068004597446359",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97905
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(62)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(62)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 74,
+      "Type": 1,
+      "Order": 10064,
+      "Name": "不羁的",
+      "Description": "17400922186430987479",
+      "RequireDes": "6384831019348770696",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97906
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(65)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(65)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 75,
+      "Type": 1,
+      "Order": 10065,
+      "Name": "永恨的",
+      "Description": "4591087380970728293",
+      "RequireDes": "583083347273666562",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97907
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(68)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(68)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 76,
+      "Type": 2,
+      "Order": 15,
+      "Name": "再就业的",
+      "Description": "9176028143730367001",
+      "RequireDes": "16071029470898014390",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 77,
+      "Type": 2,
+      "Order": 16,
+      "Name": "深藏功与名的",
+      "Description": "7544619977142415545",
+      "RequireDes": "13170025283312427196",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 78,
+      "Type": 2,
+      "Order": 17,
+      "Name": "吞金的",
+      "Description": "7069075911988576578",
+      "RequireDes": "1628945529434682366",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 79,
+      "Type": 2,
+      "Order": 18,
+      "Name": "胆大包天的",
+      "Description": "14771031116284199894",
+      "RequireDes": "13147606147082170093",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 80,
+      "Type": 1,
+      "Order": 10066,
+      "Name": "狂妄的",
+      "Description": "16227852382294398892",
+      "RequireDes": "14990174789703584714",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97908
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(69)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(69)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 81,
+      "Type": 1,
+      "Order": 10067,
+      "Name": "忠心耿耿的",
+      "Description": "10975251877139160595",
+      "RequireDes": "11790764543440937287",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97909
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(67)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(67)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 82,
+      "Type": 1,
+      "Order": 10068,
+      "Name": "梦中的",
+      "Description": "1478162097003009025",
+      "RequireDes": "9854509397371837695",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97910
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(56)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(56)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 83,
+      "Type": 1,
+      "Order": 10069,
+      "Name": "锈锚港的",
+      "Description": "1190075499829041104",
+      "RequireDes": "16328065562867105271",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97911
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(66)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(66)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 84,
+      "Type": 1,
+      "Order": 10070,
+      "Name": "永不满足的",
+      "Description": "639936984104600671",
+      "RequireDes": "7028907078929852588",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97912
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(78)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(78)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 85,
+      "Type": 1,
+      "Order": 10071,
+      "Name": "渴望归属的",
+      "Description": "5715541889382385211",
+      "RequireDes": "16744403174097164135",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97913
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(70)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(70)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 86,
+      "Type": 1,
+      "Order": 10072,
+      "Name": "滔滔不绝的",
+      "Description": "12391545162570561383",
+      "RequireDes": "6286165854050304222",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97914
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(71)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(71)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 88,
+      "Type": 2,
+      "Order": 20,
+      "Name": "献给英雄的",
+      "Description": "4127388066469647257",
+      "RequireDes": "7281427683255679563",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 89,
+      "Type": 2,
+      "Order": 21,
+      "Name": "活死人的",
+      "Description": "10626954171906799653",
+      "RequireDes": "17238251676349039155",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 90,
+      "Type": 2,
+      "Order": 22,
+      "Name": "花儿一样的",
+      "Description": "1778246314344727159",
+      "RequireDes": "3712177214276717100",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 91,
+      "Type": 2,
+      "Order": 23,
+      "Name": "有礼貌的",
+      "Description": "6698235288084783606",
+      "RequireDes": "1790769155834266145",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 92,
+      "Type": 2,
+      "Order": 24,
+      "Name": "沉在水底的",
+      "Description": "3660645581804045748",
+      "RequireDes": "18358838981709728605",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 93,
+      "Type": 1,
+      "Order": 10073,
+      "Name": "歌唱的",
+      "Description": "14910360802553533712",
+      "RequireDes": "17062549096217205081",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97915
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(74)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(74)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 94,
+      "Type": 1,
+      "Order": 10074,
+      "Name": "笨重的",
+      "Description": "16435010276620713080",
+      "RequireDes": "13160987150026613343",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97916
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(61)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(61)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 95,
+      "Type": 1,
+      "Order": 10075,
+      "Name": "舞台上的",
+      "Description": "3921680340641168793",
+      "RequireDes": "15913169278892835479",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97917
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(84)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(84)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 96,
+      "Type": 1,
+      "Order": 10076,
+      "Name": "隐姓埋名的",
+      "Description": "12362540839614181846",
+      "RequireDes": "9490006994531446834",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97918
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(59)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(59)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 97,
+      "Type": 2,
+      "Order": 25,
+      "Name": "被遗忘的",
+      "Description": "16909213071190262335",
+      "RequireDes": "1059381743320451922",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 98,
+      "Type": 2,
+      "Order": 26,
+      "Name": "白山之巅的",
+      "Description": "16162229177410717255",
+      "RequireDes": "6994846191115291369",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 99,
+      "Type": 2,
+      "Order": 27,
+      "Name": "雾凇之中的",
+      "Description": "12956010732864070142",
+      "RequireDes": "972300349437380776",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 100,
+      "Type": 1,
+      "Order": 10077,
+      "Name": "晶莹剔透的",
+      "Description": "4578558476449969484",
+      "RequireDes": "12723118018468704551",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97919
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(79)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(79)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 101,
+      "Type": 1,
+      "Order": 10078,
+      "Name": "滚烫的",
+      "Description": "8059749465516429237",
+      "RequireDes": "18127379103541726229",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97920
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(80)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(80)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 102,
+      "Type": 1,
+      "Order": 10079,
+      "Name": "野心勃勃的",
+      "Description": "10270460602482509536",
+      "RequireDes": "14895547252528115323",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97921
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(82)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(82)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 103,
+      "Type": 1,
+      "Order": 10080,
+      "Name": "毛茸茸的",
+      "Description": "1336178943444209552",
+      "RequireDes": "3796220441865883398",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97922
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(83)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(83)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 104,
+      "Type": 1,
+      "Order": 10081,
+      "Name": "锐不可当的",
+      "Description": "4909107769536592521",
+      "RequireDes": "17289402657274841751",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97923
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(91)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(91)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 105,
+      "Type": 1,
+      "Order": 10082,
+      "Name": "勇往直前的",
+      "Description": "14169093530669052637",
+      "RequireDes": "1548411050254385574",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97924
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(72)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(72)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 106,
+      "Type": 1,
+      "Order": 10083,
+      "Name": "与星界连接的",
+      "Description": "3716608228785590131",
+      "RequireDes": "16072858090247137553",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97925
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(73)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(73)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 107,
+      "Type": 1,
+      "Order": 10084,
+      "Name": "永不分离的",
+      "Description": "2187857927646766352",
+      "RequireDes": "15581183133857106256",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97926
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(85)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(85)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 108,
+      "Type": 1,
+      "Order": 10085,
+      "Name": "不再孤寂的",
+      "Description": "10661738430468235348",
+      "RequireDes": "17170124892208315621",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97927
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(86)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(86)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 109,
+      "Type": 1,
+      "Order": 10086,
+      "Name": "如影随形的",
+      "Description": "13142880475275004823",
+      "RequireDes": "13754614144406736502",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97928
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(87)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(87)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 110,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "轰轰烈烈的",
+      "Description": "18327498384730686094",
+      "RequireDes": "9523999066935828386",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97929
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(92)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(92)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 111,
+      "Type": 2,
+      "Order": 28,
+      "Name": "雨中的",
+      "Description": "6666774048133365814",
+      "RequireDes": "14849274397811059779",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 112,
+      "Type": 2,
+      "Order": 29,
+      "Name": "自恋的",
+      "Description": "4552483372256181400",
+      "RequireDes": "4105601647853879989",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 113,
+      "Type": 2,
+      "Order": 30,
+      "Name": "追星星的",
+      "Description": "5844936205866863056",
+      "RequireDes": "1850494589901714682",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 114,
+      "Type": 2,
+      "Order": 31,
+      "Name": "落魄的",
+      "Description": "11006014560416353325",
+      "RequireDes": "9704225898835924202",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 115,
+      "Type": 2,
+      "Order": 32,
+      "Name": "诚实的",
+      "Description": "6147974622070999358",
+      "RequireDes": "16959171217981537259",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 116,
+      "Type": 2,
+      "Order": 33,
+      "Name": "久坐的",
+      "Description": "8738811049835094532",
+      "RequireDes": "1018111290831310997",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 117,
+      "Type": 2,
+      "Order": 34,
+      "Name": "汗如雨下的",
+      "Description": "1180181670694943147",
+      "RequireDes": "497271615747727839",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 118,
+      "Type": 2,
+      "Order": 35,
+      "Name": "大起大落的",
+      "Description": "2582567339002271918",
+      "RequireDes": "15251583220747451355",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 119,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "虔诚的",
+      "Description": "9829082230899031505",
+      "RequireDes": "6021305759469806351",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97930
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(88)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(88)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 120,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "沉默的",
+      "Description": "10823061889719974502",
+      "RequireDes": "11959775127210131082",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97931
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(89)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(89)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 121,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "辉煌的",
+      "Description": "3012128921084244812",
+      "RequireDes": "4541508280528168464",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97932
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(96)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(96)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 122,
+      "Type": 2,
+      "Order": 36,
+      "Name": "繁忙的",
+      "Description": "12010236152593480788",
+      "RequireDes": "17680781897461208555",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 123,
+      "Type": 2,
+      "Order": 37,
+      "Name": "迷茫的",
+      "Description": "2153129283338460083",
+      "RequireDes": "3339872023206251204",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 124,
+      "Type": 2,
+      "Order": 38,
+      "Name": "喷火的",
+      "Description": "12251743691608201614",
+      "RequireDes": "14112129035708991374",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 125,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "不驯的",
+      "Description": "10268990330571320894",
+      "RequireDes": "2291801055187477319",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97933
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(94)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(94)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 126,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "异世界的",
+      "Description": "1329931209156591615",
+      "RequireDes": "944743423659086464",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97934
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(100)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(100)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 127,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "寄生的",
+      "Description": "79487858575495939",
+      "RequireDes": "16897566119806811681",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97935
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(97)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(97)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 128,
+      "Type": 1,
+      "Order": 10087,
+      "Name": "行侠仗义的",
+      "Description": "10405243333016146152",
+      "RequireDes": "3989101179841501484",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97936
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(77)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(77)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 129,
+      "Type": 1,
+      "Order": 10088,
+      "Name": "无忧无虑的",
+      "Description": "12802170142364681829",
+      "RequireDes": "4869465199020156527",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97937
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(98)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(98)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 130,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "炮火连天的",
+      "Description": "4658528143029081282",
+      "RequireDes": "16956210343241609548",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97938
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(90)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(90)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 131,
+      "Type": 2,
+      "Order": 39,
+      "Name": "富甲一方",
+      "Description": "4392958693251206767",
+      "RequireDes": "16252201453434377259",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 132,
+      "Type": 2,
+      "Order": 40,
+      "Name": "起不来的",
+      "Description": "9505306187655282583",
+      "RequireDes": "1863750440671307950",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 133,
+      "Type": 2,
+      "Order": 41,
+      "Name": "隐匿的",
+      "Description": "17044085602356100024",
+      "RequireDes": "2000449608835437581",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 134,
+      "Type": 2,
+      "Order": 42,
+      "Name": "捧场的",
+      "Description": "5104594596589130467",
+      "RequireDes": "5937225021518568465",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 135,
+      "Type": 2,
+      "Order": 51,
+      "Name": "新奇的",
+      "Description": "17522580479211787149",
+      "RequireDes": "6316122343887624153",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 136,
+      "Type": 2,
+      "Order": 43,
+      "Name": "不可阻挡的",
+      "Description": "5990960162049858075",
+      "RequireDes": "9478926487900677287",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 137,
+      "Type": 2,
+      "Order": 44,
+      "Name": "不幸的",
+      "Description": "463192027243485173",
+      "RequireDes": "9450926774706862501",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 138,
+      "Type": 2,
+      "Order": 45,
+      "Name": "难忘的",
+      "Description": "9774747504458100394",
+      "RequireDes": "8750815985478438905",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 139,
+      "Type": 2,
+      "Order": 46,
+      "Name": "长存的",
+      "Description": "11993536480146391710",
+      "RequireDes": "5736600443041984530",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 140,
+      "Type": 2,
+      "Order": 47,
+      "Name": "失而复得的",
+      "Description": "10658410310249404347",
+      "RequireDes": "18257965764060209686",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 141,
+      "Type": 2,
+      "Order": 48,
+      "Name": "遗憾的",
+      "Description": "54105796277850625",
+      "RequireDes": "15326566049203952190",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 142,
+      "Type": 2,
+      "Order": 49,
+      "Name": "三头的",
+      "Description": "14964378694058845283",
+      "RequireDes": "14368158951434466876",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 143,
+      "Type": 2,
+      "Order": 50,
+      "Name": "想赚钱的",
+      "Description": "11802293745626549249",
+      "RequireDes": "16252201453434377259",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 144,
+      "Type": 2,
+      "Order": 51,
+      "Name": "传承的",
+      "Description": "2166246940095703075",
+      "RequireDes": "5811872208510103914",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 145,
+      "Type": 2,
+      "Order": 52,
+      "Name": "坚持不懈的",
+      "Description": "7920284954617742941",
+      "RequireDes": "12487386267870450911",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 146,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "赤胆忠心的",
+      "Description": "5672104384616792127",
+      "RequireDes": "13685448820292029221",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97939
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(102)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(102)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 147,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "乐于助人的",
+      "Description": "6774225587953099825",
+      "RequireDes": "17032949401560979437",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97940
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(109)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(109)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 148,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "爱读书的",
+      "Description": "13194486125559618597",
+      "RequireDes": "8671972028747050178",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97941
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(95)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(95)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 149,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "双魂的",
+      "Description": "8957735451780082248",
+      "RequireDes": "3927558187619642181",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97942
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(103)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(103)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 150,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "堕落的",
+      "Description": "11076046456683263537",
+      "RequireDes": "13239650768335741964",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97943
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(110)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(110)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 151,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "盘旋的",
+      "Description": "17865131504618331025",
+      "RequireDes": "4438368558938270306",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97944
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(106)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(106)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 152,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "饱餐一顿的",
+      "Description": "11127849157520938219",
+      "RequireDes": "8735483060931013417",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97945
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(122)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(122)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 153,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "创校以来的",
+      "Description": "6735139785018852826",
+      "RequireDes": "779094635523452188",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97946
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(121)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(121)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 154,
+      "Type": 2,
+      "Order": 53,
+      "Name": "干渴的",
+      "Description": "14122324356576420306",
+      "RequireDes": "16581926510156035481",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 155,
+      "Type": 2,
+      "Order": 54,
+      "Name": "远古的",
+      "Description": "7199211780252179059",
+      "RequireDes": "6227195972965148847",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 156,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "纯洁无垢的",
+      "Description": "6078232604489602100",
+      "RequireDes": "11552966392920380920",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97947
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(123)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(123)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 157,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "风风火火的",
+      "Description": "13211467441129887552",
+      "RequireDes": "16121501361228577276",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97948
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(105)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(105)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 158,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "英勇神武的",
+      "Description": "15640956162135991683",
+      "RequireDes": "12891117389872652658",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97949
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(104)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(104)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 159,
+      "Type": 1,
+      "Order": 10089,
+      "Name": "凛风",
+      "Description": "124817874392107812",
+      "RequireDes": "1634223653210251570",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97950
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(120)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(120)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 160,
+      "Type": 2,
+      "Order": 55,
+      "Name": "随叫随到的",
+      "Description": "11640570414371238861",
+      "RequireDes": "4798802802516538384",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 161,
+      "Type": 2,
+      "Order": 56,
+      "Name": "自立自强的",
+      "Description": "1138405191348735460",
+      "RequireDes": "4613868471178231813",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 162,
+      "Type": 2,
+      "Order": 57,
+      "Name": "隐藏款",
+      "Description": "10860501342679043008",
+      "RequireDes": "3771063574923891653",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 163,
+      "Type": 2,
+      "Order": 58,
+      "Name": "飞来飞去的",
+      "Description": "13296584997708301859",
+      "RequireDes": "6615843651713904920",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 164,
+      "Type": 2,
+      "Order": 59,
+      "Name": "光合作用的",
+      "Description": "5686719023228791576",
+      "RequireDes": "4262510222147531251",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 165,
+      "Type": 2,
+      "Order": 60,
+      "Name": "恶作剧的",
+      "Description": "16696806659538173988",
+      "RequireDes": "17304840109211111177",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 166,
+      "Type": 2,
+      "Order": 61,
+      "Name": "控制不住的",
+      "Description": "7829325244572694144",
+      "RequireDes": "9726570850198225661",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 167,
+      "Type": 2,
+      "Order": 62,
+      "Name": "不想学习的",
+      "Description": "1432585366955064586",
+      "RequireDes": "17990753357546891556",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 168,
+      "Type": 2,
+      "Order": 63,
+      "Name": "一模一样的",
+      "Description": "8598297265990981079",
+      "RequireDes": "11018913676995446014",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 169,
+      "Type": 2,
+      "Order": 64,
+      "Name": "会再见的",
+      "Description": "3026319587028265983",
+      "RequireDes": "10847748239556367580",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 170,
+      "Type": 2,
+      "Order": 65,
+      "Name": "永远的",
+      "Description": "16136717278018358448",
+      "RequireDes": "16624080506717943328",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 171,
+      "Type": 2,
+      "Order": 66,
+      "Name": "意志坚定的",
+      "Description": "1564569688467243023",
+      "RequireDes": "11523736004841857327",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 172,
+      "Type": 2,
+      "Order": 67,
+      "Name": "如约而至的",
+      "Description": "4551292538964403202",
+      "RequireDes": "12239669103063204316",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 173,
+      "Type": 2,
+      "Order": 68,
+      "Name": "冰火两重天的",
+      "Description": "14820923781062973036",
+      "RequireDes": "4902713653311849962",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 174,
+      "Type": 2,
+      "Order": 69,
+      "Name": "醍醐灌顶的",
+      "Description": "14843014703278381228",
+      "RequireDes": "14611265702664408977",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 175,
+      "Type": 2,
+      "Order": 70,
+      "Name": "心软的",
+      "Description": "15885444512322482206",
+      "RequireDes": "8495035023120439910",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 176,
+      "Type": 2,
+      "Order": 71,
+      "Name": "传道授业的",
+      "Description": "17882243795634383339",
+      "RequireDes": "11183168314257848224",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 177,
+      "Type": 2,
+      "Order": 69,
+      "Name": "妙手回春的",
+      "Description": "2179341833544840715",
+      "RequireDes": "18361995044806772282",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 178,
+      "Type": 2,
+      "Order": 70,
+      "Name": "拾金不昧的",
+      "Description": "2872972185077311947",
+      "RequireDes": "9951249508817018479",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "false",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 179,
+      "Type": 2,
+      "Order": 71,
+      "Name": "拥抱自由的",
+      "Description": "3013623160762524054",
+      "RequireDes": "7220153514303600251",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 180,
+      "Type": 1,
+      "Order": 10090,
+      "Name": "白日的",
+      "Description": "234056039285226529",
+      "RequireDes": "263075257088214480",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97951
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(108)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(108)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 181,
+      "Type": 1,
+      "Order": 10091,
+      "Name": "铭记过往的",
+      "Description": "15469068563582588227",
+      "RequireDes": "14917748765211377377",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97952
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(111)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(111)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 182,
+      "Type": 1,
+      "Order": 10092,
+      "Name": "和煦的",
+      "Description": "274065944192916113",
+      "RequireDes": "4550893472593442148",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97953
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(114)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(114)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 183,
+      "Type": 1,
+      "Order": 10093,
+      "Name": "懵懂的",
+      "Description": "13687174867337205456",
+      "RequireDes": "106460692333054969",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97954
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(113)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(113)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 184,
+      "Type": 1,
+      "Order": 10094,
+      "Name": "隐藏起来的",
+      "Description": "5590726413697432293",
+      "RequireDes": "5096947952606565001",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97955
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(116)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(116)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 185,
+      "Type": 1,
+      "Order": 10095,
+      "Name": "铁血的",
+      "Description": "146655794596556501",
+      "RequireDes": "12073128790750574230",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {
+        "$arrayRef": 97956
+      },
+      "AchieveCondition": "ed.ConditionX.HeroTrust(119)>=2000",
+      "ShowCondition": "ed.ConditionX.C_IsHeroEnabled(119)",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 188,
+      "Type": 2,
+      "Order": 72,
+      "Name": "不请自来的",
+      "Description": "1658237318051445955",
+      "RequireDes": "6250491836425969836",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 189,
+      "Type": 2,
+      "Order": 73,
+      "Name": "令人震惊的",
+      "Description": "17758868335861756265",
+      "RequireDes": "13191762719741209746",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    },
+    {
+      "ID": 190,
+      "Type": 2,
+      "Order": 74,
+      "Name": "光芒万丈的",
+      "Description": "3945983959227233746",
+      "RequireDes": "14111500372091379293",
+      "Gender": 0,
+      "Quality": 1,
+      "FadeType": null,
+      "FadeParam": 0,
+      "ConditionCount": 0,
+      "ClientAchieveEvents": {},
+      "AchieveCondition": "true",
+      "ShowCondition": "true",
+      "LootInfo": {
+        "$arrayRef": 195
+      },
+      "FadeDes": null
+    }
+  ]
+}

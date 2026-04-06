@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "table": "Revival",
+    "header_table": "RevivalHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 13,
+    "row_count": 2,
+    "array_fields": [
+      "EndTaskLineID",
+      "PopupType",
+      "SubScheduleIDs"
+    ],
+    "unresolved_array_refs": 6
+  },
+  "default": {
+    "ID": "null",
+    "RevivalType": null,
+    "DurationDays": 0,
+    "ScheduleID": 0,
+    "MailQuestGroupID": 0,
+    "SubScheduleIDs": {},
+    "StoryID": 0,
+    "ShowLimitDay": 0,
+    "DelayPopupCondition": "true",
+    "PopupType": {},
+    "ReddotShowCondition": "true",
+    "EndTaskLineID": {},
+    "SendCD": null
+  },
+  "row_keys": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "RevivalType": 1,
+      "DurationDays": 30,
+      "ScheduleID": 79,
+      "MailQuestGroupID": 1020,
+      "SubScheduleIDs": {
+        "$arrayRef": 95819
+      },
+      "StoryID": 10631010,
+      "ShowLimitDay": 2,
+      "DelayPopupCondition": "ed.ConditionX.IsRevivalFirstLogin() and ed.ConditionX.IsRevivalFirstDay()",
+      "PopupType": {
+        "$arrayRef": 75836
+      },
+      "ReddotShowCondition": "ed.ConditionX.IsExplTaskFinished(16010102,1)",
+      "EndTaskLineID": {
+        "$arrayRef": 95821
+      },
+      "SendCD": 105
+    },
+    {
+      "ID": 2,
+      "RevivalType": 2,
+      "DurationDays": 7,
+      "ScheduleID": 79,
+      "MailQuestGroupID": 1099,
+      "SubScheduleIDs": {
+        "$arrayRef": 95820
+      },
+      "StoryID": 0,
+      "ShowLimitDay": 2,
+      "DelayPopupCondition": "ed.ConditionX.IsRevivalFirstLogin() and ed.ConditionX.IsRevivalFirstDay()",
+      "PopupType": {
+        "$arrayRef": 75836
+      },
+      "ReddotShowCondition": "ed.ConditionX.IsExplTaskFinished(16010102,1)",
+      "EndTaskLineID": {
+        "$arrayRef": 95821
+      },
+      "SendCD": 113
+    }
+  ]
+}

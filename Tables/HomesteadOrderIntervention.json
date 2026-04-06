@@ -1,0 +1,79 @@
+{
+  "_meta": {
+    "table": "HomesteadOrderIntervention",
+    "header_table": "HomesteadOrderInterventionHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 11,
+    "row_count": 3,
+    "array_fields": [
+      "ItemGroupIDNum"
+    ],
+    "unresolved_array_refs": 2
+  },
+  "default": {
+    "ID": "null",
+    "OrderNumber": 0,
+    "HeroID": 0,
+    "ItemGroupIDNum": {},
+    "UnlockCondition": "true",
+    "DisplayName": null,
+    "IconSquare": null,
+    "Model": null,
+    "Desc": null,
+    "DefaultAction": null,
+    "FinishAction": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "OrderNumber": 1,
+      "HeroID": 0,
+      "ItemGroupIDNum": {
+        "$arrayRef": 58050
+      },
+      "UnlockCondition": "true",
+      "DisplayName": "仓鼠",
+      "IconSquare": "UI/Icon/Hero/spui_herohead_9001.png",
+      "Model": "character/npc/pbsc_char_npc_mouseworker_famine.prefab",
+      "Desc": "7777846882733368504",
+      "DefaultAction": "normal",
+      "FinishAction": "approve"
+    },
+    {
+      "ID": 2,
+      "OrderNumber": 2,
+      "HeroID": 0,
+      "ItemGroupIDNum": {
+        "1": 33,
+        "2": 1
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=2",
+      "DisplayName": "仓鼠",
+      "IconSquare": "UI/Icon/Hero/spui_herohead_9001.png",
+      "Model": "character/npc/pbsc_char_npc_mouseworker_famine.prefab",
+      "Desc": "6449727187023783159",
+      "DefaultAction": "normal",
+      "FinishAction": "approve"
+    },
+    {
+      "ID": 3,
+      "OrderNumber": 3,
+      "HeroID": 0,
+      "ItemGroupIDNum": {
+        "$arrayRef": 55545
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=2",
+      "DisplayName": "仓鼠",
+      "IconSquare": "UI/Icon/Hero/spui_herohead_9001.png",
+      "Model": "character/npc/pbsc_char_npc_mouseworker_famine.prefab",
+      "Desc": "8750135668402740788",
+      "DefaultAction": "normal",
+      "FinishAction": "approve"
+    }
+  ]
+}

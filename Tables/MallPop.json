@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "table": "MallPop",
+    "header_table": "MallPopHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 1,
+    "array_fields": [
+      "LootInfo"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "ID": "null",
+    "Type": null,
+    "TypeID": 0,
+    "UnlockCondition": "true",
+    "PopType": null,
+    "Param": 0,
+    "LootInfo": {},
+    "Times": 0,
+    "Des": null
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Type": 19,
+      "TypeID": 15,
+      "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"Mall\") and (ed.ConditionX.VipExp()>=200 or ed.ConditionX.DaysOfCreateUser()>=14)",
+      "PopType": "Schedule",
+      "Param": 240,
+      "LootInfo": {
+        "$arrayRef": 21875
+      },
+      "Times": 3,
+      "Des": "14535105903230831475"
+    }
+  ]
+}

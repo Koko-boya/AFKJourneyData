@@ -1,0 +1,3620 @@
+{
+  "_meta": {
+    "table": "HomesteadRegion",
+    "header_table": "HomesteadRegionHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 17,
+    "row_count": 102,
+    "array_fields": [
+      "AroundRegionIDs",
+      "NeighborRegionIDs",
+      "SpecfogID",
+      "UnitJobRule",
+      "UnitRaceRule",
+      "UnlockCost"
+    ],
+    "unresolved_array_refs": 232
+  },
+  "default": {
+    "MapID": "null",
+    "RegionID": "null",
+    "StartPos": 0,
+    "Width": 0,
+    "Height": 0,
+    "NeighborRegionIDs": {},
+    "AroundRegionIDs": {},
+    "UnlockCondition": "true",
+    "InteractCondition": "true",
+    "UnlockCost": {},
+    "SystemEntityID": 0,
+    "SpecfogID": {},
+    "BattleGroupID": 0,
+    "UnlockTime": 0,
+    "UnlockHeroNum": 0,
+    "UnitRaceRule": {},
+    "UnitJobRule": {}
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "MapID": 3003,
+      "RegionID": 1,
+      "StartPos": 1050213,
+      "Width": 30,
+      "Height": 20,
+      "NeighborRegionIDs": {
+        "1": 8,
+        "2": 255,
+        "3": 7,
+        "4": 6,
+        "5": 4,
+        "6": 3
+      },
+      "AroundRegionIDs": {
+        "1": 8,
+        "2": 255,
+        "3": 7,
+        "4": 6,
+        "5": 5,
+        "6": 4,
+        "7": 3,
+        "8": 2
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 2,
+      "StartPos": 1350233,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 255,
+        "2": 3,
+        "3": 16
+      },
+      "AroundRegionIDs": {
+        "1": 1,
+        "2": 255,
+        "3": 3,
+        "4": 15,
+        "5": 16
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
+      "InteractCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
+      "UnlockCost": {
+        "$arrayRef": 76722
+      },
+      "SystemEntityID": 40011,
+      "SpecfogID": {
+        "$arrayRef": 46
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 3,
+      "StartPos": 1350223,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 1,
+        "2": 4,
+        "3": 2,
+        "4": 15
+      },
+      "AroundRegionIDs": {
+        "1": 1,
+        "2": 255,
+        "3": 4,
+        "4": 2,
+        "5": 14,
+        "6": 15,
+        "7": 16
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,2)",
+      "UnlockCost": {
+        "$arrayRef": 76722
+      },
+      "SystemEntityID": 40018,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 10,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 4,
+      "StartPos": 1350213,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 1,
+        "2": 5,
+        "3": 3,
+        "4": 14
+      },
+      "AroundRegionIDs": {
+        "1": 1,
+        "2": 6,
+        "3": 5,
+        "4": 3,
+        "5": 13,
+        "6": 14,
+        "7": 15
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>1",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,3)",
+      "UnlockCost": {
+        "$arrayRef": 73365
+      },
+      "SystemEntityID": 40013,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 10,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 5,
+      "StartPos": 1350203,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 6,
+        "2": 11,
+        "3": 4,
+        "4": 13
+      },
+      "AroundRegionIDs": {
+        "1": 1,
+        "2": 10,
+        "3": 6,
+        "4": 11,
+        "5": 4,
+        "6": 12,
+        "7": 13,
+        "8": 14
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,13)",
+      "UnlockCost": {
+        "$arrayRef": 76723
+      },
+      "SystemEntityID": 40008,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 10,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 6,
+      "StartPos": 1250203,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 1,
+        "2": 7,
+        "3": 10,
+        "4": 5
+      },
+      "AroundRegionIDs": {
+        "1": 1,
+        "2": 9,
+        "3": 7,
+        "4": 10,
+        "5": 11,
+        "6": 5,
+        "7": 4
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,5)",
+      "UnlockCost": {},
+      "SystemEntityID": 40009,
+      "SpecfogID": {},
+      "BattleGroupID": 504802,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 7,
+      "StartPos": 1150203,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 8,
+        "2": 1,
+        "3": 9,
+        "4": 6
+      },
+      "AroundRegionIDs": {
+        "1": 8,
+        "2": 1,
+        "3": 9,
+        "4": 10,
+        "5": 6
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,6)",
+      "UnlockCost": {},
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 504803,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 8,
+      "StartPos": 1050203,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "$arrayRef": 76610
+      },
+      "AroundRegionIDs": {
+        "1": 1,
+        "2": 9,
+        "3": 7
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,7)",
+      "UnlockCost": {},
+      "SystemEntityID": 40009,
+      "SpecfogID": {
+        "$arrayRef": 45
+      },
+      "BattleGroupID": 504804,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 9,
+      "StartPos": 1150193,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 26,
+        "2": 7,
+        "3": 10
+      },
+      "AroundRegionIDs": {
+        "1": 8,
+        "2": 26,
+        "3": 7,
+        "4": 25,
+        "5": 10,
+        "6": 6
+      },
+      "UnlockCondition": "ed.ConditionX.IsHSRegionUnlocked(2,8)",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,8) and ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "UnlockCost": {},
+      "SystemEntityID": 40009,
+      "SpecfogID": {
+        "$arrayRef": 47
+      },
+      "BattleGroupID": 504805,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 10,
+      "StartPos": 1250193,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 9,
+        "2": 25,
+        "3": 6,
+        "4": 11
+      },
+      "AroundRegionIDs": {
+        "1": 26,
+        "2": 9,
+        "3": 7,
+        "4": 25,
+        "5": 6,
+        "6": 24,
+        "7": 11,
+        "8": 5
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {
+        "$arrayRef": 76665
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 300,
+      "UnlockHeroNum": 1,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 11,
+      "StartPos": 1350193,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 10,
+        "2": 24,
+        "3": 5,
+        "4": 12
+      },
+      "AroundRegionIDs": {
+        "1": 25,
+        "2": 10,
+        "3": 6,
+        "4": 24,
+        "5": 5,
+        "6": 23,
+        "7": 12,
+        "8": 13
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {
+        "$arrayRef": 76665
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 300,
+      "UnlockHeroNum": 1,
+      "UnitRaceRule": {
+        "$arrayRef": 72816
+      },
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 12,
+      "StartPos": 1450193,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 11,
+        "2": 23,
+        "3": 13,
+        "4": 21
+      },
+      "AroundRegionIDs": {
+        "1": 24,
+        "2": 11,
+        "3": 5,
+        "4": 23,
+        "5": 13,
+        "6": 22,
+        "7": 21,
+        "8": 20
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {
+        "$arrayRef": 76665
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 300,
+      "UnlockHeroNum": 1,
+      "UnitRaceRule": {
+        "$arrayRef": 72817
+      },
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 13,
+      "StartPos": 1450203,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 5,
+        "2": 12,
+        "3": 14,
+        "4": 20
+      },
+      "AroundRegionIDs": {
+        "1": 11,
+        "2": 5,
+        "3": 4,
+        "4": 12,
+        "5": 14,
+        "6": 21,
+        "7": 20,
+        "8": 19
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,14)",
+      "UnlockCost": {},
+      "SystemEntityID": 40005,
+      "SpecfogID": {},
+      "BattleGroupID": 504801,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 14,
+      "StartPos": 1450213,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 4,
+        "2": 13,
+        "3": 15,
+        "4": 19
+      },
+      "AroundRegionIDs": {
+        "1": 5,
+        "2": 4,
+        "3": 3,
+        "4": 13,
+        "5": 15,
+        "6": 20,
+        "7": 19,
+        "8": 18
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,15)",
+      "UnlockCost": {},
+      "SystemEntityID": 40009,
+      "SpecfogID": {},
+      "BattleGroupID": 504800,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 15,
+      "StartPos": 1450223,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 3,
+        "2": 14,
+        "3": 16,
+        "4": 18
+      },
+      "AroundRegionIDs": {
+        "1": 4,
+        "2": 3,
+        "3": 2,
+        "4": 14,
+        "5": 16,
+        "6": 19,
+        "7": 18,
+        "8": 17
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,16)",
+      "UnlockCost": {
+        "1": 1001,
+        "2": 100000033,
+        "3": 9999999
+      },
+      "SystemEntityID": 40007,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 10,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 16,
+      "StartPos": 1450233,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 2,
+        "2": 15,
+        "3": 17
+      },
+      "AroundRegionIDs": {
+        "1": 3,
+        "2": 2,
+        "3": 15,
+        "4": 18,
+        "5": 17
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>1",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,4)",
+      "UnlockCost": {
+        "$arrayRef": 73365
+      },
+      "SystemEntityID": 40012,
+      "SpecfogID": {
+        "$arrayRef": 422
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 17,
+      "StartPos": 1550233,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 16,
+        "2": 18,
+        "3": 38
+      },
+      "AroundRegionIDs": {
+        "1": 15,
+        "2": 16,
+        "3": 18,
+        "4": 37,
+        "5": 38
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {
+        "$arrayRef": 76724
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 2400
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 1800,
+      "UnlockHeroNum": 1,
+      "UnitRaceRule": {
+        "$arrayRef": 76744
+      },
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 18,
+      "StartPos": 1550223,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 15,
+        "2": 19,
+        "3": 17,
+        "4": 37
+      },
+      "AroundRegionIDs": {
+        "1": 14,
+        "2": 15,
+        "3": 16,
+        "4": 19,
+        "5": 17,
+        "6": 36,
+        "7": 37,
+        "8": 38
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 504808,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 19,
+      "StartPos": 1550213,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 14,
+        "2": 20,
+        "3": 18,
+        "4": 36
+      },
+      "AroundRegionIDs": {
+        "1": 13,
+        "2": 14,
+        "3": 15,
+        "4": 20,
+        "5": 18,
+        "6": 35,
+        "7": 36,
+        "8": 37
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {
+        "1": 1001,
+        "2": 100000033,
+        "3": 500,
+        "4": 1,
+        "5": 10000300,
+        "6": 300
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 1800,
+      "UnlockHeroNum": 1,
+      "UnitRaceRule": {
+        "$arrayRef": 76745
+      },
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 20,
+      "StartPos": 1550203,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 13,
+        "2": 21,
+        "3": 19,
+        "4": 35
+      },
+      "AroundRegionIDs": {
+        "1": 12,
+        "2": 13,
+        "3": 14,
+        "4": 21,
+        "5": 19,
+        "6": 34,
+        "7": 35,
+        "8": 36
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 504809,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 21,
+      "StartPos": 1550193,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 12,
+        "2": 22,
+        "3": 20,
+        "4": 34
+      },
+      "AroundRegionIDs": {
+        "1": 23,
+        "2": 12,
+        "3": 13,
+        "4": 22,
+        "5": 20,
+        "6": 33,
+        "7": 34,
+        "8": 35
+      },
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
+      "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
+      "UnlockCost": {
+        "1": 1001,
+        "2": 100000033,
+        "3": 500,
+        "4": 1,
+        "5": 10000100,
+        "6": 100
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 1800,
+      "UnlockHeroNum": 1,
+      "UnitRaceRule": {
+        "$arrayRef": 72816
+      },
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 22,
+      "StartPos": 1550183,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 23,
+        "2": 31,
+        "3": 21,
+        "4": 33
+      },
+      "AroundRegionIDs": {
+        "1": 30,
+        "2": 23,
+        "3": 12,
+        "4": 31,
+        "5": 21,
+        "6": 32,
+        "7": 33,
+        "8": 34
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 504810,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 23,
+      "StartPos": 1450183,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 24,
+        "2": 30,
+        "3": 12,
+        "4": 22
+      },
+      "AroundRegionIDs": {
+        "1": 29,
+        "2": 24,
+        "3": 11,
+        "4": 30,
+        "5": 12,
+        "6": 31,
+        "7": 22,
+        "8": 21
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76724
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 3600,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 72817
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76750
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 24,
+      "StartPos": 1350183,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 25,
+        "2": 29,
+        "3": 11,
+        "4": 23
+      },
+      "AroundRegionIDs": {
+        "1": 28,
+        "2": 25,
+        "3": 10,
+        "4": 29,
+        "5": 11,
+        "6": 30,
+        "7": 23,
+        "8": 12
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 504811,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 25,
+      "StartPos": 1250183,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 26,
+        "2": 28,
+        "3": 10,
+        "4": 24
+      },
+      "AroundRegionIDs": {
+        "1": 27,
+        "2": 26,
+        "3": 9,
+        "4": 28,
+        "5": 10,
+        "6": 29,
+        "7": 24,
+        "8": 11
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76725
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 3600,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 76744
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76751
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 26,
+      "StartPos": 1150183,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 27,
+        "2": 9,
+        "3": 25
+      },
+      "AroundRegionIDs": {
+        "1": 27,
+        "2": 9,
+        "3": 28,
+        "4": 25,
+        "5": 10
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 48
+      },
+      "BattleGroupID": 504812,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 27,
+      "StartPos": 1150173,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 51,
+        "2": 26,
+        "3": 28
+      },
+      "AroundRegionIDs": {
+        "1": 51,
+        "2": 26,
+        "3": 50,
+        "4": 28,
+        "5": 25
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76726
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 44
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 3600,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 76745
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76752
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 28,
+      "StartPos": 1250173,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 27,
+        "2": 50,
+        "3": 25,
+        "4": 29
+      },
+      "AroundRegionIDs": {
+        "1": 51,
+        "2": 27,
+        "3": 26,
+        "4": 50,
+        "5": 25,
+        "6": 49,
+        "7": 29,
+        "8": 24
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 504813,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 29,
+      "StartPos": 1350173,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 28,
+        "2": 49,
+        "3": 24,
+        "4": 30
+      },
+      "AroundRegionIDs": {
+        "1": 50,
+        "2": 28,
+        "3": 25,
+        "4": 49,
+        "5": 24,
+        "6": 48,
+        "7": 30,
+        "8": 23
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76727
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 3600,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 72816
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76753
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 30,
+      "StartPos": 1450173,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 29,
+        "2": 48,
+        "3": 23,
+        "4": 31
+      },
+      "AroundRegionIDs": {
+        "1": 49,
+        "2": 29,
+        "3": 24,
+        "4": 48,
+        "5": 23,
+        "6": 47,
+        "7": 31,
+        "8": 22
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 504814,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 31,
+      "StartPos": 1550173,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 30,
+        "2": 47,
+        "3": 22,
+        "4": 32
+      },
+      "AroundRegionIDs": {
+        "1": 48,
+        "2": 30,
+        "3": 23,
+        "4": 47,
+        "5": 22,
+        "6": 46,
+        "7": 32,
+        "8": 33
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76725
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 3600,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 72817
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76754
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 32,
+      "StartPos": 1650173,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 31,
+        "2": 46,
+        "3": 33
+      },
+      "AroundRegionIDs": {
+        "1": 47,
+        "2": 31,
+        "3": 22,
+        "4": 46,
+        "5": 33
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 61
+      },
+      "BattleGroupID": 504815,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 33,
+      "StartPos": 1650183,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 22,
+        "2": 32,
+        "3": 34
+      },
+      "AroundRegionIDs": {
+        "1": 31,
+        "2": 22,
+        "3": 21,
+        "4": 32,
+        "5": 34
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76726
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 63
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 3600,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 76744
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76755
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 34,
+      "StartPos": 1650193,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 21,
+        "2": 33,
+        "3": 35
+      },
+      "AroundRegionIDs": {
+        "1": 22,
+        "2": 21,
+        "3": 20,
+        "4": 33,
+        "5": 35
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 58
+      },
+      "BattleGroupID": 504816,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 35,
+      "StartPos": 1650203,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 20,
+        "2": 34,
+        "3": 36,
+        "4": 40
+      },
+      "AroundRegionIDs": {
+        "1": 21,
+        "2": 20,
+        "3": 19,
+        "4": 34,
+        "5": 36,
+        "6": 40
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76727
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 184
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 3600,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 76745
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76750
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 36,
+      "StartPos": 1650213,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 19,
+        "2": 35,
+        "3": 37,
+        "4": 40
+      },
+      "AroundRegionIDs": {
+        "1": 20,
+        "2": 19,
+        "3": 18,
+        "4": 35,
+        "5": 37,
+        "6": 40,
+        "7": 39
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 504817,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 37,
+      "StartPos": 1650223,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 18,
+        "2": 36,
+        "3": 38,
+        "4": 39
+      },
+      "AroundRegionIDs": {
+        "1": 19,
+        "2": 18,
+        "3": 17,
+        "4": 36,
+        "5": 38,
+        "6": 40,
+        "7": 39
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76728
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 7200,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 72816
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76751
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 38,
+      "StartPos": 1650233,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 17,
+        "2": 37,
+        "3": 39
+      },
+      "AroundRegionIDs": {
+        "1": 18,
+        "2": 17,
+        "3": 37,
+        "4": 39
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 190
+      },
+      "BattleGroupID": 504818,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 39,
+      "StartPos": 1750223,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 37,
+        "2": 40,
+        "3": 38
+      },
+      "AroundRegionIDs": {
+        "1": 36,
+        "2": 37,
+        "3": 38,
+        "4": 40
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76729
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "1": 18,
+        "2": 19
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 7200,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 72817
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76752
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 40,
+      "StartPos": 1750213,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 36,
+        "2": 39,
+        "3": 41,
+        "4": 35
+      },
+      "AroundRegionIDs": {
+        "1": 35,
+        "2": 36,
+        "3": 37,
+        "4": 39
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 187
+      },
+      "BattleGroupID": 504819,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 41,
+      "StartPos": 1980208,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 42,
+        "2": 61,
+        "3": 40
+      },
+      "AroundRegionIDs": {
+        "1": 42,
+        "2": 60,
+        "3": 61
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76730
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "1": 23,
+        "2": 35
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 7200,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 76744
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76753
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 42,
+      "StartPos": 1980198,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 43,
+        "2": 41,
+        "3": 60
+      },
+      "AroundRegionIDs": {
+        "1": 43,
+        "2": 41,
+        "3": 59,
+        "4": 60,
+        "5": 61
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 66967
+      },
+      "BattleGroupID": 504820,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 43,
+      "StartPos": 1980188,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 44,
+        "2": 42,
+        "3": 59,
+        "4": 45
+      },
+      "AroundRegionIDs": {
+        "1": 45,
+        "2": 44,
+        "3": 42,
+        "4": 58,
+        "5": 59,
+        "6": 60
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76728
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 2132
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 7200,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 76745
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76754
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 44,
+      "StartPos": 1980178,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 45,
+        "2": 56,
+        "3": 43,
+        "4": 58
+      },
+      "AroundRegionIDs": {
+        "1": 55,
+        "2": 45,
+        "3": 56,
+        "4": 43,
+        "5": 57,
+        "6": 58,
+        "7": 59
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 504821,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 45,
+      "StartPos": 1880178,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 55,
+        "2": 44,
+        "3": 43
+      },
+      "AroundRegionIDs": {
+        "1": 55,
+        "2": 56,
+        "3": 44,
+        "4": 43
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76729
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 12275
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 7200,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 72816
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76755
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 46,
+      "StartPos": 1650163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 47,
+        "2": 32,
+        "3": 63,
+        "4": 55,
+        "5": 54
+      },
+      "AroundRegionIDs": {
+        "1": 54,
+        "2": 47,
+        "3": 31,
+        "4": 32
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 183
+      },
+      "BattleGroupID": 504822,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 47,
+      "StartPos": 1550163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 48,
+        "2": 54,
+        "3": 31,
+        "4": 46
+      },
+      "AroundRegionIDs": {
+        "1": 53,
+        "2": 48,
+        "3": 30,
+        "4": 54,
+        "5": 31,
+        "6": 46,
+        "7": 32
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76730
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 7200,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 72817
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76750
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 48,
+      "StartPos": 1450163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 49,
+        "2": 53,
+        "3": 30,
+        "4": 47
+      },
+      "AroundRegionIDs": {
+        "1": 52,
+        "2": 49,
+        "3": 29,
+        "4": 53,
+        "5": 30,
+        "6": 54,
+        "7": 47,
+        "8": 31
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 504823,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 49,
+      "StartPos": 1350163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 50,
+        "2": 52,
+        "3": 29,
+        "4": 48
+      },
+      "AroundRegionIDs": {
+        "1": 50,
+        "2": 28,
+        "3": 52,
+        "4": 29,
+        "5": 53,
+        "6": 48,
+        "7": 30
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76728
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 7200,
+      "UnlockHeroNum": 2,
+      "UnitRaceRule": {
+        "$arrayRef": 76744
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76751
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 50,
+      "StartPos": 1250163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 51,
+        "2": 28,
+        "3": 49,
+        "4": 52
+      },
+      "AroundRegionIDs": {
+        "1": 51,
+        "2": 27,
+        "3": 28,
+        "4": 52,
+        "5": 49,
+        "6": 29
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 405
+      },
+      "BattleGroupID": 504824,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 51,
+      "StartPos": 1150163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 27,
+        "2": 50
+      },
+      "AroundRegionIDs": {
+        "1": 27,
+        "2": 50,
+        "3": 28
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76731
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 49
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10800,
+      "UnlockHeroNum": 3,
+      "UnitRaceRule": {
+        "$arrayRef": 76745
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76752
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 52,
+      "StartPos": 1350153,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 49,
+        "2": 53,
+        "3": 50
+      },
+      "AroundRegionIDs": {
+        "1": 50,
+        "2": 49,
+        "3": 53,
+        "4": 48
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 181
+      },
+      "BattleGroupID": 504825,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 53,
+      "StartPos": 1450153,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 52,
+        "2": 48,
+        "3": 54
+      },
+      "AroundRegionIDs": {
+        "1": 52,
+        "2": 49,
+        "3": 48,
+        "4": 54,
+        "5": 47
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76732
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 60
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10800,
+      "UnlockHeroNum": 3,
+      "UnitRaceRule": {
+        "$arrayRef": 72816
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76753
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 54,
+      "StartPos": 1550153,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 53,
+        "2": 47,
+        "3": 46
+      },
+      "AroundRegionIDs": {
+        "1": 53,
+        "2": 48,
+        "3": 47,
+        "4": 46
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 62
+      },
+      "BattleGroupID": 504826,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 55,
+      "StartPos": 1880168,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 63,
+        "2": 45,
+        "3": 56,
+        "4": 46
+      },
+      "AroundRegionIDs": {
+        "1": 63,
+        "2": 45,
+        "3": 62,
+        "4": 56,
+        "5": 44
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76733
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 64
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10800,
+      "UnlockHeroNum": 3,
+      "UnitRaceRule": {
+        "$arrayRef": 72817
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76754
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 56,
+      "StartPos": 1980168,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 55,
+        "2": 62,
+        "3": 44,
+        "4": 57
+      },
+      "AroundRegionIDs": {
+        "1": 63,
+        "2": 55,
+        "3": 45,
+        "4": 62,
+        "5": 44,
+        "6": 57,
+        "7": 58
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 504827,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 57,
+      "StartPos": 2080168,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 56,
+        "2": 58
+      },
+      "AroundRegionIDs": {
+        "1": 62,
+        "2": 56,
+        "3": 44,
+        "4": 58
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76731
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 58561
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10800,
+      "UnlockHeroNum": 3,
+      "UnitRaceRule": {
+        "$arrayRef": 76744
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76755
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 58,
+      "StartPos": 2080178,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 44,
+        "2": 57,
+        "3": 59
+      },
+      "AroundRegionIDs": {
+        "1": 56,
+        "2": 44,
+        "3": 43,
+        "4": 57,
+        "5": 59
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 424
+      },
+      "BattleGroupID": 504828,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 59,
+      "StartPos": 2080188,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 43,
+        "2": 58,
+        "3": 60
+      },
+      "AroundRegionIDs": {
+        "1": 44,
+        "2": 43,
+        "3": 42,
+        "4": 58,
+        "5": 60
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76732
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 71
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10800,
+      "UnlockHeroNum": 3,
+      "UnitRaceRule": {
+        "$arrayRef": 76745
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76750
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 60,
+      "StartPos": 2080198,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 42,
+        "2": 59,
+        "3": 61
+      },
+      "AroundRegionIDs": {
+        "1": 43,
+        "2": 42,
+        "3": 41,
+        "4": 59,
+        "5": 61
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 423
+      },
+      "BattleGroupID": 504829,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 61,
+      "StartPos": 2080208,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 41,
+        "2": 60
+      },
+      "AroundRegionIDs": {
+        "1": 42,
+        "2": 41,
+        "3": 60
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76733
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 76743
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 10800,
+      "UnlockHeroNum": 3,
+      "UnitRaceRule": {
+        "$arrayRef": 72816
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76751
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 62,
+      "StartPos": 1980158,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 63,
+        "2": 56,
+        "3": 66,
+        "4": 68,
+        "5": 64,
+        "6": 65
+      },
+      "AroundRegionIDs": {
+        "1": 63,
+        "2": 55,
+        "3": 56,
+        "4": 57
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "1": 30,
+        "2": 31
+      },
+      "BattleGroupID": 504830,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 63,
+      "StartPos": 1880158,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 55,
+        "2": 62,
+        "3": 46
+      },
+      "AroundRegionIDs": {
+        "1": 55,
+        "2": 62,
+        "3": 56
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "1": 1001,
+        "2": 100000033,
+        "3": 39500,
+        "4": 1,
+        "5": 10000100,
+        "6": 6800
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 12273
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 16200,
+      "UnlockHeroNum": 3,
+      "UnitRaceRule": {
+        "$arrayRef": 72817
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76752
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 64,
+      "StartPos": 2300163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 65,
+        "2": 80,
+        "3": 62
+      },
+      "AroundRegionIDs": {
+        "1": 65,
+        "2": 79,
+        "3": 80
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76734
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 68997
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76756
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 65,
+      "StartPos": 2300153,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 66,
+        "2": 64,
+        "3": 79,
+        "4": 62
+      },
+      "AroundRegionIDs": {
+        "1": 66,
+        "2": 64,
+        "3": 78,
+        "4": 79,
+        "5": 80
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76734
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76757
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 66,
+      "StartPos": 2300143,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 67,
+        "2": 65,
+        "3": 78,
+        "4": 62
+      },
+      "AroundRegionIDs": {
+        "1": 68,
+        "2": 67,
+        "3": 65,
+        "4": 77,
+        "5": 78,
+        "6": 79
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76734
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76758
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 67,
+      "StartPos": 2300133,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 68,
+        "2": 75,
+        "3": 66,
+        "4": 77
+      },
+      "AroundRegionIDs": {
+        "1": 74,
+        "2": 68,
+        "3": 75,
+        "4": 66,
+        "5": 76,
+        "6": 77,
+        "7": 78
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76734
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76759
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 68,
+      "StartPos": 2200133,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 69,
+        "2": 74,
+        "3": 67,
+        "4": 62
+      },
+      "AroundRegionIDs": {
+        "1": 73,
+        "2": 69,
+        "3": 74,
+        "4": 75,
+        "5": 67,
+        "6": 66
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76735
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76760
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 69,
+      "StartPos": 2100133,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 70,
+        "2": 73,
+        "3": 68
+      },
+      "AroundRegionIDs": {
+        "1": 72,
+        "2": 70,
+        "3": 73,
+        "4": 74,
+        "5": 68
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76735
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76761
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 70,
+      "StartPos": 2000133,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 72,
+        "2": 69
+      },
+      "AroundRegionIDs": {
+        "1": 71,
+        "2": 72,
+        "3": 73,
+        "4": 69
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76735
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 75188
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76756
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 71,
+      "StartPos": 1900123,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 92,
+        "2": 72
+      },
+      "AroundRegionIDs": {
+        "1": 92,
+        "2": 91,
+        "3": 72,
+        "4": 70
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76735
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 200
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 32400,
+      "UnlockHeroNum": 4,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76757
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 72,
+      "StartPos": 2000123,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 71,
+        "2": 91,
+        "3": 70,
+        "4": 73
+      },
+      "AroundRegionIDs": {
+        "1": 92,
+        "2": 71,
+        "3": 91,
+        "4": 70,
+        "5": 90,
+        "6": 73,
+        "7": 69
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76736
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76758
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 73,
+      "StartPos": 2100123,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 72,
+        "2": 90,
+        "3": 69,
+        "4": 74
+      },
+      "AroundRegionIDs": {
+        "1": 91,
+        "2": 72,
+        "3": 70,
+        "4": 90,
+        "5": 69,
+        "6": 89,
+        "7": 74,
+        "8": 68
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76736
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76759
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 74,
+      "StartPos": 2200123,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 73,
+        "2": 89,
+        "3": 68,
+        "4": 75
+      },
+      "AroundRegionIDs": {
+        "1": 90,
+        "2": 73,
+        "3": 69,
+        "4": 89,
+        "5": 68,
+        "6": 88,
+        "7": 75,
+        "8": 67
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76736
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76760
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 75,
+      "StartPos": 2300123,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 74,
+        "2": 88,
+        "3": 67,
+        "4": 76
+      },
+      "AroundRegionIDs": {
+        "1": 89,
+        "2": 74,
+        "3": 68,
+        "4": 88,
+        "5": 67,
+        "6": 87,
+        "7": 76,
+        "8": 77
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76736
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76761
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 76,
+      "StartPos": 2400123,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 75,
+        "2": 87,
+        "3": 77,
+        "4": 85
+      },
+      "AroundRegionIDs": {
+        "1": 88,
+        "2": 75,
+        "3": 67,
+        "4": 87,
+        "5": 77,
+        "6": 86,
+        "7": 85,
+        "8": 84
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76737
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76756
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 77,
+      "StartPos": 2400133,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 67,
+        "2": 76,
+        "3": 78,
+        "4": 84
+      },
+      "AroundRegionIDs": {
+        "1": 75,
+        "2": 67,
+        "3": 66,
+        "4": 76,
+        "5": 78,
+        "6": 85,
+        "7": 84,
+        "8": 83
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76737
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76757
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 78,
+      "StartPos": 2400143,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 66,
+        "2": 77,
+        "3": 79,
+        "4": 83
+      },
+      "AroundRegionIDs": {
+        "1": 67,
+        "2": 66,
+        "3": 65,
+        "4": 77,
+        "5": 79,
+        "6": 84,
+        "7": 83,
+        "8": 82
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76737
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76758
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 79,
+      "StartPos": 2400153,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 65,
+        "2": 78,
+        "3": 80,
+        "4": 82
+      },
+      "AroundRegionIDs": {
+        "1": 66,
+        "2": 65,
+        "3": 64,
+        "4": 78,
+        "5": 80,
+        "6": 83,
+        "7": 82,
+        "8": 81
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76737
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 43200,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76759
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 80,
+      "StartPos": 2400163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 64,
+        "2": 79,
+        "3": 81
+      },
+      "AroundRegionIDs": {
+        "1": 65,
+        "2": 64,
+        "3": 79,
+        "4": 82,
+        "5": 81
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76738
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 68998
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 54000,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76760
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 81,
+      "StartPos": 2500163,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 80,
+        "2": 82
+      },
+      "AroundRegionIDs": {
+        "1": 79,
+        "2": 80,
+        "3": 82,
+        "4": 99
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76738
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 2442
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 54000,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76761
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 82,
+      "StartPos": 2500153,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 79,
+        "2": 83,
+        "3": 81,
+        "4": 99
+      },
+      "AroundRegionIDs": {
+        "1": 78,
+        "2": 79,
+        "3": 80,
+        "4": 83,
+        "5": 81,
+        "6": 98,
+        "7": 99
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76738
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 54000,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76756
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 83,
+      "StartPos": 2500143,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 78,
+        "2": 84,
+        "3": 82,
+        "4": 98
+      },
+      "AroundRegionIDs": {
+        "1": 77,
+        "2": 78,
+        "3": 79,
+        "4": 84,
+        "5": 82,
+        "6": 97,
+        "7": 98,
+        "8": 99
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76738
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 54000,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76757
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 84,
+      "StartPos": 2500133,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 77,
+        "2": 85,
+        "3": 83,
+        "4": 97
+      },
+      "AroundRegionIDs": {
+        "1": 76,
+        "2": 77,
+        "3": 78,
+        "4": 85,
+        "5": 83,
+        "6": 97,
+        "7": 98
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76739
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76758
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 85,
+      "StartPos": 2500123,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 76,
+        "2": 86,
+        "3": 84,
+        "4": 97
+      },
+      "AroundRegionIDs": {
+        "1": 87,
+        "2": 76,
+        "3": 77,
+        "4": 86,
+        "5": 84,
+        "6": 97
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76739
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 8210
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76759
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 86,
+      "StartPos": 2500113,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 87,
+        "2": 85
+      },
+      "AroundRegionIDs": {
+        "1": 96,
+        "2": 87,
+        "3": 76,
+        "4": 85
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76739
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 198
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76760
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 87,
+      "StartPos": 2400113,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 88,
+        "2": 96,
+        "3": 76,
+        "4": 86
+      },
+      "AroundRegionIDs": {
+        "1": 95,
+        "2": 88,
+        "3": 75,
+        "4": 96,
+        "5": 76,
+        "6": 86,
+        "7": 85
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76739
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76761
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 88,
+      "StartPos": 2300113,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 89,
+        "2": 95,
+        "3": 75,
+        "4": 87
+      },
+      "AroundRegionIDs": {
+        "1": 94,
+        "2": 89,
+        "3": 74,
+        "4": 95,
+        "5": 75,
+        "6": 96,
+        "7": 87,
+        "8": 76
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76740
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76756
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 89,
+      "StartPos": 2200113,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 90,
+        "2": 94,
+        "3": 74,
+        "4": 88
+      },
+      "AroundRegionIDs": {
+        "1": 93,
+        "2": 90,
+        "3": 73,
+        "4": 94,
+        "5": 74,
+        "6": 95,
+        "7": 88,
+        "8": 75
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76740
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76757
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 90,
+      "StartPos": 2100113,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 91,
+        "2": 93,
+        "3": 73,
+        "4": 89
+      },
+      "AroundRegionIDs": {
+        "1": 91,
+        "2": 72,
+        "3": 93,
+        "4": 73,
+        "5": 94,
+        "6": 89,
+        "7": 74
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76740
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76758
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 91,
+      "StartPos": 2000113,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 92,
+        "2": 72,
+        "3": 90,
+        "4": 93
+      },
+      "AroundRegionIDs": {
+        "1": 92,
+        "2": 71,
+        "3": 72,
+        "4": 93,
+        "5": 90,
+        "6": 73
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76740
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 2038
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76759
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 92,
+      "StartPos": 1900113,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 71,
+        "2": 91
+      },
+      "AroundRegionIDs": {
+        "1": 71,
+        "2": 91,
+        "3": 72
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76741
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 74771
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76760
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 93,
+      "StartPos": 2100103,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 90,
+        "2": 94,
+        "3": 91
+      },
+      "AroundRegionIDs": {
+        "1": 91,
+        "2": 90,
+        "3": 94,
+        "4": 89
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76741
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 21636
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76761
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 94,
+      "StartPos": 2200103,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 93,
+        "2": 89,
+        "3": 95
+      },
+      "AroundRegionIDs": {
+        "1": 93,
+        "2": 90,
+        "3": 89,
+        "4": 95,
+        "5": 88
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76741
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 8211
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76756
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 95,
+      "StartPos": 2300103,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 94,
+        "2": 88,
+        "3": 96
+      },
+      "AroundRegionIDs": {
+        "1": 94,
+        "2": 89,
+        "3": 88,
+        "4": 96,
+        "5": 87
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76741
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 5828
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76757
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 96,
+      "StartPos": 2400103,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 95,
+        "2": 87
+      },
+      "AroundRegionIDs": {
+        "1": 95,
+        "2": 88,
+        "3": 87,
+        "4": 86
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76742
+      },
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "1": 47,
+        "2": 48,
+        "3": 49
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76746
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76758
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 97,
+      "StartPos": 2600133,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 84,
+        "2": 98,
+        "3": 85
+      },
+      "AroundRegionIDs": {
+        "1": 85,
+        "2": 84,
+        "3": 83,
+        "4": 98
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76742
+      },
+      "SystemEntityID": 40003,
+      "SpecfogID": {
+        "$arrayRef": 195
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76747
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76759
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 98,
+      "StartPos": 2600143,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 83,
+        "2": 97,
+        "3": 99
+      },
+      "AroundRegionIDs": {
+        "1": 84,
+        "2": 83,
+        "3": 82,
+        "4": 97,
+        "5": 99
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76742
+      },
+      "SystemEntityID": 40004,
+      "SpecfogID": {
+        "$arrayRef": 1552
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76748
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76760
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 99,
+      "StartPos": 2600153,
+      "Width": 10,
+      "Height": 10,
+      "NeighborRegionIDs": {
+        "1": 82,
+        "2": 98
+      },
+      "AroundRegionIDs": {
+        "1": 83,
+        "2": 82,
+        "3": 81,
+        "4": 98
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {
+        "$arrayRef": 76742
+      },
+      "SystemEntityID": 40001,
+      "SpecfogID": {
+        "$arrayRef": 73433
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 64800,
+      "UnlockHeroNum": 5,
+      "UnitRaceRule": {
+        "$arrayRef": 76749
+      },
+      "UnitJobRule": {
+        "$arrayRef": 76761
+      }
+    },
+    {
+      "MapID": 3003,
+      "RegionID": 255,
+      "StartPos": 1090233,
+      "Width": 26,
+      "Height": 20,
+      "NeighborRegionIDs": {
+        "$arrayRef": 440
+      },
+      "AroundRegionIDs": {
+        "$arrayRef": 76721
+      },
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 40002,
+      "SpecfogID": {
+        "$arrayRef": 247
+      },
+      "BattleGroupID": 0,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3004,
+      "RegionID": 1,
+      "StartPos": 1210108,
+      "Width": 100,
+      "Height": 100,
+      "NeighborRegionIDs": {},
+      "AroundRegionIDs": {},
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 0,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    },
+    {
+      "MapID": 3005,
+      "RegionID": 1,
+      "StartPos": 580062,
+      "Width": 40,
+      "Height": 40,
+      "NeighborRegionIDs": {},
+      "AroundRegionIDs": {},
+      "UnlockCondition": "true",
+      "InteractCondition": "true",
+      "UnlockCost": {},
+      "SystemEntityID": 0,
+      "SpecfogID": {},
+      "BattleGroupID": 0,
+      "UnlockTime": 0,
+      "UnlockHeroNum": 0,
+      "UnitRaceRule": {},
+      "UnitJobRule": {}
+    }
+  ]
+}

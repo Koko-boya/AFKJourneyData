@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "table": "BGMEventTrigger",
+    "header_table": "BGMEventTriggerHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 6,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "BCCustomEvent": "null",
+    "Function": null,
+    "Param1": null,
+    "Param2": null
+  },
+  "row_keys": [
+    "on_player_outside_zonemonster_range",
+    "reset_herolist_playhead",
+    "reset_midautumn_playhead",
+    "reset_deliciousdungeon_playhead",
+    "reset_harvestgodafter_playhead",
+    "reset_harvestgodbefore_playhead"
+  ],
+  "rows": [
+    {
+      "BCCustomEvent": "on_player_outside_zonemonster_range",
+      "Function": "PlayWorldMusic",
+      "Param1": null,
+      "Param2": null
+    },
+    {
+      "BCCustomEvent": "reset_herolist_playhead",
+      "Function": "ResetPlaybackPosition",
+      "Param1": "event:/BGM/Menu/Heroes/Herolist",
+      "Param2": null
+    },
+    {
+      "BCCustomEvent": "reset_midautumn_playhead",
+      "Function": "ResetPlaybackPosition",
+      "Param1": "event:/BGM/Menu/Activity/MidAutumn",
+      "Param2": null
+    },
+    {
+      "BCCustomEvent": "reset_deliciousdungeon_playhead",
+      "Function": "ResetPlaybackPosition",
+      "Param1": "event:/BGM/Menu/Activity/DeliciousDungeon",
+      "Param2": null
+    },
+    {
+      "BCCustomEvent": "reset_harvestgodafter_playhead",
+      "Function": "ResetPlaybackPosition",
+      "Param1": "event:/BGM/Menu/HarvestGod_afterbattle",
+      "Param2": "event:/BGM/Menu/HarvestGod_beforebattle"
+    },
+    {
+      "BCCustomEvent": "reset_harvestgodbefore_playhead",
+      "Function": "ResetPlaybackPosition",
+      "Param1": "event:/BGM/Menu/HarvestGod_beforebattle",
+      "Param2": "event:/BGM/Menu/HarvestGod_afterbattle"
+    }
+  ]
+}

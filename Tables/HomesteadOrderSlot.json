@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "table": "HomesteadOrderSlot",
+    "header_table": "HomesteadOrderSlotHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 3,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "UnlockCondition": "true",
+    "UnlockDesc": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
+      "UnlockDesc": "5983558026124344477"
+    },
+    {
+      "ID": 2,
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=3",
+      "UnlockDesc": "3627136750703826856"
+    },
+    {
+      "ID": 3,
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=6",
+      "UnlockDesc": "2230055690389513463"
+    },
+    {
+      "ID": 4,
+      "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=7",
+      "UnlockDesc": "11929009757616487398"
+    }
+  ]
+}
