@@ -4,7 +4,7 @@
     "header_table": "EventpathConditionHeaderTable",
     "format": "flat_rows",
     "schema_size": 2,
-    "row_count": 29,
+    "row_count": 31,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -41,7 +41,9 @@
     "event:/SFX/DailogueTree/amb_ep5_roar_zone5",
     "event:/SFX/DailogueTree/amb_ep5_humanpillar_zone5",
     "event:/SFX/DailogueTree/amb_ep5_drum_zone1",
-    "event:/SFX/DailogueTree/ep5_amb_reputation_zone3"
+    "event:/SFX/DailogueTree/ep5_amb_reputation_zone3",
+    "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_rally",
+    "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_array"
   ],
   "rows": [
     {
@@ -159,6 +161,14 @@
     {
       "EventPath": "event:/SFX/DailogueTree/ep5_amb_reputation_zone3",
       "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010502,1,1) and not ed.ConditionX.IsExplStepFinished(15010502,1,3)"
+    },
+    {
+      "EventPath": "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_rally",
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(16010205,702,2) and not ed.ConditionX.IsExplStepFinished(16010205,703,2)"
+    },
+    {
+      "EventPath": "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_array",
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(16010205,702,1) and not ed.ConditionX.IsExplStepFinished(16010205,703,5)"
     }
   ]
 }

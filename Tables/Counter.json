@@ -4,7 +4,7 @@
     "header_table": "CounterHeaderTable",
     "format": "flat_rows",
     "schema_size": 7,
-    "row_count": 1125,
+    "row_count": 1145,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -250,6 +250,9 @@
     645,
     646,
     647,
+    648,
+    649,
+    650,
     701,
     703,
     704,
@@ -1142,7 +1145,24 @@
     3055,
     3056,
     3057,
-    3058
+    3058,
+    3059,
+    3060,
+    3061,
+    3062,
+    3063,
+    3064,
+    3065,
+    3066,
+    3068,
+    3069,
+    3070,
+    3071,
+    3072,
+    3073,
+    3074,
+    3075,
+    3076
   ],
   "rows": [
     {
@@ -3693,6 +3713,39 @@
       },
       "LineQuestID": 0,
       "ScheduleID": 723,
+      "ScheduleType": null,
+      "CounterType": 13,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 648,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 745,
+      "ScheduleType": null,
+      "CounterType": 46,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 649,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 745,
+      "ScheduleType": null,
+      "CounterType": 3,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 650,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 745,
       "ScheduleType": null,
       "CounterType": 13,
       "CounterCondition": "true"
@@ -9774,7 +9827,7 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 184,
-      "CounterCondition": "ed.ConditionX.HSTemplateDecoCnt()>=10"
+      "CounterCondition": "ed.ConditionX.HSTemplateEntityCnt()>=10"
     },
     {
       "ID": 2589,
@@ -9785,7 +9838,7 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 184,
-      "CounterCondition": "ed.ConditionX.HSTemplateDecoCnt()>=20"
+      "CounterCondition": "ed.ConditionX.HSTemplateEntityCnt()>=20"
     },
     {
       "ID": 2590,
@@ -9796,7 +9849,7 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 184,
-      "CounterCondition": "ed.ConditionX.HSTemplateDecoCnt()>=30"
+      "CounterCondition": "ed.ConditionX.HSTemplateEntityCnt()>=30"
     },
     {
       "ID": 2591,
@@ -9807,7 +9860,7 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 184,
-      "CounterCondition": "ed.ConditionX.HSTemplateDecoCnt()>=50"
+      "CounterCondition": "ed.ConditionX.HSTemplateEntityCnt()>=50"
     },
     {
       "ID": 2592,
@@ -9818,7 +9871,7 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 184,
-      "CounterCondition": "ed.ConditionX.HSTemplateDecoCnt()>=100"
+      "CounterCondition": "ed.ConditionX.HSTemplateEntityCnt()>=100"
     },
     {
       "ID": 2593,
@@ -9829,7 +9882,7 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 184,
-      "CounterCondition": "ed.ConditionX.HSTemplateDecoCnt()>=200"
+      "CounterCondition": "ed.ConditionX.HSTemplateEntityCnt()>=200"
     },
     {
       "ID": 2594,
@@ -9840,7 +9893,7 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 184,
-      "CounterCondition": "ed.ConditionX.HSTemplateDecoCnt()>=500"
+      "CounterCondition": "ed.ConditionX.HSTemplateEntityCnt()>=500"
     },
     {
       "ID": 2601,
@@ -13570,6 +13623,193 @@
       "ScheduleID": 0,
       "ScheduleType": null,
       "CounterType": 3017,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3059,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7001,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3060,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7002,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3061,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7003,
+      "CounterCondition": "ed.ConditionX.IsSpellMatrixMutationType(\"Gravitate\")"
+    },
+    {
+      "ID": 3062,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7003,
+      "CounterCondition": "ed.ConditionX.IsSpellMatrixMutationType(\"Penetrate\")"
+    },
+    {
+      "ID": 3063,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7003,
+      "CounterCondition": "ed.ConditionX.IsSpellMatrixMutationType(\"Hard\")"
+    },
+    {
+      "ID": 3064,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7003,
+      "CounterCondition": "ed.ConditionX.IsSpellMatrixMutationType(\"TimeReversal\")"
+    },
+    {
+      "ID": 3065,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7003,
+      "CounterCondition": "ed.ConditionX.IsSpellMatrixMutationType(\"Rush\")"
+    },
+    {
+      "ID": 3066,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 684,
+      "ScheduleType": null,
+      "CounterType": 7003,
+      "CounterCondition": "ed.ConditionX.IsSpellMatrixMutationType(\"Teleport\")"
+    },
+    {
+      "ID": 3068,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 746,
+      "ScheduleType": null,
+      "CounterType": 185,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3069,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 759,
+      "ScheduleType": null,
+      "CounterType": 8,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3070,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 759,
+      "ScheduleType": null,
+      "CounterType": 43,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3071,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 759,
+      "ScheduleType": null,
+      "CounterType": 93,
+      "CounterCondition": "ed.ConditionX.IsContainHero(117)"
+    },
+    {
+      "ID": 3072,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 760,
+      "ScheduleType": null,
+      "CounterType": 103,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3073,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 760,
+      "ScheduleType": null,
+      "CounterType": 43,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3074,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 760,
+      "ScheduleType": null,
+      "CounterType": 90,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3075,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 760,
+      "ScheduleType": null,
+      "CounterType": 8,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3076,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 759,
+      "ScheduleType": null,
+      "CounterType": 90,
       "CounterCondition": "true"
     }
   ]

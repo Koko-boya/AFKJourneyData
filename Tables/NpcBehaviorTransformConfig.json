@@ -4,7 +4,7 @@
     "header_table": "NpcBehaviorTransformConfigHeaderTable",
     "format": "flat_rows",
     "schema_size": 5,
-    "row_count": 226,
+    "row_count": 251,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -496,7 +496,7 @@
     {
       "ObjID": 1102240,
       "AniState": "C_State_2",
-      "Condition": "ed.ConditionX.IsExplTaskFinished(16010105,6) and (not ed.ConditionX.IsExplTaskFinished(160100205,706))",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(16010105,6) and (not ed.ConditionX.IsExplTaskFinished(16010205,706))",
       "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
       "PlotID": 16303330
     },
@@ -1579,6 +1579,13 @@
       "PlotID": 17301384
     },
     {
+      "ObjID": 1400733,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17301387
+    },
+    {
       "ObjID": 1400734,
       "AniState": "C_State_1",
       "Condition": "true",
@@ -1593,11 +1600,179 @@
       "PlotID": 0
     },
     {
+      "ObjID": 1400734,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 0
+    },
+    {
       "ObjID": 1400739,
       "AniState": "C_State_1",
       "Condition": "true",
       "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
       "PlotID": 0
+    },
+    {
+      "ObjID": 512200639,
+      "AniState": "C_State_1",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010102,2) and (not ed.ConditionX.IsExplTaskFinished(17010103,4))",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322660
+    },
+    {
+      "ObjID": 512200639,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010103,4) and (not ed.ConditionX.IsExplTaskFinished(17010108,4))",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322670
+    },
+    {
+      "ObjID": 512200639,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322680
+    },
+    {
+      "ObjID": 512200637,
+      "AniState": "C_State_1",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010102,2) and (not ed.ConditionX.IsExplTaskFinished(17010103,4))",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322021
+    },
+    {
+      "ObjID": 512200637,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010103,4) and (not ed.ConditionX.IsExplTaskFinished(17010108,4))",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322022
+    },
+    {
+      "ObjID": 512200637,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322023
+    },
+    {
+      "ObjID": 512200638,
+      "AniState": "C_State_1",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010102,2) and (not ed.ConditionX.IsExplTaskFinished(17010103,4))",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322021
+    },
+    {
+      "ObjID": 512200638,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010103,4) and (not ed.ConditionX.IsExplTaskFinished(17010108,4))",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322022
+    },
+    {
+      "ObjID": 512200638,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17322023
+    },
+    {
+      "ObjID": 1400758,
+      "AniState": "C_State_1",
+      "Condition": "true",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 0
+    },
+    {
+      "ObjID": 1400758,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,1)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 0
+    },
+    {
+      "ObjID": 1400758,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 0
+    },
+    {
+      "ObjID": 1400759,
+      "AniState": "C_State_1",
+      "Condition": "true",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17301830
+    },
+    {
+      "ObjID": 1400759,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,1)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17301834
+    },
+    {
+      "ObjID": 1400759,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17301830
+    },
+    {
+      "ObjID": 1400765,
+      "AniState": "C_State_1",
+      "Condition": "true",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17301900
+    },
+    {
+      "ObjID": 1400765,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,1)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17301904
+    },
+    {
+      "ObjID": 1400765,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 17301900
+    },
+    {
+      "ObjID": 1400766,
+      "AniState": "C_State_1",
+      "Condition": "true",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 0
+    },
+    {
+      "ObjID": 1400766,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,1)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 0
+    },
+    {
+      "ObjID": 1400766,
+      "AniState": "C_State_3",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010325,4)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 0
+    },
+    {
+      "ObjID": 510200264,
+      "AniState": "C_State_1",
+      "Condition": "not ed.ConditionX.IsExplTaskFinished(16010205,706)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 16307300
+    },
+    {
+      "ObjID": 510200264,
+      "AniState": "C_State_2",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(16010205,706)",
+      "PlotUnlockCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
+      "PlotID": 16319050
     }
   ]
 }

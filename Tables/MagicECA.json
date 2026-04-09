@@ -4,11 +4,11 @@
     "header_table": "MagicECAHeaderTable",
     "format": "flat_rows",
     "schema_size": 4,
-    "row_count": 93,
+    "row_count": 99,
     "array_fields": [
       "ClientEvents"
     ],
-    "unresolved_array_refs": 27
+    "unresolved_array_refs": 28
   },
   "default": {
     "ID": "null",
@@ -109,751 +109,876 @@
     90,
     91,
     92,
-    93
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99
   ],
   "rows": [
     {
       "ID": 1,
       "ClientEvents": {
-        "$arrayRef": 79845
+        "$arrayRef": 80102
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010103,2,7)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010103,2,7) or ed.ConditionX.CO_TrackCurrentTask(16010103,2,7)",
       "VehicleID": 10
     },
     {
       "ID": 2,
       "ClientEvents": {
-        "$arrayRef": 79846
+        "$arrayRef": 80103
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010103,201,5)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010103,201,5) or ed.ConditionX.CO_TrackCurrentTask(16010103,201,5)",
       "VehicleID": 10
     },
     {
       "ID": 3,
       "ClientEvents": {
-        "$arrayRef": 79847
+        "$arrayRef": 80104
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010103,202,8)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010103,202,8) or ed.ConditionX.CO_TrackCurrentTask(16010103,202,8)",
       "VehicleID": 10
     },
     {
       "ID": 4,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010104:2:3"
+        "1": "C_TaskTrackStepChanged:16010104:2:3",
+        "2": "C_ClickTaskTrack:16010104:2:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010104,2,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010104,2,3) or ed.ConditionX.CO_TrackCurrentTask(16010104,2,3)",
       "VehicleID": 10
     },
     {
       "ID": 5,
       "ClientEvents": {
-        "$arrayRef": 79848
+        "$arrayRef": 80105
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010102,4,8)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010102,4,8) or ed.ConditionX.CO_TrackCurrentTask(16010102,4,8)",
       "VehicleID": 10
     },
     {
       "ID": 6,
       "ClientEvents": {
-        "$arrayRef": 79849
+        "$arrayRef": 80106
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010212,1,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010212,1,2) or ed.ConditionX.CO_TrackCurrentTask(16010212,1,2)",
       "VehicleID": 10
     },
     {
       "ID": 7,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010210:1:2"
+        "1": "C_TaskTrackStepChanged:16010210:1:2",
+        "2": "C_ClickTaskTrack:16010210:1:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010210,1,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010210,1,2) or ed.ConditionX.CO_TrackCurrentTask(16010210,1,2)",
       "VehicleID": 10
     },
     {
       "ID": 8,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010223:1:3"
+        "1": "C_TaskTrackStepChanged:16010223:1:3",
+        "2": "C_ClickTaskTrack:16010223:1:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010223,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010223,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010223,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 9,
       "ClientEvents": {
-        "$arrayRef": 79850
+        "$arrayRef": 80107
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010223,2,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010223,2,2) or ed.ConditionX.CO_TrackCurrentTask(16010223,2,2)",
       "VehicleID": 10
     },
     {
       "ID": 10,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010225:3:2"
+        "1": "C_TaskTrackStepChanged:16010225:3:2",
+        "2": "C_ClickTaskTrack:16010225:3:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010225,3,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010225,3,2) or ed.ConditionX.CO_TrackCurrentTask(16010225,3,2)",
       "VehicleID": 10
     },
     {
       "ID": 11,
       "ClientEvents": {
-        "$arrayRef": 79851
+        "$arrayRef": 80108
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,2) or ed.ConditionX.CO_TrackCurrentTask(16010108,3,2)",
       "VehicleID": 10
     },
     {
       "ID": 12,
       "ClientEvents": {
-        "$arrayRef": 79852
+        "$arrayRef": 80109
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,3) or ed.ConditionX.CO_TrackCurrentTask(16010108,3,3)",
       "VehicleID": 10
     },
     {
       "ID": 13,
       "ClientEvents": {
-        "$arrayRef": 79853
+        "$arrayRef": 80110
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,5)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,5) or ed.ConditionX.CO_TrackCurrentTask(16010108,3,5)",
       "VehicleID": 10
     },
     {
       "ID": 14,
       "ClientEvents": {
-        "$arrayRef": 79854
+        "$arrayRef": 80111
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,8)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,3,8) or ed.ConditionX.CO_TrackCurrentTask(16010108,3,8)",
       "VehicleID": 10
     },
     {
       "ID": 15,
       "ClientEvents": {
-        "$arrayRef": 79855
+        "$arrayRef": 80112
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,4,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,4,2) or ed.ConditionX.CO_TrackCurrentTask(16010108,4,2)",
       "VehicleID": 10
     },
     {
       "ID": 16,
       "ClientEvents": {
-        "$arrayRef": 79856
+        "$arrayRef": 80113
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,4,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010108,4,3) or ed.ConditionX.CO_TrackCurrentTask(16010108,4,3)",
       "VehicleID": 10
     },
     {
       "ID": 17,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:1:3"
+        "1": "C_TaskTrackStepChanged:16010215:1:3",
+        "2": "C_ClickTaskTrack:16010215:1:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010215,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 18,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:2:1"
+        "1": "C_TaskTrackStepChanged:16010215:2:1",
+        "2": "C_ClickTaskTrack:16010215:2:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,1) or ed.ConditionX.CO_TrackCurrentTask(16010215,2,1)",
       "VehicleID": 10
     },
     {
       "ID": 19,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:2:2"
+        "1": "C_TaskTrackStepChanged:16010215:2:2",
+        "2": "C_ClickTaskTrack:16010215:2:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,2) or ed.ConditionX.CO_TrackCurrentTask(16010215,2,2)",
       "VehicleID": 10
     },
     {
       "ID": 20,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:2:3"
+        "1": "C_TaskTrackStepChanged:16010215:2:3",
+        "2": "C_ClickTaskTrack:16010215:2:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,3) or ed.ConditionX.CO_TrackCurrentTask(16010215,2,3)",
       "VehicleID": 10
     },
     {
       "ID": 21,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:2:4"
+        "1": "C_TaskTrackStepChanged:16010215:2:4",
+        "2": "C_ClickTaskTrack:16010215:2:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,2,4) or ed.ConditionX.CO_TrackCurrentTask(16010215,2,4)",
       "VehicleID": 10
     },
     {
       "ID": 22,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:3:1"
+        "1": "C_TaskTrackStepChanged:16010215:3:1",
+        "2": "C_ClickTaskTrack:16010215:3:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,1) or ed.ConditionX.CO_TrackCurrentTask(16010215,3,1)",
       "VehicleID": 10
     },
     {
       "ID": 23,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:3:2"
+        "1": "C_TaskTrackStepChanged:16010215:3:2",
+        "2": "C_ClickTaskTrack:16010215:3:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,2) or ed.ConditionX.CO_TrackCurrentTask(16010215,3,2)",
       "VehicleID": 10
     },
     {
       "ID": 24,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:3:3"
+        "1": "C_TaskTrackStepChanged:16010215:3:3",
+        "2": "C_ClickTaskTrack:16010215:3:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,3) or ed.ConditionX.CO_TrackCurrentTask(16010215,3,3)",
       "VehicleID": 10
     },
     {
       "ID": 25,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:3:4"
+        "1": "C_TaskTrackStepChanged:16010215:3:4",
+        "2": "C_ClickTaskTrack:16010215:3:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,4) or ed.ConditionX.CO_TrackCurrentTask(16010215,3,4)",
       "VehicleID": 10
     },
     {
       "ID": 26,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:3:5"
+        "1": "C_TaskTrackStepChanged:16010215:3:5",
+        "2": "C_ClickTaskTrack:16010215:3:5"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,5)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,3,5) or ed.ConditionX.CO_TrackCurrentTask(16010215,3,5)",
       "VehicleID": 10
     },
     {
       "ID": 27,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:4:1"
+        "1": "C_TaskTrackStepChanged:16010215:4:1",
+        "2": "C_ClickTaskTrack:16010215:4:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,4,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,4,1) or ed.ConditionX.CO_TrackCurrentTask(16010215,4,1)",
       "VehicleID": 10
     },
     {
       "ID": 28,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:4:2"
+        "1": "C_TaskTrackStepChanged:16010215:4:2",
+        "2": "C_ClickTaskTrack:16010215:4:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,4,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,4,2) or ed.ConditionX.CO_TrackCurrentTask(16010215,4,2)",
       "VehicleID": 10
     },
     {
       "ID": 29,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:500:1"
+        "1": "C_TaskTrackStepChanged:16010215:500:1",
+        "2": "C_ClickTaskTrack:16010215:500:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,1) or ed.ConditionX.CO_TrackCurrentTask(16010215,500,1)",
       "VehicleID": 10
     },
     {
       "ID": 30,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:500:2"
+        "1": "C_TaskTrackStepChanged:16010215:500:2",
+        "2": "C_ClickTaskTrack:16010215:500:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,2) or ed.ConditionX.CO_TrackCurrentTask(16010215,500,2)",
       "VehicleID": 10
     },
     {
       "ID": 31,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:500:3"
+        "1": "C_TaskTrackStepChanged:16010215:500:3",
+        "2": "C_ClickTaskTrack:16010215:500:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,3) or ed.ConditionX.CO_TrackCurrentTask(16010215,500,3)",
       "VehicleID": 10
     },
     {
       "ID": 32,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:500:4"
+        "1": "C_TaskTrackStepChanged:16010215:500:4",
+        "2": "C_ClickTaskTrack:16010215:500:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,4) or ed.ConditionX.CO_TrackCurrentTask(16010215,500,4)",
       "VehicleID": 10
     },
     {
       "ID": 33,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:500:5"
+        "1": "C_TaskTrackStepChanged:16010215:500:5",
+        "2": "C_ClickTaskTrack:16010215:500:5"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,5)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,5) or ed.ConditionX.CO_TrackCurrentTask(16010215,500,5)",
       "VehicleID": 10
     },
     {
       "ID": 34,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:500:6"
+        "1": "C_TaskTrackStepChanged:16010215:500:6",
+        "2": "C_ClickTaskTrack:16010215:500:6"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,6)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,500,6) or ed.ConditionX.CO_TrackCurrentTask(16010215,500,6)",
       "VehicleID": 10
     },
     {
       "ID": 35,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:600:1"
+        "1": "C_TaskTrackStepChanged:16010215:600:1",
+        "2": "C_ClickTaskTrack:16010215:600:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,600,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,600,1) or ed.ConditionX.CO_TrackCurrentTask(16010215,600,1)",
       "VehicleID": 10
     },
     {
       "ID": 36,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:600:2"
+        "1": "C_TaskTrackStepChanged:16010215:600:2",
+        "2": "C_ClickTaskTrack:16010215:600:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,600,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,600,2) or ed.ConditionX.CO_TrackCurrentTask(16010215,600,2)",
       "VehicleID": 10
     },
     {
       "ID": 37,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:600:3"
+        "1": "C_TaskTrackStepChanged:16010215:600:3",
+        "2": "C_ClickTaskTrack:16010215:600:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,600,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,600,3) or ed.ConditionX.CO_TrackCurrentTask(16010215,600,3)",
       "VehicleID": 10
     },
     {
       "ID": 38,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010225:3:8"
+        "1": "C_TaskTrackStepChanged:16010225:3:8",
+        "2": "C_ClickTaskTrack:16010225:3:8"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010225,3,8)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010225,3,8) or ed.ConditionX.CO_TrackCurrentTask(16010225,3,8)",
       "VehicleID": 10
     },
     {
       "ID": 39,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010215:1:2"
+        "1": "C_TaskTrackStepChanged:16010215:1:2",
+        "2": "C_ClickTaskTrack:16010215:1:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,1,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010215,1,2) or ed.ConditionX.CO_TrackCurrentTask(16010215,1,2)",
       "VehicleID": 10
     },
     {
       "ID": 40,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010207:2:1"
+        "1": "C_TaskTrackStepChanged:16010207:2:1",
+        "2": "C_ClickTaskTrack:16010207:2:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010207,2,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010207,2,1) or ed.ConditionX.CO_TrackCurrentTask(16010207,2,1)",
       "VehicleID": 10
     },
     {
       "ID": 41,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010207:4:6"
+        "1": "C_TaskTrackStepChanged:16010207:4:6",
+        "2": "C_ClickTaskTrack:16010207:4:6"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010207,4,6)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010207,4,6) or ed.ConditionX.CO_TrackCurrentTask(16010207,4,6)",
       "VehicleID": 10
     },
     {
       "ID": 42,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010214:4:1"
+        "1": "C_TaskTrackStepChanged:16010214:4:1",
+        "2": "C_ClickTaskTrack:16010214:4:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010214,4,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010214,4,1) or ed.ConditionX.CO_TrackCurrentTask(16010214,4,1)",
       "VehicleID": 10
     },
     {
       "ID": 43,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010214:4:2"
+        "1": "C_TaskTrackStepChanged:16010214:4:2",
+        "2": "C_ClickTaskTrack:16010214:4:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010214,4,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010214,4,2) or ed.ConditionX.CO_TrackCurrentTask(16010214,4,2)",
       "VehicleID": 10
     },
     {
       "ID": 44,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010214:4:3"
+        "1": "C_TaskTrackStepChanged:16010214:4:3",
+        "2": "C_ClickTaskTrack:16010214:4:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010214,4,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010214,4,3) or ed.ConditionX.CO_TrackCurrentTask(16010214,4,3)",
       "VehicleID": 10
     },
     {
       "ID": 45,
       "ClientEvents": {
-        "$arrayRef": 79857
+        "$arrayRef": 80114
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010216,3,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010216,3,4) or ed.ConditionX.CO_TrackCurrentTask(16010216,3,4)",
       "VehicleID": 10
     },
     {
       "ID": 46,
       "ClientEvents": {
-        "$arrayRef": 79858
+        "$arrayRef": 80115
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010216,4,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010216,4,2) or ed.ConditionX.CO_TrackCurrentTask(16010216,4,2)",
       "VehicleID": 10
     },
     {
       "ID": 47,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010216:4:9"
+        "1": "C_TaskTrackStepChanged:16010216:4:9",
+        "2": "C_ClickTaskTrack:16010216:4:9"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010216,4,9)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010216,4,9) or ed.ConditionX.CO_TrackCurrentTask(16010216,4,9)",
       "VehicleID": 10
     },
     {
       "ID": 48,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010111:2:13"
+        "1": "C_TaskTrackStepChanged:16010111:2:13",
+        "2": "C_ClickTaskTrack:16010111:2:13"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010111,2,13)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010111,2,13) or ed.ConditionX.CO_TrackCurrentTask(16010111,2,13)",
       "VehicleID": 10
     },
     {
       "ID": 49,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010111:4:9"
+        "1": "C_TaskTrackStepChanged:16010111:4:9",
+        "2": "C_ClickTaskTrack:16010111:4:9"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010111,4,9)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010111,4,9) or ed.ConditionX.CO_TrackCurrentTask(16010111,4,9)",
       "VehicleID": 10
     },
     {
       "ID": 50,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010224:3:2"
+        "1": "C_TaskTrackStepChanged:16010224:3:2",
+        "2": "C_ClickTaskTrack:16010224:3:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010224,3,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010224,3,2) or ed.ConditionX.CO_TrackCurrentTask(16010224,3,2)",
       "VehicleID": 10
     },
     {
       "ID": 51,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010224:4:7"
+        "1": "C_TaskTrackStepChanged:16010224:4:7",
+        "2": "C_ClickTaskTrack:16010224:4:7"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010224,4,7)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010224,4,7) or ed.ConditionX.CO_TrackCurrentTask(16010224,4,7)",
       "VehicleID": 10
     },
     {
       "ID": 52,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010204:2:3"
+        "1": "C_TaskTrackStepChanged:16010204:2:3",
+        "2": "C_ClickTaskTrack:16010204:2:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010204,2,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010204,2,3) or ed.ConditionX.CO_TrackCurrentTask(16010204,2,3)",
       "VehicleID": 10
     },
     {
       "ID": 53,
       "ClientEvents": {
-        "$arrayRef": 79859
+        "$arrayRef": 80116
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,2) or ed.ConditionX.CO_TrackCurrentTask(16010511,1,2)",
       "VehicleID": 10
     },
     {
       "ID": 54,
       "ClientEvents": {
-        "$arrayRef": 79860
+        "$arrayRef": 80117
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010516,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 55,
       "ClientEvents": {
-        "$arrayRef": 79861
+        "$arrayRef": 80118
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,7)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,7) or ed.ConditionX.CO_TrackCurrentTask(16010516,1,7)",
       "VehicleID": 10
     },
     {
       "ID": 56,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:1:3"
+        "1": "C_TaskTrackStepChanged:17010219:1:3",
+        "2": "C_ClickTaskTrack:17010219:1:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,3) or ed.ConditionX.CO_TrackCurrentTask(17010219,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 57,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:1:4"
+        "1": "C_TaskTrackStepChanged:17010219:1:4",
+        "2": "C_ClickTaskTrack:17010219:1:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,4) or ed.ConditionX.CO_TrackCurrentTask(17010219,1,4)",
       "VehicleID": 10
     },
     {
       "ID": 58,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:1:5"
+        "1": "C_TaskTrackStepChanged:17010219:1:5",
+        "2": "C_ClickTaskTrack:17010219:1:5"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,5)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,5) or ed.ConditionX.CO_TrackCurrentTask(17010219,1,5)",
       "VehicleID": 10
     },
     {
       "ID": 59,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:1:6"
+        "1": "C_TaskTrackStepChanged:17010219:1:6",
+        "2": "C_ClickTaskTrack:17010219:1:6"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,6)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,1,6) or ed.ConditionX.CO_TrackCurrentTask(17010219,1,6)",
       "VehicleID": 10
     },
     {
       "ID": 60,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:2:7"
+        "1": "C_TaskTrackStepChanged:17010219:2:7",
+        "2": "C_ClickTaskTrack:17010219:2:7"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,2,7)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,2,7) or ed.ConditionX.CO_TrackCurrentTask(17010219,2,7)",
       "VehicleID": 10
     },
     {
       "ID": 61,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:2:8"
+        "1": "C_TaskTrackStepChanged:17010219:2:8",
+        "2": "C_ClickTaskTrack:17010219:2:8"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,2,8)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,2,8) or ed.ConditionX.CO_TrackCurrentTask(17010219,2,8)",
       "VehicleID": 10
     },
     {
       "ID": 62,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:3:1"
+        "1": "C_TaskTrackStepChanged:17010219:3:1",
+        "2": "C_ClickTaskTrack:17010219:3:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,1) or ed.ConditionX.CO_TrackCurrentTask(17010219,3,1)",
       "VehicleID": 10
     },
     {
       "ID": 63,
       "ClientEvents": {
-        "$arrayRef": 79862
+        "$arrayRef": 80119
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,6)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,6) or ed.ConditionX.CO_TrackCurrentTask(17010219,3,6)",
       "VehicleID": 10
     },
     {
       "ID": 64,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:3:9"
+        "$arrayRef": 80120
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,9)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,9) or ed.ConditionX.CO_TrackCurrentTask(17010219,3,9)",
       "VehicleID": 10
     },
     {
       "ID": 65,
       "ClientEvents": {
-        "$arrayRef": 79863
+        "$arrayRef": 80121
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,10)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,3,10) or ed.ConditionX.CO_TrackCurrentTask(17010219,3,10)",
       "VehicleID": 10
     },
     {
       "ID": 66,
       "ClientEvents": {
-        "$arrayRef": 79864
+        "$arrayRef": 80122
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,2) or ed.ConditionX.CO_TrackCurrentTask(16010112,4,2)",
       "VehicleID": 10
     },
     {
       "ID": 67,
       "ClientEvents": {
-        "$arrayRef": 79865
+        "$arrayRef": 80123
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,4) or ed.ConditionX.CO_TrackCurrentTask(16010112,4,4)",
       "VehicleID": 0
     },
     {
       "ID": 68,
       "ClientEvents": {
-        "$arrayRef": 79864
+        "$arrayRef": 80122
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,2) or ed.ConditionX.CO_TrackCurrentTask(16010112,4,2)",
       "VehicleID": 10
     },
     {
       "ID": 69,
       "ClientEvents": {
-        "$arrayRef": 79865
+        "$arrayRef": 80123
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010112,4,4) or ed.ConditionX.CO_TrackCurrentTask(16010112,4,4)",
       "VehicleID": 0
     },
     {
       "ID": 70,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010217:5:2"
+        "1": "C_TaskTrackStepChanged:16010217:5:2",
+        "2": "C_ClickTaskTrack:16010217:5:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010217,5,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010217,5,2) or ed.ConditionX.CO_TrackCurrentTask(16010217,5,2)",
       "VehicleID": 10
     },
     {
       "ID": 71,
       "ClientEvents": {
-        "$arrayRef": 79848
+        "$arrayRef": 80105
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010102,4,8)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010102,4,8) or ed.ConditionX.CO_TrackCurrentTask(16010102,4,8)",
       "VehicleID": 10
     },
     {
       "ID": 72,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010102:4:11"
+        "1": "C_TaskTrackStepChanged:16010102:4:11",
+        "2": "C_ClickTaskTrack:16010102:4:11"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010102,4,11)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010102,4,11) or ed.ConditionX.CO_TrackCurrentTask(16010102,4,11)",
       "VehicleID": 0
     },
     {
       "ID": 73,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010219:2:2"
+        "1": "C_TaskTrackStepChanged:17010219:2:2",
+        "2": "C_ClickTaskTrack:17010219:2:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,2,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010219,2,2) or ed.ConditionX.CO_TrackCurrentTask(17010219,2,2)",
       "VehicleID": 10
     },
     {
       "ID": 74,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010501:1:2"
+        "1": "C_TaskTrackStepChanged:16010501:1:2",
+        "2": "C_ClickTaskTrack:16010501:1:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010501,1,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010501,1,2) or ed.ConditionX.CO_TrackCurrentTask(16010501,1,2)",
       "VehicleID": 10
     },
     {
       "ID": 75,
       "ClientEvents": {
-        "$arrayRef": 79859
+        "$arrayRef": 80116
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,2) or ed.ConditionX.CO_TrackCurrentTask(16010511,1,2)",
       "VehicleID": 10
     },
     {
       "ID": 76,
       "ClientEvents": {
-        "$arrayRef": 79860
+        "$arrayRef": 80117
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010516,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 77,
       "ClientEvents": {
-        "$arrayRef": 79861
+        "$arrayRef": 80118
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,7)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010516,1,7) or ed.ConditionX.CO_TrackCurrentTask(16010516,1,7)",
       "VehicleID": 10
     },
     {
       "ID": 78,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010521:1:7"
+        "1": "C_TaskTrackStepChanged:16010521:1:7",
+        "2": "C_ClickTaskTrack:16010521:1:7"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010521,1,7)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010521,1,7) or ed.ConditionX.CO_TrackCurrentTask(16010521,1,7)",
       "VehicleID": 10
     },
     {
       "ID": 79,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010522:1:4"
+        "1": "C_TaskTrackStepChanged:16010522:1:4",
+        "2": "C_ClickTaskTrack:16010522:1:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010522,1,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010522,1,4) or ed.ConditionX.CO_TrackCurrentTask(16010522,1,4)",
       "VehicleID": 10
     },
     {
       "ID": 80,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010523:1:3"
+        "1": "C_TaskTrackStepChanged:16010523:1:3",
+        "2": "C_ClickTaskTrack:16010523:1:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010523,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010523,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010523,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 81,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010521:1:4"
+        "1": "C_TaskTrackStepChanged:16010521:1:4",
+        "2": "C_ClickTaskTrack:16010521:1:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010521,1,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010521,1,4) or ed.ConditionX.CO_TrackCurrentTask(16010521,1,4)",
       "VehicleID": 10
     },
     {
       "ID": 82,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010524:1:4"
+        "1": "C_TaskTrackStepChanged:16010524:1:4",
+        "2": "C_ClickTaskTrack:16010524:1:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010524,1,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010524,1,4) or ed.ConditionX.CO_TrackCurrentTask(16010524,1,4)",
       "VehicleID": 10
     },
     {
       "ID": 83,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010527:1:3"
+        "1": "C_TaskTrackStepChanged:16010527:1:3",
+        "2": "C_ClickTaskTrack:16010527:1:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010527,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010527,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010527,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 84,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010528:1:3"
+        "1": "C_TaskTrackStepChanged:16010528:1:3",
+        "2": "C_ClickTaskTrack:16010528:1:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010528,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010528,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010528,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 85,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010528:1:6"
+        "1": "C_TaskTrackStepChanged:16010528:1:6",
+        "2": "C_ClickTaskTrack:16010528:1:6"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010528,1,6)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010528,1,6) or ed.ConditionX.CO_TrackCurrentTask(16010528,1,6)",
       "VehicleID": 10
     },
     {
       "ID": 86,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010502:1:1"
+        "1": "C_TaskTrackStepChanged:16010502:1:1",
+        "2": "C_ClickTaskTrack:16010502:1:1"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010502,1,1)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010502,1,1) or ed.ConditionX.CO_TrackCurrentTask(16010502,1,1)",
       "VehicleID": 10
     },
     {
       "ID": 87,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010503:1:3"
+        "1": "C_TaskTrackStepChanged:16010503:1:3",
+        "2": "C_ClickTaskTrack:16010503:1:3"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010503,1,3)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010503,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010503,1,3)",
       "VehicleID": 10
     },
     {
       "ID": 88,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010505:1:2"
+        "1": "C_TaskTrackStepChanged:16010505:1:2",
+        "2": "C_ClickTaskTrack:16010505:1:2"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010505,1,2)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010505,1,2) or ed.ConditionX.CO_TrackCurrentTask(16010505,1,2)",
       "VehicleID": 10
     },
     {
       "ID": 89,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010505:1:6"
+        "1": "C_TaskTrackStepChanged:16010505:1:6",
+        "2": "C_ClickTaskTrack:16010505:1:6"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010505,1,6)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010505,1,6) or ed.ConditionX.CO_TrackCurrentTask(16010505,1,6)",
       "VehicleID": 10
     },
     {
       "ID": 90,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010209:2:13"
+        "1": "C_TaskTrackStepChanged:17010209:2:13",
+        "2": "C_ClickTaskTrack:17010209:2:13"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010209,2,13)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010209,2,13) or ed.ConditionX.CO_TrackCurrentTask(17010209,2,13)",
       "VehicleID": 10
     },
     {
       "ID": 91,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010103:3:9"
+        "1": "C_TaskTrackStepChanged:17010103:3:9",
+        "2": "C_ClickTaskTrack:17010103:3:9"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010103,3,9)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010103,3,9) or ed.ConditionX.CO_TrackCurrentTask(17010103,3,9)",
       "VehicleID": 10
     },
     {
       "ID": 92,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:17010207:1:4"
+        "1": "C_TaskTrackStepChanged:17010207:1:4",
+        "2": "C_ClickTaskTrack:17010207:1:4"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010207,1,4)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010207,1,4) or ed.ConditionX.CO_TrackCurrentTask(17010207,1,4)",
       "VehicleID": 10
     },
     {
       "ID": 93,
       "ClientEvents": {
-        "1": "C_TaskTrackStepChanged:16010505:1:8"
+        "1": "C_TaskTrackStepChanged:16010505:1:8",
+        "2": "C_ClickTaskTrack:16010505:1:8"
       },
-      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010505,1,8)",
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010505,1,8) or ed.ConditionX.CO_TrackCurrentTask(16010505,1,8)",
+      "VehicleID": 10
+    },
+    {
+      "ID": 94,
+      "ClientEvents": {
+        "1": "C_TaskTrackStepChanged:17010358:1:2",
+        "2": "C_ClickTaskTrack:17010358:1:2"
+      },
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(17010358,1,2) or ed.ConditionX.CO_TrackCurrentTask(17010358,1,2)",
+      "VehicleID": 10
+    },
+    {
+      "ID": 95,
+      "ClientEvents": {
+        "1": "C_TaskTrackStepChanged:16010523:1:7",
+        "2": "C_ClickTaskTrack:16010523:1:7"
+      },
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010523,1,7) or ed.ConditionX.CO_TrackCurrentTask(16010523,1,7)",
+      "VehicleID": 10
+    },
+    {
+      "ID": 96,
+      "ClientEvents": {
+        "1": "C_TaskTrackStepChanged:16010511:1:3",
+        "2": "C_ClickTaskTrack:16010511:1:3"
+      },
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,3) or ed.ConditionX.CO_TrackCurrentTask(16010511,1,3)",
+      "VehicleID": 10
+    },
+    {
+      "ID": 97,
+      "ClientEvents": {
+        "1": "C_TaskTrackStepChanged:16010511:1:5",
+        "2": "C_ClickTaskTrack:16010511:1:5"
+      },
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,5) or ed.ConditionX.CO_TrackCurrentTask(16010511,1,5)",
+      "VehicleID": 10
+    },
+    {
+      "ID": 98,
+      "ClientEvents": {
+        "1": "C_TaskTrackStepChanged:16010511:1:7",
+        "2": "C_ClickTaskTrack:16010511:1:7"
+      },
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,7) or ed.ConditionX.CO_TrackCurrentTask(16010511,1,7)",
+      "VehicleID": 10
+    },
+    {
+      "ID": 99,
+      "ClientEvents": {
+        "1": "C_TaskTrackStepChanged:16010511:1:8",
+        "2": "C_ClickTaskTrack:16010511:1:8"
+      },
+      "ClientCondition": "ed.ConditionX.CO_IsInExpl(16010511,1,8) or ed.ConditionX.CO_TrackCurrentTask(16010511,1,8)",
       "VehicleID": 10
     }
   ]

@@ -4,7 +4,7 @@
     "header_table": "ReputationHeaderTable",
     "format": "flat_rows",
     "schema_size": 20,
-    "row_count": 11,
+    "row_count": 12,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -41,7 +41,8 @@
     402,
     501,
     502,
-    601
+    601,
+    602
   ],
   "rows": [
     {
@@ -438,6 +439,42 @@
       "DisplayText": "4207686334014647056",
       "ExplTitle": "6863014198467898436",
       "ExplText": "4726655067774084163"
+    },
+    {
+      "ReputationID": 602,
+      "UnlockCondition": "ed.ConditionX.IsExplTaskFinished(16010112,9) and ed.ConditionX.IsExplTaskFinished(16010506,1)",
+      "Name": "7740970072279811269",
+      "SeasonType": 106,
+      "IsRetro": false,
+      "Order": 2,
+      "LevelDesMax": 2,
+      "ActorRes": "character/hero/pbsc_char_hero_gargoyle_ui.prefab",
+      "IconRes": "ui/sprites/taskreputationep6/spui_activity_reputation_btn_npc_1.png",
+      "LevelUpRes": "ui/textures/activityreputation/spui_activity_reputation_loadingbar_ep6_npc_1.png",
+      "ItemIconRes": "ui/sprites/taskreputationep6/spui_activity_reputation_icon_1.png",
+      "ExplLineID": {
+        "1": 16010511,
+        "2": 16010512,
+        "3": 16010513,
+        "4": 16010514,
+        "5": 16010515,
+        "6": 16010516,
+        "7": 16010517,
+        "8": 16010518
+      },
+      "BranchLineID": {
+        "1": 16010507,
+        "2": 16010508,
+        "3": 16010509,
+        "4": 16010510
+      },
+      "NPCObjID": 1103374,
+      "BuildingID": 1103555,
+      "TabRes": null,
+      "TaskRes": "ui/sprites/taskreputationep6/spui_task_reputation_banner_npc_3.png",
+      "DisplayText": "12999326816858230417",
+      "ExplTitle": "10180609780030369982",
+      "ExplText": "2437810802185195798"
     }
   ]
 }

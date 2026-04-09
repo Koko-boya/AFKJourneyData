@@ -45,19 +45,19 @@
     {
       "ID": 4,
       "HomesteadId": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "EntityCondition": "ed.ConditionX.CO_HasCropOnFarmland()",
       "ResPath": "character/creature/pbsc_char_wild_sheep_01.prefab",
       "EntityID": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "Probability": 20,
       "MaxCount": 1,
       "PlayMode": 2,
       "LoopIntervalTime": 180,
       "PlayEvent": {
-        "$arrayRef": 73555
+        "$arrayRef": 73718
       },
       "PlayCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3",
       "FinishEvent": {},
@@ -72,12 +72,12 @@
     {
       "ID": 6,
       "HomesteadId": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "EntityCondition": "true",
       "ResPath": "character/creature/pbsc_char_wild_squirrel.prefab",
       "EntityID": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "Probability": 10,
       "MaxCount": 1,
@@ -90,7 +90,7 @@
       "WaitingforInView": true,
       "ShowType": 1,
       "AnimatorParams": {
-        "$arrayRef": 76537
+        "$arrayRef": 76725
       },
       "ControlEntryAnimator": true,
       "EntryAnimatorParams": {
@@ -102,7 +102,7 @@
     {
       "ID": 7,
       "HomesteadId": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "EntityCondition": "ed.ConditionX.CO_IsEntityNearPlayer(10,5031,5002,5083,5033,5034,5008,5010,5012,5013)",
       "ResPath": "fx/prefab/map/pbfx_prop_butterfly.prefab",
@@ -122,11 +122,11 @@
       "PlayMode": 3,
       "LoopIntervalTime": 30,
       "PlayEvent": {
-        "$arrayRef": 76536
+        "$arrayRef": 76724
       },
       "PlayCondition": "ed.ConditionX.CO_IsPlayingBehavior(31) or ed.ConditionX.CO_IsPlayingBehavior(32)",
       "FinishEvent": {
-        "$arrayRef": 76536
+        "$arrayRef": 76724
       },
       "FinishCondition": "(not ed.ConditionX.CO_IsPlayingBehavior(31)) and (not ed.ConditionX.CO_IsPlayingBehavior(32))",
       "WaitingforInView": false,
@@ -139,12 +139,12 @@
     {
       "ID": 13,
       "HomesteadId": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "EntityCondition": "true",
       "ResPath": "prefabs/object/fx/pbfx_wild_fishshadow.prefab",
       "EntityID": {
-        "$arrayRef": 407
+        "$arrayRef": 417
       },
       "Probability": 5,
       "MaxCount": 2,

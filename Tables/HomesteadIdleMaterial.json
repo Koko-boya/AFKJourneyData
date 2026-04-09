@@ -4,7 +4,7 @@
     "header_table": "HomesteadIdleMaterialHeaderTable",
     "format": "flat_rows",
     "schema_size": 16,
-    "row_count": 19,
+    "row_count": 43,
     "array_fields": [
       "BaseIdle",
       "ExtraMaterial"
@@ -48,7 +48,31 @@
     101,
     200,
     300,
-    301
+    301,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524
   ],
   "rows": [
     {
@@ -67,7 +91,7 @@
       "DefID": 21,
       "LootInfoID": 10000001,
       "ExtraMaterial": {
-        "$arrayRef": 76566
+        "$arrayRef": 76755
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -90,7 +114,7 @@
       "DefID": 19,
       "LootInfoID": 10000002,
       "ExtraMaterial": {
-        "$arrayRef": 76566
+        "$arrayRef": 76755
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -163,7 +187,7 @@
       "DefID": 24,
       "LootInfoID": 10000005,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -186,7 +210,7 @@
       "DefID": 22,
       "LootInfoID": 10000006,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -209,7 +233,7 @@
       "DefID": 23,
       "LootInfoID": 10000007,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -232,7 +256,7 @@
       "DefID": 26,
       "LootInfoID": 10000008,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -255,7 +279,7 @@
       "DefID": 27,
       "LootInfoID": 10000009,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -278,7 +302,7 @@
       "DefID": 28,
       "LootInfoID": 10000010,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -301,7 +325,7 @@
       "DefID": 29,
       "LootInfoID": 10000011,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -324,7 +348,7 @@
       "DefID": 30,
       "LootInfoID": 10000012,
       "ExtraMaterial": {
-        "$arrayRef": 76434
+        "$arrayRef": 76622
       },
       "ExtraMaterialDailyLimit": 1000,
       "ExtraCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.ScheduleOpenedDays(669)>0",
@@ -335,7 +359,7 @@
       "ID": 14,
       "Order": 10013,
       "BaseIdle": {
-        "$arrayRef": 76565
+        "$arrayRef": 76754
       },
       "MinIdleSecs": 10,
       "BuildingID": 6,
@@ -355,7 +379,7 @@
       "ID": 15,
       "Order": 10014,
       "BaseIdle": {
-        "$arrayRef": 76565
+        "$arrayRef": 76754
       },
       "MinIdleSecs": 10,
       "BuildingID": 6,
@@ -400,7 +424,7 @@
       "ID": 101,
       "Order": 20001,
       "BaseIdle": {
-        "$arrayRef": 76565
+        "$arrayRef": 76754
       },
       "MinIdleSecs": 10,
       "BuildingID": 3,
@@ -466,7 +490,7 @@
       "ID": 301,
       "Order": 40001,
       "BaseIdle": {
-        "$arrayRef": 76565
+        "$arrayRef": 76754
       },
       "MinIdleSecs": 10,
       "BuildingID": 5,
@@ -481,6 +505,510 @@
       "ExtraCondition": "true",
       "ScheduleID": 669,
       "SpecShowCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and ed.ConditionX.IsInSchedule(669)"
+    },
+    {
+      "ID": 501,
+      "Order": 10001,
+      "BaseIdle": {
+        "1": 501,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 31,
+      "LootInfoID": 210011,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 502,
+      "Order": 10002,
+      "BaseIdle": {
+        "1": 502,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": true,
+      "FormulaItemID": 0,
+      "DefID": 32,
+      "LootInfoID": 210021,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 503,
+      "Order": 10003,
+      "BaseIdle": {
+        "1": 503,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 33,
+      "LootInfoID": 210031,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 504,
+      "Order": 10004,
+      "BaseIdle": {
+        "1": 504,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 34,
+      "LootInfoID": 210041,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 505,
+      "Order": 10005,
+      "BaseIdle": {
+        "1": 505,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 35,
+      "LootInfoID": 210051,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 506,
+      "Order": 10006,
+      "BaseIdle": {
+        "1": 506,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 36,
+      "LootInfoID": 210061,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 507,
+      "Order": 10007,
+      "BaseIdle": {
+        "1": 507,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 37,
+      "LootInfoID": 210071,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 508,
+      "Order": 10008,
+      "BaseIdle": {
+        "1": 508,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 38,
+      "LootInfoID": 210081,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 509,
+      "Order": 10009,
+      "BaseIdle": {
+        "1": 509,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 39,
+      "LootInfoID": 210091,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 510,
+      "Order": 10010,
+      "BaseIdle": {
+        "1": 510,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 40,
+      "LootInfoID": 210101,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 511,
+      "Order": 10011,
+      "BaseIdle": {
+        "1": 511,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 41,
+      "LootInfoID": 210111,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 512,
+      "Order": 10012,
+      "BaseIdle": {
+        "1": 512,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 42,
+      "LootInfoID": 210121,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 513,
+      "Order": 10013,
+      "BaseIdle": {
+        "1": 513,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 43,
+      "LootInfoID": 210131,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 514,
+      "Order": 10014,
+      "BaseIdle": {
+        "1": 514,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": true,
+      "FormulaItemID": 0,
+      "DefID": 43,
+      "LootInfoID": 210141,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 515,
+      "Order": 10015,
+      "BaseIdle": {
+        "1": 515,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 43,
+      "LootInfoID": 210151,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 516,
+      "Order": 10016,
+      "BaseIdle": {
+        "1": 516,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 44,
+      "LootInfoID": 210161,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 517,
+      "Order": 10017,
+      "BaseIdle": {
+        "1": 517,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 44,
+      "LootInfoID": 210171,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 518,
+      "Order": 10018,
+      "BaseIdle": {
+        "1": 518,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 44,
+      "LootInfoID": 210181,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 519,
+      "Order": 10019,
+      "BaseIdle": {
+        "1": 519,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 45,
+      "LootInfoID": 210191,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 520,
+      "Order": 10020,
+      "BaseIdle": {
+        "1": 520,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 45,
+      "LootInfoID": 210201,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 521,
+      "Order": 10021,
+      "BaseIdle": {
+        "1": 521,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 45,
+      "LootInfoID": 210211,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 522,
+      "Order": 10022,
+      "BaseIdle": {
+        "1": 522,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 46,
+      "LootInfoID": 210221,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 523,
+      "Order": 10023,
+      "BaseIdle": {
+        "1": 523,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 46,
+      "LootInfoID": 210231,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
+    },
+    {
+      "ID": 524,
+      "Order": 10024,
+      "BaseIdle": {
+        "1": 524,
+        "2": 3600
+      },
+      "MinIdleSecs": 60,
+      "BuildingID": 21,
+      "UnlockLevel": 9999,
+      "ShowLevel": 0,
+      "IsLockHide": false,
+      "FormulaItemID": 0,
+      "DefID": 46,
+      "LootInfoID": 210241,
+      "ExtraMaterial": {},
+      "ExtraMaterialDailyLimit": 0,
+      "ExtraCondition": "true",
+      "ScheduleID": 684,
+      "SpecShowCondition": "false"
     }
   ]
 }

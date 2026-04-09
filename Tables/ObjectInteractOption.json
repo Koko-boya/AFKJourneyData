@@ -4,7 +4,7 @@
     "header_table": "ObjectInteractOptionHeaderTable",
     "format": "flat_rows",
     "schema_size": 15,
-    "row_count": 235,
+    "row_count": 239,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -260,7 +260,11 @@
     231,
     232,
     233,
-    234
+    234,
+    235,
+    236,
+    237,
+    238
   ],
   "rows": [
     {
@@ -2437,7 +2441,7 @@
       "MotionID": 0,
       "PlotID": 0,
       "CrowdStatusRes": null,
-      "SceneIconRes": null
+      "SceneIconRes": "ui/sprites/map/spui_map_icon_object_interact.png"
     },
     {
       "ID": 127,
@@ -3360,9 +3364,9 @@
     {
       "ID": 182,
       "Type": "Talk",
-      "InteractName": "17299481797848778738",
+      "InteractName": "17632015203665185891",
       "ToFCEvent": null,
-      "IconRes": "ui/sprites/ActivityFightPitHalloween/spui_halloween_icon_room1.png",
+      "IconRes": "ui/sprites/Dialogue/spui_fightpitdraft_icon_npc_room3.png",
       "IsInstant": false,
       "LongPressTime": 0,
       "ExplInteract": false,
@@ -3371,7 +3375,7 @@
       "PrefabRes": null,
       "MotionID": 0,
       "PlotID": 0,
-      "CrowdStatusRes": "ui/prefabs/crowdstatus/pbui_crowdstatus_battle.prefab",
+      "CrowdStatusRes": null,
       "SceneIconRes": null
     },
     {
@@ -3379,7 +3383,7 @@
       "Type": "Talk",
       "InteractName": "17299481797848778738",
       "ToFCEvent": null,
-      "IconRes": "ui/sprites/ActivityFightPitHalloween/spui_halloween_icon_room2.png",
+      "IconRes": "ui/sprites/Dialogue/spui_fightpitdraft_icon_npc_room1.png",
       "IsInstant": false,
       "LongPressTime": 0,
       "ExplInteract": false,
@@ -3388,7 +3392,7 @@
       "PrefabRes": null,
       "MotionID": 0,
       "PlotID": 0,
-      "CrowdStatusRes": "ui/prefabs/crowdstatus/pbui_crowdstatus_battle.prefab",
+      "CrowdStatusRes": null,
       "SceneIconRes": null
     },
     {
@@ -3413,7 +3417,7 @@
       "Type": "Talk",
       "InteractName": "7874492297080528728",
       "ToFCEvent": null,
-      "IconRes": "ui/sprites/ActivityFightPitHalloween/spui_halloween_icon_pumpkin.png",
+      "IconRes": "ui/sprites/Dialogue/spui_fightpitdraft_icon_npc_room2.png",
       "IsInstant": false,
       "LongPressTime": 0,
       "ExplInteract": false,
@@ -3422,7 +3426,7 @@
       "PrefabRes": null,
       "MotionID": 0,
       "PlotID": 0,
-      "CrowdStatusRes": "ui/prefabs/crowdstatus/pbui_crowdstatus_battle.prefab",
+      "CrowdStatusRes": null,
       "SceneIconRes": null
     },
     {
@@ -4057,9 +4061,9 @@
     {
       "ID": 223,
       "Type": "CardGame",
-      "InteractName": "对决",
+      "InteractName": "16325301833293070792",
       "ToFCEvent": null,
-      "IconRes": "ui/sprites/common/spui_icon_object_interact.png",
+      "IconRes": "ui/sprites/common/spui_icon_object_boardgame.png",
       "IsInstant": false,
       "LongPressTime": 0,
       "ExplInteract": true,
@@ -4176,7 +4180,7 @@
     {
       "ID": 230,
       "Type": "MatrixFarmland",
-      "InteractName": "种植",
+      "InteractName": "2904946142300549715",
       "ToFCEvent": null,
       "IconRes": "ui/sprites/common/spui_icon_object_interact.png",
       "IsInstant": false,
@@ -4253,6 +4257,74 @@
       "ActiveInteract": false,
       "BtnVx": null,
       "PrefabRes": null,
+      "MotionID": 0,
+      "PlotID": 0,
+      "CrowdStatusRes": null,
+      "SceneIconRes": null
+    },
+    {
+      "ID": 235,
+      "Type": "ClimbDown",
+      "InteractName": null,
+      "ToFCEvent": null,
+      "IconRes": "ui/sprites/common/spui_icon_object_climb.png",
+      "IsInstant": false,
+      "LongPressTime": 0,
+      "ExplInteract": true,
+      "ActiveInteract": false,
+      "BtnVx": null,
+      "PrefabRes": null,
+      "MotionID": 0,
+      "PlotID": 0,
+      "CrowdStatusRes": null,
+      "SceneIconRes": "ui/sprites/map/spui_map_icon_object_interact.png"
+    },
+    {
+      "ID": 236,
+      "Type": "Touch",
+      "InteractName": null,
+      "ToFCEvent": null,
+      "IconRes": "ui/sprites/common/spui_icon_object_interact.png",
+      "IsInstant": false,
+      "LongPressTime": 0,
+      "ExplInteract": true,
+      "ActiveInteract": false,
+      "BtnVx": null,
+      "PrefabRes": null,
+      "MotionID": 0,
+      "PlotID": 0,
+      "CrowdStatusRes": null,
+      "SceneIconRes": null
+    },
+    {
+      "ID": 237,
+      "Type": "Touch",
+      "InteractName": null,
+      "ToFCEvent": null,
+      "IconRes": "ui/sprites/common/spui_icon_object_interact_white.png",
+      "IsInstant": false,
+      "LongPressTime": 0,
+      "ExplInteract": true,
+      "ActiveInteract": false,
+      "BtnVx": null,
+      "PrefabRes": null,
+      "MotionID": 0,
+      "PlotID": 0,
+      "CrowdStatusRes": null,
+      "SceneIconRes": null
+    },
+    {
+      "ID": 238,
+      "Type": "Touch",
+      "InteractName": null,
+      "ToFCEvent": null,
+      "IconRes": null,
+      "IsInstant": true,
+      "LongPressTime": 0,
+      "ExplInteract": false,
+      "ActiveInteract": false,
+      "BtnVx": null,
+      "PrefabRes": "w",
       "MotionID": 0,
       "PlotID": 0,
       "CrowdStatusRes": null,

@@ -3,47 +3,68 @@
     "table": "VoidRentHero",
     "header_table": "VoidRentHeroHeaderTable",
     "format": "flat_rows",
-    "schema_size": 2,
-    "row_count": 4,
+    "schema_size": 3,
+    "row_count": 6,
     "array_fields": [
       "RentPrice"
     ],
-    "unresolved_array_refs": 4
+    "unresolved_array_refs": 6
   },
   "default": {
     "HeroID": "null",
-    "RentPrice": {}
+    "RentPrice": {},
+    "CanRent": false
   },
   "row_keys": [
     72,
     73,
     121,
-    122
+    122,
+    124,
+    125
   ],
   "rows": [
     {
       "HeroID": 72,
       "RentPrice": {
-        "$arrayRef": 79792
-      }
+        "$arrayRef": 80048
+      },
+      "CanRent": true
     },
     {
       "HeroID": 73,
       "RentPrice": {
-        "$arrayRef": 74899
-      }
+        "$arrayRef": 75084
+      },
+      "CanRent": true
     },
     {
       "HeroID": 121,
       "RentPrice": {
-        "$arrayRef": 79792
-      }
+        "$arrayRef": 80048
+      },
+      "CanRent": true
     },
     {
       "HeroID": 122,
       "RentPrice": {
-        "$arrayRef": 74899
-      }
+        "$arrayRef": 75084
+      },
+      "CanRent": true
+    },
+    {
+      "HeroID": 124,
+      "RentPrice": {
+        "$arrayRef": 80048
+      },
+      "CanRent": false
+    },
+    {
+      "HeroID": 125,
+      "RentPrice": {
+        "$arrayRef": 75084
+      },
+      "CanRent": false
     }
   ]
 }

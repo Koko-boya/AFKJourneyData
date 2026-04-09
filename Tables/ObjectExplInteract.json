@@ -4,7 +4,7 @@
     "header_table": "ObjectExplInteractHeaderTable",
     "format": "flat_rows",
     "schema_size": 10,
-    "row_count": 274,
+    "row_count": 283,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -2188,8 +2188,8 @@
       "Condition": "true",
       "InteractOptionID": 119,
       "IconRes": null,
-      "InteractName": "2643681266629269194",
-      "MotionID": 39,
+      "InteractName": "7416758947734530018",
+      "MotionID": 38,
       "PlotID": 0,
       "CameraZoomTime": 1,
       "WorldOption": false
@@ -2707,7 +2707,7 @@
       "InteractName": "7416758947734530018",
       "MotionID": 0,
       "PlotID": 0,
-      "CameraZoomTime": 0,
+      "CameraZoomTime": 1,
       "WorldOption": false
     },
     {
@@ -2719,7 +2719,7 @@
       "InteractName": "7416758947734530018",
       "MotionID": 0,
       "PlotID": 0,
-      "CameraZoomTime": 0,
+      "CameraZoomTime": 1,
       "WorldOption": false
     },
     {
@@ -2731,7 +2731,7 @@
       "InteractName": "7416758947734530018",
       "MotionID": 0,
       "PlotID": 0,
-      "CameraZoomTime": 0,
+      "CameraZoomTime": 1,
       "WorldOption": false
     },
     {
@@ -2743,7 +2743,7 @@
       "InteractName": "7416758947734530018",
       "MotionID": 0,
       "PlotID": 0,
-      "CameraZoomTime": 0,
+      "CameraZoomTime": 1,
       "WorldOption": false
     },
     {
@@ -2943,7 +2943,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptionID": 119,
-      "IconRes": "ui/sprites/common/spui_icon_object_interact.png",
+      "IconRes": null,
       "InteractName": "14607689052198534912",
       "MotionID": 0,
       "PlotID": 0,
@@ -3062,9 +3062,9 @@
       "ObjID": 1103585,
       "State": 1,
       "Condition": "true",
-      "InteractOptionID": 119,
+      "InteractOptionID": 122,
       "IconRes": null,
-      "InteractName": "阻拦",
+      "InteractName": "17576592803382547220",
       "MotionID": 0,
       "PlotID": 0,
       "CameraZoomTime": 0,
@@ -3308,6 +3308,114 @@
       "MotionID": 29,
       "PlotID": 0,
       "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 513300175,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptionID": 121,
+      "IconRes": null,
+      "InteractName": "2643681266629269194",
+      "MotionID": 40,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 512900062,
+      "State": 1,
+      "Condition": "ed.ConditionX.IsExplStepFinished(17010109,4,8) and not ed.ConditionX.IsExplStepFinished(17010109,5,1)",
+      "InteractOptionID": 121,
+      "IconRes": null,
+      "InteractName": "检测",
+      "MotionID": 41,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 510100216,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(510100216,\"CMark_1\")",
+      "InteractOptionID": 119,
+      "IconRes": null,
+      "InteractName": "2643681266629269194",
+      "MotionID": 41,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 510100216,
+      "State": 2,
+      "Condition": "ed.ConditionX.HasState(510100216,\"CMark_2\")",
+      "InteractOptionID": 119,
+      "IconRes": null,
+      "InteractName": "3760809788506425848",
+      "MotionID": 41,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 515700088,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptionID": 118,
+      "IconRes": null,
+      "InteractName": "17078509975209920417",
+      "MotionID": 0,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 516600086,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptionID": 119,
+      "IconRes": null,
+      "InteractName": "7416758947734530018",
+      "MotionID": 41,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 516600084,
+      "State": 1,
+      "Condition": "ed.ConditionX.HasState(516600084,\"CMark_1\")",
+      "InteractOptionID": 119,
+      "IconRes": null,
+      "InteractName": "6071558449438394294",
+      "MotionID": 41,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 516600084,
+      "State": 2,
+      "Condition": "ed.ConditionX.HasState(516600084,\"CMark_2\")",
+      "InteractOptionID": 119,
+      "IconRes": null,
+      "InteractName": "书写",
+      "MotionID": 41,
+      "PlotID": 0,
+      "CameraZoomTime": 0,
+      "WorldOption": false
+    },
+    {
+      "ObjID": 516100089,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptionID": 149,
+      "IconRes": "ui/sprites/common/item_quest_human_timerevert_white.png",
+      "InteractName": "4044481761623308083",
+      "MotionID": 39,
+      "PlotID": 0,
+      "CameraZoomTime": 1,
       "WorldOption": false
     }
   ]

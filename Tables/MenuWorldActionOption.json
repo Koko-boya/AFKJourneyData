@@ -4,12 +4,12 @@
     "header_table": "MenuWorldActionOptionHeaderTable",
     "format": "flat_rows",
     "schema_size": 14,
-    "row_count": 471,
+    "row_count": 486,
     "array_fields": [
       "AdditionalLuas",
       "AdditionalPrefabs"
     ],
-    "unresolved_array_refs": 16
+    "unresolved_array_refs": 15
   },
   "default": {
     "ID": "null",
@@ -462,11 +462,9 @@
     506,
     507,
     508,
-    509,
     510,
     511,
     512,
-    513,
     514,
     515,
     516,
@@ -474,7 +472,6 @@
     518,
     519,
     520,
-    521,
     522,
     523,
     524,
@@ -483,22 +480,40 @@
     527,
     528,
     529,
+    530,
     531,
     532,
     533,
     534,
     535,
     536,
-    537,
-    538,
-    539,
     540,
     542,
-    544,
     545,
     546,
     547,
-    548
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    560,
+    561,
+    563,
+    564,
+    565,
+    567,
+    576,
+    578,
+    579,
+    582
   ],
   "rows": [
     {
@@ -4563,10 +4578,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
       "AdditionalLuas": {
-        "$arrayRef": 93352
+        "$arrayRef": 93771
       }
     },
     {
@@ -4599,10 +4614,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
       "AdditionalLuas": {
-        "$arrayRef": 93352
+        "$arrayRef": 93771
       }
     },
     {
@@ -4635,10 +4650,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
       "AdditionalLuas": {
-        "$arrayRef": 93352
+        "$arrayRef": 93771
       }
     },
     {
@@ -4671,10 +4686,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
       "AdditionalLuas": {
-        "$arrayRef": 93352
+        "$arrayRef": 93771
       }
     },
     {
@@ -5955,10 +5970,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
       "AdditionalLuas": {
-        "$arrayRef": 93352
+        "$arrayRef": 93771
       }
     },
     {
@@ -5991,10 +6006,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
       "AdditionalLuas": {
-        "$arrayRef": 93352
+        "$arrayRef": 93771
       }
     },
     {
@@ -6027,10 +6042,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
       "AdditionalLuas": {
-        "$arrayRef": 93352
+        "$arrayRef": 93771
       }
     },
     {
@@ -7474,22 +7489,6 @@
       "AdditionalLuas": {}
     },
     {
-      "ID": 509,
-      "ObjectID": 512200042,
-      "Mode": null,
-      "ObjectClientType": null,
-      "ShowCondition": "ed.ConditionX.HasState(512200042,\"CMark_1\")",
-      "OptionStatement": "想起来了！跟本狐走吧！",
-      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"MapEscort\",49)",
-      "ReturnMenu": false,
-      "PrefabName": "pbui_dialogue_icon_task_main",
-      "Priority": 1,
-      "Gender": false,
-      "ReddotID": 0,
-      "AdditionalPrefabs": {},
-      "AdditionalLuas": {}
-    },
-    {
       "ID": 510,
       "ObjectID": 512200071,
       "Mode": null,
@@ -7531,22 +7530,6 @@
       "ClickAction": "ed.ActionX.C_StartMiniPlay(\"Ducky\",32)",
       "ReturnMenu": false,
       "PrefabName": "pbui_dialogue_icon_task_other",
-      "Priority": 1,
-      "Gender": false,
-      "ReddotID": 0,
-      "AdditionalPrefabs": {},
-      "AdditionalLuas": {}
-    },
-    {
-      "ID": 513,
-      "ObjectID": 1500035,
-      "Mode": null,
-      "ObjectClientType": null,
-      "ShowCondition": "ed.ConditionX.HasState(1500035,\"CMark_1\")",
-      "OptionStatement": "跟上小狐狸",
-      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"MapEscort\",47)",
-      "ReturnMenu": false,
-      "PrefabName": "pbui_dialogue_icon_task_main",
       "Priority": 1,
       "Gender": false,
       "ReddotID": 0,
@@ -7662,22 +7645,6 @@
       "Priority": 1,
       "Gender": true,
       "ReddotID": 161010,
-      "AdditionalPrefabs": {},
-      "AdditionalLuas": {}
-    },
-    {
-      "ID": 521,
-      "ObjectID": 1400180,
-      "Mode": null,
-      "ObjectClientType": null,
-      "ShowCondition": "ed.ConditionX.HasState(1400180,\"CMark_1\")",
-      "OptionStatement": "抓盲盒（占位）",
-      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"BagPuzzle\",349)",
-      "ReturnMenu": false,
-      "PrefabName": "pbui_dialogue_icon_task_main",
-      "Priority": 1,
-      "Gender": false,
-      "ReddotID": 0,
       "AdditionalPrefabs": {},
       "AdditionalLuas": {}
     },
@@ -7810,13 +7777,29 @@
       "AdditionalLuas": {}
     },
     {
+      "ID": 530,
+      "ObjectID": 1103713,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "15691735505613242096",
+      "ClickAction": "ed.ActionX.C_DraftStartWatch()",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_fightpit_bet",
+      "Priority": 1,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
       "ID": 531,
       "ObjectID": 1103714,
       "Mode": null,
       "ObjectClientType": null,
       "ShowCondition": "true",
       "OptionStatement": "进行交易",
-      "ClickAction": "ed.ActionX.C_OpenExchange(31)",
+      "ClickAction": "ed.ActionX.C_OpenExchange(43)",
       "ReturnMenu": false,
       "PrefabName": "pbui_dialogue_icon_shop",
       "Priority": 1,
@@ -7831,19 +7814,17 @@
       "Mode": null,
       "ObjectClientType": null,
       "ShowCondition": "true",
-      "OptionStatement": "4025337581239585696",
-      "ClickAction": "ed.ActionX.C_FightPitEnterPrepare(5)",
+      "OptionStatement": "13591409888268428090",
+      "ClickAction": "ed.ActionX.C_DraftStartMatch()",
       "ReturnMenu": false,
-      "PrefabName": "pbui_dialogue_icon_fightpit_halloween1",
+      "PrefabName": "pbui_dialogue_icon_fightpit_battle",
       "Priority": 1,
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93351
+        "$arrayRef": 93770
       },
-      "AdditionalLuas": {
-        "$arrayRef": 93352
-      }
+      "AdditionalLuas": {}
     },
     {
       "ID": 533,
@@ -7852,7 +7833,7 @@
       "ObjectClientType": null,
       "ShowCondition": "true",
       "OptionStatement": "打牌等玩法做好",
-      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"BagPuzzle\",349)",
+      "ClickAction": "ed.ActionX.C_StartBoardCardPlay(1)",
       "ReturnMenu": false,
       "PrefabName": "pbui_dialogue_icon_task_reputation",
       "Priority": 1,
@@ -7910,54 +7891,6 @@
       "AdditionalLuas": {}
     },
     {
-      "ID": 537,
-      "ObjectID": 513900120,
-      "Mode": null,
-      "ObjectClientType": null,
-      "ShowCondition": "ed.ConditionX.HasState(513900120,\"CMark_3\")",
-      "OptionStatement": "维伦加入隐士的契机……",
-      "ClickAction": "ed.ActionX.C_RunPlot(17208280)",
-      "ReturnMenu": true,
-      "PrefabName": "pbui_dialogue_icon_task_other",
-      "Priority": 1,
-      "Gender": false,
-      "ReddotID": 0,
-      "AdditionalPrefabs": {},
-      "AdditionalLuas": {}
-    },
-    {
-      "ID": 538,
-      "ObjectID": 513900120,
-      "Mode": null,
-      "ObjectClientType": null,
-      "ShowCondition": "ed.ConditionX.HasState(513900120,\"CMark_4\")",
-      "OptionStatement": "维伦的告别……",
-      "ClickAction": "ed.ActionX.C_RunPlot(17208290)",
-      "ReturnMenu": true,
-      "PrefabName": "pbui_dialogue_icon_task_other",
-      "Priority": 1,
-      "Gender": false,
-      "ReddotID": 0,
-      "AdditionalPrefabs": {},
-      "AdditionalLuas": {}
-    },
-    {
-      "ID": 539,
-      "ObjectID": 513900120,
-      "Mode": null,
-      "ObjectClientType": null,
-      "ShowCondition": "ed.ConditionX.HasState(513900120,\"CMark_5\")",
-      "OptionStatement": "维伦的选择……",
-      "ClickAction": "ed.ActionX.C_RunPlot(17208300)",
-      "ReturnMenu": true,
-      "PrefabName": "pbui_dialogue_icon_task_other",
-      "Priority": 1,
-      "Gender": false,
-      "ReddotID": 0,
-      "AdditionalPrefabs": {},
-      "AdditionalLuas": {}
-    },
-    {
       "ID": 540,
       "ObjectID": 1100489,
       "Mode": null,
@@ -7985,22 +7918,6 @@
       "PrefabName": "pbui_dialogue_icon_task_other",
       "Priority": 1,
       "Gender": false,
-      "ReddotID": 0,
-      "AdditionalPrefabs": {},
-      "AdditionalLuas": {}
-    },
-    {
-      "ID": 544,
-      "ObjectID": 1400659,
-      "Mode": null,
-      "ObjectClientType": null,
-      "ShowCondition": "true",
-      "OptionStatement": "等盲盒做好",
-      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"BagPuzzle\",353)",
-      "ReturnMenu": false,
-      "PrefabName": "pbui_dialogue_icon_task_reputation",
-      "Priority": 1,
-      "Gender": true,
       "ReddotID": 0,
       "AdditionalPrefabs": {},
       "AdditionalLuas": {}
@@ -8065,6 +7982,342 @@
       "PrefabName": "pbui_dialogue_icon_task_main",
       "Priority": 1,
       "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 549,
+      "ObjectID": 1103715,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "6525452747672086481",
+      "ClickAction": "ed.ActionX.C_JumpToActivityView(735)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 2,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 550,
+      "ObjectID": 1103714,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "6525452747672086481",
+      "ClickAction": "ed.ActionX.C_JumpToActivityView(735)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 2,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 551,
+      "ObjectID": 1103713,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "6525452747672086481",
+      "ClickAction": "ed.ActionX.C_JumpToActivityView(735)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 2,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 552,
+      "ObjectID": 513300139,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(513300139,\"CMark_1\")",
+      "OptionStatement": "剥离魔物",
+      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"MagicSeal\",5)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 553,
+      "ObjectID": 513900144,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(513900144,\"CMark_1\")",
+      "OptionStatement": "开始玩牌",
+      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"BagPuzzle\",349)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 554,
+      "ObjectID": 512400382,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "开始拼接",
+      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"BagPuzzle\",2)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 555,
+      "ObjectID": 512200645,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(512200645,\"CMark_1\")",
+      "OptionStatement": "船工占位",
+      "ClickAction": "ed.ActionX.C_RunPlot(17363030)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 556,
+      "ObjectID": 512200640,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "有什么新剧？",
+      "ClickAction": "ed.ActionX.C_RunPlot(17360020)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 557,
+      "ObjectID": 512200641,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "我来帮你们评评理",
+      "ClickAction": "ed.ActionX.C_RunPlot(17361020)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 558,
+      "ObjectID": 512200643,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "怎么了？",
+      "ClickAction": "ed.ActionX.C_RunPlot(17362020)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 559,
+      "ObjectID": 512200645,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "你在找我？",
+      "ClickAction": "ed.ActionX.C_RunPlot(17363031)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 560,
+      "ObjectID": 512200651,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "这座豪宅要卖？",
+      "ClickAction": "ed.ActionX.C_RunPlot(17365020)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 561,
+      "ObjectID": 512200650,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "（跟韦恩公爵打个招呼）",
+      "ClickAction": "ed.ActionX.C_RunPlot(17365030)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 563,
+      "ObjectID": 513700096,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "你们这里都卖什么？",
+      "ClickAction": "ed.ActionX.C_RunPlot(17367020)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 564,
+      "ObjectID": 512400366,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(512400366,\"CMark_1\")",
+      "OptionStatement": "2154977987108540062",
+      "ClickAction": "ed.ActionX.C_RunPlot(17366030)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 565,
+      "ObjectID": 512400366,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(512400366,\"CMark_2\")",
+      "OptionStatement": "辛德瑞拉，看我带谁来见你了！",
+      "ClickAction": "ed.ActionX.C_RunPlot(17364030)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 567,
+      "ObjectID": 512200454,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(512200454,\"CMark_1\")",
+      "OptionStatement": "（跟上侍女）",
+      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"MapEscort\",58)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_other",
+      "Priority": 1,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 576,
+      "ObjectID": 513500102,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(513500102,\"CMark_1\")",
+      "OptionStatement": "3540766163151940592",
+      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"MagicSeal\",5)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 578,
+      "ObjectID": 1400868,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(1400868,\"CMark_2\")",
+      "OptionStatement": "我想来试试箭术！",
+      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"CardPlay\",183)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 579,
+      "ObjectID": 512400212,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(512400212,\"CMark_1\")",
+      "OptionStatement": "你在卖什么？",
+      "ClickAction": "ed.ActionX.C_RunPlot(17372042)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 582,
+      "ObjectID": 513900032,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "离开会馆",
+      "ClickAction": "ed.ActionX.JumpToObj(1500194)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {},
       "AdditionalLuas": {}

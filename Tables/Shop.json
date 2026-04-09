@@ -3,7 +3,7 @@
     "table": "Shop",
     "header_table": "ShopHeaderTable",
     "format": "flat_rows",
-    "schema_size": 14,
+    "schema_size": 15,
     "row_count": 21,
     "array_fields": [
       "DialogueID",
@@ -26,7 +26,8 @@
     "DialogueID": {},
     "CostCounterID": 0,
     "ShopSeries": 0,
-    "IsScheduleShop": false
+    "IsScheduleShop": false,
+    "IsNeedNewSlotFlag": false
   },
   "row_keys": [
     2,
@@ -57,7 +58,7 @@
       "DisplayName": "竞技场商店<key:noun>",
       "CategoryID": 2,
       "PriceCurrency": {
-        "$arrayRef": 95859
+        "$arrayRef": 96386
       },
       "CanRefresh": false,
       "RefreshGradient": 4,
@@ -65,21 +66,22 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"LocalArena\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 15,
       "DisplayName": "14393161406717726239",
       "CategoryID": 2,
       "PriceCurrency": {
-        "$arrayRef": 95859
+        "$arrayRef": 96386
       },
       "CanRefresh": false,
       "RefreshGradient": 4,
@@ -87,21 +89,22 @@
       "UnlockCondition": "ed.ConditionX.Best(3)<=200",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 6,
       "DisplayName": "16355522328559503084",
       "CategoryID": 4,
       "PriceCurrency": {
-        "$arrayRef": 95860
+        "$arrayRef": 96387
       },
       "CanRefresh": false,
       "RefreshGradient": 6,
@@ -109,14 +112,15 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"DreamBoss\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 10,
@@ -132,21 +136,22 @@
       "UnlockCondition": "true",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 12,
       "DisplayName": "9448743313010692721",
       "CategoryID": 7,
       "PriceCurrency": {
-        "$arrayRef": 95861
+        "$arrayRef": 96388
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -154,21 +159,22 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"Boost\") or ed.ConditionX.IsModuleUnlocked(\"Mercenary\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 95868
+        "$arrayRef": 96395
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 14,
       "DisplayName": "16355522328559503084",
       "CategoryID": 8,
       "PriceCurrency": {
-        "$arrayRef": 95862
+        "$arrayRef": 96389
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -176,14 +182,15 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"Guild\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 11,
@@ -198,7 +205,7 @@
       "UnlockCondition": "ed.ConditionX.IsExplTaskFinished(10010999,1)",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_aya_3dui_head_1.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
         "1": 5,
@@ -208,14 +215,15 @@
       },
       "CostCounterID": 75,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 17,
       "DisplayName": "16895668499847118567",
       "CategoryID": 101,
       "PriceCurrency": {
-        "$arrayRef": 95863
+        "$arrayRef": 96390
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -223,7 +231,7 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_equipshop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
         "1": 10,
@@ -233,14 +241,15 @@
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 16,
       "DisplayName": "7921940987737093830",
       "CategoryID": 8,
       "PriceCurrency": {
-        "$arrayRef": 95862
+        "$arrayRef": 96389
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -248,21 +257,22 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"Guild\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 18,
       "DisplayName": "7921940987737093830",
       "CategoryID": 7,
       "PriceCurrency": {
-        "$arrayRef": 95861
+        "$arrayRef": 96388
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -270,21 +280,22 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"Boost\") or ed.ConditionX.IsModuleUnlocked(\"Mercenary\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 95868
+        "$arrayRef": 96395
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 23,
       "DisplayName": "8679904501663825196",
       "CategoryID": 10,
       "PriceCurrency": {
-        "$arrayRef": 95864
+        "$arrayRef": 96391
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -295,14 +306,15 @@
       "DialogueID": {},
       "CostCounterID": 0,
       "ShopSeries": 1,
-      "IsScheduleShop": true
+      "IsScheduleShop": true,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 24,
       "DisplayName": "13644153540962874275",
       "CategoryID": 10,
       "PriceCurrency": {
-        "$arrayRef": 95864
+        "$arrayRef": 96391
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -313,14 +325,15 @@
       "DialogueID": {},
       "CostCounterID": 0,
       "ShopSeries": 1,
-      "IsScheduleShop": true
+      "IsScheduleShop": true,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 26,
       "DisplayName": "16913838600977197174",
       "CategoryID": 201,
       "PriceCurrency": {
-        "$arrayRef": 95863
+        "$arrayRef": 96390
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -339,14 +352,15 @@
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 27,
       "DisplayName": "17374406144730977091",
       "CategoryID": 11,
       "PriceCurrency": {
-        "$arrayRef": 95865
+        "$arrayRef": 96392
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -354,21 +368,22 @@
       "UnlockCondition": "ed.ConditionX.IsUserInCurEp()",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 28,
       "DisplayName": "17781557478130207967",
       "CategoryID": 11,
       "PriceCurrency": {
-        "$arrayRef": 95865
+        "$arrayRef": 96392
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -376,21 +391,22 @@
       "UnlockCondition": "ed.ConditionX.IsUserInCurEp()",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 29,
       "DisplayName": "4630993226621524962",
       "CategoryID": 12,
       "PriceCurrency": {
-        "$arrayRef": 95866
+        "$arrayRef": 96393
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -401,14 +417,15 @@
       "DialogueID": {},
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": true
+      "IsScheduleShop": true,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 31,
       "DisplayName": "16426263735911283263",
       "CategoryID": 12,
       "PriceCurrency": {
-        "$arrayRef": 95866
+        "$arrayRef": 96393
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -419,14 +436,15 @@
       "DialogueID": {},
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": true
     },
     {
       "Type": 33,
       "DisplayName": "7921940987737093830",
       "CategoryID": 4,
       "PriceCurrency": {
-        "$arrayRef": 95860
+        "$arrayRef": 96387
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -434,14 +452,15 @@
       "UnlockCondition": "ed.ConditionX.IsModuleUnlocked(\"DreamBoss\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 34,
@@ -456,21 +475,22 @@
       "UnlockCondition": "ed.ConditionX.HeroCountByQuality(17)>=1",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_shop_3dui_head.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
-        "$arrayRef": 443
+        "$arrayRef": 453
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 30,
       "DisplayName": "620009711858621580",
       "CategoryID": 12,
       "PriceCurrency": {
-        "$arrayRef": 95866
+        "$arrayRef": 96393
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -481,14 +501,15 @@
       "DialogueID": {},
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": true
+      "IsScheduleShop": true,
+      "IsNeedNewSlotFlag": false
     },
     {
       "Type": 37,
       "DisplayName": "7519045527481567171",
       "CategoryID": 108,
       "PriceCurrency": {
-        "$arrayRef": 95863
+        "$arrayRef": 96390
       },
       "CanRefresh": false,
       "RefreshGradient": null,
@@ -496,7 +517,7 @@
       "UnlockCondition": "ed.ConditionX.IsUserInEp(\"Ep06\")",
       "ModelPrefab": "UI/Prefabs/Shop/pbui_equipshop_3dui_head_ep6.prefab",
       "ModelAction": {
-        "$arrayRef": 95867
+        "$arrayRef": 96394
       },
       "DialogueID": {
         "1": 15,
@@ -506,7 +527,8 @@
       },
       "CostCounterID": 0,
       "ShopSeries": 0,
-      "IsScheduleShop": false
+      "IsScheduleShop": false,
+      "IsNeedNewSlotFlag": false
     }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "table": "SpellMatrixMarketSlot",
+    "header_table": "SpellMatrixMarketSlotHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 2,
+    "row_count": 5,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "SlotID": "null",
+    "UnlockCondition": "true"
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rows": [
+    {
+      "SlotID": 1,
+      "UnlockCondition": "true"
+    },
+    {
+      "SlotID": 2,
+      "UnlockCondition": "ed.ConditionX.SpellMatrixMarketLevel()>=2"
+    },
+    {
+      "SlotID": 3,
+      "UnlockCondition": "ed.ConditionX.SpellMatrixMarketLevel()>=6"
+    },
+    {
+      "SlotID": 4,
+      "UnlockCondition": "ed.ConditionX.SpellMatrixMarketLevel()>=8"
+    },
+    {
+      "SlotID": 5,
+      "UnlockCondition": "ed.ConditionX.SpellMatrixMarketLevel()>=10"
+    }
+  ]
+}

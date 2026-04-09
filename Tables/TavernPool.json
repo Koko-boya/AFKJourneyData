@@ -3,13 +3,13 @@
     "table": "TavernPool",
     "header_table": "TavernPoolHeaderTable",
     "format": "flat_rows",
-    "schema_size": 27,
-    "row_count": 116,
+    "schema_size": 28,
+    "row_count": 128,
     "array_fields": [
       "GuaranteeIDs",
       "TavernUpHeroASR"
     ],
-    "unresolved_array_refs": 219
+    "unresolved_array_refs": 242
   },
   "default": {
     "PoolID": "null",
@@ -38,7 +38,8 @@
     "AddTrustBaseQuality": 0,
     "Trust": 0,
     "Tips": null,
-    "RuleTips": null
+    "RuleTips": null,
+    "DrawTips": null
   },
   "row_keys": [
     1,
@@ -88,10 +89,13 @@
     45,
     46,
     47,
+    48,
     1001,
     1002,
     1003,
     1004,
+    1005,
+    1006,
     2001,
     2002,
     2003,
@@ -99,6 +103,7 @@
     2005,
     2006,
     2007,
+    2008,
     3001,
     3002,
     3003,
@@ -156,7 +161,15 @@
     3055,
     3056,
     4001,
-    4002
+    4002,
+    3057,
+    3058,
+    3059,
+    3060,
+    3061,
+    3062,
+    3063,
+    3064
   ],
   "rows": [
     {
@@ -190,7 +203,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "10526976396582697169"
+      "RuleTips": "10526976396582697169",
+      "DrawTips": null
     },
     {
       "PoolID": 2,
@@ -199,7 +213,7 @@
       "OneTavernID": 3,
       "TenTavernID": 4,
       "GuaranteeIDs": {
-        "$arrayRef": 93792
+        "$arrayRef": 94259
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "6750115967590414156",
@@ -221,7 +235,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "15324904009540850662"
+      "RuleTips": "15324904009540850662",
+      "DrawTips": null
     },
     {
       "PoolID": 3,
@@ -230,7 +245,7 @@
       "OneTavernID": 5,
       "TenTavernID": 6,
       "GuaranteeIDs": {
-        "$arrayRef": 13478
+        "$arrayRef": 13486
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "6983825927185338266",
@@ -280,7 +295,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 4,
@@ -289,7 +305,7 @@
       "OneTavernID": 7,
       "TenTavernID": 8,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -313,7 +329,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 5,
@@ -322,7 +339,7 @@
       "OneTavernID": 9,
       "TenTavernID": 10,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -336,7 +353,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 46,
       "TavernUpHeroASR": {
-        "$arrayRef": 78215
+        "$arrayRef": 78443
       },
       "UpHeroName": "9899323363932661798",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -346,7 +363,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 6,
@@ -355,7 +373,7 @@
       "OneTavernID": 11,
       "TenTavernID": 12,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -369,7 +387,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 52,
       "TavernUpHeroASR": {
-        "$arrayRef": 78216
+        "$arrayRef": 78444
       },
       "UpHeroName": "13777020438408693192",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -379,7 +397,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 7,
@@ -388,7 +407,7 @@
       "OneTavernID": 13,
       "TenTavernID": 14,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -402,7 +421,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 53,
       "TavernUpHeroASR": {
-        "$arrayRef": 97822
+        "$arrayRef": 98411
       },
       "UpHeroName": "11670344019905146494",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -412,7 +431,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 8,
@@ -421,7 +441,7 @@
       "OneTavernID": 15,
       "TenTavernID": 16,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -435,7 +455,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 57,
       "TavernUpHeroASR": {
-        "$arrayRef": 97823
+        "$arrayRef": 98412
       },
       "UpHeroName": "13620663324447747834",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -445,7 +465,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 9,
@@ -454,7 +475,7 @@
       "OneTavernID": 17,
       "TenTavernID": 18,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -468,7 +489,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 60,
       "TavernUpHeroASR": {
-        "$arrayRef": 78217
+        "$arrayRef": 78445
       },
       "UpHeroName": "4631646857781007383",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -478,7 +499,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 10,
@@ -487,7 +509,7 @@
       "OneTavernID": 19,
       "TenTavernID": 20,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -501,7 +523,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 81,
       "TavernUpHeroASR": {
-        "$arrayRef": 78219
+        "$arrayRef": 78447
       },
       "UpHeroName": "6728207170851969800",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -511,7 +533,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "17108632695683276177",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 11,
@@ -520,7 +543,7 @@
       "OneTavernID": 21,
       "TenTavernID": 22,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -534,7 +557,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 64,
       "TavernUpHeroASR": {
-        "$arrayRef": 78218
+        "$arrayRef": 78446
       },
       "UpHeroName": "12688072315857956975",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -544,7 +567,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "10086254459415997483",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 12,
@@ -553,7 +577,7 @@
       "OneTavernID": 23,
       "TenTavernID": 24,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -567,7 +591,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 58,
       "TavernUpHeroASR": {
-        "$arrayRef": 97824
+        "$arrayRef": 98413
       },
       "UpHeroName": "3063681973071474998",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -577,7 +601,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "5168586932650264118",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 13,
@@ -586,7 +611,7 @@
       "OneTavernID": 25,
       "TenTavernID": 26,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -600,7 +625,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 68,
       "TavernUpHeroASR": {
-        "$arrayRef": 78220
+        "$arrayRef": 78448
       },
       "UpHeroName": "5964125469580964484",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -610,7 +635,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "16810629301571137086",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 14,
@@ -619,7 +645,7 @@
       "OneTavernID": 27,
       "TenTavernID": 28,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -633,7 +659,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 65,
       "TavernUpHeroASR": {
-        "$arrayRef": 97825
+        "$arrayRef": 98414
       },
       "UpHeroName": "6840191426961225648",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -643,7 +669,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "10615304695785833135",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 15,
@@ -652,7 +679,7 @@
       "OneTavernID": 29,
       "TenTavernID": 30,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -666,7 +693,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 56,
       "TavernUpHeroASR": {
-        "$arrayRef": 78221
+        "$arrayRef": 78449
       },
       "UpHeroName": "1672696213193198901",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -676,7 +703,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "519320237662036146",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 16,
@@ -685,7 +713,7 @@
       "OneTavernID": 31,
       "TenTavernID": 32,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -699,7 +727,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 67,
       "TavernUpHeroASR": {
-        "$arrayRef": 97826
+        "$arrayRef": 98415
       },
       "UpHeroName": "12585541174277473670",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -709,7 +737,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "4945498344201571024",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 17,
@@ -718,7 +747,7 @@
       "OneTavernID": 33,
       "TenTavernID": 34,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -732,7 +761,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 69,
       "TavernUpHeroASR": {
-        "$arrayRef": 78222
+        "$arrayRef": 78450
       },
       "UpHeroName": "17870841917279265509",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -742,7 +771,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "17396591399719378942",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 18,
@@ -751,7 +781,7 @@
       "OneTavernID": 35,
       "TenTavernID": 36,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -765,7 +795,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 66,
       "TavernUpHeroASR": {
-        "$arrayRef": 78223
+        "$arrayRef": 78451
       },
       "UpHeroName": "10851309803827887333",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -775,7 +805,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 19,
@@ -784,7 +815,7 @@
       "OneTavernID": 37,
       "TenTavernID": 38,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -798,7 +829,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 71,
       "TavernUpHeroASR": {
-        "$arrayRef": 97827
+        "$arrayRef": 98416
       },
       "UpHeroName": "16594765421374330761",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -808,7 +839,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 20,
@@ -817,7 +849,7 @@
       "OneTavernID": 39,
       "TenTavernID": 40,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -831,7 +863,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 70,
       "TavernUpHeroASR": {
-        "$arrayRef": 97828
+        "$arrayRef": 98417
       },
       "UpHeroName": "2113711237118057976",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -841,7 +873,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 21,
@@ -850,7 +883,7 @@
       "OneTavernID": 41,
       "TenTavernID": 42,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -864,7 +897,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 74,
       "TavernUpHeroASR": {
-        "$arrayRef": 78224
+        "$arrayRef": 78452
       },
       "UpHeroName": "10586484117197744077",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -874,7 +907,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 22,
@@ -883,7 +917,7 @@
       "OneTavernID": 43,
       "TenTavernID": 44,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -897,7 +931,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 59,
       "TavernUpHeroASR": {
-        "$arrayRef": 97829
+        "$arrayRef": 98418
       },
       "UpHeroName": "17205400932250281222",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -907,7 +941,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 23,
@@ -916,7 +951,7 @@
       "OneTavernID": 45,
       "TenTavernID": 46,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -930,7 +965,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 61,
       "TavernUpHeroASR": {
-        "$arrayRef": 97830
+        "$arrayRef": 98419
       },
       "UpHeroName": "17749052978437171752",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -940,7 +975,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 24,
@@ -949,7 +985,7 @@
       "OneTavernID": 47,
       "TenTavernID": 48,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -963,7 +999,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 82,
       "TavernUpHeroASR": {
-        "$arrayRef": 78225
+        "$arrayRef": 78453
       },
       "UpHeroName": "5496022720275311497",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -973,7 +1009,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 25,
@@ -982,7 +1019,7 @@
       "OneTavernID": 49,
       "TenTavernID": 50,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -996,7 +1033,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 80,
       "TavernUpHeroASR": {
-        "$arrayRef": 97831
+        "$arrayRef": 98420
       },
       "UpHeroName": "8341013082289924911",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1006,7 +1043,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 26,
@@ -1015,7 +1053,7 @@
       "OneTavernID": 51,
       "TenTavernID": 52,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1029,7 +1067,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 83,
       "TavernUpHeroASR": {
-        "$arrayRef": 97832
+        "$arrayRef": 98421
       },
       "UpHeroName": "8339396840851983113",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1039,7 +1077,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 27,
@@ -1048,7 +1087,7 @@
       "OneTavernID": 53,
       "TenTavernID": 54,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1062,7 +1101,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 85,
       "TavernUpHeroASR": {
-        "$arrayRef": 78227
+        "$arrayRef": 78455
       },
       "UpHeroName": "1252179135362819374",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1072,7 +1111,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 28,
@@ -1081,7 +1121,7 @@
       "OneTavernID": 55,
       "TenTavernID": 56,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1095,7 +1135,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 87,
       "TavernUpHeroASR": {
-        "$arrayRef": 78229
+        "$arrayRef": 78457
       },
       "UpHeroName": "5443929833878138046",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1105,7 +1145,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 29,
@@ -1114,7 +1155,7 @@
       "OneTavernID": 57,
       "TenTavernID": 58,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1128,7 +1169,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 86,
       "TavernUpHeroASR": {
-        "$arrayRef": 78228
+        "$arrayRef": 78456
       },
       "UpHeroName": "13330007163601881687",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1138,7 +1179,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 30,
@@ -1147,7 +1189,7 @@
       "OneTavernID": 59,
       "TenTavernID": 60,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1161,7 +1203,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 88,
       "TavernUpHeroASR": {
-        "$arrayRef": 78230
+        "$arrayRef": 78458
       },
       "UpHeroName": "5034088150813196097",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1171,7 +1213,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 31,
@@ -1180,7 +1223,7 @@
       "OneTavernID": 61,
       "TenTavernID": 62,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1194,7 +1237,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 89,
       "TavernUpHeroASR": {
-        "$arrayRef": 97833
+        "$arrayRef": 98422
       },
       "UpHeroName": "4146411271675621020",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1204,7 +1247,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 32,
@@ -1213,7 +1257,7 @@
       "OneTavernID": 63,
       "TenTavernID": 64,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1227,7 +1271,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 77,
       "TavernUpHeroASR": {
-        "$arrayRef": 78232
+        "$arrayRef": 78460
       },
       "UpHeroName": "14654160546878534892",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1237,7 +1281,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 33,
@@ -1246,7 +1291,7 @@
       "OneTavernID": 65,
       "TenTavernID": 66,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1260,7 +1305,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 100,
       "TavernUpHeroASR": {
-        "$arrayRef": 75724
+        "$arrayRef": 75909
       },
       "UpHeroName": "10940078782463456213",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1270,7 +1315,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 34,
@@ -1279,7 +1325,7 @@
       "OneTavernID": 67,
       "TenTavernID": 68,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1293,7 +1339,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 94,
       "TavernUpHeroASR": {
-        "$arrayRef": 78231
+        "$arrayRef": 78459
       },
       "UpHeroName": "9001754169659937958",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1303,7 +1349,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 35,
@@ -1312,7 +1359,7 @@
       "OneTavernID": 69,
       "TenTavernID": 70,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1326,7 +1373,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 90,
       "TavernUpHeroASR": {
-        "$arrayRef": 97834
+        "$arrayRef": 98423
       },
       "UpHeroName": "7700715781070576150",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1336,7 +1383,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 36,
@@ -1345,7 +1393,7 @@
       "OneTavernID": 71,
       "TenTavernID": 72,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1359,7 +1407,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 98,
       "TavernUpHeroASR": {
-        "$arrayRef": 78233
+        "$arrayRef": 78461
       },
       "UpHeroName": "15501581487596315953",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1369,7 +1417,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 37,
@@ -1378,7 +1427,7 @@
       "OneTavernID": 73,
       "TenTavernID": 74,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1392,7 +1441,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 102,
       "TavernUpHeroASR": {
-        "$arrayRef": 78234
+        "$arrayRef": 78462
       },
       "UpHeroName": "5920831470418720686",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1402,7 +1451,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 38,
@@ -1411,7 +1461,7 @@
       "OneTavernID": 75,
       "TenTavernID": 76,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1425,7 +1475,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 95,
       "TavernUpHeroASR": {
-        "$arrayRef": 97835
+        "$arrayRef": 98424
       },
       "UpHeroName": "8872635953880126912",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1435,7 +1485,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 39,
@@ -1444,7 +1495,7 @@
       "OneTavernID": 77,
       "TenTavernID": 78,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1458,7 +1509,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 103,
       "TavernUpHeroASR": {
-        "$arrayRef": 78235
+        "$arrayRef": 78463
       },
       "UpHeroName": "1891785112725929171",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1468,7 +1519,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 40,
@@ -1477,7 +1529,7 @@
       "OneTavernID": 79,
       "TenTavernID": 80,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1491,7 +1543,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 106,
       "TavernUpHeroASR": {
-        "$arrayRef": 97836
+        "$arrayRef": 98425
       },
       "UpHeroName": "6180387415330937275",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1501,7 +1553,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 41,
@@ -1510,7 +1563,7 @@
       "OneTavernID": 81,
       "TenTavernID": 82,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1524,7 +1577,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 123,
       "TavernUpHeroASR": {
-        "$arrayRef": 78236
+        "$arrayRef": 78464
       },
       "UpHeroName": "13252742172956940385",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1534,7 +1587,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 42,
@@ -1543,7 +1597,7 @@
       "OneTavernID": 83,
       "TenTavernID": 84,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1557,7 +1611,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 105,
       "TavernUpHeroASR": {
-        "$arrayRef": 97837
+        "$arrayRef": 98426
       },
       "UpHeroName": "18002557812712273126",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1567,7 +1621,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 43,
@@ -1576,7 +1631,7 @@
       "OneTavernID": 85,
       "TenTavernID": 86,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1590,7 +1645,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 104,
       "TavernUpHeroASR": {
-        "$arrayRef": 97838
+        "$arrayRef": 98427
       },
       "UpHeroName": "10460827499225483262",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1600,7 +1655,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 44,
@@ -1609,7 +1665,7 @@
       "OneTavernID": 87,
       "TenTavernID": 88,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1623,7 +1679,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 114,
       "TavernUpHeroASR": {
-        "$arrayRef": 78238
+        "$arrayRef": 78466
       },
       "UpHeroName": "12209942856641103318",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1633,7 +1689,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 45,
@@ -1642,7 +1699,7 @@
       "OneTavernID": 89,
       "TenTavernID": 90,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1656,7 +1713,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 111,
       "TavernUpHeroASR": {
-        "$arrayRef": 97839
+        "$arrayRef": 98428
       },
       "UpHeroName": "624254700364582360",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1666,7 +1723,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 46,
@@ -1675,7 +1733,7 @@
       "OneTavernID": 91,
       "TenTavernID": 92,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1689,7 +1747,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 116,
       "TavernUpHeroASR": {
-        "$arrayRef": 78240
+        "$arrayRef": 78468
       },
       "UpHeroName": "9835771974395766839",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1699,7 +1757,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 47,
@@ -1708,7 +1767,7 @@
       "OneTavernID": 93,
       "TenTavernID": 94,
       "GuaranteeIDs": {
-        "$arrayRef": 97820
+        "$arrayRef": 98409
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1722,7 +1781,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 113,
       "TavernUpHeroASR": {
-        "$arrayRef": 78239
+        "$arrayRef": 78467
       },
       "UpHeroName": "11411659333774790763",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1732,7 +1791,42 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "2998586910189671231",
-      "RuleTips": "17531246101560454654"
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 48,
+      "PoolType": 3,
+      "PoolName": "16119132188622828650",
+      "OneTavernID": 95,
+      "TenTavernID": 96,
+      "GuaranteeIDs": {
+        "$arrayRef": 98409
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_115.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 48,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 115,
+      "TavernUpHeroASR": {
+        "$arrayRef": 78469
+      },
+      "UpHeroName": "3228001276382749480",
+      "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
+      "UnlockNote": "7848409950906086028",
+      "DrawCondition": "true",
+      "DrawUnlockNote": null,
+      "AddTrustBaseQuality": 6,
+      "Trust": 800,
+      "Tips": "2998586910189671231",
+      "RuleTips": "17531246101560454654",
+      "DrawTips": null
     },
     {
       "PoolID": 1001,
@@ -1741,7 +1835,7 @@
       "OneTavernID": 1001,
       "TenTavernID": 1002,
       "GuaranteeIDs": {
-        "$arrayRef": 84835
+        "$arrayRef": 85242
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1755,7 +1849,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 72,
       "TavernUpHeroASR": {
-        "$arrayRef": 78226
+        "$arrayRef": 78454
       },
       "UpHeroName": "18237455418231963259",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1765,7 +1859,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "17587362884046623072",
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 1002,
@@ -1774,7 +1869,7 @@
       "OneTavernID": 1003,
       "TenTavernID": 1004,
       "GuaranteeIDs": {
-        "$arrayRef": 84835
+        "$arrayRef": 85242
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1788,7 +1883,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 73,
       "TavernUpHeroASR": {
-        "$arrayRef": 97840
+        "$arrayRef": 98429
       },
       "UpHeroName": "3645202468555607450",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1798,7 +1893,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "17587362884046623072",
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 1003,
@@ -1807,7 +1903,7 @@
       "OneTavernID": 1005,
       "TenTavernID": 1006,
       "GuaranteeIDs": {
-        "$arrayRef": 84835
+        "$arrayRef": 85242
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1821,7 +1917,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 121,
       "TavernUpHeroASR": {
-        "$arrayRef": 72407
+        "$arrayRef": 72535
       },
       "UpHeroName": "11976609362971387388",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1831,7 +1927,8 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "17587362884046623072",
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 1004,
@@ -1840,7 +1937,7 @@
       "OneTavernID": 1007,
       "TenTavernID": 1008,
       "GuaranteeIDs": {
-        "$arrayRef": 84835
+        "$arrayRef": 85242
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -1854,7 +1951,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 122,
       "TavernUpHeroASR": {
-        "$arrayRef": 97841
+        "$arrayRef": 98430
       },
       "UpHeroName": "14859160098469401346",
       "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=30",
@@ -1864,7 +1961,76 @@
       "AddTrustBaseQuality": 6,
       "Trust": 800,
       "Tips": "17587362884046623072",
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 1005,
+      "PoolType": 5,
+      "PoolName": "2167669011367789989",
+      "OneTavernID": 1009,
+      "TenTavernID": 1010,
+      "GuaranteeIDs": {
+        "$arrayRef": 85242
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_124.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 1003,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 124,
+      "TavernUpHeroASR": {
+        "$arrayRef": 72543
+      },
+      "UpHeroName": "3072416340353656969",
+      "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=10",
+      "UnlockNote": "15087867149674475532",
+      "DrawCondition": "true",
+      "DrawUnlockNote": null,
+      "AddTrustBaseQuality": 6,
+      "Trust": 800,
+      "Tips": "17587362884046623072",
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 1006,
+      "PoolType": 5,
+      "PoolName": "2167669011367789989",
+      "OneTavernID": 1011,
+      "TenTavernID": 1012,
+      "GuaranteeIDs": {
+        "$arrayRef": 85242
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_125.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 1004,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 125,
+      "TavernUpHeroASR": {
+        "$arrayRef": 98431
+      },
+      "UpHeroName": "13417195086088131859",
+      "UnlockCondition": "ed.ConditionX.TavernDrawCntByPoolID(1)>=10",
+      "UnlockNote": "15087867149674475532",
+      "DrawCondition": "true",
+      "DrawUnlockNote": null,
+      "AddTrustBaseQuality": 6,
+      "Trust": 800,
+      "Tips": "17587362884046623072",
+      "RuleTips": "4889962769741315380",
+      "DrawTips": 347
     },
     {
       "PoolID": 2001,
@@ -1895,7 +2061,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 2002,
@@ -1904,7 +2071,7 @@
       "OneTavernID": 2003,
       "TenTavernID": 2004,
       "GuaranteeIDs": {
-        "$arrayRef": 5836
+        "$arrayRef": 5845
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "18143706380512209354",
@@ -1926,7 +2093,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 2003,
@@ -1957,7 +2125,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 2004,
@@ -1966,7 +2135,7 @@
       "OneTavernID": 2007,
       "TenTavernID": 2008,
       "GuaranteeIDs": {
-        "$arrayRef": 8219
+        "$arrayRef": 8228
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "18143706380512209354",
@@ -1988,7 +2157,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 2005,
@@ -1997,7 +2167,7 @@
       "OneTavernID": 2009,
       "TenTavernID": 2010,
       "GuaranteeIDs": {
-        "$arrayRef": 65
+        "$arrayRef": 64
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "18143706380512209354",
@@ -2019,7 +2189,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 2006,
@@ -2028,7 +2199,7 @@
       "OneTavernID": 2011,
       "TenTavernID": 2012,
       "GuaranteeIDs": {
-        "$arrayRef": 2774
+        "$arrayRef": 2783
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "18143706380512209354",
@@ -2050,7 +2221,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 2007,
@@ -2081,7 +2253,40 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
+    },
+    {
+      "PoolID": 2008,
+      "PoolType": 4,
+      "PoolName": "金玫瑰高定",
+      "OneTavernID": 2015,
+      "TenTavernID": 2016,
+      "GuaranteeIDs": {
+        "$arrayRef": 217
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "18143706380512209354",
+      "BannerPic": null,
+      "QualityPic1": null,
+      "QualityPic2": null,
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 2001,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 0,
+      "TavernUpHeroASR": {},
+      "UpHeroName": null,
+      "UnlockCondition": "true",
+      "UnlockNote": null,
+      "DrawCondition": "true",
+      "DrawUnlockNote": null,
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 3001,
@@ -2090,7 +2295,7 @@
       "OneTavernID": 3001,
       "TenTavernID": 3002,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2104,7 +2309,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 83,
       "TavernUpHeroASR": {
-        "$arrayRef": 97832
+        "$arrayRef": 98421
       },
       "UpHeroName": "8339396840851983113",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2114,7 +2319,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3002,
@@ -2123,7 +2329,7 @@
       "OneTavernID": 3003,
       "TenTavernID": 3004,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2137,7 +2343,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 74,
       "TavernUpHeroASR": {
-        "$arrayRef": 78224
+        "$arrayRef": 78452
       },
       "UpHeroName": "10586484117197744077",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2147,7 +2353,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3003,
@@ -2156,7 +2363,7 @@
       "OneTavernID": 3005,
       "TenTavernID": 3006,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2170,7 +2377,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 82,
       "TavernUpHeroASR": {
-        "$arrayRef": 78225
+        "$arrayRef": 78453
       },
       "UpHeroName": "5496022720275311497",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2180,7 +2387,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3004,
@@ -2189,7 +2397,7 @@
       "OneTavernID": 3007,
       "TenTavernID": 3008,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2203,7 +2411,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 80,
       "TavernUpHeroASR": {
-        "$arrayRef": 97831
+        "$arrayRef": 98420
       },
       "UpHeroName": "8341013082289924911",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2213,7 +2421,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3005,
@@ -2222,7 +2431,7 @@
       "OneTavernID": 3009,
       "TenTavernID": 3010,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2236,7 +2445,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 85,
       "TavernUpHeroASR": {
-        "$arrayRef": 78227
+        "$arrayRef": 78455
       },
       "UpHeroName": "1252179135362819374",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2246,7 +2455,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3006,
@@ -2255,7 +2465,7 @@
       "OneTavernID": 3011,
       "TenTavernID": 3012,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2269,7 +2479,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 61,
       "TavernUpHeroASR": {
-        "$arrayRef": 97830
+        "$arrayRef": 98419
       },
       "UpHeroName": "17749052978437171752",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2279,7 +2489,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3007,
@@ -2288,7 +2499,7 @@
       "OneTavernID": 3013,
       "TenTavernID": 3014,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2302,7 +2513,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 86,
       "TavernUpHeroASR": {
-        "$arrayRef": 78228
+        "$arrayRef": 78456
       },
       "UpHeroName": "13330007163601881687",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2312,7 +2523,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3008,
@@ -2321,7 +2533,7 @@
       "OneTavernID": 3015,
       "TenTavernID": 3016,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2335,7 +2547,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 87,
       "TavernUpHeroASR": {
-        "$arrayRef": 78229
+        "$arrayRef": 78457
       },
       "UpHeroName": "5443929833878138046",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2345,7 +2557,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3009,
@@ -2354,7 +2567,7 @@
       "OneTavernID": 3017,
       "TenTavernID": 3018,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2368,7 +2581,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 59,
       "TavernUpHeroASR": {
-        "$arrayRef": 97829
+        "$arrayRef": 98418
       },
       "UpHeroName": "17205400932250281222",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2378,7 +2591,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3010,
@@ -2387,7 +2601,7 @@
       "OneTavernID": 3019,
       "TenTavernID": 3020,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2401,7 +2615,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 88,
       "TavernUpHeroASR": {
-        "$arrayRef": 78230
+        "$arrayRef": 78458
       },
       "UpHeroName": "5034088150813196097",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2411,7 +2625,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3011,
@@ -2420,7 +2635,7 @@
       "OneTavernID": 3021,
       "TenTavernID": 3022,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2434,7 +2649,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 56,
       "TavernUpHeroASR": {
-        "$arrayRef": 78221
+        "$arrayRef": 78449
       },
       "UpHeroName": "1672696213193198901",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2444,7 +2659,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3012,
@@ -2453,7 +2669,7 @@
       "OneTavernID": 3023,
       "TenTavernID": 3024,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2467,7 +2683,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 69,
       "TavernUpHeroASR": {
-        "$arrayRef": 78222
+        "$arrayRef": 78450
       },
       "UpHeroName": "17870841917279265509",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2477,7 +2693,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3013,
@@ -2486,7 +2703,7 @@
       "OneTavernID": 3025,
       "TenTavernID": 3026,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2500,7 +2717,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 81,
       "TavernUpHeroASR": {
-        "$arrayRef": 78219
+        "$arrayRef": 78447
       },
       "UpHeroName": "6728207170851969800",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2510,7 +2727,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3014,
@@ -2519,7 +2737,7 @@
       "OneTavernID": 3027,
       "TenTavernID": 3028,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2533,7 +2751,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 89,
       "TavernUpHeroASR": {
-        "$arrayRef": 97833
+        "$arrayRef": 98422
       },
       "UpHeroName": "4146411271675621020",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2543,7 +2761,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3015,
@@ -2552,7 +2771,7 @@
       "OneTavernID": 3029,
       "TenTavernID": 3030,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2566,7 +2785,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 70,
       "TavernUpHeroASR": {
-        "$arrayRef": 97828
+        "$arrayRef": 98417
       },
       "UpHeroName": "2113711237118057976",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2576,7 +2795,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3016,
@@ -2585,7 +2805,7 @@
       "OneTavernID": 3031,
       "TenTavernID": 3032,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2599,7 +2819,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 67,
       "TavernUpHeroASR": {
-        "$arrayRef": 97826
+        "$arrayRef": 98415
       },
       "UpHeroName": "12585541174277473670",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2609,7 +2829,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3017,
@@ -2618,7 +2839,7 @@
       "OneTavernID": 3033,
       "TenTavernID": 3034,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2632,7 +2853,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 65,
       "TavernUpHeroASR": {
-        "$arrayRef": 97825
+        "$arrayRef": 98414
       },
       "UpHeroName": "6840191426961225648",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2642,7 +2863,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3018,
@@ -2651,7 +2873,7 @@
       "OneTavernID": 3035,
       "TenTavernID": 3036,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2665,7 +2887,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 68,
       "TavernUpHeroASR": {
-        "$arrayRef": 78220
+        "$arrayRef": 78448
       },
       "UpHeroName": "5964125469580964484",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2675,7 +2897,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3019,
@@ -2684,7 +2907,7 @@
       "OneTavernID": 3037,
       "TenTavernID": 3038,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2698,7 +2921,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 66,
       "TavernUpHeroASR": {
-        "$arrayRef": 78223
+        "$arrayRef": 78451
       },
       "UpHeroName": "10851309803827887333",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2708,7 +2931,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3020,
@@ -2717,7 +2941,7 @@
       "OneTavernID": 3039,
       "TenTavernID": 3040,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2741,7 +2965,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3021,
@@ -2750,7 +2975,7 @@
       "OneTavernID": 3041,
       "TenTavernID": 3042,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2764,7 +2989,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 71,
       "TavernUpHeroASR": {
-        "$arrayRef": 97827
+        "$arrayRef": 98416
       },
       "UpHeroName": "16594765421374330761",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2774,7 +2999,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3022,
@@ -2783,7 +3009,7 @@
       "OneTavernID": 3043,
       "TenTavernID": 3044,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2797,7 +3023,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 57,
       "TavernUpHeroASR": {
-        "$arrayRef": 97823
+        "$arrayRef": 98412
       },
       "UpHeroName": "13620663324447747834",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2807,7 +3033,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3023,
@@ -2816,7 +3043,7 @@
       "OneTavernID": 3045,
       "TenTavernID": 3046,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2830,7 +3057,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 100,
       "TavernUpHeroASR": {
-        "$arrayRef": 75724
+        "$arrayRef": 75909
       },
       "UpHeroName": "10940078782463456213",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2840,7 +3067,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3024,
@@ -2849,7 +3077,7 @@
       "OneTavernID": 3047,
       "TenTavernID": 3048,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2863,7 +3091,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 94,
       "TavernUpHeroASR": {
-        "$arrayRef": 78231
+        "$arrayRef": 78459
       },
       "UpHeroName": "9001754169659937958",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2873,7 +3101,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3025,
@@ -2882,7 +3111,7 @@
       "OneTavernID": 3049,
       "TenTavernID": 3050,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2896,7 +3125,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 77,
       "TavernUpHeroASR": {
-        "$arrayRef": 78232
+        "$arrayRef": 78460
       },
       "UpHeroName": "14654160546878534892",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2906,7 +3135,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3026,
@@ -2915,7 +3145,7 @@
       "OneTavernID": 3051,
       "TenTavernID": 3052,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2929,7 +3159,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 58,
       "TavernUpHeroASR": {
-        "$arrayRef": 97824
+        "$arrayRef": 98413
       },
       "UpHeroName": "3063681973071474998",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2939,7 +3169,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3027,
@@ -2948,7 +3179,7 @@
       "OneTavernID": 3053,
       "TenTavernID": 3054,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2962,7 +3193,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 90,
       "TavernUpHeroASR": {
-        "$arrayRef": 97834
+        "$arrayRef": 98423
       },
       "UpHeroName": "7700715781070576150",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -2972,7 +3203,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3028,
@@ -2981,7 +3213,7 @@
       "OneTavernID": 3055,
       "TenTavernID": 3056,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -2995,7 +3227,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 64,
       "TavernUpHeroASR": {
-        "$arrayRef": 78218
+        "$arrayRef": 78446
       },
       "UpHeroName": "12688072315857956975",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3005,7 +3237,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3029,
@@ -3014,7 +3247,7 @@
       "OneTavernID": 3057,
       "TenTavernID": 3058,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3028,7 +3261,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 60,
       "TavernUpHeroASR": {
-        "$arrayRef": 78217
+        "$arrayRef": 78445
       },
       "UpHeroName": "4631646857781007383",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3038,7 +3271,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3030,
@@ -3047,7 +3281,7 @@
       "OneTavernID": 3059,
       "TenTavernID": 3060,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3061,7 +3295,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 52,
       "TavernUpHeroASR": {
-        "$arrayRef": 78216
+        "$arrayRef": 78444
       },
       "UpHeroName": "13777020438408693192",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3071,7 +3305,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3031,
@@ -3080,7 +3315,7 @@
       "OneTavernID": 3061,
       "TenTavernID": 3062,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3094,7 +3329,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 83,
       "TavernUpHeroASR": {
-        "$arrayRef": 97832
+        "$arrayRef": 98421
       },
       "UpHeroName": "8339396840851983113",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3104,7 +3339,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3032,
@@ -3113,7 +3349,7 @@
       "OneTavernID": 3063,
       "TenTavernID": 3064,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3127,7 +3363,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 53,
       "TavernUpHeroASR": {
-        "$arrayRef": 97822
+        "$arrayRef": 98411
       },
       "UpHeroName": "11670344019905146494",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3137,7 +3373,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3033,
@@ -3146,7 +3383,7 @@
       "OneTavernID": 3065,
       "TenTavernID": 3066,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3160,7 +3397,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 98,
       "TavernUpHeroASR": {
-        "$arrayRef": 78233
+        "$arrayRef": 78461
       },
       "UpHeroName": "15501581487596315953",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3170,7 +3407,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3034,
@@ -3179,7 +3417,7 @@
       "OneTavernID": 3067,
       "TenTavernID": 3068,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3193,7 +3431,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 102,
       "TavernUpHeroASR": {
-        "$arrayRef": 78234
+        "$arrayRef": 78462
       },
       "UpHeroName": "5920831470418720686",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3203,7 +3441,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3035,
@@ -3212,7 +3451,7 @@
       "OneTavernID": 3069,
       "TenTavernID": 3070,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3226,7 +3465,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 46,
       "TavernUpHeroASR": {
-        "$arrayRef": 78215
+        "$arrayRef": 78443
       },
       "UpHeroName": "9899323363932661798",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3236,7 +3475,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3036,
@@ -3245,7 +3485,7 @@
       "OneTavernID": 3071,
       "TenTavernID": 3072,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3259,7 +3499,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 58,
       "TavernUpHeroASR": {
-        "$arrayRef": 97824
+        "$arrayRef": 98413
       },
       "UpHeroName": "3063681973071474998",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3269,7 +3509,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3037,
@@ -3278,7 +3519,7 @@
       "OneTavernID": 3073,
       "TenTavernID": 3074,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3292,7 +3533,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 82,
       "TavernUpHeroASR": {
-        "$arrayRef": 78225
+        "$arrayRef": 78453
       },
       "UpHeroName": "5496022720275311497",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3302,7 +3543,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3038,
@@ -3311,7 +3553,7 @@
       "OneTavernID": 3075,
       "TenTavernID": 3076,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3325,7 +3567,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 74,
       "TavernUpHeroASR": {
-        "$arrayRef": 78224
+        "$arrayRef": 78452
       },
       "UpHeroName": "10586484117197744077",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3335,7 +3577,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3039,
@@ -3344,7 +3587,7 @@
       "OneTavernID": 3077,
       "TenTavernID": 3078,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3358,7 +3601,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 85,
       "TavernUpHeroASR": {
-        "$arrayRef": 78227
+        "$arrayRef": 78455
       },
       "UpHeroName": "1252179135362819374",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3368,7 +3611,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3040,
@@ -3377,7 +3621,7 @@
       "OneTavernID": 3079,
       "TenTavernID": 3080,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3401,7 +3645,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3041,
@@ -3410,7 +3655,7 @@
       "OneTavernID": 3081,
       "TenTavernID": 3082,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3424,7 +3669,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 86,
       "TavernUpHeroASR": {
-        "$arrayRef": 78228
+        "$arrayRef": 78456
       },
       "UpHeroName": "13330007163601881687",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3434,7 +3679,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3042,
@@ -3443,7 +3689,7 @@
       "OneTavernID": 3083,
       "TenTavernID": 3084,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3457,7 +3703,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 70,
       "TavernUpHeroASR": {
-        "$arrayRef": 97828
+        "$arrayRef": 98417
       },
       "UpHeroName": "2113711237118057976",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3467,7 +3713,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3043,
@@ -3476,7 +3723,7 @@
       "OneTavernID": 3085,
       "TenTavernID": 3086,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3490,7 +3737,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 59,
       "TavernUpHeroASR": {
-        "$arrayRef": 97829
+        "$arrayRef": 98418
       },
       "UpHeroName": "17205400932250281222",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3500,7 +3747,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3044,
@@ -3509,7 +3757,7 @@
       "OneTavernID": 3087,
       "TenTavernID": 3088,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3523,7 +3771,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 87,
       "TavernUpHeroASR": {
-        "$arrayRef": 78229
+        "$arrayRef": 78457
       },
       "UpHeroName": "5443929833878138046",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3533,7 +3781,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3045,
@@ -3542,7 +3791,7 @@
       "OneTavernID": 3089,
       "TenTavernID": 3090,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3556,7 +3805,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 56,
       "TavernUpHeroASR": {
-        "$arrayRef": 78221
+        "$arrayRef": 78449
       },
       "UpHeroName": "1672696213193198901",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3566,7 +3815,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3046,
@@ -3575,7 +3825,7 @@
       "OneTavernID": 3091,
       "TenTavernID": 3092,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3589,7 +3839,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 95,
       "TavernUpHeroASR": {
-        "$arrayRef": 97835
+        "$arrayRef": 98424
       },
       "UpHeroName": "8872635953880126912",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3599,7 +3849,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3047,
@@ -3608,7 +3859,7 @@
       "OneTavernID": 3093,
       "TenTavernID": 3094,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3622,7 +3873,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 80,
       "TavernUpHeroASR": {
-        "$arrayRef": 97831
+        "$arrayRef": 98420
       },
       "UpHeroName": "8341013082289924911",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3632,7 +3883,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3048,
@@ -3641,7 +3893,7 @@
       "OneTavernID": 3095,
       "TenTavernID": 3096,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3665,7 +3917,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3049,
@@ -3674,7 +3927,7 @@
       "OneTavernID": 3097,
       "TenTavernID": 3098,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3688,7 +3941,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 88,
       "TavernUpHeroASR": {
-        "$arrayRef": 78230
+        "$arrayRef": 78458
       },
       "UpHeroName": "5034088150813196097",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3698,7 +3951,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3050,
@@ -3707,7 +3961,7 @@
       "OneTavernID": 3099,
       "TenTavernID": 3100,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3721,7 +3975,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 68,
       "TavernUpHeroASR": {
-        "$arrayRef": 78220
+        "$arrayRef": 78448
       },
       "UpHeroName": "5964125469580964484",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3731,7 +3985,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3051,
@@ -3740,7 +3995,7 @@
       "OneTavernID": 3101,
       "TenTavernID": 3102,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3754,7 +4009,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 81,
       "TavernUpHeroASR": {
-        "$arrayRef": 78219
+        "$arrayRef": 78447
       },
       "UpHeroName": "6728207170851969800",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3764,7 +4019,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3052,
@@ -3773,7 +4029,7 @@
       "OneTavernID": 3103,
       "TenTavernID": 3104,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3787,7 +4043,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 103,
       "TavernUpHeroASR": {
-        "$arrayRef": 78235
+        "$arrayRef": 78463
       },
       "UpHeroName": "1891785112725929171",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3797,7 +4053,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3053,
@@ -3806,7 +4063,7 @@
       "OneTavernID": 3105,
       "TenTavernID": 3106,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3820,7 +4077,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 61,
       "TavernUpHeroASR": {
-        "$arrayRef": 97830
+        "$arrayRef": 98419
       },
       "UpHeroName": "17749052978437171752",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3830,7 +4087,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3054,
@@ -3839,7 +4097,7 @@
       "OneTavernID": 3107,
       "TenTavernID": 3108,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3853,7 +4111,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 69,
       "TavernUpHeroASR": {
-        "$arrayRef": 78222
+        "$arrayRef": 78450
       },
       "UpHeroName": "17870841917279265509",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3863,7 +4121,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3055,
@@ -3872,7 +4131,7 @@
       "OneTavernID": 3109,
       "TenTavernID": 3110,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3886,7 +4145,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 89,
       "TavernUpHeroASR": {
-        "$arrayRef": 97833
+        "$arrayRef": 98422
       },
       "UpHeroName": "4146411271675621020",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3896,7 +4155,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 3056,
@@ -3905,7 +4165,7 @@
       "OneTavernID": 3111,
       "TenTavernID": 3112,
       "GuaranteeIDs": {
-        "$arrayRef": 97821
+        "$arrayRef": 98410
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "10077972574533363835",
@@ -3919,7 +4179,7 @@
       "LimitNumber": 999999,
       "TavernUpHeroID": 67,
       "TavernUpHeroASR": {
-        "$arrayRef": 97826
+        "$arrayRef": 98415
       },
       "UpHeroName": "12585541174277473670",
       "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
@@ -3929,7 +4189,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": "4889962769741315380"
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     },
     {
       "PoolID": 4001,
@@ -3938,7 +4199,7 @@
       "OneTavernID": 4001,
       "TenTavernID": 0,
       "GuaranteeIDs": {
-        "$arrayRef": 57233
+        "$arrayRef": 57337
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "16536678244038297827",
@@ -3960,7 +4221,8 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
     },
     {
       "PoolID": 4002,
@@ -3969,7 +4231,7 @@
       "OneTavernID": 4002,
       "TenTavernID": 0,
       "GuaranteeIDs": {
-        "$arrayRef": 66
+        "$arrayRef": 65
       },
       "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
       "PosterSlogan": "16536678244038297827",
@@ -3991,7 +4253,280 @@
       "AddTrustBaseQuality": 0,
       "Trust": 0,
       "Tips": null,
-      "RuleTips": null
+      "RuleTips": null,
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3057,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3113,
+      "TenTavernID": 3114,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_3.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3057,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 3,
+      "TavernUpHeroASR": {
+        "$arrayRef": 139
+      },
+      "UpHeroName": "1237965730843289740",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(3)+ed.ConditionX.ItemCount(501003)<ed.ConditionX.TavernRerunMaxHeroStoneCount(3)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3058,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3115,
+      "TenTavernID": 3116,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_22.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3058,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 22,
+      "TavernUpHeroASR": {
+        "$arrayRef": 98432
+      },
+      "UpHeroName": "9534651038545081169",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(22)+ed.ConditionX.ItemCount(501022)<ed.ConditionX.TavernRerunMaxHeroStoneCount(22)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3059,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3117,
+      "TenTavernID": 3118,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_90.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3059,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 90,
+      "TavernUpHeroASR": {
+        "$arrayRef": 98423
+      },
+      "UpHeroName": "7700715781070576150",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(90)+ed.ConditionX.ItemCount(501090)<ed.ConditionX.TavernRerunMaxHeroStoneCount(90)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3060,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3119,
+      "TenTavernID": 3120,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_94.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3060,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 94,
+      "TavernUpHeroASR": {
+        "$arrayRef": 78459
+      },
+      "UpHeroName": "9001754169659937958",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(94)+ed.ConditionX.ItemCount(501094)<ed.ConditionX.TavernRerunMaxHeroStoneCount(94)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3061,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3121,
+      "TenTavernID": 3122,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_57.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3061,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 57,
+      "TavernUpHeroASR": {
+        "$arrayRef": 98412
+      },
+      "UpHeroName": "13620663324447747834",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(57)+ed.ConditionX.ItemCount(501057)<ed.ConditionX.TavernRerunMaxHeroStoneCount(57)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3062,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3123,
+      "TenTavernID": 3124,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_66.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3062,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 66,
+      "TavernUpHeroASR": {
+        "$arrayRef": 78451
+      },
+      "UpHeroName": "10851309803827887333",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(66)+ed.ConditionX.ItemCount(501066)<ed.ConditionX.TavernRerunMaxHeroStoneCount(66)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3063,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3125,
+      "TenTavernID": 3126,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_123.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3063,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 123,
+      "TavernUpHeroASR": {
+        "$arrayRef": 78464
+      },
+      "UpHeroName": "13252742172956940385",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(123)+ed.ConditionX.ItemCount(501123)<ed.ConditionX.TavernRerunMaxHeroStoneCount(123)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
+    },
+    {
+      "PoolID": 3064,
+      "PoolType": 6,
+      "PoolName": "15257446952053473558",
+      "OneTavernID": 3127,
+      "TenTavernID": 3128,
+      "GuaranteeIDs": {
+        "$arrayRef": 98410
+      },
+      "PosterBg": "UI/Sprites/Common/spui_bg_btn.png",
+      "PosterSlogan": "10077972574533363835",
+      "BannerPic": "UI/Icon/Hero/spui_herohead_83.png",
+      "QualityPic1": "UI/Textures/Tavern/spui_quality_hero_txt_orange.png",
+      "QualityPic2": "UI/Textures/Tavern/spui_quality_hero_txt_purple.png",
+      "WishHeroExclude": 0,
+      "GuaranteeDisplay": 0,
+      "AwardPreview": {},
+      "ProbDesGroupID": 3064,
+      "LimitNumber": 999999,
+      "TavernUpHeroID": 83,
+      "TavernUpHeroASR": {
+        "$arrayRef": 98421
+      },
+      "UpHeroName": "8339396840851983113",
+      "UnlockCondition": "ed.ConditionX.Counter(25)>=400",
+      "UnlockNote": "12456739671005243237",
+      "DrawCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(83)+ed.ConditionX.ItemCount(501083)<ed.ConditionX.TavernRerunMaxHeroStoneCount(83)",
+      "DrawUnlockNote": "已到达可招募的最高品阶。",
+      "AddTrustBaseQuality": 0,
+      "Trust": 0,
+      "Tips": null,
+      "RuleTips": "4889962769741315380",
+      "DrawTips": null
     }
   ]
 }

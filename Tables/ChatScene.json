@@ -4,7 +4,7 @@
     "header_table": "ChatSceneHeaderTable",
     "format": "flat_rows",
     "schema_size": 11,
-    "row_count": 20,
+    "row_count": 22,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -41,7 +41,9 @@
     "ed.GuildWarPerformanceView",
     "ed.ActivityTherapyBg",
     "ed.HSMidAutumnMainView",
-    "ed.TowerRaidTeamView"
+    "ed.TowerRaidTeamView",
+    "ed.DraftWatcherMainView",
+    "ed.DraftFighterPickView"
   ],
   "rows": [
     {
@@ -276,7 +278,7 @@
       "ChannelDisplay7": 10,
       "IsAdsorb": false,
       "IsJump": true,
-      "PriorityChannel": -1
+      "PriorityChannel": null
     },
     {
       "Scene": "ed.HSMidAutumnMainView",
@@ -301,6 +303,32 @@
       "ChannelDisplay6": 7,
       "ChannelDisplay7": 10,
       "IsAdsorb": false,
+      "IsJump": true,
+      "PriorityChannel": null
+    },
+    {
+      "Scene": "ed.DraftWatcherMainView",
+      "ChannelDisplay1": 13,
+      "ChannelDisplay2": null,
+      "ChannelDisplay3": null,
+      "ChannelDisplay4": null,
+      "ChannelDisplay5": null,
+      "ChannelDisplay6": null,
+      "ChannelDisplay7": null,
+      "IsAdsorb": true,
+      "IsJump": true,
+      "PriorityChannel": null
+    },
+    {
+      "Scene": "ed.DraftFighterPickView",
+      "ChannelDisplay1": 13,
+      "ChannelDisplay2": null,
+      "ChannelDisplay3": null,
+      "ChannelDisplay4": null,
+      "ChannelDisplay5": null,
+      "ChannelDisplay6": null,
+      "ChannelDisplay7": null,
+      "IsAdsorb": true,
       "IsJump": true,
       "PriorityChannel": null
     }

@@ -4,12 +4,12 @@
     "header_table": "BattleLimitHeaderTable",
     "format": "flat_rows",
     "schema_size": 13,
-    "row_count": 216,
+    "row_count": 218,
     "array_fields": [
       "TargetParam",
       "TriggerParam"
     ],
-    "unresolved_array_refs": 265
+    "unresolved_array_refs": 268
   },
   "default": {
     "ID": "null",
@@ -129,6 +129,8 @@
     1044,
     1045,
     1046,
+    1047,
+    1048,
     2001,
     2002,
     2003,
@@ -256,7 +258,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69020
+        "$arrayRef": 69121
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -269,13 +271,13 @@
       "TargetType": "Slot",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 44827
+        "$arrayRef": 44835
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69021
+        "$arrayRef": 69122
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -305,7 +307,7 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 34625
+        "$arrayRef": 34633
       },
       "TargetParamS": null,
       "TriggerType": "death",
@@ -326,7 +328,7 @@
       "TriggerType": "alive_num",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -339,13 +341,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 60
+        "$arrayRef": 59
       },
       "TargetParamS": null,
       "TriggerType": "damage",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 69022
+        "$arrayRef": 69123
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -362,7 +364,7 @@
       "TriggerType": "ult_count",
       "TriggerCompare": null,
       "TriggerParam": {
-        "$arrayRef": 62
+        "$arrayRef": 61
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -375,7 +377,7 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TargetParamS": null,
       "TriggerType": "death",
@@ -392,13 +394,13 @@
       "TargetType": "Slot",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -415,7 +417,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "greater",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -462,7 +464,7 @@
       "TriggerType": "alive_num",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -509,7 +511,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -526,7 +528,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -543,7 +545,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -560,7 +562,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -577,7 +579,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -594,7 +596,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -611,7 +613,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -628,7 +630,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -645,7 +647,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -662,7 +664,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -679,7 +681,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -696,7 +698,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -713,7 +715,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -730,7 +732,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -747,7 +749,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -764,7 +766,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -781,7 +783,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -798,7 +800,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -815,7 +817,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -832,7 +834,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -849,7 +851,7 @@
       "TriggerType": "different",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -866,7 +868,7 @@
       "TriggerType": "different",
       "TriggerCompare": "equal",
       "TriggerParam": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -883,7 +885,7 @@
       "TriggerType": "different",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -900,7 +902,7 @@
       "TriggerType": "different",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -917,7 +919,7 @@
       "TriggerType": "unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -934,7 +936,7 @@
       "TriggerType": "ult_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -951,7 +953,7 @@
       "TriggerType": "fast_kill",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 69023
+        "$arrayRef": 69124
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -986,7 +988,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1003,7 +1005,7 @@
       "TriggerType": "fast_wipe",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1020,7 +1022,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1037,7 +1039,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1054,7 +1056,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 8210
+        "$arrayRef": 8219
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1071,7 +1073,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 67
+        "$arrayRef": 66
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1105,7 +1107,7 @@
       "TriggerType": "ult_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1122,7 +1124,7 @@
       "TriggerType": "crit_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 1429
+        "$arrayRef": 1439
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1139,7 +1141,7 @@
       "TriggerType": "all_alive_num",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1156,7 +1158,7 @@
       "TriggerType": "unit_id",
       "TriggerCompare": "contains",
       "TriggerParam": {
-        "$arrayRef": 438
+        "$arrayRef": 448
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1173,7 +1175,7 @@
       "TriggerType": "unit_id",
       "TriggerCompare": "contains",
       "TriggerParam": {
-        "$arrayRef": 69024
+        "$arrayRef": 69125
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1190,7 +1192,7 @@
       "TriggerType": "fairy_id",
       "TriggerCompare": "contains",
       "TriggerParam": {
-        "$arrayRef": 62
+        "$arrayRef": 61
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1224,7 +1226,7 @@
       "TriggerType": "alive_num",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1241,7 +1243,7 @@
       "TriggerType": "alive_num",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1254,13 +1256,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 57867
+        "$arrayRef": 57972
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1277,7 +1279,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1294,7 +1296,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1307,13 +1309,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 69006
+        "$arrayRef": 69107
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69021
+        "$arrayRef": 69122
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1326,13 +1328,13 @@
       "TargetType": "Slot",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 60
+        "$arrayRef": 59
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -1345,13 +1347,13 @@
       "TargetType": "Slot",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 60
+        "$arrayRef": 59
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -1370,7 +1372,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1389,7 +1391,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1402,13 +1404,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2436
+        "$arrayRef": 2445
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3026
+        "$arrayRef": 3035
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1421,13 +1423,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 12273
+        "$arrayRef": 12280
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1459,13 +1461,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69021
+        "$arrayRef": 69122
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1478,13 +1480,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2038
+        "$arrayRef": 2047
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1497,13 +1499,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 60
+        "$arrayRef": 59
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1516,13 +1518,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2100
+        "$arrayRef": 2109
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1535,13 +1537,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2102
+        "$arrayRef": 2111
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1554,13 +1556,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 63
+        "$arrayRef": 62
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1579,7 +1581,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1592,13 +1594,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2132
+        "$arrayRef": 2141
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1611,13 +1613,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2100
+        "$arrayRef": 2109
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1636,7 +1638,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -1649,13 +1651,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 69007
+        "$arrayRef": 69108
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1668,13 +1670,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 69008
+        "$arrayRef": 69109
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69021
+        "$arrayRef": 69122
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1687,13 +1689,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2770
+        "$arrayRef": 2779
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69021
+        "$arrayRef": 69122
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1706,13 +1708,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2770
+        "$arrayRef": 2779
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1725,13 +1727,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 1447
+        "$arrayRef": 1457
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69025
+        "$arrayRef": 69126
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1744,13 +1746,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 20286
+        "$arrayRef": 20294
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69026
+        "$arrayRef": 69127
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1763,13 +1765,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 2436
+        "$arrayRef": 2445
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69027
+        "$arrayRef": 69128
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1782,13 +1784,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 69009
+        "$arrayRef": 69110
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69027
+        "$arrayRef": 69128
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1801,13 +1803,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 55383
+        "$arrayRef": 55485
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1826,7 +1828,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69021
+        "$arrayRef": 69122
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1839,13 +1841,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 4654
+        "$arrayRef": 4663
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69027
+        "$arrayRef": 69128
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1862,7 +1864,7 @@
       "TriggerType": "alive_num",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1881,7 +1883,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69021
+        "$arrayRef": 69122
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1894,13 +1896,13 @@
       "TargetType": "Slot",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 63
+        "$arrayRef": 62
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -1913,13 +1915,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69005
+        "$arrayRef": 69106
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1932,13 +1934,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 44748
+        "$arrayRef": 44756
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69026
+        "$arrayRef": 69127
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1951,13 +1953,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 44766
+        "$arrayRef": 44774
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 69028
+        "$arrayRef": 69129
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1970,13 +1972,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 69010
+        "$arrayRef": 69111
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3026
+        "$arrayRef": 3035
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -1989,13 +1991,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 44777
+        "$arrayRef": 44785
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3026
+        "$arrayRef": 3035
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2014,7 +2016,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3026
+        "$arrayRef": 3035
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2027,13 +2029,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 20405
+        "$arrayRef": 20413
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 3025
+        "$arrayRef": 3034
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2050,10 +2052,48 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "TriggerParamS": null,
       "ResultType": false,
+      "Icon": null
+    },
+    {
+      "ID": 1047,
+      "Des": "敌方首领血量<=50%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "$arrayRef": 55091
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69106
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
+      "Icon": null
+    },
+    {
+      "ID": 1048,
+      "Des": "敌方首领血量<=10%胜利（不用翻译）",
+      "CanShow": false,
+      "TargetType": "ID",
+      "TargetCamp": -1,
+      "TargetParam": {
+        "1": 3069
+      },
+      "TargetParamS": null,
+      "TriggerType": "unit_hpr",
+      "TriggerCompare": "less_equal",
+      "TriggerParam": {
+        "$arrayRef": 69126
+      },
+      "TriggerParamS": null,
+      "ResultType": true,
       "Icon": null
     },
     {
@@ -2067,7 +2107,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 67
+        "$arrayRef": 66
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2084,7 +2124,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2101,7 +2141,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1436
+        "$arrayRef": 1446
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2118,7 +2158,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2135,7 +2175,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1447
+        "$arrayRef": 1457
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2152,7 +2192,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2186,7 +2226,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2203,7 +2243,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1582
+        "$arrayRef": 1591
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2220,7 +2260,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2237,7 +2277,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2267,13 +2307,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 394
+        "$arrayRef": 404
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2286,13 +2326,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2322,13 +2362,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 49
+        "$arrayRef": 48
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2345,7 +2385,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1582
+        "$arrayRef": 1591
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2362,7 +2402,7 @@
       "TriggerType": "win_alive_num",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2379,7 +2419,7 @@
       "TriggerType": "win_alive_num",
       "TriggerCompare": "equal",
       "TriggerParam": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2396,7 +2436,7 @@
       "TriggerType": "win_alive_num",
       "TriggerCompare": "equal",
       "TriggerParam": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2413,7 +2453,7 @@
       "TriggerType": "win_alive_num",
       "TriggerCompare": "equal",
       "TriggerParam": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2430,7 +2470,7 @@
       "TriggerType": "win_alive_num",
       "TriggerCompare": "equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2447,7 +2487,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2464,7 +2504,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2481,7 +2521,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 5828
+        "$arrayRef": 5837
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2498,7 +2538,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 1447
+        "$arrayRef": 1457
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2515,7 +2555,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 1582
+        "$arrayRef": 1591
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2534,7 +2574,7 @@
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2547,13 +2587,13 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 423
+        "$arrayRef": 433
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -2570,7 +2610,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2407
+        "$arrayRef": 2416
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2587,7 +2627,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2442
+        "$arrayRef": 2451
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2604,7 +2644,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 8210
+        "$arrayRef": 8219
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2621,7 +2661,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2436
+        "$arrayRef": 2445
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2638,7 +2678,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2655,7 +2695,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2407
+        "$arrayRef": 2416
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2706,7 +2746,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 67
+        "$arrayRef": 66
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2723,7 +2763,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2757,7 +2797,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2436
+        "$arrayRef": 2445
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2774,7 +2814,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2436
+        "$arrayRef": 2445
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2791,7 +2831,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2808,7 +2848,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2407
+        "$arrayRef": 2416
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2825,7 +2865,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2842,7 +2882,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 8210
+        "$arrayRef": 8219
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2859,7 +2899,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 67
+        "$arrayRef": 66
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2893,7 +2933,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2436
+        "$arrayRef": 2445
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2910,7 +2950,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2927,7 +2967,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2978,7 +3018,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 8210
+        "$arrayRef": 8219
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -2995,7 +3035,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2932
+        "$arrayRef": 2941
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3012,7 +3052,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 1436
+        "$arrayRef": 1446
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3029,7 +3069,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3080,7 +3120,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 58
+        "$arrayRef": 57
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3131,7 +3171,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2442
+        "$arrayRef": 2451
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3148,7 +3188,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 67
+        "$arrayRef": 66
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3165,7 +3205,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 1447
+        "$arrayRef": 1457
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3182,7 +3222,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3216,7 +3256,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 62
+        "$arrayRef": 61
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3284,7 +3324,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3301,7 +3341,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2442
+        "$arrayRef": 2451
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3318,7 +3358,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 8210
+        "$arrayRef": 8219
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3326,7 +3366,7 @@
     },
     {
       "ID": 3060,
-      "Des": "（不用翻译）163-关卡1-击杀数1 -正常（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡1-击杀数1 -正常",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
@@ -3335,7 +3375,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2407
+        "$arrayRef": 57
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3343,7 +3383,7 @@
     },
     {
       "ID": 3061,
-      "Des": "（不用翻译）163-关卡1-击杀数2 -正常（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡1-击杀数2 -正常",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
@@ -3352,7 +3392,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2442
+        "$arrayRef": 2445
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3360,7 +3400,7 @@
     },
     {
       "ID": 3062,
-      "Des": "（不用翻译）163-关卡1-击杀数3 -正常（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡1-击杀数3 -正常",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
@@ -3369,7 +3409,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 8210
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3377,7 +3417,7 @@
     },
     {
       "ID": 3063,
-      "Des": "（不用翻译）163-关卡2-击杀数1 -递进（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡2-击杀数1 -递进",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
@@ -3386,7 +3426,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2436
+        "$arrayRef": 182
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3394,7 +3434,7 @@
     },
     {
       "ID": 3064,
-      "Des": "（不用翻译）163-关卡2-击杀数2 -递进（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡2-击杀数2 -递进",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
@@ -3403,7 +3443,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2402
+        "$arrayRef": 189
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3411,7 +3451,7 @@
     },
     {
       "ID": 3065,
-      "Des": "（不用翻译）163-关卡2-击杀数3 -递进（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡2-击杀数3 -递进",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
@@ -3420,7 +3460,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 2407
+        "$arrayRef": 201
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3428,16 +3468,16 @@
     },
     {
       "ID": 3066,
-      "Des": "（不用翻译）163-关卡3-击杀数1 -蜂群（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡3-战场时间1 ≥ x",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
       "TargetParam": {},
       "TargetParamS": null,
-      "TriggerType": "death_count",
+      "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 193
+        "$arrayRef": 2411
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3445,16 +3485,16 @@
     },
     {
       "ID": 3067,
-      "Des": "（不用翻译）163-关卡3-击杀数2 -蜂群（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡3-战场时间2 ≥ x",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
       "TargetParam": {},
       "TargetParamS": null,
-      "TriggerType": "death_count",
+      "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 196
+        "$arrayRef": 2416
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3462,16 +3502,16 @@
     },
     {
       "ID": 3068,
-      "Des": "（不用翻译）163-关卡3-击杀数3 -蜂群（ID、内容占位）",
+      "Des": "（不用翻译）163-关卡3-战场时间3 ≥ x",
       "CanShow": false,
       "TargetType": null,
       "TargetCamp": -1,
       "TargetParam": {},
       "TargetParamS": null,
-      "TriggerType": "death_count",
+      "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 67
+        "$arrayRef": 2451
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3484,7 +3524,7 @@
       "TargetType": "Slot",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "TargetParamS": null,
       "TriggerType": "death",
@@ -3501,7 +3541,7 @@
       "TargetType": "Slot",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 49
+        "$arrayRef": 48
       },
       "TargetParamS": null,
       "TriggerType": "death",
@@ -3518,7 +3558,7 @@
       "TargetType": "Slot",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TargetParamS": null,
       "TriggerType": "death",
@@ -3535,7 +3575,7 @@
       "TargetType": "Slot",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TargetParamS": null,
       "TriggerType": "death",
@@ -3556,7 +3596,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3573,7 +3613,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "greater_equal",
       "TriggerParam": {
-        "$arrayRef": 1436
+        "$arrayRef": 1446
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -3590,7 +3630,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 62
+        "$arrayRef": 61
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3607,7 +3647,7 @@
       "TriggerType": "death_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3624,7 +3664,7 @@
       "TriggerType": "elapsed_time",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1582
+        "$arrayRef": 1591
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3641,7 +3681,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3658,7 +3698,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3675,7 +3715,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3692,7 +3732,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3709,7 +3749,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3726,7 +3766,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3743,7 +3783,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3760,7 +3800,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3777,7 +3817,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3794,7 +3834,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3811,7 +3851,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3828,7 +3868,7 @@
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3841,13 +3881,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69011
+        "$arrayRef": 69112
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3860,13 +3900,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69012
+        "$arrayRef": 69113
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3879,13 +3919,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69013
+        "$arrayRef": 69114
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3898,13 +3938,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69014
+        "$arrayRef": 69115
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3917,13 +3957,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69015
+        "$arrayRef": 69116
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3936,13 +3976,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69016
+        "$arrayRef": 69117
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3955,13 +3995,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69017
+        "$arrayRef": 69118
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3974,13 +4014,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 69018
+        "$arrayRef": 69119
       },
       "TargetParamS": null,
       "TriggerType": "tournament_unit_count",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": true,
@@ -3993,13 +4033,13 @@
       "TargetType": "ID",
       "TargetCamp": 1,
       "TargetParam": {
-        "$arrayRef": 2442
+        "$arrayRef": 2451
       },
       "TargetParamS": null,
       "TriggerType": "unit_hpr",
       "TriggerCompare": "less_equal",
       "TriggerParam": {
-        "$arrayRef": 1459
+        "$arrayRef": 1468
       },
       "TriggerParamS": null,
       "ResultType": false,
@@ -4012,7 +4052,7 @@
       "TargetType": "ID",
       "TargetCamp": -1,
       "TargetParam": {
-        "$arrayRef": 69019
+        "$arrayRef": 69120
       },
       "TargetParamS": null,
       "TriggerType": "death",
