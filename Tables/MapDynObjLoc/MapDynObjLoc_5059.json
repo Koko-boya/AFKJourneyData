@@ -1,18 +1,40 @@
 {
   "_meta": {
-    "table": "MapDynObjLoc",
-    "source_table": "MapDynObjLoc",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapDynObjLoc_5059",
+    "header_table": "MapDynObjLoc_5059HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapDynObjLoc_5059HeaderTable": {
-      "ID": 0,
-      "Loc": 1,
-      "ZoneID": 2,
-      "Rotation": 3,
-      "Deviation": 4,
-      "Mode": 5
+  "default": {
+    "ID": "null",
+    "Loc": 0,
+    "ZoneID": 0,
+    "Rotation": null,
+    "Deviation": null,
+    "Mode": null
+  },
+  "row_keys": [
+    74
+  ],
+  "rows": [
+    {
+      "ID": 74,
+      "Loc": 200018,
+      "ZoneID": 1,
+      "Rotation": 1,
+      "Deviation": {
+        "posdeviation": {
+          "x": -195,
+          "y": 699,
+          "z": 0
+        },
+        "rotdeviation": 0,
+        "scale": 100
+      },
+      "Mode": "DynGroup22"
     }
-  }
+  ]
 }

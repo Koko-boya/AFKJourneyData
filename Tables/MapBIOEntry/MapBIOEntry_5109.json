@@ -1,26 +1,272 @@
 {
   "_meta": {
-    "table": "MapBIOEntry",
-    "source_table": "MapBIOEntry",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapBIOEntry_5109",
+    "header_table": "MapBIOEntry_5109HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 14,
+    "row_count": 9,
+    "array_fields": [
+      "Rot"
+    ],
+    "unresolved_array_refs": 2
   },
-  "data": {
-    "MapBIOEntry_5109HeaderTable": {
-      "ID": 0,
-      "DefinitionID": 1,
-      "TreeName": 2,
-      "WorldPos": 3,
-      "Rot": 4,
-      "Scale": 5,
-      "Radius": 6,
-      "LogicItem": 7,
-      "DefaultActive": 8,
-      "Chunk": 9,
-      "PathID": 10,
-      "AnimTrigger": 11,
-      "ReversePath": 12,
-      "DoPathOnAwake": 13
+  "default": {
+    "ID": "null",
+    "DefinitionID": 0,
+    "TreeName": null,
+    "WorldPos": {},
+    "Rot": {},
+    "Scale": 0,
+    "Radius": 0,
+    "LogicItem": null,
+    "DefaultActive": false,
+    "Chunk": {},
+    "PathID": 0,
+    "AnimTrigger": null,
+    "ReversePath": false,
+    "DoPathOnAwake": false
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "DefinitionID": 637,
+      "TreeName": "pbsc_char_wild_magicnote",
+      "WorldPos": {
+        "1": 176.6,
+        "2": 31.5,
+        "3": 217.7
+      },
+      "Rot": {
+        "1": 0,
+        "2": 214.4389,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 5006
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 2,
+      "DefinitionID": 637,
+      "TreeName": "pbsc_char_wild_magicnote",
+      "WorldPos": {
+        "1": 167.9,
+        "2": 29.04,
+        "3": 223.7
+      },
+      "Rot": {
+        "1": 0,
+        "2": 167.6597,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 4006
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 3,
+      "DefinitionID": 734,
+      "TreeName": "pbsc_char_wild_magicbroom",
+      "WorldPos": {
+        "1": 116.48,
+        "2": 20.75,
+        "3": 189.71
+      },
+      "Rot": {
+        "1": 0,
+        "2": 275.7852,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 3005
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 4,
+      "DefinitionID": 734,
+      "TreeName": "pbsc_char_wild_magicbroom",
+      "WorldPos": {
+        "1": 119.5705,
+        "2": 20.75,
+        "3": 186.6774
+      },
+      "Rot": {
+        "$arrayRef": 72046
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 3005
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 5,
+      "DefinitionID": 637,
+      "TreeName": "pbsc_char_wild_magicnote",
+      "WorldPos": {
+        "1": 130,
+        "2": 25.6,
+        "3": 151
+      },
+      "Rot": {
+        "1": 0,
+        "2": 128.8219,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 3004
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 6,
+      "DefinitionID": 738,
+      "TreeName": "pbsc_char_wild_flybook_01",
+      "WorldPos": {
+        "1": 195.7,
+        "2": 39.3,
+        "3": 182.1
+      },
+      "Rot": {
+        "1": 25.41338,
+        "2": 306.3482,
+        "3": 358.8469
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 5005
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 7,
+      "DefinitionID": 738,
+      "TreeName": "pbsc_char_wild_flybook_01",
+      "WorldPos": {
+        "1": 173.8,
+        "2": 11.5,
+        "3": 184.8
+      },
+      "Rot": {
+        "1": 20.69891,
+        "2": 0,
+        "3": 337.7348
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 5005
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 8,
+      "DefinitionID": 740,
+      "TreeName": "pbsc_char_wild_flybook_02",
+      "WorldPos": {
+        "1": 177.4,
+        "2": 43.4,
+        "3": 139.3
+      },
+      "Rot": {
+        "1": 359.8922,
+        "2": 329.9926,
+        "3": 342.3131
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 5004
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 9,
+      "DefinitionID": 738,
+      "TreeName": "pbsc_char_wild_flybook_01",
+      "WorldPos": {
+        "1": 165,
+        "2": 11.34,
+        "3": 170.16
+      },
+      "Rot": {
+        "$arrayRef": 72046
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 4005
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
     }
-  }
+  ]
 }

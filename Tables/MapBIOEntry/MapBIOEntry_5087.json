@@ -1,26 +1,85 @@
 {
   "_meta": {
-    "table": "MapBIOEntry",
-    "source_table": "MapBIOEntry",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapBIOEntry_5087",
+    "header_table": "MapBIOEntry_5087HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 14,
+    "row_count": 2,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapBIOEntry_5087HeaderTable": {
-      "ID": 0,
-      "DefinitionID": 1,
-      "TreeName": 2,
-      "WorldPos": 3,
-      "Rot": 4,
-      "Scale": 5,
-      "Radius": 6,
-      "LogicItem": 7,
-      "DefaultActive": 8,
-      "Chunk": 9,
-      "PathID": 10,
-      "AnimTrigger": 11,
-      "ReversePath": 12,
-      "DoPathOnAwake": 13
+  "default": {
+    "ID": "null",
+    "DefinitionID": 0,
+    "TreeName": null,
+    "WorldPos": {},
+    "Rot": {},
+    "Scale": 0,
+    "Radius": 0,
+    "LogicItem": null,
+    "DefaultActive": false,
+    "Chunk": {},
+    "PathID": 0,
+    "AnimTrigger": null,
+    "ReversePath": false,
+    "DoPathOnAwake": false
+  },
+  "row_keys": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "DefinitionID": 609,
+      "TreeName": "pbsc_char_wild_eviluss",
+      "WorldPos": {
+        "1": 36.055,
+        "2": 0.029,
+        "3": 66.678
+      },
+      "Rot": {
+        "1": 0,
+        "2": 125.6617,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 1001
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 2,
+      "DefinitionID": 610,
+      "TreeName": "pbsc_char_wild_eviluss",
+      "WorldPos": {
+        "1": 37.241,
+        "2": 0.03027344,
+        "3": 67.426
+      },
+      "Rot": {
+        "1": 0,
+        "2": 222.7482,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 1001
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
     }
-  }
+  ]
 }

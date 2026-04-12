@@ -1,14 +1,92 @@
 {
   "_meta": {
-    "table": "MapTransferPoint",
-    "source_table": "MapTransferPoint",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapTransferPoint_11",
+    "header_table": "MapTransferPoint_11HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 2,
+    "row_count": 9,
+    "array_fields": [
+      "Deviation"
+    ],
+    "unresolved_array_refs": 1
   },
-  "data": {
-    "MapTransferPoint_11HeaderTable": {
-      "ObjectID": 0,
-      "Deviation": 1
+  "default": {
+    "ObjectID": "null",
+    "Deviation": {}
+  },
+  "row_keys": [
+    1100684,
+    1100682,
+    1100692,
+    1100688,
+    1100686,
+    1100690,
+    1100419,
+    1102682,
+    1103356
+  ],
+  "rows": [
+    {
+      "ObjectID": 1100684,
+      "Deviation": {
+        "1": 0.53,
+        "2": -1.15
+      }
+    },
+    {
+      "ObjectID": 1100682,
+      "Deviation": {
+        "1": -1.81,
+        "2": -0.85
+      }
+    },
+    {
+      "ObjectID": 1100692,
+      "Deviation": {
+        "1": 1.01,
+        "2": -2.16
+      }
+    },
+    {
+      "ObjectID": 1100688,
+      "Deviation": {
+        "1": 1.39,
+        "2": -2.98
+      }
+    },
+    {
+      "ObjectID": 1100686,
+      "Deviation": {
+        "1": 1.21,
+        "2": -2.6
+      }
+    },
+    {
+      "ObjectID": 1100690,
+      "Deviation": {
+        "1": -3.21,
+        "2": -1.5
+      }
+    },
+    {
+      "ObjectID": 1100419,
+      "Deviation": {
+        "1": 0.29,
+        "2": 4.76
+      }
+    },
+    {
+      "ObjectID": 1102682,
+      "Deviation": {
+        "$arrayRef": 77092
+      }
+    },
+    {
+      "ObjectID": 1103356,
+      "Deviation": {
+        "1": 0,
+        "2": 159.6
+      }
     }
-  }
+  ]
 }

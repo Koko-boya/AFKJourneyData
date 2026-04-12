@@ -1,17 +1,36 @@
 {
   "_meta": {
-    "table": "MapRange",
-    "source_table": "MapRange",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapRange_5070",
+    "header_table": "MapRange_5070HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 1,
+    "array_fields": [
+      "Record"
+    ],
+    "unresolved_array_refs": 1
   },
-  "data": {
-    "MapRange_5070HeaderTable": {
-      "ID": 0,
-      "Type": 1,
-      "Locs": 2,
-      "BindObjs": 3,
-      "Record": 4
+  "default": {
+    "ID": "null",
+    "Type": null,
+    "Locs": {},
+    "BindObjs": {},
+    "Record": {}
+  },
+  "row_keys": [
+    1001
+  ],
+  "rows": [
+    {
+      "ID": 1001,
+      "Type": "BpDataRange",
+      "Locs": {
+        "1": 200023
+      },
+      "BindObjs": {},
+      "Record": {
+        "$arrayRef": 90499
+      }
     }
-  }
+  ]
 }

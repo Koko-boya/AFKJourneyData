@@ -1,19 +1,111 @@
 {
   "_meta": {
-    "table": "MapPath",
-    "source_table": "MapPath",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapPath_5166",
+    "header_table": "MapPath_5166HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 6,
+    "array_fields": [
+      "HeightOffest",
+      "MapPath"
+    ],
+    "unresolved_array_refs": 12
   },
-  "data": {
-    "MapPath_5166HeaderTable": {
-      "ID": 0,
-      "PathType": 1,
-      "MapPath": 2,
-      "HeightOffest": 3,
-      "PointList": 4,
-      "Duration": 5,
-      "Ease": 6
+  "default": {
+    "ID": "null",
+    "PathType": null,
+    "MapPath": {},
+    "HeightOffest": {},
+    "PointList": {},
+    "Duration": 0,
+    "Ease": 0
+  },
+  "row_keys": [
+    101,
+    10101,
+    102,
+    10102,
+    103,
+    10103
+  ],
+  "rows": [
+    {
+      "ID": 101,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "$arrayRef": 93691
+      },
+      "HeightOffest": {
+        "$arrayRef": 77062
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
+    },
+    {
+      "ID": 10101,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "$arrayRef": 93690
+      },
+      "HeightOffest": {
+        "$arrayRef": 77062
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
+    },
+    {
+      "ID": 102,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "$arrayRef": 93688
+      },
+      "HeightOffest": {
+        "$arrayRef": 77062
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
+    },
+    {
+      "ID": 10102,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "$arrayRef": 93689
+      },
+      "HeightOffest": {
+        "$arrayRef": 77062
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
+    },
+    {
+      "ID": 103,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "$arrayRef": 93686
+      },
+      "HeightOffest": {
+        "$arrayRef": 77062
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
+    },
+    {
+      "ID": 10103,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "$arrayRef": 93687
+      },
+      "HeightOffest": {
+        "$arrayRef": 77062
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
     }
-  }
+  ]
 }

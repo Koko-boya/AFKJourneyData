@@ -1,21 +1,46 @@
 {
   "_meta": {
-    "table": "MapAtmosphereNpc",
-    "source_table": "MapAtmosphereNpc",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapAtmosphereNpc_9",
+    "header_table": "MapAtmosphereNpc_9HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapAtmosphereNpc_9HeaderTable": {
-      "ID": 0,
-      "GroupID": 1,
-      "WorldTransform": 2,
-      "FCPath": 3,
-      "PrefabID": 4,
-      "DefaultShow": 5,
-      "TipName": 6,
-      "LogicItem": 7,
-      "Chunk": 8
+  "default": {
+    "ID": "null",
+    "GroupID": null,
+    "WorldTransform": null,
+    "FCPath": null,
+    "PrefabID": 0,
+    "DefaultShow": false,
+    "TipName": null,
+    "LogicItem": null,
+    "Chunk": 0
+  },
+  "row_keys": [
+    3
+  ],
+  "rows": [
+    {
+      "ID": 3,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 540.41998291,
+          "y": 28.19238281,
+          "z": 304.23001099
+        },
+        "rotY": 228.6000061,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 188,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 15008
     }
-  }
+  ]
 }

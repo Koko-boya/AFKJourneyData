@@ -1,19 +1,40 @@
 {
   "_meta": {
-    "table": "MapPath",
-    "source_table": "MapPath",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapPath_4",
+    "header_table": "MapPath_4HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapPath_4HeaderTable": {
-      "ID": 0,
-      "PathType": 1,
-      "MapPath": 2,
-      "HeightOffest": 3,
-      "PointList": 4,
-      "Duration": 5,
-      "Ease": 6
+  "default": {
+    "ID": "null",
+    "PathType": null,
+    "MapPath": {},
+    "HeightOffest": {},
+    "PointList": {},
+    "Duration": 0,
+    "Ease": 0
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "PathType": "Carrier",
+      "MapPath": {
+        "1": 2100383,
+        "2": 2090382,
+        "3": 2080383,
+        "4": 2070383,
+        "5": 2070384
+      },
+      "HeightOffest": {},
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
     }
-  }
+  ]
 }

@@ -1,32 +1,5316 @@
 {
   "_meta": {
-    "table": "BattleStaticUnit",
-    "source_table": "BattleStaticUnit",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "BattleStaticUnit_Ep06World",
+    "header_table": "BattleStaticUnit_Ep06WorldHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 20,
+    "row_count": 196,
+    "array_fields": [
+      "EpEquipInfo",
+      "EquipInfo"
+    ],
+    "unresolved_array_refs": 384
   },
-  "data": {
-    "BattleStaticUnit_Ep06WorldHeaderTable": {
-      "NPCID": 0,
+  "default": {
+    "NPCID": "null",
+    "UnitID": 0,
+    "Level": 0,
+    "EpLevel": 0,
+    "Quality": 0,
+    "BanSkill": {},
+    "Size": 0,
+    "HpMod": 0,
+    "AtkMod": 0,
+    "DefMod": 0,
+    "InitMp": 0,
+    "EquipInfo": {},
+    "EpEquipInfo": {},
+    "EpGem": 0,
+    "IsShowUI": false,
+    "ExclusiveActivated": false,
+    "ExclusiveLv": 0,
+    "SkinID": 0,
+    "IsShowRecommend": false,
+    "IsUseGrowth": false
+  },
+  "row_keys": [
+    1131411,
+    1131412,
+    1131413,
+    1131481,
+    1133441,
+    1133451,
+    1132411,
+    1134410,
+    1134421,
+    1136421,
+    1136422,
+    1136423,
+    1136431,
+    1136432,
+    1136433,
+    1131511,
+    1131512,
+    1134511,
+    1135511,
+    1133461,
+    1133471,
+    1136481,
+    1136491,
+    1136461,
+    1137421,
+    1137431,
+    1137432,
+    1137433,
+    1137441,
+    1137442,
+    1137443,
+    1137451,
+    1137452,
+    1137453,
+    1137471,
+    1137472,
+    1137473,
+    113161,
+    113162,
+    113261,
+    113262,
+    113361,
+    113362,
+    113461,
+    113462,
+    113561,
+    113562,
+    113661,
+    113662,
+    1131030,
+    1131031,
+    1131032,
+    1131033,
+    1131034,
+    1131035,
+    1131036,
+    1131040,
+    1131041,
+    1131042,
+    1131043,
+    1131044,
+    1131045,
+    1131046,
+    1131060,
+    1131061,
+    1131062,
+    1131063,
+    1131064,
+    1131065,
+    1131066,
+    1131210,
+    1131211,
+    1131212,
+    1131213,
+    1131214,
+    1131215,
+    1131216,
+    1131250,
+    1131251,
+    1131252,
+    1131253,
+    1131254,
+    1131255,
+    1131256,
+    1131310,
+    1131311,
+    1131312,
+    1131313,
+    1131314,
+    1131315,
+    1131316,
+    1131320,
+    1131321,
+    1131322,
+    1131323,
+    1131324,
+    1131325,
+    1131326,
+    1131440,
+    1131441,
+    1131442,
+    1131443,
+    1131444,
+    1131445,
+    1131446,
+    1131450,
+    1131451,
+    1131452,
+    1131453,
+    1131454,
+    1131455,
+    1131456,
+    1131710,
+    1131711,
+    1131712,
+    1131713,
+    1131714,
+    1131715,
+    1131716,
+    1134040,
+    1134041,
+    1134042,
+    1134043,
+    1134044,
+    1134045,
+    1134046,
+    1134160,
+    1134161,
+    1134162,
+    1134163,
+    1134164,
+    1134165,
+    1134166,
+    1134180,
+    1134181,
+    1134182,
+    1134183,
+    1134184,
+    1134185,
+    1134186,
+    1134430,
+    1134431,
+    1134432,
+    1134433,
+    1134434,
+    1134435,
+    1134436,
+    1134450,
+    1134451,
+    1134452,
+    1134453,
+    1134454,
+    1134455,
+    1134456,
+    1135020,
+    1135021,
+    1135022,
+    1135023,
+    1135024,
+    1135025,
+    1135026,
+    1135110,
+    1135111,
+    1135112,
+    1135113,
+    1135114,
+    1135115,
+    1135116,
+    1135260,
+    1135261,
+    1135262,
+    1135263,
+    1135264,
+    1135265,
+    1135266,
+    1135410,
+    1135411,
+    1135412,
+    1135413,
+    1135414,
+    1135415,
+    1135416,
+    1135710,
+    1135711,
+    1135712,
+    1135713,
+    1135714,
+    1135715,
+    1135716,
+    1052620,
+    1052621,
+    1052622,
+    1052623,
+    1052624,
+    1052625,
+    1052626
+  ],
+  "rows": [
+    {
+      "NPCID": 1131411,
+      "UnitID": 20,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131412,
+      "UnitID": 21,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131413,
+      "UnitID": 116,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131481,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1133441,
+      "UnitID": 10,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1133451,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1132411,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134410,
+      "UnitID": 99,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134421,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136421,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136422,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136423,
+      "UnitID": 113,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136431,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136432,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136433,
+      "UnitID": 113,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131511,
       "UnitID": 1,
-      "Level": 2,
-      "EpLevel": 3,
-      "Quality": 4,
-      "BanSkill": 5,
-      "Size": 6,
-      "HpMod": 7,
-      "AtkMod": 8,
-      "DefMod": 9,
-      "InitMp": 10,
-      "EquipInfo": 11,
-      "EpEquipInfo": 12,
-      "EpGem": 13,
-      "IsShowUI": 14,
-      "ExclusiveActivated": 15,
-      "ExclusiveLv": 16,
-      "SkinID": 17,
-      "IsShowRecommend": 18,
-      "IsUseGrowth": 19
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {},
+      "EpEquipInfo": {},
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131512,
+      "UnitID": 15,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.5,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {},
+      "EpEquipInfo": {},
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134511,
+      "UnitID": 5,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {},
+      "EpEquipInfo": {},
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135511,
+      "UnitID": 17,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {},
+      "EpEquipInfo": {},
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1133461,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1133471,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136481,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136491,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 71843
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": -1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1136461,
+      "UnitID": 99,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137421,
+      "UnitID": 1633,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137431,
+      "UnitID": 113,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137432,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137433,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137441,
+      "UnitID": 113,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137442,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137443,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137451,
+      "UnitID": 113,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137452,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137453,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137471,
+      "UnitID": 113,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137472,
+      "UnitID": 2,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1137473,
+      "UnitID": 111,
+      "Level": 240,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1.25,
+      "DefMod": 1,
+      "InitMp": 1000,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113161,
+      "UnitID": 4013,
+      "Level": 252,
+      "EpLevel": 12,
+      "Quality": 9,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71928
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113162,
+      "UnitID": 4012,
+      "Level": 252,
+      "EpLevel": 12,
+      "Quality": 9,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71928
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113261,
+      "UnitID": 4008,
+      "Level": 300,
+      "EpLevel": 70,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71929
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113262,
+      "UnitID": 4013,
+      "Level": 300,
+      "EpLevel": 70,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71929
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113361,
+      "UnitID": 4013,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113362,
+      "UnitID": 4011,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113461,
+      "UnitID": 4012,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113462,
+      "UnitID": 4008,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113561,
+      "UnitID": 4008,
+      "Level": 300,
+      "EpLevel": 166,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71931
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113562,
+      "UnitID": 4013,
+      "Level": 300,
+      "EpLevel": 166,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71931
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113661,
+      "UnitID": 4011,
+      "Level": 300,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 113662,
+      "UnitID": 4013,
+      "Level": 300,
+      "EpLevel": 191,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71932
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131030,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131031,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131032,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131033,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131034,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131035,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131036,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131040,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131041,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131042,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131043,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131044,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131045,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131046,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131060,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131061,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131062,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131063,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131064,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131065,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131066,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131210,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131211,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131212,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131213,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131214,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131215,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131216,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131250,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131251,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131252,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131253,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131254,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131255,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131256,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131310,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131311,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131312,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131313,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131314,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131315,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131316,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131320,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131321,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131322,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131323,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131324,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131325,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131326,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131440,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131441,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131442,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131443,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131444,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131445,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131446,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131450,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131451,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131452,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131453,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131454,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131455,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131456,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131710,
+      "UnitID": 20,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131711,
+      "UnitID": 21,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131712,
+      "UnitID": 8018,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131713,
+      "UnitID": 8019,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131714,
+      "UnitID": 8020,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131715,
+      "UnitID": 8021,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1131716,
+      "UnitID": 8022,
+      "Level": 244,
+      "EpLevel": 0,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 2399
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134040,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134041,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134042,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134043,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134044,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134045,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134046,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134160,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134161,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134162,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134163,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134164,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134165,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134166,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134180,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134181,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134182,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134183,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134184,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134185,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134186,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134430,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134431,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134432,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134433,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134434,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134435,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134436,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134450,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134451,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134452,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134453,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134454,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134455,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1134456,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135020,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135021,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135022,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135023,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135024,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135025,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135026,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135110,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135111,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135112,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135113,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135114,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135115,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135116,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135260,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135261,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135262,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135263,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135264,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135265,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135266,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135410,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135411,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135412,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135413,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135414,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135415,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135416,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135710,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135711,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135712,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135713,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135714,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135715,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1135716,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 129,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71926
+      },
+      "EpGem": 1,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1052620,
+      "UnitID": 20,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1052621,
+      "UnitID": 21,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": false,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1052622,
+      "UnitID": 8018,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1052623,
+      "UnitID": 8019,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1052624,
+      "UnitID": 8020,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1052625,
+      "UnitID": 8021,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
+    },
+    {
+      "NPCID": 1052626,
+      "UnitID": 8022,
+      "Level": 300,
+      "EpLevel": 104,
+      "Quality": 10,
+      "BanSkill": {},
+      "Size": 1,
+      "HpMod": 1,
+      "AtkMod": 1,
+      "DefMod": 1,
+      "InitMp": 0,
+      "EquipInfo": {
+        "$arrayRef": 58168
+      },
+      "EpEquipInfo": {
+        "$arrayRef": 71930
+      },
+      "EpGem": 0,
+      "IsShowUI": true,
+      "ExclusiveActivated": false,
+      "ExclusiveLv": 0,
+      "SkinID": 0,
+      "IsShowRecommend": false,
+      "IsUseGrowth": false
     }
-  }
+  ]
 }

@@ -1,21 +1,5110 @@
 {
   "_meta": {
-    "table": "BattleScene",
-    "source_table": "BattleScene",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "BattleScene_Ep03World",
+    "header_table": "BattleScene_Ep03WorldHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 363,
+    "array_fields": [
+      "Rects"
+    ],
+    "unresolved_array_refs": 363
   },
-  "data": {
-    "BattleScene_Ep03WorldHeaderTable": {
-      "BattleSceneID": 0,
-      "SceneName": 1,
-      "BlockTheme": 2,
-      "DesignID": 3,
-      "TerrainName": 4,
-      "Attaches": 5,
-      "Rects": 6,
-      "Volume": 7,
-      "PostEffect": 8
+  "default": {
+    "BattleSceneID": "null",
+    "SceneName": null,
+    "BlockTheme": null,
+    "DesignID": null,
+    "TerrainName": null,
+    "Attaches": {},
+    "Rects": {},
+    "Volume": null,
+    "PostEffect": null
+  },
+  "row_keys": [
+    300101,
+    300102,
+    300103,
+    300104,
+    300105,
+    300106,
+    300107,
+    300108,
+    300109,
+    300110,
+    300111,
+    300112,
+    105201,
+    105202,
+    105203,
+    105204,
+    105205,
+    105206,
+    105207,
+    105208,
+    105209,
+    105210,
+    105211,
+    105212,
+    105213,
+    105214,
+    105215,
+    105216,
+    105217,
+    105218,
+    105219,
+    105220,
+    105221,
+    105222,
+    105223,
+    105224,
+    105225,
+    110100,
+    110101,
+    110102,
+    110103,
+    110104,
+    110105,
+    110106,
+    110107,
+    110108,
+    110109,
+    110116,
+    110117,
+    110118,
+    110119,
+    110120,
+    110121,
+    110122,
+    110123,
+    110124,
+    110125,
+    110126,
+    110127,
+    110128,
+    110129,
+    110130,
+    110131,
+    110132,
+    110133,
+    110134,
+    110135,
+    110151,
+    110152,
+    110161,
+    110162,
+    110171,
+    110172,
+    110181,
+    110182,
+    110183,
+    110141,
+    110142,
+    110143,
+    110144,
+    110145,
+    110200,
+    110201,
+    110202,
+    110203,
+    110204,
+    110205,
+    110206,
+    110216,
+    110217,
+    110218,
+    110219,
+    110225,
+    110226,
+    110231,
+    110232,
+    110233,
+    110251,
+    110252,
+    110261,
+    110262,
+    110263,
+    110271,
+    110272,
+    110281,
+    110282,
+    110241,
+    110242,
+    110243,
+    110244,
+    110245,
+    110246,
+    110247,
+    110248,
+    110249,
+    110300,
+    110301,
+    110302,
+    110303,
+    110304,
+    110305,
+    110306,
+    110307,
+    110316,
+    110317,
+    110318,
+    110319,
+    110320,
+    110325,
+    110331,
+    110332,
+    110333,
+    110351,
+    110352,
+    110361,
+    110362,
+    110371,
+    110372,
+    110381,
+    110382,
+    110341,
+    110342,
+    110343,
+    110344,
+    110345,
+    110346,
+    110347,
+    110348,
+    110349,
+    110350,
+    110400,
+    110401,
+    110402,
+    110403,
+    110404,
+    110405,
+    110406,
+    110407,
+    110408,
+    110409,
+    110410,
+    110416,
+    110417,
+    110418,
+    110419,
+    110420,
+    110421,
+    110425,
+    110431,
+    110432,
+    110433,
+    110451,
+    110452,
+    110461,
+    110462,
+    110471,
+    110472,
+    110481,
+    110482,
+    110441,
+    110442,
+    110443,
+    110444,
+    110445,
+    110446,
+    110447,
+    110500,
+    110501,
+    110502,
+    110503,
+    110504,
+    110505,
+    110506,
+    110507,
+    110508,
+    110516,
+    110517,
+    110518,
+    110519,
+    110520,
+    110521,
+    110525,
+    110526,
+    110531,
+    110532,
+    110533,
+    110551,
+    110552,
+    110561,
+    110562,
+    110563,
+    110571,
+    110572,
+    110581,
+    110582,
+    110541,
+    110542,
+    110543,
+    110544,
+    110545,
+    110546,
+    110600,
+    110601,
+    110602,
+    110603,
+    110604,
+    110605,
+    110606,
+    110607,
+    110608,
+    110616,
+    110617,
+    110618,
+    110619,
+    110620,
+    110625,
+    110631,
+    110632,
+    110651,
+    110652,
+    110661,
+    110662,
+    110671,
+    110672,
+    110681,
+    110682,
+    110641,
+    110642,
+    110643,
+    110700,
+    110701,
+    110702,
+    110703,
+    110704,
+    110705,
+    110706,
+    110707,
+    110708,
+    110709,
+    110710,
+    110711,
+    110712,
+    110713,
+    110716,
+    110717,
+    110718,
+    110719,
+    110720,
+    110721,
+    110725,
+    110731,
+    110732,
+    110733,
+    110751,
+    110752,
+    110761,
+    110762,
+    110771,
+    110772,
+    110781,
+    110782,
+    110741,
+    110742,
+    110743,
+    110744,
+    110745,
+    110746,
+    110747,
+    110748,
+    110749,
+    110800,
+    110801,
+    110802,
+    110803,
+    110804,
+    110805,
+    110806,
+    110807,
+    110816,
+    110817,
+    110818,
+    110819,
+    110820,
+    110825,
+    110826,
+    110831,
+    110832,
+    110833,
+    110851,
+    110852,
+    110861,
+    110862,
+    110863,
+    110871,
+    110872,
+    110881,
+    110882,
+    110841,
+    110842,
+    110843,
+    110844,
+    110845,
+    110846,
+    110847,
+    110848,
+    110849,
+    110900,
+    110901,
+    110902,
+    110903,
+    110904,
+    110905,
+    110906,
+    110907,
+    110908,
+    110909,
+    110916,
+    110917,
+    110918,
+    110919,
+    110920,
+    110921,
+    110922,
+    110925,
+    110931,
+    110932,
+    110933,
+    110951,
+    110952,
+    110961,
+    110962,
+    110971,
+    110972,
+    110981,
+    110982,
+    110941,
+    110942,
+    110943,
+    110944,
+    110945,
+    110946,
+    110947,
+    110948
+  ],
+  "rows": [
+    {
+      "BattleSceneID": 300101,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300102,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300103,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300104,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300105,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300106,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300107,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300108,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300109,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300110,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300111,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300112,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105201,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105202,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105203,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_balckforestplain/sc_bf_ep03_chapt09_normal_balckforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_balckforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105204,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105205,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105206,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105207,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105208,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105209,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105210,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105211,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105212,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105213,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105214,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105215,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105216,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105217,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105218,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_1001",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105219,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105220,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105221,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105222,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105223,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105224,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105225,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110100,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110101,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110102,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110103,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110104,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2063",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110105,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2071",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110106,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2092",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110107,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2221",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110108,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2043",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110109,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2222",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110116,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3080",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110117,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3060",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110118,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110119,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110120,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3012",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110121,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110122,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110123,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110124,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110125,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_4092",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110126,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110127,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110128,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110129,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2091",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110130,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2043",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110131,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110132,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110133,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110134,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2031",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110135,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2043",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110151,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_101",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110152,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_102",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110161,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_517",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110162,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_516",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110171,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6041",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110172,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6011",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110181,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110182,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110183,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110141,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110142,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110143,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110144,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110145,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110200,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110201,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110202,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110203,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110204,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2063",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110205,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2071",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110206,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2231",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110216,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3011",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110217,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110218,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110219,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110225,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_4042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110226,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_4123",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110231,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110232,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110233,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110251,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_201",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110252,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_202",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110261,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_514",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110262,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_513",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110263,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_515",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110271,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6013",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110272,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6031",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110281,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110282,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110241,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110242,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110243,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110244,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110245,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110246,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110247,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110248,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110249,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110300,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110301,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2031",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110302,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110303,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110304,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110305,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2073",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110306,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2092",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110307,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2222",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110316,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110317,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3061",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110318,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110319,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110320,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110325,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_4181",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110331,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110332,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110333,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110351,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_301",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110352,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_302",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110361,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_511",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110362,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_510",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110371,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6011",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110372,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6092",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110381,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110382,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110341,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadsnowplain/sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadsnowplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110342,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110343,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110344,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110345,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110346,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110347,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110348,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110349,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110350,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgrass/sc_bf_ep03_chapt09_normal_snowgrass",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgrass",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110400,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110401,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2033",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110402,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2041",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110403,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110404,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2221",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110405,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110406,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2091",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110407,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2031",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110408,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2043",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110409,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110410,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110416,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110417,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110418,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110419,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2012",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110420,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2008",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110421,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110425,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_4191",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110431,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110432,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110433,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110451,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_401",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110452,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_402",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110461,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_517",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110462,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_515",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110471,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110472,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6013",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110481,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_005",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110482,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110441,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110442,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110443,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icetunnelraid/sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icetunnelraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110444,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110445,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_flowerplain/sc_bf_ep03_chapt09_normal_flowerplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_flowerplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110446,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icepool/sc_bf_ep03_chapt09_normal_icepool",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icepool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110447,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowfield/sc_bf_ep03_chapt09_normal_snowfield",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowfield",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110500,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110501,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2033",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110502,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2041",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110503,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110504,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110505,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110506,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110507,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2212",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110508,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_pollutedforest/sc_bf_ep03_chapt09_normal_pollutedforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2009",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_pollutedforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110516,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110517,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110518,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110519,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110520,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110521,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_pollutedforest/sc_bf_ep03_chapt09_normal_pollutedforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_pollutedforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110525,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_4093",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110526,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_4032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110531,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110532,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110533,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110551,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_501",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110552,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": "marsh",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_502",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110561,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_514",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110562,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_512",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110563,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_516",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110571,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6041",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110572,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110581,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_005",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110582,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_forestpool/sc_bf_ep03_chapt09_normal_forestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_005",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_forestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110541,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110542,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110543,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110544,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_pollutedforest/sc_bf_ep03_chapt09_normal_pollutedforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep01_chapt07_normal_gobi_101",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_pollutedforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110545,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_pollutedforest/sc_bf_ep03_chapt09_normal_pollutedforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_pollutedforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110546,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_warpool/sc_bf_ep03_chapt09_normal_warpool",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_warpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110600,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110601,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110602,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_pollutedforest/sc_bf_ep03_chapt09_normal_pollutedforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2043",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_pollutedforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110603,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_pollutedforest/sc_bf_ep03_chapt09_normal_pollutedforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2053",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_pollutedforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110604,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2061",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110605,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2072",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110606,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2091",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110607,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2211",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110608,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2033",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110616,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3011",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110617,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110618,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2221",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110619,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2009",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110620,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110625,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_4051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110631,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110632,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110651,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_601",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110652,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_602",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110661,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_510",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110662,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_511",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110671,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110672,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6015",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110681,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110682,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_005",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110641,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110642,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_pollutedforest/sc_bf_ep03_chapt09_normal_pollutedforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_pollutedforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110643,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110700,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110701,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowruins/sc_bf_ep03_chapt09_normal_snowruins",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2008",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowruins",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110702,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2041",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110703,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2211",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110704,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowruins/sc_bf_ep03_chapt09_normal_snowruins",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowruins",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110705,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowruins/sc_bf_ep03_chapt09_normal_snowruins",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2061",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowruins",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110706,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2071",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110707,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2091",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110708,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110709,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2008",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110710,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2009",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110711,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2043",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110712,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110713,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2061",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110716,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowruins/sc_bf_ep03_chapt09_normal_snowruins",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3013",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowruins",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110717,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110718,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110719,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowruins/sc_bf_ep03_chapt09_normal_snowruins",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2004",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowruins",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110720,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110721,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110725,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_4042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110731,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110732,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110733,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110751,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_701",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110752,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_702",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110761,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid_02/sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_517",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid_02",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110762,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_516",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110771,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowruins/sc_bf_ep03_chapt09_normal_snowruins",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowruins",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110772,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6013",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110781,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowruins/sc_bf_ep03_chapt09_normal_snowruins",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowruins",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110782,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_005",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110741,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110742,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgraveraid/sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110743,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgraveraid/sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110744,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110745,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgraveraid/sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110746,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgraveraid/sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110747,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowgraveraid/sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowgraveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110748,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_blackforest/sc_bf_ep03_chapt09_normal_blackforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_blackforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110749,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_monasteryraid/sc_bf_ep03_chapt09_normal_monasteryraid",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_monasteryraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110800,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110801,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2061",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110802,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2071",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110803,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2091",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110804,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110805,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110806,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110807,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_2211",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110816,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110817,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3061",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110818,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestpool/sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110819,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110820,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110825,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": "marsh",
+      "DesignID": "cellmap_normal_4051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110826,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestpool/sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_4092",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110831,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110832,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestpool/sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110833,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestpool/sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110851,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": "marsh",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_801",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110852,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": "marsh",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_802",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110861,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_514",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110862,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_515",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110863,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestpool/sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_510",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestpool",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110871,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6093",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110872,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6016",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110881,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110882,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_005",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110841,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110842,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110843,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110844,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_undeadforestplain/sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_undeadforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110845,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_mothforest/sc_bf_ep03_chapt09_normal_mothforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_mothforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110846,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110847,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_balckforestplain/sc_bf_ep03_chapt09_normal_balckforestplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_022",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_balckforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110848,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_balckforestplain/sc_bf_ep03_chapt09_normal_balckforestplain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_023",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_balckforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110849,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_balckforestplain/sc_bf_ep03_chapt09_normal_balckforestplain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_balckforestplain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110900,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110901,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2005",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110902,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2041",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110903,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110904,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_2061",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110905,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2071",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110906,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2091",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110907,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110908,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110909,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110916,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110917,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110918,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3012",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110919,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110920,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3030",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110921,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110922,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3050",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110925,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_4033",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110931,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110932,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110933,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110951,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_901",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110952,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": "snow",
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_902",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110961,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_517",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110962,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_511",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110971,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110972,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6031",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110981,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110982,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110941,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110942,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110943,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_abyssraid/sc_bf_ep03_chapt09_normal_abyssraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_abyssraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110944,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_oldbattlefieldraid/sc_bf_ep03_chapt09_normal_oldbattlefieldraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_oldbattlefieldraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110945,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_oldbattlefieldraid/sc_bf_ep03_chapt09_normal_oldbattlefieldraid",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep01_chapt07_normal_gobi_101",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_oldbattlefieldraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110946,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_oldbattlefieldraid/sc_bf_ep03_chapt09_normal_oldbattlefieldraid",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_003",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_oldbattlefieldraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110947,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_icecastleraid/sc_bf_ep03_chapt09_normal_icecastleraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_icecastleraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 110948,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep03_chapt09_normal_snowforest/sc_bf_ep03_chapt09_normal_snowforest",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt01_normal_nsme_021",
+      "TerrainName": "sc_bf_ep03_chapt09_normal_snowforest",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
     }
-  }
+  ]
 }

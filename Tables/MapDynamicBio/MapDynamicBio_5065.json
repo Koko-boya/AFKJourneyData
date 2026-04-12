@@ -1,18 +1,34 @@
 {
   "_meta": {
-    "table": "MapDynamicBio",
-    "source_table": "MapDynamicBio",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapDynamicBio_5065",
+    "header_table": "MapDynamicBio_5065HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapDynamicBio_5065HeaderTable": {
-      "ID": 0,
-      "Condition": 1,
-      "EnableKey": 2,
-      "DisableKey": 3,
-      "EnableGPUIDs": 4,
-      "DisableGPUIDs": 5
+  "default": {
+    "ID": "null",
+    "Condition": "true",
+    "EnableKey": {},
+    "DisableKey": {},
+    "EnableGPUIDs": {},
+    "DisableGPUIDs": {}
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Condition": "true",
+      "EnableKey": {},
+      "DisableKey": {
+        "1": "test"
+      },
+      "EnableGPUIDs": {},
+      "DisableGPUIDs": {}
     }
-  }
+  ]
 }

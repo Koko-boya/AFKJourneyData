@@ -1,22 +1,43 @@
 {
   "_meta": {
-    "table": "ExplTask",
-    "source_table": "ExplTask",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "ExplTask_1701",
+    "header_table": "ExplTask_1701HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 10,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "ExplTask_1701HeaderTable": {
-      "LineID": 0,
+  "default": {
+    "LineID": "null",
+    "TaskID": "null",
+    "NextTaskIDs": {},
+    "ClientRecvEvents": {},
+    "RecvCondition": "true",
+    "ClientRecvActionByMove": "true",
+    "RecvAction": "true",
+    "LastStepID": 0,
+    "ActionRewards": {},
+    "HasTimelinePlot": false
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "LineID": 17010100,
       "TaskID": 1,
-      "NextTaskIDs": 2,
-      "ClientRecvEvents": 3,
-      "RecvCondition": 4,
-      "ClientRecvActionByMove": 5,
-      "RecvAction": 6,
-      "LastStepID": 7,
-      "ActionRewards": 8,
-      "HasTimelinePlot": 9
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "DayChange:*",
+        "2": "ExplTaskFinish:16010112:9"
+      },
+      "RecvCondition": "ed.ConditionX.IsNextServerEp(\"Ep07\") or ed.ConditionX.IsExplTaskFinished(16010112,9)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
     }
-  }
+  ]
 }

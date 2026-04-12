@@ -1,18 +1,75 @@
 {
   "_meta": {
-    "table": "MapStroke",
-    "source_table": "MapStroke",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapStroke_10",
+    "header_table": "MapStroke_10HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 2,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapStroke_10HeaderTable": {
-      "ID": 0,
-      "NormalSlates": 1,
-      "StartSlate": 2,
-      "EndSlate": 3,
-      "TransSlates": 4,
-      "FinishAction": 5
+  "default": {
+    "ID": "null",
+    "NormalSlates": {},
+    "StartSlate": 0,
+    "EndSlate": 0,
+    "TransSlates": {},
+    "FinishAction": "true"
+  },
+  "row_keys": [
+    2,
+    1
+  ],
+  "rows": [
+    {
+      "ID": 2,
+      "NormalSlates": {
+        "1": 4100282,
+        "2": 2,
+        "3": 4090280,
+        "4": 1,
+        "5": 4080282,
+        "6": 1,
+        "7": 4140283,
+        "8": 1,
+        "9": 4110282,
+        "10": 1,
+        "11": 4100281,
+        "12": 1
+      },
+      "StartSlate": 4090282,
+      "EndSlate": 4130283,
+      "TransSlates": {
+        "1": 4130282,
+        "2": 4080281
+      },
+      "FinishAction": "ed.ActionX.AddStates(1002477,\"Show\",\"Interactive\",\"CShow_1\")"
+    },
+    {
+      "ID": 1,
+      "NormalSlates": {
+        "1": 4650103,
+        "2": 1,
+        "3": 4630104,
+        "4": 1,
+        "5": 4670104,
+        "6": 1,
+        "7": 4640105,
+        "8": 2,
+        "9": 4660106,
+        "10": 1,
+        "11": 4650107,
+        "12": 1
+      },
+      "StartSlate": 4670106,
+      "EndSlate": 4630106,
+      "TransSlates": {
+        "1": 4650104,
+        "2": 4650106,
+        "3": 4660105,
+        "4": 4640106
+      },
+      "FinishAction": "ed.ActionX.AddStates(1001778,\"Show\",\"Interactive\",\"CShow_1\")"
     }
-  }
+  ]
 }

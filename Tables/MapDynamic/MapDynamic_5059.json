@@ -1,16 +1,46 @@
 {
   "_meta": {
-    "table": "MapDynamic",
-    "source_table": "MapDynamic",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapDynamic_5059",
+    "header_table": "MapDynamic_5059HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 2,
+    "array_fields": [
+      "DisableVolume",
+      "EnableVolume"
+    ],
+    "unresolved_array_refs": 4
   },
-  "data": {
-    "MapDynamic_5059HeaderTable": {
-      "ID": 0,
-      "Condition": 1,
-      "EnableVolume": 2,
-      "DisableVolume": 3
+  "default": {
+    "ID": "null",
+    "Condition": "true",
+    "EnableVolume": {},
+    "DisableVolume": {}
+  },
+  "row_keys": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Condition": "ed.ConditionX.IsExplStepFinished(12010105,1,5)",
+      "EnableVolume": {
+        "$arrayRef": 81030
+      },
+      "DisableVolume": {
+        "$arrayRef": 81031
+      }
+    },
+    {
+      "ID": 2,
+      "Condition": "ed.ConditionX.IsExplStepFinished(12010105,2,1)",
+      "EnableVolume": {
+        "$arrayRef": 81031
+      },
+      "DisableVolume": {
+        "$arrayRef": 81030
+      }
     }
-  }
+  ]
 }

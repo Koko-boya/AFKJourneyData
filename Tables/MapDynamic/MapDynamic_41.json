@@ -1,16 +1,177 @@
 {
   "_meta": {
-    "table": "MapDynamic",
-    "source_table": "MapDynamic",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapDynamic_41",
+    "header_table": "MapDynamic_41HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 19,
+    "array_fields": [
+      "DisableVolume",
+      "EnableVolume"
+    ],
+    "unresolved_array_refs": 4
   },
-  "data": {
-    "MapDynamic_41HeaderTable": {
-      "ID": 0,
-      "Condition": 1,
-      "EnableVolume": 2,
-      "DisableVolume": 3
+  "default": {
+    "ID": "null",
+    "Condition": "true",
+    "EnableVolume": {},
+    "DisableVolume": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10010100,2)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "$arrayRef": 81029
+      }
+    },
+    {
+      "ID": 2,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10010102,3)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "$arrayRef": 81029
+      }
+    },
+    {
+      "ID": 3,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10010107,3)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 4,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10040132,4)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 5,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10020117,2)",
+      "EnableVolume": {
+        "$arrayRef": 81028
+      },
+      "DisableVolume": {}
+    },
+    {
+      "ID": 6,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030127,2)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "$arrayRef": 81028
+      }
+    },
+    {
+      "ID": 7,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10020116,3)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "1": "PollutedFlower"
+      }
+    },
+    {
+      "ID": 8,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030114,2)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 9,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030114,3)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 10,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10020117,1)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 11,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030125,2)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "1": "Corrupt"
+      }
+    },
+    {
+      "ID": 12,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030125,2)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "1": "Market"
+      }
+    },
+    {
+      "ID": 13,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030125,2)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "1": "MVillage"
+      }
+    },
+    {
+      "ID": 14,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030125,2)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "1": "ParkCorrupt"
+      }
+    },
+    {
+      "ID": 15,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030125,2) and not ed.ConditionX.IsExplTaskFinished(10030127,2)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 16,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030127,2)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 17,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10030127,2)",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 18,
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1",
+      "EnableVolume": {},
+      "DisableVolume": {}
+    },
+    {
+      "ID": 19,
+      "Condition": "ed.ConditionX.IsExplTaskFinished(14010130,5)",
+      "EnableVolume": {},
+      "DisableVolume": {
+        "1": "VillageMist"
+      }
     }
-  }
+  ]
 }

@@ -1,21 +1,3472 @@
 {
   "_meta": {
-    "table": "BattleScene",
-    "source_table": "BattleScene",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "BattleScene_Ep04World",
+    "header_table": "BattleScene_Ep04WorldHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 246,
+    "array_fields": [
+      "Rects"
+    ],
+    "unresolved_array_refs": 246
   },
-  "data": {
-    "BattleScene_Ep04WorldHeaderTable": {
-      "BattleSceneID": 0,
-      "SceneName": 1,
-      "BlockTheme": 2,
-      "DesignID": 3,
-      "TerrainName": 4,
-      "Attaches": 5,
-      "Rects": 6,
-      "Volume": 7,
-      "PostEffect": 8
+  "default": {
+    "BattleSceneID": "null",
+    "SceneName": null,
+    "BlockTheme": null,
+    "DesignID": null,
+    "TerrainName": null,
+    "Attaches": {},
+    "Rects": {},
+    "Volume": null,
+    "PostEffect": null
+  },
+  "row_keys": [
+    300121,
+    300122,
+    300123,
+    300124,
+    300125,
+    300126,
+    300127,
+    300128,
+    300129,
+    300130,
+    300131,
+    300132,
+    105226,
+    105227,
+    105228,
+    105229,
+    105230,
+    105231,
+    105232,
+    105233,
+    105234,
+    105235,
+    105236,
+    105237,
+    105238,
+    111101,
+    111102,
+    111103,
+    111104,
+    111105,
+    111106,
+    111107,
+    111108,
+    111109,
+    111110,
+    111111,
+    111112,
+    111116,
+    111117,
+    111118,
+    111119,
+    111120,
+    111121,
+    111122,
+    111123,
+    111131,
+    111132,
+    111133,
+    111151,
+    111152,
+    111161,
+    111162,
+    111171,
+    111172,
+    111181,
+    111182,
+    111141,
+    111142,
+    111143,
+    111200,
+    111201,
+    111202,
+    111203,
+    111204,
+    111205,
+    111206,
+    111207,
+    111208,
+    111209,
+    111210,
+    111216,
+    111217,
+    111218,
+    111219,
+    111220,
+    111221,
+    111222,
+    111231,
+    111232,
+    111233,
+    111251,
+    111252,
+    111261,
+    111262,
+    111271,
+    111272,
+    111281,
+    111282,
+    111241,
+    111242,
+    111243,
+    111244,
+    111245,
+    111246,
+    111300,
+    111301,
+    111302,
+    111303,
+    111304,
+    111305,
+    111306,
+    111307,
+    111308,
+    111309,
+    111316,
+    111317,
+    111318,
+    111319,
+    111320,
+    111321,
+    111322,
+    111331,
+    111332,
+    111333,
+    111351,
+    111352,
+    111361,
+    111362,
+    111371,
+    111372,
+    111381,
+    111382,
+    111341,
+    111342,
+    111343,
+    111344,
+    111345,
+    111346,
+    111347,
+    111348,
+    111400,
+    111401,
+    111402,
+    111403,
+    111404,
+    111405,
+    111406,
+    111407,
+    111408,
+    111409,
+    111416,
+    111417,
+    111418,
+    111419,
+    111420,
+    111421,
+    111422,
+    111431,
+    111432,
+    111433,
+    111451,
+    111452,
+    111461,
+    111462,
+    111471,
+    111472,
+    111481,
+    111482,
+    111441,
+    111442,
+    111443,
+    111500,
+    111501,
+    111502,
+    111503,
+    111504,
+    111505,
+    111506,
+    111507,
+    111508,
+    111509,
+    111510,
+    111511,
+    111512,
+    111513,
+    111514,
+    111515,
+    111516,
+    111517,
+    111518,
+    111519,
+    111520,
+    111521,
+    111522,
+    111523,
+    111524,
+    111525,
+    111526,
+    111531,
+    111532,
+    111533,
+    111551,
+    111552,
+    111561,
+    111562,
+    111571,
+    111572,
+    111573,
+    111581,
+    111582,
+    111541,
+    111542,
+    111543,
+    111600,
+    111601,
+    111602,
+    111603,
+    111604,
+    111605,
+    111606,
+    111607,
+    111608,
+    111616,
+    111617,
+    111618,
+    111619,
+    111620,
+    111621,
+    111622,
+    111631,
+    111651,
+    111661,
+    111662,
+    111671,
+    111681,
+    111641,
+    111642,
+    111643,
+    111644,
+    111645,
+    111646,
+    111647,
+    111648,
+    111649,
+    111650,
+    111685,
+    111686,
+    111687,
+    111688,
+    111689,
+    111690,
+    111691,
+    111692,
+    111693,
+    111694,
+    111695
+  ],
+  "rows": [
+    {
+      "BattleSceneID": 300121,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300122,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300123,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300124,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300125,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300126,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300127,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300128,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300129,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300130,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300131,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 300132,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105226,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105227,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105228,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105229,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_cavecamp/sc_bf_ep04_chapt10_normal_cavecamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_cavecamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105230,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105231,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105232,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105233,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105234,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105235,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105236,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105237,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 105238,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111101,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111102,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111103,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111104,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111105,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2063",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111106,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2071",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111107,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2092",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111108,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2221",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111109,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_cavecamp/sc_bf_ep04_chapt10_normal_cavecamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2043",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_cavecamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111110,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2222",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111111,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3080",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111112,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3060",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111116,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111117,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111118,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3012",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111119,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111120,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_cavecamp/sc_bf_ep04_chapt10_normal_cavecamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_4092",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_cavecamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111121,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_cavecamp/sc_bf_ep04_chapt10_normal_cavecamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_cavecamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111122,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111123,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111131,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111132,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111133,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111151,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_001",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111152,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111161,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_517",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111162,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_cavecamp/sc_bf_ep04_chapt10_normal_cavecamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_516",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_cavecamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111171,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6041",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111172,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_cavecamp/sc_bf_ep04_chapt10_normal_cavecamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6011",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_cavecamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111181,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111182,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111141,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111142,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111143,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111200,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111201,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111202,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111203,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111204,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_water/sc_bf_ep04_chapt10_normal_water",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_water",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111205,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_water/sc_bf_ep04_chapt10_normal_water",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_water",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111206,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111207,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2063",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111208,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2071",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111209,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2231",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111210,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3011",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111216,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111217,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111218,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_water/sc_bf_ep04_chapt10_normal_water",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_water",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111219,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3011",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111220,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111221,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_4123",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111222,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_water/sc_bf_ep04_chapt10_normal_water",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_water",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111231,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_water/sc_bf_ep04_chapt10_normal_water",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_water",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111232,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_water/sc_bf_ep04_chapt10_normal_water",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_water",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111233,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111251,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111252,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_004",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111261,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_514",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111262,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_515",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111271,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_water/sc_bf_ep04_chapt10_normal_water",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6013",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_water",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111272,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6033",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111281,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111282,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111241,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111242,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111243,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_coast/sc_bf_ep04_chapt10_normal_coast",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_coast",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111244,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111245,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111246,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111300,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111301,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111302,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111303,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111304,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111305,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2031",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111306,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2042",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111307,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2051",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111308,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111309,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2073",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111316,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111317,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3050",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111318,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111319,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3061",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111320,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111321,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111322,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_4123",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111331,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111332,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111333,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111351,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_005",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111352,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111361,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_511",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111362,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_510",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111371,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6011",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111372,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6092",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111381,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111382,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111341,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111342,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111343,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111344,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111345,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111346,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111347,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111348,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_house/sc_bf_ep04_chapt10_normal_house",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_house",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111400,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111401,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111402,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2221",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111403,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111404,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111405,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111406,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2073",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111407,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111408,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111409,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2033",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111416,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111417,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3061",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111418,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111419,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3051",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111420,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3011",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111421,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3012",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111422,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_4061",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111431,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111432,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111433,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111451,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111452,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111461,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_517",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111462,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_515",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111471,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6042",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111472,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6011",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111481,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111482,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111441,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_city/sc_bf_ep04_chapt10_normal_city",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_ep03_chapt09_normal_snowfield_1001",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_city",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111442,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111443,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111500,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111501,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111502,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111503,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2073",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111504,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2221",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111505,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111506,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111507,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111508,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2073",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111509,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111510,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111511,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2033",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111512,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2041",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111513,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111514,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2221",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111515,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111516,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3031",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111517,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3033",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111518,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111519,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3012",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111520,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3013",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111521,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3000",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111522,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3050",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111523,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111524,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3070",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111525,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_4043",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111526,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_4023",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111531,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lava/sc_bf_ep04_chapt10_normal_lava",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lava",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111532,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111533,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111551,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_007",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111552,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111561,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_514",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111562,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_516",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111571,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6041",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111572,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6023",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111573,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6023",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111581,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111582,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111541,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavacamp/sc_bf_ep04_chapt10_normal_lavacamp",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt04_normal_valleygrass_8409",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavacamp",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111542,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111543,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111600,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111601,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111602,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111603,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2073",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111604,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2032",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111605,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2052",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111606,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_2062",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111607,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3033",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111608,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111616,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3012",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111617,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "cellmap_normal_3013",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111618,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_4041",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111619,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3040",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111620,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3012",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111621,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_3013",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111622,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_4041",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111631,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111651,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": "rock",
+      "DesignID": "sc_bf_ep04_chapt10_normal_lava_008",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111661,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_510",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111662,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_511",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111671,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_6041",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111681,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111641,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_lavarock/sc_bf_ep04_chapt10_normal_lavarock",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_006",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_lavarock",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111642,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt04_normal_valleygrass_8404",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111643,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt04_normal_valleygrass_8405",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111644,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_queen/sc_bf_ep04_chapt10_normal_queen",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_007",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_queen",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111645,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt04_normal_valleygrass_8406",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111646,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111647,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_room/sc_bf_ep04_chapt10_normal_room",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_room",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111648,
+      "SceneName": "Scene/sc_battlefield/sc_bf_function/sc_bf_dream_common_01/sc_bf_dream_common_01",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt04_normal_valleygrass_8408",
+      "TerrainName": "sc_bf_dream_common_01",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111649,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111650,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_queen/sc_bf_ep04_chapt10_normal_queen",
+      "BlockTheme": null,
+      "DesignID": "sc_bf_mn_chapt04_normal_valleygrass_8407",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_queen",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111685,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_goldroom/sc_bf_ep04_chapt10_normal_goldroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_goldroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111686,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111687,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111688,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111689,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_plain/sc_bf_ep04_chapt10_normal_plain",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_plain",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111690,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_003",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111691,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_caveraid/sc_bf_ep04_chapt10_normal_caveraid",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_caveraid",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111692,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111693,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111694,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
+    },
+    {
+      "BattleSceneID": 111695,
+      "SceneName": "Scene/sc_battlefield/sc_bf_outside/sc_bf_ep04_chapt10_normal_mushroom/sc_bf_ep04_chapt10_normal_mushroom",
+      "BlockTheme": null,
+      "DesignID": "cellmap_normal_002",
+      "TerrainName": "sc_bf_ep04_chapt10_normal_mushroom",
+      "Attaches": {},
+      "Rects": {
+        "$arrayRef": 71780
+      },
+      "Volume": null,
+      "PostEffect": null
     }
-  }
+  ]
 }

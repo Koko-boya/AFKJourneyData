@@ -1,21 +1,86 @@
 {
   "_meta": {
-    "table": "MapAtmosphereNpc",
-    "source_table": "MapAtmosphereNpc",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapAtmosphereNpc_5082",
+    "header_table": "MapAtmosphereNpc_5082HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 3,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapAtmosphereNpc_5082HeaderTable": {
-      "ID": 0,
-      "GroupID": 1,
-      "WorldTransform": 2,
-      "FCPath": 3,
-      "PrefabID": 4,
-      "DefaultShow": 5,
-      "TipName": 6,
-      "LogicItem": 7,
-      "Chunk": 8
+  "default": {
+    "ID": "null",
+    "GroupID": null,
+    "WorldTransform": null,
+    "FCPath": null,
+    "PrefabID": 0,
+    "DefaultShow": false,
+    "TipName": null,
+    "LogicItem": null,
+    "Chunk": 0
+  },
+  "row_keys": [
+    4,
+    11,
+    10
+  ],
+  "rows": [
+    {
+      "ID": 4,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 204.13999939,
+          "y": 14.06000042,
+          "z": 219.96000671
+        },
+        "rotY": 341.55160522,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 54,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 6006
+    },
+    {
+      "ID": 11,
+      "GroupID": "a",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 244.44000244,
+          "y": 14.22999954,
+          "z": 232.42999268
+        },
+        "rotY": 208.13491821,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 54,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 7006
+    },
+    {
+      "ID": 10,
+      "GroupID": "a",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 244.67999268,
+          "y": 14.31999969,
+          "z": 230.72000122
+        },
+        "rotY": 5.13348913,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 54,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 7006
     }
-  }
+  ]
 }

@@ -1,16 +1,69 @@
 {
   "_meta": {
-    "table": "MapDynamic",
-    "source_table": "MapDynamic",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapDynamic_5077",
+    "header_table": "MapDynamic_5077HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 4,
+    "array_fields": [
+      "DisableVolume",
+      "EnableVolume"
+    ],
+    "unresolved_array_refs": 6
   },
-  "data": {
-    "MapDynamic_5077HeaderTable": {
-      "ID": 0,
-      "Condition": 1,
-      "EnableVolume": 2,
-      "DisableVolume": 3
+  "default": {
+    "ID": "null",
+    "Condition": "true",
+    "EnableVolume": {},
+    "DisableVolume": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Condition": "ed.ConditionX.IsExplStepFinished(13010115,2,3)",
+      "EnableVolume": {
+        "$arrayRef": 81034
+      },
+      "DisableVolume": {
+        "$arrayRef": 81035
+      }
+    },
+    {
+      "ID": 2,
+      "Condition": "ed.ConditionX.IsExplStepFinished(13010115,601,11)",
+      "EnableVolume": {
+        "$arrayRef": 81035
+      },
+      "DisableVolume": {
+        "$arrayRef": 81034
+      }
+    },
+    {
+      "ID": 3,
+      "Condition": "ed.ConditionX.IsExplStepFinished(13010115,602,4)",
+      "EnableVolume": {
+        "1": "5077BedroomLight"
+      },
+      "DisableVolume": {
+        "$arrayRef": 81034
+      }
+    },
+    {
+      "ID": 4,
+      "Condition": "ed.ConditionX.IsExplStepFinished(13010115,900,1)",
+      "EnableVolume": {
+        "$arrayRef": 81034
+      },
+      "DisableVolume": {
+        "1": "5077OtherLight",
+        "2": "5077BedroomLight"
+      }
     }
-  }
+  ]
 }

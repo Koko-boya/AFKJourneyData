@@ -1,18 +1,91 @@
 {
   "_meta": {
-    "table": "MapDynObjLoc",
-    "source_table": "MapDynObjLoc",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapDynObjLoc_41",
+    "header_table": "MapDynObjLoc_41HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapDynObjLoc_41HeaderTable": {
-      "ID": 0,
-      "Loc": 1,
-      "ZoneID": 2,
-      "Rotation": 3,
-      "Deviation": 4,
-      "Mode": 5
+  "default": {
+    "ID": "null",
+    "Loc": 0,
+    "ZoneID": 0,
+    "Rotation": null,
+    "Deviation": null,
+    "Mode": null
+  },
+  "row_keys": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "rows": [
+    {
+      "ID": 9,
+      "Loc": 3300131,
+      "ZoneID": 1,
+      "Rotation": 6,
+      "Deviation": {
+        "posdeviation": {
+          "x": 184,
+          "y": 0,
+          "z": -7
+        },
+        "rotdeviation": 19,
+        "scale": 100
+      },
+      "Mode": "DynGroup4"
+    },
+    {
+      "ID": 10,
+      "Loc": 3320131,
+      "ZoneID": 1,
+      "Rotation": 1,
+      "Deviation": {
+        "posdeviation": {
+          "x": 84,
+          "y": 0,
+          "z": -1
+        },
+        "rotdeviation": 19,
+        "scale": 100
+      },
+      "Mode": "DynGroup4"
+    },
+    {
+      "ID": 11,
+      "Loc": 3320132,
+      "ZoneID": 1,
+      "Rotation": 1,
+      "Deviation": {
+        "posdeviation": {
+          "x": -126,
+          "y": 0,
+          "z": -100
+        },
+        "rotdeviation": 10,
+        "scale": 100
+      },
+      "Mode": "DynGroup1"
+    },
+    {
+      "ID": 12,
+      "Loc": 3330129,
+      "ZoneID": 1,
+      "Rotation": 2,
+      "Deviation": {
+        "posdeviation": {
+          "x": -116,
+          "y": 0,
+          "z": 120
+        },
+        "rotdeviation": 50,
+        "scale": 100
+      },
+      "Mode": "DynGroup2"
     }
-  }
+  ]
 }

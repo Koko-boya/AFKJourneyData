@@ -1,19 +1,56 @@
 {
   "_meta": {
-    "table": "MapPath",
-    "source_table": "MapPath",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapPath_7020",
+    "header_table": "MapPath_7020HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 2,
+    "array_fields": [
+      "HeightOffest"
+    ],
+    "unresolved_array_refs": 2
   },
-  "data": {
-    "MapPath_7020HeaderTable": {
-      "ID": 0,
-      "PathType": 1,
-      "MapPath": 2,
-      "HeightOffest": 3,
-      "PointList": 4,
-      "Duration": 5,
-      "Ease": 6
+  "default": {
+    "ID": "null",
+    "PathType": null,
+    "MapPath": {},
+    "HeightOffest": {},
+    "PointList": {},
+    "Duration": 0,
+    "Ease": 0
+  },
+  "row_keys": [
+    101,
+    102
+  ],
+  "rows": [
+    {
+      "ID": 101,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "1": 1490141,
+        "2": 1290135
+      },
+      "HeightOffest": {
+        "$arrayRef": 93692
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
+    },
+    {
+      "ID": 102,
+      "PathType": "FlyJumper",
+      "MapPath": {
+        "1": 1270136,
+        "2": 1480140
+      },
+      "HeightOffest": {
+        "$arrayRef": 93692
+      },
+      "PointList": {},
+      "Duration": 0,
+      "Ease": 0
     }
-  }
+  ]
 }

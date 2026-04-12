@@ -1,14 +1,43 @@
 {
   "_meta": {
-    "table": "MapTransferPoint",
-    "source_table": "MapTransferPoint",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapTransferPoint_7",
+    "header_table": "MapTransferPoint_7HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 2,
+    "row_count": 3,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapTransferPoint_7HeaderTable": {
-      "ObjectID": 0,
-      "Deviation": 1
+  "default": {
+    "ObjectID": "null",
+    "Deviation": {}
+  },
+  "row_keys": [
+    700384,
+    700388,
+    700004
+  ],
+  "rows": [
+    {
+      "ObjectID": 700384,
+      "Deviation": {
+        "1": 1.4,
+        "2": -0.97
+      }
+    },
+    {
+      "ObjectID": 700388,
+      "Deviation": {
+        "1": 2.02,
+        "2": -3.94
+      }
+    },
+    {
+      "ObjectID": 700004,
+      "Deviation": {
+        "1": 0.95,
+        "2": -3.09
+      }
     }
-  }
+  ]
 }

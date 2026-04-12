@@ -1,21 +1,5986 @@
 {
   "_meta": {
-    "table": "MapAtmosphereNpc",
-    "source_table": "MapAtmosphereNpc",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapAtmosphereNpc_11",
+    "header_table": "MapAtmosphereNpc_11HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 298,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapAtmosphereNpc_11HeaderTable": {
-      "ID": 0,
-      "GroupID": 1,
-      "WorldTransform": 2,
-      "FCPath": 3,
-      "PrefabID": 4,
-      "DefaultShow": 5,
-      "TipName": 6,
-      "LogicItem": 7,
-      "Chunk": 8
+  "default": {
+    "ID": "null",
+    "GroupID": null,
+    "WorldTransform": null,
+    "FCPath": null,
+    "PrefabID": 0,
+    "DefaultShow": false,
+    "TipName": null,
+    "LogicItem": null,
+    "Chunk": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    146,
+    147,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    201,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    241,
+    240,
+    242,
+    248,
+    246,
+    247,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    260,
+    261,
+    262,
+    263,
+    282,
+    281,
+    266,
+    271,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    296,
+    297,
+    292,
+    293,
+    294,
+    295,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 748.48168945,
+          "y": 24.85131836,
+          "z": 774.89422607
+        },
+        "rotY": 97.34999084,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 441,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22022
+    },
+    {
+      "ID": 2,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 751.31219482,
+          "y": 24.85131836,
+          "z": 774.86126709
+        },
+        "rotY": 222.1000061,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 442,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22022
+    },
+    {
+      "ID": 3,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 750.75268555,
+          "y": 24.85131836,
+          "z": 772.29412842
+        },
+        "rotY": 308.1000061,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 443,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22022
+    },
+    {
+      "ID": 4,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 801.80999756,
+          "y": 24.66858292,
+          "z": 783.09997559
+        },
+        "rotY": 22.45000076,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 444,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23023
+    },
+    {
+      "ID": 5,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 828.86999512,
+          "y": 17.62041473,
+          "z": 798.61999512
+        },
+        "rotY": 237.30001831,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 445,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24023
+    },
+    {
+      "ID": 6,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 911.63000488,
+          "y": -0.00437272,
+          "z": 749.75
+        },
+        "rotY": 219.19999695,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 446,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 26022
+    },
+    {
+      "ID": 7,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 920.25,
+          "y": -0.11587891,
+          "z": 747.41998291
+        },
+        "rotY": 148.92999268,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 447,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 27021
+    },
+    {
+      "ID": 8,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1108.49816895,
+          "y": 3.52408314,
+          "z": 905.89526367
+        },
+        "rotY": 15.70002174,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 434,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 9,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1131.68005371,
+          "y": 3.52408314,
+          "z": 920.14001465
+        },
+        "rotY": 294.32000732,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 435,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33027
+    },
+    {
+      "ID": 10,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1117.2199707,
+          "y": 1.54289436,
+          "z": 942.38000488
+        },
+        "rotY": 189.07002258,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 436,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 11,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1080.02209473,
+          "y": 6.371099,
+          "z": 947.8293457
+        },
+        "rotY": 114.30001068,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 437,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 31027
+    },
+    {
+      "ID": 12,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1097.61999512,
+          "y": 1.54289436,
+          "z": 924.71002197
+        },
+        "rotY": 143.89997864,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 438,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 13,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 782.4553833,
+          "y": 25.00127411,
+          "z": 845.32006836
+        },
+        "rotY": 76.07867432,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 448,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23024
+    },
+    {
+      "ID": 14,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 784.44696045,
+          "y": 24.65099907,
+          "z": 845.66687012
+        },
+        "rotY": 258.12957764,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 449,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23024
+    },
+    {
+      "ID": 15,
+      "GroupID": "EP6L2_MIRROR",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 843.52001953,
+          "y": 17.73283386,
+          "z": 880.5
+        },
+        "rotY": 25.80823708,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 459,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24025
+    },
+    {
+      "ID": 16,
+      "GroupID": "EP6L2_MIRROR",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 845.19580078,
+          "y": 17.73283386,
+          "z": 879.13391113
+        },
+        "rotY": 331.52160645,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 460,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24025
+    },
+    {
+      "ID": 17,
+      "GroupID": "EP6L2_MIRROR",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 847.16320801,
+          "y": 17.73283386,
+          "z": 881.40093994
+        },
+        "rotY": 296.88641357,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 458,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24025
+    },
+    {
+      "ID": 18,
+      "GroupID": "EP6L2_Q&A",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 759.72174072,
+          "y": 25.01074219,
+          "z": 807.08111572
+        },
+        "rotY": 89.04421997,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 463,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 19,
+      "GroupID": "EP6L2_Q&A",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 761.66998291,
+          "y": 25.01083374,
+          "z": 806.91998291
+        },
+        "rotY": 285.16275024,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 461,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 20,
+      "GroupID": "EP6L2_DEFIANT",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 727.95935059,
+          "y": 23.75908661,
+          "z": 795.05664062
+        },
+        "rotY": 20.51701164,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 461,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 21,
+      "GroupID": "EP6L2_DEFIANT",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 728.5982666,
+          "y": 23.75908661,
+          "z": 793.91015625
+        },
+        "rotY": 352.67776489,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 464,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 22,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 731.28997803,
+          "y": 25.01083374,
+          "z": 777.16998291
+        },
+        "rotY": 162.45484924,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 462,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 34,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 890.26000977,
+          "y": 14.09667969,
+          "z": 793.2199707
+        },
+        "rotY": 131.28999329,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 476,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 26023
+    },
+    {
+      "ID": 35,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 892.84997559,
+          "y": 14.09667969,
+          "z": 791.7199707
+        },
+        "rotY": 271.29998779,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 477,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 26023
+    },
+    {
+      "ID": 36,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 888.58874512,
+          "y": 14.09667969,
+          "z": 790.565979
+        },
+        "rotY": 54.09999084,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 478,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 26023
+    },
+    {
+      "ID": 37,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1102.98999023,
+          "y": 3.52408314,
+          "z": 904.61999512
+        },
+        "rotY": 109.56999207,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 481,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 38,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1105.87365723,
+          "y": 3.52408314,
+          "z": 904.70629883
+        },
+        "rotY": 256.27001953,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 482,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 39,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1130.45996094,
+          "y": 3.52441406,
+          "z": 914.48999023
+        },
+        "rotY": 126.30001068,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 483,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33026
+    },
+    {
+      "ID": 40,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1132.22949219,
+          "y": 3.52441406,
+          "z": 914.06848145
+        },
+        "rotY": 281.36004639,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 484,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33026
+    },
+    {
+      "ID": 42,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1142.2800293,
+          "y": 3.52480936,
+          "z": 899.59002686
+        },
+        "rotY": 125.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 485,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33026
+    },
+    {
+      "ID": 43,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1139.18005371,
+          "y": 3.52907181,
+          "z": 895.28997803
+        },
+        "rotY": 125.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 486,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33026
+    },
+    {
+      "ID": 44,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1120.94995117,
+          "y": 1.54296875,
+          "z": 947.53997803
+        },
+        "rotY": 158.52000427,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 489,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 45,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1122.43994141,
+          "y": 1.54296875,
+          "z": 947.45001221
+        },
+        "rotY": 215.8999939,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 490,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33027
+    },
+    {
+      "ID": 46,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1098.27001953,
+          "y": 1.54289436,
+          "z": 919.42999268
+        },
+        "rotY": 67.30000305,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 491,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 47,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1100.78808594,
+          "y": 1.54289436,
+          "z": 918.79931641
+        },
+        "rotY": 272.48999023,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 492,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 48,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1089.46520996,
+          "y": 6.38885498,
+          "z": 958.12646484
+        },
+        "rotY": 115.59999847,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 493,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32028
+    },
+    {
+      "ID": 49,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1092.54003906,
+          "y": 6.38885498,
+          "z": 956.10998535
+        },
+        "rotY": 331.04000854,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 494,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32028
+    },
+    {
+      "ID": 50,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1092.35998535,
+          "y": 6.38885498,
+          "z": 958.34002686
+        },
+        "rotY": 200.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 495,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32028
+    },
+    {
+      "ID": 51,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 347.81399536,
+          "y": 6.63293839,
+          "z": 483.69198608
+        },
+        "rotY": 133.17552185,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 496,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 52,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 365.52600098,
+          "y": 6.63293839,
+          "z": 483.5960083
+        },
+        "rotY": 244.63562012,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 497,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 53,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 377.2869873,
+          "y": 8.52734375,
+          "z": 487.09298706
+        },
+        "rotY": 156.47836304,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 499,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11014
+    },
+    {
+      "ID": 54,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 374.20001221,
+          "y": 6.63293839,
+          "z": 473.07000732
+        },
+        "rotY": 234.71630859,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 498,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 55,
+      "GroupID": "ep6-z4-student-scroll",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 353.48999023,
+          "y": 6.6328125,
+          "z": 482.1000061
+        },
+        "rotY": 34.09383011,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 500,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 56,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 355.16000366,
+          "y": 6.63293839,
+          "z": 482.69000244
+        },
+        "rotY": 251.73654175,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 501,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 57,
+      "GroupID": "ep6-z4-student-drink",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 334.21899414,
+          "y": 3.52441406,
+          "z": 452.78100586
+        },
+        "rotY": 21.32899475,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 505,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 9013
+    },
+    {
+      "ID": 58,
+      "GroupID": "ep6-z4-student-drink",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 334.70001221,
+          "y": 3.52441406,
+          "z": 454.1000061
+        },
+        "rotY": 193.00701904,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 506,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 9013
+    },
+    {
+      "ID": 59,
+      "GroupID": "ep6-z4-student-light",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 352.77999878,
+          "y": 6.6328125,
+          "z": 469.52999878
+        },
+        "rotY": 47.15279388,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 507,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 60,
+      "GroupID": "ep6-z4-student-light",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 354.17001343,
+          "y": 6.6328125,
+          "z": 470.54000854
+        },
+        "rotY": 216.36149597,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 508,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 61,
+      "GroupID": "ep6-z4-student-commemorate",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 344.39001465,
+          "y": 3.57427979,
+          "z": 426.54998779
+        },
+        "rotY": 350.95202637,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 509,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 62,
+      "GroupID": "ep6-z4-student-commemorate",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 344.26000977,
+          "y": 3.57427979,
+          "z": 428.17999268
+        },
+        "rotY": 176.17146301,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 510,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 63,
+      "GroupID": "ep6-z4-sailman",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 379.01998901,
+          "y": 2.57579517,
+          "z": 445.94000244
+        },
+        "rotY": 46.15799332,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 511,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 64,
+      "GroupID": "ep6-z4-sailman",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 379.33999634,
+          "y": 2.57579517,
+          "z": 447.32998657
+        },
+        "rotY": 195.33206177,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 512,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 66,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 345.42098999,
+          "y": 6.6328125,
+          "z": 479.72799683
+        },
+        "rotY": 137.25267029,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 540,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 67,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 367.58999634,
+          "y": 6.6328125,
+          "z": 474.52728271
+        },
+        "rotY": 236.89562988,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 541,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 68,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 304.67608643,
+          "y": 4.59200001,
+          "z": 551.67999268
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 532,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8016
+    },
+    {
+      "ID": 69,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 279.64401245,
+          "y": 4.47700024,
+          "z": 533.74700928
+        },
+        "rotY": 292.93670654,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 533,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8015
+    },
+    {
+      "ID": 71,
+      "GroupID": "ep6-z4-catlist",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 371.1619873,
+          "y": 6.63293839,
+          "z": 477.73400879
+        },
+        "rotY": 311.84527588,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 535,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 72,
+      "GroupID": "ep6-z4-catlist",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 370.51699829,
+          "y": 6.63293839,
+          "z": 479.14300537
+        },
+        "rotY": 262.11016846,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 536,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 73,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 384.38000488,
+          "y": 8.34000015,
+          "z": 484.41000366
+        },
+        "rotY": 79.84949493,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 542,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11014
+    },
+    {
+      "ID": 74,
+      "GroupID": "ep6-z4-talk",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 355.95498657,
+          "y": 0.02,
+          "z": 414.70098877
+        },
+        "rotY": 205.8870697,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 543,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 75,
+      "GroupID": "ep6-z4-talk",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 354.52200317,
+          "y": 0.0,
+          "z": 414.9289856
+        },
+        "rotY": 187.08326721,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 544,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 76,
+      "GroupID": "ep6-z4-student-cloth",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 368.5,
+          "y": 6.6328125,
+          "z": 469.08999634
+        },
+        "rotY": 84.30786133,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 502,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 77,
+      "GroupID": "ep6-z4-student-cloth",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 370.41000366,
+          "y": 6.6328125,
+          "z": 468.42999268
+        },
+        "rotY": 9.99334335,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 503,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 78,
+      "GroupID": "ep6-z4-student-cloth",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 369.69000244,
+          "y": 6.6328125,
+          "z": 470.54998779
+        },
+        "rotY": 177.76150513,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 504,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 79,
+      "GroupID": "ep6_L11_chat2",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1114.60949707,
+          "y": 3.89284515,
+          "z": 910.44219971
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 440,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 80,
+      "GroupID": "ep6_L11_chat2",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1114.97192383,
+          "y": 3.89284515,
+          "z": 913.08026123
+        },
+        "rotY": 20.06118202,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 445,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 81,
+      "GroupID": "ep6_L11_chat2",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1122.89001465,
+          "y": 3.89284515,
+          "z": 919.9699707
+        },
+        "rotY": 262.87902832,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 446,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33027
+    },
+    {
+      "ID": 82,
+      "GroupID": "ep6_L11_chat1",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1117.71264648,
+          "y": 3.89284515,
+          "z": 910.48376465
+        },
+        "rotY": 294.68206787,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 551,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 83,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1124.32202148,
+          "y": 3.89284515,
+          "z": 916.94464111
+        },
+        "rotY": 336.76062012,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 553,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33026
+    },
+    {
+      "ID": 84,
+      "GroupID": "ep6_L11_chat3",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1128.42419434,
+          "y": 3.87560987,
+          "z": 919.18292236
+        },
+        "rotY": 271.60101318,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 554,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33027
+    },
+    {
+      "ID": 85,
+      "GroupID": "ep6_L11_chat1",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1116.55004883,
+          "y": 3.52441406,
+          "z": 908.7800293
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 553,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 86,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1115.25769043,
+          "y": 3.89284611,
+          "z": 915.48217773
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 552,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 87,
+      "GroupID": "ep6_L11_chat3",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1126.75292969,
+          "y": 3.52408314,
+          "z": 915.89996338
+        },
+        "rotY": 264.15603638,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 489,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 33026
+    },
+    {
+      "ID": 88,
+      "GroupID": "EP6zone1exam",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 760.00610352,
+          "y": 24.66894531,
+          "z": 839.21728516
+        },
+        "rotY": 50.30361938,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 462,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 89,
+      "GroupID": "EP6zone1exam",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 761.57000732,
+          "y": 24.66894531,
+          "z": 840.50695801
+        },
+        "rotY": 225.25222778,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 461,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 90,
+      "GroupID": "EP6zone1selectedgossip",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 723.13165283,
+          "y": 24.66858292,
+          "z": 772.3414917
+        },
+        "rotY": 108.73210144,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 448,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 91,
+      "GroupID": "EP6zone1selectedgossip",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 724.46820068,
+          "y": 24.66894531,
+          "z": 771.90002441
+        },
+        "rotY": 277.33770752,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 464,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 92,
+      "GroupID": "EP6zone1lovingcat",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 734.39898682,
+          "y": 24.66894531,
+          "z": 843.4039917
+        },
+        "rotY": 312.85476685,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 463,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 93,
+      "GroupID": "EP6zone1lovingcat",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 732.42297363,
+          "y": 25.25300026,
+          "z": 844.78302002
+        },
+        "rotY": 125.76242065,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 535,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 94,
+      "GroupID": "EP6zone1sick",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 860.57183838,
+          "y": 17.73283386,
+          "z": 854.83959961
+        },
+        "rotY": 271.76409912,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 463,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25025
+    },
+    {
+      "ID": 95,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 859.15002441,
+          "y": 17.73242188,
+          "z": 855.14001465
+        },
+        "rotY": 112.96261597,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 462,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25025
+    },
+    {
+      "ID": 96,
+      "GroupID": "EP6zone1neet",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 750.71002197,
+          "y": 27.47999954,
+          "z": 849.23999023
+        },
+        "rotY": 310.62564087,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 448,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 97,
+      "GroupID": "EP6zone1neet",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 749.5,
+          "y": 27.47999954,
+          "z": 850.61999512
+        },
+        "rotY": 157.80000305,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 449,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22025
+    },
+    {
+      "ID": 98,
+      "GroupID": "EP6zone1homicide",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 706.89599609,
+          "y": 35.6780014,
+          "z": 851.48101807
+        },
+        "rotY": 222.02949524,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 458,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 99,
+      "GroupID": "EP6zone1homicide",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 705.66400146,
+          "y": 35.6570015,
+          "z": 850.20800781
+        },
+        "rotY": 49.14870834,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 460,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 100,
+      "GroupID": "EP6zone1chat",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 698.52124023,
+          "y": 25.01069641,
+          "z": 804.17871094
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 458,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20023
+    },
+    {
+      "ID": 101,
+      "GroupID": "EP6zone1chat",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 698.42401123,
+          "y": 25.04500961,
+          "z": 805.54901123
+        },
+        "rotY": 171.97787476,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 464,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20023
+    },
+    {
+      "ID": 102,
+      "GroupID": "EP6zone1chatplayerfans",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 681.56298828,
+          "y": 32.90000153,
+          "z": 875.04400635
+        },
+        "rotY": 151.58108521,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 448,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 103,
+      "GroupID": "EP6zone1chatplayerfans",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 682.28997803,
+          "y": 32.79999924,
+          "z": 873.16998291
+        },
+        "rotY": 312.74716187,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 461,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 104,
+      "GroupID": "EP6teacher&student",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 802.26000977,
+          "y": 21.81152344,
+          "z": 889.45001221
+        },
+        "rotY": 192.89733887,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 552,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23026
+    },
+    {
+      "ID": 105,
+      "GroupID": "EP6teacher&student",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 800.21899414,
+          "y": 21.81152344,
+          "z": 887.9329834
+        },
+        "rotY": 40.85824966,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 554,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23026
+    },
+    {
+      "ID": 106,
+      "GroupID": "EP6teacher&student",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 801.8380127,
+          "y": 21.81152534,
+          "z": 886.99102783
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 546,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23026
+    },
+    {
+      "ID": 115,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 639.02325439,
+          "y": 10.67938995,
+          "z": 753.02478027
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 558,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18022
+    },
+    {
+      "ID": 116,
+      "GroupID": "EP6zone3chat03",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 636.00097656,
+          "y": 10.6796875,
+          "z": 766.91998291
+        },
+        "rotY": 353.27322388,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 558,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18022
+    },
+    {
+      "ID": 117,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 636.78997803,
+          "y": 10.6796875,
+          "z": 767.09997559
+        },
+        "rotY": 326.88360596,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 572,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18022
+    },
+    {
+      "ID": 118,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 623.64001465,
+          "y": 13.33067703,
+          "z": 803.40002441
+        },
+        "rotY": 187.17637634,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 576,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 119,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 621.16998291,
+          "y": 13.33067703,
+          "z": 801.2800293
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 559,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 120,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 622.59002686,
+          "y": 13.33067703,
+          "z": 800.96002197
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 560,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 121,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 625.19000244,
+          "y": 13.33105469,
+          "z": 801.85998535
+        },
+        "rotY": 292.51251221,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 573,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 122,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 479.76000977,
+          "y": 17.62041473,
+          "z": 876.23999023
+        },
+        "rotY": 173.4453125,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 579,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 14025
+    },
+    {
+      "ID": 123,
+      "GroupID": "EP6zone3chat05",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 609.17999268,
+          "y": 17.34179688,
+          "z": 853.32000732
+        },
+        "rotY": 303.83755493,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 561,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 124,
+      "GroupID": "EP6zone3chat05",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 609.67999268,
+          "y": 17.34179688,
+          "z": 854.02001953
+        },
+        "rotY": 300.4631958,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 562,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 125,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 608.8380127,
+          "y": 8.12624359,
+          "z": 750.41998291
+        },
+        "rotY": 92.40894318,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 563,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17022
+    },
+    {
+      "ID": 126,
+      "GroupID": "EP6zone3chat06",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 609.65802002,
+          "y": 8.12624359,
+          "z": 749.96398926
+        },
+        "rotY": 329.76846313,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 564,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17022
+    },
+    {
+      "ID": 127,
+      "GroupID": "EP6zone3chat07",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 615.38000488,
+          "y": 17.34179688,
+          "z": 852.13000488
+        },
+        "rotY": 195.5447998,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 574,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18025
+    },
+    {
+      "ID": 128,
+      "GroupID": "EP6zone3chat07",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 614.86297607,
+          "y": 17.34208679,
+          "z": 851.0670166
+        },
+        "rotY": 32.17477036,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 565,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18025
+    },
+    {
+      "ID": 131,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1114.27001953,
+          "y": 1.93262482,
+          "z": 933.30999756
+        },
+        "rotY": 297.86001587,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 445,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 132,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1118.81005859,
+          "y": 1.54289436,
+          "z": 935.95001221
+        },
+        "rotY": 278.5,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 444,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 133,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1105.61767578,
+          "y": 5.46944523,
+          "z": 962.98791504
+        },
+        "rotY": 220.80001831,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 447,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32028
+    },
+    {
+      "ID": 134,
+      "GroupID": "EP6L2complain",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 704.45202637,
+          "y": 24.66894531,
+          "z": 838.43103027
+        },
+        "rotY": 245.96405029,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 493,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20024
+    },
+    {
+      "ID": 135,
+      "GroupID": "EP6L2complain",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 702.83197021,
+          "y": 24.66894531,
+          "z": 837.684021
+        },
+        "rotY": 76.88327789,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 519,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20024
+    },
+    {
+      "ID": 136,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 463.49850464,
+          "y": 10.57902145,
+          "z": 805.11901855
+        },
+        "rotY": 255.80276489,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 584,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 13023
+    },
+    {
+      "ID": 137,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 467.55886841,
+          "y": 15.00899982,
+          "z": 808.25244141
+        },
+        "rotY": 238.71255493,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 584,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 13023
+    },
+    {
+      "ID": 138,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 470.6907959,
+          "y": 11.10999966,
+          "z": 802.52105713
+        },
+        "rotY": 243.42373657,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 584,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 13023
+    },
+    {
+      "ID": 139,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 482.12298584,
+          "y": 7.40299988,
+          "z": 800.57202148
+        },
+        "rotY": 223.31207275,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 584,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 14023
+    },
+    {
+      "ID": 140,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 745.01239014,
+          "y": 25.01083374,
+          "z": 781.16363525
+        },
+        "rotY": 263.36846924,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 437,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 141,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 742.52062988,
+          "y": 25.01083374,
+          "z": 786.49066162
+        },
+        "rotY": 184.76663208,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 441,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 142,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 739.64550781,
+          "y": 25.03106117,
+          "z": 786.7300415
+        },
+        "rotY": 151.67555237,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 444,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 143,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 744.67999268,
+          "y": 25.01083374,
+          "z": 783.21002197
+        },
+        "rotY": 254.19613647,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 592,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 144,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 744.6416626,
+          "y": 25.01083374,
+          "z": 785.34088135
+        },
+        "rotY": 216.36459351,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 562,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 146,
+      "GroupID": "zone3_girltalk01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 659.85131836,
+          "y": 16.01317024,
+          "z": 816.61724854
+        },
+        "rotY": 149.58546448,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 624,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 19024
+    },
+    {
+      "ID": 147,
+      "GroupID": "zone3_girltalk01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 660.34997559,
+          "y": 16.01317024,
+          "z": 815.70001221
+        },
+        "rotY": 331.65490723,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 625,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 19023
+    },
+    {
+      "ID": 150,
+      "GroupID": "EP6zone4chat1",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 348.04000854,
+          "y": 3.66338468,
+          "z": 434.6000061
+        },
+        "rotY": 192.8326416,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 605,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 151,
+      "GroupID": "EP6zone4chat1",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 346.92001343,
+          "y": 3.57427979,
+          "z": 433.07998657
+        },
+        "rotY": 18.70703506,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 481,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 152,
+      "GroupID": "EP6zone4chat2",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 344.95999146,
+          "y": 3.52441406,
+          "z": 761.26000977
+        },
+        "rotY": 195.43841553,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 634,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10022
+    },
+    {
+      "ID": 153,
+      "GroupID": "EP6zone4chat2",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 343.60998535,
+          "y": 3.57427979,
+          "z": 759.30999756
+        },
+        "rotY": 33.79071808,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 635,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10022
+    },
+    {
+      "ID": 154,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 630.13000488,
+          "y": 10.79166698,
+          "z": 753.76000977
+        },
+        "rotY": 113.93000031,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 630,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18022
+    },
+    {
+      "ID": 155,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 630.77001953,
+          "y": 10.67939186,
+          "z": 753.0300293
+        },
+        "rotY": 106.15000153,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 630,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18022
+    },
+    {
+      "ID": 156,
+      "GroupID": "EP6_easteregg66",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 828.92999268,
+          "y": 25.37491608,
+          "z": 891.15997314
+        },
+        "rotY": 241.97576904,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 534,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24026
+    },
+    {
+      "ID": 157,
+      "GroupID": "EP6_easteregg66",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 829.73101807,
+          "y": 25.37491608,
+          "z": 890.559021
+        },
+        "rotY": 241.93930054,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 582,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24026
+    },
+    {
+      "ID": 158,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 280.26998901,
+          "y": 10.57226562,
+          "z": 842.41998291
+        },
+        "rotY": 68.42227936,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 633,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 159,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 280.77999878,
+          "y": 10.57226562,
+          "z": 840.42999268
+        },
+        "rotY": 72.52062988,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 633,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 160,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 282.57998657,
+          "y": 10.57226562,
+          "z": 838.71002197
+        },
+        "rotY": 33.47903442,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 633,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 161,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 249.3999939,
+          "y": 10.57225037,
+          "z": 857.09997559
+        },
+        "rotY": 191.51274109,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 633,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 7025
+    },
+    {
+      "ID": 162,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 756.27001953,
+          "y": 24.92404938,
+          "z": 740.88000488
+        },
+        "rotY": 155.39648438,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 527,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22021
+    },
+    {
+      "ID": 163,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 765.34002686,
+          "y": 24.92404556,
+          "z": 744.94000244
+        },
+        "rotY": 149.23269653,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 527,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22021
+    },
+    {
+      "ID": 167,
+      "GroupID": "gc16301",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 753.16998291,
+          "y": 25.01082611,
+          "z": 821.2800293
+        },
+        "rotY": 327.0614624,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 638,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 168,
+      "GroupID": "gc16301",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 751.25,
+          "y": 25.01074219,
+          "z": 821.36999512
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 644,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 169,
+      "GroupID": "gc16301",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 750.54998779,
+          "y": 25.01082802,
+          "z": 824.35998535
+        },
+        "rotY": 79.17634583,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 662,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 170,
+      "GroupID": "gc16302",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 756.60095215,
+          "y": 25.01083374,
+          "z": 789.89526367
+        },
+        "rotY": 13.42307186,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 663,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 171,
+      "GroupID": "gc16302",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 758.26361084,
+          "y": 25.01082611,
+          "z": 791.56170654
+        },
+        "rotY": 215.28216553,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 647,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 172,
+      "GroupID": "gc16303",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 704.35217285,
+          "y": 25.01074219,
+          "z": 805.86120605
+        },
+        "rotY": 346.21325684,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 640,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20023
+    },
+    {
+      "ID": 173,
+      "GroupID": "gc16303",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 704.90997314,
+          "y": 25.01083374,
+          "z": 808.08001709
+        },
+        "rotY": 181.14533997,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 643,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20023
+    },
+    {
+      "ID": 174,
+      "GroupID": "gc16304",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 749.16998291,
+          "y": 27.48046875,
+          "z": 864.71002197
+        },
+        "rotY": 193.01902771,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 659,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22025
+    },
+    {
+      "ID": 175,
+      "GroupID": "gc16304",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 747.84002686,
+          "y": 27.48046875,
+          "z": 862.65997314
+        },
+        "rotY": 36.14485931,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 648,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21025
+    },
+    {
+      "ID": 176,
+      "GroupID": "gc16304",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 750.11999512,
+          "y": 27.48046875,
+          "z": 861.71002197
+        },
+        "rotY": 314.53500366,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 641,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22025
+    },
+    {
+      "ID": 177,
+      "GroupID": "gc16305",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 720.9006958,
+          "y": 23.75908661,
+          "z": 806.60418701
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 645,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 178,
+      "GroupID": "gc16305",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 721.82000732,
+          "y": 23.75908661,
+          "z": 809.19000244
+        },
+        "rotY": 207.21801758,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 638,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 179,
+      "GroupID": "gc16306",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 724.27850342,
+          "y": 25.01082611,
+          "z": 783.38275146
+        },
+        "rotY": 280.22540283,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 644,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 180,
+      "GroupID": "gc16306",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 722.13000488,
+          "y": 25.01082993,
+          "z": 784.41998291
+        },
+        "rotY": 112.71394348,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 646,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 181,
+      "GroupID": "gc16307",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 766.5300293,
+          "y": 24.85813141,
+          "z": 822.52001953
+        },
+        "rotY": 27.66714478,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 656,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 182,
+      "GroupID": "gc16307",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 768.21002197,
+          "y": 24.85813141,
+          "z": 823.78997803
+        },
+        "rotY": 41.5470047,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 653,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22024
+    },
+    {
+      "ID": 183,
+      "GroupID": "hl16301",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 611.85998535,
+          "y": 17.34179688,
+          "z": 849.96002197
+        },
+        "rotY": 17.37235451,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 720,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 184,
+      "GroupID": "hl16301",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 613.04998779,
+          "y": 17.34208679,
+          "z": 851.57000732
+        },
+        "rotY": 215.13267517,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 666,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18025
+    },
+    {
+      "ID": 185,
+      "GroupID": "hl16302",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 609.82000732,
+          "y": 17.34179688,
+          "z": 860.82000732
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 663,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 186,
+      "GroupID": "hl16302",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 610.80999756,
+          "y": 17.34179688,
+          "z": 862.34002686
+        },
+        "rotY": 209.21917725,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 723,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 187,
+      "GroupID": "hl16303",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 588.65997314,
+          "y": 17.34179688,
+          "z": 846.66998291
+        },
+        "rotY": 321.42025757,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 650,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 188,
+      "GroupID": "hl16303",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 587.57000732,
+          "y": 17.34179688,
+          "z": 848.20001221
+        },
+        "rotY": 130.99807739,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 654,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 189,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 594.66558838,
+          "y": 17.34208679,
+          "z": 850.4486084
+        },
+        "rotY": 16.9083786,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 665,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 190,
+      "GroupID": "hl16304",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 613.40997314,
+          "y": 17.34179688,
+          "z": 858.98999023
+        },
+        "rotY": 96.27134705,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 721,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18025
+    },
+    {
+      "ID": 191,
+      "GroupID": "hl16304",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 615.17999268,
+          "y": 17.34179688,
+          "z": 859.21002197
+        },
+        "rotY": 259.53503418,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 640,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18025
+    },
+    {
+      "ID": 192,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 606.63037109,
+          "y": 17.34208679,
+          "z": 853.41314697
+        },
+        "rotY": 287.6517334,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 649,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 194,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 599.65002441,
+          "y": 10.67939758,
+          "z": 777.97998047
+        },
+        "rotY": 181.6363678,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 665,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17022
+    },
+    {
+      "ID": 195,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 624.18255615,
+          "y": 13.33105469,
+          "z": 777.23254395
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 648,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18022
+    },
+    {
+      "ID": 196,
+      "GroupID": "hl16305",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 610.91998291,
+          "y": 13.33067036,
+          "z": 791.38000488
+        },
+        "rotY": 5.51750565,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 666,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17023
+    },
+    {
+      "ID": 197,
+      "GroupID": "hl16305",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 609.85998535,
+          "y": 13.33067131,
+          "z": 793.35998535
+        },
+        "rotY": 105.57862091,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 647,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17023
+    },
+    {
+      "ID": 198,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 616.36340332,
+          "y": 13.3306694,
+          "z": 784.44348145
+        },
+        "rotY": 49.20954132,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 639,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 199,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 633.03997803,
+          "y": 13.3306694,
+          "z": 785.67999268
+        },
+        "rotY": 345.98046875,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 722,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 201,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 634.67999268,
+          "y": 13.3306694,
+          "z": 786.41998291
+        },
+        "rotY": 261.91448975,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 723,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 204,
+      "GroupID": "gc16308",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 714.40997314,
+          "y": 25.01082611,
+          "z": 815.92999268
+        },
+        "rotY": 20.64360237,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 647,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 205,
+      "GroupID": "gc16308",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 715.63000488,
+          "y": 25.01082611,
+          "z": 817.41998291
+        },
+        "rotY": 245.2023468,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 640,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 206,
+      "GroupID": "ep6branchcat01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 857.84893799,
+          "y": 34.20186234,
+          "z": 584.35913086
+        },
+        "rotY": 292.69592285,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 667,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25017
+    },
+    {
+      "ID": 207,
+      "GroupID": "ep6branchcat01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 856.0,
+          "y": 33.99816513,
+          "z": 584.93157959
+        },
+        "rotY": 69.44368744,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 668,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25017
+    },
+    {
+      "ID": 208,
+      "GroupID": "ep6-z4magic01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 374.76998901,
+          "y": 8.52705765,
+          "z": 479.92001343
+        },
+        "rotY": 304.92504883,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 681,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11014
+    },
+    {
+      "ID": 209,
+      "GroupID": "ep6-z4magic01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 373.92001343,
+          "y": 8.52705765,
+          "z": 480.89001465
+        },
+        "rotY": 151.97198486,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 682,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 210,
+      "GroupID": "ep6-z4magic02",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 363.73999023,
+          "y": 6.6328125,
+          "z": 464.5
+        },
+        "rotY": 85.748703,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 683,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 211,
+      "GroupID": "ep6-z4magic02",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 364.88000488,
+          "y": 6.6328125,
+          "z": 464.73999023
+        },
+        "rotY": 255.35101318,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 684,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 212,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 382.81033325,
+          "y": 3.84417629,
+          "z": 470.4552002
+        },
+        "rotY": 192.20152283,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 689,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 213,
+      "GroupID": "ep6-z4cheat01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 382.03005981,
+          "y": 3.84417629,
+          "z": 469.52999878
+        },
+        "rotY": 24.31207848,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 690,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 214,
+      "GroupID": "ep6-z4cheat01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 383.26528931,
+          "y": 3.84417629,
+          "z": 469.6131897
+        },
+        "rotY": 322.92816162,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 691,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 215,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 369.44674683,
+          "y": 6.63293839,
+          "z": 476.2605896
+        },
+        "rotY": 51.30456543,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 692,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 222,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 299.32000732,
+          "y": 3.52441406,
+          "z": 531.65997314
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8015
+    },
+    {
+      "ID": 223,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 351.48001099,
+          "y": 6.6328125,
+          "z": 490.01000977
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10014
+    },
+    {
+      "ID": 224,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 374.23623657,
+          "y": 6.63293648,
+          "z": 466.17416382
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 225,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 355.77999878,
+          "y": 6.63293648,
+          "z": 452.53985596
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 226,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 342.30999756,
+          "y": 3.60471988,
+          "z": 413.24093628
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 227,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 847.25891113,
+          "y": 31.71674728,
+          "z": 562.05792236
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24016
+    },
+    {
+      "ID": 228,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 842.72723389,
+          "y": 32.44480133,
+          "z": 574.48272705
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24016
+    },
+    {
+      "ID": 229,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 873.03759766,
+          "y": 34.55973816,
+          "z": 603.47546387
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25017
+    },
+    {
+      "ID": 230,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 826.23199463,
+          "y": 32.87400055,
+          "z": 618.18798828
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24018
+    },
+    {
+      "ID": 231,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 765.67376709,
+          "y": 27.48046875,
+          "z": 872.33209229
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22025
+    },
+    {
+      "ID": 232,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 848.56799316,
+          "y": 30.22322464,
+          "z": 908.08300781
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24026
+    },
+    {
+      "ID": 233,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 658.04760742,
+          "y": 32.79999924,
+          "z": 874.56726074
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 19025
+    },
+    {
+      "ID": 234,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 794.5300293,
+          "y": 24.66894531,
+          "z": 789.42999268
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23023
+    },
+    {
+      "ID": 235,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 758.51000977,
+          "y": 24.92382812,
+          "z": 732.35998535
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22021
+    },
+    {
+      "ID": 236,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 693.9810791,
+          "y": 24.66894531,
+          "z": 833.02429199
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20024
+    },
+    {
+      "ID": 237,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 717.89001465,
+          "y": 25.01082611,
+          "z": 827.09997559
+        },
+        "rotY": 111.40509796,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 694,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 238,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 723.32000732,
+          "y": 25.01082611,
+          "z": 830.32000732
+        },
+        "rotY": 197.81716919,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 694,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 239,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 683.6428833,
+          "y": 32.94614792,
+          "z": 857.83959961
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 694,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 241,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 686.95587158,
+          "y": 34.36999893,
+          "z": 857.70001221
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 694,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 240,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 689.7800293,
+          "y": 34.47999954,
+          "z": 859.57000732
+        },
+        "rotY": 322.55422974,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 694,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 242,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 690.71478271,
+          "y": 32.94614792,
+          "z": 860.85577393
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 694,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20025
+    },
+    {
+      "ID": 248,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 611.98999023,
+          "y": 13.33067322,
+          "z": 796.61999512
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17023
+    },
+    {
+      "ID": 246,
+      "GroupID": "ep6-L5wheelchair01 ",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 630.72998047,
+          "y": 13.33067131,
+          "z": 806.19000244
+        },
+        "rotY": 352.77975464,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 697,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 247,
+      "GroupID": "ep6-L5wheelchair01 ",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 631.61798096,
+          "y": 13.33067226,
+          "z": 806.5880127
+        },
+        "rotY": 300.6126709,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 698,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18023
+    },
+    {
+      "ID": 249,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 630.32763672,
+          "y": 10.67939377,
+          "z": 760.88305664
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18022
+    },
+    {
+      "ID": 250,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 302.92999268,
+          "y": 7.04785156,
+          "z": 819.59765625
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 251,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 408.88751221,
+          "y": 17.62041473,
+          "z": 849.58337402
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 12024
+    },
+    {
+      "ID": 252,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 313.91000366,
+          "y": 10.57226562,
+          "z": 950.16998291
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 9027
+    },
+    {
+      "ID": 253,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 416.08731079,
+          "y": 17.62041473,
+          "z": 850.75134277
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 12025
+    },
+    {
+      "ID": 254,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 387.04681396,
+          "y": 17.62041473,
+          "z": 862.61816406
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11025
+    },
+    {
+      "ID": 255,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 325.24172974,
+          "y": 3.52441406,
+          "z": 717.55169678
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 9021
+    },
+    {
+      "ID": 256,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 567.31500244,
+          "y": 3.52408314,
+          "z": 748.98999023
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 16022
+    },
+    {
+      "ID": 257,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 219.91000366,
+          "y": 3.52441406,
+          "z": 725.41998291
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 6021
+    },
+    {
+      "ID": 260,
+      "GroupID": "ep6-mainL501",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 595.2199707,
+          "y": 17.34179688,
+          "z": 847.42999268
+        },
+        "rotY": 23.9768219,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 699,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 261,
+      "GroupID": "ep6-mainL501",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 596.57299805,
+          "y": 17.34179688,
+          "z": 847.76397705
+        },
+        "rotY": 25.60894966,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 700,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 262,
+      "GroupID": "ep6-mainL501",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 597.59100342,
+          "y": 17.34179688,
+          "z": 847.60900879
+        },
+        "rotY": 351.81594849,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 701,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 263,
+      "GroupID": "ep6-mainL501 ",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 609.63000488,
+          "y": 17.34179688,
+          "z": 855.90991211
+        },
+        "rotY": 278.9753418,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 702,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 282,
+      "GroupID": "ep6-mainL503",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 610.05871582,
+          "y": 10.67940521,
+          "z": 824.56207275
+        },
+        "rotY": 158.64822388,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 706,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 281,
+      "GroupID": "ep6-mainL503",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 616.0,
+          "y": 10.67940521,
+          "z": 826.5980835
+        },
+        "rotY": 337.48956299,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 706,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18024
+    },
+    {
+      "ID": 266,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 597.33001709,
+          "y": 18.4474926,
+          "z": 861.98999023
+        },
+        "rotY": 334.30529785,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 705,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 271,
+      "GroupID": "ep6-mainL503",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 615.28997803,
+          "y": 10.67940521,
+          "z": 828.29998779
+        },
+        "rotY": 146.19810486,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 702,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18024
+    },
+    {
+      "ID": 273,
+      "GroupID": "ep6-mainL502",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 602.80999756,
+          "y": 17.34208679,
+          "z": 851.86999512
+        },
+        "rotY": 142.8999939,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 700,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 274,
+      "GroupID": "ep6-mainL502",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 603.73999023,
+          "y": 17.34208679,
+          "z": 852.16998291
+        },
+        "rotY": 148.99998474,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 701,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 275,
+      "GroupID": "ep6-mainL502",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 604.69000244,
+          "y": 17.34208679,
+          "z": 852.67999268
+        },
+        "rotY": 144.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 699,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 276,
+      "GroupID": "ep6-mainL502",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 606.65002441,
+          "y": 17.34208679,
+          "z": 854.65997314
+        },
+        "rotY": 177.90000916,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 702,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 277,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 836.74053955,
+          "y": 31.71679688,
+          "z": 638.99829102
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24018
+    },
+    {
+      "ID": 278,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 872.61376953,
+          "y": 34.09907913,
+          "z": 593.29559326
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25017
+    },
+    {
+      "ID": 279,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 645.37866211,
+          "y": 10.57226562,
+          "z": 590.19854736
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 18017
+    },
+    {
+      "ID": 280,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 870.68103027,
+          "y": 20.32453918,
+          "z": 864.45031738
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25025
+    },
+    {
+      "ID": 283,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 369.69821167,
+          "y": 3.84375,
+          "z": 440.072052
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 693,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10012
+    },
+    {
+      "ID": 284,
+      "GroupID": "EP6_Env_zone1_bridge1",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 767.70397949,
+          "y": 25.59182739,
+          "z": 717.44500732
+        },
+        "rotY": 152.57478333,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 436,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22021
+    },
+    {
+      "ID": 285,
+      "GroupID": "EP6_Env_zone1_bridge1",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 768.23999023,
+          "y": 25.59179688,
+          "z": 716.13201904
+        },
+        "rotY": 319.80389404,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 437,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22021
+    },
+    {
+      "ID": 286,
+      "GroupID": "EP6_Env_zone1_bridge2",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 796.35699463,
+          "y": 25.59179688,
+          "z": 679.24298096
+        },
+        "rotY": 315.35906982,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 610,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23019
+    },
+    {
+      "ID": 287,
+      "GroupID": "EP6_Env_zone1_bridge2",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 795.61236572,
+          "y": 25.59183502,
+          "z": 680.68261719
+        },
+        "rotY": 155.20393372,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 707,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 23020
+    },
+    {
+      "ID": 288,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 777.48699951,
+          "y": 27.52000046,
+          "z": 871.10601807
+        },
+        "rotY": 260.38555908,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 495,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22025
+    },
+    {
+      "ID": 289,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 776.97302246,
+          "y": 27.51399994,
+          "z": 871.8380127
+        },
+        "rotY": 241.05447388,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 503,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22025
+    },
+    {
+      "ID": 290,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 708.90002441,
+          "y": 25.01082611,
+          "z": 786.75
+        },
+        "rotY": 41.09767914,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 709,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20023
+    },
+    {
+      "ID": 291,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 738.29998779,
+          "y": 27.47999954,
+          "z": 879.34002686
+        },
+        "rotY": 161.32817078,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 710,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21025
+    },
+    {
+      "ID": 296,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 733.90197754,
+          "y": 25.01074219,
+          "z": 774.4130249
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 718,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 297,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 735.0380249,
+          "y": 25.02602768,
+          "z": 774.73498535
+        },
+        "rotY": 206.03695679,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 604,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 292,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 759.27801514,
+          "y": 25.01074219,
+          "z": 811.92602539
+        },
+        "rotY": 53.46720123,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 461,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 293,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 760.44702148,
+          "y": 25.01083374,
+          "z": 812.51800537
+        },
+        "rotY": 237.18569946,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 463,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 294,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 711.79901123,
+          "y": 25.26452255,
+          "z": 824.30200195
+        },
+        "rotY": 146.41262817,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 719,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20024
+    },
+    {
+      "ID": 295,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 726.80200195,
+          "y": 25.01082611,
+          "z": 832.11401367
+        },
+        "rotY": 308.77722168,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 697,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 304,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 285.64001465,
+          "y": 10.57225037,
+          "z": 842.02001953
+        },
+        "rotY": 246.12850952,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 716,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 305,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 282.24798584,
+          "y": 10.57226562,
+          "z": 844.38598633
+        },
+        "rotY": 167.69888306,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 715,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 306,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 282.52218628,
+          "y": 10.57226562,
+          "z": 842.41760254
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 714,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 307,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 282.47198486,
+          "y": 11.31000042,
+          "z": 843.22399902
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 717,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 308,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 284.54000854,
+          "y": 10.57225037,
+          "z": 841.28198242
+        },
+        "rotY": 289.15582275,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 711,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 8024
+    },
+    {
+      "ID": 309,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 602.67016602,
+          "y": 18.46767807,
+          "z": 863.48834229
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 700,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 310,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 600.95324707,
+          "y": 18.46370506,
+          "z": 863.70306396
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 700,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 311,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 602.71002197,
+          "y": 17.34179688,
+          "z": 851.7199707
+        },
+        "rotY": 326.79998779,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 700,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 312,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 603.67999268,
+          "y": 17.34179688,
+          "z": 852.0300293
+        },
+        "rotY": 341.91000366,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 701,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 313,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 606.15002441,
+          "y": 17.34208679,
+          "z": 851.66998291
+        },
+        "rotY": 311.76000977,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 69,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 314,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 608.02001953,
+          "y": 17.34179688,
+          "z": 861.36999512
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 702,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 315,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 604.66998291,
+          "y": 17.34208679,
+          "z": 852.65997314
+        },
+        "rotY": 287.6000061,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 699,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 316,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 606.69000244,
+          "y": 17.34208679,
+          "z": 854.59997559
+        },
+        "rotY": 287.66998291,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 702,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 317,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1113.39892578,
+          "y": 3.89284611,
+          "z": 915.69250488
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 564,
+      "DefaultShow": true,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 318,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1105.20996094,
+          "y": 3.89257812,
+          "z": 909.22998047
+        },
+        "rotY": 45.55999756,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 607,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 319,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1120.7800293,
+          "y": 1.54289436,
+          "z": 926.59002686
+        },
+        "rotY": 280.6499939,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 629,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 320,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1118.26000977,
+          "y": 1.54296875,
+          "z": 948.73999023
+        },
+        "rotY": 229.09999084,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 691,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32027
+    },
+    {
+      "ID": 321,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1118.75,
+          "y": 3.89257812,
+          "z": 913.26000977
+        },
+        "rotY": 344.38995361,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 692,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 322,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1120.67004395,
+          "y": 3.89257812,
+          "z": 913.15002441
+        },
+        "rotY": 328.29000854,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 629,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 323,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 1119.58996582,
+          "y": 3.89284515,
+          "z": 916.2800293
+        },
+        "rotY": 310.32998657,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 628,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 32026
+    },
+    {
+      "ID": 324,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 597.29418945,
+          "y": 18.45062447,
+          "z": 855.71899414
+        },
+        "rotY": 14.09999657,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 725,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 325,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 601.12109375,
+          "y": 17.34208679,
+          "z": 850.10681152
+        },
+        "rotY": 336.80001831,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 726,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 327,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 608.35186768,
+          "y": 17.34179688,
+          "z": 851.53942871
+        },
+        "rotY": 318.77001953,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 727,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 328,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 611.01000977,
+          "y": 17.34179688,
+          "z": 858.75
+        },
+        "rotY": 265.73001099,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 728,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17025
+    },
+    {
+      "ID": 329,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 593.23999023,
+          "y": 17.34179688,
+          "z": 846.72998047
+        },
+        "rotY": 54.70000839,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 728,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 17024
+    },
+    {
+      "ID": 330,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 380.04000854,
+          "y": 4.82967234,
+          "z": 471.29998779
+        },
+        "rotY": 219.64001465,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 459,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 331,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 378.22000122,
+          "y": 4.82079268,
+          "z": 463.36999512
+        },
+        "rotY": 276.3500061,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 481,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 332,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 372.51998901,
+          "y": 5.26612854,
+          "z": 453.73999023
+        },
+        "rotY": 0.0,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 489,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 10013
+    },
+    {
+      "ID": 333,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 374.3500061,
+          "y": 4.84956551,
+          "z": 455.11999512
+        },
+        "rotY": 333.6499939,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 492,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 334,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 379.22000122,
+          "y": 4.89328051,
+          "z": 467.07000732
+        },
+        "rotY": 249.32998657,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 605,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 11013
+    },
+    {
+      "ID": 335,
+      "GroupID": "ep6branchcat01",
+      "WorldTransform": {
+        "worldPos": {
+          "x": 858.73248291,
+          "y": 34.49985504,
+          "z": 584.7376709
+        },
+        "rotY": 328.72070312,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 730,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 25017
+    },
+    {
+      "ID": 336,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 821.77740479,
+          "y": 29.99904251,
+          "z": 912.83953857
+        },
+        "rotY": 210.21000671,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 481,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24026
+    },
+    {
+      "ID": 337,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 819.68768311,
+          "y": 29.99904251,
+          "z": 911.85131836
+        },
+        "rotY": 98.5,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 477,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24026
+    },
+    {
+      "ID": 338,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 821.25097656,
+          "y": 29.99902344,
+          "z": 910.92852783
+        },
+        "rotY": 349.07998657,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 461,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24026
+    },
+    {
+      "ID": 340,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 714.10998535,
+          "y": 25.01074219,
+          "z": 822.13000488
+        },
+        "rotY": 86.23999786,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 476,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 341,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 715.51000977,
+          "y": 25.01074219,
+          "z": 822.64001465
+        },
+        "rotY": 239.23999023,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 464,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21024
+    },
+    {
+      "ID": 342,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 706.06744385,
+          "y": 25.01082993,
+          "z": 814.59368896
+        },
+        "rotY": 40.8599968,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 484,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20023
+    },
+    {
+      "ID": 343,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 707.55999756,
+          "y": 25.01082993,
+          "z": 815.55999756
+        },
+        "rotY": 240.44000244,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 489,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20023
+    },
+    {
+      "ID": 344,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 710.67999268,
+          "y": 25.01074219,
+          "z": 816.55999756
+        },
+        "rotY": 57.30000305,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 483,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20024
+    },
+    {
+      "ID": 345,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 711.78997803,
+          "y": 25.01082611,
+          "z": 818.01000977
+        },
+        "rotY": 210.69000244,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 481,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 20024
+    },
+    {
+      "ID": 350,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 816.18835449,
+          "y": 17.83398438,
+          "z": 852.55847168
+        },
+        "rotY": 5.7200017,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 504,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24025
+    },
+    {
+      "ID": 351,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 818.80999756,
+          "y": 17.83398438,
+          "z": 850.2199707
+        },
+        "rotY": 331.29998779,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 507,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24025
+    },
+    {
+      "ID": 352,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 820.08001709,
+          "y": 17.83398438,
+          "z": 852.15997314
+        },
+        "rotY": 328.59997559,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 509,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24025
+    },
+    {
+      "ID": 353,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 819.86999512,
+          "y": 17.83398438,
+          "z": 855.84002686
+        },
+        "rotY": 288.09997559,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 503,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 24025
+    },
+    {
+      "ID": 354,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 742.42303467,
+          "y": 24.94199944,
+          "z": 772.59637451
+        },
+        "rotY": 116.93000031,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 515,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 355,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 744.25,
+          "y": 24.85131836,
+          "z": 772.64001465
+        },
+        "rotY": 200.8999939,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 518,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 356,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 743.5300293,
+          "y": 24.85131836,
+          "z": 771.25
+        },
+        "rotY": 352.75,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 501,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21022
+    },
+    {
+      "ID": 357,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 720.68109131,
+          "y": 23.75878906,
+          "z": 801.60247803
+        },
+        "rotY": 196.28999329,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 680,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 358,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 718.88323975,
+          "y": 23.75908661,
+          "z": 800.32647705
+        },
+        "rotY": 79.34000397,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 675,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 359,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 720.39001465,
+          "y": 23.75878906,
+          "z": 799.61999512
+        },
+        "rotY": 312.61999512,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 679,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 21023
+    },
+    {
+      "ID": 360,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 755.90002441,
+          "y": 25.01083374,
+          "z": 806.79998779
+        },
+        "rotY": 214.24000549,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 699,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 361,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 754.01000977,
+          "y": 25.01083374,
+          "z": 806.64001465
+        },
+        "rotY": 124.1000061,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 691,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
+    },
+    {
+      "ID": 362,
+      "GroupID": null,
+      "WorldTransform": {
+        "worldPos": {
+          "x": 754.88000488,
+          "y": 25.01083374,
+          "z": 804.84002686
+        },
+        "rotY": 355.97998047,
+        "scale": 1.0
+      },
+      "FCPath": "nodecanvas/flowcanvas/atmosphere/fc_atmnpc_idle.asset",
+      "PrefabID": 701,
+      "DefaultShow": false,
+      "TipName": null,
+      "LogicItem": null,
+      "Chunk": 22023
     }
-  }
+  ]
 }

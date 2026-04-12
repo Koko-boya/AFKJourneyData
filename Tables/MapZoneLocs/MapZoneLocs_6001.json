@@ -1,18 +1,36 @@
 {
   "_meta": {
-    "table": "MapZoneLocs",
-    "source_table": "MapZoneLocs",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapZoneLocs_6001",
+    "header_table": "MapZoneLocs_6001HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 1,
+    "array_fields": [
+      "Locs"
+    ],
+    "unresolved_array_refs": 1
   },
-  "data": {
-    "MapZoneLocs_6001HeaderTable": {
-      "ZoneID": 0,
-      "MinX": 1,
-      "MinY": 2,
-      "Width": 3,
-      "Height": 4,
-      "Locs": 5
+  "default": {
+    "ZoneID": "null",
+    "MinX": 0,
+    "MinY": 0,
+    "Width": 0,
+    "Height": 0,
+    "Locs": {}
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "ZoneID": 1,
+      "MinX": 15,
+      "MinY": 23,
+      "Width": 25,
+      "Height": 26,
+      "Locs": {
+        "$arrayRef": 93696
+      }
     }
-  }
+  ]
 }

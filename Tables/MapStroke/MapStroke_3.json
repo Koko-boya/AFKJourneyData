@@ -1,18 +1,179 @@
 {
   "_meta": {
-    "table": "MapStroke",
-    "source_table": "MapStroke",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapStroke_3",
+    "header_table": "MapStroke_3HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 7,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapStroke_3HeaderTable": {
-      "ID": 0,
-      "NormalSlates": 1,
-      "StartSlate": 2,
-      "EndSlate": 3,
-      "TransSlates": 4,
-      "FinishAction": 5
+  "default": {
+    "ID": "null",
+    "NormalSlates": {},
+    "StartSlate": 0,
+    "EndSlate": 0,
+    "TransSlates": {},
+    "FinishAction": "true"
+  },
+  "row_keys": [
+    8,
+    3,
+    1,
+    5,
+    11,
+    10,
+    7
+  ],
+  "rows": [
+    {
+      "ID": 8,
+      "NormalSlates": {
+        "1": 1430086,
+        "2": 1,
+        "3": 1440086,
+        "4": 1,
+        "5": 1450086,
+        "6": 1,
+        "7": 1440087,
+        "8": 3
+      },
+      "StartSlate": 1450085,
+      "EndSlate": 1440088,
+      "TransSlates": {},
+      "FinishAction": "ed.ActionX.AddStates(310085,\"Show\",\"Interactive\",\"CShow_1\")"
+    },
+    {
+      "ID": 3,
+      "NormalSlates": {
+        "1": 1570152,
+        "2": 1,
+        "3": 1550153,
+        "4": 1,
+        "5": 1560153,
+        "6": 3,
+        "7": 1540154,
+        "8": 1,
+        "9": 1560154,
+        "10": 1
+      },
+      "StartSlate": 1560152,
+      "EndSlate": 1550154,
+      "TransSlates": {},
+      "FinishAction": "ed.ActionX.AddStates(310086,\"Show\",\"Interactive\",\"CShow_1\")"
+    },
+    {
+      "ID": 1,
+      "NormalSlates": {
+        "1": 1700171,
+        "2": 1,
+        "3": 1710171,
+        "4": 1,
+        "5": 1730171,
+        "6": 1,
+        "7": 1720172,
+        "8": 3,
+        "9": 1730172,
+        "10": 1,
+        "11": 1740172,
+        "12": 1,
+        "13": 1720173,
+        "14": 1
+      },
+      "StartSlate": 1710170,
+      "EndSlate": 1720171,
+      "TransSlates": {},
+      "FinishAction": "ed.ActionX.AddStates(310796,\"Show\",\"Interactive\",\"CShow_1\")"
+    },
+    {
+      "ID": 5,
+      "NormalSlates": {
+        "1": 2840188,
+        "2": 1,
+        "3": 2840189,
+        "4": 1,
+        "5": 2860189,
+        "6": 1,
+        "7": 2860191,
+        "8": 3
+      },
+      "StartSlate": 2850189,
+      "EndSlate": 2870190,
+      "TransSlates": {
+        "1": 2850188,
+        "2": 2850191
+      },
+      "FinishAction": "ed.ActionX.AddStates(301494,\"Show\",\"Interactive\",\"CShow_1\")"
+    },
+    {
+      "ID": 11,
+      "NormalSlates": {
+        "1": 3310213,
+        "2": 1,
+        "3": 3320213,
+        "4": 1,
+        "5": 3250214,
+        "6": 1,
+        "7": 3310214,
+        "8": 2,
+        "9": 3320214,
+        "10": 2,
+        "11": 3260215,
+        "12": 2
+      },
+      "StartSlate": 3320215,
+      "EndSlate": 3280216,
+      "TransSlates": {
+        "1": 3270215,
+        "2": 3300215
+      },
+      "FinishAction": "ed.ActionX.AddStates(301095,\"Show\",\"Interactive\",\"CShow_1\")"
+    },
+    {
+      "ID": 10,
+      "NormalSlates": {
+        "1": 4350244,
+        "2": 1,
+        "3": 4340246,
+        "4": 1,
+        "5": 4350246,
+        "6": 2,
+        "7": 4350247,
+        "8": 1
+      },
+      "StartSlate": 4350245,
+      "EndSlate": 4360246,
+      "TransSlates": {
+        "1": 4340245,
+        "2": 4340247
+      },
+      "FinishAction": "ed.ActionX.AddStates(313528,\"Interactive\",\"Show\")"
+    },
+    {
+      "ID": 7,
+      "NormalSlates": {
+        "1": 3940258,
+        "2": 1,
+        "3": 3950258,
+        "4": 2,
+        "5": 3940259,
+        "6": 1,
+        "7": 3950259,
+        "8": 1,
+        "9": 3910260,
+        "10": 2,
+        "11": 3920260,
+        "12": 1,
+        "13": 3920261,
+        "14": 1
+      },
+      "StartSlate": 3950260,
+      "EndSlate": 3900261,
+      "TransSlates": {
+        "1": 3950257,
+        "2": 3930260
+      },
+      "FinishAction": "ed.ActionX.AddStates(301584,\"Show\",\"Interactive\",\"CShow_1\")"
     }
-  }
+  ]
 }

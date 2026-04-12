@@ -1,22 +1,3871 @@
 {
   "_meta": {
-    "table": "ExplTask",
-    "source_table": "ExplTask",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "ExplTask_1501",
+    "header_table": "ExplTask_1501HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 10,
+    "row_count": 280,
+    "array_fields": [
+      "ActionRewards",
+      "ClientRecvEvents",
+      "NextTaskIDs"
+    ],
+    "unresolved_array_refs": 150
   },
-  "data": {
-    "ExplTask_1501HeaderTable": {
-      "LineID": 0,
+  "default": {
+    "LineID": "null",
+    "TaskID": "null",
+    "NextTaskIDs": {},
+    "ClientRecvEvents": {},
+    "RecvCondition": "true",
+    "ClientRecvActionByMove": "true",
+    "RecvAction": "true",
+    "LastStepID": 0,
+    "ActionRewards": {},
+    "HasTimelinePlot": false
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "LineID": 15010101,
       "TaskID": 1,
-      "NextTaskIDs": 2,
-      "ClientRecvEvents": 3,
-      "RecvCondition": 4,
-      "ClientRecvActionByMove": 5,
-      "RecvAction": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:10010100:4",
+        "2": "ChoseRetro:Ep05",
+        "3": "UnlockModule:Retro"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(10010100,4) and ed.ConditionX.IsRetroChosen(\"Ep05\") and ed.ConditionX.IsModuleUnlocked(\"Retro\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(4178432,\"Show\",\"Interactive\") and ed.ActionX.AddStates(509400035,\"Show\") and ed.ActionX.AddStates(509400036,\"Show\")",
       "LastStepID": 7,
-      "ActionRewards": 8,
-      "HasTimelinePlot": 9
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010102,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001155,\"Show\",\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1001156,\"Show\",\"Interactive\",\"Blocked\") and ed.ActionX.AddStates(1000178,\"Show\",\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(1000172,\"Show\") and ed.ActionX.AddStates(1000173,\"Show\") and ed.ActionX.AddStates(1000174,\"Show\") and ed.ActionX.AddStates(1000175,\"Show\") and ed.ActionX.AddStates(1000176,\"Show\") and ed.ActionX.AddStates(1000177,\"Show\") and ed.ActionX.AddStates(1004135,\"Show\") and ed.ActionX.AddStates(1004136,\"Show\") and ed.ActionX.AddStates(1000102,\"Show\",\"CShow_1\")",
+      "LastStepID": 18,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010102,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010102:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 11,
+      "ActionRewards": {
+        "1": 10,
+        "2": 685,
+        "3": 1
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010102,
+      "TaskID": 3,
+      "NextTaskIDs": {
+        "$arrayRef": 74788
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74424
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010102,
+      "TaskID": 200,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74884
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15207120)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010102,
+      "TaskID": 300,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74884
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15207120)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010102,
+      "TaskID": 400,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 14,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010103,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000565,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010103,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010103,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010103,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010103,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010104,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74886
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010103,5)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000499,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010104,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010104,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 15,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010104,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010104,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010104,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010105,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74887
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010105,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010105,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010105,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010106,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010105:4"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010105,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000436,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000437,\"Show\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010106,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000064,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1003335,\"Show\")",
+      "LastStepID": 11,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010106,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001382,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001524,\"CMark_1\") and ed.ActionX.C_ChangePrefab(1001524,0)",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010106,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001390,\"Show\",\"Interactive\")",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010106,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000396,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000407,\"Show\")",
+      "LastStepID": 17,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010106,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 11,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010107,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74888
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010106,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000303,\"Show\",\"Interactive\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010107,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 13,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010107,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 11,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010107,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010108,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74889
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010107,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509600042,\"Show\",\"Interactive\",\"CShow_1\") and ed.ActionX.AddStates(509600162,\"Show\",\"CShow_1\")",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010108,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001792,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1003889,\"Show\") and ed.ActionX.AddStates(1003891,\"Show\") and ed.ActionX.AddStates(1003890,\"Show\") and ed.ActionX.AddStates(1003892,\"Show\") and ed.ActionX.AddStates(1003893,\"Show\") and ed.ActionX.AddStates(1003889,\"Show\") and ed.ActionX.AddStates(1003888,\"Show\") and ed.ActionX.AddStates(1003866,\"Show\") and ed.ActionX.AddStates(1003867,\"Show\") and ed.ActionX.AddStates(1003868,\"Show\") and ed.ActionX.AddStates(1003869,\"Show\") and ed.ActionX.AddStates(1003872,\"Show\") and ed.ActionX.AddStates(1003873,\"Show\") and ed.ActionX.AddStates(1003874,\"Show\") and ed.ActionX.AddStates(1003875,\"Show\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010108,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000606,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1002189,\"Show\")",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010108,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509800050,\"Show\",\"Interactive\")",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010108,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509800054,\"Show\",\"Interactive\") and ed.ActionX.AddStates(509800065,\"Show\")",
+      "LastStepID": 14,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010108,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509800071,\"Show\",\"Interactive\") and ed.ActionX.AddStates(509800073,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(509800072,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(509800076,\"Show\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010109,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010108:6"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010108,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509600021,\"Show\",\"Interactive\") and ed.ActionX.AddStates(509600022,\"Show\") and ed.ActionX.SetFinalStates(509600048,1003885,1003878,1003877,1003886,1003887) and ed.ActionX.SetFinalStates(509600144) and ed.ActionX.DelStates(1003879,\"Show\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010109,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 13,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010109,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 11,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010110,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74890
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010109,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010110,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010110,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.SetFinalStates(1000257,1004255,1004257)",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010111,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010110:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010110,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000160,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001157,\"Show\")",
+      "LastStepID": 12,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010112,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010112,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 13,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010112,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {
+        "1": 19,
+        "2": 37,
+        "3": 1
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010112,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010201,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74886
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010103,5)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000883,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010201,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010201:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010201,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010201,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010201:2"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010201,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010201,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010201:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010201,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000898,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000899,\"Show\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010201,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010201:4"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010201,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010201:5",
+        "2": "ExplTaskFinish:15010205:600"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010201,5) and ed.ConditionX.IsExplTaskFinished(15010205,600)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001007,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001008,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001009,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001010,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1000980,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010202:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010202,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010202:2"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010202,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 4,
+      "NextTaskIDs": {
+        "1": 500,
+        "2": 600,
+        "3": 700
+      },
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010202:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010202,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 500,
+      "NextTaskIDs": {
+        "$arrayRef": 7093
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74892
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15213450)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001007,\"Show\",\"Interactive\") and ed.ActionX.C_RunPlot(15213460)",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 600,
+      "NextTaskIDs": {
+        "$arrayRef": 7093
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74892
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15213450)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001007,\"Show\",\"Interactive\") and ed.ActionX.C_RunPlot(15213570)",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 700,
+      "NextTaskIDs": {
+        "$arrayRef": 7093
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74892
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15213450)==3",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001007,\"Show\",\"Interactive\") and ed.ActionX.C_RunPlot(15213640)",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010202,
+      "TaskID": 701,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010203,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74893
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001014,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010203,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010203,
+      "TaskID": 3,
+      "NextTaskIDs": {
+        "$arrayRef": 74823
+      },
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010203,
+      "TaskID": 400,
+      "NextTaskIDs": {
+        "$arrayRef": 32041
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74894
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15212160)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001020,\"Interactive\")",
+      "LastStepID": 3,
+      "ActionRewards": {
+        "1": 21,
+        "2": 137,
+        "3": 1
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010203,
+      "TaskID": 500,
+      "NextTaskIDs": {
+        "$arrayRef": 32041
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74894
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15212160)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.C_RunPlot(15212210) and ed.ActionX.AddStates(1001031,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010203,
+      "TaskID": 600,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010204,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010104:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000698,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000699,\"Show\") and ed.ActionX.AddStates(1000700,\"Show\") and ed.ActionX.AddStates(1000801,\"Show\")",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010204,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010204,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010204,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010205,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010111:1",
+        "2": "ExplTaskFinish:15010204:4"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1) and ed.ConditionX.IsExplTaskFinished(15010204,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000854,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000855,\"Show\")",
+      "LastStepID": 11,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010205,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010205,
+      "TaskID": 3,
+      "NextTaskIDs": {
+        "$arrayRef": 74823
+      },
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010205,
+      "TaskID": 400,
+      "NextTaskIDs": {
+        "$arrayRef": 32041
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74895
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15205290)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 12,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010205,
+      "TaskID": 500,
+      "NextTaskIDs": {
+        "$arrayRef": 32041
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74895
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15205290)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010205,
+      "TaskID": 600,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010206,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010105:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010105,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000299,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000861,\"Show\") and ed.ActionX.AddStates(1000862,\"Show\") and ed.ActionX.AddStates(1000863,\"Show\") and ed.ActionX.AddStates(1000864,\"Show\") and ed.ActionX.AddStates(1001847,\"Show\") and ed.ActionX.AddStates(1001848,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010206,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010206:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010206,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000867,\"Show\") and ed.ActionX.AddStates(1000868,\"Show\",\"Interactive\",\"CMark_1\") and ed.ActionX.AddStates(1000869,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1000872,\"Show\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010206,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010206:2"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010206,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010206,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010206:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010206,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001849,\"Show\") and ed.ActionX.AddStates(1001851,\"Show\") and ed.ActionX.AddStates(1001852,\"Show\") and ed.ActionX.AddStates(1003131,\"Show\") and ed.ActionX.AddStates(1003132,\"Show\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010207,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74896
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010105,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001229,\"Show\",\"Interactive\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010207,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010207,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010207,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010208,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010106:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010106,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001318,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001260,\"Show\") and ed.ActionX.AddStates(1001111,\"Show\") and ed.ActionX.AddStates(1001113,\"Show\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010208,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010208:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010208,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010208,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010208:2"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010208,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001307,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1002961,\"Show\",\"Interactive\")",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010210,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001035,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001036,\"Show\") and ed.ActionX.AddStates(1001037,\"Show\") and ed.ActionX.AddStates(1004706,\"Show\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010210,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010210:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010210,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010210,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010210:2"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010210,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010210,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010210:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010210,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001263,\"Show\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010210,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010210:4"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010210,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.SetWeather(10,3,\"Sunny\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010210,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010210:5"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010210,5)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010210,
+      "TaskID": 7,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010210:6"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010210,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010211,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001238,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001239,\"Show\",\"CShow_1\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010211,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010211,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010211,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010211,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010217,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74424
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000791,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1002241,\"Show\")",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010218,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74424
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000595,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000597,\"Show\") and ed.ActionX.AddStates(1000598,\"Show\",\"CShow_3\") and ed.ActionX.AddStates(1000599,\"Show\",\"CShow_3\") and ed.ActionX.AddStates(1000600,\"Show\",\"CShow_3\")",
+      "LastStepID": 11,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010219,
+      "TaskID": 1,
+      "NextTaskIDs": {
+        "$arrayRef": 74788
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74424
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000126,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001140,\"Show\") and ed.ActionX.AddStates(1000127,\"Show\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010219,
+      "TaskID": 200,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74884
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15207120)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010219,
+      "TaskID": 300,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74884
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15207120)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010219,
+      "TaskID": 400,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010220,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74897
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000677,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001827,\"Show\") and ed.ActionX.AddStates(1001828,\"Show\") and ed.ActionX.AddStates(1001829,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001830,\"Show\") and ed.ActionX.AddStates(1000680,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1000681,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1000682,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1000683,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1000684,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001834,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001528,\"Show\")",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010221,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74897
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000670,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004694,\"Show\") and ed.ActionX.AddStates(1001824,\"Show\",\"CShow_1\")",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010222,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74897
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000701,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010222,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010222,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010222,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010222,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010222,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010225,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74898
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010110,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000268,\"Show\",\"Blocked\")",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010226,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74898
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010110,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010227,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74898
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010110,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000271,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000280,\"Show\",\"Blocked\") and ed.ActionX.AddStates(1004851,\"Show\") and ed.ActionX.AddStates(1004852,\"Show\") and ed.ActionX.AddStates(1004853,\"Show\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010228,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74887
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000571,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1000573,\"Show\") and ed.ActionX.AddStates(1000574,\"Show\") and ed.ActionX.AddStates(1000575,\"Show\") and ed.ActionX.AddStates(1000576,\"Show\") and ed.ActionX.AddStates(1000577,\"Show\") and ed.ActionX.AddStates(1000578,\"Show\") and ed.ActionX.AddStates(1000579,\"Show\") and ed.ActionX.AddStates(1002922,\"Show\") and ed.ActionX.C_RunPlot(15214025) and ed.ActionX.C_RunPlot(15214026)",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010228,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010228,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010229,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74887
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509200082,\"Show\",\"Interactive\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010229,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010230,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74887
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509200053,\"Show\",\"Interactive\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010230,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010230,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010230,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010233,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "FishLevelUp:Ep05",
+        "2": "ExplTaskFinish:15010111:1"
+      },
+      "RecvCondition": "ed.ConditionX.FishLv(\"Ep05\")>=8 and ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001407,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001409,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001408,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001411,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001410,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1003137,\"Show\") and ed.ActionX.AddStates(1001551,\"Show\") and ed.ActionX.AddStates(1001550,\"Show\") and ed.ActionX.AddStates(1001553,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010233,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001412,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1001413,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001414,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001415,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1001416,\"Show\",\"CShow_1\")",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010233,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1001413,\"Show\") and ed.ActionX.AddStates(1001414,\"Show\") and ed.ActionX.AddStates(1001415,\"Show\") and ed.ActionX.AddStates(1001416,\"Show\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010233,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004803,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004360,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004802,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004801,\"Show\",\"Interactive\",\"CShow_1\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010234,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509400081,\"Show\",\"Interactive\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010234,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005358,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010234,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005503,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005512,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005505,\"Show\") and ed.ActionX.AddStates(1005506,\"Show\") and ed.ActionX.AddStates(1005507,\"Show\") and ed.ActionX.AddStates(1005508,\"Show\") and ed.ActionX.AddStates(1005509,\"Show\") and ed.ActionX.AddStates(1005510,\"Show\") and ed.ActionX.AddStates(1005511,\"Show\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010235,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010234:3",
+        "2": "ExplTaskFinish:15010501:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010234,3) and ed.ConditionX.IsExplTaskFinished(15010501,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005522,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010236,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74429
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010235,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000540,\"CShow_3\") and ed.ActionX.AddStates(1005523,\"Show\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010237,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010236:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010236,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000540,\"CShow_4\") and ed.ActionX.AddStates(1005523,\"Show\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010238,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74899
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010234,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509600171,\"Show\",\"Interactive\",\"CShow_2\") and ed.ActionX.AddStates(509600172,\"Show\") and ed.ActionX.AddStates(509600173,\"Show\") and ed.ActionX.AddStates(509600174,\"Show\") and ed.ActionX.AddStates(509600175,\"Show\")",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010239,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010238:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010238,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005529,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005530,\"Show\") and ed.ActionX.AddStates(1005539,\"Show\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010240,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74430
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010239,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005540,\"Show\",\"Interactive\",\"CShow_1\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010241,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74899
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010234,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509200226,\"Show\",\"Interactive\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010242,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010241:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010241,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005514,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010243,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010242:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010242,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005526,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005527,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010301,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010302,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010303,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "AddState:1000509",
+        "2": "AddAvatar:88"
+      },
+      "RecvCondition": "ed.ConditionX.HasState(1000509,\"CMark_1\") and not ed.ConditionX.HasAvatar(88)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {
+        "$arrayRef": 74907
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010304,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "AddState:1003966",
+        "2": "AddBehaviour:55"
+      },
+      "RecvCondition": "ed.ConditionX.HasState(1003966,\"Show\") and not ed.ConditionX.HasBehaviour(55)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {
+        "$arrayRef": 74882
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010305,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74897
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010306,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74897
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010307,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005277,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010311,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010311,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010311,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010104:4"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010311,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74889
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010107,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010311,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010311,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74900
+      },
+      "RecvCondition": "ed.ConditionX.HasState(509400039,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010312,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010312,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010312,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74900
+      },
+      "RecvCondition": "ed.ConditionX.HasState(509400039,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010313,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010313,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "AddState:1002972"
+      },
+      "RecvCondition": "ed.ConditionX.HasState(1002972,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010313,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010313,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74900
+      },
+      "RecvCondition": "ed.ConditionX.HasState(509400039,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010314,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010314,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010105:2"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010105,2)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010314,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "AddState:1000351"
+      },
+      "RecvCondition": "ed.ConditionX.HasState(1000351,\"CMark_1\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010314,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74889
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010107,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010314,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010314,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74900
+      },
+      "RecvCondition": "ed.ConditionX.HasState(509400039,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010316,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010316,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010316,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74900
+      },
+      "RecvCondition": "ed.ConditionX.HasState(509400039,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010317,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74898
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010110,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010318,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74883
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010101,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004576,\"Show\") and ed.ActionX.AddStates(1004577,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004683,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010321,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74901
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005068,\"Show\",\"Interactive\",\"CShow_1\")",
+      "LastStepID": 1,
+      "ActionRewards": {
+        "$arrayRef": 74858
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010322,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005069,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004574,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {
+        "1": 21,
+        "2": 141,
+        "3": 1
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010323,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004572,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004570,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010324,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010112:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010112,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509200184,\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010325,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509200185,\"Show\",\"Interactive\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010326,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509400101,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010327,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010219:300"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010219,300)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005070,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005071,\"Show\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010328,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74896
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010105,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005074,\"Show\",\"Interactive\",\"CMark_1\") and ed.ActionX.AddStates(1005075,\"Show\") and ed.ActionX.AddStates(1005076,\"Show\")",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010329,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74901
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005121,\"Show\") and ed.ActionX.AddStates(1005122,\"Show\") and ed.ActionX.AddStates(1005123,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010330,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74901
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005124,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005125,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010331,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005079,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010332,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74902
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005471,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005135,\"Show\") and ed.ActionX.AddStates(1005137,\"Show\") and ed.ActionX.AddStates(1005136,\"Show\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010333,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74902
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004977,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004976,\"Show\") and ed.ActionX.AddStates(1004973,\"Show\") and ed.ActionX.AddStates(1004972,\"Show\") and ed.ActionX.AddStates(1004971,\"Show\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010334,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74902
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005065,\"Show\") and ed.ActionX.AddStates(1005066,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010335,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.GenerateExplFishSlot(1005141) and ed.ActionX.AddStates(1005145,\"Show\") and ed.ActionX.AddStates(1005141,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010336,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74902
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005155,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004840,\"Show\") and ed.ActionX.AddStates(1005157,\"Show\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010337,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74902
+      },
+      "RecvCondition": "ed.ConditionX.IsZoneUnlocked(10,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005132,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005133,\"Show\") and ed.ActionX.AddStates(1005134,\"Show\") and ed.ActionX.AddStates(1005138,\"Show\") and ed.ActionX.AddStates(1005139,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010338,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010321:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010321,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005327,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010341,
+      "TaskID": 1,
+      "NextTaskIDs": {
+        "$arrayRef": 74859
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004804,\"Show\",\"Interactive\",\"CShow_1\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010341,
+      "TaskID": 100,
+      "NextTaskIDs": {
+        "$arrayRef": 20229
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74903
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15330060)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.C_RunPlot(15330070) and ed.ActionX.AddStates(1004878,\"Show\",\"Interactive\") and ed.ActionX.C_InteractObj(1004878) and ed.ActionX.SetFinalStates(1004877)",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010341,
+      "TaskID": 200,
+      "NextTaskIDs": {
+        "$arrayRef": 20229
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74903
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15330060)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.C_RunPlot(15330090)",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010341,
+      "TaskID": 201,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010342,
+      "TaskID": 1,
+      "NextTaskIDs": {
+        "$arrayRef": 74859
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004879,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004932,\"Show\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010342,
+      "TaskID": 100,
+      "NextTaskIDs": {
+        "$arrayRef": 20229
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74904
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15331030)<6",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010342,
+      "TaskID": 200,
+      "NextTaskIDs": {
+        "$arrayRef": 20229
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74904
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15331030)>=6",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010342,
+      "TaskID": 201,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010343,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004805,\"Show\") and ed.ActionX.AddStates(1004806,\"Show\") and ed.ActionX.AddStates(1004807,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010344,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004809,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010345,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004810,\"Show\") and ed.ActionX.AddStates(1004865,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010346,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004812,\"Show\",\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010347,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010205:400",
+        "2": "ExplTaskFinish:15010205:500"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010205,400) or ed.ConditionX.IsExplTaskFinished(15010205,500)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005202,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010348,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004814,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004815,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004816,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004817,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004818,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004819,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004940,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010349,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74885
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010102,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004820,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004861,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1004862,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010350,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004869,\"Show\",\"Interactive\",\"CShow_1\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010351,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74905
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010233,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004868,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004866,\"Show\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010352,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74888
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010106,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000414,\"Show\",\"Interactive\",\"CShow_2\")",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010353,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010352:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010352,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010354,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74888
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010106,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004937,\"Show\") and ed.ActionX.AddStates(1004939,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010355,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74888
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010106,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004859,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010356,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74414
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010230,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005093,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005094,\"Show\",\"CShow_1\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010357,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74414
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010230,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005260,\"Show\",\"Interactive\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010358,
+      "TaskID": 1,
+      "NextTaskIDs": {
+        "$arrayRef": 74788
+      },
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010204:4",
+        "2": "ExplTaskFinish:15010205:600"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010204,4) and ed.ConditionX.IsExplTaskFinished(15010205,600)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005095,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010358,
+      "TaskID": 200,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74906
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15360040)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010358,
+      "TaskID": 300,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74906
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15360040)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010358,
+      "TaskID": 400,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010359,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010203:600",
+        "2": "AddItem:5801711"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010203,600) and ed.ConditionX.ItemCount(5801711)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005191,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005191,\"CShow_1\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010360,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010203:500",
+        "2": "ExplTaskFinish:15010111:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010203,500) and ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005193,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005193,\"CShow_1\") and ed.ActionX.AddStates(1005255,\"Show\",\"CShow_1\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010361,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74893
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005096,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010362,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74887
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,6)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005099,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005098,\"CShow_1\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010362,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010363,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010362:1"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010362,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005361,\"Show\",\"Interactive\")",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010364,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74893
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005184,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010365,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005185,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005185,\"CShow_2\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010365,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010366,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74893
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005186,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1005198,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010367,
+      "TaskID": 1,
+      "NextTaskIDs": {
+        "$arrayRef": 74788
+      },
+      "ClientRecvEvents": {
+        "$arrayRef": 74893
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010104,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005187,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005188,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010367,
+      "TaskID": 200,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "1": "UpdatePlotChoiceScore:15360241"
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15360241)==1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005188,\"CMark_1\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010367,
+      "TaskID": 300,
+      "NextTaskIDs": {
+        "$arrayRef": 2991
+      },
+      "ClientRecvEvents": {
+        "1": "UpdatePlotChoiceScore:15360251"
+      },
+      "RecvCondition": "ed.ConditionX.PlotChoiceScore(15360251)==2",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005187,\"CMark_1\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010367,
+      "TaskID": 400,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005248,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010368,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010208:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010208,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005192,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005192,\"CShow_1\") and ed.ActionX.AddStates(1005256,\"Show\",\"CShow_1\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010369,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005189,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1005190,\"Show\",\"Interactive\") and ed.ActionX.C_RunPlot(15360280)",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010370,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010203:400"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010203,400)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010380,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74890
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010109,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005251,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005251,\"CShow_1\")",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010381,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74890
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010109,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005252,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1005254,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010382,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005089,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1005088,\"Show\",\"CShow_1\") and ed.ActionX.AddStates(1005087,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005087,\"CShow_1\") and ed.ActionX.AddStates(1005086,\"Show\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010383,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74905
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010233,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010384,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "AddBehaviour:24",
+        "2": "AddState:1004814"
+      },
+      "RecvCondition": "not ed.ConditionX.HasBehaviour(24) and ed.ConditionX.HasState(1004814,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {
+        "$arrayRef": 74804
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010385,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "AddState:509700022",
+        "2": "AddState:509700061"
+      },
+      "RecvCondition": "ed.ConditionX.HasState(509700022,\"Show\") and not ed.ConditionX.HasState(509700061,\"Show\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010386,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010106:3"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010106,3)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1000996,\"Show\",\"Interactive\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010387,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010390,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010392,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(509200232,\"Show\",\"Interactive\") and ed.ActionX.AddStates(509200233,\"Show\",\"Interactive\") and ed.ActionX.AddStates(509200234,\"Show\")",
+      "LastStepID": 1,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010393,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74431
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010520,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 3,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010501,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 74891
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010111,1)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004762,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004761,\"Show\") and ed.ActionX.AddStates(1000540,\"Show\",\"Interactive\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010502,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010501:1",
+        "2": "CampReputationLvUp:501"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010501,1) and ed.ConditionX.CampReputationLv(501)>=1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010503,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010502:1",
+        "2": "CampReputationLvUp:501"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010502,1) and ed.ConditionX.CampReputationLv(501)>=3",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004771,\"Show\",\"CShow_2\")",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010504,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010503:1",
+        "2": "CampReputationLvUp:501"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010503,1) and ed.ConditionX.CampReputationLv(501)>=6",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010505,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010504:1",
+        "2": "CampReputationLvUp:501"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010504,1) and ed.ConditionX.CampReputationLv(501)>=9",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004771,\"Show\",\"CShow_2\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010511,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010112:4"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010112,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005319,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005400,\"Show\")",
+      "LastStepID": 2,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010512,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010511:1",
+        "2": "CampReputationLvUp:502"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010511,1) and ed.ConditionX.CampReputationLv(502)>=1",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010513,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010512:1",
+        "2": "CampReputationLvUp:502"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010512,1) and ed.ConditionX.CampReputationLv(502)>=3",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010514,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010513:1",
+        "2": "CampReputationLvUp:502"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010513,1) and ed.ConditionX.CampReputationLv(502)>=6",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005397,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1005398,\"Show\")",
+      "LastStepID": 8,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010515,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010514:1",
+        "2": "CampReputationLvUp:502"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010514,1) and ed.ConditionX.CampReputationLv(502)>=9",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1005408,\"Show\")",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010520,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "1": "ExplTaskFinish:15010112:4",
+        "2": "ExplTaskFinish:15010515:1",
+        "3": "ExplTaskFinish:10020113:1",
+        "4": "ChoseRetro:Ep05"
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(15010112,4) and ed.ConditionX.IsExplTaskFinished(15010515,1) and ed.ConditionX.IsExplTaskFinished(10020113,1) and ed.ConditionX.IsRetroChosen(\"Ep05\")",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(4178432,\"Show\",\"Interactive\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010520,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1003985,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1003986,\"Show\") and ed.ActionX.AddStates(1003989,\"Show\") and ed.ActionX.AddStates(1003987,\"Show\",\"Interactive\")",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010520,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004390,\"Show\",\"Interactive\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010520,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004394,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004395,\"Show\") and ed.ActionX.AddStates(1004396,\"Show\") and ed.ActionX.AddStates(1004397,\"Show\") and ed.ActionX.AddStates(1004398,\"Show\") and ed.ActionX.AddStates(1004399,\"Show\") and ed.ActionX.AddStates(1004400,\"Show\") and ed.ActionX.AddStates(1005712,\"Show\")",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010520,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004408,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004409,\"Show\") and ed.ActionX.AddStates(1004410,\"Show\",\"Interactive\")",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010520,
+      "TaskID": 6,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004602,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1004603,\"Show\") and ed.ActionX.AddStates(1004604,\"Show\") and ed.ActionX.AddStates(1005594,\"Show\") and ed.ActionX.AddStates(1005593,\"Show\") and ed.ActionX.AddStates(1004605,\"Show\") and ed.ActionX.AddStates(509200222,\"Show\") and ed.ActionX.AddStates(509200225,\"Show\")",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010520,
+      "TaskID": 7,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1004416,\"Interactive\")",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010521,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010522,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010523,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010524,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010525,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010526,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 12,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010527,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010528,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 4,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010531,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010532,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010533,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {
+        "1": 17,
+        "2": 97,
+        "3": 1
+      },
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010534,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 7,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010535,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010536,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010537,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 15010538,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 6,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
     }
-  }
+  ]
 }

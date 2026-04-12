@@ -1,26 +1,243 @@
 {
   "_meta": {
-    "table": "MapBIOEntry",
-    "source_table": "MapBIOEntry",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapBIOEntry_5060",
+    "header_table": "MapBIOEntry_5060HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 14,
+    "row_count": 8,
+    "array_fields": [
+      "Rot"
+    ],
+    "unresolved_array_refs": 3
   },
-  "data": {
-    "MapBIOEntry_5060HeaderTable": {
-      "ID": 0,
-      "DefinitionID": 1,
-      "TreeName": 2,
-      "WorldPos": 3,
-      "Rot": 4,
-      "Scale": 5,
-      "Radius": 6,
-      "LogicItem": 7,
-      "DefaultActive": 8,
-      "Chunk": 9,
-      "PathID": 10,
-      "AnimTrigger": 11,
-      "ReversePath": 12,
-      "DoPathOnAwake": 13
+  "default": {
+    "ID": "null",
+    "DefinitionID": 0,
+    "TreeName": null,
+    "WorldPos": {},
+    "Rot": {},
+    "Scale": 0,
+    "Radius": 0,
+    "LogicItem": null,
+    "DefaultActive": false,
+    "Chunk": {},
+    "PathID": 0,
+    "AnimTrigger": null,
+    "ReversePath": false,
+    "DoPathOnAwake": false
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 49.7,
+        "2": null,
+        "3": 48.98
+      },
+      "Rot": {
+        "1": 0,
+        "2": 44.21539,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 1001
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 2,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 59.15442,
+        "2": null,
+        "3": 59.35272
+      },
+      "Rot": {
+        "$arrayRef": 72046
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 1001
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 3,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 55.94294,
+        "2": 7.180619,
+        "3": 74.83157
+      },
+      "Rot": {
+        "$arrayRef": 72046
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 1002
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 4,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 65.21088,
+        "2": 7.180646,
+        "3": 85.50389
+      },
+      "Rot": {
+        "$arrayRef": 72046
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 1002
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 5,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 69.66721,
+        "2": 7.180645,
+        "3": 80.29
+      },
+      "Rot": {
+        "1": 0,
+        "2": 246.783,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 2002
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 6,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 86.79,
+        "2": null,
+        "3": 70.28
+      },
+      "Rot": {
+        "1": 0,
+        "2": 293.1899,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 2002
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 7,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 93.41,
+        "2": null,
+        "3": 78.9632
+      },
+      "Rot": {
+        "1": 0,
+        "2": 140.9129,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 2002
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
+    },
+    {
+      "ID": 8,
+      "DefinitionID": 287,
+      "TreeName": "pbsc_com_rat_group",
+      "WorldPos": {
+        "1": 81.41689,
+        "2": null,
+        "3": 79.79362
+      },
+      "Rot": {
+        "1": 0,
+        "2": 127.6766,
+        "3": 0
+      },
+      "Scale": 1,
+      "Radius": 0,
+      "LogicItem": null,
+      "DefaultActive": true,
+      "Chunk": {
+        "1": 2002
+      },
+      "PathID": -1,
+      "AnimTrigger": null,
+      "ReversePath": false,
+      "DoPathOnAwake": true
     }
-  }
+  ]
 }

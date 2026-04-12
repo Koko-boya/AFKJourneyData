@@ -1,18 +1,46 @@
 {
   "_meta": {
-    "table": "MapStroke",
-    "source_table": "MapStroke",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "MapStroke_7004",
+    "header_table": "MapStroke_7004HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "MapStroke_7004HeaderTable": {
-      "ID": 0,
-      "NormalSlates": 1,
-      "StartSlate": 2,
-      "EndSlate": 3,
-      "TransSlates": 4,
-      "FinishAction": 5
+  "default": {
+    "ID": "null",
+    "NormalSlates": {},
+    "StartSlate": 0,
+    "EndSlate": 0,
+    "TransSlates": {},
+    "FinishAction": "true"
+  },
+  "row_keys": [
+    2
+  ],
+  "rows": [
+    {
+      "ID": 2,
+      "NormalSlates": {
+        "1": 410083,
+        "2": 1,
+        "3": 410085,
+        "4": 1,
+        "5": 410084,
+        "6": 2,
+        "7": 430085,
+        "8": 2
+      },
+      "StartSlate": 400083,
+      "EndSlate": 420087,
+      "TransSlates": {
+        "1": 400084,
+        "2": 430083,
+        "3": 430084,
+        "4": 420086
+      },
+      "FinishAction": "ed.ActionX.AddStates(700400246,\"Show\",\"Interactive\",\"CShow_1\")"
     }
-  }
+  ]
 }

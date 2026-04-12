@@ -1,36 +1,70 @@
 {
   "_meta": {
-    "table": "ExplStep",
-    "source_table": "ExplStep",
-    "format": "mapping_table",
-    "entry_count": 1
+    "table": "ExplStep_1701",
+    "header_table": "ExplStep_1701HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 24,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
-  "data": {
-    "ExplStep_1701HeaderTable": {
-      "LineID": 0,
+  "default": {
+    "LineID": "null",
+    "TaskID": "null",
+    "StepID": "null",
+    "PreStepList": {},
+    "ClientFinishEvents": {},
+    "Story": null,
+    "FinishCondition": "true",
+    "IsClientExpl": false,
+    "ClientFinishCondition": "true",
+    "ClientConditionType": null,
+    "ClientConditionParams": null,
+    "ClientTolerantCondition": "true",
+    "Target": 0,
+    "Detail": null,
+    "TrackObject": {},
+    "ClientFinishActionByMove": "true",
+    "FinishAction": "true",
+    "Cost": {},
+    "Bgm": null,
+    "Squad": {},
+    "ExtraParam": null,
+    "Gender": false,
+    "AutoExtraParam": null,
+    "HasTimelinePlot": false
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "LineID": 17010100,
       "TaskID": 1,
-      "StepID": 2,
-      "PreStepList": 3,
-      "ClientFinishEvents": 4,
-      "Story": 5,
-      "FinishCondition": 6,
-      "IsClientExpl": 7,
-      "ClientFinishCondition": 8,
-      "ClientConditionType": 9,
-      "ClientConditionParams": 10,
-      "ClientTolerantCondition": 11,
-      "Target": 12,
-      "Detail": 13,
-      "TrackObject": 14,
-      "ClientFinishActionByMove": 15,
-      "FinishAction": 16,
-      "Cost": 17,
-      "Bgm": 18,
-      "Squad": 19,
-      "ExtraParam": 20,
-      "Gender": 21,
-      "AutoExtraParam": 22,
-      "HasTimelinePlot": 23
+      "StepID": 1,
+      "PreStepList": {},
+      "ClientFinishEvents": {
+        "1": "EnterEp:*"
+      },
+      "Story": "15526135898659332140",
+      "FinishCondition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "IsClientExpl": false,
+      "ClientFinishCondition": "true",
+      "ClientConditionType": null,
+      "ClientConditionParams": null,
+      "ClientTolerantCondition": "true",
+      "Target": 0,
+      "Detail": "15526135898659332140",
+      "TrackObject": {},
+      "ClientFinishActionByMove": "true",
+      "FinishAction": "true",
+      "Cost": {},
+      "Bgm": null,
+      "Squad": {},
+      "ExtraParam": null,
+      "Gender": false,
+      "AutoExtraParam": null,
+      "HasTimelinePlot": false
     }
-  }
+  ]
 }
