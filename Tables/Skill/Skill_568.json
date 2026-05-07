@@ -8,11 +8,9 @@
     "array_fields": [
       "Action(s)",
       "CastDisplays",
-      "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 5
+    "unresolved_array_refs": 3
   },
   "default": {
     "CasterID": "null",
@@ -142,9 +140,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5031,
+      "CasterID": 5029,
       "SkillID": 0,
-      "SkillName": "activitywindspecter_atk",
+      "SkillName": "dwarfleaderturrettall_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -164,25 +162,25 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "passive",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 48
       },
       "TargetCamp": -1,
-      "TargetPriority": "farthest",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 1,
-      "CD": 9999,
-      "InitCD": 9999,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 0,
@@ -193,17 +191,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "woodspecter",
+      "UseWhich": "dwarfshooterturrettall",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
-      "HitDisplay": {
-        "$arrayRef": 96562
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -261,18 +257,16 @@
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
-      "ImpactEffect": null,
+      "ImpactEffect": "pbfx_impact_dwarfshooterturrettall_atk",
       "ImpactEffArgs": {},
-      "ImpactBone": null,
+      "ImpactBone": "Body",
       "ChainJumps": 0,
       "ChainGap": 0,
       "ChainJumpDistance": 0,
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96793
-      }
+      "ResourceList": {}
     }
   ]
 }

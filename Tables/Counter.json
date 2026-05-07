@@ -4,7 +4,7 @@
     "header_table": "CounterHeaderTable",
     "format": "flat_rows",
     "schema_size": 7,
-    "row_count": 1145,
+    "row_count": 1150,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -443,6 +443,8 @@
     936,
     937,
     938,
+    939,
+    940,
     1000,
     1001,
     1002,
@@ -1162,7 +1164,10 @@
     3073,
     3074,
     3075,
-    3076
+    3076,
+    3078,
+    3079,
+    3080
   ],
   "rows": [
     {
@@ -5858,6 +5863,28 @@
       "ScheduleType": null,
       "CounterType": 10,
       "CounterCondition": "ed.ConditionX.IsSeason(\"Ep06\")"
+    },
+    {
+      "ID": 939,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 799,
+      "ScheduleType": null,
+      "CounterType": 125,
+      "CounterCondition": "ed.ConditionX.IsItemID(58)"
+    },
+    {
+      "ID": 940,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 799,
+      "ScheduleType": null,
+      "CounterType": 125,
+      "CounterCondition": "ed.ConditionX.IsItemID(60)"
     },
     {
       "ID": 1000,
@@ -13810,6 +13837,39 @@
       "ScheduleID": 759,
       "ScheduleType": null,
       "CounterType": 90,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3078,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 770,
+      "ScheduleType": null,
+      "CounterType": 104,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3079,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 770,
+      "ScheduleType": null,
+      "CounterType": 11,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3080,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 758,
+      "ScheduleType": null,
+      "CounterType": 186,
       "CounterCondition": "true"
     }
   ]

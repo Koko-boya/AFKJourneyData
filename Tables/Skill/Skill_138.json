@@ -144,9 +144,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1018,
+      "CasterID": 1017,
       "SkillID": 0,
-      "SkillName": "goblinmeleebarelite_atk",
+      "SkillName": "goblinmeleeaxeelite_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -187,7 +187,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 56,
+      "GainMP": 53,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -197,15 +197,15 @@
       "SkinUseWhich": {},
       "UseWhich": "goblinmelee",
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -275,9 +275,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1018,
+      "CasterID": 1017,
       "SkillID": 11,
-      "SkillName": "goblinmeleebarelite_ult",
+      "SkillName": "goblinmeleeaxeelite_ult",
       "DisplayName": "1219285824033554149",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -328,15 +328,15 @@
       "SkinUseWhich": {},
       "UseWhich": "goblinmelee",
       "CastDisplays": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "HitDisplay": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
@@ -408,10 +408,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1018,
+      "CasterID": 1017,
       "SkillID": 21,
-      "SkillName": "goblinmeleebarelite_atk2",
-      "DisplayName": "5339787795380997641",
+      "SkillName": "goblinmeleeaxeelite_atk2",
+      "DisplayName": "12455292084692463892",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -431,8 +431,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "14669395171453869729",
-      "SimpleDescription": "7466671814434946583",
+      "Description": "13625093614948375896",
+      "SimpleDescription": "400306937716162158",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -461,15 +461,15 @@
       "SkinUseWhich": {},
       "UseWhich": "goblinmelee",
       "CastDisplays": {
-        "$arrayRef": 96669
+        "$arrayRef": 96685
       },
       "HitDisplay": {
-        "$arrayRef": 96669
+        "$arrayRef": 96685
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96669
+        "$arrayRef": 96685
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -479,12 +479,12 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.6,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 3,
-      "SArg1": 0,
+      "SArg0": 0.3,
+      "SArg1": 8,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -500,12 +500,12 @@
       "Buff": null,
       "BuffID": 0,
       "MoveForward": 0,
-      "KnockUp": 0.125,
+      "KnockUp": 0,
       "KnockBack": 0,
       "KnockDirectionReason": false,
       "FallFrozenTime": 0,
       "KnockNotFall": false,
-      "IsNoLaunch": true,
+      "IsNoLaunch": false,
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},

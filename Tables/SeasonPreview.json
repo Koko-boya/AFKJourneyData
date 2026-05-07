@@ -4,14 +4,14 @@
     "header_table": "SeasonPreviewHeaderTable",
     "format": "flat_rows",
     "schema_size": 13,
-    "row_count": 6,
+    "row_count": 7,
     "array_fields": [
       "SeasonEnterCondition",
       "SeasonEnterDes",
       "SeasonEntrance",
       "SeasonPhaseEnterDes"
     ],
-    "unresolved_array_refs": 16
+    "unresolved_array_refs": 23
   },
   "default": {
     "ID": "null",
@@ -34,7 +34,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "rows": [
     {
@@ -58,7 +59,7 @@
         "3": "5790037959970251440"
       },
       "SeasonPhaseEnterDes": {
-        "$arrayRef": 96384
+        "$arrayRef": 96464
       },
       "PreviewContent": "14771673823104356623",
       "PreviewPagePrefab1": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages/pbui_activity_season_page_1.prefab",
@@ -76,14 +77,14 @@
         "2": "ed.ConditionX.KnightLevel()>=240"
       },
       "SeasonEntrance": {
-        "$arrayRef": 96382
+        "$arrayRef": 96460
       },
       "SeasonEnterDes": {
         "1": "15317209469921733981",
         "2": "10288403327804829801"
       },
       "SeasonPhaseEnterDes": {
-        "$arrayRef": 96384
+        "$arrayRef": 96464
       },
       "PreviewContent": "11217478691093960091",
       "PreviewPagePrefab1": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep2/pbui_activity_season_page_1_ep2.prefab",
@@ -97,16 +98,16 @@
       "QuestGroupID": 2119,
       "RuleID": "SeasonPreviewEp3",
       "SeasonEnterCondition": {
-        "$arrayRef": 96381
+        "$arrayRef": 96458
       },
       "SeasonEntrance": {
-        "$arrayRef": 96382
+        "$arrayRef": 96460
       },
       "SeasonEnterDes": {
-        "$arrayRef": 96383
+        "$arrayRef": 96462
       },
       "SeasonPhaseEnterDes": {
-        "$arrayRef": 96384
+        "$arrayRef": 96464
       },
       "PreviewContent": "2375646101848431252",
       "PreviewPagePrefab1": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep3/pbui_activity_season_page_1_ep3.prefab",
@@ -120,16 +121,16 @@
       "QuestGroupID": 2120,
       "RuleID": "SeasonPreviewEp4",
       "SeasonEnterCondition": {
-        "$arrayRef": 96381
+        "$arrayRef": 96458
       },
       "SeasonEntrance": {
-        "$arrayRef": 96382
+        "$arrayRef": 96460
       },
       "SeasonEnterDes": {
-        "$arrayRef": 96383
+        "$arrayRef": 96462
       },
       "SeasonPhaseEnterDes": {
-        "$arrayRef": 96384
+        "$arrayRef": 96464
       },
       "PreviewContent": "7229874798664161797",
       "PreviewPagePrefab1": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep4/pbui_activity_season_page_1_ep4.prefab",
@@ -143,16 +144,16 @@
       "QuestGroupID": 2121,
       "RuleID": "SeasonPreviewEp5",
       "SeasonEnterCondition": {
-        "$arrayRef": 96381
+        "$arrayRef": 96458
       },
       "SeasonEntrance": {
-        "$arrayRef": 96382
+        "$arrayRef": 96460
       },
       "SeasonEnterDes": {
-        "$arrayRef": 96383
+        "$arrayRef": 96462
       },
       "SeasonPhaseEnterDes": {
-        "$arrayRef": 96384
+        "$arrayRef": 96464
       },
       "PreviewContent": "9754248206403544117",
       "PreviewPagePrefab1": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep5/pbui_activity_season_page_1_ep5.prefab",
@@ -166,25 +167,45 @@
       "QuestGroupID": 2122,
       "RuleID": "SeasonPreviewEp6",
       "SeasonEnterCondition": {
-        "1": "ed.ConditionX.KnightLevel()>=240",
-        "2": "ed.ConditionX.IsStageReachPoint(1125)"
+        "$arrayRef": 96459
       },
       "SeasonEntrance": {
-        "1": "Knight",
-        "2": "Idle"
+        "$arrayRef": 96461
       },
       "SeasonEnterDes": {
-        "1": "10288403327804829801",
-        "2": "5790037959970251440"
+        "$arrayRef": 96463
       },
       "SeasonPhaseEnterDes": {
-        "$arrayRef": 96384
+        "$arrayRef": 96464
       },
       "PreviewContent": "15419742298131901231",
       "PreviewPagePrefab1": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep6/pbui_activity_season_page_1_ep6.prefab",
       "PreviewPagePrefab2": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep6/pbui_activity_season_page_2_ep6.prefab",
       "PreviewPagePrefab3": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep6/pbui_activity_season_page_3_ep6.prefab",
       "SeasonOpenWindowPrefab": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep6/pbui_activity_season_windows_ep6.prefab"
+    },
+    {
+      "ID": 7,
+      "SeasonType": 107,
+      "QuestGroupID": 2123,
+      "RuleID": "SeasonPreviewEp7",
+      "SeasonEnterCondition": {
+        "$arrayRef": 96459
+      },
+      "SeasonEntrance": {
+        "$arrayRef": 96461
+      },
+      "SeasonEnterDes": {
+        "$arrayRef": 96463
+      },
+      "SeasonPhaseEnterDes": {
+        "$arrayRef": 96464
+      },
+      "PreviewContent": "11088586623462059966",
+      "PreviewPagePrefab1": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep7/pbui_activity_season_page_1_ep7.prefab",
+      "PreviewPagePrefab2": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep7/pbui_activity_season_page_2_ep7.prefab",
+      "PreviewPagePrefab3": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep7/pbui_activity_season_page_3_ep7.prefab",
+      "SeasonOpenWindowPrefab": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep7/pbui_activity_season_windows_ep7.prefab"
     }
   ]
 }

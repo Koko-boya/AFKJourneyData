@@ -7,10 +7,9 @@
     "row_count": 1,
     "array_fields": [
       "Action(s)",
-      "CastDisplays",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 3
+    "unresolved_array_refs": 2
   },
   "default": {
     "CasterID": "null",
@@ -136,15 +135,15 @@
     "ResourceList": {}
   },
   "row_keys": [
-    1
+    10
   ],
   "rows": [
     {
-      "CasterID": 7004,
-      "SkillID": 1,
-      "SkillName": "seamage_playlab_1",
-      "DisplayName": "13294593467694819962",
-      "IsShow": true,
+      "CasterID": 6007,
+      "SkillID": 10,
+      "SkillName": "equip_skill_atk",
+      "DisplayName": "5708918120477906804",
+      "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
@@ -153,56 +152,54 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
+      "Slot": 10,
+      "DisplaySlot": 10,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
-      "SkillScript": "lab_monsterEconomy",
-      "Icon": "UI/Icon/HeroSkill/icon_skill_thorn.png",
-      "Description": "12175231848012737014",
-      "SimpleDescription": "12175231848012737014",
+      "SkillScript": "human_transfer",
+      "Icon": null,
+      "Description": "15849807330728281456",
+      "SimpleDescription": null,
       "ActiveType": "manual",
       "ThumpCondition": -1,
-      "SetSpeeder": 0,
-      "TargetType": "hex",
+      "SetSpeeder": -1,
+      "TargetType": "unit",
       "TargetShape": null,
       "TargetShapeArgs": {
         "$arrayRef": 190
       },
-      "TargetCamp": -1,
-      "TargetPriority": "h_random",
+      "TargetCamp": 0,
+      "TargetPriority": "weakest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 1,
+      "TargetBlockType": "noblock",
+      "Priority": 10,
       "CD": 0,
       "InitCD": 0,
-      "GlobalCD": 1,
+      "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 0,
       "TrackType": null,
-      "UseNewDisplay": true,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "seamage",
-      "CastDisplays": {
-        "$arrayRef": 96562
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 0,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
@@ -213,10 +210,10 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1453,
-      "SArg1": 100,
-      "SArg2": 30,
-      "SArg3": 2,
+      "SArg0": 5,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -266,7 +263,10 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_object_common_typical_in",
+        "2": "pbfx_object_common_typical_out"
+      }
     }
   ]
 }

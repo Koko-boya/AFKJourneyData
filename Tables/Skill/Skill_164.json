@@ -9,10 +9,9 @@
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 10
   },
   "default": {
     "CasterID": "null",
@@ -144,9 +143,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1063,
+      "CasterID": 1062,
       "SkillID": 0,
-      "SkillName": "ybtarcher_atk",
+      "SkillName": "ybtassassin_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -175,21 +174,21 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 44
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
-      "VictimMP": 1,
-      "TrackType": "projectile",
+      "GainMP": 75,
+      "VictimMP": 0,
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -197,17 +196,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96580
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -244,10 +241,10 @@
       "FallFrozenTime": 0,
       "KnockNotFall": false,
       "IsNoLaunch": false,
-      "RandomBasicAtk": true,
+      "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -259,7 +256,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -277,10 +274,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1063,
+      "CasterID": 1062,
       "SkillID": 11,
-      "SkillName": "ybtarcher_ult",
-      "DisplayName": "3927175803807148581",
+      "SkillName": "ybtassassin_ult",
+      "DisplayName": "18391524052326606031",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -299,30 +296,30 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_aoe.png",
-      "Description": "17847320807224179223",
-      "SimpleDescription": "4683871567648521676",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_mp_burn.png",
+      "Description": "18340093753294789534",
+      "SimpleDescription": "14964780742471424140",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 190
       },
       "TargetCamp": -1,
-      "TargetPriority": "random",
+      "TargetPriority": "maxmp",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
-      "CD": 0,
-      "InitCD": 0,
+      "CD": 1.25,
+      "InitCD": 1.25,
       "GlobalCD": 1.25,
       "CostMP": 1000,
       "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": "projectile",
+      "VictimMP": 0,
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -330,17 +327,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96689
       },
       "HitDisplay": {
-        "$arrayRef": 96563
+        "$arrayRef": 96750
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96563
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96689
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -350,11 +345,11 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.5,
+      "PlusRatio": 1.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 5,
+      "SArg0": 300,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -380,7 +375,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -392,7 +387,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -410,15 +405,15 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1063,
+      "CasterID": 1062,
       "SkillID": 21,
-      "SkillName": "ybtarcher_atk2",
-      "DisplayName": "8212753828888938718",
+      "SkillName": "ybtassassin_atk2",
+      "DisplayName": "15295788377335311097",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
+      "UnlockLevel": 5,
       "UnlockExclusive": -1,
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
@@ -432,29 +427,29 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_dot.png",
-      "Description": "17909983022492114108",
-      "SimpleDescription": "2224372385436248175",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_assassinate.png",
+      "Description": "14586001430526390759",
+      "SimpleDescription": "13714197072892859455",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
       "TargetCamp": -1,
-      "TargetPriority": "self",
+      "TargetPriority": "maxmp",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": -1,
+      "Priority": -999,
       "CD": 9999,
       "InitCD": 9999,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
-      "VictimMP": 1,
+      "VictimMP": 0,
       "TrackType": null,
       "UseNewDisplay": false,
       "CameraType": 0,
@@ -467,7 +462,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -476,12 +471,12 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0.05,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 20,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,

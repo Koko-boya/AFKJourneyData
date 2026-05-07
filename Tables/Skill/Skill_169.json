@@ -144,9 +144,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1068,
+      "CasterID": 1067,
       "SkillID": 0,
-      "SkillName": "ybtshieldguard_atk",
+      "SkillName": "ybttamer_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -175,7 +175,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 45
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -187,7 +187,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 60,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -197,15 +197,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -215,7 +215,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.4,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -275,10 +275,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1068,
+      "CasterID": 1067,
       "SkillID": 11,
-      "SkillName": "ybtshieldguard_ult",
-      "DisplayName": "8241843894613685449",
+      "SkillName": "ybttamer_ult",
+      "DisplayName": "9941643497969247578",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -298,8 +298,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
-      "Description": "15654818060688956184",
-      "SimpleDescription": "2184177595322108627",
+      "Description": "10295319726914307478",
+      "SimpleDescription": "14324273185388667929",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -308,11 +308,11 @@
       "TargetShapeArgs": {
         "$arrayRef": 44
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 0,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 1.25,
       "InitCD": 1.25,
@@ -328,33 +328,31 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96812
       },
-      "HitDisplay": {
-        "$arrayRef": 96563
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96812
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 1,
       "AOEOrigin": "self",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 190
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.75,
+      "PlusRatio": 1.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1,
-      "SArg1": 0,
-      "SArg2": 0,
+      "SArg0": 30,
+      "SArg1": 0.5,
+      "SArg2": 6,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -369,7 +367,7 @@
       "Buff": null,
       "BuffID": 0,
       "MoveForward": 0,
-      "KnockUp": 0.125,
+      "KnockUp": 0,
       "KnockBack": 0,
       "KnockDirectionReason": false,
       "FallFrozenTime": 0,
@@ -408,10 +406,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1068,
+      "CasterID": 1067,
       "SkillID": 21,
-      "SkillName": "ybtshieldguard_atk2",
-      "DisplayName": "12586686877532632639",
+      "SkillName": "ybttamer_atk2",
+      "DisplayName": "18242588680884961168",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -430,16 +428,16 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arm_up.png",
-      "Description": "12792319570660654590",
-      "SimpleDescription": "7879409541421178190",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
+      "Description": "15932298512079081931",
+      "SimpleDescription": "6711192759230347368",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 45
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -451,7 +449,7 @@
       "InitCD": 1.25,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 49,
+      "GainMP": 98,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -461,21 +459,23 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "sector",
+      "AOEShapeArgs": {
+        "$arrayRef": 70845
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -483,7 +483,7 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.5,
+      "SArg0": 0,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,

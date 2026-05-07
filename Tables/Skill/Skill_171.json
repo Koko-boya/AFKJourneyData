@@ -6,13 +6,13 @@
     "schema_size": 121,
     "row_count": 3,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 13
   },
   "default": {
     "CasterID": "null",
@@ -144,9 +144,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1080,
+      "CasterID": 1069,
       "SkillID": 0,
-      "SkillName": "flowertankblue_atk",
+      "SkillName": "ybtadventurer_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -187,7 +187,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 75,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -195,17 +195,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "flowertank",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -215,7 +215,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -272,15 +272,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96732
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1080,
+      "CasterID": 1069,
       "SkillID": 11,
-      "SkillName": "flowertankblue_atk2",
-      "DisplayName": "18286675108121453859",
+      "SkillName": "ybtadventurer_atk2",
+      "DisplayName": "820391184935264543",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -290,8 +288,8 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 2,
-      "DisplaySlot": 2,
+      "Slot": 1,
+      "DisplaySlot": 1,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
@@ -299,26 +297,26 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_flower.png",
-      "Description": "14305340613016890604",
-      "SimpleDescription": "5779534720469221569",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
+      "Description": "11976274309963527079",
+      "SimpleDescription": "1855091945460024544",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 190
       },
-      "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetCamp": -1,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
-      "CD": 0,
-      "InitCD": 999999,
-      "GlobalCD": 1,
+      "Priority": -999,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
@@ -329,12 +327,16 @@
       "SkinId": {},
       "SkinUseWhich": {},
       "UseWhich": null,
-      "CastDisplays": {},
-      "HitDisplay": {},
+      "CastDisplays": {
+        "$arrayRef": 96643
+      },
+      "HitDisplay": {
+        "$arrayRef": 96643
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -344,13 +346,13 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.6,
-      "SArg1": 0.2,
-      "SArg2": 0.3,
+      "SArg0": 70,
+      "SArg1": 125,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -404,10 +406,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1080,
+      "CasterID": 1069,
       "SkillID": 21,
-      "SkillName": "flowertankblue_ult",
-      "DisplayName": "9300283238139866239",
+      "SkillName": "ybtadventurer_atk3",
+      "DisplayName": "11774029396721193929",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -417,36 +419,36 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
+      "Slot": 2,
+      "DisplaySlot": 2,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": "subbasic",
+      "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "9222288986948046700",
-      "SimpleDescription": "13317254263701753888",
-      "ActiveType": "manual",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_multi.png",
+      "Description": "13172193912729092770",
+      "SimpleDescription": "1970771860040698217",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 190
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "farthest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": "allblock",
-      "Priority": 3,
-      "CD": 3,
-      "InitCD": 1.25,
-      "GlobalCD": 1,
-      "CostMP": 1000,
+      "Priority": 2,
+      "CD": 0,
+      "InitCD": 0,
+      "GlobalCD": 1.25,
+      "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
@@ -455,23 +457,25 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "flowertank",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96574
+        "$arrayRef": 96649
       },
       "HitDisplay": {
-        "$arrayRef": 96574
+        "$arrayRef": 96649
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96574
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "rectangle",
+      "AOEShapeArgs": {
+        "$arrayRef": 96814
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -479,10 +483,10 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.2,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
+      "SArg0": 0.7,
+      "SArg1": 0.8,
+      "SArg2": 0.9,
+      "SArg3": 2.7,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -533,7 +537,10 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96732
+        "1": "pbfx_buff_ybtadventurer_atk2",
+        "2": "pbfx_buff_ybtadventurer_atk2b",
+        "3": "pbfx_buff_ybtadventurer_atk2c",
+        "4": "pbfx_buff_botwater_atk3"
       }
     }
   ]

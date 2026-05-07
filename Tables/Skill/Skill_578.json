@@ -6,9 +6,9 @@
     "schema_size": 121,
     "row_count": 1,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
+      "HitDisplay",
       "TargetShapeArgs"
     ],
     "unresolved_array_refs": 4
@@ -141,9 +141,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5046,
+      "CasterID": 5044,
       "SkillID": 0,
-      "SkillName": "cubebosssmallwind_atk",
+      "SkillName": "aabb2extra_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -163,10 +163,10 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "passive",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
@@ -178,41 +178,41 @@
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "noblock",
       "Priority": 1,
-      "CD": 9999,
-      "InitCD": 9999,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 0,
-      "VictimMP": 1,
+      "VictimMP": 0,
       "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "woodspecter",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 97626
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 97626
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 97626
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 44
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,

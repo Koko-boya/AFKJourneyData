@@ -6,6 +6,7 @@
     "schema_size": 121,
     "row_count": 5,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
@@ -13,7 +14,7 @@
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 27
+    "unresolved_array_refs": 25
   },
   "default": {
     "CasterID": "null",
@@ -147,9 +148,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1395,
+      "CasterID": 1394,
       "SkillID": 0,
-      "SkillName": "crewnews_atk",
+      "SkillName": "crewwine_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -200,17 +201,17 @@
       "SkinUseWhich": {},
       "UseWhich": "crewarcher_news",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -278,13 +279,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96688
+        "1": "pbfx_tile_crewarcher_wine_atk"
       }
     },
     {
-      "CasterID": 1395,
+      "CasterID": 1394,
       "SkillID": 101,
-      "SkillName": "crewnews_atkb",
+      "SkillName": "crewwine_atkb",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -335,17 +336,17 @@
       "SkinUseWhich": {},
       "UseWhich": "crewarcher_news",
       "CastDisplays": {
-        "$arrayRef": 96687
+        "$arrayRef": 96719
       },
       "HitDisplay": {
-        "$arrayRef": 96687
+        "$arrayRef": 96719
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96687
+        "$arrayRef": 96719
       },
       "Action(s)": {
-        "$arrayRef": 96687
+        "$arrayRef": 96719
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -412,15 +413,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96688
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1395,
+      "CasterID": 1394,
       "SkillID": 11,
-      "SkillName": "crewnews_ult",
-      "DisplayName": "18061262253383352411",
+      "SkillName": "crewwine_ult1",
+      "DisplayName": "14777448997878256110",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -440,21 +439,21 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow.png",
-      "Description": "8551179223940807652",
-      "SimpleDescription": "7358772009224930736",
+      "Description": "14860224551020053885",
+      "SimpleDescription": "13912953651967342913",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": null,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
         "$arrayRef": 190
       },
       "TargetCamp": -1,
-      "TargetPriority": "maxdmg",
+      "TargetPriority": "h_mostunits",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "noblock",
       "Priority": 7,
       "CD": 1.25,
       "InitCD": 0,
@@ -468,25 +467,27 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "crewarcher_news",
+      "UseWhich": "crewarcher_wine",
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96860
       },
       "HitDisplay": {
-        "$arrayRef": 96563
+        "$arrayRef": 96860
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96563
+        "$arrayRef": 96860
       },
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96860
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "target",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 44
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -494,8 +495,8 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
+      "SArg0": 5,
+      "SArg1": 0.5,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -520,7 +521,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "ground",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -529,16 +530,16 @@
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
+      "TileXZSpeed": 1,
       "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
+      "TileGravity": -8,
+      "AimTarget": true,
       "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
+      "TileRemain": 0.05,
+      "PointEffect": "pbfx_point_crewarcher_wine_ult",
       "PointEffArgs": {},
       "SkinImpactEffect": {},
-      "ImpactEffect": null,
+      "ImpactEffect": "pbfx_impact_crewarcher_wine_ult",
       "ImpactEffArgs": {},
       "ImpactBone": null,
       "ChainJumps": 0,
@@ -548,13 +549,15 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96689
+        "1": "pbfx_tile_crewarcher_wine_ult",
+        "2": "pbfx_impact_crewarcher_wine_ult",
+        "3": "pbfx_buff_crewarcher_wine_ult"
       }
     },
     {
-      "CasterID": 1395,
+      "CasterID": 1394,
       "SkillID": 21,
-      "SkillName": "crewnews_atk2",
+      "SkillName": "crewwine_atk2",
       "DisplayName": "16867883395478192850",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -575,7 +578,7 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_crew.png",
-      "Description": "7700220328169704056",
+      "Description": "8909606968926756822",
       "SimpleDescription": "8741443686772057445",
       "ActiveType": "active",
       "ThumpCondition": -1,
@@ -605,13 +608,13 @@
       "SkinUseWhich": {},
       "UseWhich": "crewarcher_news",
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -679,14 +682,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96690
+        "$arrayRef": 96773
       }
     },
     {
-      "CasterID": 1395,
+      "CasterID": 1394,
       "SkillID": 31,
-      "SkillName": "crewnews_atk3",
-      "DisplayName": "3687804139987308698",
+      "SkillName": "crewwine_atk3b",
+      "DisplayName": "15973651854825110062",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -705,9 +708,9 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_aoe.png",
-      "Description": "4967651196057198621",
-      "SimpleDescription": "11556350036777476834",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_mp_heal.png",
+      "Description": "11797391123182840845",
+      "SimpleDescription": "9745092096017045463",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -723,10 +726,10 @@
       "TargetBlockType": null,
       "Priority": 6,
       "CD": 15,
-      "InitCD": 3,
+      "InitCD": 4,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 120,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -734,17 +737,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "crewarcher_news",
+      "UseWhich": "crewarcher_wine",
       "CastDisplays": {
-        "$arrayRef": 96569
+        "$arrayRef": 96757
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96757
+      },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96569
+        "$arrayRef": 96757
       },
       "Action(s)": {
-        "$arrayRef": 96569
+        "$arrayRef": 96757
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
@@ -753,12 +758,12 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1.5,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 120,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -785,7 +790,7 @@
       "HasUpDownAction": false,
       "DamagePopupList": {},
       "TileCollideType": "target",
-      "TileArt": "pbfx_tile_crewarcher_news_atk3",
+      "TileArt": "pbfx_tile_crewarcher_wine_atk3",
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 1,
@@ -793,12 +798,12 @@
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
+      "TileXZSpeed": 5,
       "TileYSpeed": 0,
-      "TileGravity": 0,
+      "TileGravity": -80,
       "AimTarget": true,
       "FollowTarget": true,
-      "TileRemain": 0,
+      "TileRemain": 0.05,
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
@@ -812,7 +817,8 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96691
+        "1": "pbfx_tile_crewarcher_wine_atk3",
+        "2": "pbfx_impact_crewarcher_wine_atk3"
       }
     }
   ]

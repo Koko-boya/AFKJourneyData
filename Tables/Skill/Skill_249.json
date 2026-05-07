@@ -4,7 +4,7 @@
     "header_table": "Skill_249HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 4,
+    "row_count": 3,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
@@ -13,7 +13,7 @@
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 18
+    "unresolved_array_refs": 14
   },
   "default": {
     "CasterID": "null",
@@ -141,14 +141,13 @@
   "row_keys": [
     0,
     11,
-    21,
-    31
+    21
   ],
   "rows": [
     {
-      "CasterID": 1225,
+      "CasterID": 1224,
       "SkillID": 0,
-      "SkillName": "hugemonrangedelite_atk",
+      "SkillName": "hugemonrangedorigin_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -197,19 +196,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "hugemonranged_elite",
+      "UseWhich": "hugemonranged_origin",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "HitDisplay": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -279,9 +278,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1225,
+      "CasterID": 1224,
       "SkillID": 11,
-      "SkillName": "hugemonrangedelite_ult",
+      "SkillName": "hugemonrangedorigin_ult",
       "DisplayName": "3299038553508302629",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -302,7 +301,7 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
-      "Description": "10788617679558786257",
+      "Description": "1852911614584868582",
       "SimpleDescription": "12767173778788673206",
       "ActiveType": "manual",
       "ThumpCondition": -1,
@@ -330,19 +329,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "hugemonranged_elite",
+      "UseWhich": "hugemonranged_origin",
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "HitDisplay": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -359,7 +358,7 @@
       "SArg0": 1,
       "SArg1": 0.5,
       "SArg2": 8,
-      "SArg3": 30,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -410,13 +409,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96814
+        "$arrayRef": 96897
       }
     },
     {
-      "CasterID": 1225,
+      "CasterID": 1224,
       "SkillID": 21,
-      "SkillName": "hugemonrangedelite_atk2",
+      "SkillName": "hugemonrangedorigin_atk2",
       "DisplayName": "4140584760127620126",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -471,7 +470,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -539,139 +538,8 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96812
+        "$arrayRef": 96895
       }
-    },
-    {
-      "CasterID": 1225,
-      "SkillID": 31,
-      "SkillName": "hugemonrangedelite_atk3",
-      "DisplayName": "16403361439418954942",
-      "IsShow": true,
-      "HeroDetailActionShow": true,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 3,
-      "DisplaySlot": 3,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_self.png",
-      "Description": "16384485682904453098",
-      "SimpleDescription": "13886363030802560020",
-      "ActiveType": "active",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 44
-      },
-      "TargetCamp": 0,
-      "TargetPriority": "self",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 3,
-      "CD": 15,
-      "InitCD": 10,
-      "GlobalCD": 0,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "hugemonranged_elite",
-      "CastDisplays": {
-        "$arrayRef": 96569
-      },
-      "HitDisplay": {
-        "$arrayRef": 96569
-      },
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96569
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": -1.2,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 4,
-      "SArg1": 60,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {}
     }
   ]
 }

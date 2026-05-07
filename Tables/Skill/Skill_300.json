@@ -9,7 +9,6 @@
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "EvaluateDisplay",
       "HitDisplay",
       "TargetShapeArgs"
     ],
@@ -146,9 +145,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1393,
+      "CasterID": 1392,
       "SkillID": 0,
-      "SkillName": "crewsailor_atk",
+      "SkillName": "crewwood_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -189,7 +188,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 20,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -199,13 +198,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96660
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -215,7 +216,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 0.25,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -272,15 +273,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_impact_crewwar_sailor_atk"
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1393,
+      "CasterID": 1392,
       "SkillID": 11,
-      "SkillName": "crewsailor_ult",
-      "DisplayName": "14888019693172027590",
+      "SkillName": "crewwood_ult",
+      "DisplayName": "15093833541440303133",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -300,7 +299,7 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_drain.png",
-      "Description": "3224749668042381324",
+      "Description": "18148243724792951558",
       "SimpleDescription": "16494410217377663754",
       "ActiveType": "manual",
       "ThumpCondition": -1,
@@ -308,7 +307,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 190
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -330,15 +329,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96573
+        "$arrayRef": 96653
       },
       "HitDisplay": {
-        "$arrayRef": 96686
+        "$arrayRef": 96772
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96573
+        "$arrayRef": 96653
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -408,9 +407,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1393,
+      "CasterID": 1392,
       "SkillID": 21,
-      "SkillName": "crewsailor_atk2",
+      "SkillName": "crewwood_atk2",
       "DisplayName": "16867883395478192850",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -461,13 +460,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -535,14 +534,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_buff_crewsailor_atk2"
+        "1": "pbfx_buff_crewwar_wood_atk4"
       }
     },
     {
-      "CasterID": 1393,
+      "CasterID": 1392,
       "SkillID": 31,
-      "SkillName": "crewsailor_atk3",
-      "DisplayName": "2724951874843139064",
+      "SkillName": "crewwood_atk3",
+      "DisplayName": "6380727224168276205",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -557,13 +556,13 @@
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": null,
+      "SkillType": "subbasic",
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_stomp.png",
-      "Description": "18444827349073521276",
-      "SimpleDescription": "14202370115014834372",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_around.png",
+      "Description": "13546901870016802882",
+      "SimpleDescription": "9219484886675109473",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -582,7 +581,7 @@
       "InitCD": 5,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 120,
+      "GainMP": 110,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -592,21 +591,19 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "HitDisplay": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
-      "EvaluateDisplay": {
-        "$arrayRef": 96569
-      },
+      "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
+      "AOEOrigin": "self",
       "AOEShape": "around",
       "AOEShapeArgs": {
         "$arrayRef": 44
@@ -618,10 +615,10 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.06,
+      "SArg0": 10,
       "SArg1": 20,
-      "SArg2": 0.6,
-      "SArg3": 1,
+      "SArg2": 100,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,

@@ -4,16 +4,16 @@
     "header_table": "Skill_220HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 4,
+    "row_count": 5,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 16
+    "unresolved_array_refs": 19
   },
   "default": {
     "CasterID": "null",
@@ -142,13 +142,14 @@
     0,
     11,
     21,
+    31,
     41
   ],
   "rows": [
     {
-      "CasterID": 1163,
+      "CasterID": 1164,
       "SkillID": 0,
-      "SkillName": "windspecter_atk",
+      "SkillName": "sandspecter_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -177,7 +178,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 44
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -191,7 +192,7 @@
       "CostMP": 0,
       "GainMP": 98,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -199,17 +200,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96562
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -277,14 +276,18 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96787
+        "1": "pbfx_buff_sandspecter_atk2_2",
+        "2": "pbfx_buff_specter_mimu",
+        "3": "pbfx_buff_specter_pimu",
+        "4": "pbfx_impact_sandspecter_ult",
+        "5": "pbfx_buff_sandspecter_atk2"
       }
     },
     {
-      "CasterID": 1163,
+      "CasterID": 1164,
       "SkillID": 11,
-      "SkillName": "windspecter_ult",
-      "DisplayName": "15094455427693412778",
+      "SkillName": "sandspecter_ult",
+      "DisplayName": "9535936425757270037",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -303,19 +306,19 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_hast_up.png",
-      "Description": "13276477787675360168",
-      "SimpleDescription": "13194042647870825162",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_around.png",
+      "Description": "11723377882887195642",
+      "SimpleDescription": "947131658407801166",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 190
       },
       "TargetCamp": -1,
-      "TargetPriority": "self",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -334,30 +337,32 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 61
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 0.4,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 40,
-      "SArg1": 40,
-      "SArg2": 0.8,
-      "SArg3": 20,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -408,19 +413,19 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96788
+        "$arrayRef": 96874
       }
     },
     {
-      "CasterID": 1163,
+      "CasterID": 1164,
       "SkillID": 21,
-      "SkillName": "windspecter_atk2",
-      "DisplayName": "980018766049200804",
+      "SkillName": "sandspecter_atk2",
+      "DisplayName": "8554337514374906634",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
-      "UnlockLevel": 9,
+      "UnlockLevel": 1,
       "UnlockExclusive": -1,
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
@@ -435,8 +440,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_specter.png",
-      "Description": "7267059835560205058",
-      "SimpleDescription": "16369122641939645821",
+      "Description": "13000507937458745953",
+      "SimpleDescription": "7078213866914954453",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -446,7 +451,7 @@
         "$arrayRef": 190
       },
       "TargetCamp": -1,
-      "TargetPriority": "self",
+      "TargetPriority": "weakest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -465,15 +470,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96649
       },
       "HitDisplay": {
-        "$arrayRef": 96568
+        "$arrayRef": 96649
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -483,11 +488,11 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.5,
+      "PlusRatio": 2.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2.5,
+      "SArg0": 0,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -504,12 +509,12 @@
       "Buff": null,
       "BuffID": 0,
       "MoveForward": 0,
-      "KnockUp": 0.375,
-      "KnockBack": 2,
+      "KnockUp": 0,
+      "KnockBack": 0,
       "KnockDirectionReason": false,
       "FallFrozenTime": 0,
       "KnockNotFall": false,
-      "IsNoLaunch": true,
+      "IsNoLaunch": false,
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
@@ -540,12 +545,146 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 96874
+      }
     },
     {
-      "CasterID": 1163,
+      "CasterID": 1164,
+      "SkillID": 31,
+      "SkillName": "sandspecter_atk3",
+      "DisplayName": "5687544813945831716",
+      "IsShow": true,
+      "HeroDetailActionShow": true,
+      "UnlockByImba": false,
+      "UnlockAwakenLevel": 0,
+      "UnlockLevel": 1,
+      "UnlockExclusive": -1,
+      "UnlockMastery": -1,
+      "UnlockSeasonLevel": 0,
+      "EnhanceAttr": null,
+      "Slot": 3,
+      "DisplaySlot": 3,
+      "FatherSkillSlot": -1,
+      "SeasonID": 0,
+      "SkillLevel": 1,
+      "SkillType": null,
+      "SkillPerformData": null,
+      "IsPositiveManual": false,
+      "SkillScript": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_up.png",
+      "Description": "11091370988465276454",
+      "SimpleDescription": "11398362815895703609",
+      "ActiveType": "active",
+      "ThumpCondition": -1,
+      "SetSpeeder": -1,
+      "TargetType": null,
+      "TargetShape": null,
+      "TargetShapeArgs": {
+        "$arrayRef": 44
+      },
+      "TargetCamp": -1,
+      "TargetPriority": "self",
+      "FirstPriority": {},
+      "ReselectTargetArgs": {},
+      "TargetBlockType": null,
+      "Priority": 11,
+      "CD": 0,
+      "InitCD": 1,
+      "GlobalCD": 0,
+      "CostMP": 0,
+      "GainMP": 0,
+      "VictimMP": 1,
+      "TrackType": null,
+      "UseNewDisplay": true,
+      "CameraType": 0,
+      "CameraHideGround": false,
+      "SkinId": {},
+      "SkinUseWhich": {},
+      "UseWhich": null,
+      "CastDisplays": {
+        "$arrayRef": 96648
+      },
+      "HitDisplay": {},
+      "EvaluateDisplay": {},
+      "Trajectory": {},
+      "Action(s)": {
+        "$arrayRef": 96648
+      },
+      "DisplayAction(s)": {},
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
+      "AOEOriginFix": {},
+      "PlusAttrUnit": null,
+      "PlusAttr": "ATK",
+      "PlusRatio": 0,
+      "DamageType": null,
+      "DamageTrigger": null,
+      "DamageTriggerParam": null,
+      "SArg0": 0.5,
+      "SArg1": 0.5,
+      "SArg2": 50,
+      "SArg3": 0.5,
+      "SArg4": 15,
+      "SArg5": 1,
+      "SArg6": 0,
+      "SArg7": 0,
+      "SArg8": 0,
+      "SArg9": 0,
+      "SArg10": 0,
+      "SArg11": 0,
+      "SArg12": 0,
+      "DamageExtraEff": false,
+      "Buff": null,
+      "BuffID": 0,
+      "MoveForward": 0,
+      "KnockUp": 0,
+      "KnockBack": 0,
+      "KnockDirectionReason": false,
+      "FallFrozenTime": 0,
+      "KnockNotFall": false,
+      "IsNoLaunch": false,
+      "RandomBasicAtk": false,
+      "HasUpDownAction": false,
+      "DamagePopupList": {},
+      "TileCollideType": null,
+      "TileArt": null,
+      "TileArtSkinId": {},
+      "TileArtSkinName": {},
+      "TileScale": 0,
+      "TileRadius": 0,
+      "TilePiercing": false,
+      "TileDistance": 0,
+      "TileOTTHeight": 0,
+      "TileXZSpeed": 0,
+      "TileYSpeed": 0,
+      "TileGravity": 0,
+      "AimTarget": false,
+      "FollowTarget": false,
+      "TileRemain": 0,
+      "PointEffect": null,
+      "PointEffArgs": {},
+      "SkinImpactEffect": {},
+      "ImpactEffect": null,
+      "ImpactEffArgs": {},
+      "ImpactBone": null,
+      "ChainJumps": 0,
+      "ChainGap": 0,
+      "ChainJumpDistance": 0,
+      "MaxAffectTimes": 0,
+      "ChainEffect": null,
+      "SummonUnitList": {},
+      "ResourceList": {
+        "1": "pbfx_buff_sandspecter_atk2",
+        "2": "pbfx_buff_sandspecter_atk2_2"
+      }
+    },
+    {
+      "CasterID": 1164,
       "SkillID": 41,
-      "SkillName": "windspecter_atk4",
+      "SkillName": "sandspecter_atk4",
       "DisplayName": "1985232141406491157",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -600,7 +739,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,

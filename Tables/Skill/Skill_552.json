@@ -4,15 +4,16 @@
     "header_table": "Skill_552HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 6,
+    "row_count": 4,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "ReselectTargetArgs",
+      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 25
+    "unresolved_array_refs": 18
   },
   "default": {
     "CasterID": "null",
@@ -141,15 +142,13 @@
     0,
     21,
     31,
-    41,
-    51,
-    61
+    41
   ],
   "rows": [
     {
-      "CasterID": 5012,
+      "CasterID": 5010,
       "SkillID": 0,
-      "SkillName": "multiplantshammer_atk",
+      "SkillName": "multiplantsspear_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -184,7 +183,7 @@
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 97493
+        "$arrayRef": 97590
       },
       "TargetBlockType": "allblock",
       "Priority": 5,
@@ -202,15 +201,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -220,7 +219,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.2,
+      "PlusRatio": 0.75,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -280,9 +279,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5012,
+      "CasterID": 5010,
       "SkillID": 21,
-      "SkillName": "multiplantshammer_atk3b",
+      "SkillName": "multiplantsspear_atk3",
       "DisplayName": "钻地(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -317,7 +316,7 @@
       "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 97493
+        "$arrayRef": 97590
       },
       "TargetBlockType": "noblock",
       "Priority": 9,
@@ -335,13 +334,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96671
+        "$arrayRef": 96649
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96671
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -411,9 +410,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5012,
+      "CasterID": 5010,
       "SkillID": 31,
-      "SkillName": "multiplantshammer_atk4",
+      "SkillName": "multiplantsspear_atk4",
       "DisplayName": "钻出(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -448,7 +447,7 @@
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 97493
+        "$arrayRef": 97590
       },
       "TargetBlockType": "noblock",
       "Priority": 10,
@@ -466,13 +465,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96574
+        "$arrayRef": 96654
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96574
+        "$arrayRef": 96654
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -542,10 +541,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5012,
+      "CasterID": 5010,
       "SkillID": 41,
-      "SkillName": "multiplantshammer_ult",
-      "DisplayName": "首次召唤出场(不用翻译)",
+      "SkillName": "multiplantsspear_ultd",
+      "DisplayName": "大招组合技表演(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -579,7 +578,7 @@
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 97493
+        "$arrayRef": 97590
       },
       "TargetBlockType": "noblock",
       "Priority": 11,
@@ -597,275 +596,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96992
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96563
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {}
-    },
-    {
-      "CasterID": 5012,
-      "SkillID": 51,
-      "SkillName": "multiplantshammer_ultc2",
-      "DisplayName": "再次召唤出场(不用翻译)",
-      "IsShow": false,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 5,
-      "DisplaySlot": 5,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": null,
-      "Description": "（不用翻译）",
-      "SimpleDescription": "（不用翻译）",
-      "ActiveType": "passive",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": "hex",
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {
-        "$arrayRef": 97493
-      },
-      "TargetBlockType": "noblock",
-      "Priority": 12,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 0.5,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 97500
-      },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 97500
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {}
-    },
-    {
-      "CasterID": 5012,
-      "SkillID": 61,
-      "SkillName": "multiplantshammer_ultd",
-      "DisplayName": "大招组合技表演(不用翻译)",
-      "IsShow": false,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 6,
-      "DisplaySlot": 6,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": null,
-      "Description": "（不用翻译）",
-      "SimpleDescription": "（不用翻译）",
-      "ActiveType": "passive",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": "hex",
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {
-        "$arrayRef": 97493
-      },
-      "TargetBlockType": "noblock",
-      "Priority": 13,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 0.5,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 96908
-      },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96908
+        "$arrayRef": 96992
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -933,7 +670,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_impact_multiplants_ult"
+        "$arrayRef": 97594
       }
     }
   ]

@@ -141,9 +141,9 @@
   ],
   "rows": [
     {
-      "CasterID": 8022,
+      "CasterID": 8011,
       "SkillID": 0,
-      "SkillName": "ep6ls_skill_npc_atk",
+      "SkillName": "man_lightbearers_atkst",
       "DisplayName": "（不用翻译）",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -194,13 +194,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -270,10 +270,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 8022,
+      "CasterID": 8011,
       "SkillID": 1,
-      "SkillName": "ep6ls_skill_npc_ult",
-      "DisplayName": "8949630876835596035",
+      "SkillName": "man_lightbearers_atkst2",
+      "DisplayName": "15352767948547744571",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -292,9 +292,9 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_grow.png",
-      "Description": "1831983236858537245",
-      "SimpleDescription": "15532832053522309446",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
+      "Description": "5412501294083068456",
+      "SimpleDescription": "13545315675774907439",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -303,14 +303,14 @@
       "TargetShapeArgs": {
         "$arrayRef": 190
       },
-      "TargetCamp": 1,
+      "TargetCamp": -1,
       "TargetPriority": "h_mostunits",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": "noblock",
       "Priority": 5,
-      "CD": 5,
-      "InitCD": 3,
+      "CD": 9999,
+      "InitCD": 9999,
       "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 0,
@@ -323,13 +323,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -338,12 +338,12 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": -0.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 6,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,

@@ -4,17 +4,16 @@
     "header_table": "Skill_343HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 5,
+    "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 23
+    "unresolved_array_refs": 16
   },
   "default": {
     "CasterID": "null",
@@ -143,14 +142,13 @@
     0,
     11,
     21,
-    31,
     101
   ],
   "rows": [
     {
-      "CasterID": 1562,
+      "CasterID": 1561,
       "SkillID": 0,
-      "SkillName": "riverwarriorb_atk",
+      "SkillName": "riversoldiera_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -179,7 +177,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 47
+        "$arrayRef": 44
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -193,25 +191,23 @@
       "CostMP": 0,
       "GainMP": 60,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "riverwarrior",
+      "UseWhich": "riversoldier",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96562
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -251,7 +247,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -263,8 +259,8 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -281,10 +277,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1562,
+      "CasterID": 1561,
       "SkillID": 11,
-      "SkillName": "riverwarriorb_ult",
-      "DisplayName": "9429388255946813195",
+      "SkillName": "riversoldiera_ult",
+      "DisplayName": "18270683580114966726",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -303,19 +299,19 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
-      "Description": "2571621735489727271",
-      "SimpleDescription": "692988565308133171",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_multi.png",
+      "Description": "17319046440406047159",
+      "SimpleDescription": "7412200354751198183",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 415
+        "$arrayRef": 44
       },
       "TargetCamp": -1,
-      "TargetPriority": "farthest",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -326,40 +322,40 @@
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "riverwarrior",
+      "UseWhich": "riversoldier",
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96644
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96563
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
+      "AOEOrigin": "self",
+      "AOEShape": "sector",
       "AOEShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 58190
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 3,
+      "PlusRatio": 0.7,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
+      "SArg0": 0.25,
+      "SArg1": 3,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -384,7 +380,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -396,7 +392,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -411,15 +407,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96921
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1562,
+      "CasterID": 1561,
       "SkillID": 21,
-      "SkillName": "riverwarriorb_atk2",
-      "DisplayName": "5605154880825402705",
+      "SkillName": "riversoldiera_atk3",
+      "DisplayName": "2062657721247741647",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -438,149 +432,16 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_collide.png",
-      "Description": "9905707343811712317",
-      "SimpleDescription": "15367532746811247463",
-      "ActiveType": "active",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 44
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "nearest",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 3,
-      "CD": 10,
-      "InitCD": 4,
-      "GlobalCD": 1.25,
-      "CostMP": 0,
-      "GainMP": 60,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "riverwarrior",
-      "CastDisplays": {
-        "$arrayRef": 96568
-      },
-      "HitDisplay": {
-        "$arrayRef": 96568
-      },
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96568
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1.5,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 8,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0.125,
-      "KnockBack": 2,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": true,
-      "IsNoLaunch": true,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96922
-      }
-    },
-    {
-      "CasterID": 1562,
-      "SkillID": 31,
-      "SkillName": "riverwarriorb_atk3",
-      "DisplayName": "2062657721247741647",
-      "IsShow": true,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 3,
-      "DisplaySlot": 3,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_atk_up.png",
-      "Description": "172865713206128986",
-      "SimpleDescription": "13532701030231568461",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_up.png",
+      "Description": "11121796263201475299",
+      "SimpleDescription": "4211035690106368235",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 48
+        "$arrayRef": 190
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -590,7 +451,7 @@
       "Priority": -1,
       "CD": 9999,
       "InitCD": 9999,
-      "GlobalCD": 1.25,
+      "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
@@ -600,15 +461,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "riverwarrior",
+      "UseWhich": "riversoldier",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -623,7 +484,7 @@
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 0.15,
-      "SArg1": 0,
+      "SArg1": 9999,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -676,13 +537,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96923
+        "$arrayRef": 97008
       }
     },
     {
-      "CasterID": 1562,
+      "CasterID": 1561,
       "SkillID": 101,
-      "SkillName": "riverwarriorb_atk3b",
+      "SkillName": "riversoldiera_atk3b",
       "DisplayName": "甲壳护体(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -695,7 +556,7 @@
       "EnhanceAttr": null,
       "Slot": 101,
       "DisplaySlot": 101,
-      "FatherSkillSlot": 3,
+      "FatherSkillSlot": 2,
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": null,
@@ -731,15 +592,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "riverwarrior",
+      "UseWhich": "riversoldier",
       "CastDisplays": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,

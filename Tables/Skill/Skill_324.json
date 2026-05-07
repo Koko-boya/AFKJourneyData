@@ -4,7 +4,7 @@
     "header_table": "Skill_324HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 3,
+    "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
@@ -14,7 +14,7 @@
       "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 14
+    "unresolved_array_refs": 17
   },
   "default": {
     "CasterID": "null",
@@ -142,13 +142,14 @@
   "row_keys": [
     0,
     11,
-    21
+    21,
+    109
   ],
   "rows": [
     {
-      "CasterID": 1471,
+      "CasterID": 1470,
       "SkillID": 0,
-      "SkillName": "devilsoldier_b_atk",
+      "SkillName": "devilsoldier_a_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -199,13 +200,13 @@
       "SkinUseWhich": {},
       "UseWhich": "devilsoldier",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -273,13 +274,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96859
+        "$arrayRef": 96948
       }
     },
     {
-      "CasterID": 1471,
+      "CasterID": 1470,
       "SkillID": 11,
-      "SkillName": "devilsoldier_b_ult",
+      "SkillName": "devilsoldier_a_ult",
       "DisplayName": "5492665234210604551",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -330,22 +331,22 @@
       "SkinUseWhich": {},
       "UseWhich": "devilsoldier",
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "HitDisplay": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "self",
       "AOEShape": "sector",
       "AOEShapeArgs": {
-        "$arrayRef": 58154
+        "$arrayRef": 58190
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
@@ -410,9 +411,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1471,
+      "CasterID": 1470,
       "SkillID": 21,
-      "SkillName": "devilsoldier_b_atk2",
+      "SkillName": "devilsoldier_a_atk2",
       "DisplayName": "4590072039115022199",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -447,7 +448,7 @@
       "TargetPriority": "maxhp",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 96747
+        "$arrayRef": 96832
       },
       "TargetBlockType": null,
       "Priority": 3,
@@ -465,13 +466,13 @@
       "SkinUseWhich": {},
       "UseWhich": "devilsoldier",
       "CastDisplays": {
-        "$arrayRef": 96588
+        "$arrayRef": 96668
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96588
+        "$arrayRef": 96668
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -539,7 +540,136 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96907
+        "$arrayRef": 96991
+      }
+    },
+    {
+      "CasterID": 1470,
+      "SkillID": 109,
+      "SkillName": "devilsoldier_a_Eliteskill",
+      "DisplayName": "(不用翻译)",
+      "IsShow": false,
+      "HeroDetailActionShow": false,
+      "UnlockByImba": false,
+      "UnlockAwakenLevel": 0,
+      "UnlockLevel": 1,
+      "UnlockExclusive": -1,
+      "UnlockMastery": -1,
+      "UnlockSeasonLevel": 0,
+      "EnhanceAttr": null,
+      "Slot": 109,
+      "DisplaySlot": 109,
+      "FatherSkillSlot": -1,
+      "SeasonID": 0,
+      "SkillLevel": 1,
+      "SkillType": null,
+      "SkillPerformData": null,
+      "IsPositiveManual": false,
+      "SkillScript": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_grow.png",
+      "Description": "13967589341365287659",
+      "SimpleDescription": "（不用翻译）",
+      "ActiveType": "passive",
+      "ThumpCondition": -1,
+      "SetSpeeder": -1,
+      "TargetType": null,
+      "TargetShape": null,
+      "TargetShapeArgs": {
+        "$arrayRef": 44
+      },
+      "TargetCamp": -1,
+      "TargetPriority": "target",
+      "FirstPriority": {},
+      "ReselectTargetArgs": {},
+      "TargetBlockType": null,
+      "Priority": -31,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 0.25,
+      "CostMP": 0,
+      "GainMP": 0,
+      "VictimMP": 1,
+      "TrackType": null,
+      "UseNewDisplay": false,
+      "CameraType": 0,
+      "CameraHideGround": false,
+      "SkinId": {},
+      "SkinUseWhich": {},
+      "UseWhich": null,
+      "CastDisplays": {},
+      "HitDisplay": {},
+      "EvaluateDisplay": {},
+      "Trajectory": {},
+      "Action(s)": {
+        "$arrayRef": 96643
+      },
+      "DisplayAction(s)": {},
+      "AffectedCamp": 0,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
+      "AOEOriginFix": {},
+      "PlusAttrUnit": null,
+      "PlusAttr": null,
+      "PlusRatio": 0,
+      "DamageType": null,
+      "DamageTrigger": null,
+      "DamageTriggerParam": null,
+      "SArg0": 400,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
+      "SArg4": 0,
+      "SArg5": 0,
+      "SArg6": 0,
+      "SArg7": 0,
+      "SArg8": 0,
+      "SArg9": 0,
+      "SArg10": 0,
+      "SArg11": 0,
+      "SArg12": 0,
+      "DamageExtraEff": false,
+      "Buff": null,
+      "BuffID": 0,
+      "MoveForward": 0,
+      "KnockUp": 0,
+      "KnockBack": 0,
+      "KnockDirectionReason": false,
+      "FallFrozenTime": 0,
+      "KnockNotFall": false,
+      "IsNoLaunch": false,
+      "RandomBasicAtk": false,
+      "HasUpDownAction": false,
+      "DamagePopupList": {},
+      "TileCollideType": null,
+      "TileArt": null,
+      "TileArtSkinId": {},
+      "TileArtSkinName": {},
+      "TileScale": 0,
+      "TileRadius": 0,
+      "TilePiercing": false,
+      "TileDistance": 0,
+      "TileOTTHeight": 0,
+      "TileXZSpeed": 0,
+      "TileYSpeed": 0,
+      "TileGravity": 0,
+      "AimTarget": false,
+      "FollowTarget": false,
+      "TileRemain": 0,
+      "PointEffect": null,
+      "PointEffArgs": {},
+      "SkinImpactEffect": {},
+      "ImpactEffect": null,
+      "ImpactEffArgs": {},
+      "ImpactBone": null,
+      "ChainJumps": 0,
+      "ChainGap": 0,
+      "ChainJumpDistance": 0,
+      "MaxAffectTimes": 0,
+      "ChainEffect": null,
+      "SummonUnitList": {},
+      "ResourceList": {
+        "$arrayRef": 96826
       }
     }
   ]

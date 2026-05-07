@@ -9,10 +9,9 @@
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 11
+    "unresolved_array_refs": 12
   },
   "default": {
     "CasterID": "null",
@@ -139,14 +138,14 @@
   },
   "row_keys": [
     0,
-    11,
-    21
+    21,
+    31
   ],
   "rows": [
     {
-      "CasterID": 1710,
+      "CasterID": 1693,
       "SkillID": 0,
-      "SkillName": "magicplantone_atk",
+      "SkillName": "beasttwob_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -182,12 +181,12 @@
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 1,
+      "Priority": -1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 0,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -195,17 +194,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "magicplantone",
+      "UseWhich": "beasttwo",
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -215,7 +214,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -275,10 +274,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1710,
-      "SkillID": 11,
-      "SkillName": "magicplantone_ult",
-      "DisplayName": "8951438144898256283",
+      "CasterID": 1693,
+      "SkillID": 21,
+      "SkillName": "beasttwob_atk2",
+      "DisplayName": "4811098855207948395",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -288,19 +287,19 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
+      "Slot": 2,
+      "DisplaySlot": 2,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": null,
+      "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_drain.png",
-      "Description": "6952525864106484011",
-      "SimpleDescription": "4580306547714346167",
-      "ActiveType": "manual",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_knock.png",
+      "Description": "12126991929458225527",
+      "SimpleDescription": "1734253461860346893",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
@@ -313,11 +312,11 @@
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 5,
-      "CD": 0,
+      "Priority": 2,
+      "CD": 10,
       "InitCD": 0,
-      "GlobalCD": 0,
-      "CostMP": 1000,
+      "GlobalCD": 3,
+      "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
@@ -326,15 +325,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "magicplantone",
+      "UseWhich": "beasttwo",
       "CastDisplays": {
-        "$arrayRef": 96697
+        "$arrayRef": 96648
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96648
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96697
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -344,14 +345,14 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.2,
+      "PlusRatio": 2.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.2,
-      "SArg1": 0.25,
-      "SArg2": 0.15,
-      "SArg3": 5,
+      "SArg0": 2,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -401,15 +402,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96959
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1710,
-      "SkillID": 21,
-      "SkillName": "magicplantone_atk2",
-      "DisplayName": "1954907142656611872",
+      "CasterID": 1693,
+      "SkillID": 31,
+      "SkillName": "beasttwob_atk3",
+      "DisplayName": "6526744594689458181",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -419,18 +418,18 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 2,
-      "DisplaySlot": 2,
+      "Slot": 3,
+      "DisplaySlot": 3,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "prepare",
+      "SkillType": null,
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_magicplant.png",
-      "Description": "17673754677085225603",
-      "SimpleDescription": "17048074004487080077",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_multi.png",
+      "Description": "9888315445326046095",
+      "SimpleDescription": "17790156768789927919",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -440,14 +439,14 @@
         "$arrayRef": 44
       },
       "TargetCamp": -1,
-      "TargetPriority": "self",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 20,
-      "CD": 9999,
-      "InitCD": 0,
-      "GlobalCD": 0,
+      "Priority": 10,
+      "CD": 15,
+      "InitCD": 10,
+      "GlobalCD": 3,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
@@ -457,15 +456,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "magicplantone",
+      "UseWhich": "beasttwo",
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96649
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96649
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -474,13 +475,13 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.4,
-      "SArg1": 0,
+      "SArg0": 2,
+      "SArg1": 2,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,

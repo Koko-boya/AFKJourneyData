@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "table": "ReturnInvitationReward",
+    "header_table": "ReturnInvitationRewardHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 3,
+    "array_fields": [
+      "Reward"
+    ],
+    "unresolved_array_refs": 3
+  },
+  "default": {
+    "SpanID": "null",
+    "ID": "null",
+    "People": 0,
+    "Reward": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
+  "rows": [
+    {
+      "SpanID": 1,
+      "ID": 1,
+      "People": 1,
+      "Reward": {
+        "$arrayRef": 72060
+      }
+    },
+    {
+      "SpanID": 1,
+      "ID": 2,
+      "People": 2,
+      "Reward": {
+        "$arrayRef": 17
+      }
+    },
+    {
+      "SpanID": 1,
+      "ID": 3,
+      "People": 3,
+      "Reward": {
+        "$arrayRef": 75246
+      }
+    }
+  ]
+}

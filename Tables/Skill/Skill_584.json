@@ -8,11 +8,9 @@
     "array_fields": [
       "Action(s)",
       "CastDisplays",
-      "SkinId",
-      "SkinUseWhich",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 5
+    "unresolved_array_refs": 3
   },
   "default": {
     "CasterID": "null",
@@ -142,9 +140,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5054,
+      "CasterID": 5051,
       "SkillID": 0,
-      "SkillName": "fairygirlpony_atk",
+      "SkillName": "fairymeleechange_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -169,7 +167,7 @@
       "SimpleDescription": null,
       "ActiveType": "active",
       "ThumpCondition": -1,
-      "SetSpeeder": -1,
+      "SetSpeeder": 8,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
@@ -185,27 +183,23 @@
       "InitCD": 0,
       "GlobalCD": 0,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 90,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {
-        "$arrayRef": 73693
-      },
-      "SkinUseWhich": {
-        "$arrayRef": 76467
-      },
-      "UseWhich": null,
+      "SkinId": {},
+      "SkinUseWhich": {},
+      "UseWhich": "fairymelee",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96945
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96945
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -245,20 +239,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
+      "AimTarget": true,
+      "FollowTarget": true,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},

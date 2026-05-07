@@ -7,11 +7,10 @@
     "row_count": 1,
     "array_fields": [
       "Action(s)",
-      "CastDisplays",
-      "HitDisplay",
+      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 4
+    "unresolved_array_refs": 3
   },
   "default": {
     "CasterID": "null",
@@ -141,9 +140,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5017,
+      "CasterID": 5015,
       "SkillID": 0,
-      "SkillName": "icedemonwind_atk",
+      "SkillName": "pharmacistflower_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -175,34 +174,30 @@
         "$arrayRef": 190
       },
       "TargetCamp": -1,
-      "TargetPriority": "farthest",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "noblock",
       "Priority": 1,
       "CD": 9999,
       "InitCD": 9999,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 98,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": true,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "woodspecter",
-      "CastDisplays": {
-        "$arrayRef": 96562
-      },
-      "HitDisplay": {
-        "$arrayRef": 96562
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -216,9 +211,9 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2,
-      "SArg1": 1,
-      "SArg2": 0.5,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -242,7 +237,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -254,7 +249,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -269,7 +264,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 96919
+      }
     }
   ]
 }

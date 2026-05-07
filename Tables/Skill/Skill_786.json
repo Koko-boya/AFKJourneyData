@@ -6,11 +6,12 @@
     "schema_size": 121,
     "row_count": 2,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 6
+    "unresolved_array_refs": 7
   },
   "default": {
     "CasterID": "null",
@@ -141,9 +142,9 @@
   ],
   "rows": [
     {
-      "CasterID": 8021,
+      "CasterID": 8010,
       "SkillID": 0,
-      "SkillName": "ep6ls_skill_npc_atk",
+      "SkillName": "man_lightbearers_atkst",
       "DisplayName": "（不用翻译）",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -194,13 +195,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -270,10 +271,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 8021,
+      "CasterID": 8010,
       "SkillID": 1,
-      "SkillName": "ep6ls_skill_npc_ult",
-      "DisplayName": "5208940550220012530",
+      "SkillName": "man_lightbearers_atkst1",
+      "DisplayName": "8923858596284507683",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -292,25 +293,25 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_immune.png",
-      "Description": "10546421926602583394",
-      "SimpleDescription": "8510952142295919303",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
+      "Description": "11655250396196648746",
+      "SimpleDescription": "17373175889226586201",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": null,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
         "$arrayRef": 190
       },
       "TargetCamp": 1,
-      "TargetPriority": "weakest",
+      "TargetPriority": "h_mostunits",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": "noblock",
       "Priority": 5,
-      "CD": 10,
-      "InitCD": 3,
+      "CD": 9999,
+      "InitCD": 9999,
       "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 0,
@@ -323,27 +324,29 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 97477
+        "$arrayRef": 97576
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AffectedCamp": 1,
+      "AOEOrigin": "target",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 190
+      },
       "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
-      "DamageType": null,
+      "PlusAttrUnit": "target",
+      "PlusAttr": "HP",
+      "PlusRatio": 0.4,
+      "DamageType": "AP",
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 5,
+      "SArg0": 4,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,

@@ -6,15 +6,13 @@
     "schema_size": 121,
     "row_count": 1,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "EvaluateDisplay",
-      "HitDisplay",
+      "ResourceList",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 7
+    "unresolved_array_refs": 5
   },
   "default": {
     "CasterID": "null",
@@ -140,14 +138,14 @@
     "ResourceList": {}
   },
   "row_keys": [
-    10
+    0
   ],
   "rows": [
     {
-      "CasterID": 6006,
-      "SkillID": 10,
-      "SkillName": "equip_skill_atk",
-      "DisplayName": "18381526316096517438",
+      "CasterID": 5603,
+      "SkillID": 0,
+      "SkillName": "camppetskullminion1_atk",
+      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -157,76 +155,70 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 10,
-      "DisplaySlot": 10,
+      "Slot": 0,
+      "DisplaySlot": 0,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": "basic",
+      "SkillPerformData": null,
       "IsPositiveManual": false,
-      "SkillScript": "roller",
-      "Icon": null,
-      "Description": "2425834996875973154",
+      "SkillScript": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
+      "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "manual",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
-      "TargetShape": "diy_lock",
+      "TargetType": null,
+      "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 97579
+        "$arrayRef": 190
       },
-      "TargetCamp": 0,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "weakest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 10,
+      "Priority": 1,
       "CD": 0,
-      "InitCD": 0,
+      "InitCD": 0.25,
       "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
-      "VictimMP": 0,
-      "TrackType": null,
+      "VictimMP": 1,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "battle_object_roller",
+      "UseWhich": "skullminion",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
-      "HitDisplay": {
-        "$arrayRef": 96562
-      },
-      "EvaluateDisplay": {
-        "$arrayRef": 96562
-      },
+      "HitDisplay": {},
+      "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 0,
-      "AOEOrigin": "self",
-      "AOEShape": "diy_lock",
-      "AOEShapeArgs": {
-        "$arrayRef": 97579
-      },
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
-      "PlusAttrUnit": "target",
-      "PlusAttr": "HP",
-      "PlusRatio": 0.1,
-      "DamageType": "Holy",
+      "PlusAttrUnit": null,
+      "PlusAttr": "ATK",
+      "PlusRatio": -1,
+      "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2,
-      "SArg1": 3,
+      "SArg0": 0,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -240,7 +232,7 @@
       "SArg12": 0,
       "DamageExtraEff": false,
       "Buff": null,
-      "BuffID": 40033004,
+      "BuffID": 0,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -251,7 +243,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -263,22 +255,24 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
-      "ImpactEffect": null,
+      "ImpactEffect": "pbfx_impact_common_heal",
       "ImpactEffArgs": {},
-      "ImpactBone": null,
+      "ImpactBone": "Body",
       "ChainJumps": 0,
       "ChainGap": 0,
       "ChainJumpDistance": 0,
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 97669
+      }
     }
   ]
 }

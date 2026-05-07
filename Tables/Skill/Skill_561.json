@@ -4,17 +4,15 @@
     "header_table": "Skill_561HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 4,
+    "row_count": 3,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "SkinId",
-      "SkinUseWhich",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 23
+    "unresolved_array_refs": 12
   },
   "default": {
     "CasterID": "null",
@@ -141,15 +139,14 @@
   },
   "row_keys": [
     0,
-    11,
     21,
     31
   ],
   "rows": [
     {
-      "CasterID": 5022,
+      "CasterID": 5020,
       "SkillID": 0,
-      "SkillName": "daimonghost_atk",
+      "SkillName": "dwarfshooterturretlow_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -178,10 +175,10 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -192,27 +189,25 @@
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {
-        "$arrayRef": 73691
-      },
-      "SkinUseWhich": {
-        "$arrayRef": 76460
-      },
+      "SkinId": {},
+      "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 96643
+      },
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -222,7 +217,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -252,7 +247,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -264,8 +259,8 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
+      "AimTarget": true,
+      "FollowTarget": true,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -282,10 +277,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5022,
-      "SkillID": 11,
-      "SkillName": "daimonghost_ult",
-      "DisplayName": "（不用翻译）戴蒙守护灵大招",
+      "CasterID": 5020,
+      "SkillID": 21,
+      "SkillName": "dwarfshooterturretlow_atk2",
+      "DisplayName": "（不用翻译）强化攻击：连射",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -295,154 +290,17 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
-      "Description": "守护灵对敌方最密集区域为中心进行一次X型爪击（不用翻译）",
-      "SimpleDescription": null,
-      "ActiveType": "manual",
-      "ThumpCondition": -1,
-      "SetSpeeder": 0,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 10,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1.25,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {
-        "$arrayRef": 73691
-      },
-      "SkinUseWhich": {
-        "$arrayRef": 76460
-      },
-      "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 96563
-      },
-      "HitDisplay": {
-        "$arrayRef": 96563
-      },
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96563
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": 0,
-      "AOEOrigin": "target",
-      "AOEShape": "rectangle",
-      "AOEShapeArgs": {
-        "$arrayRef": 96649
-      },
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {}
-    },
-    {
-      "CasterID": 5022,
-      "SkillID": 21,
-      "SkillName": "daimonghost_atk2",
-      "DisplayName": "（不用翻译）戴蒙守护灵重击",
-      "IsShow": false,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 11,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
       "Slot": 2,
       "DisplaySlot": 2,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": null,
+      "SkillType": "subbasic",
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad.png",
-      "Description": "守护灵强力普攻（不用翻译）",
+      "Description": "（不用翻译）强化攻击：连射",
       "SimpleDescription": null,
       "ActiveType": "active",
       "ThumpCondition": -1,
@@ -450,39 +308,37 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 3,
-      "CD": 8,
-      "InitCD": 3,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {
-        "$arrayRef": 73691
-      },
-      "SkinUseWhich": {
-        "$arrayRef": 76460
-      },
+      "SkinId": {},
+      "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 96648
+      },
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -492,7 +348,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 0.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -522,7 +378,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -534,8 +390,8 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
+      "AimTarget": true,
+      "FollowTarget": true,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -552,10 +408,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5022,
+      "CasterID": 5020,
       "SkillID": 31,
-      "SkillName": "daimonghost_atk3",
-      "DisplayName": "（不用翻译）戴蒙守护灵恐惧",
+      "SkillName": "dwarfshooterturretlow_atk3",
+      "DisplayName": "（不用翻译）假死",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -570,27 +426,27 @@
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": null,
+      "SkillType": "subbasic",
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad.png",
-      "Description": "守护灵将返回戴蒙身边，发出咆哮（不用翻译）",
+      "Description": "（不用翻译）假死",
       "SimpleDescription": null,
       "ActiveType": "passive",
-      "ThumpCondition": -1,
+      "ThumpCondition": 100,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 4,
+      "TargetBlockType": null,
+      "Priority": -99,
       "CD": 9999,
       "InitCD": 9999,
       "GlobalCD": 1.25,
@@ -601,21 +457,17 @@
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {
-        "$arrayRef": 73691
-      },
-      "SkinUseWhich": {
-        "$arrayRef": 76460
-      },
+      "SkinId": {},
+      "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96574
+        "$arrayRef": 96661
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96574
+        "$arrayRef": 96661
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -624,7 +476,7 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
+      "PlusAttr": null,
       "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,

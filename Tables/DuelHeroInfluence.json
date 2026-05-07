@@ -4,7 +4,7 @@
     "header_table": "DuelHeroInfluenceHeaderTable",
     "format": "flat_rows",
     "schema_size": 8,
-    "row_count": 97,
+    "row_count": 99,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -113,7 +113,9 @@
     109,
     110,
     111,
+    113,
     114,
+    115,
     116,
     123
   ],
@@ -260,7 +262,7 @@
     },
     {
       "HeroID": 15,
-      "Enable": true,
+      "Enable": false,
       "MakeDmgFix": 10,
       "TakeDmgFix": -10,
       "AttrName1": "MpP",
@@ -451,7 +453,7 @@
     {
       "HeroID": 34,
       "Enable": true,
-      "MakeDmgFix": 0,
+      "MakeDmgFix": 15,
       "TakeDmgFix": 0,
       "AttrName1": null,
       "AttrValue1": 0,
@@ -580,7 +582,7 @@
     },
     {
       "HeroID": 47,
-      "Enable": true,
+      "Enable": false,
       "MakeDmgFix": 0,
       "TakeDmgFix": -10,
       "AttrName1": null,
@@ -872,7 +874,7 @@
       "HeroID": 85,
       "Enable": true,
       "MakeDmgFix": 0,
-      "TakeDmgFix": 10,
+      "TakeDmgFix": 0,
       "AttrName1": null,
       "AttrValue1": 0,
       "AttrName2": null,
@@ -941,8 +943,8 @@
     {
       "HeroID": 94,
       "Enable": true,
-      "MakeDmgFix": -10,
-      "TakeDmgFix": 10,
+      "MakeDmgFix": -20,
+      "TakeDmgFix": 20,
       "AttrName1": null,
       "AttrValue1": 0,
       "AttrName2": null,
@@ -1059,9 +1061,29 @@
       "AttrValue2": 0
     },
     {
+      "HeroID": 113,
+      "Enable": true,
+      "MakeDmgFix": 0,
+      "TakeDmgFix": 0,
+      "AttrName1": null,
+      "AttrValue1": 0,
+      "AttrName2": null,
+      "AttrValue2": 0
+    },
+    {
       "HeroID": 114,
       "Enable": true,
-      "MakeDmgFix": -15,
+      "MakeDmgFix": -20,
+      "TakeDmgFix": 0,
+      "AttrName1": "CURE",
+      "AttrValue1": -20,
+      "AttrName2": null,
+      "AttrValue2": 0
+    },
+    {
+      "HeroID": 115,
+      "Enable": true,
+      "MakeDmgFix": 0,
       "TakeDmgFix": 0,
       "AttrName1": null,
       "AttrValue1": 0,
@@ -1071,7 +1093,7 @@
     {
       "HeroID": 116,
       "Enable": true,
-      "MakeDmgFix": -10,
+      "MakeDmgFix": 0,
       "TakeDmgFix": 10,
       "AttrName1": null,
       "AttrValue1": 0,

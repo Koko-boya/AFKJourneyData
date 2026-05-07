@@ -4,15 +4,13 @@
     "header_table": "Skill_281HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 6,
+    "row_count": 5,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
-      "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 21
+    "unresolved_array_refs": 15
   },
   "default": {
     "CasterID": "null",
@@ -142,14 +140,13 @@
     100,
     11,
     21,
-    31,
-    41
+    31
   ],
   "rows": [
     {
-      "CasterID": 1306,
+      "CasterID": 1305,
       "SkillID": 0,
-      "SkillName": "sandwarelite_atk",
+      "SkillName": "sandwar_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -198,17 +195,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "sandwarelite",
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
-      "HitDisplay": {
-        "$arrayRef": 96580
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -278,9 +273,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1306,
+      "CasterID": 1305,
       "SkillID": 100,
-      "SkillName": "sandwarelite_atkstand",
+      "SkillName": "sandwar_atkstand",
       "DisplayName": "（不用翻译）站立普通攻击",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -329,17 +324,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "sandwarelite",
       "CastDisplays": {
-        "$arrayRef": 96639
+        "$arrayRef": 96725
       },
-      "HitDisplay": {
-        "$arrayRef": 96639
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96639
+        "$arrayRef": 96725
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
@@ -409,10 +402,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1306,
+      "CasterID": 1305,
       "SkillID": 11,
-      "SkillName": "sandwarelite_ult",
-      "DisplayName": "5482834003403904048",
+      "SkillName": "sandwar_ult",
+      "DisplayName": "9562961059524873642",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -460,15 +453,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "sandwarelite",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -538,10 +531,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1306,
+      "CasterID": 1305,
       "SkillID": 21,
-      "SkillName": "sandwarelite_atk2",
-      "DisplayName": "8097222564959956937",
+      "SkillName": "sandwar_atk2",
+      "DisplayName": "17974037150491086510",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -561,7 +554,7 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_collide.png",
-      "Description": "17590701756387799952",
+      "Description": "2121994762246479523",
       "SimpleDescription": "8547998056836887856",
       "ActiveType": "active",
       "ThumpCondition": 100,
@@ -589,15 +582,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "sandwarelite",
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -667,9 +660,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1306,
+      "CasterID": 1305,
       "SkillID": 31,
-      "SkillName": "sandwarelite_atk3",
+      "SkillName": "sandwar_atk3",
       "DisplayName": "6861032834717323020",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -718,15 +711,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "sandwarelite",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -794,137 +787,6 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {}
-    },
-    {
-      "CasterID": 1306,
-      "SkillID": 41,
-      "SkillName": "sandwarelite_atk4",
-      "DisplayName": "13817002011700759829",
-      "IsShow": true,
-      "HeroDetailActionShow": true,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 4,
-      "DisplaySlot": 4,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_mp_heal.png",
-      "Description": "4647424309265166537",
-      "SimpleDescription": "8876908960902194712",
-      "ActiveType": "active",
-      "ThumpCondition": 100,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": 0,
-      "TargetPriority": "farthest",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 5,
-      "CD": 18,
-      "InitCD": 1,
-      "GlobalCD": 0,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 96569
-      },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96569
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0.6,
-      "SArg1": 8,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96857
-      }
     }
   ]
 }

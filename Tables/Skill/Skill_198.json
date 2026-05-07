@@ -4,7 +4,7 @@
     "header_table": "Skill_198HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 3,
+    "row_count": 4,
     "array_fields": [
       "AOEOriginFix",
       "AOEShapeArgs",
@@ -14,7 +14,7 @@
       "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 13
+    "unresolved_array_refs": 20
   },
   "default": {
     "CasterID": "null",
@@ -141,14 +141,15 @@
   },
   "row_keys": [
     0,
+    11,
     21,
     31
   ],
   "rows": [
     {
-      "CasterID": 1131,
+      "CasterID": 1130,
       "SkillID": 0,
-      "SkillName": "pigwar_atk",
+      "SkillName": "pigtank_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -179,7 +180,7 @@
       "TargetShapeArgs": {
         "$arrayRef": 44
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
@@ -197,17 +198,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "pigwarelite",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "HitDisplay": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -277,9 +278,142 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1131,
+      "CasterID": 1130,
+      "SkillID": 11,
+      "SkillName": "pigtank_ult",
+      "DisplayName": "14697797716804421393",
+      "IsShow": true,
+      "HeroDetailActionShow": false,
+      "UnlockByImba": false,
+      "UnlockAwakenLevel": 0,
+      "UnlockLevel": 1,
+      "UnlockExclusive": -1,
+      "UnlockMastery": -1,
+      "UnlockSeasonLevel": 0,
+      "EnhanceAttr": null,
+      "Slot": 1,
+      "DisplaySlot": 1,
+      "FatherSkillSlot": -1,
+      "SeasonID": 0,
+      "SkillLevel": 1,
+      "SkillType": "manual",
+      "SkillPerformData": "dmg",
+      "IsPositiveManual": false,
+      "SkillScript": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_collide.png",
+      "Description": "13470382632838695234",
+      "SimpleDescription": "13266436058207884370",
+      "ActiveType": "manual",
+      "ThumpCondition": -1,
+      "SetSpeeder": -1,
+      "TargetType": null,
+      "TargetShape": null,
+      "TargetShapeArgs": {
+        "$arrayRef": 44
+      },
+      "TargetCamp": -1,
+      "TargetPriority": "target",
+      "FirstPriority": {},
+      "ReselectTargetArgs": {},
+      "TargetBlockType": null,
+      "Priority": 2,
+      "CD": 4,
+      "InitCD": 1.25,
+      "GlobalCD": 1.25,
+      "CostMP": 1000,
+      "GainMP": 0,
+      "VictimMP": 1,
+      "TrackType": null,
+      "UseNewDisplay": true,
+      "CameraType": 0,
+      "CameraHideGround": false,
+      "SkinId": {},
+      "SkinUseWhich": {},
+      "UseWhich": null,
+      "CastDisplays": {
+        "$arrayRef": 96689
+      },
+      "HitDisplay": {
+        "$arrayRef": 96689
+      },
+      "EvaluateDisplay": {},
+      "Trajectory": {},
+      "Action(s)": {
+        "$arrayRef": 96689
+      },
+      "DisplayAction(s)": {},
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
+      "AOEOriginFix": {},
+      "PlusAttrUnit": null,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1.2,
+      "DamageType": null,
+      "DamageTrigger": null,
+      "DamageTriggerParam": null,
+      "SArg0": 1,
+      "SArg1": 0.2,
+      "SArg2": 8,
+      "SArg3": 0,
+      "SArg4": 0,
+      "SArg5": 0,
+      "SArg6": 0,
+      "SArg7": 0,
+      "SArg8": 0,
+      "SArg9": 0,
+      "SArg10": 0,
+      "SArg11": 0,
+      "SArg12": 0,
+      "DamageExtraEff": false,
+      "Buff": null,
+      "BuffID": 0,
+      "MoveForward": 0,
+      "KnockUp": 0,
+      "KnockBack": 0,
+      "KnockDirectionReason": false,
+      "FallFrozenTime": 0,
+      "KnockNotFall": false,
+      "IsNoLaunch": false,
+      "RandomBasicAtk": false,
+      "HasUpDownAction": false,
+      "DamagePopupList": {},
+      "TileCollideType": null,
+      "TileArt": null,
+      "TileArtSkinId": {},
+      "TileArtSkinName": {},
+      "TileScale": 0,
+      "TileRadius": 0,
+      "TilePiercing": false,
+      "TileDistance": 0,
+      "TileOTTHeight": 0,
+      "TileXZSpeed": 0,
+      "TileYSpeed": 0,
+      "TileGravity": 0,
+      "AimTarget": false,
+      "FollowTarget": false,
+      "TileRemain": 0,
+      "PointEffect": null,
+      "PointEffArgs": {},
+      "SkinImpactEffect": {},
+      "ImpactEffect": null,
+      "ImpactEffArgs": {},
+      "ImpactBone": null,
+      "ChainJumps": 0,
+      "ChainGap": 0,
+      "ChainJumpDistance": 0,
+      "MaxAffectTimes": 0,
+      "ChainEffect": null,
+      "SummonUnitList": {},
+      "ResourceList": {
+        "$arrayRef": 96838
+      }
+    },
+    {
+      "CasterID": 1130,
       "SkillID": 21,
-      "SkillName": "pigwar_atk2",
+      "SkillName": "pigtank_atk2",
       "DisplayName": "8138833229085159226",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -308,7 +442,7 @@
       "TargetType": "hex",
       "TargetShape": "line",
       "TargetShapeArgs": {
-        "$arrayRef": 71562
+        "$arrayRef": 71601
       },
       "TargetCamp": -1,
       "TargetPriority": "h_mostunits",
@@ -328,25 +462,25 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "pigwarelite",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96754
+        "$arrayRef": 96837
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96754
+        "$arrayRef": 96837
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "self",
       "AOEShape": "segment",
       "AOEShapeArgs": {
-        "$arrayRef": 94440
+        "$arrayRef": 94507
       },
       "AOEOriginFix": {
-        "$arrayRef": 77033
+        "$arrayRef": 77085
       },
       "PlusAttrUnit": null,
       "PlusAttr": null,
@@ -408,14 +542,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96756
+        "$arrayRef": 96839
       }
     },
     {
-      "CasterID": 1131,
+      "CasterID": 1130,
       "SkillID": 31,
-      "SkillName": "pigwar_atk3",
-      "DisplayName": "13464912957163479398",
+      "SkillName": "pigtank_atk3",
+      "DisplayName": "13776446117978923721",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -434,9 +568,9 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_multi.png",
-      "Description": "2273783701777829439",
-      "SimpleDescription": "14193847911997855391",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_critp.png",
+      "Description": "8134719587495166701",
+      "SimpleDescription": "1443081086717540109",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -445,17 +579,17 @@
       "TargetShapeArgs": {
         "$arrayRef": 44
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
-      "CD": 12,
-      "InitCD": 8,
+      "Priority": 3,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 39,
+      "GainMP": 106,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -463,15 +597,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "pigwarelite",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96569
+        "$arrayRef": 96719
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96719
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96569
+        "$arrayRef": 96719
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -481,13 +617,13 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.4,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2,
-      "SArg1": 0.3,
-      "SArg2": 5,
+      "SArg0": 3,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -539,7 +675,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_buff_common_bleed"
+        "$arrayRef": 96800
       }
     }
   ]

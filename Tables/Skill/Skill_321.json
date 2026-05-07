@@ -4,15 +4,15 @@
     "header_table": "Skill_321HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 4,
+    "row_count": 3,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
+      "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 13
+    "unresolved_array_refs": 11
   },
   "default": {
     "CasterID": "null",
@@ -140,14 +140,13 @@
   "row_keys": [
     0,
     21,
-    31,
-    41
+    31
   ],
   "rows": [
     {
-      "CasterID": 1452,
+      "CasterID": 1451,
       "SkillID": 0,
-      "SkillName": "seashell_atk",
+      "SkillName": "seamelee_fishb_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -176,7 +175,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 48
+        "$arrayRef": 44
       },
       "TargetCamp": 0,
       "TargetPriority": "target",
@@ -190,23 +189,23 @@
       "CostMP": 0,
       "GainMP": 300,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "seamelee",
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96660
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96562
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -220,7 +219,7 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 1.5,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -273,15 +272,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_impact_seashell_atk"
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1452,
+      "CasterID": 1451,
       "SkillID": 21,
-      "SkillName": "seashell_atk2",
-      "DisplayName": "11931252289455224149",
+      "SkillName": "seamelee_fishb_atk2",
+      "DisplayName": "7512108794636761586",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -300,16 +297,16 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_knock.png",
-      "Description": "8223449848036754848",
-      "SimpleDescription": "3460263149183628401",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_collide.png",
+      "Description": "3631659432408100410",
+      "SimpleDescription": "2810486730713878968",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 48
+        "$arrayRef": 44
       },
       "TargetCamp": 0,
       "TargetPriority": "target",
@@ -318,7 +315,7 @@
       "TargetBlockType": null,
       "Priority": 3,
       "CD": 8,
-      "InitCD": 1,
+      "InitCD": 12,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
@@ -329,15 +326,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "seamelee",
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96648
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -346,13 +345,13 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 3,
-      "SArg1": 1,
+      "SArg0": 0,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -368,8 +367,8 @@
       "Buff": null,
       "BuffID": 0,
       "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
+      "KnockUp": 0.125,
+      "KnockBack": 1,
       "KnockDirectionReason": false,
       "FallFrozenTime": 0,
       "KnockNotFall": false,
@@ -404,14 +403,12 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_impact_seashell_atk2"
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1452,
+      "CasterID": 1451,
       "SkillID": 31,
-      "SkillName": "seashell_atk3",
+      "SkillName": "seamelee_fishb_atk3",
       "DisplayName": "14847370513627676128",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -434,7 +431,7 @@
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_immune.png",
       "Description": "6659029412645239516",
       "SimpleDescription": "9429637559815950169",
-      "ActiveType": "active",
+      "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
@@ -442,14 +439,14 @@
       "TargetShapeArgs": {
         "$arrayRef": 190
       },
-      "TargetCamp": 0,
+      "TargetCamp": 1,
       "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 6,
-      "CD": 10,
-      "InitCD": 4,
+      "Priority": 4,
+      "CD": 9999,
+      "InitCD": 9999,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
@@ -460,18 +457,16 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 96569
-      },
+      "UseWhich": "seamelee",
+      "CastDisplays": {},
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96569
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 1,
+      "AffectedCamp": -1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
@@ -508,135 +503,6 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
-      "TileArt": "pbfx_tile_seashell_atk4",
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 1,
-      "TileRadius": 0.5,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 10,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96902
-      }
-    },
-    {
-      "CasterID": 1452,
-      "SkillID": 41,
-      "SkillName": "seashell_atk4",
-      "DisplayName": "3094569780766826667",
-      "IsShow": true,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 4,
-      "DisplaySlot": 4,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_shield.png",
-      "Description": "8354015767770954264",
-      "SimpleDescription": "2228349579977181515",
-      "ActiveType": "passive",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": 1,
-      "TargetPriority": "front",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 5,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1.25,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {},
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96562
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0.5,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
       "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
@@ -665,7 +531,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_point_seamelee_atk3"
+        "$arrayRef": 96989
       }
     }
   ]

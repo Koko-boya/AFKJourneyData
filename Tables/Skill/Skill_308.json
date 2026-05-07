@@ -6,14 +6,13 @@
     "schema_size": 121,
     "row_count": 5,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 19
+    "unresolved_array_refs": 18
   },
   "default": {
     "CasterID": "null",
@@ -147,9 +146,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1415,
+      "CasterID": 1414,
       "SkillID": 0,
-      "SkillName": "dieseasnake_atk",
+      "SkillName": "dieseanaga_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -200,15 +199,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "HitDisplay": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -278,9 +277,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1415,
+      "CasterID": 1414,
       "SkillID": 101,
-      "SkillName": "dieseasnake_atkb",
+      "SkillName": "dieseanaga_atkb",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -331,23 +330,21 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96687
+        "$arrayRef": 96719
       },
       "HitDisplay": {
-        "$arrayRef": 96687
+        "$arrayRef": 96719
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96687
+        "$arrayRef": 96719
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector",
-      "AOEShapeArgs": {
-        "$arrayRef": 70806
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -408,13 +405,15 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_chain_dieseasoldier_naga_atkb_old"
+      }
     },
     {
-      "CasterID": 1415,
+      "CasterID": 1414,
       "SkillID": 11,
-      "SkillName": "dieseasnake_ult",
-      "DisplayName": "8922165111872388267",
+      "SkillName": "dieseanaga_ult",
+      "DisplayName": "11886672335656560679",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -433,9 +432,9 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_modify.png",
-      "Description": "15321647140620558227",
-      "SimpleDescription": "4831643350546482935",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_chain.png",
+      "Description": "15220004964025108941",
+      "SimpleDescription": "654845621017040996",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -445,10 +444,10 @@
         "$arrayRef": 190
       },
       "TargetCamp": -1,
-      "TargetPriority": "maxdmg",
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 0,
@@ -464,13 +463,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96563
+        "$arrayRef": 96644
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -480,12 +479,12 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 5.5,
+      "PlusRatio": 4,
       "DamageType": "AP",
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 4,
-      "SArg1": 0,
+      "SArg0": 15,
+      "SArg1": 5,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -538,14 +537,15 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_point_dieseasoldier_snake_ult"
+        "1": "pbfx_chain_dieseasoldier_naga_ult_old",
+        "2": "pbfx_chain_dieseasoldier_naga_ultb_old"
       }
     },
     {
-      "CasterID": 1415,
+      "CasterID": 1414,
       "SkillID": 21,
-      "SkillName": "dieseasnake_atk2",
-      "DisplayName": "18046813743289969396",
+      "SkillName": "dieseanaga_atk2",
+      "DisplayName": "8283452920270333247",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -564,9 +564,9 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_modify.png",
-      "Description": "5025349021367896577",
-      "SimpleDescription": "5977429372538375055",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad.png",
+      "Description": "2202564234600310685",
+      "SimpleDescription": "13120403280508412015",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -595,13 +595,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -616,8 +616,8 @@
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 3,
-      "SArg1": 1.5,
-      "SArg2": 0,
+      "SArg1": 2,
+      "SArg2": 1.5,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -669,13 +669,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_buff_dieseasoldier_snake_atk2"
+        "1": "pbfx_buff_dieseasoldier_naga_atk2"
       }
     },
     {
-      "CasterID": 1415,
+      "CasterID": 1414,
       "SkillID": 31,
-      "SkillName": "dieseasnake_atk3",
+      "SkillName": "dieseanaga_atk3",
       "DisplayName": "14168983202596325222",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -726,13 +726,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96569
+        "$arrayRef": 96649
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -800,7 +800,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96890
+        "$arrayRef": 96974
       }
     }
   ]

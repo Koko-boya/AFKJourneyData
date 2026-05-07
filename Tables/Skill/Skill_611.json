@@ -7,9 +7,13 @@
     "row_count": 1,
     "array_fields": [
       "Action(s)",
-      "TargetShapeArgs"
+      "CastDisplays",
+      "HitDisplay",
+      "ResourceList",
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 2
+    "unresolved_array_refs": 6
   },
   "default": {
     "CasterID": "null",
@@ -135,14 +139,14 @@
     "ResourceList": {}
   },
   "row_keys": [
-    10
+    0
   ],
   "rows": [
     {
-      "CasterID": 6007,
-      "SkillID": 10,
-      "SkillName": "equip_skill_atk",
-      "DisplayName": "5708918120477906804",
+      "CasterID": 5604,
+      "SkillID": 0,
+      "SkillName": "camppetskullminion2_atk",
+      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -152,65 +156,71 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 10,
-      "DisplaySlot": 10,
+      "Slot": 0,
+      "DisplaySlot": 0,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": "basic",
+      "SkillPerformData": null,
       "IsPositiveManual": false,
-      "SkillScript": "human_transfer",
-      "Icon": null,
-      "Description": "15849807330728281456",
+      "SkillScript": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
+      "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "manual",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "unit",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
         "$arrayRef": 190
       },
-      "TargetCamp": 0,
-      "TargetPriority": "weakest",
+      "TargetCamp": -1,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 10,
+      "TargetBlockType": null,
+      "Priority": 1,
       "CD": 0,
-      "InitCD": 0,
+      "InitCD": 0.25,
       "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
-      "VictimMP": 0,
-      "TrackType": null,
-      "UseNewDisplay": false,
+      "VictimMP": 1,
+      "TrackType": "projectile",
+      "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {},
-      "HitDisplay": {},
+      "UseWhich": "skullminion",
+      "CastDisplays": {
+        "$arrayRef": 96643
+      },
+      "HitDisplay": {
+        "$arrayRef": 96643
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 96643
+      },
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 0,
+      "AffectedCamp": -1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 5,
+      "SArg0": 0,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -236,7 +246,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -248,7 +258,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -264,8 +274,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_object_common_typical_in",
-        "2": "pbfx_object_common_typical_out"
+        "$arrayRef": 97670
       }
     }
   ]

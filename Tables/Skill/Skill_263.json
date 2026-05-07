@@ -4,16 +4,15 @@
     "header_table": "Skill_263HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 4,
+    "row_count": 3,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
-      "EvaluateDisplay",
       "HitDisplay",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 15
+    "unresolved_array_refs": 11
   },
   "default": {
     "CasterID": "null",
@@ -140,15 +139,14 @@
   },
   "row_keys": [
     0,
-    11,
     21,
     31
   ],
   "rows": [
     {
-      "CasterID": 1263,
+      "CasterID": 1262,
       "SkillID": 0,
-      "SkillName": "hjhunterelite_atk",
+      "SkillName": "hjhunter_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -199,17 +197,17 @@
       "SkinUseWhich": {},
       "UseWhich": "hjhunterelite",
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -250,7 +248,7 @@
       "HasUpDownAction": false,
       "DamagePopupList": {},
       "TileCollideType": "target",
-      "TileArt": null,
+      "TileArt": "pbfx_tile_hjhunterelite_atk_2",
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
@@ -258,7 +256,7 @@
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
+      "TileXZSpeed": 30,
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": false,
@@ -279,140 +277,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1263,
-      "SkillID": 11,
-      "SkillName": "hjhunterelite_ult",
-      "DisplayName": "1192270681955541620",
-      "IsShow": true,
-      "HeroDetailActionShow": true,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "6047719193955002638",
-      "SimpleDescription": "9703747704756411175",
-      "ActiveType": "manual",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "strongest",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 10,
-      "CD": 1.25,
-      "InitCD": 1.25,
-      "GlobalCD": 1.25,
-      "CostMP": 1000,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "hjhunterelite",
-      "CastDisplays": {
-        "$arrayRef": 96563
-      },
-      "HitDisplay": {},
-      "EvaluateDisplay": {
-        "$arrayRef": 96563
-      },
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96563
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 2,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 5,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": "target",
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {}
-    },
-    {
-      "CasterID": 1263,
+      "CasterID": 1262,
       "SkillID": 21,
-      "SkillName": "hjhunterelite_atk2",
+      "SkillName": "hjhunter_atk2",
       "DisplayName": "5911596213614486077",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -433,8 +300,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_chain.png",
-      "Description": "17467607538379053067",
-      "SimpleDescription": "3279540363792747047",
+      "Description": "17173178177718003819",
+      "SimpleDescription": "17583602469323489247",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -463,15 +330,15 @@
       "SkinUseWhich": {},
       "UseWhich": "hjhunterelite",
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -512,7 +379,7 @@
       "HasUpDownAction": false,
       "DamagePopupList": {},
       "TileCollideType": "target",
-      "TileArt": "pbfx_tile_hjhunterelite_atk2",
+      "TileArt": "pbfx_tile_hjhunterelite_atk_2",
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
@@ -541,9 +408,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1263,
+      "CasterID": 1262,
       "SkillID": 31,
-      "SkillName": "hjhunterelite_atk3",
+      "SkillName": "hjhunter_atk3",
       "DisplayName": "12237010339042447621",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -598,7 +465,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,

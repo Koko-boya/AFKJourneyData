@@ -3,13 +3,15 @@
     "table": "TavernCreationPool",
     "header_table": "TavernCreationPoolHeaderTable",
     "format": "flat_rows",
-    "schema_size": 29,
-    "row_count": 2,
+    "schema_size": 31,
+    "row_count": 3,
     "array_fields": [
+      "GiftCellBigPosition",
+      "GiftCellBigRotation",
       "PosterSlogan",
       "ShowGiftBox"
     ],
-    "unresolved_array_refs": 4
+    "unresolved_array_refs": 9
   },
   "default": {
     "PoolID": "null",
@@ -26,6 +28,8 @@
     "PopupName4": null,
     "PopupName5": null,
     "PopupName6": null,
+    "GiftCellBigPosition": {},
+    "GiftCellBigRotation": {},
     "GiftCellBig": null,
     "GiftCell1": null,
     "GiftCell2": null,
@@ -44,7 +48,8 @@
   },
   "row_keys": [
     4001,
-    4002
+    4002,
+    4003
   ],
   "rows": [
     {
@@ -69,6 +74,12 @@
       "PopupName4": "1216050389412886825",
       "PopupName5": "4894501843122831037",
       "PopupName6": "3844701199858040196",
+      "GiftCellBigPosition": {
+        "$arrayRef": 72085
+      },
+      "GiftCellBigRotation": {
+        "$arrayRef": 72085
+      },
       "GiftCellBig": "Prefabs/Homestead/Building/pbsc_hs_deco_snowfestival_1_homestead_root.prefab",
       "GiftCell1": "UI/Icon/Decoshop/spui_decoshop_img_gift_main1_4.png",
       "GiftCell2": "UI/Icon/Decoshop/spui_decoshop_img_gift_main1_3.png",
@@ -77,7 +88,7 @@
       "GiftCell5": "UI/Icon/Decoshop/spui_decoshop_img_gift_main1_5.png",
       "PopupPrefabPath": "UI/Prefabs/Homestead/DecoShop/pbui_decoshop_gift_windows.prefab",
       "ShowGiftBox": {
-        "$arrayRef": 98405
+        "$arrayRef": 98501
       },
       "Condition": "true",
       "TargetDes": {},
@@ -85,7 +96,7 @@
       "PosterBg": null,
       "PosterRule": null,
       "PosterSlogan": {
-        "$arrayRef": 98408
+        "$arrayRef": 98504
       },
       "ProbRule": "14837195872134000577"
     },
@@ -111,7 +122,17 @@
       "PopupName4": "17825653613962763571",
       "PopupName5": "8253506164786839366",
       "PopupName6": "3690648837549807741",
-      "GiftCellBig": "Prefab/Homestead/Building/pbsc_hs_deco_magicschool_1.prefab",
+      "GiftCellBigPosition": {
+        "1": -0.13,
+        "2": -5.14,
+        "3": -0.06
+      },
+      "GiftCellBigRotation": {
+        "1": 1.17,
+        "2": 0,
+        "3": 0
+      },
+      "GiftCellBig": "Prefabs/Homestead/Building/pbsc_hs_deco_magicschool_1_homestead_root.prefab",
       "GiftCell1": "UI/Icon/Decoshop/spui_decoshop_img_gift_main2_4.png",
       "GiftCell2": "UI/Icon/Decoshop/spui_decoshop_img_gift_main2_3.png",
       "GiftCell3": "UI/Icon/Decoshop/spui_decoshop_img_gift_main2_2.png",
@@ -119,7 +140,7 @@
       "GiftCell5": "UI/Icon/Decoshop/spui_decoshop_img_gift_main2_5.png",
       "PopupPrefabPath": "UI/Prefabs/Homestead/DecoShop/pbui_decoshop_gift_windows_1.prefab",
       "ShowGiftBox": {
-        "$arrayRef": 98405
+        "$arrayRef": 98501
       },
       "Condition": "true",
       "TargetDes": {},
@@ -127,7 +148,57 @@
       "PosterBg": null,
       "PosterRule": null,
       "PosterSlogan": {
-        "$arrayRef": 98408
+        "$arrayRef": 98504
+      },
+      "ProbRule": "14837195872134000577"
+    },
+    {
+      "PoolID": 4003,
+      "MaxCreate": 120,
+      "SetName": "13544524715869036356",
+      "ComposeID": 5002,
+      "MailGoodsScheduleID": 786,
+      "TogglePicPath": "UI/Icon/Decoshop/spui_decoshop_icon_toggle_gift1_2.png",
+      "PoolSlogan": "13544524715869036356",
+      "HomeSteadID": {
+        "1": 6200,
+        "2": 6202,
+        "3": 6203,
+        "4": 6205,
+        "5": 6201,
+        "6": 6204
+      },
+      "PopupName1": "4017513380489573182",
+      "PopupName2": "16636872278257655840",
+      "PopupName3": "1067265138121481717",
+      "PopupName4": "17771975430853669888",
+      "PopupName5": "14131851054203213789",
+      "PopupName6": "10201644476013197747",
+      "GiftCellBigPosition": {
+        "$arrayRef": 72085
+      },
+      "GiftCellBigRotation": {
+        "1": 0,
+        "2": 44.3,
+        "3": 0
+      },
+      "GiftCellBig": "Prefabs/Homestead/Building/pbsc_hs_deco_cherrycake_1_homestead_root.prefab",
+      "GiftCell1": "UI/Icon/Decoshop/spui_decoshop_img_gift_main3_4.png",
+      "GiftCell2": "UI/Icon/Decoshop/spui_decoshop_img_gift_main3_3.png",
+      "GiftCell3": "UI/Icon/Decoshop/spui_decoshop_img_gift_main3_2.png",
+      "GiftCell4": "UI/Icon/Decoshop/spui_decoshop_img_gift_main3_1.png",
+      "GiftCell5": "UI/Icon/Decoshop/spui_decoshop_img_gift_main3_5.png",
+      "PopupPrefabPath": "UI/Prefabs/Homestead/DecoShop/pbui_decoshop_gift_windows_2.prefab",
+      "ShowGiftBox": {
+        "$arrayRef": 98501
+      },
+      "Condition": "true",
+      "TargetDes": {},
+      "ProgressTarget": 0,
+      "PosterBg": null,
+      "PosterRule": null,
+      "PosterSlogan": {
+        "$arrayRef": 98504
       },
       "ProbRule": "14837195872134000577"
     }

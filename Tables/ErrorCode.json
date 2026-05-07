@@ -4,7 +4,7 @@
     "header_table": "ErrorCodeHeaderTable",
     "format": "flat_rows",
     "schema_size": 6,
-    "row_count": 2022,
+    "row_count": 2030,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -2038,7 +2038,15 @@
     218016,
     218017,
     218018,
-    216012
+    216012,
+    81011,
+    45018,
+    219001,
+    219002,
+    219003,
+    219004,
+    219005,
+    219006
   ],
   "rows": [
     {
@@ -18211,11 +18219,75 @@
     },
     {
       "ErrorInfo": 216012,
-      "AlertType": null,
+      "AlertType": "Tips",
       "ErrorCode": 216012,
       "SecurityType": "Display",
       "DisplayText": "6128921789761564655",
       "CodeNote": "使用的材料实例ID不合法"
+    },
+    {
+      "ErrorInfo": 81011,
+      "AlertType": "Tips",
+      "ErrorCode": 81011,
+      "SecurityType": "Display",
+      "DisplayText": "6430726889249144134",
+      "CodeNote": "在目标黑名单中"
+    },
+    {
+      "ErrorInfo": 45018,
+      "AlertType": "Tips",
+      "ErrorCode": 45018,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "平台专门的邮件禁止带奖励"
+    },
+    {
+      "ErrorInfo": 219001,
+      "AlertType": "Tips",
+      "ErrorCode": 219001,
+      "SecurityType": "Display",
+      "DisplayText": "9269963004930788367",
+      "CodeNote": "活动完成"
+    },
+    {
+      "ErrorInfo": 219002,
+      "AlertType": "Tips",
+      "ErrorCode": 219002,
+      "SecurityType": "Display",
+      "DisplayText": "6613735725485839177",
+      "CodeNote": "到达每日邀请上限"
+    },
+    {
+      "ErrorInfo": 219003,
+      "AlertType": "Tips",
+      "ErrorCode": 219003,
+      "SecurityType": "Display",
+      "DisplayText": "1679739617884320706",
+      "CodeNote": "邀请码已绑定"
+    },
+    {
+      "ErrorInfo": 219004,
+      "AlertType": "Tips",
+      "ErrorCode": 219004,
+      "SecurityType": "Display",
+      "DisplayText": "8044672355400396384",
+      "CodeNote": "未解锁绑定邀请码"
+    },
+    {
+      "ErrorInfo": 219005,
+      "AlertType": "Tips",
+      "ErrorCode": 219005,
+      "SecurityType": "Display",
+      "DisplayText": "7127456870431707727",
+      "CodeNote": "邀请码已失效"
+    },
+    {
+      "ErrorInfo": 219006,
+      "AlertType": "Tips",
+      "ErrorCode": 219006,
+      "SecurityType": "Display",
+      "DisplayText": "17297505911782550060",
+      "CodeNote": "不能邀请自己"
     }
   ]
 }

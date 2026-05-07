@@ -4,7 +4,7 @@
     "header_table": "ActivityBannerHeaderTable",
     "format": "flat_rows",
     "schema_size": 10,
-    "row_count": 39,
+    "row_count": 41,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -59,7 +59,9 @@
     620,
     621,
     615,
-    684
+    684,
+    669,
+    775
   ],
   "rows": [
     {
@@ -529,6 +531,30 @@
       "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_collab_fr.png",
       "DecorateLineColor": "#FFF2A3",
       "Condition": "ed.ConditionX.IsInActivity(684)"
+    },
+    {
+      "ID": 669,
+      "Order": 1,
+      "ActivityID": 669,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "1327226778388002229",
+      "SubTitleColor": "#FFF2A3",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_guildvault.png",
+      "DecorateLineColor": "#FFF2A3",
+      "Condition": "ed.ConditionX.IsInActivity(669)"
+    },
+    {
+      "ID": 775,
+      "Order": 2,
+      "ActivityID": 775,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "9234001255091695468",
+      "SubTitleColor": "#E9D83F",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_disaster.png",
+      "DecorateLineColor": "#7E5744",
+      "Condition": "ed.ConditionX.IsInActivity(775)"
     }
   ]
 }

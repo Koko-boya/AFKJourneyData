@@ -6,15 +6,10 @@
     "schema_size": 121,
     "row_count": 1,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
-      "CastDisplays",
-      "EvaluateDisplay",
-      "HitDisplay",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 7
+    "unresolved_array_refs": 2
   },
   "default": {
     "CasterID": "null",
@@ -144,10 +139,10 @@
   ],
   "rows": [
     {
-      "CasterID": 6010,
+      "CasterID": 6001,
       "SkillID": 10,
       "SkillName": "equip_skill_atk",
-      "DisplayName": "2495591579015260650",
+      "DisplayName": "（不用翻译）机关占坑普攻",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -157,35 +152,35 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 10,
-      "DisplaySlot": 10,
+      "Slot": 0,
+      "DisplaySlot": 0,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": "basic",
+      "SkillPerformData": null,
       "IsPositiveManual": false,
-      "SkillScript": "undergroundboom",
+      "SkillScript": null,
       "Icon": null,
-      "Description": "1560204256451859393",
+      "Description": "（不用翻译）脚本名可以用机关本身的英文名_skillID，buff名也是机关名_XX",
       "SimpleDescription": null,
-      "ActiveType": "manual",
+      "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 45
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 10,
-      "CD": 0,
-      "InitCD": 0,
-      "GlobalCD": 0,
+      "Priority": 0,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 2,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 0,
@@ -195,38 +190,28 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "battle_object_undergroundboom",
-      "CastDisplays": {
-        "$arrayRef": 97580
-      },
-      "HitDisplay": {
-        "$arrayRef": 97580
-      },
-      "EvaluateDisplay": {
-        "$arrayRef": 97580
-      },
-      "Trajectory": {
-        "$arrayRef": 97580
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
+      "HitDisplay": {},
+      "EvaluateDisplay": {},
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 97580
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 0,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 44
-      },
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
-      "PlusAttrUnit": "target",
-      "PlusAttr": "HP",
-      "PlusRatio": 0.35,
-      "DamageType": "Holy",
-      "DamageTrigger": "fire",
+      "PlusAttrUnit": null,
+      "PlusAttr": null,
+      "PlusRatio": 0,
+      "DamageType": null,
+      "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 3,
-      "SArg1": 0.35,
+      "SArg0": 0,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -240,7 +225,7 @@
       "SArg12": 0,
       "DamageExtraEff": false,
       "Buff": null,
-      "BuffID": 40033002,
+      "BuffID": 0,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,

@@ -4,7 +4,7 @@
     "header_table": "MenuWorldActionOptionHeaderTable",
     "format": "flat_rows",
     "schema_size": 14,
-    "row_count": 486,
+    "row_count": 487,
     "array_fields": [
       "AdditionalLuas",
       "AdditionalPrefabs"
@@ -513,7 +513,8 @@
     576,
     578,
     579,
-    582
+    582,
+    598
   ],
   "rows": [
     {
@@ -4578,10 +4579,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {
-        "$arrayRef": 93771
+        "$arrayRef": 93837
       }
     },
     {
@@ -4614,10 +4615,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {
-        "$arrayRef": 93771
+        "$arrayRef": 93837
       }
     },
     {
@@ -4650,10 +4651,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {
-        "$arrayRef": 93771
+        "$arrayRef": 93837
       }
     },
     {
@@ -4686,10 +4687,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {
-        "$arrayRef": 93771
+        "$arrayRef": 93837
       }
     },
     {
@@ -5970,10 +5971,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {
-        "$arrayRef": 93771
+        "$arrayRef": 93837
       }
     },
     {
@@ -6006,10 +6007,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {
-        "$arrayRef": 93771
+        "$arrayRef": 93837
       }
     },
     {
@@ -6042,10 +6043,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {
-        "$arrayRef": 93771
+        "$arrayRef": 93837
       }
     },
     {
@@ -7822,7 +7823,7 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 93770
+        "$arrayRef": 93836
       },
       "AdditionalLuas": {}
     },
@@ -8216,7 +8217,7 @@
       "Mode": null,
       "ObjectClientType": null,
       "ShowCondition": "ed.ConditionX.HasState(512400366,\"CMark_1\")",
-      "OptionStatement": "2154977987108540062",
+      "OptionStatement": "有什么我能帮忙的吗？",
       "ClickAction": "ed.ActionX.C_RunPlot(17366030)",
       "ReturnMenu": false,
       "PrefabName": "pbui_dialogue_icon_choose",
@@ -8296,7 +8297,7 @@
       "Mode": null,
       "ObjectClientType": null,
       "ShowCondition": "ed.ConditionX.HasState(512400212,\"CMark_1\")",
-      "OptionStatement": "你在卖什么？",
+      "OptionStatement": "13412913807116654036",
       "ClickAction": "ed.ActionX.C_RunPlot(17372042)",
       "ReturnMenu": false,
       "PrefabName": "pbui_dialogue_icon_choose",
@@ -8318,6 +8319,22 @@
       "PrefabName": "pbui_dialogue_icon_choose",
       "Priority": 1,
       "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 598,
+      "ObjectID": 510100260,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "ed.ConditionX.HasState(510100260,\"Interactive\")",
+      "OptionStatement": "面对荧荧花",
+      "ClickAction": "ed.ActionX.C_RunPlot(16208340)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_other",
+      "Priority": 1,
+      "Gender": true,
       "ReddotID": 0,
       "AdditionalPrefabs": {},
       "AdditionalLuas": {}

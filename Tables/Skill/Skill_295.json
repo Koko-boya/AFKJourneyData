@@ -144,9 +144,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1382,
+      "CasterID": 1381,
       "SkillID": 0,
-      "SkillName": "ybttamer_xw_atk",
+      "SkillName": "ybtsupport_xw_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -175,19 +175,19 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 45
+        "$arrayRef": 47
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
+      "GainMP": 56,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -195,17 +195,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybttamer",
+      "UseWhich": "ybtsupport",
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96660
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -275,10 +275,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1382,
+      "CasterID": 1381,
       "SkillID": 11,
-      "SkillName": "ybttamer_xw_ult",
-      "DisplayName": "61928410420385929",
+      "SkillName": "ybtsupport_xw_ult",
+      "DisplayName": "6990718812008226874",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -297,25 +297,25 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
-      "Description": "10295319726914307478",
-      "SimpleDescription": "14324273185388667929",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
+      "Description": "16553246790813275945",
+      "SimpleDescription": "12738502231923214341",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 190
       },
-      "TargetCamp": 0,
-      "TargetPriority": "self",
+      "TargetCamp": 1,
+      "TargetPriority": "weakest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
-      "CD": 1.25,
-      "InitCD": 1.25,
+      "CD": 0,
+      "InitCD": 1,
       "GlobalCD": 1.25,
       "CostMP": 1000,
       "GainMP": 0,
@@ -326,15 +326,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybttamer",
+      "UseWhich": "ybtsupport",
       "CastDisplays": {
-        "$arrayRef": 96729
+        "$arrayRef": 96644
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 96644
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96729
+        "$arrayRef": 96644
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
@@ -345,14 +347,14 @@
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1.2,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 30,
-      "SArg1": 0.5,
-      "SArg2": 6,
+      "SArg0": 6,
+      "SArg1": 50,
+      "SArg2": 1.2,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -406,10 +408,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1382,
+      "CasterID": 1381,
       "SkillID": 21,
-      "SkillName": "ybttamer_xw_atk2",
-      "DisplayName": "16466174647044959086",
+      "SkillName": "ybtsupport_xw_atk2",
+      "DisplayName": "13121987053283089497",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -428,28 +430,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
-      "Description": "15932298512079081931",
-      "SimpleDescription": "6711192759230347368",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal.png",
+      "Description": "17109577873609356360",
+      "SimpleDescription": "1638887858366047850",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 45
+        "$arrayRef": 190
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "weakest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 3,
-      "CD": 8,
-      "InitCD": 1.25,
-      "GlobalCD": 1.25,
+      "CD": 6,
+      "InitCD": 1,
+      "GlobalCD": 0.5,
       "CostMP": 0,
-      "GainMP": 98,
+      "GainMP": 90,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -457,33 +459,31 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybttamer",
+      "UseWhich": "ybtsupport",
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "HitDisplay": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector",
-      "AOEShapeArgs": {
-        "$arrayRef": 70806
-      },
+      "AffectedCamp": 1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0.9,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 1.5,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,

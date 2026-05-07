@@ -9,11 +9,13 @@
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
+      "EvaluateDisplay",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 21
+    "unresolved_array_refs": 24
   },
   "default": {
     "CasterID": "null",
@@ -148,9 +150,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1149,
+      "CasterID": 1148,
       "SkillID": 0,
-      "SkillName": "botpetsoldier_atk",
+      "SkillName": "botpetsupport_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -179,13 +181,13 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
@@ -193,23 +195,25 @@
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botpet_ranger",
+      "UseWhich": "botpet_support",
       "CastDisplays": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "HitDisplay": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 96643
+      },
       "Action(s)": {
-        "$arrayRef": 96580
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -219,7 +223,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -249,7 +253,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -261,7 +265,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -279,10 +283,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1149,
+      "CasterID": 1148,
       "SkillID": 11,
-      "SkillName": "botpetsoldier_atk2",
-      "DisplayName": "16313901345746071433",
+      "SkillName": "botpetsupport_atk2",
+      "DisplayName": "10855328570337164320",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -301,22 +305,22 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_atk_down.png",
-      "Description": "17332239324226846520",
-      "SimpleDescription": "15600042185971045973",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_hast_up.png",
+      "Description": "17264575137378172348",
+      "SimpleDescription": "11444196884707908797",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
-      "TargetCamp": 0,
-      "TargetPriority": "target",
+      "TargetCamp": -1,
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 2,
       "CD": 10,
       "InitCD": 0,
@@ -330,32 +334,32 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botpet_ranger",
+      "UseWhich": "botpet_support",
       "CastDisplays": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
-      "HitDisplay": {
-        "$arrayRef": 96568
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96568
+        "$arrayRef": 96648
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AffectedCamp": 1,
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 45
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0.8,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 5,
-      "SArg1": 0.5,
+      "SArg0": 2,
+      "SArg1": 50,
       "SArg2": 4,
       "SArg3": 0,
       "SArg4": 0,
@@ -368,8 +372,8 @@
       "SArg11": 0,
       "SArg12": 0,
       "DamageExtraEff": false,
-      "Buff": "botpet_soldier_atk2_atkbuff",
-      "BuffID": 114901,
+      "Buff": "botpet_support_atk2_buff",
+      "BuffID": 114801,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -407,12 +411,14 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 96855
+      }
     },
     {
-      "CasterID": 1149,
+      "CasterID": 1148,
       "SkillID": 101,
-      "SkillName": "botpetsoldier_atk2b",
+      "SkillName": "botpetsupport_atk2b",
       "DisplayName": "（不用翻译）开场跑到敌人后排",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -461,15 +467,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botpet_ranger",
+      "UseWhich": "botpet_support",
       "CastDisplays": {
-        "$arrayRef": 96770
+        "$arrayRef": 96853
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96770
+        "$arrayRef": 96853
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -539,9 +545,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1149,
+      "CasterID": 1148,
       "SkillID": 21,
-      "SkillName": "botpetsoldier_atk3",
+      "SkillName": "botpetsupport_atk3",
       "DisplayName": "15464160093035628773",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -590,15 +596,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botpet_ranger",
+      "UseWhich": "botpet_support",
       "CastDisplays": {
-        "$arrayRef": 96581
+        "$arrayRef": 96661
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96581
+        "$arrayRef": 96661
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -666,13 +672,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96771
+        "$arrayRef": 96854
       }
     },
     {
-      "CasterID": 1149,
+      "CasterID": 1148,
       "SkillID": 100,
-      "SkillName": "botpetsoldier_atk3b",
+      "SkillName": "botpetsupport_atk3b",
       "DisplayName": "(不用翻译)能量过载子技能",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -693,7 +699,7 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": null,
-      "Description": "普通攻击(不用翻译)",
+      "Description": null,
       "SimpleDescription": null,
       "ActiveType": "passive",
       "ThumpCondition": -1,
@@ -701,7 +707,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
       "TargetCamp": 1,
       "TargetPriority": "self",
@@ -727,7 +733,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96562
+        "$arrayRef": 96643
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -797,10 +803,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1149,
+      "CasterID": 1148,
       "SkillID": 31,
-      "SkillName": "botpetsoldier_atk4",
-      "DisplayName": "18298544216824887149",
+      "SkillName": "botpetsupport_atk4",
+      "DisplayName": "6914853460235855414",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -819,22 +825,22 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_taunt.png",
-      "Description": "5905289168287919417",
-      "SimpleDescription": "8746136601072891912",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
+      "Description": "1256952057582874320",
+      "SimpleDescription": "9886634997375488101",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 0,
@@ -848,35 +854,37 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botpet_ranger",
+      "UseWhich": "botpet_support",
       "CastDisplays": {
-        "$arrayRef": 96595
+        "$arrayRef": 96654
       },
       "HitDisplay": {},
-      "EvaluateDisplay": {},
+      "EvaluateDisplay": {
+        "$arrayRef": 96654
+      },
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96595
+        "$arrayRef": 96654
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 1,
       "AOEOrigin": "self",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 45
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": -3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 0.5,
       "SArg1": 3,
-      "SArg2": 1,
-      "SArg3": 3.5,
-      "SArg4": 3,
+      "SArg2": 2,
+      "SArg3": 0,
+      "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
       "SArg7": 0,
@@ -886,8 +894,8 @@
       "SArg11": 0,
       "SArg12": 0,
       "DamageExtraEff": false,
-      "Buff": "common_taunt",
-      "BuffID": 3,
+      "Buff": null,
+      "BuffID": 0,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -925,9 +933,7 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_buff_botpet_soldier_atk4"
-      }
+      "ResourceList": {}
     }
   ]
 }
