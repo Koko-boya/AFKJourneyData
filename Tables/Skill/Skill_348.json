@@ -6,13 +6,15 @@
     "schema_size": 121,
     "row_count": 3,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
+      "EvaluateDisplay",
       "HitDisplay",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 11
+    "unresolved_array_refs": 14
   },
   "default": {
     "CasterID": "null",
@@ -144,9 +146,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1572,
+      "CasterID": 1545,
       "SkillID": 0,
-      "SkillName": "darkelfmage_atk",
+      "SkillName": "sewerarcher_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -175,9 +177,9 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 48
+        "$arrayRef": 45
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
@@ -195,19 +197,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "darkelfmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "HitDisplay": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -277,10 +279,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1572,
+      "CasterID": 1545,
       "SkillID": 11,
-      "SkillName": "darkelfmage_ult",
-      "DisplayName": "15607754584741586110",
+      "SkillName": "sewerarcher_ult",
+      "DisplayName": "4670212583386801681",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -299,23 +301,23 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_lfs_up.png",
-      "Description": "15965542072559806281",
-      "SimpleDescription": "13725601585191147553",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
+      "Description": "9493802744027118590",
+      "SimpleDescription": "7003356134891505315",
       "ActiveType": "manual",
       "ThumpCondition": -1,
-      "SetSpeeder": 0,
-      "TargetType": null,
+      "SetSpeeder": -1,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
-      "TargetPriority": "self",
+      "TargetCamp": -1,
+      "TargetPriority": "h_mostunits",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 2,
+      "TargetBlockType": "noblock",
+      "Priority": 10,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1.25,
@@ -328,31 +330,35 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "darkelfmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "HitDisplay": {},
-      "EvaluateDisplay": {},
+      "EvaluateDisplay": {
+        "$arrayRef": 106911
+      },
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "target",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 43
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 10,
-      "SArg1": 0.4,
-      "SArg2": 40,
+      "SArg0": -0.2,
+      "SArg1": 3,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -403,13 +409,16 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_impact_common_hit",
+        "2": "pbfx_point_sewerarcher_ult"
+      }
     },
     {
-      "CasterID": 1572,
+      "CasterID": 1545,
       "SkillID": 21,
-      "SkillName": "darkelfmage_atk2",
-      "DisplayName": "550170814426845366",
+      "SkillName": "sewerarcher_atk2",
+      "DisplayName": "11991483016430885568",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -428,28 +437,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_hast_up.png",
-      "Description": "7218959920137174137",
-      "SimpleDescription": "6572946782532210972",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap.png",
+      "Description": "9406777033691468454",
+      "SimpleDescription": "14699969231445674657",
       "ActiveType": "active",
-      "ThumpCondition": 100,
+      "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
-      "TargetPriority": "self",
+      "TargetCamp": -1,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 10,
-      "CD": 9999,
-      "InitCD": 0,
+      "Priority": 3,
+      "CD": 8,
+      "InitCD": 1.25,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 100,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -457,15 +466,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "darkelfmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96877
+        "$arrayRef": 106915
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 106915
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96877
+        "$arrayRef": 106915
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -474,17 +485,17 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 8,
-      "SArg1": 0.035,
-      "SArg2": 1,
-      "SArg3": 20,
-      "SArg4": 80,
-      "SArg5": 0.3,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
+      "SArg4": 0,
+      "SArg5": 0,
       "SArg6": 0,
       "SArg7": 0,
       "SArg8": 0,
@@ -532,7 +543,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_chain_sewerarcher_atk2"
+      }
     }
   ]
 }

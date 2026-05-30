@@ -4,7 +4,7 @@
     "header_table": "FishingConditionedFishHeaderTable",
     "format": "flat_rows",
     "schema_size": 9,
-    "row_count": 5,
+    "row_count": 6,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -24,7 +24,8 @@
     1665,
     4195,
     5155,
-    6195
+    6195,
+    7155
   ],
   "rows": [
     {
@@ -109,6 +110,17 @@
       "BonusCondition": "ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "GalleryButtonCondition": "ed.ConditionX.IsExplTaskFinished(16010223,400)",
       "ItemID": 6801926
+    },
+    {
+      "ID": 7155,
+      "Name": "10636635843206068609",
+      "TypeID": 715,
+      "FishCategory": 4,
+      "FishingCondition": "ed.ConditionX.IsExplTaskFinished(17010219,3)",
+      "FishKingSlots": {},
+      "BonusCondition": "ed.ConditionX.C_TimeOfDaySetting(\"Dusk\")",
+      "GalleryButtonCondition": "ed.ConditionX.IsExplTaskFinished(17010219,3)",
+      "ItemID": 7801996
     }
   ]
 }

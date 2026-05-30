@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "table": "MapGuide",
+    "header_table": "MapGuideHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 6,
+    "array_fields": [
+      "EndCondition",
+      "StartCondition",
+      "TrackID"
+    ],
+    "unresolved_array_refs": 8
+  },
+  "default": {
+    "Line": "null",
+    "TrackID": {},
+    "StartCondition": {},
+    "Time": 0,
+    "EndCondition": {}
+  },
+  "row_keys": [
+    172,
+    173,
+    174,
+    175,
+    197,
+    198
+  ],
+  "rows": [
+    {
+      "Line": 172,
+      "TrackID": {
+        "$arrayRef": 82065
+      },
+      "StartCondition": {
+        "1": "ed.ConditionX.HasState(514000122,\"Interactive\")"
+      },
+      "Time": 30,
+      "EndCondition": {
+        "1": "ed.ConditionX.HasState(514000261,\"CMark_1\")"
+      }
+    },
+    {
+      "Line": 173,
+      "TrackID": {
+        "$arrayRef": 90529
+      },
+      "StartCondition": {
+        "1": "ed.ConditionX.HasState(513100029,\"CMark_1\")"
+      },
+      "Time": 40,
+      "EndCondition": {
+        "$arrayRef": 90531
+      }
+    },
+    {
+      "Line": 174,
+      "TrackID": {
+        "$arrayRef": 90529
+      },
+      "StartCondition": {
+        "$arrayRef": 90531
+      },
+      "Time": 40,
+      "EndCondition": {
+        "1": "ed.ConditionX.HasState(513100216,\"Stele_Touched\")"
+      }
+    },
+    {
+      "Line": 175,
+      "TrackID": {
+        "$arrayRef": 90529
+      },
+      "StartCondition": {
+        "1": "ed.ConditionX.HasState(513100376,\"CMark_1\")"
+      },
+      "Time": 60,
+      "EndCondition": {
+        "1": "ed.ConditionX.HasState(513100218,\"Stele_Touched\")"
+      }
+    },
+    {
+      "Line": 197,
+      "TrackID": {
+        "$arrayRef": 90530
+      },
+      "StartCondition": {
+        "1": "ed.ConditionX.HasState(512600151,\"Interactive\")"
+      },
+      "Time": 50,
+      "EndCondition": {
+        "1": "ed.ConditionX.HasState(512600024,\"CShow_1\")"
+      }
+    },
+    {
+      "Line": 198,
+      "TrackID": {
+        "$arrayRef": 90530
+      },
+      "StartCondition": {
+        "1": "ed.ConditionX.HasState(512600070,\"CShow_1\")"
+      },
+      "Time": 30,
+      "EndCondition": {
+        "1": "ed.ConditionX.HasState(512600039,\"CMark_1\")"
+      }
+    }
+  ]
+}

@@ -4,13 +4,13 @@
     "header_table": "MapObj_5121HeaderTable",
     "format": "flat_rows",
     "schema_size": 52,
-    "row_count": 10,
+    "row_count": 6,
     "array_fields": [
       "FinalStates",
       "InitStates",
       "Reward"
     ],
-    "unresolved_array_refs": 22
+    "unresolved_array_refs": 10
   },
   "default": {
     "ID": "null",
@@ -70,10 +70,6 @@
     512100001,
     512100021,
     512100022,
-    512100023,
-    512100024,
-    512100025,
-    512100026,
     512100027,
     512100002,
     512100003
@@ -85,7 +81,7 @@
       "ZoneID": 1,
       "Rotation": 1,
       "InitStates": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "FinalStates": {},
       "Type": 24,
@@ -141,7 +137,7 @@
       "ZoneID": 1,
       "Rotation": 1,
       "InitStates": {
-        "$arrayRef": 85147
+        "$arrayRef": 94631
       },
       "FinalStates": {},
       "Type": 7,
@@ -205,7 +201,7 @@
       "ZoneID": 1,
       "Rotation": 4,
       "InitStates": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "FinalStates": {},
       "Type": 24,
@@ -264,287 +260,15 @@
       "HSInsID": 0
     },
     {
-      "ID": 512100023,
-      "Loc": 200013,
-      "ZoneID": 1,
-      "Rotation": 4,
-      "InitStates": {
-        "$arrayRef": 81093
-      },
-      "FinalStates": {
-        "$arrayRef": 81095
-      },
-      "Type": 4,
-      "ClientType": "MicroFxTreasure",
-      "AreaAxialID": 1,
-      "BlockAxialID": 1,
-      "PrefabID": 301,
-      "DialogueMenuID": 0,
-      "Blackboard": null,
-      "Deviation": {
-        "posdeviation": {
-          "x": -107,
-          "y": 11,
-          "z": -55
-        },
-        "rotdeviation": 0.0,
-        "scale": 100
-      },
-      "CollisionRadius": 0,
-      "InteractionRadius": 0,
-      "BattleGroupID": 0,
-      "RunnerTreasureIDs": {},
-      "EntranceMapID": 0,
-      "EntraceObj": 0,
-      "TipName": null,
-      "UnRecycleField": null,
-      "TargetObj": 0,
-      "ArriveObj": 0,
-      "Reward": {
-        "$arrayRef": 85320
-      },
-      "LocPriority": 0,
-      "BpObjType": null,
-      "TreasureSize": null,
-      "LaserGroup": 0,
-      "LaserID": 0,
-      "BpGroup": 0,
-      "MovableRange": 0,
-      "MapRangeID": 0,
-      "MonsterBindObjectIDs": {},
-      "SearchAreaRadius": 0,
-      "IsExplUse": false,
-      "BehaviourTreeID": 0,
-      "PathFindingName": null,
-      "BioConfig": {},
-      "InteractConditionGroupID": {},
-      "IdolPlatePlacement": {},
-      "ZoneMonsterDisplayID": {},
-      "MapPathID": 0,
-      "ObjTypeParam": {},
-      "ExtraRulesID": 0,
-      "InteractName": {},
-      "RetroCanOverwhelmed": false,
-      "SeasonType": 106,
-      "RetroExploration": 0,
-      "ExplorationPoint": 0,
-      "ObjectFuncTag": {},
-      "HSInsID": 0
-    },
-    {
-      "ID": 512100024,
-      "Loc": 210013,
-      "ZoneID": 1,
-      "Rotation": 4,
-      "InitStates": {
-        "$arrayRef": 81093
-      },
-      "FinalStates": {
-        "$arrayRef": 81095
-      },
-      "Type": 4,
-      "ClientType": "MicroFxTreasure",
-      "AreaAxialID": 1,
-      "BlockAxialID": 1,
-      "PrefabID": 301,
-      "DialogueMenuID": 0,
-      "Blackboard": null,
-      "Deviation": {
-        "posdeviation": {
-          "x": 83,
-          "y": 11,
-          "z": 153
-        },
-        "rotdeviation": 0.0,
-        "scale": 100
-      },
-      "CollisionRadius": 0,
-      "InteractionRadius": 0,
-      "BattleGroupID": 0,
-      "RunnerTreasureIDs": {},
-      "EntranceMapID": 0,
-      "EntraceObj": 0,
-      "TipName": null,
-      "UnRecycleField": null,
-      "TargetObj": 0,
-      "ArriveObj": 0,
-      "Reward": {
-        "$arrayRef": 85320
-      },
-      "LocPriority": 0,
-      "BpObjType": null,
-      "TreasureSize": null,
-      "LaserGroup": 0,
-      "LaserID": 0,
-      "BpGroup": 0,
-      "MovableRange": 0,
-      "MapRangeID": 0,
-      "MonsterBindObjectIDs": {},
-      "SearchAreaRadius": 0,
-      "IsExplUse": false,
-      "BehaviourTreeID": 0,
-      "PathFindingName": null,
-      "BioConfig": {},
-      "InteractConditionGroupID": {},
-      "IdolPlatePlacement": {},
-      "ZoneMonsterDisplayID": {},
-      "MapPathID": 0,
-      "ObjTypeParam": {},
-      "ExtraRulesID": 0,
-      "InteractName": {},
-      "RetroCanOverwhelmed": false,
-      "SeasonType": 106,
-      "RetroExploration": 0,
-      "ExplorationPoint": 0,
-      "ObjectFuncTag": {},
-      "HSInsID": 0
-    },
-    {
-      "ID": 512100025,
-      "Loc": 250016,
-      "ZoneID": 1,
-      "Rotation": 4,
-      "InitStates": {
-        "$arrayRef": 81093
-      },
-      "FinalStates": {
-        "$arrayRef": 81095
-      },
-      "Type": 4,
-      "ClientType": "MicroFxTreasure",
-      "AreaAxialID": 1,
-      "BlockAxialID": 1,
-      "PrefabID": 301,
-      "DialogueMenuID": 0,
-      "Blackboard": null,
-      "Deviation": {
-        "posdeviation": {
-          "x": -46,
-          "y": 11,
-          "z": -72
-        },
-        "rotdeviation": 0.0,
-        "scale": 100
-      },
-      "CollisionRadius": 0,
-      "InteractionRadius": 0,
-      "BattleGroupID": 0,
-      "RunnerTreasureIDs": {},
-      "EntranceMapID": 0,
-      "EntraceObj": 0,
-      "TipName": null,
-      "UnRecycleField": null,
-      "TargetObj": 0,
-      "ArriveObj": 0,
-      "Reward": {
-        "$arrayRef": 85320
-      },
-      "LocPriority": 0,
-      "BpObjType": null,
-      "TreasureSize": null,
-      "LaserGroup": 0,
-      "LaserID": 0,
-      "BpGroup": 0,
-      "MovableRange": 0,
-      "MapRangeID": 0,
-      "MonsterBindObjectIDs": {},
-      "SearchAreaRadius": 0,
-      "IsExplUse": false,
-      "BehaviourTreeID": 0,
-      "PathFindingName": null,
-      "BioConfig": {},
-      "InteractConditionGroupID": {},
-      "IdolPlatePlacement": {},
-      "ZoneMonsterDisplayID": {},
-      "MapPathID": 0,
-      "ObjTypeParam": {},
-      "ExtraRulesID": 0,
-      "InteractName": {},
-      "RetroCanOverwhelmed": false,
-      "SeasonType": 106,
-      "RetroExploration": 0,
-      "ExplorationPoint": 0,
-      "ObjectFuncTag": {},
-      "HSInsID": 0
-    },
-    {
-      "ID": 512100026,
-      "Loc": 270013,
-      "ZoneID": 1,
-      "Rotation": 4,
-      "InitStates": {
-        "$arrayRef": 81093
-      },
-      "FinalStates": {
-        "$arrayRef": 81095
-      },
-      "Type": 4,
-      "ClientType": "MicroFxTreasure",
-      "AreaAxialID": 1,
-      "BlockAxialID": 1,
-      "PrefabID": 301,
-      "DialogueMenuID": 0,
-      "Blackboard": null,
-      "Deviation": {
-        "posdeviation": {
-          "x": 113,
-          "y": 11,
-          "z": 26
-        },
-        "rotdeviation": 0.0,
-        "scale": 100
-      },
-      "CollisionRadius": 0,
-      "InteractionRadius": 0,
-      "BattleGroupID": 0,
-      "RunnerTreasureIDs": {},
-      "EntranceMapID": 0,
-      "EntraceObj": 0,
-      "TipName": null,
-      "UnRecycleField": null,
-      "TargetObj": 0,
-      "ArriveObj": 0,
-      "Reward": {
-        "$arrayRef": 85320
-      },
-      "LocPriority": 0,
-      "BpObjType": null,
-      "TreasureSize": null,
-      "LaserGroup": 0,
-      "LaserID": 0,
-      "BpGroup": 0,
-      "MovableRange": 0,
-      "MapRangeID": 0,
-      "MonsterBindObjectIDs": {},
-      "SearchAreaRadius": 0,
-      "IsExplUse": false,
-      "BehaviourTreeID": 0,
-      "PathFindingName": null,
-      "BioConfig": {},
-      "InteractConditionGroupID": {},
-      "IdolPlatePlacement": {},
-      "ZoneMonsterDisplayID": {},
-      "MapPathID": 0,
-      "ObjTypeParam": {},
-      "ExtraRulesID": 0,
-      "InteractName": {},
-      "RetroCanOverwhelmed": false,
-      "SeasonType": 106,
-      "RetroExploration": 0,
-      "ExplorationPoint": 0,
-      "ObjectFuncTag": {},
-      "HSInsID": 0
-    },
-    {
       "ID": 512100027,
       "Loc": 280008,
       "ZoneID": 1,
       "Rotation": 6,
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "Type": 4,
       "ClientType": "SmallTreasure",
@@ -573,7 +297,7 @@
       "TargetObj": 0,
       "ArriveObj": 0,
       "Reward": {
-        "$arrayRef": 85331
+        "$arrayRef": 94815
       },
       "LocPriority": 0,
       "BpObjType": null,
@@ -598,7 +322,7 @@
       "InteractName": {},
       "RetroCanOverwhelmed": false,
       "SeasonType": 106,
-      "RetroExploration": 0,
+      "RetroExploration": 1,
       "ExplorationPoint": 5,
       "ObjectFuncTag": {},
       "HSInsID": 0
@@ -609,10 +333,10 @@
       "ZoneID": 1,
       "Rotation": 3,
       "InitStates": {
-        "$arrayRef": 85817
+        "$arrayRef": 95323
       },
       "FinalStates": {
-        "$arrayRef": 85194
+        "$arrayRef": 94678
       },
       "Type": 25,
       "ClientType": "FrontDoor",
@@ -675,10 +399,10 @@
       "ZoneID": 1,
       "Rotation": 4,
       "InitStates": {
-        "$arrayRef": 85817
+        "$arrayRef": 95323
       },
       "FinalStates": {
-        "$arrayRef": 85194
+        "$arrayRef": 94678
       },
       "Type": 25,
       "ClientType": "FrontDoor",

@@ -4,7 +4,7 @@
     "header_table": "DuelHeroInfluenceHeaderTable",
     "format": "flat_rows",
     "schema_size": 8,
-    "row_count": 99,
+    "row_count": 103,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -101,10 +101,12 @@
     89,
     90,
     91,
+    92,
     94,
     96,
     97,
     98,
+    99,
     102,
     103,
     104,
@@ -117,6 +119,8 @@
     114,
     115,
     116,
+    117,
+    119,
     123
   ],
   "rows": [
@@ -132,7 +136,7 @@
     },
     {
       "HeroID": 2,
-      "Enable": false,
+      "Enable": true,
       "MakeDmgFix": 20,
       "TakeDmgFix": 0,
       "AttrName1": "HAST",
@@ -422,7 +426,7 @@
     },
     {
       "HeroID": 31,
-      "Enable": true,
+      "Enable": false,
       "MakeDmgFix": 0,
       "TakeDmgFix": 0,
       "AttrName1": null,
@@ -582,7 +586,7 @@
     },
     {
       "HeroID": 47,
-      "Enable": false,
+      "Enable": true,
       "MakeDmgFix": 0,
       "TakeDmgFix": -10,
       "AttrName1": null,
@@ -602,7 +606,7 @@
     },
     {
       "HeroID": 49,
-      "Enable": true,
+      "Enable": false,
       "MakeDmgFix": 0,
       "TakeDmgFix": 0,
       "AttrName1": null,
@@ -772,7 +776,7 @@
     },
     {
       "HeroID": 71,
-      "Enable": true,
+      "Enable": false,
       "MakeDmgFix": 0,
       "TakeDmgFix": 0,
       "AttrName1": null,
@@ -852,7 +856,7 @@
     },
     {
       "HeroID": 82,
-      "Enable": true,
+      "Enable": false,
       "MakeDmgFix": 0,
       "TakeDmgFix": 0,
       "AttrName1": null,
@@ -941,8 +945,18 @@
       "AttrValue2": 0
     },
     {
+      "HeroID": 92,
+      "Enable": false,
+      "MakeDmgFix": 0,
+      "TakeDmgFix": 0,
+      "AttrName1": null,
+      "AttrValue1": 0,
+      "AttrName2": null,
+      "AttrValue2": 0
+    },
+    {
       "HeroID": 94,
-      "Enable": true,
+      "Enable": false,
       "MakeDmgFix": -20,
       "TakeDmgFix": 20,
       "AttrName1": null,
@@ -981,6 +995,16 @@
       "AttrValue2": 0
     },
     {
+      "HeroID": 99,
+      "Enable": true,
+      "MakeDmgFix": 0,
+      "TakeDmgFix": 0,
+      "AttrName1": null,
+      "AttrValue1": 0,
+      "AttrName2": null,
+      "AttrValue2": 0
+    },
+    {
       "HeroID": 102,
       "Enable": true,
       "MakeDmgFix": -10,
@@ -1003,8 +1027,8 @@
     {
       "HeroID": 104,
       "Enable": true,
-      "MakeDmgFix": 0,
-      "TakeDmgFix": 10,
+      "MakeDmgFix": -15,
+      "TakeDmgFix": 15,
       "AttrName1": null,
       "AttrValue1": 0,
       "AttrName2": null,
@@ -1065,8 +1089,8 @@
       "Enable": true,
       "MakeDmgFix": 0,
       "TakeDmgFix": 0,
-      "AttrName1": null,
-      "AttrValue1": 0,
+      "AttrName1": "HAST",
+      "AttrValue1": 20,
       "AttrName2": null,
       "AttrValue2": 0
     },
@@ -1101,12 +1125,32 @@
       "AttrValue2": 0
     },
     {
+      "HeroID": 117,
+      "Enable": true,
+      "MakeDmgFix": 0,
+      "TakeDmgFix": 0,
+      "AttrName1": null,
+      "AttrValue1": 0,
+      "AttrName2": null,
+      "AttrValue2": 0
+    },
+    {
+      "HeroID": 119,
+      "Enable": true,
+      "MakeDmgFix": 0,
+      "TakeDmgFix": 0,
+      "AttrName1": null,
+      "AttrValue1": 0,
+      "AttrName2": null,
+      "AttrValue2": 0
+    },
+    {
       "HeroID": 123,
       "Enable": true,
       "MakeDmgFix": -15,
       "TakeDmgFix": 10,
-      "AttrName1": null,
-      "AttrValue1": 0,
+      "AttrName1": "HAST",
+      "AttrValue1": -20,
       "AttrName2": null,
       "AttrValue2": 0
     }

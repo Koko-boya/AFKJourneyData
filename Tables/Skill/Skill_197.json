@@ -4,16 +4,15 @@
     "header_table": "Skill_197HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 6,
+    "row_count": 5,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "ReselectTargetArgs",
-      "SummonUnitList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 24
+    "unresolved_array_refs": 20
   },
   "default": {
     "CasterID": "null",
@@ -140,17 +139,16 @@
   },
   "row_keys": [
     0,
-    11,
     100,
     101,
-    31,
+    21,
     41
   ],
   "rows": [
     {
-      "CasterID": 1127,
+      "CasterID": 1122,
       "SkillID": 0,
-      "SkillName": "wolfwarriorsnowelite_atk",
+      "SkillName": "wolfwarrior_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -179,7 +177,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -191,7 +189,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 98,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -201,15 +199,15 @@
       "SkinUseWhich": {},
       "UseWhich": "wolfwarrior_elite",
       "CastDisplays": {
-        "$arrayRef": 96719
+        "$arrayRef": 106987
       },
       "HitDisplay": {
-        "$arrayRef": 96719
+        "$arrayRef": 106987
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96719
+        "$arrayRef": 106987
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -279,140 +277,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1127,
-      "SkillID": 11,
-      "SkillName": "wolfwarriorsnowelite_ult",
-      "DisplayName": "1479858384435460928",
-      "IsShow": true,
-      "HeroDetailActionShow": true,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": null,
-      "IsPositiveManual": true,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "7581174530856447352",
-      "SimpleDescription": "11099760703548562663",
-      "ActiveType": "manual",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "maxhp",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {
-        "$arrayRef": 96834
-      },
-      "TargetBlockType": null,
-      "Priority": 10,
-      "CD": 0,
-      "InitCD": 1.25,
-      "GlobalCD": 1,
-      "CostMP": 1000,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "wolfwarrior_elite",
-      "CastDisplays": {
-        "$arrayRef": 96644
-      },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96644
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 2.5,
-      "SArg1": 6,
-      "SArg2": 20,
-      "SArg3": 0.06,
-      "SArg4": 0.5,
-      "SArg5": 4,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {}
-    },
-    {
-      "CasterID": 1127,
+      "CasterID": 1122,
       "SkillID": 100,
-      "SkillName": "wolfwarriorsnowelite_atk2",
+      "SkillName": "wolfwarrior_atk2",
       "DisplayName": "撕咬子技能1(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -441,13 +308,13 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 96832
+        "$arrayRef": 107119
       },
       "TargetBlockType": null,
       "Priority": 7,
@@ -455,7 +322,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 98,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -465,15 +332,15 @@
       "SkinUseWhich": {},
       "UseWhich": "wolfwarrior_elite",
       "CastDisplays": {
-        "$arrayRef": 96755
+        "$arrayRef": 107023
       },
       "HitDisplay": {
-        "$arrayRef": 96755
+        "$arrayRef": 107023
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96755
+        "$arrayRef": 107023
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -483,7 +350,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -543,9 +410,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1127,
+      "CasterID": 1122,
       "SkillID": 101,
-      "SkillName": "wolfwarriorsnowelite_atk2c",
+      "SkillName": "wolfwarrior_atk2c",
       "DisplayName": "撕咬子技能2(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -574,13 +441,13 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 96699
+        "$arrayRef": 106967
       },
       "TargetBlockType": null,
       "Priority": 8,
@@ -588,7 +455,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 113,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -598,15 +465,15 @@
       "SkinUseWhich": {},
       "UseWhich": "wolfwarrior_elite",
       "CastDisplays": {
-        "$arrayRef": 96835
+        "$arrayRef": 107122
       },
       "HitDisplay": {
-        "$arrayRef": 96836
+        "$arrayRef": 107123
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96835
+        "$arrayRef": 107122
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -616,7 +483,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -676,10 +543,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1127,
-      "SkillID": 31,
-      "SkillName": "wolfwarriorsnowelite_atk3",
-      "DisplayName": "456506501981786228",
+      "CasterID": 1122,
+      "SkillID": 21,
+      "SkillName": "wolfwarrior_atk2g",
+      "DisplayName": "10233702530172212458",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -698,28 +565,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_summon.png",
-      "Description": "7895179234131956255",
-      "SimpleDescription": "18096393955439574930",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad.png",
+      "Description": "13581568804577531004",
+      "SimpleDescription": "3038620076904605360",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
-      "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetCamp": -1,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
-      "CD": 9999,
-      "InitCD": 15,
+      "Priority": 3,
+      "CD": 10,
+      "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 38,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -729,13 +596,15 @@
       "SkinUseWhich": {},
       "UseWhich": "wolfwarrior_elite",
       "CastDisplays": {
-        "$arrayRef": 96649
+        "$arrayRef": 107023
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 107023
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96649
+        "$arrayRef": 107023
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -744,14 +613,14 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 15,
-      "SArg1": 1126,
-      "SArg2": 0,
+      "SArg0": 0.04,
+      "SArg1": 0.5,
+      "SArg2": 4,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -801,15 +670,13 @@
       "ChainJumpDistance": 0,
       "MaxAffectTimes": 0,
       "ChainEffect": null,
-      "SummonUnitList": {
-        "$arrayRef": 75045
-      },
+      "SummonUnitList": {},
       "ResourceList": {}
     },
     {
-      "CasterID": 1127,
+      "CasterID": 1122,
       "SkillID": 41,
-      "SkillName": "wolfwarriorsnowelite_atk4",
+      "SkillName": "wolfwarrior_atk4",
       "DisplayName": "3984893576949662691",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -830,15 +697,15 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_wolfcreep.png",
-      "Description": "17906527079766978624",
-      "SimpleDescription": "10872179128036066631",
+      "Description": "4247294126331333278",
+      "SimpleDescription": "7705207975015871091",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TargetCamp": 1,
       "TargetPriority": "self",
@@ -864,7 +731,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96719
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -879,7 +746,7 @@
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 25,
-      "SArg1": 0.15,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,

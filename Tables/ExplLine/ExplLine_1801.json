@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "table": "ExplLine_1801",
+    "header_table": "ExplLine_1801HeaderTable",
+    "format": "flat_rows",
+    "schema_size": 18,
+    "row_count": 1,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "LineID": "null",
+    "LineName": null,
+    "ZoneGroupID": 0,
+    "LineType": null,
+    "LastTaskID": 0,
+    "ShowCondition": "true",
+    "RecvConditionText": null,
+    "LineDes": null,
+    "ShowAction": "true",
+    "Rewards": {},
+    "ResetObjects": {},
+    "ResetDynGroups": {},
+    "ResetItems": {},
+    "ExtraParam": null,
+    "BlockShow": false,
+    "EffectCondition": "true",
+    "DGender": false,
+    "Gender": false
+  },
+  "row_keys": [
+    18010100
+  ],
+  "rows": [
+    {
+      "LineID": 18010100,
+      "LineName": "15526135898659332140",
+      "ZoneGroupID": 10000,
+      "LineType": 1,
+      "LastTaskID": 1,
+      "ShowCondition": "ed.ConditionX.IsExplTaskFinished(10010100,4)",
+      "RecvConditionText": null,
+      "LineDes": "15526135898659332140",
+      "ShowAction": "true",
+      "Rewards": {},
+      "ResetObjects": {},
+      "ResetDynGroups": {},
+      "ResetItems": {},
+      "ExtraParam": {
+        "TobeContinue": 1801
+      },
+      "BlockShow": true,
+      "EffectCondition": "true",
+      "DGender": false,
+      "Gender": false
+    }
+  ]
+}

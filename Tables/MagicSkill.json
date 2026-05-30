@@ -4,7 +4,7 @@
     "header_table": "MagicSkillHeaderTable",
     "format": "flat_rows",
     "schema_size": 12,
-    "row_count": 1,
+    "row_count": 2,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -23,7 +23,8 @@
     "ManualID": 0
   },
   "row_keys": [
-    1
+    1,
+    2
   ],
   "rows": [
     {
@@ -32,13 +33,27 @@
       "InteractOptionID": 172,
       "ButtonRes": "UI/Sprites/Transform/spui_icon_object_transform_wolf_skill.png",
       "MiniButtonRes": "UI/Sprites/Transform/spui_icon_object_transform_wolf_skill.png",
-      "UnlockCondition": "ed.ConditionX.IsExplStepFinished(16010108,3,2)",
+      "UnlockCondition": "true",
       "CanCastCondition": "not ed.ConditionX.IsInWolfObjBlock() and ed.ConditionX.C_IsAllowSkill(1)",
       "CancelCondition": "not ed.ConditionX.IsInWolfObjBlock()",
       "DynamicMaterial": "transformwolf01_ghost",
       "RangeRadius": 2,
       "CastBlockTip": "9480692819605415366",
       "ManualID": 168
+    },
+    {
+      "ID": 2,
+      "Type": 2,
+      "InteractOptionID": 217,
+      "ButtonRes": null,
+      "MiniButtonRes": null,
+      "UnlockCondition": "true",
+      "CanCastCondition": "not ed.ConditionX.IsExplStepFinished(17010107,3,13) or ed.ConditionX.IsExplStepFinished(17010107,3,16)",
+      "CancelCondition": "true",
+      "DynamicMaterial": null,
+      "RangeRadius": 23,
+      "CastBlockTip": "14718071964148017841",
+      "ManualID": 0
     }
   ]
 }

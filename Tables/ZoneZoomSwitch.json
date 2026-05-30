@@ -4,7 +4,7 @@
     "header_table": "ZoneZoomSwitchHeaderTable",
     "format": "flat_rows",
     "schema_size": 11,
-    "row_count": 42,
+    "row_count": 50,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -659,6 +659,130 @@
       },
       "EnterCondition": "ed.ConditionX.IsExplStepFinished(16010111,1,4)",
       "ShowCondition": "true"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 1,
+      "ZoomSwitchName": "3802247431246235892",
+      "MapID": 14,
+      "ZoneGroupID": 10025,
+      "CenterObjID": 1400001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_1.png",
+      "UnlockTip": "12979712341684458796",
+      "BeginObjIDs": {
+        "1": 1400013
+      },
+      "EnterCondition": "ed.ConditionX.IsExplStepFinished(17010101,1,1)",
+      "ShowCondition": "not ed.ConditionX.IsExplStepFinished(17010108,1,10) or ed.ConditionX.IsExplStepFinished(17010108,2,13)"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 2,
+      "ZoomSwitchName": "11030434097592239446",
+      "MapID": 5122,
+      "ZoneGroupID": 10025,
+      "CenterObjID": 512200001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_2.png",
+      "UnlockTip": "5383495347904685281",
+      "BeginObjIDs": {
+        "1": 512200747,
+        "2": 512200744
+      },
+      "EnterCondition": "true",
+      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010103,1,1)"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 3,
+      "ZoomSwitchName": "11231992631138765104",
+      "MapID": 5124,
+      "ZoneGroupID": 10025,
+      "CenterObjID": 512400001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_4.png",
+      "UnlockTip": "18412010365728059448",
+      "BeginObjIDs": {
+        "1": 512400223
+      },
+      "EnterCondition": "true",
+      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010104,4,7)"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 4,
+      "ZoomSwitchName": "1200218420698485492",
+      "MapID": 5123,
+      "ZoneGroupID": 10025,
+      "CenterObjID": 512300001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_3.png",
+      "UnlockTip": "18412010365728059448",
+      "BeginObjIDs": {
+        "1": 512300104
+      },
+      "EnterCondition": "true",
+      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010104,1,2)"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 5,
+      "ZoomSwitchName": "11346613573820330547",
+      "MapID": 15,
+      "ZoneGroupID": 10026,
+      "CenterObjID": 1500001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_5.png",
+      "UnlockTip": "8255645245791519459",
+      "BeginObjIDs": {
+        "1": 1500208
+      },
+      "EnterCondition": "true",
+      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010105,1,1)"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 6,
+      "ZoomSwitchName": "12038400888015060728",
+      "MapID": 5131,
+      "ZoneGroupID": 10025,
+      "CenterObjID": 513100001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_6.png",
+      "UnlockTip": "17395210208200524406",
+      "BeginObjIDs": {
+        "1": 513100251
+      },
+      "EnterCondition": "true",
+      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010108,4,3)"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 7,
+      "ZoomSwitchName": "16168245244316905595",
+      "MapID": 5144,
+      "ZoneGroupID": 10025,
+      "CenterObjID": 514400001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_7.png",
+      "UnlockTip": "6590738406660377238",
+      "BeginObjIDs": {
+        "1": 514400099,
+        "2": 514400213,
+        "3": 514400095
+      },
+      "EnterCondition": "true",
+      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010107,2,10) and not ed.ConditionX.IsExplStepFinished(17010107,3,16)"
+    },
+    {
+      "SeasonType": 107,
+      "ID": 8,
+      "ZoomSwitchName": "3802247431246235892",
+      "MapID": 5145,
+      "ZoneGroupID": 10025,
+      "CenterObjID": 514500001,
+      "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_8.png",
+      "UnlockTip": "4080795715847398842",
+      "BeginObjIDs": {
+        "1": 514500011,
+        "2": 514500010
+      },
+      "EnterCondition": "true",
+      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010108,1,10) and not ed.ConditionX.IsExplStepFinished(17010108,2,13)"
     }
   ]
 }

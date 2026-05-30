@@ -1,0 +1,245 @@
+{
+  "_meta": {
+    "table": "CardGameBubble",
+    "header_table": "CardGameBubbleHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 14,
+    "array_fields": [
+      "ATexts",
+      "BTexts"
+    ],
+    "unresolved_array_refs": 4
+  },
+  "default": {
+    "ID": "null",
+    "Trigger": null,
+    "Order": 0,
+    "Condition": "true",
+    "ATexts": {},
+    "BTexts": {},
+    "SpriteRes": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Trigger": 2,
+      "Order": 1,
+      "Condition": "ed.ConditionX.C_BoardCardPlayHandCardCount()==2 and not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "$arrayRef": 81338
+      },
+      "BTexts": {
+        "$arrayRef": 81339
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 2,
+      "Trigger": 3,
+      "Order": 1,
+      "Condition": "ed.ConditionX.C_BoardCardPlayHandCardCount()==2 and not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "$arrayRef": 81338
+      },
+      "BTexts": {
+        "$arrayRef": 81339
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 3,
+      "Trigger": 3,
+      "Order": 2,
+      "Condition": "not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "9587125621440345003",
+        "2": "6080890933576035590"
+      },
+      "BTexts": {
+        "1": "10713453094613991106",
+        "2": "12555688246272129496"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 4,
+      "Trigger": 7,
+      "Order": 1,
+      "Condition": "ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "1771057659117503710",
+        "2": "288376560825913923",
+        "3": "7182260541316260339"
+      },
+      "BTexts": {
+        "1": "3963963043371904353",
+        "2": "13245598730320683144",
+        "3": "16537768675730221684"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 5,
+      "Trigger": 7,
+      "Order": 2,
+      "Condition": "not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "2538797782427445959"
+      },
+      "BTexts": {
+        "1": "15985070360348281803"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 6,
+      "Trigger": 6,
+      "Order": 1,
+      "Condition": "ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "7786530479781085159",
+        "2": "5412902903571975834"
+      },
+      "BTexts": {
+        "1": "16317705275438053537",
+        "2": "6429321402368593573"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 7,
+      "Trigger": 6,
+      "Order": 2,
+      "Condition": "not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "7740835178384333403",
+        "2": "2863975181883173919",
+        "3": "11803865796053603473"
+      },
+      "BTexts": {
+        "1": "15333058012794155084",
+        "2": "12495731458842653476",
+        "3": "2541624981474855679"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 8,
+      "Trigger": 10,
+      "Order": 1,
+      "Condition": "ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "2216493242345720542",
+        "2": "7275687137857801335"
+      },
+      "BTexts": {
+        "1": "3778948813869532249",
+        "2": "6394543915245701990"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 9,
+      "Trigger": 11,
+      "Order": 1,
+      "Condition": "ed.ConditionX.C_BoardCardPlayHandCardCount()==8 and not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "10039093549947208988",
+        "2": "5908931562740904547",
+        "3": "4961209161377431464"
+      },
+      "BTexts": {
+        "1": "11711280091614560464",
+        "2": "10942237757842761620",
+        "3": "16138354279380908875"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 10,
+      "Trigger": 11,
+      "Order": 2,
+      "Condition": "ed.ConditionX.C_CardGameConsecutiveDrawCount(2) and not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "18099043919058226479",
+        "2": "9315937669503189163"
+      },
+      "BTexts": {
+        "1": "16558673890666063035",
+        "2": "15885986511281516337"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 11,
+      "Trigger": 9,
+      "Order": 1,
+      "Condition": "not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "9008799787478356790",
+        "2": "18120953275043892756"
+      },
+      "BTexts": {
+        "1": "11007749719568995909",
+        "2": "17547770028542189454"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 12,
+      "Trigger": 9,
+      "Order": 2,
+      "Condition": "ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {},
+      "BTexts": {},
+      "SpriteRes": null
+    },
+    {
+      "ID": 13,
+      "Trigger": 8,
+      "Order": 1,
+      "Condition": "ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "16799553891537527236",
+        "2": "12766203842682459334"
+      },
+      "BTexts": {
+        "1": "9640663832165836494",
+        "2": "4482419812896145031"
+      },
+      "SpriteRes": null
+    },
+    {
+      "ID": 14,
+      "Trigger": 8,
+      "Order": 2,
+      "Condition": "not ed.ConditionX.C_BoardCardPlayIsMyTurn()",
+      "ATexts": {
+        "1": "16885657895480315524",
+        "2": "7740835178384333403"
+      },
+      "BTexts": {
+        "1": "10506651836271157890",
+        "2": "15333058012794155084"
+      },
+      "SpriteRes": null
+    }
+  ]
+}

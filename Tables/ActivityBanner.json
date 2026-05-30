@@ -4,7 +4,7 @@
     "header_table": "ActivityBannerHeaderTable",
     "format": "flat_rows",
     "schema_size": 10,
-    "row_count": 41,
+    "row_count": 44,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -61,7 +61,10 @@
     615,
     684,
     669,
-    775
+    775,
+    803,
+    804,
+    805
   ],
   "rows": [
     {
@@ -555,6 +558,42 @@
       "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_disaster.png",
       "DecorateLineColor": "#7E5744",
       "Condition": "ed.ConditionX.IsInActivity(775)"
+    },
+    {
+      "ID": 803,
+      "Order": 3,
+      "ActivityID": 803,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "11348820086382370806",
+      "SubTitleColor": "#E9BD3F",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_megaboss_3067.png",
+      "DecorateLineColor": "#c1593a",
+      "Condition": "ed.ConditionX.IsMegaBossActive(17) and not ed.ConditionX.IsMegaBossOverwhelmed(17)"
+    },
+    {
+      "ID": 804,
+      "Order": 3,
+      "ActivityID": 804,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "11348820086382370806",
+      "SubTitleColor": "#E9BD3F",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_megaboss_3069.png",
+      "DecorateLineColor": "#c1593a",
+      "Condition": "ed.ConditionX.IsMegaBossActive(18) and not ed.ConditionX.IsMegaBossOverwhelmed(18)"
+    },
+    {
+      "ID": 805,
+      "Order": 3,
+      "ActivityID": 805,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "11348820086382370806",
+      "SubTitleColor": "#E9BD3F",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_megaboss_3068.png",
+      "DecorateLineColor": "#c1593a",
+      "Condition": "ed.ConditionX.IsMegaBossActive(19) and not ed.ConditionX.IsMegaBossOverwhelmed(19)"
     }
   ]
 }

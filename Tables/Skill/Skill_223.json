@@ -9,13 +9,11 @@
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "EvaluateDisplay",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 19
+    "unresolved_array_refs": 17
   },
   "default": {
     "CasterID": "null",
@@ -149,9 +147,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1167,
+      "CasterID": 1161,
       "SkillID": 0,
-      "SkillName": "groundspecter_atk",
+      "SkillName": "icespecter_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -180,19 +178,19 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 80,
+      "GainMP": 75,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -200,17 +198,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "icespecterelite",
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106927
       },
       "HitDisplay": {
-        "$arrayRef": 96643
+        "$arrayRef": 106927
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106927
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -247,7 +245,7 @@
       "FallFrozenTime": 0,
       "KnockNotFall": false,
       "IsNoLaunch": false,
-      "RandomBasicAtk": false,
+      "RandomBasicAtk": true,
       "HasUpDownAction": false,
       "DamagePopupList": {},
       "TileCollideType": null,
@@ -278,14 +276,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96870
+        "$arrayRef": 107159
       }
     },
     {
-      "CasterID": 1167,
+      "CasterID": 1161,
       "SkillID": 11,
-      "SkillName": "groundspecter_ult",
-      "DisplayName": "5191109203932455030",
+      "SkillName": "icespecter_ult",
+      "DisplayName": "18107727748859233395",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -301,29 +299,29 @@
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
-      "SkillPerformData": null,
+      "SkillPerformData": "heal",
       "IsPositiveManual": true,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_shield.png",
-      "Description": "9146224652839138874",
-      "SimpleDescription": "3787952009007724631",
-      "ActiveType": "active",
+      "Description": "12257527665297439751",
+      "SimpleDescription": "4489802031107951341",
+      "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 43
       },
-      "TargetCamp": 0,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 1.25,
-      "GlobalCD": 1.25,
+      "GlobalCD": 1,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
@@ -333,34 +331,34 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "icespecterelite",
       "CastDisplays": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "self",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 43
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
+      "PlusAttr": "ATK",
       "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 3.5,
-      "SArg1": 3,
-      "SArg2": 10,
-      "SArg3": 0,
+      "SArg0": 2,
+      "SArg1": 10,
+      "SArg2": 1,
+      "SArg3": 0.8,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -413,10 +411,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1167,
+      "CasterID": 1161,
       "SkillID": 21,
-      "SkillName": "groundspecter_atk2",
-      "DisplayName": "10617780281631250377",
+      "SkillName": "icespecter_atk2",
+      "DisplayName": "12884775941878056354",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -435,42 +433,44 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_hast_down.png",
-      "Description": "3761767336399219779",
-      "SimpleDescription": "4622264759421175648",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_speed_down.png",
+      "Description": "7637087418907065627",
+      "SimpleDescription": "11186309583132554349",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 46
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": -99,
+      "Priority": 3,
       "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1.25,
+      "InitCD": 0,
+      "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
-      "UseNewDisplay": false,
+      "TrackType": null,
+      "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {},
+      "UseWhich": "icespecterelite",
+      "CastDisplays": {
+        "$arrayRef": 106915
+      },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106915
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -479,16 +479,16 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
+      "PlusAttr": "ATK",
       "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.1,
-      "SArg1": 3,
-      "SArg2": 5,
-      "SArg3": 10,
-      "SArg4": 8,
+      "SArg0": 1,
+      "SArg1": 0.5,
+      "SArg2": 2,
+      "SArg3": 0,
+      "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
       "SArg7": 0,
@@ -510,20 +510,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
-      "TileArt": "pbfx_tile_groundspecter_atk2",
+      "TileCollideType": null,
+      "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 1,
-      "TileRadius": 0.2,
+      "TileScale": 0,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
-      "TileXZSpeed": 20,
+      "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -538,14 +538,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_tile_groundspecter_atk2"
+        "1": "pbfx_buff_common_slow_ice_end"
       }
     },
     {
-      "CasterID": 1167,
+      "CasterID": 1161,
       "SkillID": 31,
-      "SkillName": "groundspecter_atk3",
-      "DisplayName": "13674285046970218404",
+      "SkillName": "icespecter_atk3",
+      "DisplayName": "15045199252900218689",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -565,63 +565,57 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_specter.png",
-      "Description": "16516621746487245907",
-      "SimpleDescription": "4479214146711733407",
+      "Description": "8788294368811845850",
+      "SimpleDescription": "17683803235598389819",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 43
       },
-      "TargetCamp": -1,
-      "TargetPriority": "maxatk",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": -1,
+      "Priority": 0,
       "CD": 9999,
       "InitCD": 9999,
-      "GlobalCD": 1.25,
+      "GlobalCD": 9999,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
-      "UseNewDisplay": true,
+      "TrackType": null,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
       "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 96649
-      },
-      "HitDisplay": {
-        "$arrayRef": 96649
-      },
-      "EvaluateDisplay": {
-        "$arrayRef": 96649
-      },
-      "Trajectory": {
-        "$arrayRef": 96649
-      },
+      "CastDisplays": {},
+      "HitDisplay": {},
+      "EvaluateDisplay": {},
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96649
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 43
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.2,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 1,
       "SArg1": 3,
       "SArg2": 0,
       "SArg3": 0,
@@ -647,19 +641,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0.3,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -674,12 +668,14 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_buff_icespecter_deathrattle_end"
+      }
     },
     {
-      "CasterID": 1167,
+      "CasterID": 1161,
       "SkillID": 41,
-      "SkillName": "groundspecter_atk4",
+      "SkillName": "icespecter_atk4",
       "DisplayName": "184360236004928746",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -699,7 +695,7 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_immune.png",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arm_up.png",
       "Description": "13580980043648377824",
       "SimpleDescription": "2797688483841206702",
       "ActiveType": "passive",
@@ -708,7 +704,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TargetCamp": 0,
       "TargetPriority": "target",
@@ -734,7 +730,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,

@@ -4,13 +4,13 @@
     "header_table": "SeasonWorldHeaderTable",
     "format": "flat_rows",
     "schema_size": 17,
-    "row_count": 2,
+    "row_count": 3,
     "array_fields": [
       "WorldRewards1",
       "WorldRewards2",
       "WorldRewards3"
     ],
-    "unresolved_array_refs": 6
+    "unresolved_array_refs": 9
   },
   "default": {
     "SeasonType": "null",
@@ -33,7 +33,8 @@
   },
   "row_keys": [
     105,
-    106
+    106,
+    107
   ],
   "rows": [
     {
@@ -41,13 +42,13 @@
       "WorldStory": "17969772311377743588",
       "SeasonIcon": "UI/Icon/Zoomswitch/spui_zoom_switch_epicon_05.png",
       "WorldRewards1": {
-        "$arrayRef": 96465
+        "$arrayRef": 106712
       },
       "WorldRewards2": {
-        "$arrayRef": 96465
+        "$arrayRef": 106712
       },
       "WorldRewards3": {
-        "$arrayRef": 96465
+        "$arrayRef": 106712
       },
       "WorldShowCondition": "ed.ConditionX.Counter(2583)>=1",
       "WorldOpenCondition": "ed.ConditionX.Counter(2583)>=4",
@@ -66,13 +67,13 @@
       "WorldStory": "8193610653707730714",
       "SeasonIcon": "UI/Icon/Zoomswitch/spui_zoom_switch_epicon_06.png",
       "WorldRewards1": {
-        "$arrayRef": 96465
+        "$arrayRef": 106712
       },
       "WorldRewards2": {
-        "$arrayRef": 96465
+        "$arrayRef": 106712
       },
       "WorldRewards3": {
-        "$arrayRef": 96465
+        "$arrayRef": 106712
       },
       "WorldShowCondition": "ed.ConditionX.Counter(2583)>=1",
       "WorldOpenCondition": "ed.ConditionX.Counter(2583)>=4",
@@ -85,6 +86,31 @@
       "WorldNewSeasonIcon": "UI/Sprites/ActivitySeasonEp6/spui_main_btn_season.png",
       "OpenSeasonTaskLine": "16010101,1,1",
       "OpenSeasonTaskLineHSEnd": "16010101,1,1"
+    },
+    {
+      "SeasonType": 107,
+      "WorldStory": "2439095166248188353",
+      "SeasonIcon": "UI/Icon/Zoomswitch/spui_zoom_switch_epicon_07.png",
+      "WorldRewards1": {
+        "$arrayRef": 106713
+      },
+      "WorldRewards2": {
+        "$arrayRef": 106713
+      },
+      "WorldRewards3": {
+        "$arrayRef": 106713
+      },
+      "WorldShowCondition": "ed.ConditionX.Counter(2583)>=1",
+      "WorldOpenCondition": "ed.ConditionX.Counter(2583)>=4",
+      "WorldShowConditionBtest": "ed.ConditionX.Counter(2583)>=1",
+      "WorldOpenConditionBtest": "ed.ConditionX.Counter(2583)>=4",
+      "WorldEnterDes": "1902487625874760655",
+      "WorldEnterDesBtest": "1902487625874760655",
+      "WorldWindowBg": "UI/Prefabs/Activity/ActivitySeasonPreview/Pages_ep7/pbui_activity_season_windows_ep7_star.prefab",
+      "WorldNewSeasonCard": "UI/Icon/Task_book/spui_task_top_chapter_ep7_op.png",
+      "WorldNewSeasonIcon": "UI/Sprites/ActivitySeasonEp7/spui_main_btn_season.png",
+      "OpenSeasonTaskLine": "17010101,1,1",
+      "OpenSeasonTaskLineHSEnd": "17010101,1,1"
     }
   ]
 }

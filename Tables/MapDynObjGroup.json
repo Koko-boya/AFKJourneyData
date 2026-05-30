@@ -3,7 +3,7 @@
     "table": "MapDynObjGroup",
     "header_table": "MapDynObjGroupHeaderTable",
     "format": "flat_rows",
-    "schema_size": 9,
+    "schema_size": 10,
     "row_count": 48,
     "array_fields": [
       "DynLocs",
@@ -11,7 +11,7 @@
       "InitStates",
       "ObjReward"
     ],
-    "unresolved_array_refs": 144
+    "unresolved_array_refs": 143
   },
   "default": {
     "ID": "null",
@@ -22,7 +22,8 @@
     "FinalStates": {},
     "DynLocs": {},
     "BattleGroupIDs": {},
-    "ObjReward": {}
+    "ObjReward": {},
+    "InteractionRadius": 0
   },
   "row_keys": [
     10002,
@@ -81,18 +82,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 75421
+        "$arrayRef": 81185
       },
       "BattleGroupIDs": {
         "1": 105056
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10003,
@@ -100,37 +102,53 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 5839
+        "$arrayRef": 5920
       },
       "BattleGroupIDs": {
         "1": 105057
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10004,
-      "MapID": 3,
-      "Type": 1,
-      "ClientType": "WildMonster",
+      "MapID": 10,
+      "Type": 8,
+      "ClientType": "NPC",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 8222
+        "1": 30031101,
+        "2": 30051101,
+        "3": 30071101,
+        "4": 30511101,
+        "5": 30091101,
+        "6": 30111101,
+        "7": 30131101,
+        "8": 30151101,
+        "9": 30171101,
+        "10": 30191101,
+        "11": 30211101,
+        "12": 30231101,
+        "13": 30251101,
+        "14": 30531101,
+        "15": 51
       },
       "BattleGroupIDs": {
         "1": 105058
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10005,
@@ -138,18 +156,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 21646
+        "$arrayRef": 21727
       },
       "BattleGroupIDs": {
         "1": 105059
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10006,
@@ -157,18 +176,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 2049
+        "$arrayRef": 2130
       },
       "BattleGroupIDs": {
         "1": 105060
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10007,
@@ -176,18 +196,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 196
+        "$arrayRef": 195
       },
       "BattleGroupIDs": {
         "1": 105061
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10008,
@@ -195,18 +216,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 200
+        "$arrayRef": 199
       },
       "BattleGroupIDs": {
         "1": 105062
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10009,
@@ -214,18 +236,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 2447
+        "$arrayRef": 2528
       },
       "BattleGroupIDs": {
         "1": 105033
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10010,
@@ -233,10 +256,10 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
         "1": 44,
@@ -252,7 +275,8 @@
         "1": 1,
         "2": 1801372,
         "3": 1
-      }
+      },
+      "InteractionRadius": 0
     },
     {
       "ID": 10011,
@@ -260,18 +284,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 194
+        "$arrayRef": 193
       },
       "BattleGroupIDs": {
         "1": 105034
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10012,
@@ -279,18 +304,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 67105
+        "$arrayRef": 76057
       },
       "BattleGroupIDs": {
         "1": 105035
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10013,
@@ -298,18 +324,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 2418
+        "$arrayRef": 2499
       },
       "BattleGroupIDs": {
         "1": 105036
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10014,
@@ -317,18 +344,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 12284
+        "$arrayRef": 12365
       },
       "BattleGroupIDs": {
         "1": 105037
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10015,
@@ -336,18 +364,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 63
+        "$arrayRef": 62
       },
       "BattleGroupIDs": {
         "1": 105038
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10016,
@@ -355,18 +384,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 69137
+        "$arrayRef": 78116
       },
       "BattleGroupIDs": {
         "1": 105039
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10017,
@@ -374,18 +404,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 69138
+        "$arrayRef": 78117
       },
       "BattleGroupIDs": {
         "1": 105040
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10019,
@@ -393,18 +424,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 7011
+        "$arrayRef": 7092
       },
       "BattleGroupIDs": {
         "1": 105085
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10020,
@@ -412,18 +444,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 78425
+        "$arrayRef": 87829
       },
       "BattleGroupIDs": {
         "1": 105086
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10021,
@@ -431,18 +464,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 205
+        "$arrayRef": 204
       },
       "BattleGroupIDs": {
         "1": 105087
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10022,
@@ -450,18 +484,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 76421
+        "$arrayRef": 85645
       },
       "BattleGroupIDs": {
         "1": 105072
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10023,
@@ -469,18 +504,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 5842
+        "$arrayRef": 5923
       },
       "BattleGroupIDs": {
         "1": 105073
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10024,
@@ -488,18 +524,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 64114
+        "$arrayRef": 73069
       },
       "BattleGroupIDs": {
         "1": 105074
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10025,
@@ -507,18 +544,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 75013
+        "$arrayRef": 84200
       },
       "BattleGroupIDs": {
         "1": 105075
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10026,
@@ -526,18 +564,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 58140
+        "$arrayRef": 67105
       },
       "BattleGroupIDs": {
         "1": 105076
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10027,
@@ -545,18 +584,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 68091
+        "$arrayRef": 77046
       },
       "BattleGroupIDs": {
         "1": 105204
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10028,
@@ -564,18 +604,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 197
+        "$arrayRef": 196
       },
       "BattleGroupIDs": {
         "1": 105205
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10029,
@@ -583,18 +624,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 210
+        "$arrayRef": 209
       },
       "BattleGroupIDs": {
         "1": 105206
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10030,
@@ -602,18 +644,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 209
+        "$arrayRef": 208
       },
       "BattleGroupIDs": {
         "1": 105207
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10031,
@@ -621,18 +664,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 208
+        "$arrayRef": 207
       },
       "BattleGroupIDs": {
         "1": 105208
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10032,
@@ -640,18 +684,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 220
+        "$arrayRef": 219
       },
       "BattleGroupIDs": {
         "1": 105209
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10033,
@@ -659,18 +704,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 69160
+        "$arrayRef": 78139
       },
       "BattleGroupIDs": {
         "1": 105210
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10034,
@@ -678,18 +724,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 1593
+        "$arrayRef": 1674
       },
       "BattleGroupIDs": {
         "1": 105211
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10035,
@@ -697,18 +744,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 7012
+        "$arrayRef": 7093
       },
       "BattleGroupIDs": {
         "1": 105212
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10036,
@@ -716,18 +764,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 58154
+        "$arrayRef": 67119
       },
       "BattleGroupIDs": {
         "1": 105213
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10037,
@@ -735,18 +784,19 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
-        "$arrayRef": 202
+        "$arrayRef": 201
       },
       "BattleGroupIDs": {},
       "ObjReward": {
-        "$arrayRef": 74217
-      }
+        "$arrayRef": 83299
+      },
+      "InteractionRadius": 0
     },
     {
       "ID": 10038,
@@ -754,20 +804,21 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
-        "$arrayRef": 211
+        "$arrayRef": 210
       },
       "BattleGroupIDs": {},
       "ObjReward": {
         "1": 1,
         "2": 3801581,
         "3": 1
-      }
+      },
+      "InteractionRadius": 0
     },
     {
       "ID": 10039,
@@ -775,20 +826,21 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
-        "$arrayRef": 8228
+        "$arrayRef": 8309
       },
       "BattleGroupIDs": {},
       "ObjReward": {
         "1": 1,
         "2": 3801582,
         "3": 1
-      }
+      },
+      "InteractionRadius": 0
     },
     {
       "ID": 10040,
@@ -796,20 +848,21 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
-        "$arrayRef": 43190
+        "$arrayRef": 43270
       },
       "BattleGroupIDs": {},
       "ObjReward": {
         "1": 1,
         "2": 3801583,
         "3": 1
-      }
+      },
+      "InteractionRadius": 0
     },
     {
       "ID": 10041,
@@ -817,20 +870,21 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
-        "$arrayRef": 58152
+        "$arrayRef": 67117
       },
       "BattleGroupIDs": {},
       "ObjReward": {
         "1": 1,
         "2": 3801584,
         "3": 1
-      }
+      },
+      "InteractionRadius": 0
     },
     {
       "ID": 10042,
@@ -838,18 +892,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 206
+        "$arrayRef": 205
       },
       "BattleGroupIDs": {
         "1": 105219
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10043,
@@ -857,18 +912,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 204
+        "$arrayRef": 203
       },
       "BattleGroupIDs": {
         "1": 105220
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10044,
@@ -876,18 +932,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 13489
+        "$arrayRef": 13570
       },
       "BattleGroupIDs": {
         "1": 105221
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10045,
@@ -895,18 +952,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 213
+        "$arrayRef": 212
       },
       "BattleGroupIDs": {
         "1": 105222
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10046,
@@ -914,18 +972,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 214
+        "$arrayRef": 213
       },
       "BattleGroupIDs": {
         "1": 105223
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10047,
@@ -933,18 +992,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 34291
+        "$arrayRef": 34371
       },
       "BattleGroupIDs": {
         "1": 105224
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10048,
@@ -952,18 +1012,19 @@
       "Type": 1,
       "ClientType": "WildMonster",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81094
+        "$arrayRef": 90515
       },
       "DynLocs": {
-        "$arrayRef": 192
+        "$arrayRef": 191
       },
       "BattleGroupIDs": {
         "1": 105225
       },
-      "ObjReward": {}
+      "ObjReward": {},
+      "InteractionRadius": 0
     },
     {
       "ID": 10049,
@@ -971,20 +1032,21 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
-        "$arrayRef": 212
+        "$arrayRef": 211
       },
       "BattleGroupIDs": {},
       "ObjReward": {
         "1": 1,
         "2": 3801596,
         "3": 1
-      }
+      },
+      "InteractionRadius": 0
     },
     {
       "ID": 10050,
@@ -992,20 +1054,21 @@
       "Type": 4,
       "ClientType": "Treasure",
       "InitStates": {
-        "$arrayRef": 81093
+        "$arrayRef": 90514
       },
       "FinalStates": {
-        "$arrayRef": 81095
+        "$arrayRef": 90516
       },
       "DynLocs": {
-        "$arrayRef": 5945
+        "$arrayRef": 6026
       },
       "BattleGroupIDs": {},
       "ObjReward": {
         "1": 1,
         "2": 3801597,
         "3": 1
-      }
+      },
+      "InteractionRadius": 0
     }
   ]
 }

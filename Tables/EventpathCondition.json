@@ -3,14 +3,15 @@
     "table": "EventpathCondition",
     "header_table": "EventpathConditionHeaderTable",
     "format": "flat_rows",
-    "schema_size": 2,
-    "row_count": 31,
+    "schema_size": 3,
+    "row_count": 33,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
   "default": {
     "EventPath": "null",
-    "PlayCondition": "true"
+    "PlayCondition": "true",
+    "": 0
   },
   "row_keys": [
     "event:/SFX/DailogueTree/amb_ep2_square_argument",
@@ -43,132 +44,175 @@
     "event:/SFX/DailogueTree/amb_ep5_drum_zone1",
     "event:/SFX/DailogueTree/ep5_amb_reputation_zone3",
     "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_rally",
-    "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_array"
+    "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_array",
+    "event:/SFX/DailogueTree/amb_ep7_guitar_zone2",
+    "event:/SFX/DailogueTree/amb_ep7_wolf_zone5"
   ],
   "rows": [
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep2_square_argument",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(12010102,1,1) and not ed.ConditionX.IsExplStepFinished(12010102,1,3)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(12010102,1,1) and not ed.ConditionX.IsExplStepFinished(12010102,1,3)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep2_tavern_argument",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(12010105,1,2) and not ed.ConditionX.IsExplStepFinished(12010105,1,4)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(12010105,1,2) and not ed.ConditionX.IsExplStepFinished(12010105,1,4)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep2_compartment_transport",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(12010114,3,1) and not ed.ConditionX.IsExplStepFinished(12010114,3,5)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(12010114,3,1) and not ed.ConditionX.IsExplStepFinished(12010114,3,5)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/Task/pbsc_char_monster_lowdeadmage_b-run",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(13010103,3,22) and not ed.ConditionX.IsExplStepFinished(13010103,3,27)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(13010103,3,22) and not ed.ConditionX.IsExplStepFinished(13010103,3,27)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/Task/pbsc_char_monster_lowdeadmage_b-w_idle",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(13010103,3,22) and not ed.ConditionX.IsExplStepFinished(13010103,3,27)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(13010103,3,22) and not ed.ConditionX.IsExplStepFinished(13010103,3,27)",
+      "": 0
     },
     {
       "EventPath": "event:/BGM/Menu/MiniGame_1",
-      "PlayCondition": "not ed.ConditionX.IsInZone(5075,1) and not ed.ConditionX.IsInZone(9) and not ed.ConditionX.IsInZone(8) and not ed.ConditionX.IsInZone(5091,1) and not ed.ConditionX.IsInZone(10)"
+      "PlayCondition": "not ed.ConditionX.IsInZone(5075,1) and not ed.ConditionX.IsInZone(9) and not ed.ConditionX.IsInZone(8) and not ed.ConditionX.IsInZone(5091,1) and not ed.ConditionX.IsInZone(10)",
+      "": 0
     },
     {
       "EventPath": "event:/BGM/Menu/MiniGame_2",
-      "PlayCondition": "not ed.ConditionX.IsInZone(7) and not ed.ConditionX.IsInZone(8) and not ed.ConditionX.IsInZone(9) and not ed.ConditionX.IsInZone(5091,1) and not ed.ConditionX.IsInZone(10)"
+      "PlayCondition": "not ed.ConditionX.IsInZone(7) and not ed.ConditionX.IsInZone(8) and not ed.ConditionX.IsInZone(9) and not ed.ConditionX.IsInZone(5091,1) and not ed.ConditionX.IsInZone(10)",
+      "": 0
     },
     {
       "EventPath": "event:/BGM/Menu/MiniGameVictory",
-      "PlayCondition": "not ed.ConditionX.IsInZone(7) and not ed.ConditionX.IsInZone(8) and not ed.ConditionX.IsInZone(9) and not ed.ConditionX.IsInZone(10)"
+      "PlayCondition": "not ed.ConditionX.IsInZone(7) and not ed.ConditionX.IsInZone(8) and not ed.ConditionX.IsInZone(9) and not ed.ConditionX.IsInZone(10)",
+      "": 0
     },
     {
       "EventPath": "event:/AMB/Region/amb_ep3_cedartown_crowd_zone2_task",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(13010110,4,10) and not ed.ConditionX.IsExplStepFinished(13010113,4,2)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(13010110,4,10) and not ed.ConditionX.IsExplStepFinished(13010113,4,2)",
+      "": 0
     },
     {
       "EventPath": "event:/AMB/Region/AMB_EP4_zone2_workplace",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010103,3,2) and not ed.ConditionX.IsExplStepFinished(14010103,3,7)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010103,3,2) and not ed.ConditionX.IsExplStepFinished(14010103,3,7)",
+      "": 0
     },
     {
       "EventPath": "event:/AMB/Region/AMB_EP4_zone1_festival",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010102,1,19) and not ed.ConditionX.IsExplStepFinished(14010102,1,25)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010102,1,19) and not ed.ConditionX.IsExplStepFinished(14010102,1,25)",
+      "": 0
     },
     {
       "EventPath": "event:/AMB/Region/AMB_EP4_zone1_workplace",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010102,1,5) and not ed.ConditionX.IsExplStepFinished(14010102,1,18)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010102,1,5) and not ed.ConditionX.IsExplStepFinished(14010102,1,18)",
+      "": 0
     },
     {
       "EventPath": "event:/AMB/Region/AMB_EP4_zone3_combat",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010240,1,2) and not ed.ConditionX.IsExplStepFinished(14010240,1,5)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(14010240,1,2) and not ed.ConditionX.IsExplStepFinished(14010240,1,5)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_cry_zone3",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010104,4,6) and not ed.ConditionX.IsExplStepFinished(15010104,5,7)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010104,4,6) and not ed.ConditionX.IsExplStepFinished(15010104,5,7)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_battlefield_zone6",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010108,1,1) and not ed.ConditionX.IsExplStepFinished(15010109,3,3)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010108,1,1) and not ed.ConditionX.IsExplStepFinished(15010109,3,3)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_ghost_zone5",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010106,3,8) and not ed.ConditionX.IsExplStepFinished(15010106,6,8)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010106,3,8) and not ed.ConditionX.IsExplStepFinished(15010106,6,8)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_bell_zone4",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010105,4,1) and not ed.ConditionX.IsExplStepFinished(15010108,1,1)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010105,4,1) and not ed.ConditionX.IsExplStepFinished(15010108,1,1)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_battlefield2_zone6",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010109,3,3) and not ed.ConditionX.IsExplStepFinished(15010109,3,6)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010109,3,3) and not ed.ConditionX.IsExplStepFinished(15010109,3,6)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_womancry_zone4",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010202,600,4) and not ed.ConditionX.IsExplStepFinished(15010202,600,6)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010202,600,4) and not ed.ConditionX.IsExplStepFinished(15010202,600,6)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_lilhumanpillar1_zone5",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010100,1,1) and not ed.ConditionX.IsExplStepFinished(15010106,4,7)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010100,1,1) and not ed.ConditionX.IsExplStepFinished(15010106,4,7)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_lilhumanpillar2_zone5",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010100,1,1) and not ed.ConditionX.IsExplStepFinished(15010106,4,7)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010100,1,1) and not ed.ConditionX.IsExplStepFinished(15010106,4,7)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_magicwall_zone6",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010108,2,4) and not ed.ConditionX.IsExplStepFinished(15010109,2,1)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010108,2,4) and not ed.ConditionX.IsExplStepFinished(15010109,2,1)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_shout_zone4",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010107,3,6) and not ed.ConditionX.IsExplStepFinished(15010107,3,8)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010107,3,6) and not ed.ConditionX.IsExplStepFinished(15010107,3,8)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_quarrel_zone3",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010104,2,8) and not ed.ConditionX.IsExplStepFinished(15010220,1,4)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010104,2,8) and not ed.ConditionX.IsExplStepFinished(15010220,1,4)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/Task/pbsc_char_npc_gala-run_loop",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010106,5,4) and not ed.ConditionX.IsExplStepFinished(15010106,5,6)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010106,5,4) and not ed.ConditionX.IsExplStepFinished(15010106,5,6)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_roar_zone5",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010106,2,6) and not ed.ConditionX.IsExplStepFinished(15010106,2,9)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010106,2,6) and not ed.ConditionX.IsExplStepFinished(15010106,2,9)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_humanpillar_zone5",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010100,1,1) and not ed.ConditionX.IsExplStepFinished(15010106,4,7)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010100,1,1) and not ed.ConditionX.IsExplStepFinished(15010106,4,7)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/amb_ep5_drum_zone1",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010101,1,7) and not ed.ConditionX.IsExplStepFinished(16010100,1,1)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010101,1,7) and not ed.ConditionX.IsExplStepFinished(16010100,1,1)",
+      "": 0
     },
     {
       "EventPath": "event:/SFX/DailogueTree/ep5_amb_reputation_zone3",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010502,1,1) and not ed.ConditionX.IsExplStepFinished(15010502,1,3)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(15010502,1,1) and not ed.ConditionX.IsExplStepFinished(15010502,1,3)",
+      "": 0
     },
     {
       "EventPath": "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_rally",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(16010205,702,2) and not ed.ConditionX.IsExplStepFinished(16010205,703,2)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(16010205,702,2) and not ed.ConditionX.IsExplStepFinished(16010205,703,2)",
+      "": 0
     },
     {
       "EventPath": "event:/AMB/Region/region_ep6_raid_tower_zone6_fantasytown_array",
-      "PlayCondition": "ed.ConditionX.IsExplStepFinished(16010205,702,1) and not ed.ConditionX.IsExplStepFinished(16010205,703,5)"
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(16010205,702,1) and not ed.ConditionX.IsExplStepFinished(16010205,703,5)",
+      "": 0
+    },
+    {
+      "EventPath": "event:/SFX/DailogueTree/amb_ep7_guitar_zone2",
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(17010219,3,10) and not ed.ConditionX.IsExplStepFinished(17010219,3,11)",
+      "": 0
+    },
+    {
+      "EventPath": "event:/SFX/DailogueTree/amb_ep7_wolf_zone5",
+      "PlayCondition": "ed.ConditionX.IsExplStepFinished(17010358,1,3) and not ed.ConditionX.IsExplStepFinished(17010358,1,5)",
+      "": 0
     }
   ]
 }

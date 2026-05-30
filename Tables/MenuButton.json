@@ -52,7 +52,7 @@
       "IsOnMainView": false,
       "MainViewOrder": 1000,
       "MainViewIcon": null,
-      "Condition": "\"Ture\""
+      "Condition": "true"
     },
     {
       "MenuButton": 9,
@@ -67,7 +67,7 @@
       "IsOnMainView": false,
       "MainViewOrder": 1000,
       "MainViewIcon": null,
-      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3"
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10010100,3)"
     },
     {
       "MenuButton": 11,
@@ -82,7 +82,7 @@
       "IsOnMainView": false,
       "MainViewOrder": 1000,
       "MainViewIcon": null,
-      "Condition": "\"Ture\""
+      "Condition": "true"
     },
     {
       "MenuButton": 4,
@@ -112,7 +112,7 @@
       "IsOnMainView": false,
       "MainViewOrder": 1000,
       "MainViewIcon": null,
-      "Condition": "\"Ture\""
+      "Condition": "true"
     },
     {
       "MenuButton": 6,
@@ -142,7 +142,7 @@
       "IsOnMainView": false,
       "MainViewOrder": 1000,
       "MainViewIcon": null,
-      "Condition": "\"Ture\""
+      "Condition": "true"
     },
     {
       "MenuButton": 1,
@@ -187,7 +187,7 @@
       "IsOnMainView": false,
       "MainViewOrder": 20,
       "MainViewIcon": "UI/Sprites/Main/spui_main_btn_task.png",
-      "Condition": "\"Ture\""
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"Regular\") or ed.ConditionX.IsModuleUnlocked(\"Growth\") or ed.ConditionX.IsModuleUnlocked(\"GridReward\") or ed.ConditionX.IsModuleUnlocked(\"Homestead\")"
     },
     {
       "MenuButton": 13,
@@ -202,7 +202,7 @@
       "IsOnMainView": false,
       "MainViewOrder": 1000,
       "MainViewIcon": null,
-      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=3 and (not ed.ConditionX.C_IsMainlandChannel())"
+      "Condition": "ed.ConditionX.IsExplTaskFinished(10010100,3) and (not ed.ConditionX.C_IsMainlandChannel())"
     },
     {
       "MenuButton": 15,

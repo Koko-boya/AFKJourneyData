@@ -10,9 +10,10 @@
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 14
+    "unresolved_array_refs": 18
   },
   "default": {
     "CasterID": "null",
@@ -145,9 +146,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1240,
+      "CasterID": 1225,
       "SkillID": 0,
-      "SkillName": "dfttank_atk",
+      "SkillName": "hugemonrangedelite_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -176,37 +177,39 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 46
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 65,
+      "GainMP": 100,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybttank",
+      "UseWhich": "hugemonranged_elite",
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "HitDisplay": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 106910
+      },
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -216,7 +219,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.4,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -246,7 +249,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -258,7 +261,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -276,10 +279,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1240,
+      "CasterID": 1225,
       "SkillID": 11,
-      "SkillName": "dfttank_ult",
-      "DisplayName": "5018845580608357996",
+      "SkillName": "hugemonrangedelite_ult",
+      "DisplayName": "3299038553508302629",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -295,19 +298,19 @@
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
-      "SkillPerformData": "heal",
-      "IsPositiveManual": true,
+      "SkillPerformData": "dmg",
+      "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal.png",
-      "Description": "15375233534096624652",
-      "SimpleDescription": "5861056539475032966",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
+      "Description": "10788617679558786257",
+      "SimpleDescription": "12767173778788673206",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 46
       },
       "TargetCamp": 0,
       "TargetPriority": "target",
@@ -315,44 +318,48 @@
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
-      "CD": 1.25,
-      "InitCD": 1.25,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1.25,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybttank",
+      "UseWhich": "hugemonranged_elite",
       "CastDisplays": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 106911
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 106911
+      },
       "Action(s)": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 1,
+      "AffectedCamp": -1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "HP",
-      "PlusRatio": -0.04,
+      "PlusAttr": "ATK",
+      "PlusRatio": 2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 6,
+      "SArg0": 1,
       "SArg1": 0.5,
-      "SArg2": 0,
-      "SArg3": 0,
+      "SArg2": 8,
+      "SArg3": 30,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -363,8 +370,8 @@
       "SArg11": 0,
       "SArg12": 0,
       "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
+      "Buff": "hugemonranged_ult_bepursue",
+      "BuffID": 122501,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -375,7 +382,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -387,7 +394,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -402,13 +409,15 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 107187
+      }
     },
     {
-      "CasterID": 1240,
+      "CasterID": 1225,
       "SkillID": 21,
-      "SkillName": "dfttank_atk2",
-      "DisplayName": "6440905070686709784",
+      "SkillName": "hugemonrangedelite_atk2",
+      "DisplayName": "4140584760127620126",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -427,26 +436,26 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_up.png",
-      "Description": "5597001090722239349",
-      "SimpleDescription": "9877692952589243941",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_hugemon.png",
+      "Description": "14644952449359593737",
+      "SimpleDescription": "14992145602102073118",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 46
       },
-      "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetCamp": 0,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 3,
+      "Priority": -1,
       "CD": 9999,
       "InitCD": 9999,
-      "GlobalCD": 9999,
+      "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
@@ -462,7 +471,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -476,12 +485,12 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.4,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
+      "SArg0": 0.5,
+      "SArg1": 1,
+      "SArg2": 0.08,
+      "SArg3": 6,
+      "SArg4": 0.5,
+      "SArg5": 1,
       "SArg6": 0,
       "SArg7": 0,
       "SArg8": 0,
@@ -530,14 +539,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96809
+        "$arrayRef": 107185
       }
     },
     {
-      "CasterID": 1240,
+      "CasterID": 1225,
       "SkillID": 31,
-      "SkillName": "dfttank_atk3",
-      "DisplayName": "4309923649349322459",
+      "SkillName": "hugemonrangedelite_atk3",
+      "DisplayName": "16403361439418954942",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -556,28 +565,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_dft_1.png",
-      "Description": "15776862081410637555",
-      "SimpleDescription": "11596864687658865327",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_self.png",
+      "Description": "16384485682904453098",
+      "SimpleDescription": "13886363030802560020",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 0,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 20,
-      "CD": 9999,
-      "InitCD": 9999,
+      "TargetBlockType": "noblock",
+      "Priority": 3,
+      "CD": 15,
+      "InitCD": 10,
       "GlobalCD": 0,
       "CostMP": 0,
-      "GainMP": 50,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -585,17 +594,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybttank",
+      "UseWhich": "hugemonranged_elite",
       "CastDisplays": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
       "HitDisplay": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -605,12 +614,12 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.5,
+      "PlusRatio": -1.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 30,
-      "SArg1": 3,
+      "SArg0": 4,
+      "SArg1": 60,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -623,8 +632,8 @@
       "SArg11": 0,
       "SArg12": 0,
       "DamageExtraEff": false,
-      "Buff": "dfttank_atk3",
-      "BuffID": 124001,
+      "Buff": null,
+      "BuffID": 0,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,

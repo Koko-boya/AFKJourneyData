@@ -4,7 +4,7 @@
     "header_table": "LodCrowedHeaderTable",
     "format": "flat_rows",
     "schema_size": 9,
-    "row_count": 6,
+    "row_count": 7,
     "array_fields": [
       "HD_High",
       "HD_Low",
@@ -15,7 +15,7 @@
       "PC_High",
       "PC_Low"
     ],
-    "unresolved_array_refs": 39
+    "unresolved_array_refs": 47
   },
   "default": {
     "GamePlayKey": "null",
@@ -34,103 +34,104 @@
     "GuildManager",
     "CampManager",
     "MRaidManager",
-    "HRaidManager"
+    "HRaidManager",
+    "SlgManager"
   ],
   "rows": [
     {
       "GamePlayKey": "LandManager",
       "PC_High": {
-        "$arrayRef": 80138
+        "$arrayRef": 89535
       },
       "PC_Low": {
-        "$arrayRef": 80140
+        "$arrayRef": 89537
       },
       "IOS_High": {
-        "$arrayRef": 80141
+        "$arrayRef": 89538
       },
       "IOS_Low": {
-        "$arrayRef": 80143
+        "$arrayRef": 89540
       },
       "HD_High": {
-        "$arrayRef": 80141
+        "$arrayRef": 89538
       },
       "HD_Low": {
-        "$arrayRef": 80143
+        "$arrayRef": 89540
       },
       "LD_High": {
-        "$arrayRef": 80146
+        "$arrayRef": 89543
       },
       "LD_Low": {
-        "$arrayRef": 80146
+        "$arrayRef": 89543
       }
     },
     {
       "GamePlayKey": "RaidManager",
       "PC_High": {
-        "$arrayRef": 80138
+        "$arrayRef": 89535
       },
       "PC_Low": {
-        "$arrayRef": 80140
+        "$arrayRef": 89537
       },
       "IOS_High": {
-        "$arrayRef": 80141
+        "$arrayRef": 89538
       },
       "IOS_Low": {
-        "$arrayRef": 80143
+        "$arrayRef": 89540
       },
       "HD_High": {
-        "$arrayRef": 80141
+        "$arrayRef": 89538
       },
       "HD_Low": {
-        "$arrayRef": 80143
+        "$arrayRef": 89540
       },
       "LD_High": {
-        "$arrayRef": 80146
+        "$arrayRef": 89543
       },
       "LD_Low": {
-        "$arrayRef": 80146
+        "$arrayRef": 89543
       }
     },
     {
       "GamePlayKey": "GuildManager",
       "PC_High": {
-        "$arrayRef": 80138
+        "$arrayRef": 89535
       },
       "PC_Low": {
-        "$arrayRef": 80140
+        "$arrayRef": 89537
       },
       "IOS_High": {
-        "$arrayRef": 80141
+        "$arrayRef": 89538
       },
       "IOS_Low": {
-        "$arrayRef": 80143
+        "$arrayRef": 89540
       },
       "HD_High": {
-        "$arrayRef": 80141
+        "$arrayRef": 89538
       },
       "HD_Low": {
-        "$arrayRef": 80143
+        "$arrayRef": 89540
       },
       "LD_High": {
-        "$arrayRef": 80146
+        "$arrayRef": 89543
       },
       "LD_Low": {
-        "$arrayRef": 80146
+        "$arrayRef": 89543
       }
     },
     {
       "GamePlayKey": "CampManager",
       "PC_High": {
-        "$arrayRef": 80139
+        "$arrayRef": 89536
       },
       "PC_Low": {
-        "$arrayRef": 80139
+        "$arrayRef": 89536
       },
       "IOS_High": {
-        "$arrayRef": 80139
+        "$arrayRef": 89536
       },
       "IOS_Low": {
-        "$arrayRef": 80144
+        "$arrayRef": 89541
       },
       "HD_High": {
         "1": 23,
@@ -139,7 +140,7 @@
         "4": 1
       },
       "HD_Low": {
-        "$arrayRef": 80144
+        "$arrayRef": 89541
       },
       "LD_High": {
         "1": 15,
@@ -157,28 +158,28 @@
     {
       "GamePlayKey": "MRaidManager",
       "PC_High": {
-        "$arrayRef": 80139
+        "$arrayRef": 89536
       },
       "PC_Low": {
-        "$arrayRef": 80139
+        "$arrayRef": 89536
       },
       "IOS_High": {
-        "$arrayRef": 80139
+        "$arrayRef": 89536
       },
       "IOS_Low": {
-        "$arrayRef": 80145
+        "$arrayRef": 89542
       },
       "HD_High": {
-        "$arrayRef": 80145
+        "$arrayRef": 89542
       },
       "HD_Low": {
-        "$arrayRef": 80145
+        "$arrayRef": 89542
       },
       "LD_High": {
-        "$arrayRef": 80145
+        "$arrayRef": 89542
       },
       "LD_Low": {
-        "$arrayRef": 80145
+        "$arrayRef": 89542
       }
     },
     {
@@ -196,7 +197,7 @@
         "4": 1
       },
       "IOS_High": {
-        "$arrayRef": 80142
+        "$arrayRef": 89539
       },
       "IOS_Low": {
         "1": 15,
@@ -205,7 +206,7 @@
         "4": 1
       },
       "HD_High": {
-        "$arrayRef": 80142
+        "$arrayRef": 89539
       },
       "HD_Low": {
         "1": 15,
@@ -224,6 +225,33 @@
         "2": 5,
         "3": 0.5,
         "4": 0
+      }
+    },
+    {
+      "GamePlayKey": "SlgManager",
+      "PC_High": {
+        "$arrayRef": 89535
+      },
+      "PC_Low": {
+        "$arrayRef": 89537
+      },
+      "IOS_High": {
+        "$arrayRef": 89538
+      },
+      "IOS_Low": {
+        "$arrayRef": 89540
+      },
+      "HD_High": {
+        "$arrayRef": 89538
+      },
+      "HD_Low": {
+        "$arrayRef": 89540
+      },
+      "LD_High": {
+        "$arrayRef": 89543
+      },
+      "LD_Low": {
+        "$arrayRef": 89543
       }
     }
   ]

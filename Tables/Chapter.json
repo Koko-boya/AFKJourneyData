@@ -3,13 +3,14 @@
     "table": "Chapter",
     "header_table": "ChapterHeaderTable",
     "format": "flat_rows",
-    "schema_size": 16,
-    "row_count": 11,
+    "schema_size": 17,
+    "row_count": 12,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
   "default": {
     "ChapterID": "null",
+    "IsBranch": false,
     "ChapterName": null,
     "SeasonType": null,
     "ChapterOrder": null,
@@ -37,11 +38,13 @@
     1401,
     1501,
     1601,
-    1701
+    1701,
+    1801
   ],
   "rows": [
     {
       "ChapterID": 1001,
+      "IsBranch": false,
       "ChapterName": "17142578552526845992",
       "SeasonType": 1,
       "ChapterOrder": "16187636385129590692",
@@ -63,6 +66,7 @@
     },
     {
       "ChapterID": 1002,
+      "IsBranch": false,
       "ChapterName": "16575006018950457889",
       "SeasonType": 1,
       "ChapterOrder": "13735159650955961480",
@@ -84,6 +88,7 @@
     },
     {
       "ChapterID": 1003,
+      "IsBranch": false,
       "ChapterName": "8305558511394974802",
       "SeasonType": 1,
       "ChapterOrder": "16583996851539696897",
@@ -105,6 +110,7 @@
     },
     {
       "ChapterID": 1004,
+      "IsBranch": false,
       "ChapterName": "248362074129420335",
       "SeasonType": 1,
       "ChapterOrder": "6945349000684970905",
@@ -126,6 +132,7 @@
     },
     {
       "ChapterID": 1101,
+      "IsBranch": false,
       "ChapterName": "14244713236645601416",
       "SeasonType": 101,
       "ChapterOrder": "12571729982347442659",
@@ -147,6 +154,7 @@
     },
     {
       "ChapterID": 1201,
+      "IsBranch": false,
       "ChapterName": "9139760546021531369",
       "SeasonType": 102,
       "ChapterOrder": "7233903159381375528",
@@ -168,6 +176,7 @@
     },
     {
       "ChapterID": 1301,
+      "IsBranch": false,
       "ChapterName": "16035727700467325194",
       "SeasonType": 103,
       "ChapterOrder": "11200345141325785947",
@@ -189,6 +198,7 @@
     },
     {
       "ChapterID": 1401,
+      "IsBranch": false,
       "ChapterName": "11675250197213912998",
       "SeasonType": 104,
       "ChapterOrder": "17710225068837187764",
@@ -210,6 +220,7 @@
     },
     {
       "ChapterID": 1501,
+      "IsBranch": false,
       "ChapterName": "1517386980034087121",
       "SeasonType": 105,
       "ChapterOrder": "13544886312976482023",
@@ -231,13 +242,14 @@
     },
     {
       "ChapterID": 1601,
+      "IsBranch": false,
       "ChapterName": "15165550960758994722",
       "SeasonType": 106,
       "ChapterOrder": "2714136329041889529",
       "IsLastChapter": false,
       "LineKey": {
         "1": 16010101,
-        "2": 16010112
+        "2": 16010111
       },
       "OpenBannerHead": "UI/Icon/Task_book/spui_task_top_chapter_ep6_op.png",
       "EndBannerHead": "UI/Icon/Task_book/spui_task_top_chapter_ep6_ed.png",
@@ -245,20 +257,43 @@
       "EndSceneHead": "Character/prop/pbsc_char_prop_prophecyep6ed.prefab",
       "ChapterText": "909173643131028454",
       "ChapterTip": "8193610653707730714",
-      "BannerNameText1": "新间章开启;沉默的戏剧",
-      "BannerNameText2": "新间章开启;欢迎加入俱乐部",
+      "BannerNameText1": null,
+      "BannerNameText2": null,
       "BannerNameText3": null,
       "BannerNameText4": null
     },
     {
       "ChapterID": 1701,
-      "ChapterName": "5093948003076959628",
+      "IsBranch": false,
+      "ChapterName": "8943455588175906372",
       "SeasonType": 107,
       "ChapterOrder": "5575887478028541570",
+      "IsLastChapter": false,
+      "LineKey": {
+        "1": 17010101,
+        "2": 17010108
+      },
+      "OpenBannerHead": "UI/Icon/Task_book/spui_task_top_chapter_ep7_op.png",
+      "EndBannerHead": "UI/Icon/Task_book/spui_task_top_chapter_ep7_ed.png",
+      "OpenSceneHead": "Character/prop/pbsc_char_prop_prophecyep7op.prefab",
+      "EndSceneHead": "Character/prop/pbsc_char_prop_prophecyep7ed.prefab",
+      "ChapterText": "18065569157505131437",
+      "ChapterTip": "15723517004589774624",
+      "BannerNameText1": null,
+      "BannerNameText2": null,
+      "BannerNameText3": null,
+      "BannerNameText4": null
+    },
+    {
+      "ChapterID": 1801,
+      "IsBranch": true,
+      "ChapterName": "5093948003076959628",
+      "SeasonType": 108,
+      "ChapterOrder": "7308716626894157342",
       "IsLastChapter": true,
       "LineKey": {
-        "1": 17010100,
-        "2": 17010100
+        "1": 18010100,
+        "2": 18010100
       },
       "OpenBannerHead": "UI/Icon/Task_book/spui_task_top_chapter_0.png",
       "EndBannerHead": "UI/Icon/Task_book/spui_task_top_chapter_0.png",

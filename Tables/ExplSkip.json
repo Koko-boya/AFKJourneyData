@@ -1,0 +1,130 @@
+{
+  "_meta": {
+    "table": "ExplSkip",
+    "header_table": "ExplSkipHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 8,
+    "array_fields": [
+      "StepIDs",
+      "TaskIDs"
+    ],
+    "unresolved_array_refs": 16
+  },
+  "default": {
+    "LineID": "null",
+    "SkipID": "null",
+    "TaskIDs": {},
+    "StepIDs": {},
+    "SkipDescription": null,
+    "SkipErrorMessage": null,
+    "ExplResetID": 0
+  },
+  "row_keys": [],
+  "rows": [
+    {
+      "LineID": 18010105,
+      "SkipID": 1,
+      "TaskIDs": {
+        "$arrayRef": 460
+      },
+      "StepIDs": {
+        "$arrayRef": 80785
+      },
+      "SkipDescription": "跳过共通部分1",
+      "SkipErrorMessage": "你需要完成这部分才可跳过1",
+      "ExplResetID": 1
+    },
+    {
+      "LineID": 18010105,
+      "SkipID": 2,
+      "TaskIDs": {
+        "$arrayRef": 20506
+      },
+      "StepIDs": {
+        "$arrayRef": 80784
+      },
+      "SkipDescription": "跳过共通部分2",
+      "SkipErrorMessage": "你需要完成这部分才可跳过2",
+      "ExplResetID": 1
+    },
+    {
+      "LineID": 18010105,
+      "SkipID": 3,
+      "TaskIDs": {
+        "$arrayRef": 82828
+      },
+      "StepIDs": {
+        "$arrayRef": 43
+      },
+      "SkipDescription": "跳过共通部分3",
+      "SkipErrorMessage": "你需要完成这部分才可跳过3",
+      "ExplResetID": 1
+    },
+    {
+      "LineID": 18010106,
+      "SkipID": 3,
+      "TaskIDs": {
+        "$arrayRef": 460
+      },
+      "StepIDs": {
+        "$arrayRef": 2194
+      },
+      "SkipDescription": null,
+      "SkipErrorMessage": null,
+      "ExplResetID": 1
+    },
+    {
+      "LineID": 18010106,
+      "SkipID": 4,
+      "TaskIDs": {
+        "$arrayRef": 445
+      },
+      "StepIDs": {
+        "$arrayRef": 43
+      },
+      "SkipDescription": "跳过共通部分4",
+      "SkipErrorMessage": "你需要完成这部分才可跳过4",
+      "ExplResetID": 1
+    },
+    {
+      "LineID": 18010107,
+      "SkipID": 4,
+      "TaskIDs": {
+        "$arrayRef": 460
+      },
+      "StepIDs": {
+        "$arrayRef": 42
+      },
+      "SkipDescription": null,
+      "SkipErrorMessage": null,
+      "ExplResetID": 1
+    },
+    {
+      "LineID": 18010108,
+      "SkipID": 5,
+      "TaskIDs": {
+        "$arrayRef": 460
+      },
+      "StepIDs": {
+        "$arrayRef": 82829
+      },
+      "SkipDescription": "跳过共通部分5",
+      "SkipErrorMessage": "你需要完成这部分才可跳过5",
+      "ExplResetID": 1
+    },
+    {
+      "LineID": 18010117,
+      "SkipID": 6,
+      "TaskIDs": {
+        "$arrayRef": 460
+      },
+      "StepIDs": {
+        "$arrayRef": 82829
+      },
+      "SkipDescription": "跳过共通部分6",
+      "SkipErrorMessage": "你需要完成这部分才可跳过6",
+      "ExplResetID": 1
+    }
+  ]
+}

@@ -6,13 +6,15 @@
     "schema_size": 121,
     "row_count": 2,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
+      "SkinId",
+      "SkinUseWhich",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 9
+    "unresolved_array_refs": 13
   },
   "default": {
     "CasterID": "null",
@@ -143,9 +145,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5043,
+      "CasterID": 5005,
       "SkillID": 0,
-      "SkillName": "nara_atk",
+      "SkillName": "thornknight_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -167,14 +169,14 @@
       "SkillScript": null,
       "Icon": null,
       "Description": "普通攻击（不用翻译）",
-      "SimpleDescription": null,
-      "ActiveType": "passive",
+      "SimpleDescription": "（不用翻译）",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -182,39 +184,45 @@
       "ReselectTargetArgs": {},
       "TargetBlockType": "allblock",
       "Priority": 1,
-      "CD": 9999,
-      "InitCD": 9999,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 78,
+      "GainMP": 130,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "nara",
+      "SkinId": {
+        "$arrayRef": 13539
+      },
+      "SkinUseWhich": {
+        "$arrayRef": 85709
+      },
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96660
+        "$arrayRef": 106927
       },
       "HitDisplay": {
-        "$arrayRef": 96660
+        "$arrayRef": 106927
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96660
+        "$arrayRef": 106927
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "sector_s",
+      "AOEShapeArgs": {
+        "$arrayRef": 67156
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -274,11 +282,11 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5043,
+      "CasterID": 5005,
       "SkillID": 21,
-      "SkillName": "nara_atk2",
-      "DisplayName": "1523141257207877884",
-      "IsShow": true,
+      "SkillName": "thornknight_atk2",
+      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
+      "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
@@ -292,60 +300,64 @@
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "prepare",
+      "SkillType": "subbasic",
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad.png",
-      "Description": "14765090996731394260",
-      "SimpleDescription": "5220265828702253157",
-      "ActiveType": "passive",
+      "Icon": null,
+      "Description": "普通攻击（不用翻译）",
+      "SimpleDescription": "（不用翻译）",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 44
       },
-      "TargetCamp": 0,
-      "TargetPriority": "target",
+      "TargetCamp": -1,
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 99,
-      "CD": 9999,
-      "InitCD": 9999,
+      "TargetBlockType": null,
+      "Priority": 2,
+      "CD": 0,
+      "InitCD": 0.25,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 78,
+      "GainMP": 130,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "nara",
+      "SkinId": {
+        "$arrayRef": 13539
+      },
+      "SkinUseWhich": {
+        "$arrayRef": 85709
+      },
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96648
+        "$arrayRef": 106915
       },
-      "HitDisplay": {
-        "$arrayRef": 96648
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96648
+        "$arrayRef": 106915
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 44
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 3.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -403,7 +415,8 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 97625
+        "1": "pbfx_point_thornknight_atk2",
+        "2": "pbfx_point_thornknight_atk2_s1"
       }
     }
   ]

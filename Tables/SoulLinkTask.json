@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "table": "SoulLinkTask",
+    "header_table": "SoulLinkTaskHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 2,
+    "array_fields": [
+      "Attr",
+      "Cost"
+    ],
+    "unresolved_array_refs": 4
+  },
+  "default": {
+    "PartnerID": "null",
+    "ID": "null",
+    "TaskName": null,
+    "Quality": 0,
+    "Cost": {},
+    "Attr": {},
+    "PotentialPoint": 0,
+    "TaskPerform": null,
+    "Weight": 0
+  },
+  "row_keys": [
+    1,
+    2
+  ],
+  "rows": [
+    {
+      "PartnerID": 1,
+      "ID": 1,
+      "TaskName": "制作便当",
+      "Quality": 4,
+      "Cost": {
+        "$arrayRef": 155
+      },
+      "Attr": {
+        "$arrayRef": 108302
+      },
+      "PotentialPoint": 10,
+      "TaskPerform": null,
+      "Weight": 10
+    },
+    {
+      "PartnerID": 2,
+      "ID": 2,
+      "TaskName": "生火烤鱼",
+      "Quality": 6,
+      "Cost": {
+        "$arrayRef": 40
+      },
+      "Attr": {
+        "$arrayRef": 108302
+      },
+      "PotentialPoint": 20,
+      "TaskPerform": null,
+      "Weight": 20
+    }
+  ]
+}

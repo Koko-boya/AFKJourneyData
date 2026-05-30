@@ -4,7 +4,7 @@
     "header_table": "MagicTransformHeaderTable",
     "format": "flat_rows",
     "schema_size": 10,
-    "row_count": 1,
+    "row_count": 2,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -21,7 +21,8 @@
     "ManualID": 0
   },
   "row_keys": [
-    1001
+    1001,
+    1002
   ],
   "rows": [
     {
@@ -32,9 +33,21 @@
       "DESCID": 1,
       "UseCondition": "ed.ConditionX.C_IsAllowTransform(10)",
       "CancelCondition": "not ed.ConditionX.IsInWolfObjBlock()",
-      "UnlockCondition": "ed.ConditionX.IsExplStepFinished(16010102,4,4)",
+      "UnlockCondition": "true",
       "CastBlockTip": "14717959565331063777",
       "ManualID": 167
+    },
+    {
+      "ID": 1002,
+      "Name": "18028443947935727579",
+      "VehicleID": 23,
+      "IconRes": "UI/Icon/Behaviour/spui_behaviour_icon_solo_039.png",
+      "DESCID": 2,
+      "UseCondition": "true",
+      "CancelCondition": "true",
+      "UnlockCondition": "ed.ConditionX.IsExplStepFinished(17010601,1,5) or ed.ConditionX.IsExplStepFinished(17010103,2,1)",
+      "CastBlockTip": "14718071964148017841",
+      "ManualID": 0
     }
   ]
 }

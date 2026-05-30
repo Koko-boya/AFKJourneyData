@@ -4,7 +4,7 @@
     "header_table": "AssetInsideHeaderTable",
     "format": "flat_rows",
     "schema_size": 11,
-    "row_count": 29,
+    "row_count": 31,
     "array_fields": [
       "LootInfo"
     ],
@@ -52,7 +52,9 @@
     110013001,
     110016001,
     110015001,
-    110017001
+    110017001,
+    110018001,
+    110018002
   ],
   "rows": [
     {
@@ -392,14 +394,14 @@
       "Quality": 10,
       "IsLightReward": true,
       "LootInfo": {
-        "$arrayRef": 72
+        "$arrayRef": 71
       }
     },
     {
       "Name": 110016001,
       "DisplayOrder": 236,
       "DisplayName": "8294666927153104457",
-      "Description": "16833697345427947169",
+      "Description": "春日寻梦活动中获得的奖励，可在寻梦商店中兑换商品。",
       "IconRes": "UI/Icon/Item/sys_item_customtrial_coin.png",
       "MiniIconRes": "UI/Icon/Item/sys_item_customtrial_coin_mini.png",
       "DisplayNode": "icon_point_0",
@@ -412,7 +414,7 @@
       "Name": 110015001,
       "DisplayOrder": 237,
       "DisplayName": "15416756591111312490",
-      "Description": "4851339413075370325",
+      "Description": "繁花织旅活动中获得的奖励，可以在魔导小铺中兑换奖励。",
       "IconRes": "UI/Icon/Item/sys_item_collab3_shopcoin.png",
       "MiniIconRes": "UI/Icon/Item/sys_item_collab3_shopcoin_mini.png",
       "DisplayNode": "icon_point_0",
@@ -426,8 +428,34 @@
       "DisplayOrder": 238,
       "DisplayName": "12273715948518578854",
       "Description": "5988478996339513676",
-      "IconRes": "UI/Icon/Item/spui_icon_currency_draft_chip.png",
-      "MiniIconRes": "UI/Sprites/Currency/spui_fightpitdraft_icon_chips.png",
+      "IconRes": "UI/Sprites/ActivityFightPitDraft/spui_fightpitdraft_icon_chips.png",
+      "MiniIconRes": "UI/Icon/Item/spui_icon_currency_draft_chip_mini.png",
+      "DisplayNode": "icon_point_0",
+      "MaxAmount": 999999999999,
+      "Quality": 6,
+      "IsLightReward": true,
+      "LootInfo": {}
+    },
+    {
+      "Name": 110018001,
+      "DisplayOrder": 239,
+      "DisplayName": "11278613580352827813",
+      "Description": null,
+      "IconRes": "UI/Icon/Item/Currency/currency_championship_2_normal.png",
+      "MiniIconRes": "UI/Sprites/Currency/currency_championship_2.png",
+      "DisplayNode": "icon_point_0",
+      "MaxAmount": 999999999999,
+      "Quality": 6,
+      "IsLightReward": true,
+      "LootInfo": {}
+    },
+    {
+      "Name": 110018002,
+      "DisplayOrder": 240,
+      "DisplayName": "5793496707895186501",
+      "Description": null,
+      "IconRes": "UI/Icon/Item/Currency/currency_championship_1_normal.png",
+      "MiniIconRes": "UI/Sprites/Currency/currency_championship_1.png",
       "DisplayNode": "icon_point_0",
       "MaxAmount": 999999999999,
       "Quality": 6,

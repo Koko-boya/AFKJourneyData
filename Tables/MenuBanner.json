@@ -4,7 +4,7 @@
     "header_table": "MenuBannerHeaderTable",
     "format": "flat_rows",
     "schema_size": 13,
-    "row_count": 40,
+    "row_count": 43,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -63,7 +63,10 @@
     46,
     47,
     39,
-    48
+    48,
+    49,
+    50,
+    51
   ],
   "rows": [
     {
@@ -618,7 +621,7 @@
       "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_task_ep6_club.png",
       "EntranceType": "MainTask",
       "DecorateLineColor": "#E9BD3F",
-      "Condition": "ed.ConditionX.IsExplTaskFinished(16010226,6) and ed.ConditionX.IsExplTaskFinished(16010205,706)~=true",
+      "Condition": "ed.ConditionX.HasState(513300138,\"CShow_1\")",
       "ActivityID": 0
     },
     {
@@ -633,7 +636,7 @@
       "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_task_ep6_drama.png",
       "EntranceType": "MainTask",
       "DecorateLineColor": "#E9BD3F",
-      "Condition": "ed.ConditionX.IsExplTaskFinished(16010111,6) and ed.ConditionX.IsExplTaskFinished(16010112,9)~=true",
+      "Condition": "ed.ConditionX.HasState(513300138,\"CShow_1\")",
       "ActivityID": 0
     },
     {
@@ -665,6 +668,51 @@
       "DecorateLineColor": "#E9BD3F",
       "Condition": "not ed.ConditionX.IsStageReachPoint(20)",
       "ActivityID": 0
+    },
+    {
+      "ID": 49,
+      "TitleText": "8077642057245608156",
+      "Order": 26,
+      "Group": 7,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "11348820086382370806",
+      "SubTitleColor": "#E9BD3F",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_megaboss_3067.png",
+      "EntranceType": "Activity|803",
+      "DecorateLineColor": "#c1593a",
+      "Condition": "ed.ConditionX.IsMegaBossActive(17) and not ed.ConditionX.IsMegaBossOverwhelmed(17) and ed.ConditionX.IsInActivity(803)",
+      "ActivityID": 803
+    },
+    {
+      "ID": 50,
+      "TitleText": "8077642057245608156",
+      "Order": 27,
+      "Group": 7,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "11348820086382370806",
+      "SubTitleColor": "#E9BD3F",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_megaboss_3069.png",
+      "EntranceType": "Activity|804",
+      "DecorateLineColor": "#c1593a",
+      "Condition": "ed.ConditionX.IsMegaBossActive(18) and not ed.ConditionX.IsMegaBossOverwhelmed(18) and ed.ConditionX.IsInActivity(804)",
+      "ActivityID": 804
+    },
+    {
+      "ID": 51,
+      "TitleText": "8077642057245608156",
+      "Order": 28,
+      "Group": 7,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "11348820086382370806",
+      "SubTitleColor": "#E9BD3F",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_megaboss_3068.png",
+      "EntranceType": "Activity|805",
+      "DecorateLineColor": "#c1593a",
+      "Condition": "ed.ConditionX.IsMegaBossActive(19) and not ed.ConditionX.IsMegaBossOverwhelmed(19) and ed.ConditionX.IsInActivity(805)",
+      "ActivityID": 805
     }
   ]
 }

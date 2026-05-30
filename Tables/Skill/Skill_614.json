@@ -6,15 +6,13 @@
     "schema_size": 121,
     "row_count": 1,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "EvaluateDisplay",
-      "HitDisplay",
-      "TargetShapeArgs",
-      "Trajectory"
+      "SkinId",
+      "SkinUseWhich",
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 7
+    "unresolved_array_refs": 5
   },
   "default": {
     "CasterID": "null",
@@ -140,14 +138,14 @@
     "ResourceList": {}
   },
   "row_keys": [
-    10
+    0
   ],
   "rows": [
     {
-      "CasterID": 6003,
-      "SkillID": 10,
-      "SkillName": "equip_skill_atk",
-      "DisplayName": "16794148951537759611",
+      "CasterID": 5054,
+      "SkillID": 0,
+      "SkillName": "fairygirlpony_atk",
+      "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -157,78 +155,74 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 10,
-      "DisplaySlot": 10,
+      "Slot": 0,
+      "DisplaySlot": 0,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": "basic",
+      "SkillPerformData": null,
       "IsPositiveManual": false,
-      "SkillScript": "goblin_fire",
+      "SkillScript": null,
       "Icon": null,
-      "Description": "13975628034263440660",
+      "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "manual",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
-      "TargetShape": "oddsector",
+      "TargetType": null,
+      "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 70845
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
-      "TargetPriority": "target",
+      "TargetCamp": -1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 10,
+      "Priority": 5,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
-      "VictimMP": 0,
+      "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "battle_object_icegun",
+      "SkinId": {
+        "$arrayRef": 82804
+      },
+      "SkinUseWhich": {
+        "$arrayRef": 85742
+      },
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
-      "HitDisplay": {
-        "$arrayRef": 96643
-      },
-      "EvaluateDisplay": {
-        "$arrayRef": 96643
-      },
-      "Trajectory": {
-        "$arrayRef": 96643
-      },
+      "HitDisplay": {},
+      "EvaluateDisplay": {},
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 0,
-      "AOEOrigin": "self",
-      "AOEShape": "oddsector",
-      "AOEShapeArgs": {
-        "$arrayRef": 70845
-      },
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
-      "PlusAttrUnit": "target",
-      "PlusAttr": "HP",
-      "PlusRatio": 0.0125,
-      "DamageType": "Holy",
+      "PlusAttrUnit": null,
+      "PlusAttr": "ATK",
+      "PlusRatio": 0,
+      "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 3,
-      "SArg1": 0.05,
-      "SArg2": 4,
-      "SArg3": 10,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -240,7 +234,7 @@
       "SArg12": 0,
       "DamageExtraEff": false,
       "Buff": null,
-      "BuffID": 40031003,
+      "BuffID": 0,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,

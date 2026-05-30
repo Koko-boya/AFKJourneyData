@@ -4,11 +4,11 @@
     "header_table": "StageEpProgressRewardHeaderTable",
     "format": "flat_rows",
     "schema_size": 4,
-    "row_count": 7,
+    "row_count": 14,
     "array_fields": [
       "Rewards"
     ],
-    "unresolved_array_refs": 4
+    "unresolved_array_refs": 14
   },
   "default": {
     "ID": "null",
@@ -23,14 +23,21 @@
     4,
     5,
     6,
-    7
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
   ],
   "rows": [
     {
       "ID": 1,
       "Point": 6500,
       "Rewards": {
-        "$arrayRef": 96266
+        "$arrayRef": 106496
       },
       "SeasonType": 106
     },
@@ -38,7 +45,7 @@
       "ID": 2,
       "Point": 5800,
       "Rewards": {
-        "$arrayRef": 96266
+        "$arrayRef": 106496
       },
       "SeasonType": 106
     },
@@ -46,7 +53,7 @@
       "ID": 3,
       "Point": 4500,
       "Rewards": {
-        "$arrayRef": 94709
+        "$arrayRef": 104896
       },
       "SeasonType": 106
     },
@@ -54,12 +61,7 @@
       "ID": 4,
       "Point": 3900,
       "Rewards": {
-        "1": 1,
-        "2": 201003,
-        "3": 30,
-        "4": 8,
-        "5": 172,
-        "6": 1
+        "$arrayRef": 108368
       },
       "SeasonType": 106
     },
@@ -67,12 +69,7 @@
       "ID": 5,
       "Point": 3200,
       "Rewards": {
-        "1": 1001,
-        "2": 100000002,
-        "3": 100,
-        "4": 1,
-        "5": 201002,
-        "6": 5
+        "$arrayRef": 108369
       },
       "SeasonType": 106
     },
@@ -80,7 +77,7 @@
       "ID": 6,
       "Point": 2700,
       "Rewards": {
-        "$arrayRef": 98030
+        "$arrayRef": 108367
       },
       "SeasonType": 106
     },
@@ -88,14 +85,65 @@
       "ID": 7,
       "Point": 900,
       "Rewards": {
-        "1": 1001,
-        "2": 100000002,
-        "3": 200,
-        "4": 1,
-        "5": 201002,
-        "6": 10
+        "$arrayRef": 108370
       },
       "SeasonType": 106
+    },
+    {
+      "ID": 8,
+      "Point": 6500,
+      "Rewards": {
+        "$arrayRef": 106496
+      },
+      "SeasonType": 107
+    },
+    {
+      "ID": 9,
+      "Point": 5800,
+      "Rewards": {
+        "$arrayRef": 106496
+      },
+      "SeasonType": 107
+    },
+    {
+      "ID": 10,
+      "Point": 4500,
+      "Rewards": {
+        "$arrayRef": 104896
+      },
+      "SeasonType": 107
+    },
+    {
+      "ID": 11,
+      "Point": 3900,
+      "Rewards": {
+        "$arrayRef": 108368
+      },
+      "SeasonType": 107
+    },
+    {
+      "ID": 12,
+      "Point": 3200,
+      "Rewards": {
+        "$arrayRef": 108369
+      },
+      "SeasonType": 107
+    },
+    {
+      "ID": 13,
+      "Point": 2700,
+      "Rewards": {
+        "$arrayRef": 108367
+      },
+      "SeasonType": 107
+    },
+    {
+      "ID": 14,
+      "Point": 900,
+      "Rewards": {
+        "$arrayRef": 108370
+      },
+      "SeasonType": 107
     }
   ]
 }

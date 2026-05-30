@@ -4,7 +4,7 @@
     "header_table": "DungeonTargetHeaderTable",
     "format": "flat_rows",
     "schema_size": 8,
-    "row_count": 81,
+    "row_count": 84,
     "array_fields": [
       "FinishEvents",
       "TargetObjs"
@@ -102,7 +102,10 @@
     702701,
     702201,
     702501,
-    702301
+    702301,
+    512601,
+    514001,
+    512501
   ],
   "rows": [
     {
@@ -196,7 +199,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73041
+        "$arrayRef": 82092
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -240,7 +243,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73042
+        "$arrayRef": 82093
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -290,7 +293,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73043
+        "$arrayRef": 82094
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -340,7 +343,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73044
+        "$arrayRef": 82095
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -390,7 +393,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73045
+        "$arrayRef": 82096
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -452,7 +455,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73046
+        "$arrayRef": 82097
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -509,7 +512,7 @@
       "ProgressCondition": "true",
       "TargetObjs": {},
       "FinishEvents": {
-        "$arrayRef": 73058
+        "$arrayRef": 82109
       },
       "FailEvent": null
     },
@@ -521,7 +524,7 @@
       "ProgressCondition": "true",
       "TargetObjs": {},
       "FinishEvents": {
-        "$arrayRef": 73058
+        "$arrayRef": 82109
       },
       "FailEvent": null
     },
@@ -596,7 +599,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73047
+        "$arrayRef": 82098
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -637,7 +640,7 @@
       "FailCondition": "false",
       "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",701200117)>=1",
       "TargetObjs": {
-        "$arrayRef": 73048
+        "$arrayRef": 82099
       },
       "FinishEvents": {
         "1": "AddState:701200117"
@@ -651,7 +654,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73049
+        "$arrayRef": 82100
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -748,7 +751,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73050
+        "$arrayRef": 82101
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -836,7 +839,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73051
+        "$arrayRef": 82102
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -932,7 +935,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73052
+        "$arrayRef": 82103
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -980,7 +983,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73053
+        "$arrayRef": 82104
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -1028,7 +1031,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73054
+        "$arrayRef": 82105
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -1050,7 +1053,7 @@
       "FailCondition": "false",
       "ProgressCondition": "ed.ConditionX.StateCount(\"DgWildMonster_Killed\",702000294)>=1",
       "TargetObjs": {
-        "$arrayRef": 73055
+        "$arrayRef": 82106
       },
       "FinishEvents": {
         "1": "AddState:702000294"
@@ -1074,7 +1077,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73056
+        "$arrayRef": 82107
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -1086,7 +1089,7 @@
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {
-        "$arrayRef": 73057
+        "$arrayRef": 82108
       },
       "FinishEvents": {},
       "FailEvent": null
@@ -1115,6 +1118,36 @@
       "ID": 702301,
       "SuccQuestID": 1175005,
       "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10605)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 512601,
+      "SuccQuestID": 1190001,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10702)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 514001,
+      "SuccQuestID": 1190002,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10703)",
+      "FailCondition": "false",
+      "ProgressCondition": "true",
+      "TargetObjs": {},
+      "FinishEvents": {},
+      "FailEvent": null
+    },
+    {
+      "ID": 512501,
+      "SuccQuestID": 1190003,
+      "FinishCondition": "ed.ConditionX.IsDungeonCompleted(10701)",
       "FailCondition": "false",
       "ProgressCondition": "true",
       "TargetObjs": {},

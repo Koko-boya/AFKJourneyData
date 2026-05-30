@@ -9,13 +9,13 @@
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
+      "EvaluateDisplay",
       "HitDisplay",
       "ResourceList",
-      "SummonUnitList",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 17
+    "unresolved_array_refs": 16
   },
   "default": {
     "CasterID": "null",
@@ -147,9 +147,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1185,
+      "CasterID": 1180,
       "SkillID": 0,
-      "SkillName": "fantasysporeb_atk",
+      "SkillName": "fantasymage_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -178,7 +178,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -188,9 +188,9 @@
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
-      "GlobalCD": 0,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 53,
+      "GainMP": 130,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -198,19 +198,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fantasyspore",
+      "UseWhich": "fantasymageelite",
       "CastDisplays": {
-        "$arrayRef": 96799
+        "$arrayRef": 106910
       },
       "HitDisplay": {
-        "$arrayRef": 96799
+        "$arrayRef": 106910
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96799
+        "$arrayRef": 106910
       },
       "Action(s)": {
-        "$arrayRef": 96799
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -220,7 +220,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.9,
+      "PlusRatio": 1.4,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -250,7 +250,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -263,7 +263,7 @@
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
-      "FollowTarget": true,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -276,16 +276,14 @@
       "ChainJumpDistance": 0,
       "MaxAffectTimes": 0,
       "ChainEffect": null,
-      "SummonUnitList": {
-        "$arrayRef": 67112
-      },
+      "SummonUnitList": {},
       "ResourceList": {}
     },
     {
-      "CasterID": 1185,
+      "CasterID": 1180,
       "SkillID": 11,
-      "SkillName": "fantasysporeb_ult",
-      "DisplayName": "14636739126862469866",
+      "SkillName": "fantasymage_ult",
+      "DisplayName": "9649209820316505318",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -301,29 +299,29 @@
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
-      "SkillPerformData": null,
+      "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
-      "Description": "5700655996004006164",
-      "SimpleDescription": "6674309980136282",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
+      "Description": "13299601165809427109",
+      "SimpleDescription": "16368301530401639007",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "TargetCamp": -1,
-      "TargetPriority": "self",
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 1.25,
-      "GlobalCD": 0,
+      "GlobalCD": 1,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
@@ -333,34 +331,38 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fantasyspore",
+      "UseWhich": "fantasymageelite",
       "CastDisplays": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 106911
+      },
+      "EvaluateDisplay": {
+        "$arrayRef": 106911
+      },
       "Trajectory": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "Action(s)": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "target",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 3.6,
+      "PlusRatio": 2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 100,
-      "SArg1": 3,
+      "SArg0": 2,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -373,8 +375,8 @@
       "SArg11": 0,
       "SArg12": 0,
       "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
+      "Buff": "fantasymageelite_ult",
+      "BuffID": 118001,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -385,7 +387,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -398,7 +400,7 @@
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
-      "FollowTarget": true,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -413,13 +415,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96889
+        "$arrayRef": 107173
       }
     },
     {
-      "CasterID": 1185,
+      "CasterID": 1180,
       "SkillID": 21,
-      "SkillName": "fantasysporeb_atk2",
+      "SkillName": "fantasymage_atk2",
       "DisplayName": "440940440228388193",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -440,15 +442,15 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_dodge.png",
-      "Description": "3039629717060589942",
-      "SimpleDescription": "17754086532519065573",
+      "Description": "1265968248813615731",
+      "SimpleDescription": "17787687270531666940",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -458,44 +460,40 @@
       "Priority": 2,
       "CD": 9999,
       "InitCD": 9999,
-      "GlobalCD": 0,
+      "GlobalCD": 9999,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": true,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fantasyspore",
-      "CastDisplays": {
-        "$arrayRef": 96643
-      },
+      "UseWhich": "fantasymageelite",
+      "CastDisplays": {},
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 44
-      },
+      "AffectedCamp": 1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 2,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 10,
-      "SArg1": 0.5,
-      "SArg2": 0.5,
-      "SArg3": 1,
+      "SArg0": 5,
+      "SArg1": 2,
+      "SArg2": 0.7,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -546,7 +544,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96883
+        "$arrayRef": 107174
       }
     }
   ]

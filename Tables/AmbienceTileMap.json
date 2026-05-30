@@ -4,11 +4,11 @@
     "header_table": "AmbienceTileMapHeaderTable",
     "format": "flat_rows",
     "schema_size": 7,
-    "row_count": 28,
+    "row_count": 29,
     "array_fields": [
       "ZoneID"
     ],
-    "unresolved_array_refs": 17
+    "unresolved_array_refs": 18
   },
   "default": {
     "ID": "null",
@@ -47,7 +47,8 @@
     25,
     26,
     27,
-    28
+    28,
+    29
   ],
   "rows": [
     {
@@ -65,7 +66,7 @@
       "Terrain": "Default",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "SubZone": null,
       "EventPath": "event:/AMB/Region/amb_ep3_zone5"
@@ -76,7 +77,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "SubZone": null,
       "EventPath": "event:/AMB/Region/amb_ep3_zone5"
@@ -87,7 +88,7 @@
       "Terrain": "Swamp",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "SubZone": null,
       "EventPath": "event:/AMB/Region/amb_ep3_zone5_lake"
@@ -107,7 +108,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone1_jungle"
@@ -118,7 +119,7 @@
       "Terrain": "Lake",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone1_junglelake"
@@ -129,7 +130,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone2_forest"
@@ -140,7 +141,7 @@
       "Terrain": "Swamp",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone2_swamp"
@@ -151,7 +152,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone3_forest"
@@ -162,7 +163,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone4_forest"
@@ -173,7 +174,7 @@
       "Terrain": "Swamp",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone4_swamp"
@@ -184,7 +185,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode5_01_zone6_forest"
@@ -195,7 +196,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode6_01_zone1_forest"
@@ -206,7 +207,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode6_01_zone1_forest"
@@ -217,7 +218,7 @@
       "Terrain": "Lake",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode6_01_zone2_lake"
@@ -228,7 +229,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode6_01_zone1_forest"
@@ -239,7 +240,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode6_01_zone1_forest"
@@ -250,7 +251,7 @@
       "Terrain": "Forest",
       "Task": null,
       "ZoneID": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/episode6_01_zone1_forest"
@@ -335,6 +336,17 @@
       "ZoneID": {},
       "SubZone": null,
       "EventPath": "event:/AMB/TileMap/Magma"
+    },
+    {
+      "ID": 29,
+      "Scene": "raid_episode07_noble_zone2",
+      "Terrain": "Lake",
+      "Task": null,
+      "ZoneID": {
+        "$arrayRef": 44
+      },
+      "SubZone": null,
+      "EventPath": "event:/AMB/TileMap/raid_episode07_noble_zone2_lake"
     }
   ]
 }

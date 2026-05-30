@@ -4,7 +4,7 @@
     "header_table": "BattleModeCategoryHeaderTable",
     "format": "flat_rows",
     "schema_size": 43,
-    "row_count": 53,
+    "row_count": 55,
     "array_fields": [
       "FieldID"
     ],
@@ -108,7 +108,9 @@
     52,
     53,
     54,
-    55
+    55,
+    58,
+    57
   ],
   "rows": [
     {
@@ -139,7 +141,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69169
+        "$arrayRef": 78148
       },
       "CanExit": true,
       "CanPrepareSkip": false,
@@ -186,7 +188,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69169
+        "$arrayRef": 78148
       },
       "CanExit": true,
       "CanPrepareSkip": false,
@@ -233,7 +235,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 58258
+        "$arrayRef": 67222
       },
       "CanExit": true,
       "CanPrepareSkip": false,
@@ -280,7 +282,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69170
+        "$arrayRef": 78149
       },
       "CanExit": false,
       "CanPrepareSkip": false,
@@ -327,7 +329,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 58258
+        "$arrayRef": 67222
       },
       "CanExit": true,
       "CanPrepareSkip": false,
@@ -419,7 +421,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69171
+        "$arrayRef": 78150
       },
       "CanExit": false,
       "CanPrepareSkip": true,
@@ -556,7 +558,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69169
+        "$arrayRef": 78148
       },
       "CanExit": false,
       "CanPrepareSkip": false,
@@ -603,7 +605,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69171
+        "$arrayRef": 78150
       },
       "CanExit": true,
       "CanPrepareSkip": false,
@@ -788,7 +790,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69170
+        "$arrayRef": 78149
       },
       "CanExit": false,
       "CanPrepareSkip": false,
@@ -927,7 +929,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69172
+        "$arrayRef": 78151
       },
       "CanExit": true,
       "CanPrepareSkip": false,
@@ -974,7 +976,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69172
+        "$arrayRef": 78151
       },
       "CanExit": true,
       "CanPrepareSkip": false,
@@ -1616,7 +1618,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69173
+        "$arrayRef": 78152
       },
       "CanExit": false,
       "CanPrepareSkip": false,
@@ -1663,7 +1665,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69173
+        "$arrayRef": 78152
       },
       "CanExit": false,
       "CanPrepareSkip": false,
@@ -1945,7 +1947,7 @@
       "UsePVEAttr": false,
       "UsePVEBaseAttr": false,
       "FieldID": {
-        "$arrayRef": 69171
+        "$arrayRef": 78150
       },
       "CanExit": false,
       "CanPrepareSkip": false,
@@ -2550,6 +2552,96 @@
       "UsePVEBattleLogic": false,
       "IsShowDamage": false,
       "IsDefendSlotRevert": false
+    },
+    {
+      "Category": 58,
+      "DisplayName": null,
+      "FacelessHero": false,
+      "IsShowEnemyEffectCell": true,
+      "IsNpcMapPreview": false,
+      "IsShowPentagram": false,
+      "PrepareByStep": false,
+      "IsPrepareRT": false,
+      "IsEnemySlotRepair": true,
+      "IsBtCheckEnabled": true,
+      "BtCheckDmg": false,
+      "UseHpLeft": false,
+      "BtResultReport": false,
+      "WinType": "BOMode",
+      "IsEnableBriefBattle": false,
+      "NotShowTeamGs": false,
+      "NotServerTeamGs": false,
+      "UseFakeEnemyGs": false,
+      "UseEnemyCountGs": false,
+      "LevelSuppressCoef": 0,
+      "BanEnemyGrowthSkill": false,
+      "BattleAttrRuleID": 10,
+      "UsePVPAttr": true,
+      "UseEpGrowth": true,
+      "UsePVEAttr": false,
+      "UsePVEBaseAttr": false,
+      "FieldID": {},
+      "CanExit": false,
+      "CanPrepareSkip": false,
+      "CanSkip": false,
+      "CanSkipTime": 0,
+      "RealFail": true,
+      "TapUlt": false,
+      "FrozenScreen": "Both",
+      "EnemyHaveKillPopup": true,
+      "RetryCD": null,
+      "RetryCost": null,
+      "IsSafeMaxLimit": false,
+      "ExtendsNames": {},
+      "CanAcceptShare": false,
+      "UsePVEBattleLogic": false,
+      "IsShowDamage": false,
+      "IsDefendSlotRevert": true
+    },
+    {
+      "Category": 57,
+      "DisplayName": "6922338118755704715",
+      "FacelessHero": false,
+      "IsShowEnemyEffectCell": true,
+      "IsNpcMapPreview": false,
+      "IsShowPentagram": false,
+      "PrepareByStep": false,
+      "IsPrepareRT": false,
+      "IsEnemySlotRepair": true,
+      "IsBtCheckEnabled": true,
+      "BtCheckDmg": false,
+      "UseHpLeft": false,
+      "BtResultReport": false,
+      "WinType": "BOMode",
+      "IsEnableBriefBattle": false,
+      "NotShowTeamGs": false,
+      "NotServerTeamGs": false,
+      "UseFakeEnemyGs": false,
+      "UseEnemyCountGs": false,
+      "LevelSuppressCoef": 0,
+      "BanEnemyGrowthSkill": false,
+      "BattleAttrRuleID": 10,
+      "UsePVPAttr": true,
+      "UseEpGrowth": true,
+      "UsePVEAttr": false,
+      "UsePVEBaseAttr": false,
+      "FieldID": {},
+      "CanExit": false,
+      "CanPrepareSkip": false,
+      "CanSkip": false,
+      "CanSkipTime": 0,
+      "RealFail": true,
+      "TapUlt": false,
+      "FrozenScreen": "Both",
+      "EnemyHaveKillPopup": true,
+      "RetryCD": null,
+      "RetryCost": null,
+      "IsSafeMaxLimit": false,
+      "ExtendsNames": {},
+      "CanAcceptShare": false,
+      "UsePVEBattleLogic": false,
+      "IsShowDamage": false,
+      "IsDefendSlotRevert": true
     }
   ]
 }

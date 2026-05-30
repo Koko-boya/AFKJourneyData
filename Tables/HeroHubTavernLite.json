@@ -4,11 +4,11 @@
     "header_table": "HeroHubTavernLiteHeaderTable",
     "format": "flat_rows",
     "schema_size": 5,
-    "row_count": 252,
+    "row_count": 262,
     "array_fields": [
       "BindActionID"
     ],
-    "unresolved_array_refs": 244
+    "unresolved_array_refs": 254
   },
   "default": {
     "UnitID": "null",
@@ -22,9 +22,9 @@
     {
       "UnitID": 1,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415533,
@@ -34,9 +34,9 @@
     {
       "UnitID": 1,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415363,
@@ -48,7 +48,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76434
+        "$arrayRef": 85661
       },
       "HeroLiteIDs": {
         "1": 10415058,
@@ -58,9 +58,9 @@
     {
       "UnitID": 2,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76435
+        "$arrayRef": 85662
       },
       "HeroLiteIDs": {
         "1": 10415515,
@@ -70,9 +70,9 @@
     {
       "UnitID": 2,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76435
+        "$arrayRef": 85662
       },
       "HeroLiteIDs": {
         "1": 10415347,
@@ -84,7 +84,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415757,
@@ -94,9 +94,9 @@
     {
       "UnitID": 3,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76437
+        "$arrayRef": 85664
       },
       "HeroLiteIDs": {
         "1": 10415611,
@@ -106,9 +106,9 @@
     {
       "UnitID": 3,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
-        "$arrayRef": 76438
+        "$arrayRef": 85665
       },
       "HeroLiteIDs": {
         "1": 10415435,
@@ -118,9 +118,9 @@
     {
       "UnitID": 3,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415435,
@@ -132,7 +132,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415124,
@@ -142,9 +142,9 @@
     {
       "UnitID": 4,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76440
+        "$arrayRef": 85667
       },
       "HeroLiteIDs": {
         "1": 10415517,
@@ -154,9 +154,9 @@
     {
       "UnitID": 4,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76440
+        "$arrayRef": 85667
       },
       "HeroLiteIDs": {
         "1": 10415349,
@@ -168,7 +168,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415048,
@@ -178,9 +178,9 @@
     {
       "UnitID": 5,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76442
+        "$arrayRef": 85669
       },
       "HeroLiteIDs": {
         "1": 10415535,
@@ -190,9 +190,9 @@
     {
       "UnitID": 5,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76442
+        "$arrayRef": 85669
       },
       "HeroLiteIDs": {
         "1": 10415365,
@@ -204,7 +204,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415060,
@@ -214,9 +214,9 @@
     {
       "UnitID": 6,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76444
+        "$arrayRef": 85671
       },
       "HeroLiteIDs": {
         "1": 10415537,
@@ -226,9 +226,9 @@
     {
       "UnitID": 6,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76445
+        "$arrayRef": 85672
       },
       "HeroLiteIDs": {
         "1": 10415367,
@@ -240,7 +240,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415062,
@@ -250,7 +250,7 @@
     {
       "UnitID": 7,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
         "1": "Idle",
         "2": "SitDCheer"
@@ -263,7 +263,7 @@
     {
       "UnitID": 7,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
         "1": "Chat",
         "2": "Idle"
@@ -276,9 +276,9 @@
     {
       "UnitID": 7,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415407,
@@ -290,7 +290,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415098,
@@ -300,9 +300,9 @@
     {
       "UnitID": 8,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76435
+        "$arrayRef": 85662
       },
       "HeroLiteIDs": {
         "1": 10415613,
@@ -312,9 +312,9 @@
     {
       "UnitID": 8,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415437,
@@ -326,7 +326,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415126,
@@ -336,9 +336,9 @@
     {
       "UnitID": 9,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415551,
@@ -348,9 +348,9 @@
     {
       "UnitID": 9,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415379,
@@ -362,7 +362,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415070,
@@ -372,9 +372,9 @@
     {
       "UnitID": 10,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76448
+        "$arrayRef": 85675
       },
       "HeroLiteIDs": {
         "1": 10415519,
@@ -384,9 +384,9 @@
     {
       "UnitID": 10,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76448
+        "$arrayRef": 85675
       },
       "HeroLiteIDs": {
         "1": 10415351,
@@ -398,7 +398,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415050,
@@ -408,9 +408,9 @@
     {
       "UnitID": 11,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76450
+        "$arrayRef": 85677
       },
       "HeroLiteIDs": {
         "1": 10415553,
@@ -420,9 +420,9 @@
     {
       "UnitID": 11,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76450
+        "$arrayRef": 85677
       },
       "HeroLiteIDs": {
         "1": 10415381,
@@ -434,7 +434,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415072,
@@ -444,9 +444,9 @@
     {
       "UnitID": 12,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76451
+        "$arrayRef": 85678
       },
       "HeroLiteIDs": {
         "1": 10415571,
@@ -456,9 +456,9 @@
     {
       "UnitID": 12,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76451
+        "$arrayRef": 85678
       },
       "HeroLiteIDs": {
         "1": 10415399,
@@ -470,7 +470,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415090,
@@ -480,9 +480,9 @@
     {
       "UnitID": 13,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76452
+        "$arrayRef": 85679
       },
       "HeroLiteIDs": {
         "1": 10415573,
@@ -492,9 +492,9 @@
     {
       "UnitID": 13,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76452
+        "$arrayRef": 85679
       },
       "HeroLiteIDs": {
         "1": 10415401,
@@ -506,7 +506,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415092,
@@ -516,9 +516,9 @@
     {
       "UnitID": 14,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76438
+        "$arrayRef": 85665
       },
       "HeroLiteIDs": {
         "1": 10415555,
@@ -528,9 +528,9 @@
     {
       "UnitID": 14,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76438
+        "$arrayRef": 85665
       },
       "HeroLiteIDs": {
         "1": 10415383,
@@ -542,7 +542,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76453
+        "$arrayRef": 85680
       },
       "HeroLiteIDs": {
         "1": 10415074,
@@ -552,9 +552,9 @@
     {
       "UnitID": 15,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415581,
@@ -564,9 +564,9 @@
     {
       "UnitID": 15,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415409,
@@ -578,7 +578,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415100,
@@ -588,9 +588,9 @@
     {
       "UnitID": 16,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76454
+        "$arrayRef": 85681
       },
       "HeroLiteIDs": {
         "1": 10415595,
@@ -600,9 +600,9 @@
     {
       "UnitID": 16,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415421,
@@ -614,7 +614,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415112,
@@ -624,9 +624,9 @@
     {
       "UnitID": 17,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76455
+        "$arrayRef": 85682
       },
       "HeroLiteIDs": {
         "1": 10415597,
@@ -636,9 +636,9 @@
     {
       "UnitID": 17,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76455
+        "$arrayRef": 85682
       },
       "HeroLiteIDs": {
         "1": 10415423,
@@ -650,7 +650,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76456
+        "$arrayRef": 85683
       },
       "HeroLiteIDs": {
         "1": 10415114,
@@ -660,9 +660,9 @@
     {
       "UnitID": 18,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76457
+        "$arrayRef": 85684
       },
       "HeroLiteIDs": {
         "1": 10415539,
@@ -672,9 +672,9 @@
     {
       "UnitID": 18,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76457
+        "$arrayRef": 85684
       },
       "HeroLiteIDs": {
         "1": 10415369,
@@ -686,7 +686,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415064,
@@ -696,9 +696,9 @@
     {
       "UnitID": 19,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76458
+        "$arrayRef": 85685
       },
       "HeroLiteIDs": {
         "1": 10415615,
@@ -708,9 +708,9 @@
     {
       "UnitID": 19,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76458
+        "$arrayRef": 85685
       },
       "HeroLiteIDs": {
         "1": 10415439,
@@ -722,7 +722,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76458
+        "$arrayRef": 85685
       },
       "HeroLiteIDs": {
         "1": 10415128,
@@ -732,9 +732,9 @@
     {
       "UnitID": 20,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76450
+        "$arrayRef": 85677
       },
       "HeroLiteIDs": {
         "1": 10415655,
@@ -744,9 +744,9 @@
     {
       "UnitID": 20,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76450
+        "$arrayRef": 85677
       },
       "HeroLiteIDs": {
         "1": 10415475,
@@ -758,7 +758,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415154,
@@ -768,9 +768,9 @@
     {
       "UnitID": 21,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76454
+        "$arrayRef": 85681
       },
       "HeroLiteIDs": {
         "1": 10415657,
@@ -780,9 +780,9 @@
     {
       "UnitID": 21,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76454
+        "$arrayRef": 85681
       },
       "HeroLiteIDs": {
         "1": 10415477,
@@ -794,7 +794,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415156,
@@ -804,9 +804,9 @@
     {
       "UnitID": 22,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76459
+        "$arrayRef": 85686
       },
       "HeroLiteIDs": {
         "1": 10415599,
@@ -816,9 +816,9 @@
     {
       "UnitID": 22,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76459
+        "$arrayRef": 85686
       },
       "HeroLiteIDs": {
         "1": 10415425,
@@ -830,7 +830,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415116,
@@ -840,9 +840,9 @@
     {
       "UnitID": 23,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76460
+        "$arrayRef": 85687
       },
       "HeroLiteIDs": {
         "1": 10415575,
@@ -852,9 +852,9 @@
     {
       "UnitID": 23,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
-        "$arrayRef": 76461
+        "$arrayRef": 85688
       },
       "HeroLiteIDs": {
         "1": 10415403,
@@ -864,9 +864,9 @@
     {
       "UnitID": 23,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76461
+        "$arrayRef": 85688
       },
       "HeroLiteIDs": {
         "1": 10415403,
@@ -878,7 +878,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415094,
@@ -888,9 +888,9 @@
     {
       "UnitID": 24,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415541,
@@ -900,9 +900,9 @@
     {
       "UnitID": 24,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415371,
@@ -914,7 +914,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415066,
@@ -924,7 +924,7 @@
     {
       "UnitID": 25,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
         "1": "SitChat",
         "2": "Rest"
@@ -937,7 +937,7 @@
     {
       "UnitID": 25,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
         "1": "SitChat",
         "2": "Idle"
@@ -950,9 +950,9 @@
     {
       "UnitID": 25,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76461
+        "$arrayRef": 85688
       },
       "HeroLiteIDs": {
         "1": 10415441,
@@ -964,7 +964,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76461
+        "$arrayRef": 85688
       },
       "HeroLiteIDs": {
         "1": 10415130,
@@ -974,9 +974,9 @@
     {
       "UnitID": 26,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415583,
@@ -986,9 +986,9 @@
     {
       "UnitID": 26,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415411,
@@ -1000,7 +1000,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415102,
@@ -1010,9 +1010,9 @@
     {
       "UnitID": 27,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76462
+        "$arrayRef": 85689
       },
       "HeroLiteIDs": {
         "1": 10415601,
@@ -1022,9 +1022,9 @@
     {
       "UnitID": 27,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76462
+        "$arrayRef": 85689
       },
       "HeroLiteIDs": {
         "1": 10415427,
@@ -1036,7 +1036,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415118,
@@ -1046,9 +1046,9 @@
     {
       "UnitID": 28,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76434
+        "$arrayRef": 85661
       },
       "HeroLiteIDs": {
         "1": 10415577,
@@ -1058,9 +1058,9 @@
     {
       "UnitID": 28,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76434
+        "$arrayRef": 85661
       },
       "HeroLiteIDs": {
         "1": 10415405,
@@ -1072,7 +1072,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415096,
@@ -1082,9 +1082,9 @@
     {
       "UnitID": 29,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415627,
@@ -1094,9 +1094,9 @@
     {
       "UnitID": 29,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415449,
@@ -1108,7 +1108,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415134,
@@ -1118,9 +1118,9 @@
     {
       "UnitID": 30,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415561,
@@ -1130,9 +1130,9 @@
     {
       "UnitID": 30,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415389,
@@ -1144,7 +1144,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415080,
@@ -1154,9 +1154,9 @@
     {
       "UnitID": 31,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76455
+        "$arrayRef": 85682
       },
       "HeroLiteIDs": {
         "1": 10415647,
@@ -1166,9 +1166,9 @@
     {
       "UnitID": 31,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76455
+        "$arrayRef": 85682
       },
       "HeroLiteIDs": {
         "1": 10415467,
@@ -1180,7 +1180,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76461
+        "$arrayRef": 85688
       },
       "HeroLiteIDs": {
         "1": 10415148,
@@ -1190,9 +1190,9 @@
     {
       "UnitID": 32,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76462
+        "$arrayRef": 85689
       },
       "HeroLiteIDs": {
         "1": 10415521,
@@ -1202,9 +1202,9 @@
     {
       "UnitID": 32,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76462
+        "$arrayRef": 85689
       },
       "HeroLiteIDs": {
         "1": 10415353,
@@ -1216,7 +1216,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415052,
@@ -1226,9 +1226,9 @@
     {
       "UnitID": 33,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76464
+        "$arrayRef": 85691
       },
       "HeroLiteIDs": {
         "1": 10415557,
@@ -1238,9 +1238,9 @@
     {
       "UnitID": 33,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76464
+        "$arrayRef": 85691
       },
       "HeroLiteIDs": {
         "1": 10415385,
@@ -1252,7 +1252,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415076,
@@ -1262,9 +1262,9 @@
     {
       "UnitID": 34,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76465
+        "$arrayRef": 85692
       },
       "HeroLiteIDs": {
         "1": 10415629,
@@ -1274,9 +1274,9 @@
     {
       "UnitID": 34,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76465
+        "$arrayRef": 85692
       },
       "HeroLiteIDs": {
         "1": 10415451,
@@ -1288,7 +1288,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415136,
@@ -1298,7 +1298,7 @@
     {
       "UnitID": 35,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
         "1": "Idle2",
         "2": "SitChat"
@@ -1311,9 +1311,9 @@
     {
       "UnitID": 35,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
-        "$arrayRef": 76445
+        "$arrayRef": 85672
       },
       "HeroLiteIDs": {
         "1": 10415453,
@@ -1323,9 +1323,9 @@
     {
       "UnitID": 35,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415453,
@@ -1337,7 +1337,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415138,
@@ -1347,9 +1347,9 @@
     {
       "UnitID": 36,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76437
+        "$arrayRef": 85664
       },
       "HeroLiteIDs": {
         "1": 10415603,
@@ -1359,9 +1359,9 @@
     {
       "UnitID": 36,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76437
+        "$arrayRef": 85664
       },
       "HeroLiteIDs": {
         "1": 10415429,
@@ -1373,7 +1373,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415120,
@@ -1383,9 +1383,9 @@
     {
       "UnitID": 37,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76466
+        "$arrayRef": 85693
       },
       "HeroLiteIDs": {
         "1": 10415543,
@@ -1395,9 +1395,9 @@
     {
       "UnitID": 37,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76466
+        "$arrayRef": 85693
       },
       "HeroLiteIDs": {
         "1": 10415373,
@@ -1409,7 +1409,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415068,
@@ -1419,9 +1419,9 @@
     {
       "UnitID": 41,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415585,
@@ -1431,9 +1431,9 @@
     {
       "UnitID": 41,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415413,
@@ -1445,7 +1445,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76433
+        "$arrayRef": 85660
       },
       "HeroLiteIDs": {
         "1": 10415104,
@@ -1455,9 +1455,9 @@
     {
       "UnitID": 42,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76467
+        "$arrayRef": 85694
       },
       "HeroLiteIDs": {
         "1": 10415639,
@@ -1467,9 +1467,9 @@
     {
       "UnitID": 42,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76467
+        "$arrayRef": 85694
       },
       "HeroLiteIDs": {
         "1": 10415461,
@@ -1481,7 +1481,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76467
+        "$arrayRef": 85694
       },
       "HeroLiteIDs": {
         "1": 10415144,
@@ -1491,9 +1491,9 @@
     {
       "UnitID": 43,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415559,
@@ -1503,9 +1503,9 @@
     {
       "UnitID": 43,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415387,
@@ -1517,7 +1517,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415078,
@@ -1527,9 +1527,9 @@
     {
       "UnitID": 44,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415523,
@@ -1539,9 +1539,9 @@
     {
       "UnitID": 44,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76437
+        "$arrayRef": 85664
       },
       "HeroLiteIDs": {
         "1": 10415355,
@@ -1553,7 +1553,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415054,
@@ -1563,9 +1563,9 @@
     {
       "UnitID": 45,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76455
+        "$arrayRef": 85682
       },
       "HeroLiteIDs": {
         "1": 10415633,
@@ -1575,9 +1575,9 @@
     {
       "UnitID": 45,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
-        "$arrayRef": 76468
+        "$arrayRef": 85695
       },
       "HeroLiteIDs": {
         "1": 10415455,
@@ -1587,9 +1587,9 @@
     {
       "UnitID": 45,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76468
+        "$arrayRef": 85695
       },
       "HeroLiteIDs": {
         "1": 10415455,
@@ -1601,7 +1601,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76461
+        "$arrayRef": 85688
       },
       "HeroLiteIDs": {
         "1": 10415335,
@@ -1611,9 +1611,9 @@
     {
       "UnitID": 46,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76469
+        "$arrayRef": 85696
       },
       "HeroLiteIDs": {
         "1": 10415587,
@@ -1623,9 +1623,9 @@
     {
       "UnitID": 46,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76469
+        "$arrayRef": 85696
       },
       "HeroLiteIDs": {
         "1": 10415415,
@@ -1637,7 +1637,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415106,
@@ -1647,9 +1647,9 @@
     {
       "UnitID": 47,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76470
+        "$arrayRef": 85697
       },
       "HeroLiteIDs": {
         "1": 10415569,
@@ -1659,9 +1659,9 @@
     {
       "UnitID": 47,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76440
+        "$arrayRef": 85667
       },
       "HeroLiteIDs": {
         "1": 10415397,
@@ -1673,7 +1673,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415088,
@@ -1683,9 +1683,9 @@
     {
       "UnitID": 48,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76460
+        "$arrayRef": 85687
       },
       "HeroLiteIDs": {
         "1": 10415637,
@@ -1695,9 +1695,9 @@
     {
       "UnitID": 48,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76444
+        "$arrayRef": 85671
       },
       "HeroLiteIDs": {
         "1": 10415459,
@@ -1709,7 +1709,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415142,
@@ -1719,9 +1719,9 @@
     {
       "UnitID": 49,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76471
+        "$arrayRef": 85698
       },
       "HeroLiteIDs": {
         "1": 10415649,
@@ -1731,9 +1731,9 @@
     {
       "UnitID": 49,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76471
+        "$arrayRef": 85698
       },
       "HeroLiteIDs": {
         "1": 10415469,
@@ -1745,7 +1745,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76472
+        "$arrayRef": 85699
       },
       "HeroLiteIDs": {
         "1": 10415150,
@@ -1755,7 +1755,7 @@
     {
       "UnitID": 50,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
         "1": "Think",
         "2": "SitCheer"
@@ -1768,9 +1768,9 @@
     {
       "UnitID": 50,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415357,
@@ -1782,7 +1782,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415056,
@@ -1792,9 +1792,9 @@
     {
       "UnitID": 52,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76434
+        "$arrayRef": 85661
       },
       "HeroLiteIDs": {
         "1": 10415565,
@@ -1804,9 +1804,9 @@
     {
       "UnitID": 52,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76434
+        "$arrayRef": 85661
       },
       "HeroLiteIDs": {
         "1": 10415393,
@@ -1818,7 +1818,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415084,
@@ -1828,9 +1828,9 @@
     {
       "UnitID": 53,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76473
+        "$arrayRef": 85700
       },
       "HeroLiteIDs": {
         "1": 10415563,
@@ -1840,9 +1840,9 @@
     {
       "UnitID": 53,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76473
+        "$arrayRef": 85700
       },
       "HeroLiteIDs": {
         "1": 10415391,
@@ -1854,7 +1854,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415082,
@@ -1864,7 +1864,7 @@
     {
       "UnitID": 57,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
         "1": "Idle",
         "2": "Cheer"
@@ -1877,9 +1877,9 @@
     {
       "UnitID": 57,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415431,
@@ -1891,7 +1891,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415122,
@@ -1901,9 +1901,9 @@
     {
       "UnitID": 58,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76473
+        "$arrayRef": 85700
       },
       "HeroLiteIDs": {
         "1": 10415607,
@@ -1913,9 +1913,9 @@
     {
       "UnitID": 58,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76473
+        "$arrayRef": 85700
       },
       "HeroLiteIDs": {
         "1": 10415433,
@@ -1927,7 +1927,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415110,
@@ -1937,9 +1937,9 @@
     {
       "UnitID": 60,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415619,
@@ -1949,9 +1949,9 @@
     {
       "UnitID": 60,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415443,
@@ -1963,7 +1963,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76472
+        "$arrayRef": 85699
       },
       "HeroLiteIDs": {
         "1": 10415132,
@@ -1973,9 +1973,9 @@
     {
       "UnitID": 64,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76450
+        "$arrayRef": 85677
       },
       "HeroLiteIDs": {
         "1": 10415567,
@@ -1985,9 +1985,9 @@
     {
       "UnitID": 64,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76450
+        "$arrayRef": 85677
       },
       "HeroLiteIDs": {
         "1": 10415395,
@@ -1999,7 +1999,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415086,
@@ -2009,9 +2009,9 @@
     {
       "UnitID": 75,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76455
+        "$arrayRef": 85682
       },
       "HeroLiteIDs": {
         "1": 10415641,
@@ -2021,7 +2021,7 @@
     {
       "UnitID": 75,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
         "1": "SitDrink",
         "2": "Cheer"
@@ -2036,7 +2036,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415146,
@@ -2046,9 +2046,9 @@
     {
       "UnitID": 76,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76435
+        "$arrayRef": 85662
       },
       "HeroLiteIDs": {
         "1": 10415651,
@@ -2058,9 +2058,9 @@
     {
       "UnitID": 76,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76444
+        "$arrayRef": 85671
       },
       "HeroLiteIDs": {
         "1": 10415471,
@@ -2072,7 +2072,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415152,
@@ -2082,9 +2082,9 @@
     {
       "UnitID": 81,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76453
+        "$arrayRef": 85680
       },
       "HeroLiteIDs": {
         "1": 10415589,
@@ -2094,9 +2094,9 @@
     {
       "UnitID": 81,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76453
+        "$arrayRef": 85680
       },
       "HeroLiteIDs": {
         "1": 10415417,
@@ -2108,7 +2108,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415108,
@@ -2118,9 +2118,9 @@
     {
       "UnitID": 62,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76474
+        "$arrayRef": 85701
       },
       "HeroLiteIDs": {
         "1": 10415643,
@@ -2130,9 +2130,9 @@
     {
       "UnitID": 62,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76474
+        "$arrayRef": 85701
       },
       "HeroLiteIDs": {
         "1": 10415465,
@@ -2144,7 +2144,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76472
+        "$arrayRef": 85699
       },
       "HeroLiteIDs": {
         "1": 10415318,
@@ -2154,9 +2154,9 @@
     {
       "UnitID": 65,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76464
+        "$arrayRef": 85691
       },
       "HeroLiteIDs": {
         "1": 10415545,
@@ -2166,9 +2166,9 @@
     {
       "UnitID": 65,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415375,
@@ -2180,7 +2180,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76456
+        "$arrayRef": 85683
       },
       "HeroLiteIDs": {
         "1": 10415320,
@@ -2190,9 +2190,9 @@
     {
       "UnitID": 68,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76454
+        "$arrayRef": 85681
       },
       "HeroLiteIDs": {
         "1": 10415621,
@@ -2202,9 +2202,9 @@
     {
       "UnitID": 68,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76454
+        "$arrayRef": 85681
       },
       "HeroLiteIDs": {
         "1": 10415445,
@@ -2216,7 +2216,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415322,
@@ -2226,9 +2226,9 @@
     {
       "UnitID": 66,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76475
+        "$arrayRef": 85702
       },
       "HeroLiteIDs": {
         "1": 10415527,
@@ -2238,9 +2238,9 @@
     {
       "UnitID": 66,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76475
+        "$arrayRef": 85702
       },
       "HeroLiteIDs": {
         "1": 10415359,
@@ -2252,7 +2252,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415324,
@@ -2262,9 +2262,9 @@
     {
       "UnitID": 70,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76437
+        "$arrayRef": 85664
       },
       "HeroLiteIDs": {
         "1": 10415635,
@@ -2274,9 +2274,9 @@
     {
       "UnitID": 70,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415457,
@@ -2288,7 +2288,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415327,
@@ -2298,9 +2298,9 @@
     {
       "UnitID": 71,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76477
+        "$arrayRef": 85704
       },
       "HeroLiteIDs": {
         "1": 10415529,
@@ -2310,9 +2310,9 @@
     {
       "UnitID": 71,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76477
+        "$arrayRef": 85704
       },
       "HeroLiteIDs": {
         "1": 10415361,
@@ -2324,7 +2324,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415329,
@@ -2334,9 +2334,9 @@
     {
       "UnitID": 69,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415623,
@@ -2346,9 +2346,9 @@
     {
       "UnitID": 69,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415447,
@@ -2358,9 +2358,9 @@
     {
       "UnitID": 69,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415447,
@@ -2372,7 +2372,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415331,
@@ -2382,9 +2382,9 @@
     {
       "UnitID": 67,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76470
+        "$arrayRef": 85697
       },
       "HeroLiteIDs": {
         "1": 10415547,
@@ -2394,9 +2394,9 @@
     {
       "UnitID": 67,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415377,
@@ -2406,9 +2406,9 @@
     {
       "UnitID": 67,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415377,
@@ -2420,7 +2420,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415333,
@@ -2430,9 +2430,9 @@
     {
       "UnitID": 78,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76456
+        "$arrayRef": 85683
       },
       "HeroLiteIDs": {
         "1": 10415653,
@@ -2442,9 +2442,9 @@
     {
       "UnitID": 78,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76456
+        "$arrayRef": 85683
       },
       "HeroLiteIDs": {
         "1": 10415473,
@@ -2456,7 +2456,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76456
+        "$arrayRef": 85683
       },
       "HeroLiteIDs": {
         "1": 10415337,
@@ -2466,9 +2466,9 @@
     {
       "UnitID": 56,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415591,
@@ -2478,9 +2478,9 @@
     {
       "UnitID": 56,
       "State": "2",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2) and ed.ConditionX.C_TimeOfDaySetting(\"Night\")",
       "BindActionID": {
-        "$arrayRef": 76451
+        "$arrayRef": 85678
       },
       "HeroLiteIDs": {
         "1": 10415419,
@@ -2490,9 +2490,9 @@
     {
       "UnitID": 56,
       "State": "3",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(152)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76472
+        "$arrayRef": 85699
       },
       "HeroLiteIDs": {
         "1": 10415419,
@@ -2504,7 +2504,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76472
+        "$arrayRef": 85699
       },
       "HeroLiteIDs": {
         "1": 10415339,
@@ -2514,9 +2514,9 @@
     {
       "UnitID": 74,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415609,
@@ -2528,7 +2528,7 @@
       "State": "2",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76472
+        "$arrayRef": 85699
       },
       "HeroLiteIDs": {
         "1": 10415489,
@@ -2538,9 +2538,9 @@
     {
       "UnitID": 84,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415645,
@@ -2552,7 +2552,7 @@
       "State": "2",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415491,
@@ -2562,9 +2562,9 @@
     {
       "UnitID": 59,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76454
+        "$arrayRef": 85681
       },
       "HeroLiteIDs": {
         "1": 10415625,
@@ -2576,7 +2576,7 @@
       "State": "2",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415493,
@@ -2588,7 +2588,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415495,
@@ -2598,9 +2598,9 @@
     {
       "UnitID": 82,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76464
+        "$arrayRef": 85691
       },
       "HeroLiteIDs": {
         "1": 10415531,
@@ -2612,7 +2612,7 @@
       "State": "2",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415497,
@@ -2624,7 +2624,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415499,
@@ -2634,9 +2634,9 @@
     {
       "UnitID": 80,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415549,
@@ -2648,7 +2648,7 @@
       "State": "2",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415501,
@@ -2658,9 +2658,9 @@
     {
       "UnitID": 83,
       "State": "1",
-      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplStepFinished(10010610,1,1)",
+      "Condition": "ed.ConditionX.ScheduleOpenedDays(180)>=1 and ed.ConditionX.IsExplTaskFinished(10010100,2)",
       "BindActionID": {
-        "$arrayRef": 76464
+        "$arrayRef": 85691
       },
       "HeroLiteIDs": {
         "1": 10415593,
@@ -2672,7 +2672,7 @@
       "State": "2",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415503,
@@ -2684,7 +2684,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76461
+        "$arrayRef": 85688
       },
       "HeroLiteIDs": {
         "1": 10415505,
@@ -2696,7 +2696,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415507,
@@ -2708,7 +2708,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415675,
@@ -2720,7 +2720,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415677,
@@ -2732,7 +2732,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415679,
@@ -2744,7 +2744,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415681,
@@ -2756,7 +2756,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415683,
@@ -2768,7 +2768,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415685,
@@ -2780,7 +2780,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415687,
@@ -2792,7 +2792,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415689,
@@ -2804,7 +2804,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415691,
@@ -2816,7 +2816,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415693,
@@ -2828,7 +2828,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415695,
@@ -2840,7 +2840,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76450
+        "$arrayRef": 85677
       },
       "HeroLiteIDs": {
         "1": 10415697,
@@ -2852,7 +2852,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76443
+        "$arrayRef": 85670
       },
       "HeroLiteIDs": {
         "1": 10415701,
@@ -2864,7 +2864,7 @@
       "State": "2",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415714,
@@ -2876,7 +2876,7 @@
       "State": "3",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415716,
@@ -2888,7 +2888,7 @@
       "State": "4",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76441
+        "$arrayRef": 85668
       },
       "HeroLiteIDs": {
         "1": 10415718,
@@ -2900,7 +2900,7 @@
       "State": "5",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415720,
@@ -2912,7 +2912,7 @@
       "State": "6",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415722,
@@ -2924,7 +2924,7 @@
       "State": "7",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415724,
@@ -2936,7 +2936,7 @@
       "State": "8",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415726,
@@ -2948,7 +2948,7 @@
       "State": "9",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415728,
@@ -2960,7 +2960,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76439
+        "$arrayRef": 85666
       },
       "HeroLiteIDs": {
         "1": 10415741,
@@ -2972,7 +2972,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415743,
@@ -2984,7 +2984,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76463
+        "$arrayRef": 85690
       },
       "HeroLiteIDs": {
         "1": 10415745,
@@ -2996,7 +2996,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76449
+        "$arrayRef": 85676
       },
       "HeroLiteIDs": {
         "1": 10415747,
@@ -3008,7 +3008,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76436
+        "$arrayRef": 85663
       },
       "HeroLiteIDs": {
         "1": 10415749,
@@ -3020,7 +3020,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76447
+        "$arrayRef": 85674
       },
       "HeroLiteIDs": {
         "1": 10415751,
@@ -3032,7 +3032,7 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76476
+        "$arrayRef": 85703
       },
       "HeroLiteIDs": {
         "1": 10415753,
@@ -3044,11 +3044,131 @@
       "State": "1",
       "Condition": "true",
       "BindActionID": {
-        "$arrayRef": 76446
+        "$arrayRef": 85673
       },
       "HeroLiteIDs": {
         "1": 10415755,
         "2": 10415756
+      }
+    },
+    {
+      "UnitID": 126,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85666
+      },
+      "HeroLiteIDs": {
+        "1": 10415773,
+        "2": 10415774
+      }
+    },
+    {
+      "UnitID": 134,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85699
+      },
+      "HeroLiteIDs": {
+        "1": 10415775,
+        "2": 10415776
+      }
+    },
+    {
+      "UnitID": 130,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85668
+      },
+      "HeroLiteIDs": {
+        "1": 10415777,
+        "2": 10415778
+      }
+    },
+    {
+      "UnitID": 127,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85663
+      },
+      "HeroLiteIDs": {
+        "1": 10415779,
+        "2": 10415780
+      }
+    },
+    {
+      "UnitID": 135,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85674
+      },
+      "HeroLiteIDs": {
+        "1": 10415781,
+        "2": 10415782
+      }
+    },
+    {
+      "UnitID": 128,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85688
+      },
+      "HeroLiteIDs": {
+        "1": 10415783,
+        "2": 10415784
+      }
+    },
+    {
+      "UnitID": 129,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85688
+      },
+      "HeroLiteIDs": {
+        "1": 10415785,
+        "2": 10415786
+      }
+    },
+    {
+      "UnitID": 133,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85703
+      },
+      "HeroLiteIDs": {
+        "1": 10415787,
+        "2": 10415788
+      }
+    },
+    {
+      "UnitID": 131,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85668
+      },
+      "HeroLiteIDs": {
+        "1": 10415789,
+        "2": 10415790
+      }
+    },
+    {
+      "UnitID": 132,
+      "State": "1",
+      "Condition": "true",
+      "BindActionID": {
+        "$arrayRef": 85674
+      },
+      "HeroLiteIDs": {
+        "1": 10415791,
+        "2": 10415792
       }
     }
   ]

@@ -6,14 +6,12 @@
     "schema_size": 121,
     "row_count": 1,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "HitDisplay",
-      "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 6
+    "unresolved_array_refs": 4
   },
   "default": {
     "CasterID": "null",
@@ -143,9 +141,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5601,
+      "CasterID": 5046,
       "SkillID": 0,
-      "SkillName": "skullminion1_atk",
+      "SkillName": "cubebosssmallwind_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -165,16 +163,16 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
+      "Icon": null,
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "active",
+      "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -182,37 +180,35 @@
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 1,
-      "CD": 0,
-      "InitCD": 0.25,
+      "CD": 9999,
+      "InitCD": 9999,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 130,
-      "VictimMP": 0.1,
-      "TrackType": "projectile",
+      "GainMP": 0,
+      "VictimMP": 1,
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "skullminion",
+      "UseWhich": "woodspecter",
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
-      "HitDisplay": {
-        "$arrayRef": 96643
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96643
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 43
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -246,7 +242,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -258,7 +254,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -273,9 +269,7 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 97669
-      }
+      "ResourceList": {}
     }
   ]
 }

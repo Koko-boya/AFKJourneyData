@@ -4,7 +4,7 @@
     "header_table": "ActivityGatherHeaderTable",
     "format": "flat_rows",
     "schema_size": 10,
-    "row_count": 10,
+    "row_count": 13,
     "array_fields": [
       "ActivityID"
     ],
@@ -32,7 +32,10 @@
     7,
     8,
     9,
-    10
+    10,
+    11,
+    12,
+    13
   ],
   "rows": [
     {
@@ -137,7 +140,7 @@
       "ID": 7,
       "KeyActivityID": 634,
       "ActivityID": {
-        "$arrayRef": 33
+        "$arrayRef": 32
       },
       "Order": 99,
       "Title": "4304077578622791704",
@@ -195,6 +198,54 @@
       "GatherBgPrefab": "UI/Prefabs/Portal/pbui_portal_main_bg_collab_fr.prefab",
       "LogoPrefab": "UI/Prefabs/Activity/ActivityCollab_Fr/pbui_common_collab_fr_logo_only.prefab",
       "EnterIcon": "UI/Sprites/Main/spui_main_btn_activity_collab_fr.png",
+      "TitleClass": null
+    },
+    {
+      "ID": 11,
+      "KeyActivityID": 777,
+      "ActivityID": {
+        "1": 777,
+        "2": 778,
+        "3": 779
+      },
+      "Order": 98,
+      "Title": "4304077578622791704",
+      "TagPrefab": "ui/prefabs/portal/pbui_portal_main_title_bossrush.prefab",
+      "GatherBgPrefab": "ui/prefabs/portal/pbui_portal_main_bg_bossrush.prefab",
+      "LogoPrefab": "UI/Prefabs/Activity/ActivityBossRush/pbui_common_bossrush_logo_only.prefab",
+      "EnterIcon": "UI/Sprites/Main/spui_main_btn_activity.png",
+      "TitleClass": "BossRushPortalImportantActivityTitle"
+    },
+    {
+      "ID": 12,
+      "KeyActivityID": 780,
+      "ActivityID": {
+        "1": 780,
+        "2": 781,
+        "3": 782
+      },
+      "Order": 99,
+      "Title": "4304077578622791704",
+      "TagPrefab": "ui/prefabs/portal/pbui_portal_main_title_bossrush.prefab",
+      "GatherBgPrefab": "ui/prefabs/portal/pbui_portal_main_bg_bossrush.prefab",
+      "LogoPrefab": "UI/Prefabs/Activity/ActivityBossRush/pbui_common_bossrush_logo_only.prefab",
+      "EnterIcon": "UI/Sprites/Main/spui_main_btn_activity.png",
+      "TitleClass": "BossRushPortalImportantActivityTitle"
+    },
+    {
+      "ID": 13,
+      "KeyActivityID": 819,
+      "ActivityID": {
+        "1": 819,
+        "2": 818,
+        "3": 823
+      },
+      "Order": 1,
+      "Title": "92834832221303321",
+      "TagPrefab": "UI/Prefabs/Portal/pbui_portal_main_title_guildmerge.prefab",
+      "GatherBgPrefab": "UI/Prefabs/Portal/pbui_portal_main_bg_guildmerge.prefab",
+      "LogoPrefab": "UI/Prefabs/Activity/ActivityGuildMerge/pbui_common_guildmerge_logo_only.prefab",
+      "EnterIcon": "UI/Sprites/Main/spui_main_btn_activity.png",
       "TitleClass": null
     }
   ]

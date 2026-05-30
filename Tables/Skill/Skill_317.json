@@ -6,16 +6,15 @@
     "schema_size": 121,
     "row_count": 4,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "EvaluateDisplay",
+      "FirstPriority",
       "HitDisplay",
       "ResourceList",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 21
+    "unresolved_array_refs": 16
   },
   "default": {
     "CasterID": "null",
@@ -148,9 +147,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1435,
+      "CasterID": 1416,
       "SkillID": 0,
-      "SkillName": "lowdeadmageb_atk",
+      "SkillName": "dieseamale_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -191,7 +190,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 80,
+      "GainMP": 60,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -199,19 +198,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "HitDisplay": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -221,7 +220,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.3,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -251,7 +250,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -281,10 +280,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1435,
+      "CasterID": 1416,
       "SkillID": 11,
-      "SkillName": "lowdeadmageb_ult",
-      "DisplayName": "4991904966734019278",
+      "SkillName": "dieseamale_ult",
+      "DisplayName": "15562595126155582932",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -303,23 +302,23 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_modify.png",
-      "Description": "5011099028719374178",
-      "SimpleDescription": "9384662756554500469",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
+      "Description": "12557631724375996285",
+      "SimpleDescription": "11649724012306997116",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 48
+        "$arrayRef": 189
       },
       "TargetCamp": 1,
-      "TargetPriority": "maxatk",
+      "TargetPriority": "front",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 10,
+      "TargetBlockType": "noblock",
+      "Priority": 4,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1.25,
@@ -332,17 +331,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "HitDisplay": {},
-      "EvaluateDisplay": {
-        "$arrayRef": 96644
-      },
+      "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -351,14 +348,14 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": -5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 30,
-      "SArg1": 0.2,
-      "SArg2": 0.02,
+      "SArg0": 300,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -400,24 +397,22 @@
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
-      "ImpactEffect": null,
+      "ImpactEffect": "pbfx_impact_common_heal",
       "ImpactEffArgs": {},
-      "ImpactBone": null,
+      "ImpactBone": "Body",
       "ChainJumps": 0,
       "ChainGap": 0,
       "ChainJumpDistance": 0,
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96982
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1435,
+      "CasterID": 1416,
       "SkillID": 21,
-      "SkillName": "lowdeadmageb_atk2",
-      "DisplayName": "13080970261899445835",
+      "SkillName": "dieseamale_atk2",
+      "DisplayName": "2652724813438569496",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -436,28 +431,30 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_dot.png",
-      "Description": "8872814835263857325",
-      "SimpleDescription": "13912953651967342913",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_atk_up.png",
+      "Description": "6004062456767918864",
+      "SimpleDescription": "14545154321116763944",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
-      "FirstPriority": {},
+      "TargetCamp": 1,
+      "TargetPriority": "maxatk",
+      "FirstPriority": {
+        "$arrayRef": 106914
+      },
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "noblock",
       "Priority": 3,
-      "CD": 8,
-      "InitCD": 1.25,
+      "CD": 12,
+      "InitCD": 3,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 80,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -465,15 +462,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96648
+        "$arrayRef": 106915
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96648
+        "$arrayRef": 106915
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -482,14 +479,14 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0.4,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 8,
-      "SArg1": 0,
-      "SArg2": 0,
+      "SArg0": 2,
+      "SArg1": 30,
+      "SArg2": 5,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -540,15 +537,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96983
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1435,
+      "CasterID": 1416,
       "SkillID": 31,
-      "SkillName": "lowdeadmageb_atk3",
-      "DisplayName": "11606784740282893082",
+      "SkillName": "dieseamale_atk3",
+      "DisplayName": "14168983202596325222",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -567,64 +562,58 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_lowdead.png",
-      "Description": "16580036222427149807",
-      "SimpleDescription": "9682976678633995509",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_dieseamonster.png",
+      "Description": "10880185625505124781",
+      "SimpleDescription": "2817118803517730790",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 4,
+      "TargetBlockType": null,
+      "Priority": 10,
       "CD": 9999,
-      "InitCD": 9999,
+      "InitCD": 0,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
-      "HitDisplay": {
-        "$arrayRef": 96649
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96649
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 44
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.5,
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 0.25,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -650,20 +639,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "ground",
-      "TileArt": null,
+      "TileCollideType": "target",
+      "TileArt": "pbfx_tile_dieseafemale_atk2",
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
+      "TileScale": 1,
+      "TileRadius": 0.05,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
+      "TileXZSpeed": 30,
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
-      "FollowTarget": false,
+      "FollowTarget": true,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -678,7 +667,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96980
+        "$arrayRef": 107266
       }
     }
   ]

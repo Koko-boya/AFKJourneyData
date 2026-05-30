@@ -1,0 +1,38 @@
+{
+  "_meta": {
+    "table": "SoulLink",
+    "header_table": "SoulLinkHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 7,
+    "row_count": 1,
+    "array_fields": [
+      "BattleRequiredHeroIDs"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "SpanID": "null",
+    "PotentialPointCap": 0,
+    "TrainSlotCount": 0,
+    "PotentialSlotCount": 0,
+    "PendingPickCount": 0,
+    "TrainRefreshCnt": 0,
+    "BattleRequiredHeroIDs": {}
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "SpanID": 1,
+      "PotentialPointCap": 100,
+      "TrainSlotCount": 3,
+      "PotentialSlotCount": 4,
+      "PendingPickCount": 2,
+      "TrainRefreshCnt": 5,
+      "BattleRequiredHeroIDs": {
+        "$arrayRef": 460
+      }
+    }
+  ]
+}

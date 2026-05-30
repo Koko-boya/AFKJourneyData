@@ -3,9 +3,10 @@
     "table": "VacuityBossAI",
     "header_table": "VacuityBossAIHeaderTable",
     "format": "flat_rows",
-    "schema_size": 20,
-    "row_count": 117,
+    "schema_size": 23,
+    "row_count": 214,
     "array_fields": [
+      "ClickPool",
       "ClipIntervals",
       "EventPool",
       "PoolRefreshTimes",
@@ -15,7 +16,7 @@
       "QueuePool3",
       "SelectedPools"
     ],
-    "unresolved_array_refs": 506
+    "unresolved_array_refs": 879
   },
   "default": {
     "ID": "null",
@@ -37,7 +38,10 @@
     "MoveSpeed": 0,
     "MinRange": 0,
     "MaxAngular": 0,
-    "MoveStraight": false
+    "MoveStraight": false,
+    "ClickPool": {},
+    "SearchRange": 0,
+    "MoveType": null
   },
   "row_keys": [
     1,
@@ -156,7 +160,104 @@
     114,
     115,
     116,
-    117
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214
   ],
   "rows": [
     {
@@ -164,13 +265,13 @@
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -190,26 +291,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 2,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 24
+        "$arrayRef": 23
       },
       "QueuePool1": {
         "1": 11000,
@@ -245,20 +349,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 3,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 24
+        "$arrayRef": 23
       },
       "QueuePool1": {
         "1": 11000,
@@ -294,20 +401,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 4,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 24
+        "$arrayRef": 23
       },
       "QueuePool1": {
         "1": 11000,
@@ -342,20 +452,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 5,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "QueuePool1": {
         "1": 11000,
@@ -384,26 +497,29 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 6,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
-        "$arrayRef": 100665
+        "$arrayRef": 111092
       },
       "QueuePool2": {
-        "$arrayRef": 100669
+        "$arrayRef": 111098
       },
       "QueuePool3": {
         "1": 11000,
@@ -415,32 +531,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 7,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
-        "$arrayRef": 100666
+        "$arrayRef": 111093
       },
       "QueuePool2": {
-        "$arrayRef": 100670
+        "$arrayRef": 111099
       },
       "QueuePool3": {
         "1": 11000,
@@ -452,26 +571,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 8,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -491,26 +613,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 9,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -530,32 +655,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 10,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
-        "$arrayRef": 100665
+        "$arrayRef": 111092
       },
       "QueuePool2": {
-        "$arrayRef": 100669
+        "$arrayRef": 111098
       },
       "QueuePool3": {
         "1": 11000,
@@ -567,32 +695,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 11,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
-        "$arrayRef": 100665
+        "$arrayRef": 111092
       },
       "QueuePool2": {
-        "$arrayRef": 100669
+        "$arrayRef": 111098
       },
       "QueuePool3": {
         "1": 11000,
@@ -604,29 +735,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 12,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
-        "$arrayRef": 100666
+        "$arrayRef": 111093
       },
       "QueuePool2": {
         "1": 11000,
@@ -642,32 +776,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 13,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
-        "$arrayRef": 100666
+        "$arrayRef": 111093
       },
       "QueuePool2": {
-        "$arrayRef": 100670
+        "$arrayRef": 111099
       },
       "QueuePool3": {
         "1": 11000,
@@ -679,32 +816,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 14,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
-        "$arrayRef": 100666
+        "$arrayRef": 111093
       },
       "QueuePool2": {
-        "$arrayRef": 100670
+        "$arrayRef": 111099
       },
       "QueuePool3": {
         "1": 11000,
@@ -716,26 +856,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 15,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -755,26 +898,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 16,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -794,26 +940,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 17,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -833,26 +982,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 18,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -872,26 +1024,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 19,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -911,26 +1066,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 20,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -950,26 +1108,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 21,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 67108
+        "$arrayRef": 76060
       },
       "QueuePool1": {
         "1": 11000,
@@ -989,26 +1150,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100675
+        "$arrayRef": 111108
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 22,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 2453
+        "$arrayRef": 2534
       },
       "QueuePool1": {},
       "QueuePool2": {},
@@ -1033,20 +1197,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 23,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
         "1": 51,
@@ -1064,23 +1231,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 24,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 59
+        "$arrayRef": 58
       },
       "QueuePool1": {
-        "$arrayRef": 2049
+        "$arrayRef": 2130
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1094,23 +1264,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 25,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 100667
+        "$arrayRef": 111094
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1120,29 +1293,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100676
+        "$arrayRef": 111109
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 26,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 196
+        "$arrayRef": 195
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1156,23 +1332,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 27,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 59
+        "$arrayRef": 58
       },
       "QueuePool1": {
-        "$arrayRef": 2943
+        "$arrayRef": 3024
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1186,23 +1365,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 28,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "QueuePool1": {
-        "$arrayRef": 21646
+        "$arrayRef": 21727
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1216,23 +1398,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 29,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 60
+        "$arrayRef": 59
       },
       "QueuePool1": {
-        "$arrayRef": 200
+        "$arrayRef": 199
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1246,17 +1431,20 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 30,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
         "1": 5,
@@ -1295,20 +1483,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 31,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "QueuePool1": {},
       "QueuePool2": {},
@@ -1329,20 +1520,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 32,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "QueuePool1": {},
       "QueuePool2": {},
@@ -1363,23 +1557,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 33,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 100667
+        "$arrayRef": 111094
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1389,26 +1586,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100676
+        "$arrayRef": 111109
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 34,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
         "1": 8030
@@ -1425,20 +1625,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 35,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
         "1": 8031
@@ -1455,23 +1658,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 36,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 1448
+        "$arrayRef": 1529
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1485,23 +1691,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 37,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 69175
+        "$arrayRef": 78154
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1515,23 +1724,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 38,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 68090
+        "$arrayRef": 77045
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1545,23 +1757,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 39,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 21643
+        "$arrayRef": 21724
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1575,23 +1790,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 40,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 14088
+        "$arrayRef": 14169
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1605,23 +1823,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 41,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 1459
+        "$arrayRef": 1540
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1635,23 +1856,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 42,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 7011
+        "$arrayRef": 7092
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1665,23 +1889,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 43,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 57
+        "$arrayRef": 56
       },
       "QueuePool1": {
-        "$arrayRef": 93872
+        "$arrayRef": 104013
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1691,26 +1918,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100677
+        "$arrayRef": 111110
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 44,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 189
+        "$arrayRef": 188
       },
       "QueuePool1": {
         "1": 1078
@@ -1723,23 +1953,26 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100677
+        "$arrayRef": 111110
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 45,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100660
+        "$arrayRef": 111087
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
         "1": 12,
@@ -1750,10 +1983,10 @@
         "1": 1079
       },
       "QueuePool2": {
-        "$arrayRef": 96254
+        "$arrayRef": 106483
       },
       "QueuePool3": {
-        "$arrayRef": 20285
+        "$arrayRef": 20366
       },
       "QueuePool4": {},
       "QueuePool5": {},
@@ -1761,29 +1994,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100677
+        "$arrayRef": 111110
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 46,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 57
+        "$arrayRef": 56
       },
       "QueuePool1": {
-        "$arrayRef": 96260
+        "$arrayRef": 106489
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1793,26 +2029,29 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 47,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 71601
+        "$arrayRef": 80583
       },
       "QueuePool1": {
         "1": 1087
@@ -1825,43 +2064,46 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 96263
+        "$arrayRef": 106492
       },
       "PrefacePoolTime": 3,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 48,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 58168
+        "$arrayRef": 67132
       },
       "QueuePool1": {
-        "$arrayRef": 93883
+        "$arrayRef": 104024
       },
       "QueuePool2": {
-        "$arrayRef": 93885
+        "$arrayRef": 104026
       },
       "QueuePool3": {},
       "QueuePool4": {},
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100671
+        "$arrayRef": 111100
       },
       "PrefacePoolTime": 1,
       "EventPool": {
@@ -1878,26 +2120,29 @@
       "MoveSpeed": 5,
       "MinRange": 7,
       "MaxAngular": 200,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 49,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 77661
+        "$arrayRef": 87051
       },
       "QueuePool1": {
-        "$arrayRef": 93888
+        "$arrayRef": 104029
       },
       "QueuePool2": {
-        "$arrayRef": 93887
+        "$arrayRef": 104028
       },
       "QueuePool3": {},
       "QueuePool4": {},
@@ -1926,17 +2171,20 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 50,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100662
+        "$arrayRef": 111089
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
         "1": 10,
@@ -1944,13 +2192,13 @@
         "3": 13
       },
       "QueuePool1": {
-        "$arrayRef": 93884
+        "$arrayRef": 104025
       },
       "QueuePool2": {
-        "$arrayRef": 93886
+        "$arrayRef": 104027
       },
       "QueuePool3": {
-        "$arrayRef": 3702
+        "$arrayRef": 3783
       },
       "QueuePool4": {},
       "QueuePool5": {},
@@ -1973,23 +2221,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 51,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 183
+        "$arrayRef": 182
       },
       "QueuePool1": {
-        "$arrayRef": 93889
+        "$arrayRef": 104030
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -1997,7 +2248,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100671
+        "$arrayRef": 111100
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2005,20 +2256,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 52,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "QueuePool1": {},
       "QueuePool2": {},
@@ -2027,7 +2281,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100671
+        "$arrayRef": 111100
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2035,20 +2289,23 @@
       "MoveSpeed": 6,
       "MinRange": 1,
       "MaxAngular": 50,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 53,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "QueuePool1": {},
       "QueuePool2": {},
@@ -2066,20 +2323,23 @@
       "MoveSpeed": 7,
       "MinRange": 1,
       "MaxAngular": 50,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 54,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
         "1": 1109
@@ -2090,7 +2350,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100672
+        "$arrayRef": 111101
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2098,23 +2358,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 55,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "QueuePool1": {
-        "$arrayRef": 93890
+        "$arrayRef": 104031
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2122,7 +2385,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100673
+        "$arrayRef": 111102
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2130,23 +2393,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 56,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "QueuePool1": {
-        "$arrayRef": 75043
+        "$arrayRef": 84229
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2154,7 +2420,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100673
+        "$arrayRef": 111102
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2162,23 +2428,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 57,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "QueuePool1": {
-        "$arrayRef": 93891
+        "$arrayRef": 104032
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2186,7 +2455,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100673
+        "$arrayRef": 111102
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2194,23 +2463,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 58,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "QueuePool1": {
-        "$arrayRef": 21882
+        "$arrayRef": 21962
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2218,7 +2490,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100673
+        "$arrayRef": 111102
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2226,20 +2498,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 59,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
         "1": 1112
@@ -2258,26 +2533,29 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 60,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100663
+        "$arrayRef": 111090
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 100664
+        "$arrayRef": 111091
       },
       "QueuePool1": {
-        "$arrayRef": 93897
+        "$arrayRef": 104038
       },
       "QueuePool2": {
-        "$arrayRef": 93905
+        "$arrayRef": 104046
       },
       "QueuePool3": {},
       "QueuePool4": {},
@@ -2286,32 +2564,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 61,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100663
+        "$arrayRef": 111090
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 100664
+        "$arrayRef": 111091
       },
       "QueuePool1": {
         "1": 1114
       },
       "QueuePool2": {
-        "$arrayRef": 93904
+        "$arrayRef": 104045
       },
       "QueuePool3": {},
       "QueuePool4": {},
@@ -2320,32 +2601,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 62,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100663
+        "$arrayRef": 111090
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 100664
+        "$arrayRef": 111091
       },
       "QueuePool1": {
-        "$arrayRef": 93901
+        "$arrayRef": 104042
       },
       "QueuePool2": {
-        "$arrayRef": 93906
+        "$arrayRef": 104047
       },
       "QueuePool3": {},
       "QueuePool4": {},
@@ -2354,32 +2638,35 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 63,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100663
+        "$arrayRef": 111090
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 100664
+        "$arrayRef": 111091
       },
       "QueuePool1": {
-        "$arrayRef": 93902
+        "$arrayRef": 104043
       },
       "QueuePool2": {
-        "$arrayRef": 93903
+        "$arrayRef": 104044
       },
       "QueuePool3": {},
       "QueuePool4": {},
@@ -2388,29 +2675,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 64,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 93883
+        "$arrayRef": 104024
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2424,23 +2714,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 65,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 3711
+        "$arrayRef": 3792
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2460,26 +2753,29 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 66,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 72126
+        "$arrayRef": 81123
       },
       "QueuePool1": {
-        "$arrayRef": 22245
+        "$arrayRef": 22325
       },
       "QueuePool2": {
-        "$arrayRef": 66874
+        "$arrayRef": 75826
       },
       "QueuePool3": {},
       "QueuePool4": {},
@@ -2488,35 +2784,38 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 67,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100662
+        "$arrayRef": 111089
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 72180
+        "$arrayRef": 81179
       },
       "QueuePool1": {
-        "$arrayRef": 70467
+        "$arrayRef": 79444
       },
       "QueuePool2": {
-        "$arrayRef": 75044
+        "$arrayRef": 84230
       },
       "QueuePool3": {
-        "$arrayRef": 75045
+        "$arrayRef": 84231
       },
       "QueuePool4": {},
       "QueuePool5": {},
@@ -2524,29 +2823,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 68,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 187
+        "$arrayRef": 186
       },
       "QueuePool1": {
-        "$arrayRef": 75046
+        "$arrayRef": 84232
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2556,29 +2858,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 69,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 75047
+        "$arrayRef": 84233
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2586,7 +2891,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100674
+        "$arrayRef": 111103
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2594,23 +2899,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 70,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 93907
+        "$arrayRef": 104048
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2618,7 +2926,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100674
+        "$arrayRef": 111103
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2626,23 +2934,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 71,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 76548
+        "$arrayRef": 85778
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2650,7 +2961,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100674
+        "$arrayRef": 111103
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2658,23 +2969,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 72,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 3406
+        "$arrayRef": 3487
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2682,7 +2996,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100674
+        "$arrayRef": 111103
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2690,23 +3004,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 73,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "QueuePool1": {
-        "$arrayRef": 93908
+        "$arrayRef": 104049
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2714,7 +3031,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100674
+        "$arrayRef": 111103
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2722,23 +3039,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 74,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 93909
+        "$arrayRef": 104050
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2746,7 +3066,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100674
+        "$arrayRef": 111103
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2754,23 +3074,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 75,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "QueuePool1": {
-        "$arrayRef": 93910
+        "$arrayRef": 104051
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2778,7 +3101,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100674
+        "$arrayRef": 111103
       },
       "PrefacePoolTime": 1,
       "EventPool": {},
@@ -2786,23 +3109,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 76,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 57374
+        "$arrayRef": 66285
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2816,23 +3142,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 77,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 2785
+        "$arrayRef": 2866
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -2846,110 +3175,23 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 78,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
-      "QueuePool1": {
-        "$arrayRef": 219
-      },
-      "QueuePool2": {},
-      "QueuePool3": {},
-      "QueuePool4": {},
-      "QueuePool5": {},
-      "QueuePool6": {},
-      "PrefacePool": {},
-      "PrefacePoolTime": 0,
-      "EventPool": {},
-      "ItemPointRes": null,
-      "MoveSpeed": 0,
-      "MinRange": 0,
-      "MaxAngular": 0,
-      "MoveStraight": false
-    },
-    {
-      "ID": 79,
-      "EnablePriority": false,
-      "VacuityBossClipMode": 3,
-      "ClipIntervals": {
-        "$arrayRef": 44
-      },
       "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
-      "QueuePool1": {
-        "$arrayRef": 65
-      },
-      "QueuePool2": {},
-      "QueuePool3": {},
-      "QueuePool4": {},
-      "QueuePool5": {},
-      "QueuePool6": {},
-      "PrefacePool": {},
-      "PrefacePoolTime": 0,
-      "EventPool": {},
-      "ItemPointRes": null,
-      "MoveSpeed": 0,
-      "MinRange": 0,
-      "MaxAngular": 0,
-      "MoveStraight": false
-    },
-    {
-      "ID": 80,
-      "EnablePriority": false,
-      "VacuityBossClipMode": 3,
-      "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
       "PoolRefreshTimes": {
-        "$arrayRef": 43
-      },
-      "QueuePool1": {
-        "$arrayRef": 217
-      },
-      "QueuePool2": {},
-      "QueuePool3": {},
-      "QueuePool4": {},
-      "QueuePool5": {},
-      "QueuePool6": {},
-      "PrefacePool": {},
-      "PrefacePoolTime": 0,
-      "EventPool": {},
-      "ItemPointRes": null,
-      "MoveSpeed": 0,
-      "MinRange": 0,
-      "MaxAngular": 0,
-      "MoveStraight": false
-    },
-    {
-      "ID": 81,
-      "EnablePriority": false,
-      "VacuityBossClipMode": 3,
-      "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "QueuePool1": {
         "$arrayRef": 218
@@ -2966,80 +3208,122 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 79,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
+      "QueuePool1": {
+        "$arrayRef": 64
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 80,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
+      "QueuePool1": {
+        "$arrayRef": 216
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 81,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
+      "QueuePool1": {
+        "$arrayRef": 217
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 82,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
-      "QueuePool1": {
-        "$arrayRef": 222
-      },
-      "QueuePool2": {},
-      "QueuePool3": {},
-      "QueuePool4": {},
-      "QueuePool5": {},
-      "QueuePool6": {},
-      "PrefacePool": {},
-      "PrefacePoolTime": 0,
-      "EventPool": {},
-      "ItemPointRes": null,
-      "MoveSpeed": 0,
-      "MinRange": 0,
-      "MaxAngular": 0,
-      "MoveStraight": false
-    },
-    {
-      "ID": 83,
-      "EnablePriority": false,
-      "VacuityBossClipMode": 3,
-      "ClipIntervals": {
-        "$arrayRef": 44
-      },
       "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
-      "QueuePool1": {
-        "$arrayRef": 57375
-      },
-      "QueuePool2": {},
-      "QueuePool3": {},
-      "QueuePool4": {},
-      "QueuePool5": {},
-      "QueuePool6": {},
-      "PrefacePool": {},
-      "PrefacePoolTime": 0,
-      "EventPool": {},
-      "ItemPointRes": null,
-      "MoveSpeed": 0,
-      "MinRange": 0,
-      "MaxAngular": 0,
-      "MoveStraight": false
-    },
-    {
-      "ID": 84,
-      "EnablePriority": false,
-      "VacuityBossClipMode": 3,
-      "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
       "PoolRefreshTimes": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "QueuePool1": {
         "$arrayRef": 221
@@ -3056,23 +3340,92 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 83,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
+      "QueuePool1": {
+        "$arrayRef": 66286
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 84,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
+      "QueuePool1": {
+        "$arrayRef": 220
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 85,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 96339
+        "$arrayRef": 85651
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3086,23 +3439,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 86,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "1": 129
+        "$arrayRef": 111072
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3116,23 +3472,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 87,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 67
+        "$arrayRef": 66
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3146,23 +3505,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 88,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 12674
+        "$arrayRef": 12755
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3176,26 +3538,29 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 89,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100661
+        "$arrayRef": 111088
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 76884
+        "$arrayRef": 86116
       },
       "QueuePool1": {
-        "$arrayRef": 93911
+        "$arrayRef": 104052
       },
       "QueuePool2": {
-        "$arrayRef": 93912
+        "$arrayRef": 104053
       },
       "QueuePool3": {},
       "QueuePool4": {},
@@ -3204,35 +3569,38 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 90,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100662
+        "$arrayRef": 111089
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 72180
+        "$arrayRef": 81179
       },
       "QueuePool1": {
-        "$arrayRef": 93913
+        "$arrayRef": 104054
       },
       "QueuePool2": {
-        "$arrayRef": 96261
+        "$arrayRef": 106490
       },
       "QueuePool3": {
-        "$arrayRef": 93914
+        "$arrayRef": 104055
       },
       "QueuePool4": {},
       "QueuePool5": {},
@@ -3240,29 +3608,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 91,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 187
+        "$arrayRef": 186
       },
       "QueuePool1": {
-        "$arrayRef": 93917
+        "$arrayRef": 104058
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3272,29 +3643,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 92,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "QueuePool1": {
-        "$arrayRef": 93916
+        "$arrayRef": 104057
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3308,23 +3682,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 93,
       "EnablePriority": false,
       "VacuityBossClipMode": 3,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "QueuePool1": {
-        "$arrayRef": 78216
+        "$arrayRef": 87619
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3338,23 +3715,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 94,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 4000
+        "$arrayRef": 4081
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3362,7 +3742,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100672
+        "$arrayRef": 111101
       },
       "PrefacePoolTime": 1,
       "EventPool": {
@@ -3387,23 +3767,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 95,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 78219
+        "$arrayRef": 87622
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3419,23 +3802,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 96,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
-      },
-      "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 78219
+        "$arrayRef": 87622
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3452,23 +3838,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 97,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "QueuePool1": {
-        "$arrayRef": 94462
+        "$arrayRef": 95449
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3484,24 +3873,27 @@
       "MoveSpeed": 2,
       "MinRange": 3,
       "MaxAngular": 150,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 98,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100663
+        "$arrayRef": 111090
       },
       "SelectedPools": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PoolRefreshTimes": {
         "1": 12,
         "2": 19
       },
       "QueuePool1": {
-        "$arrayRef": 55004
+        "$arrayRef": 55084
       },
       "QueuePool2": {
         "1": 1156
@@ -3513,23 +3905,26 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 99,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 100662
+        "$arrayRef": 111089
       },
       "SelectedPools": {
-        "$arrayRef": 450
+        "$arrayRef": 458
       },
       "PoolRefreshTimes": {
         "1": 14,
@@ -3540,10 +3935,10 @@
         "1": 1157
       },
       "QueuePool2": {
-        "$arrayRef": 75051
+        "$arrayRef": 84237
       },
       "QueuePool3": {
-        "$arrayRef": 75052
+        "$arrayRef": 84238
       },
       "QueuePool4": {},
       "QueuePool5": {},
@@ -3551,29 +3946,32 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 100,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "QueuePool1": {
-        "$arrayRef": 3681
+        "$arrayRef": 3762
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3583,23 +3981,26 @@
       "PrefacePool": {},
       "PrefacePoolTime": 0,
       "EventPool": {
-        "$arrayRef": 100678
+        "$arrayRef": 111111
       },
       "ItemPointRes": null,
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 101,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {},
       "QueuePool1": {},
@@ -3609,7 +4010,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100672
+        "$arrayRef": 111101
       },
       "PrefacePoolTime": 1,
       "EventPool": {
@@ -3648,23 +4049,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 102,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "QueuePool1": {
-        "$arrayRef": 100668
+        "$arrayRef": 111095
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3678,23 +4082,26 @@
       "MoveSpeed": 2,
       "MinRange": 1,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 103,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "QueuePool1": {
-        "$arrayRef": 68095
+        "$arrayRef": 77049
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3708,23 +4115,26 @@
       "MoveSpeed": 2,
       "MinRange": 1,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 104,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 238
+        "$arrayRef": 237
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3738,23 +4148,26 @@
       "MoveSpeed": 2,
       "MinRange": 5,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 105,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 1453
+        "$arrayRef": 1534
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3768,17 +4181,20 @@
       "MoveSpeed": 2,
       "MinRange": 5,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 106,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {},
       "QueuePool1": {},
@@ -3788,7 +4204,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100672
+        "$arrayRef": 111101
       },
       "PrefacePoolTime": 1,
       "EventPool": {
@@ -3829,23 +4245,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 107,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "QueuePool1": {
-        "$arrayRef": 100668
+        "$arrayRef": 111095
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3859,23 +4278,26 @@
       "MoveSpeed": 2,
       "MinRange": 1,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 108,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "QueuePool1": {
-        "$arrayRef": 68095
+        "$arrayRef": 77049
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3889,23 +4311,26 @@
       "MoveSpeed": 2,
       "MinRange": 1,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 109,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 238
+        "$arrayRef": 237
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3919,23 +4344,26 @@
       "MoveSpeed": 2,
       "MinRange": 5,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 110,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "QueuePool1": {
-        "$arrayRef": 1453
+        "$arrayRef": 1534
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -3949,17 +4377,20 @@
       "MoveSpeed": 2,
       "MinRange": 5,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 111,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {},
       "QueuePool1": {},
@@ -3969,7 +4400,7 @@
       "QueuePool5": {},
       "QueuePool6": {},
       "PrefacePool": {
-        "$arrayRef": 100672
+        "$arrayRef": 111101
       },
       "PrefacePoolTime": 1,
       "EventPool": {
@@ -4017,23 +4448,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 112,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "QueuePool1": {
-        "$arrayRef": 68095
+        "$arrayRef": 77049
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -4047,23 +4481,26 @@
       "MoveSpeed": 2,
       "MinRange": 1,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 113,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 1453
+        "$arrayRef": 1534
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -4077,23 +4514,26 @@
       "MoveSpeed": 2,
       "MinRange": 5,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 114,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "QueuePool1": {
-        "$arrayRef": 1453
+        "$arrayRef": 1534
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -4107,23 +4547,26 @@
       "MoveSpeed": 2,
       "MinRange": 5,
       "MaxAngular": 100,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 115,
       "EnablePriority": false,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 57
+        "$arrayRef": 56
       },
       "QueuePool1": {
-        "$arrayRef": 93892
+        "$arrayRef": 104033
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -4140,23 +4583,26 @@
       "MoveSpeed": 0,
       "MinRange": 0,
       "MaxAngular": 0,
-      "MoveStraight": false
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 116,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 1470
+        "$arrayRef": 1551
       },
       "SelectedPools": {
-        "$arrayRef": 44
-      },
-      "PoolRefreshTimes": {
         "$arrayRef": 43
       },
+      "PoolRefreshTimes": {
+        "$arrayRef": 42
+      },
       "QueuePool1": {
-        "$arrayRef": 249
+        "$arrayRef": 248
       },
       "QueuePool2": {},
       "QueuePool3": {},
@@ -4170,20 +4616,23 @@
       "MoveSpeed": 1,
       "MinRange": 2,
       "MaxAngular": 150,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
     },
     {
       "ID": 117,
       "EnablePriority": true,
       "VacuityBossClipMode": 1,
       "ClipIntervals": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "SelectedPools": {
-        "$arrayRef": 44
+        "$arrayRef": 43
       },
       "PoolRefreshTimes": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "QueuePool1": {
         "1": 208
@@ -4203,7 +4652,3503 @@
       "MoveSpeed": 1,
       "MinRange": 7,
       "MaxAngular": 300,
-      "MoveStraight": true
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 118,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111111
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 119,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111111
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 120,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111111
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 121,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "$arrayRef": 111112
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.8,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 122,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10010,
+        "2": 10021,
+        "3": 0,
+        "4": 60001,
+        "5": 0,
+        "6": 40011,
+        "7": 10022,
+        "8": 0,
+        "9": 40009,
+        "10": 19023,
+        "11": 0,
+        "12": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.8,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 123,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "$arrayRef": 111112
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.8,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 124,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 125,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111111
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 126,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111111
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 127,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10010,
+        "2": 10021,
+        "3": 0,
+        "4": 50004,
+        "5": 0,
+        "6": 22003,
+        "7": 40004,
+        "8": 50005,
+        "9": 0,
+        "10": 22004,
+        "11": 40005,
+        "12": 50008,
+        "13": 0,
+        "14": 40008,
+        "15": 10022,
+        "16": 0,
+        "17": 10024,
+        "18": 10021
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.8,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 128,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10010,
+        "2": 10021,
+        "3": 0,
+        "4": 50002,
+        "5": 0,
+        "6": 22001,
+        "7": 40002,
+        "8": 50005,
+        "9": 0,
+        "10": 22005,
+        "11": 40005,
+        "12": 50009,
+        "13": 0,
+        "14": 40009,
+        "15": 10022,
+        "16": 0,
+        "17": 10024,
+        "18": 10021
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.8,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 129,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "1": 22001,
+        "2": 10022,
+        "3": 0,
+        "4": 10024,
+        "5": 10021
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 130,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 20367
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 22001,
+        "2": 10022,
+        "3": 0,
+        "4": 50002,
+        "5": 0,
+        "6": 40002,
+        "7": 50003,
+        "8": 0,
+        "9": 40003,
+        "10": 50005,
+        "11": 0,
+        "12": 40005,
+        "13": 50006,
+        "14": 0,
+        "15": 40006,
+        "16": 1184,
+        "17": 230,
+        "18": 50008,
+        "19": 0,
+        "20": 40008,
+        "21": 232,
+        "22": 233,
+        "23": 1218,
+        "24": 50010,
+        "25": 0,
+        "26": 40010,
+        "27": 1218,
+        "28": 50013,
+        "29": 0,
+        "30": 40013,
+        "31": 50015,
+        "32": 0,
+        "33": 40015,
+        "34": 50016,
+        "35": 0,
+        "36": 40016,
+        "37": 1174,
+        "38": 50017,
+        "39": 0,
+        "40": 40017,
+        "41": 50018,
+        "42": 0,
+        "43": 40018,
+        "44": 1218,
+        "45": 50019,
+        "46": 0,
+        "47": 40019,
+        "48": 50020,
+        "49": 0,
+        "50": 40020,
+        "51": 50021,
+        "52": 0,
+        "53": 40021,
+        "54": 1184,
+        "55": 50022,
+        "56": 0,
+        "57": 40022,
+        "58": 1176,
+        "59": 50023,
+        "60": 0,
+        "61": 40023,
+        "62": 50024,
+        "63": 0,
+        "64": 40024,
+        "65": 1218,
+        "66": 50025,
+        "67": 0,
+        "68": 40025,
+        "69": 50026,
+        "70": 0,
+        "71": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 1.3,
+      "MinRange": 2,
+      "MaxAngular": 350,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 30,
+      "MoveType": "walk"
+    },
+    {
+      "ID": 131,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84432
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 132,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 1676
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 5,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 133,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 134,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 2883
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 135,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 1676
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 5,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 136,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 137,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 2842
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 138,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 1676
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 5,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 139,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 140,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 76063
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 141,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 1676
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 5,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 142,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 143,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 4056
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 144,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 1676
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 5,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 145,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 146,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 0,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 147,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 1676
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 5,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 148,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 149,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 111089
+      },
+      "SelectedPools": {
+        "$arrayRef": 458
+      },
+      "PoolRefreshTimes": {
+        "1": 6,
+        "2": 9,
+        "3": 10
+      },
+      "QueuePool1": {
+        "$arrayRef": 14204
+      },
+      "QueuePool2": {
+        "$arrayRef": 4118
+      },
+      "QueuePool3": {
+        "$arrayRef": 106493
+      },
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10024,
+        "2": 10021,
+        "3": 0,
+        "4": 10027,
+        "5": 1206,
+        "6": 0,
+        "7": 10028,
+        "8": 1207,
+        "9": 1206,
+        "10": 0,
+        "11": 10029,
+        "12": 1206,
+        "13": 0,
+        "14": 10030,
+        "15": 1206,
+        "16": 0,
+        "17": 10031,
+        "18": 1214,
+        "19": 1215,
+        "20": 1207,
+        "21": 0,
+        "22": 10032,
+        "23": 1206,
+        "24": 1208,
+        "25": 1209,
+        "26": 0,
+        "27": 10033,
+        "28": 293,
+        "29": 1207,
+        "30": 0,
+        "31": 10009,
+        "32": 1209,
+        "33": 0,
+        "34": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 150,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 423
+      },
+      "QueuePool1": {
+        "1": 217
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 151,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 152,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 153,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 154,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 155,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 156,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 157,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 111096
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111104
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "$arrayRef": 111113
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {
+        "$arrayRef": 111115
+      },
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 158,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "1": 10001,
+        "2": 18004
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "1": 10002,
+        "2": 18004,
+        "3": 0,
+        "4": 10006,
+        "5": 18004,
+        "6": 0,
+        "7": 10010,
+        "8": 10021
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 159,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "$arrayRef": 111114
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.8,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 160,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "$arrayRef": 111114
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 1.2,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 161,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "$arrayRef": 111114
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 1.2,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 162,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "$arrayRef": 111114
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 1.2,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 163,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10010,
+        "2": 10021,
+        "3": 0,
+        "4": 50004,
+        "5": 0,
+        "6": 22003,
+        "7": 40004,
+        "8": 50005,
+        "9": 0,
+        "10": 22004,
+        "11": 40005,
+        "12": 50008,
+        "13": 0,
+        "14": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.7,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 164,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10010,
+        "2": 10021,
+        "3": 0,
+        "4": 50002,
+        "5": 0,
+        "6": 22001,
+        "7": 40002,
+        "8": 50005,
+        "9": 0,
+        "10": 22005,
+        "11": 40005,
+        "12": 50008,
+        "13": 0,
+        "14": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0.7,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 165,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "1": 80,
+        "2": 0
+      },
+      "SelectedPools": {
+        "$arrayRef": 460
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 86105
+      },
+      "QueuePool1": {
+        "1": 1210
+      },
+      "QueuePool2": {
+        "$arrayRef": 104070
+      },
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10024,
+        "2": 10021,
+        "3": 0,
+        "4": 10027,
+        "5": 1211,
+        "6": 0,
+        "7": 10029,
+        "8": 288,
+        "9": 1211,
+        "10": 287,
+        "11": 1212,
+        "12": 0,
+        "13": 10032,
+        "14": 287,
+        "15": 1212,
+        "16": 288,
+        "17": 1211,
+        "18": 0,
+        "19": 10035,
+        "20": 288,
+        "21": 1211,
+        "22": 287,
+        "23": 1212,
+        "24": 0,
+        "25": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 166,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 2448
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 167,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 44
+      },
+      "QueuePool1": {
+        "$arrayRef": 2449
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 168,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 2450
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 169,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 2451
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 170,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 2448
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 171,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "1": 80,
+        "2": 60,
+        "3": 0
+      },
+      "SelectedPools": {
+        "$arrayRef": 458
+      },
+      "PoolRefreshTimes": {
+        "1": 4,
+        "2": 5,
+        "3": 5
+      },
+      "QueuePool1": {
+        "$arrayRef": 84246
+      },
+      "QueuePool2": {
+        "$arrayRef": 84247
+      },
+      "QueuePool3": {
+        "$arrayRef": 84248
+      },
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {
+        "1": 10024,
+        "2": 10021,
+        "3": 0,
+        "4": 10003,
+        "5": 1198,
+        "6": 1216,
+        "7": 0,
+        "8": 10005,
+        "9": 1198,
+        "10": 1216,
+        "11": 0,
+        "12": 10007,
+        "13": 1213,
+        "14": 0,
+        "15": 10032,
+        "16": 1217,
+        "17": 0,
+        "18": 10008,
+        "19": 16021,
+        "20": 0,
+        "21": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 172,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 4,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 43
+      },
+      "QueuePool1": {
+        "$arrayRef": 2457
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 173,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "1": 16020,
+        "2": 292
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 174,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 4,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 43
+      },
+      "QueuePool1": {
+        "$arrayRef": 5918
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 175,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 4,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 43
+      },
+      "QueuePool1": {
+        "$arrayRef": 2459
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 176,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 4,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 43
+      },
+      "QueuePool1": {
+        "$arrayRef": 3045
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 177,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 47
+      },
+      "QueuePool1": {
+        "$arrayRef": 2460
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 178,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "1": 22013,
+        "2": 1193,
+        "3": 0,
+        "4": 22007,
+        "5": 1194,
+        "6": 0,
+        "7": 22000,
+        "8": 1192,
+        "9": 0,
+        "10": 18005,
+        "11": 10022,
+        "12": 0,
+        "13": 10019,
+        "14": 10021
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 179,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 111097
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111105
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 360,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 180,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 84578
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111105
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 360,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 181,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 104143
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111106
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 6,
+      "MaxAngular": 100,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 182,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 76066
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111106
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 6,
+      "MaxAngular": 100,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 183,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "1": 1187
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111106
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 6,
+      "MaxAngular": 100,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 184,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111107
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 185,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111107
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 186,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111107
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "1": 22007,
+        "2": 1182,
+        "3": 0,
+        "4": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 187,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111107
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "1": 22010,
+        "2": 1183,
+        "3": 0,
+        "4": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 188,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 189,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 190,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 2,
+      "MaxAngular": 150,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 191,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 104065
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111106
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 6,
+      "MaxAngular": 100,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 192,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 104063
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111106
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 6,
+      "MaxAngular": 100,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 193,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 104064
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111106
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 6,
+      "MaxAngular": 100,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 194,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "1": 90003
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "1": 16019
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 1,
+      "MaxAngular": 100,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 195,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 58
+      },
+      "QueuePool1": {
+        "$arrayRef": 2462
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 196,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 59
+      },
+      "QueuePool1": {
+        "$arrayRef": 2465
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 197,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 60
+      },
+      "QueuePool1": {
+        "1": 8070
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": "pathfinding/vacuity/item_1_point.prefab",
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 198,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 60
+      },
+      "QueuePool1": {
+        "1": 8071
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": "pathfinding/vacuity/item_1_point.prefab",
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 199,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 61
+      },
+      "QueuePool1": {
+        "$arrayRef": 5948
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 200,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 46
+      },
+      "QueuePool1": {
+        "$arrayRef": 7110
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 201,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 60
+      },
+      "QueuePool1": {
+        "$arrayRef": 2463
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 202,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 181
+      },
+      "QueuePool1": {
+        "$arrayRef": 2845
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 203,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 204,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {
+        "1": 10024,
+        "2": 10021,
+        "3": 0,
+        "4": 22000,
+        "5": 22001,
+        "6": 22002,
+        "7": 10022,
+        "8": 0,
+        "9": 22003,
+        "10": 10021,
+        "11": 0,
+        "12": 0
+      },
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 205,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84429
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 206,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 84432
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 207,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 1676
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 5,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
+    },
+    {
+      "ID": 208,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 209,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 1551
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 45
+      },
+      "QueuePool1": {
+        "$arrayRef": 2466
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 150,
+      "MoveStraight": true,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 210,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {},
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111101
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 211,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 4,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 2847
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 212,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 4,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 5952
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 213,
+      "EnablePriority": false,
+      "VacuityBossClipMode": 3,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {
+        "$arrayRef": 47
+      },
+      "QueuePool1": {
+        "$arrayRef": 8300
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {},
+      "PrefacePoolTime": 0,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 0,
+      "MinRange": 0,
+      "MaxAngular": 0,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": null
+    },
+    {
+      "ID": 214,
+      "EnablePriority": true,
+      "VacuityBossClipMode": 1,
+      "ClipIntervals": {
+        "$arrayRef": 43
+      },
+      "SelectedPools": {
+        "$arrayRef": 43
+      },
+      "PoolRefreshTimes": {},
+      "QueuePool1": {
+        "$arrayRef": 111097
+      },
+      "QueuePool2": {},
+      "QueuePool3": {},
+      "QueuePool4": {},
+      "QueuePool5": {},
+      "QueuePool6": {},
+      "PrefacePool": {
+        "$arrayRef": 111105
+      },
+      "PrefacePoolTime": 1,
+      "EventPool": {},
+      "ItemPointRes": null,
+      "MoveSpeed": 1,
+      "MinRange": 1,
+      "MaxAngular": 360,
+      "MoveStraight": false,
+      "ClickPool": {},
+      "SearchRange": 0,
+      "MoveType": "run"
     }
   ]
 }

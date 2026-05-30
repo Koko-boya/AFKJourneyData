@@ -4,7 +4,7 @@
     "header_table": "ScheduleOpenHeaderTable",
     "format": "flat_rows",
     "schema_size": 9,
-    "row_count": 688,
+    "row_count": 737,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -696,6 +696,13 @@
     772,
     773,
     775,
+    777,
+    778,
+    779,
+    780,
+    781,
+    782,
+    783,
     785,
     787,
     786,
@@ -703,11 +710,53 @@
     789,
     790,
     791,
+    792,
+    793,
     769,
     799,
     800,
     801,
-    802
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    829,
+    830,
+    831,
+    832,
+    833,
+    834,
+    835,
+    836,
+    837,
+    838,
+    839,
+    840,
+    841,
+    846,
+    847,
+    849
   ],
   "rows": [
     {
@@ -719,9 +768,9 @@
       "ScheduleIDs": {
         "1": 1
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -734,9 +783,9 @@
       "ScheduleIDs": {
         "1": 2
       },
-      "Condition": "(ed.ConditionX.HSBuildingMaxLv(2,1)>=4) or (ed.ConditionX.IsStageReachPoint(1125))",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\") or (ed.ConditionX.IsStageReachPoint(1125))",
       "ServerEvents": {
-        "1": "HSUpgradeConfirm:2:1",
+        "1": "UnlockModule:MainCity",
         "2": "StageAddPoint:1125"
       },
       "IsEnable": true
@@ -808,9 +857,9 @@
       "ScheduleIDs": {
         "1": 8
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -894,9 +943,9 @@
       "ScheduleIDs": {
         "1": 19
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -1156,9 +1205,9 @@
       "ScheduleIDs": {
         "1": 43
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -1250,7 +1299,7 @@
       "ServerEvents": {
         "1": "UnlockModule:Guild"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 51,
@@ -1422,7 +1471,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:100"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 64,
@@ -1474,10 +1523,10 @@
       "ScheduleIDs": {
         "1": 67
       },
-      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
         "1": "DayChange:*",
-        "2": "UpdateCounter:2583"
+        "2": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -1490,9 +1539,9 @@
       "ScheduleIDs": {
         "1": 68
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": false
     },
@@ -1505,9 +1554,9 @@
       "ScheduleIDs": {
         "1": 69
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -2806,7 +2855,7 @@
       },
       "Condition": "true",
       "ServerEvents": {},
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 174,
@@ -2873,10 +2922,10 @@
       "ScheduleIDs": {
         "1": 178
       },
-      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
         "1": "DayChange:*",
-        "2": "UpdateCounter:2583"
+        "2": "UnlockModule:MainCity"
       },
       "IsEnable": false
     },
@@ -5044,10 +5093,10 @@
       "ScheduleIDs": {
         "1": 340
       },
-      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
         "1": "DayChange:*",
-        "2": "UpdateCounter:2583"
+        "2": "UnlockModule:MainCity"
       },
       "IsEnable": false
     },
@@ -5957,9 +6006,9 @@
       "ScheduleIDs": {
         "1": 406
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -5972,9 +6021,9 @@
       "ScheduleIDs": {
         "1": 407
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -6288,9 +6337,9 @@
       "ScheduleIDs": {
         "1": 437
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -6304,9 +6353,9 @@
         "1": 438,
         "2": 451
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -6319,9 +6368,9 @@
       "ScheduleIDs": {
         "1": 439
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -6758,9 +6807,9 @@
       "ScheduleIDs": {
         "1": 475
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -6851,10 +6900,10 @@
       "ScheduleIDs": {
         "1": 483
       },
-      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.SvrOpenedDays()>=7 and ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
         "1": "DayChange:*",
-        "2": "UpdateCounter:2583"
+        "2": "UnlockModule:MainCity"
       },
       "IsEnable": false
     },
@@ -6927,9 +6976,9 @@
       "ScheduleIDs": {
         "1": 488
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -7658,9 +7707,9 @@
       "ScheduleIDs": {
         "1": 545
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -7895,10 +7944,9 @@
       "ScheduleIDs": {
         "1": 562
       },
-      "Condition": "ed.ConditionX.Counter(2923)>=4 and ed.ConditionX.IsStageReachPoint(1)",
+      "Condition": "ed.ConditionX.IsStageReachPoint(10)",
       "ServerEvents": {
-        "1": "UpdateCounter:2923",
-        "2": "StageAddPoint:1"
+        "1": "StageAddPoint:10"
       },
       "IsEnable": true
     },
@@ -8077,9 +8125,9 @@
       "ScheduleIDs": {
         "1": 578
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -8378,9 +8426,9 @@
       "ScheduleIDs": {
         "1": 599
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -8563,9 +8611,9 @@
       "ScheduleIDs": {
         "1": 616
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -8578,9 +8626,9 @@
       "ScheduleIDs": {
         "1": 618
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsStageReachPoint(160)",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "StageAddPoint:160"
       },
       "IsEnable": true
     },
@@ -8669,7 +8717,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 625,
@@ -8684,7 +8732,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 626,
@@ -8699,7 +8747,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 627,
@@ -8714,7 +8762,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 628,
@@ -8729,7 +8777,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 629,
@@ -8744,7 +8792,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 630,
@@ -8804,7 +8852,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:100"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 634,
@@ -8957,7 +9005,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 645,
@@ -8972,7 +9020,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 646,
@@ -8987,7 +9035,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 647,
@@ -9063,7 +9111,7 @@
         "1": "DayChange:*",
         "2": "StageAddPoint:20"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 652,
@@ -9107,7 +9155,7 @@
         "1": "EnterEp:*",
         "2": "EpStageAddPoint:180"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 614,
@@ -9156,7 +9204,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 660,
@@ -9171,7 +9219,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 661,
@@ -9186,7 +9234,7 @@
       "ServerEvents": {
         "1": "EnterEp:*"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 662,
@@ -9292,7 +9340,7 @@
       "ServerEvents": {
         "1": "EpStageAddPoint:130"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 669,
@@ -9337,7 +9385,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:50"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 673,
@@ -9352,7 +9400,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:50"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 674,
@@ -9367,7 +9415,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:50"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 675,
@@ -9382,7 +9430,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:50"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 676,
@@ -9397,7 +9445,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:50"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 677,
@@ -9412,7 +9460,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:50"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 678,
@@ -9587,7 +9635,7 @@
       },
       "Condition": "true",
       "ServerEvents": {},
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 691,
@@ -9600,7 +9648,7 @@
       },
       "Condition": "true",
       "ServerEvents": {},
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 692,
@@ -9613,7 +9661,7 @@
       },
       "Condition": "true",
       "ServerEvents": {},
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 693,
@@ -9673,7 +9721,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:100"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 697,
@@ -9688,7 +9736,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:100"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 698,
@@ -9703,7 +9751,7 @@
       "ServerEvents": {
         "1": "StageAddPoint:100"
       },
-      "IsEnable": true
+      "IsEnable": false
     },
     {
       "ID": 699,
@@ -9729,9 +9777,9 @@
       "ScheduleIDs": {
         "1": 700
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -9895,9 +9943,9 @@
         "1": 713,
         "2": 740
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -10029,9 +10077,9 @@
       "ScheduleIDs": {
         "1": 723
       },
-      "Condition": "(ed.ConditionX.HSBuildingMaxLv(2,1)>=4) or (ed.ConditionX.IsStageReachPoint(1125))",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\") or ed.ConditionX.IsStageReachPoint(1125)",
       "ServerEvents": {
-        "1": "HSUpgradeConfirm:2:1",
+        "1": "UnlockModule:MainCity",
         "2": "StageAddPoint:1125"
       },
       "IsEnable": true
@@ -10075,9 +10123,9 @@
       "ScheduleIDs": {
         "1": 728
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -10271,9 +10319,9 @@
       "ScheduleIDs": {
         "1": 745
       },
-      "Condition": "(ed.ConditionX.HSBuildingMaxLv(2,1)>=4) or (ed.ConditionX.IsStageReachPoint(1125))",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\") or ed.ConditionX.IsStageReachPoint(1125)",
       "ServerEvents": {
-        "1": "HSUpgradeConfirm:2:1",
+        "1": "UnlockModule:MainCity",
         "2": "StageAddPoint:1125"
       },
       "IsEnable": true
@@ -10378,9 +10426,9 @@
       "ScheduleIDs": {
         "1": 752
       },
-      "Condition": "ed.ConditionX.Counter(2583)>=2",
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "ServerEvents": {
-        "1": "UpdateCounter:2583"
+        "1": "UnlockModule:MainCity"
       },
       "IsEnable": true
     },
@@ -10603,9 +10651,10 @@
       "ScheduleIDs": {
         "1": 773
       },
-      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "Condition": "ed.ConditionX.IsStageReachPoint(20) and ed.ConditionX.IsModuleUnlocked(\"Homestead\")",
       "ServerEvents": {
-        "1": "StageAddPoint:20"
+        "1": "StageAddPoint:20",
+        "2": "UnlockModule:Homestead"
       },
       "IsEnable": true
     },
@@ -10622,6 +10671,112 @@
       "Condition": "ed.ConditionX.IsStageReachPoint(450)",
       "ServerEvents": {
         "1": "StageAddPoint:450"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 777,
+      "ScheduleType": 1,
+      "StartDate": 1781913600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 777
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 778,
+      "ScheduleType": 1,
+      "StartDate": 1781913600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 778
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 779,
+      "ScheduleType": 1,
+      "StartDate": 1781913600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 779
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 780,
+      "ScheduleType": 1,
+      "StartDate": 1784937600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 780
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 781,
+      "ScheduleType": 1,
+      "StartDate": 1784937600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 781
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 782,
+      "ScheduleType": 1,
+      "StartDate": 1784937600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 782
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 783,
+      "ScheduleType": 1,
+      "StartDate": 1780876800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 783,
+        "2": 784
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(100)",
+      "ServerEvents": {
+        "1": "StageAddPoint:100"
       },
       "IsEnable": true
     },
@@ -10732,6 +10887,36 @@
       "IsEnable": true
     },
     {
+      "ID": 792,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 792
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 793,
+      "ScheduleType": 1,
+      "StartDate": 1782086400,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 793
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
       "ID": 769,
       "ScheduleType": 1,
       "StartDate": 1778803200,
@@ -10807,6 +10992,594 @@
       "Condition": "ed.ConditionX.IsStageReachPoint(20)",
       "ServerEvents": {
         "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 803,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 803
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 804,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 804
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 805,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 805
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 806,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 8,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 806
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 807,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 43,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 807
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 808,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 78,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 808
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 811,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 811
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\") and ed.ConditionX.IsEpStageReachPoint(180)",
+      "ServerEvents": {
+        "1": "EnterEp:*",
+        "2": "EpStageAddPoint:180"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 812,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 812
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 813,
+      "ScheduleType": 1,
+      "StartDate": 1783209600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 813
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 814,
+      "ScheduleType": 1,
+      "StartDate": 1786233600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 814
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 815,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 815,
+        "2": 844
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 816,
+      "ScheduleType": 1,
+      "StartDate": 1781222400,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 816,
+        "2": 845
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 817,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 817
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(60)",
+      "ServerEvents": {
+        "1": "StageAddPoint:60"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 818,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 818
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(60)",
+      "ServerEvents": {
+        "1": "StageAddPoint:60"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 819,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 819
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(30)",
+      "ServerEvents": {
+        "1": "StageAddPoint:30"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 820,
+      "ScheduleType": 1,
+      "StartDate": 1781481600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 156
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\") and ed.ConditionX.IsExplTaskFinished(17010105,1)",
+      "ServerEvents": {
+        "1": "EnterEp:*",
+        "2": "ExplTaskFinish:17010105:1"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 821,
+      "ScheduleType": 1,
+      "StartDate": 1781481600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 252
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\") and ed.ConditionX.IsExplTaskFinished(17010105,1)",
+      "ServerEvents": {
+        "1": "EnterEp:*",
+        "2": "ExplTaskFinish:17010105:1"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 822,
+      "ScheduleType": 1,
+      "StartDate": 1781222400,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 822
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\") or ed.ConditionX.IsStageReachPoint(1125)",
+      "ServerEvents": {
+        "1": "UnlockModule:MainCity",
+        "2": "StageAddPoint:1125"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 823,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 823
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
+      "ServerEvents": {
+        "1": "UnlockModule:MainCity"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 824,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 824
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(50)",
+      "ServerEvents": {
+        "1": "StageAddPoint:50"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 825,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 17,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 825
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(50)",
+      "ServerEvents": {
+        "1": "StageAddPoint:50"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 826,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 31,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 826
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(50)",
+      "ServerEvents": {
+        "1": "StageAddPoint:50"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 827,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 52,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 827
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(50)",
+      "ServerEvents": {
+        "1": "StageAddPoint:50"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 828,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 66,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 828
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(50)",
+      "ServerEvents": {
+        "1": "StageAddPoint:50"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 829,
+      "ScheduleType": 4,
+      "StartDate": 0,
+      "StartDays": 87,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 829
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(50)",
+      "ServerEvents": {
+        "1": "StageAddPoint:50"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 830,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 830
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 831,
+      "ScheduleType": 1,
+      "StartDate": 1783209600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 831
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 832,
+      "ScheduleType": 1,
+      "StartDate": 1786233600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 832
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 833,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 833
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 834,
+      "ScheduleType": 1,
+      "StartDate": 1781222400,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 834
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 835,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 835
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 836,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 836
+      },
+      "Condition": "ed.ConditionX.IsEpStageReachPoint(130)",
+      "ServerEvents": {
+        "1": "EpStageAddPoint:130"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 837,
+      "ScheduleType": 1,
+      "StartDate": 1780099200,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 837
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 838,
+      "ScheduleType": 1,
+      "StartDate": 1780099200,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 838
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 839,
+      "ScheduleType": 1,
+      "StartDate": 1780099200,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 839
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 840,
+      "ScheduleType": 1,
+      "StartDate": 1780099200,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 840
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 841,
+      "ScheduleType": 1,
+      "StartDate": 1780617600,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 841
+      },
+      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "ServerEvents": {
+        "1": "StageAddPoint:20"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 846,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 846
+      },
+      "Condition": "true",
+      "ServerEvents": {},
+      "IsEnable": true
+    },
+    {
+      "ID": 847,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 847
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
+      },
+      "IsEnable": true
+    },
+    {
+      "ID": 849,
+      "ScheduleType": 1,
+      "StartDate": 1780012800,
+      "StartDays": 0,
+      "IntervalDays": 0,
+      "ScheduleIDs": {
+        "1": 849
+      },
+      "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "ServerEvents": {
+        "1": "EnterEp:*"
       },
       "IsEnable": true
     }

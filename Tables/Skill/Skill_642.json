@@ -7,10 +7,9 @@
     "row_count": 1,
     "array_fields": [
       "Action(s)",
-      "CastDisplays",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 3
+    "unresolved_array_refs": 2
   },
   "default": {
     "CasterID": "null",
@@ -136,15 +135,15 @@
     "ResourceList": {}
   },
   "row_keys": [
-    1
+    10
   ],
   "rows": [
     {
-      "CasterID": 7021,
-      "SkillID": 1,
-      "SkillName": "goblinmeleeknife_playlab_1",
-      "DisplayName": "13294593467694819962",
-      "IsShow": true,
+      "CasterID": 6001,
+      "SkillID": 10,
+      "SkillName": "equip_skill_atk",
+      "DisplayName": "（不用翻译）机关占坑普攻",
+      "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
@@ -153,35 +152,35 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
+      "Slot": 0,
+      "DisplaySlot": 0,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": "basic",
+      "SkillPerformData": null,
       "IsPositiveManual": false,
-      "SkillScript": "lab_monsterEconomy",
-      "Icon": "UI/Icon/HeroSkill/icon_skill_thorn.png",
-      "Description": "12175231848012737014",
-      "SimpleDescription": "12175231848012737014",
-      "ActiveType": "manual",
+      "SkillScript": null,
+      "Icon": null,
+      "Description": "（不用翻译）脚本名可以用机关本身的英文名_skillID，buff名也是机关名_XX",
+      "SimpleDescription": null,
+      "ActiveType": "passive",
       "ThumpCondition": -1,
-      "SetSpeeder": 0,
-      "TargetType": "hex",
+      "SetSpeeder": -1,
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 44
       },
       "TargetCamp": -1,
-      "TargetPriority": "h_random",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 1,
-      "CD": 0,
-      "InitCD": 0,
-      "GlobalCD": 1,
+      "Priority": 0,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 2,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 0,
@@ -191,15 +190,13 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmelee",
-      "CastDisplays": {
-        "$arrayRef": 96643
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -213,10 +210,10 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1013,
-      "SArg1": 100,
-      "SArg2": 30,
-      "SArg3": 2,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,

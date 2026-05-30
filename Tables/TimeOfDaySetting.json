@@ -3,8 +3,8 @@
     "table": "TimeOfDaySetting",
     "header_table": "TimeOfDaySettingHeaderTable",
     "format": "flat_rows",
-    "schema_size": 4,
-    "row_count": 4,
+    "schema_size": 5,
+    "row_count": 8,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -12,38 +12,75 @@
     "State": "null",
     "Name": null,
     "Min": 0,
-    "Max": 0
+    "Max": 0,
+    "DayNightType": null
   },
   "row_keys": [
     4,
     1,
     2,
-    3
+    3,
+    8,
+    5,
+    6,
+    7
   ],
   "rows": [
     {
       "State": 4,
       "Name": "9181682125892469884",
       "Min": 15,
-      "Max": 25
+      "Max": 25,
+      "DayNightType": 1
     },
     {
       "State": 1,
       "Name": "1394588104142448390",
       "Min": 25,
-      "Max": 75
+      "Max": 75,
+      "DayNightType": 1
     },
     {
       "State": 2,
       "Name": "15515984576545117840",
       "Min": 75,
-      "Max": 85
+      "Max": 85,
+      "DayNightType": 1
     },
     {
       "State": 3,
       "Name": "14898430414235405457",
       "Min": 85,
-      "Max": 15
+      "Max": 15,
+      "DayNightType": 1
+    },
+    {
+      "State": 8,
+      "Name": "上弦月",
+      "Min": 0,
+      "Max": 25,
+      "DayNightType": 2
+    },
+    {
+      "State": 5,
+      "Name": "满月",
+      "Min": 25,
+      "Max": 50,
+      "DayNightType": 2
+    },
+    {
+      "State": 6,
+      "Name": "下弦月",
+      "Min": 50,
+      "Max": 75,
+      "DayNightType": 2
+    },
+    {
+      "State": 7,
+      "Name": "新月",
+      "Min": 75,
+      "Max": 100,
+      "DayNightType": 2
     }
   ]
 }

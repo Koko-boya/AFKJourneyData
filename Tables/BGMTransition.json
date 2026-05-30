@@ -4,7 +4,7 @@
     "header_table": "BGMTransitionHeaderTable",
     "format": "flat_rows",
     "schema_size": 8,
-    "row_count": 138,
+    "row_count": 139,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -156,7 +156,8 @@
     135,
     136,
     137,
-    138
+    138,
+    139
   ],
   "rows": [
     {
@@ -634,6 +635,16 @@
     },
     {
       "ID": 48,
+      "Source": "event:/BGM/WorldActivity/Explore/EP3/10_Monastery_Normal",
+      "Target": "event:/BGM/WorldActivity/Explore/EP7/02_UpperDistrict",
+      "ExitAt": "Immediate",
+      "ExitOffset": 0,
+      "EnterOffset": 0.5,
+      "PlayFrom": "Resume",
+      "BCFireEvent": {}
+    },
+    {
+      "ID": 49,
       "Source": "event:/BGM/WorldActivity/Puzzle/Casual/KeyEm",
       "Target": "event:/BGM/WorldActivity/Explore/EP3/04_FlowerSea_AfterFuneral",
       "ExitAt": "Immediate",
@@ -643,7 +654,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 49,
+      "ID": 50,
       "Source": "event:/BGM/WorldActivity/Explore/EP3/04_FlowerSea_BeforeFuneral",
       "Target": "event:/BGM/WorldActivity/Explore/EP3/04_FlowerSea_AfterFuneral",
       "ExitAt": "Immediate",
@@ -653,7 +664,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 50,
+      "ID": 51,
       "Source": "event:/BGM/Story/GeneralMood/Nervous_2",
       "Target": "event:/BGM/WorldActivity/Explore/MN2/LucentTree",
       "ExitAt": "Immediate",
@@ -663,7 +674,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 51,
+      "ID": 52,
       "Source": "event:/BGM/Story/GeneralMood/Danger_4",
       "Target": "event:/BGM/WorldActivity/Explore/MN2/DarkForest4",
       "ExitAt": "Immediate",
@@ -673,7 +684,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 52,
+      "ID": 53,
       "Source": "event:/BGM/Story/GeneralMood/Discussion_2",
       "Target": "event:/BGM/WorldActivity/Explore/EP3/00_Snowland_1",
       "ExitAt": "Immediate",
@@ -683,7 +694,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 53,
+      "ID": 54,
       "Source": "event:/BGM/WorldActivity/Explore/Caves/No1_Bm",
       "Target": "event:/BGM/WorldActivity/Explore/EP3/02_Spa",
       "ExitAt": "Immediate",
@@ -693,7 +704,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 54,
+      "ID": 55,
       "Source": "event:/BGM/WorldActivity/Explore/EP3/01_Snowtown_Festival",
       "Target": "event:/BGM/Story/GeneralMood/Danger_4",
       "ExitAt": "Immediate",
@@ -703,7 +714,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 55,
+      "ID": 56,
       "Source": "event:/BGM/Story/GeneralMood/Danger_4",
       "Target": "event:/BGM/WorldActivity/Explore/EP3/01_Snowtown_Festival",
       "ExitAt": "Immediate",
@@ -713,7 +724,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 56,
+      "ID": 57,
       "Source": "event:/BGM/Story/GeneralMood/Suspicious_1",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -723,7 +734,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 57,
+      "ID": 58,
       "Source": "event:/BGM/Battle/BattleScene/Boss4_Em_2",
       "Target": "event:/BGM/WorldActivity/Explore/Dungeon/Danger",
       "ExitAt": "Immediate",
@@ -733,7 +744,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 58,
+      "ID": 59,
       "Source": "event:/BGM/Story/MN2/10120840",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -743,7 +754,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 59,
+      "ID": 60,
       "Source": "event:/BGM/Story/EP2/006_12110860",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -753,7 +764,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 60,
+      "ID": 61,
       "Source": "event:/BGM/Story/EP2/007_12110870",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -763,7 +774,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 61,
+      "ID": 62,
       "Source": "event:/BGM/Story/EP2/012_12110920",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -773,7 +784,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 62,
+      "ID": 63,
       "Source": "event:/BGM/Story",
       "Target": "event:/BGM/WorldActivity/Explore/EP3/13_IceCastle_Abstract",
       "ExitAt": "Immediate",
@@ -783,7 +794,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 63,
+      "ID": 64,
       "Source": "event:/BGM/Battle",
       "Target": "event:/BGM/Menu/Abyss",
       "ExitAt": "Immediate",
@@ -793,7 +804,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 64,
+      "ID": 65,
       "Source": "event:/BGM/Story/GeneralMood/Sacred_1",
       "Target": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
       "ExitAt": "Immediate",
@@ -803,18 +814,8 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 65,
-      "Source": "event:/BGM/WorldActivity/Explore/SIM/Kitchen",
-      "Target": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
-      "ExitAt": "Immediate",
-      "ExitOffset": 0,
-      "EnterOffset": 0.5,
-      "PlayFrom": "Resume",
-      "BCFireEvent": {}
-    },
-    {
       "ID": 66,
-      "Source": "event:/BGM/WorldActivity/Explore/SIM/Blacksmith",
+      "Source": "event:/BGM/WorldActivity/Explore/SIM/Kitchen",
       "Target": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
       "ExitAt": "Immediate",
       "ExitOffset": 0,
@@ -824,7 +825,7 @@
     },
     {
       "ID": 67,
-      "Source": "event:/BGM/WorldActivity/Explore/SIM/Almhut",
+      "Source": "event:/BGM/WorldActivity/Explore/SIM/Blacksmith",
       "Target": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
       "ExitAt": "Immediate",
       "ExitOffset": 0,
@@ -834,6 +835,16 @@
     },
     {
       "ID": 68,
+      "Source": "event:/BGM/WorldActivity/Explore/SIM/Almhut",
+      "Target": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
+      "ExitAt": "Immediate",
+      "ExitOffset": 0,
+      "EnterOffset": 0.5,
+      "PlayFrom": "Resume",
+      "BCFireEvent": {}
+    },
+    {
+      "ID": 69,
       "Source": "event:/BGM/WorldActivity/Explore/SIM/Kitchen",
       "Target": "event:/BGM/WorldActivity/Explore/PLAYER",
       "ExitAt": "Immediate",
@@ -843,7 +854,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 69,
+      "ID": 70,
       "Source": "event:/BGM/WorldActivity/Explore/SIM/Blacksmith",
       "Target": "event:/BGM/WorldActivity/Explore/PLAYER",
       "ExitAt": "Immediate",
@@ -853,7 +864,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 70,
+      "ID": 71,
       "Source": "event:/BGM/WorldActivity/Explore/SIM/Almhut",
       "Target": "event:/BGM/WorldActivity/Explore/PLAYER",
       "ExitAt": "Immediate",
@@ -863,18 +874,8 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 71,
-      "Source": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
-      "Target": "event:/BGM/Others/CarnivalIntro",
-      "ExitAt": "Immediate",
-      "ExitOffset": 0,
-      "EnterOffset": 0.5,
-      "PlayFrom": "Start",
-      "BCFireEvent": {}
-    },
-    {
       "ID": 72,
-      "Source": "event:/BGM/WorldActivity/Explore/PLAYER",
+      "Source": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
       "Target": "event:/BGM/Others/CarnivalIntro",
       "ExitAt": "Immediate",
       "ExitOffset": 0,
@@ -884,6 +885,16 @@
     },
     {
       "ID": 73,
+      "Source": "event:/BGM/WorldActivity/Explore/PLAYER",
+      "Target": "event:/BGM/Others/CarnivalIntro",
+      "ExitAt": "Immediate",
+      "ExitOffset": 0,
+      "EnterOffset": 0.5,
+      "PlayFrom": "Start",
+      "BCFireEvent": {}
+    },
+    {
+      "ID": 74,
       "Source": "event:/BGM/Others/CarnivalIntro",
       "Target": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
       "ExitAt": "Immediate",
@@ -893,7 +904,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 74,
+      "ID": 75,
       "Source": "event:/BGM/Others/CarnivalIntro",
       "Target": "event:/BGM/WorldActivity/Explore/PLAYER",
       "ExitAt": "Immediate",
@@ -903,7 +914,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 75,
+      "ID": 76,
       "Source": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
       "Target": "event:/BGM/WorldActivity/Explore/SIM",
       "ExitAt": "Immediate",
@@ -913,28 +924,28 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 76,
+      "ID": 77,
       "Source": "event:/BGM/WorldActivity/Explore/SIM/MainScene",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
       "ExitOffset": 0,
       "EnterOffset": 0.5,
       "PlayFrom": "Resume",
-      "BCFireEvent": {}
-    },
-    {
-      "ID": 77,
-      "Source": "event:/BGM/WorldActivity/Explore/PLAYER",
-      "Target": "event:/BGM/WorldActivity/Explore/SIM",
-      "ExitAt": "Immediate",
-      "ExitOffset": 0,
-      "EnterOffset": 0.5,
-      "PlayFrom": "Start",
       "BCFireEvent": {}
     },
     {
       "ID": 78,
       "Source": "event:/BGM/WorldActivity/Explore/PLAYER",
+      "Target": "event:/BGM/WorldActivity/Explore/SIM",
+      "ExitAt": "Immediate",
+      "ExitOffset": 0,
+      "EnterOffset": 0.5,
+      "PlayFrom": "Start",
+      "BCFireEvent": {}
+    },
+    {
+      "ID": 79,
+      "Source": "event:/BGM/WorldActivity/Explore/PLAYER",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
       "ExitOffset": 0,
@@ -943,7 +954,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 79,
+      "ID": 80,
       "Source": "event:/BGM/Menu/HarvestGod_beforebattle",
       "Target": "event:/BGM/Menu/HarvestGod_afterbattle",
       "ExitAt": "Immediate",
@@ -953,7 +964,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 80,
+      "ID": 81,
       "Source": "event:/BGM/Menu/HarvestGod_afterbattle",
       "Target": "event:/BGM/Menu/HarvestGod_beforebattle",
       "ExitAt": "Immediate",
@@ -963,7 +974,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 81,
+      "ID": 82,
       "Source": "event:/BGM/Menu/HarvestGod",
       "Target": "event:/BGM/Menu/HarvestGod",
       "ExitAt": "Immediate",
@@ -973,7 +984,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 82,
+      "ID": 83,
       "Source": "event:/BGM/Menu/HarvestGod_afterbattle",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -985,7 +996,7 @@
       }
     },
     {
-      "ID": 83,
+      "ID": 84,
       "Source": "event:/BGM/Menu/HarvestGod_beforebattle",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -997,7 +1008,7 @@
       }
     },
     {
-      "ID": 84,
+      "ID": 85,
       "Source": "event:/BGM/Menu/Login",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1007,7 +1018,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 85,
+      "ID": 86,
       "Source": "event:/BGM/Menu/Heroes",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1019,7 +1030,7 @@
       }
     },
     {
-      "ID": 86,
+      "ID": 87,
       "Source": "event:/BGM/Menu/Everlight/Sub/ArcaneLabyrinth",
       "Target": "event:/BGM/WorldActivity/Explore/Dungeon",
       "ExitAt": "Immediate",
@@ -1029,7 +1040,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 87,
+      "ID": 88,
       "Source": "event:/BGM/Menu/Shop",
       "Target": "event:/BGM/Menu/Activity",
       "ExitAt": "Immediate",
@@ -1039,7 +1050,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 88,
+      "ID": 89,
       "Source": "event:/BGM/Menu/Shop",
       "Target": "event:/BGM/Menu/Everlight/Main",
       "ExitAt": "Immediate",
@@ -1049,7 +1060,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 89,
+      "ID": 90,
       "Source": "event:/BGM/Menu/Activity/MidAutumn",
       "Target": "event:/BGM/Menu/Activity/MidAutumn",
       "ExitAt": "Immediate",
@@ -1059,7 +1070,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 90,
+      "ID": 91,
       "Source": "event:/BGM/Menu/Activity",
       "Target": "event:/BGM/Menu/Everlight/Main",
       "ExitAt": "Immediate",
@@ -1069,7 +1080,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 91,
+      "ID": 92,
       "Source": "event:/BGM/Menu/Everlight/Main",
       "Target": "event:/BGM/Menu/Activity/MidAutumn",
       "ExitAt": "Immediate",
@@ -1079,7 +1090,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 92,
+      "ID": 93,
       "Source": "event:/BGM/Menu/Everlight/Main",
       "Target": "event:/BGM/WorldActivity/Explore/Dungeon",
       "ExitAt": "Immediate",
@@ -1089,7 +1100,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 93,
+      "ID": 94,
       "Source": "event:/BGM/Menu/Everlight/Main",
       "Target": "event:/BGM/Menu/Activity/DeliciousDungeon",
       "ExitAt": "Immediate",
@@ -1099,7 +1110,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 94,
+      "ID": 95,
       "Source": "event:/BGM/Menu/Activity/DeliciousDungeon",
       "Target": "event:/BGM/Menu/Activity/DeliciousDungeon",
       "ExitAt": "Immediate",
@@ -1109,7 +1120,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 95,
+      "ID": 96,
       "Source": "event:/BGM/Menu/Activity/MidAutumn",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1121,7 +1132,7 @@
       }
     },
     {
-      "ID": 96,
+      "ID": 97,
       "Source": "event:/BGM/Menu",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1131,7 +1142,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 97,
+      "ID": 98,
       "Source": "event:/BGM/Menu/Heroes",
       "Target": "event:/BGM/Menu/Heroes",
       "ExitAt": "Immediate",
@@ -1141,7 +1152,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 98,
+      "ID": 99,
       "Source": "event:/BGM/Menu/Everlight/Sub",
       "Target": "event:/BGM/Menu/Everlight/Main",
       "ExitAt": "Immediate",
@@ -1151,7 +1162,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 99,
+      "ID": 100,
       "Source": "event:/BGM/Menu/MysticHouse/MysticCollection",
       "Target": "event:/BGM/Menu/MysticHouse/Main",
       "ExitAt": "Immediate",
@@ -1161,7 +1172,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 100,
+      "ID": 101,
       "Source": "event:/BGM/Menu/NobleTavern",
       "Target": "event:/BGM/Menu/MysticHouse",
       "ExitAt": "Immediate",
@@ -1171,7 +1182,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 101,
+      "ID": 102,
       "Source": "event:/BGM/Menu/Avatar",
       "Target": "event:/BGM/Menu/Guild/GVG",
       "ExitAt": "Immediate",
@@ -1181,7 +1192,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 102,
+      "ID": 103,
       "Source": "event:/BGM/Menu/Heroes",
       "Target": "event:/BGM/Menu/Guild/GVG",
       "ExitAt": "Immediate",
@@ -1191,7 +1202,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 103,
+      "ID": 104,
       "Source": "event:/BGM/Menu/Everlight/Sub",
       "Target": "event:/BGM/Menu/Guild/GVG",
       "ExitAt": "Immediate",
@@ -1201,7 +1212,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 104,
+      "ID": 105,
       "Source": "event:/BGM/Menu/Guild/GVE",
       "Target": "event:/BGM/Menu/Guild/MainHall",
       "ExitAt": "Immediate",
@@ -1211,7 +1222,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 105,
+      "ID": 106,
       "Source": "event:/BGM/Menu/WorldBoss",
       "Target": "event:/BGM/Menu/Guild/MainHall",
       "ExitAt": "Immediate",
@@ -1221,7 +1232,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 106,
+      "ID": 107,
       "Source": "event:/BGM/WorldActivity/Social",
       "Target": "event:/BGM/Menu/Guild/MainHall",
       "ExitAt": "Immediate",
@@ -1231,7 +1242,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 107,
+      "ID": 108,
       "Source": "event:/BGM/Menu/Guild/GVG",
       "Target": "event:/BGM/Menu/Guild/MainHall",
       "ExitAt": "Immediate",
@@ -1241,7 +1252,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 108,
+      "ID": 109,
       "Source": "event:/BGM/Battle/Prepare",
       "Target": "event:/BGM/Menu/Heroes/ResonantHall",
       "ExitAt": "Immediate",
@@ -1251,7 +1262,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 109,
+      "ID": 110,
       "Source": "event:/BGM/Menu/Everlight/Sub",
       "Target": "event:/BGM/Battle",
       "ExitAt": "Immediate",
@@ -1261,7 +1272,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 110,
+      "ID": 111,
       "Source": "event:/BGM/Menu/MiniGame",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1271,23 +1282,13 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 111,
+      "ID": 112,
       "Source": "event:/BGM/Menu/CorruptCreatures",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
       "ExitOffset": 0,
       "EnterOffset": 1,
       "PlayFrom": "Resume",
-      "BCFireEvent": {}
-    },
-    {
-      "ID": 112,
-      "Source": "event:/BGM/Stinger/NewAreaDiscovered",
-      "Target": "event:/BGM/WorldActivity",
-      "ExitAt": "Immediate",
-      "ExitOffset": 0,
-      "EnterOffset": 0,
-      "PlayFrom": "Start",
       "BCFireEvent": {}
     },
     {
@@ -1302,6 +1303,16 @@
     },
     {
       "ID": 114,
+      "Source": "event:/BGM/Stinger/NewAreaDiscovered",
+      "Target": "event:/BGM/WorldActivity",
+      "ExitAt": "Immediate",
+      "ExitOffset": 0,
+      "EnterOffset": 0,
+      "PlayFrom": "Start",
+      "BCFireEvent": {}
+    },
+    {
+      "ID": 115,
       "Source": "event:/BGM/Battle/Prepare",
       "Target": "event:/BGM/Battle/BattleScene",
       "ExitAt": "Immediate",
@@ -1311,7 +1322,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 115,
+      "ID": 116,
       "Source": "event:/BGM/Battle/BattleScene",
       "Target": "event:/BGM/Battle/Prepare",
       "ExitAt": "Immediate",
@@ -1321,7 +1332,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 116,
+      "ID": 117,
       "Source": "event:/BGM/Battle",
       "Target": "event:/BGM/Menu/Activity",
       "ExitAt": "Immediate",
@@ -1331,7 +1342,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 117,
+      "ID": 118,
       "Source": "event:/BGM/Battle",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1341,7 +1352,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 118,
+      "ID": 119,
       "Source": "event:/BGM/WorldActivity/Social",
       "Target": "event:/BGM/Battle/Prepare",
       "ExitAt": "Immediate",
@@ -1351,7 +1362,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 119,
+      "ID": 120,
       "Source": "event:/BGM/WorldActivity",
       "Target": "event:/BGM/Battle",
       "ExitAt": "Immediate",
@@ -1361,7 +1372,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 120,
+      "ID": 121,
       "Source": "event:/BGM/WorldActivity",
       "Target": "event:/BGM/Story/GeneralMood/Suspicious_1",
       "ExitAt": "Immediate",
@@ -1371,7 +1382,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 121,
+      "ID": 122,
       "Source": "event:/BGM/Story/GeneralMood/DanceIntro",
       "Target": "event:/BGM/WorldActivity/Puzzle/Casual/Dance",
       "ExitAt": "Immediate",
@@ -1381,7 +1392,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 122,
+      "ID": 123,
       "Source": "event:/BGM/Story",
       "Target": "event:/BGM/Menu/Activity",
       "ExitAt": "Immediate",
@@ -1391,7 +1402,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 123,
+      "ID": 124,
       "Source": "event:/BGM/Story",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1401,7 +1412,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 124,
+      "ID": 125,
       "Source": "event:/BGM/Stinger/NewHero",
       "Target": "event:/BGM/Menu/NobleTavern/Draw",
       "ExitAt": "Immediate",
@@ -1411,7 +1422,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 125,
+      "ID": 126,
       "Source": "event:/BGM/Stinger/NewHero",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1421,18 +1432,8 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 126,
-      "Source": "event:/BGM/Stinger/Puzzle",
-      "Target": "event:/BGM/WorldActivity/Fishing/Wait",
-      "ExitAt": "Immediate",
-      "ExitOffset": 0,
-      "EnterOffset": 0.5,
-      "PlayFrom": "Resume",
-      "BCFireEvent": {}
-    },
-    {
       "ID": 127,
-      "Source": "event:/BGM/WorldActivity/Fishing/Catch",
+      "Source": "event:/BGM/Stinger/Puzzle",
       "Target": "event:/BGM/WorldActivity/Fishing/Wait",
       "ExitAt": "Immediate",
       "ExitOffset": 0,
@@ -1442,6 +1443,16 @@
     },
     {
       "ID": 128,
+      "Source": "event:/BGM/WorldActivity/Fishing/Catch",
+      "Target": "event:/BGM/WorldActivity/Fishing/Wait",
+      "ExitAt": "Immediate",
+      "ExitOffset": 0,
+      "EnterOffset": 0.5,
+      "PlayFrom": "Resume",
+      "BCFireEvent": {}
+    },
+    {
+      "ID": 129,
       "Source": "event:/BGM/WorldActivity/Fishing/Wait",
       "Target": "event:/BGM/WorldActivity/Fishing/Catch",
       "ExitAt": "Immediate",
@@ -1451,7 +1462,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 129,
+      "ID": 130,
       "Source": "event:/BGM/WorldActivity/Fishing",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1461,7 +1472,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 130,
+      "ID": 131,
       "Source": "event:/BGM/WorldActivity/Explore/Caves",
       "Target": "event:/BGM/WorldActivity/Explore",
       "ExitAt": "Immediate",
@@ -1471,7 +1482,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 131,
+      "ID": 132,
       "Source": "event:/BGM/WorldActivity/Explore",
       "Target": "event:/BGM/WorldActivity/Explore/Caves",
       "ExitAt": "Immediate",
@@ -1481,7 +1492,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 132,
+      "ID": 133,
       "Source": "event:/BGM/WorldActivity/Puzzle/Stealth",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1491,7 +1502,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 133,
+      "ID": 134,
       "Source": "event:/BGM/WorldActivity/Puzzle/Flight",
       "Target": "event:/BGM/WorldActivity/Explore",
       "ExitAt": "Immediate",
@@ -1501,7 +1512,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 134,
+      "ID": 135,
       "Source": "event:/BGM/WorldActivity/Puzzle",
       "Target": "event:/BGM/WorldActivity/Explore",
       "ExitAt": "Immediate",
@@ -1511,7 +1522,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 135,
+      "ID": 136,
       "Source": "event:/BGM/Stinger/Puzzle",
       "Target": "event:/BGM/WorldActivity/Explore",
       "ExitAt": "Marker",
@@ -1521,7 +1532,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 136,
+      "ID": 137,
       "Source": "event:/BGM/Others/LegendaryArenaIntro",
       "Target": "event:/BGM/Menu/Everlight/Sub/Arena",
       "ExitAt": "Marker",
@@ -1531,7 +1542,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 137,
+      "ID": 138,
       "Source": "event:/BGM/WorldActivity/Social",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",
@@ -1541,7 +1552,7 @@
       "BCFireEvent": {}
     },
     {
-      "ID": 138,
+      "ID": 139,
       "Source": "event:/BGM/WorldActivity/Sailing",
       "Target": "event:/BGM/WorldActivity",
       "ExitAt": "Immediate",

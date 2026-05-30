@@ -4,7 +4,7 @@
     "header_table": "MagicDESCHeaderTable",
     "format": "flat_rows",
     "schema_size": 4,
-    "row_count": 2,
+    "row_count": 4,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -14,10 +14,7 @@
     "Condition": "true",
     "DESC": null
   },
-  "row_keys": [
-    1,
-    2
-  ],
+  "row_keys": [],
   "rows": [
     {
       "ID": 1,
@@ -30,6 +27,18 @@
       "Entry": 2,
       "Condition": "ed.ConditionX.IsExplStepFinished(16010108,3,2)",
       "DESC": "7343041361356091099"
+    },
+    {
+      "ID": 2,
+      "Entry": 1,
+      "Condition": "ed.ConditionX.IsExplStepFinished(17010601,1,5) or ed.ConditionX.IsExplStepFinished(17010103,2,1)",
+      "DESC": "148898101247003040"
+    },
+    {
+      "ID": 2,
+      "Entry": 2,
+      "Condition": "ed.ConditionX.IsExplStepFinished(17010602,1,6) or ed.ConditionX.IsExplStepFinished(17010105,404,1)",
+      "DESC": "12133977357603022329"
     }
   ]
 }

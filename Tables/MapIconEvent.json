@@ -4,7 +4,7 @@
     "header_table": "MapIconEventHeaderTable",
     "format": "flat_rows",
     "schema_size": 11,
-    "row_count": 53,
+    "row_count": 60,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -74,7 +74,14 @@
     54,
     55,
     56,
-    57
+    57,
+    64,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
   ],
   "rows": [
     {
@@ -226,10 +233,10 @@
       "Group": 6,
       "Name": "7087000933383911353",
       "IconRes": "UI/Sprites/Map/spui_map_notice_icon_gemshop.png",
-      "ShowCondition": "ed.ConditionX.ExchangeHasAvailableProducts(40) and ed.ConditionX.IsModuleUnlocked(\"MainCity\") and ed.ConditionX.IsZoneUnlocked(11,1)",
+      "ShowCondition": "ed.ConditionX.ExchangeHasAvailableProducts(48) and ed.ConditionX.IsModuleUnlocked(\"MainCity\") and ed.ConditionX.IsZoneUnlocked(14,1)",
       "RedDotID": 0,
       "ObjCategory": null,
-      "TargetObjectID": 1102981,
+      "TargetObjectID": 1400662,
       "GalaxyFestivalPuzzleID": 0,
       "Type": null
     },
@@ -382,10 +389,10 @@
       "Group": 9,
       "Name": "1299168753366493138",
       "IconRes": "ui/sprites/map/spui_map_notice_icon_fishmarket.png",
-      "ShowCondition": "ed.ConditionX.IsInSchedule(156) and ed.ConditionX.IsUserInEp(\"Ep06\") and (ed.ConditionX.GetCurrentMapID()==11 or ed.ConditionX.GetCurrentMapID()==12 or ed.ConditionX.GetCurrentMapID()==13)",
+      "ShowCondition": "ed.ConditionX.IsInSchedule(156) and ed.ConditionX.IsUserInEp(\"Ep07\") and ed.ConditionX.IsExplTaskFinished(17010105,1)",
       "RedDotID": 161011,
       "ObjCategory": null,
-      "TargetObjectID": 1103388,
+      "TargetObjectID": 512400523,
       "GalaxyFestivalPuzzleID": 0,
       "Type": null
     },
@@ -765,6 +772,97 @@
       "TargetObjectID": 1102983,
       "GalaxyFestivalPuzzleID": 0,
       "Type": "Shop"
+    },
+    {
+      "EventType": 64,
+      "Priority": 2,
+      "Group": 3,
+      "Name": "锻造工坊",
+      "IconRes": "UI/Sprites/Map/spui_map_notice_icon_04.png",
+      "ShowCondition": "ed.ConditionX.ShopHasAvailableProducts(\"ShopType_Ep07TownEquipShop\") and not ed.ConditionX.ShopReddotHasEnabled(100011) and (ed.ConditionX.GetCurrentMapID()==14) and ed.ConditionX.IsModuleUnlocked(\"MainCity\") and ed.ConditionX.IsZoneUnlocked(14,1)",
+      "RedDotID": 100011,
+      "ObjCategory": null,
+      "TargetObjectID": 1400661,
+      "GalaxyFestivalPuzzleID": 0,
+      "Type": "Shop"
+    },
+    {
+      "EventType": 58,
+      "Priority": 45,
+      "Group": 2,
+      "Name": "8077642057245608156",
+      "IconRes": "UI/Sprites/Map/spui_map_notice_icon_02.png",
+      "ShowCondition": "not ed.ConditionX.IsMegaBossOverwhelmed(17) and ed.ConditionX.GetCurrentMapID()==5141 and ed.ConditionX.IsChapterUnlockedByObjID(514100003)",
+      "RedDotID": 61018,
+      "ObjCategory": null,
+      "TargetObjectID": 514100003,
+      "GalaxyFestivalPuzzleID": 0,
+      "Type": null
+    },
+    {
+      "EventType": 59,
+      "Priority": 46,
+      "Group": 2,
+      "Name": "6735364772301202240",
+      "IconRes": "UI/Sprites/Map/spui_map_notice_icon_03.png",
+      "ShowCondition": "ed.ConditionX.IsMegaBossOverwhelmed(17) and (not ed.ConditionX.IsMegaBossReceivedReward(17) or ed.ConditionX.HasMegaBossDailyReward(17)) and ed.ConditionX.GetCurrentMapID()==5141 and ed.ConditionX.IsChapterUnlockedByObjID(514100003)",
+      "RedDotID": 61018,
+      "ObjCategory": null,
+      "TargetObjectID": 514100003,
+      "GalaxyFestivalPuzzleID": 0,
+      "Type": null
+    },
+    {
+      "EventType": 60,
+      "Priority": 47,
+      "Group": 2,
+      "Name": "8077642057245608156",
+      "IconRes": "UI/Sprites/Map/spui_map_notice_icon_02.png",
+      "ShowCondition": "not ed.ConditionX.IsMegaBossOverwhelmed(18) and ed.ConditionX.GetCurrentMapID()==5131 and ed.ConditionX.IsChapterUnlockedByObjID(513100248)",
+      "RedDotID": 61019,
+      "ObjCategory": null,
+      "TargetObjectID": 513100248,
+      "GalaxyFestivalPuzzleID": 0,
+      "Type": null
+    },
+    {
+      "EventType": 61,
+      "Priority": 48,
+      "Group": 2,
+      "Name": "6735364772301202240",
+      "IconRes": "UI/Sprites/Map/spui_map_notice_icon_03.png",
+      "ShowCondition": "ed.ConditionX.IsMegaBossOverwhelmed(18) and (not ed.ConditionX.IsMegaBossReceivedReward(18) or ed.ConditionX.HasMegaBossDailyReward(18)) and ed.ConditionX.GetCurrentMapID()==5131 and ed.ConditionX.IsChapterUnlockedByObjID(513100248)",
+      "RedDotID": 61019,
+      "ObjCategory": null,
+      "TargetObjectID": 513100248,
+      "GalaxyFestivalPuzzleID": 0,
+      "Type": null
+    },
+    {
+      "EventType": 62,
+      "Priority": 49,
+      "Group": 2,
+      "Name": "8077642057245608156",
+      "IconRes": "UI/Sprites/Map/spui_map_notice_icon_02.png",
+      "ShowCondition": "not ed.ConditionX.IsMegaBossOverwhelmed(19) and ed.ConditionX.GetCurrentMapID()==15 and ed.ConditionX.IsChapterUnlockedByObjID(1500004)",
+      "RedDotID": 61020,
+      "ObjCategory": null,
+      "TargetObjectID": 1500004,
+      "GalaxyFestivalPuzzleID": 0,
+      "Type": null
+    },
+    {
+      "EventType": 63,
+      "Priority": 50,
+      "Group": 2,
+      "Name": "6735364772301202240",
+      "IconRes": "UI/Sprites/Map/spui_map_notice_icon_03.png",
+      "ShowCondition": "ed.ConditionX.IsMegaBossOverwhelmed(19) and (not ed.ConditionX.IsMegaBossReceivedReward(19) or ed.ConditionX.HasMegaBossDailyReward(19)) and ed.ConditionX.GetCurrentMapID()==15 and ed.ConditionX.IsChapterUnlockedByObjID(1500004)",
+      "RedDotID": 61020,
+      "ObjCategory": null,
+      "TargetObjectID": 1500004,
+      "GalaxyFestivalPuzzleID": 0,
+      "Type": null
     }
   ]
 }

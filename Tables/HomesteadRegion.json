@@ -65,7 +65,9 @@
       "InteractCondition": "true",
       "UnlockCost": {},
       "SystemEntityID": 40001,
-      "SpecfogID": {},
+      "SpecfogID": {
+        "$arrayRef": 43
+      },
       "BattleGroupID": 0,
       "UnlockTime": 0,
       "UnlockHeroNum": 0,
@@ -93,11 +95,11 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
       "InteractCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
       "UnlockCost": {
-        "$arrayRef": 76968
+        "$arrayRef": 86206
       },
       "SystemEntityID": 40011,
       "SpecfogID": {
-        "$arrayRef": 45
+        "$arrayRef": 44
       },
       "BattleGroupID": 0,
       "UnlockTime": 10,
@@ -129,7 +131,7 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=1",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,2)",
       "UnlockCost": {
-        "$arrayRef": 76968
+        "$arrayRef": 86206
       },
       "SystemEntityID": 40018,
       "SpecfogID": {},
@@ -163,7 +165,7 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>1",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,3)",
       "UnlockCost": {
-        "$arrayRef": 73548
+        "$arrayRef": 82598
       },
       "SystemEntityID": 40013,
       "SpecfogID": {},
@@ -198,7 +200,7 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>2",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,13)",
       "UnlockCost": {
-        "$arrayRef": 76969
+        "$arrayRef": 86207
       },
       "SystemEntityID": 40008,
       "SpecfogID": {},
@@ -277,7 +279,7 @@
       "Width": 10,
       "Height": 10,
       "NeighborRegionIDs": {
-        "$arrayRef": 76851
+        "$arrayRef": 86081
       },
       "AroundRegionIDs": {
         "1": 1,
@@ -288,9 +290,7 @@
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,7)",
       "UnlockCost": {},
       "SystemEntityID": 40009,
-      "SpecfogID": {
-        "$arrayRef": 44
-      },
+      "SpecfogID": {},
       "BattleGroupID": 504804,
       "UnlockTime": 0,
       "UnlockHeroNum": 0,
@@ -321,7 +321,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40009,
       "SpecfogID": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "BattleGroupID": 504805,
       "UnlockTime": 0,
@@ -354,7 +354,7 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
       "UnlockCost": {
-        "$arrayRef": 76908
+        "$arrayRef": 86140
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -389,7 +389,7 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
       "UnlockCost": {
-        "$arrayRef": 76908
+        "$arrayRef": 86140
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -397,7 +397,7 @@
       "UnlockTime": 300,
       "UnlockHeroNum": 1,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {}
     },
@@ -426,7 +426,7 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
       "UnlockCost": {
-        "$arrayRef": 76908
+        "$arrayRef": 86140
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -434,7 +434,7 @@
       "UnlockTime": 300,
       "UnlockHeroNum": 1,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {}
     },
@@ -562,11 +562,11 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>1",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,4)",
       "UnlockCost": {
-        "$arrayRef": 73548
+        "$arrayRef": 82598
       },
       "SystemEntityID": 40012,
       "SpecfogID": {
-        "$arrayRef": 434
+        "$arrayRef": 442
       },
       "BattleGroupID": 0,
       "UnlockTime": 10,
@@ -595,17 +595,17 @@
       "UnlockCondition": "ed.ConditionX.HSBuildingMaxLv(2,1)>3",
       "InteractCondition": "ed.ConditionX.C_IsHSRegionUnlocked(2,9)",
       "UnlockCost": {
-        "$arrayRef": 76970
+        "$arrayRef": 86208
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 2411
+        "$arrayRef": 2492
       },
       "BattleGroupID": 0,
       "UnlockTime": 1800,
       "UnlockHeroNum": 1,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {}
     },
@@ -680,7 +680,7 @@
       "UnlockTime": 1800,
       "UnlockHeroNum": 1,
       "UnitRaceRule": {
-        "$arrayRef": 76994
+        "$arrayRef": 86231
       },
       "UnitJobRule": {}
     },
@@ -755,7 +755,7 @@
       "UnlockTime": 1800,
       "UnlockHeroNum": 1,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {}
     },
@@ -817,7 +817,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76970
+        "$arrayRef": 86208
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -825,10 +825,10 @@
       "UnlockTime": 3600,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {
-        "$arrayRef": 76999
+        "$arrayRef": 86236
       }
     },
     {
@@ -889,7 +889,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76971
+        "$arrayRef": 86209
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -897,10 +897,10 @@
       "UnlockTime": 3600,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {
-        "$arrayRef": 77000
+        "$arrayRef": 86237
       }
     },
     {
@@ -926,7 +926,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 47
+        "$arrayRef": 46
       },
       "BattleGroupID": 504812,
       "UnlockTime": 0,
@@ -955,20 +955,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76972
+        "$arrayRef": 86210
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "BattleGroupID": 0,
       "UnlockTime": 3600,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 76994
+        "$arrayRef": 86231
       },
       "UnitJobRule": {
-        "$arrayRef": 77001
+        "$arrayRef": 86238
       }
     },
     {
@@ -1029,7 +1029,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76973
+        "$arrayRef": 86211
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -1037,10 +1037,10 @@
       "UnlockTime": 3600,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {
-        "$arrayRef": 77002
+        "$arrayRef": 86239
       }
     },
     {
@@ -1101,7 +1101,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76971
+        "$arrayRef": 86209
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -1109,10 +1109,10 @@
       "UnlockTime": 3600,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {
-        "$arrayRef": 77003
+        "$arrayRef": 86240
       }
     },
     {
@@ -1138,7 +1138,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 60
+        "$arrayRef": 59
       },
       "BattleGroupID": 504815,
       "UnlockTime": 0,
@@ -1167,20 +1167,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76972
+        "$arrayRef": 86210
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 62
+        "$arrayRef": 61
       },
       "BattleGroupID": 0,
       "UnlockTime": 3600,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {
-        "$arrayRef": 77004
+        "$arrayRef": 86241
       }
     },
     {
@@ -1206,7 +1206,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 57
+        "$arrayRef": 56
       },
       "BattleGroupID": 504816,
       "UnlockTime": 0,
@@ -1237,20 +1237,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76973
+        "$arrayRef": 86211
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 184
+        "$arrayRef": 183
       },
       "BattleGroupID": 0,
       "UnlockTime": 3600,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 76994
+        "$arrayRef": 86231
       },
       "UnitJobRule": {
-        "$arrayRef": 76999
+        "$arrayRef": 86236
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76974
+        "$arrayRef": 86212
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -1317,10 +1317,10 @@
       "UnlockTime": 7200,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {
-        "$arrayRef": 77000
+        "$arrayRef": 86237
       }
     },
     {
@@ -1345,7 +1345,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "BattleGroupID": 504818,
       "UnlockTime": 0,
@@ -1373,7 +1373,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76975
+        "$arrayRef": 86213
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
@@ -1384,10 +1384,10 @@
       "UnlockTime": 7200,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {
-        "$arrayRef": 77001
+        "$arrayRef": 86238
       }
     },
     {
@@ -1413,7 +1413,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 187
+        "$arrayRef": 186
       },
       "BattleGroupID": 504819,
       "UnlockTime": 0,
@@ -1440,7 +1440,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76976
+        "$arrayRef": 86214
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
@@ -1451,10 +1451,10 @@
       "UnlockTime": 7200,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {
-        "$arrayRef": 77002
+        "$arrayRef": 86239
       }
     },
     {
@@ -1480,7 +1480,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 67105
+        "$arrayRef": 76057
       },
       "BattleGroupID": 504820,
       "UnlockTime": 0,
@@ -1511,20 +1511,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76974
+        "$arrayRef": 86212
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 2143
+        "$arrayRef": 2224
       },
       "BattleGroupID": 0,
       "UnlockTime": 7200,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 76994
+        "$arrayRef": 86231
       },
       "UnitJobRule": {
-        "$arrayRef": 77003
+        "$arrayRef": 86240
       }
     },
     {
@@ -1579,20 +1579,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76975
+        "$arrayRef": 86213
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 12284
+        "$arrayRef": 12365
       },
       "BattleGroupID": 0,
       "UnlockTime": 7200,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {
-        "$arrayRef": 77004
+        "$arrayRef": 86241
       }
     },
     {
@@ -1619,7 +1619,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 183
+        "$arrayRef": 182
       },
       "BattleGroupID": 504822,
       "UnlockTime": 0,
@@ -1651,7 +1651,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76976
+        "$arrayRef": 86214
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -1659,10 +1659,10 @@
       "UnlockTime": 7200,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {
-        "$arrayRef": 76999
+        "$arrayRef": 86236
       }
     },
     {
@@ -1722,7 +1722,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76974
+        "$arrayRef": 86212
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -1730,10 +1730,10 @@
       "UnlockTime": 7200,
       "UnlockHeroNum": 2,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {
-        "$arrayRef": 77000
+        "$arrayRef": 86237
       }
     },
     {
@@ -1761,7 +1761,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 417
+        "$arrayRef": 423
       },
       "BattleGroupID": 504824,
       "UnlockTime": 0,
@@ -1787,20 +1787,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76977
+        "$arrayRef": 86215
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 48
+        "$arrayRef": 47
       },
       "BattleGroupID": 0,
       "UnlockTime": 10800,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 76994
+        "$arrayRef": 86231
       },
       "UnitJobRule": {
-        "$arrayRef": 77001
+        "$arrayRef": 86238
       }
     },
     {
@@ -1825,7 +1825,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 181
+        "$arrayRef": 180
       },
       "BattleGroupID": 504825,
       "UnlockTime": 0,
@@ -1854,20 +1854,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76978
+        "$arrayRef": 86216
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 59
+        "$arrayRef": 58
       },
       "BattleGroupID": 0,
       "UnlockTime": 10800,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {
-        "$arrayRef": 77002
+        "$arrayRef": 86239
       }
     },
     {
@@ -1892,7 +1892,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 61
+        "$arrayRef": 60
       },
       "BattleGroupID": 504826,
       "UnlockTime": 0,
@@ -1922,20 +1922,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76979
+        "$arrayRef": 86217
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 63
+        "$arrayRef": 62
       },
       "BattleGroupID": 0,
       "UnlockTime": 10800,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {
-        "$arrayRef": 77003
+        "$arrayRef": 86240
       }
     },
     {
@@ -1989,20 +1989,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76977
+        "$arrayRef": 86215
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 58701
+        "$arrayRef": 67664
       },
       "BattleGroupID": 0,
       "UnlockTime": 10800,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {
-        "$arrayRef": 77004
+        "$arrayRef": 86241
       }
     },
     {
@@ -2028,7 +2028,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 436
+        "$arrayRef": 444
       },
       "BattleGroupID": 504828,
       "UnlockTime": 0,
@@ -2057,20 +2057,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76978
+        "$arrayRef": 86216
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 71
+        "$arrayRef": 70
       },
       "BattleGroupID": 0,
       "UnlockTime": 10800,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 76994
+        "$arrayRef": 86231
       },
       "UnitJobRule": {
-        "$arrayRef": 76999
+        "$arrayRef": 86236
       }
     },
     {
@@ -2096,7 +2096,7 @@
       "UnlockCost": {},
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 435
+        "$arrayRef": 443
       },
       "BattleGroupID": 504829,
       "UnlockTime": 0,
@@ -2122,20 +2122,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76979
+        "$arrayRef": 86217
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 76991
+        "$arrayRef": 86229
       },
       "BattleGroupID": 0,
       "UnlockTime": 10800,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {
-        "$arrayRef": 77000
+        "$arrayRef": 86237
       }
     },
     {
@@ -2200,16 +2200,16 @@
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 12282
+        "$arrayRef": 12363
       },
       "BattleGroupID": 0,
       "UnlockTime": 16200,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {
-        "$arrayRef": 77001
+        "$arrayRef": 86238
       }
     },
     {
@@ -2231,20 +2231,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 69137
+        "$arrayRef": 78116
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -2269,7 +2269,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -2277,10 +2277,10 @@
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -2306,7 +2306,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -2314,10 +2314,10 @@
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -2344,7 +2344,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -2352,10 +2352,10 @@
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -2381,7 +2381,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -2389,10 +2389,10 @@
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -2416,7 +2416,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -2424,10 +2424,10 @@
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -2449,20 +2449,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 75421
+        "$arrayRef": 81185
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -2484,20 +2484,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 200
+        "$arrayRef": 199
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -2524,7 +2524,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -2532,10 +2532,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -2563,7 +2563,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -2571,10 +2571,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -2602,7 +2602,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -2610,10 +2610,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -2641,7 +2641,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -2649,10 +2649,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -2680,7 +2680,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -2688,10 +2688,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -2719,7 +2719,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -2727,10 +2727,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -2758,7 +2758,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -2766,10 +2766,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -2797,7 +2797,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -2805,10 +2805,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -2832,20 +2832,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 69138
+        "$arrayRef": 78117
       },
       "BattleGroupID": 0,
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -2867,20 +2867,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 2453
+        "$arrayRef": 2534
       },
       "BattleGroupID": 0,
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -2907,7 +2907,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -2915,10 +2915,10 @@
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -2946,7 +2946,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -2954,10 +2954,10 @@
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -2984,7 +2984,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -2992,10 +2992,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -3021,20 +3021,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 8221
+        "$arrayRef": 8302
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -3056,20 +3056,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 198
+        "$arrayRef": 197
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -3096,7 +3096,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -3104,10 +3104,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -3135,7 +3135,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -3143,10 +3143,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -3174,7 +3174,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -3182,10 +3182,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -3212,7 +3212,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -3220,10 +3220,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -3249,20 +3249,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 2049
+        "$arrayRef": 2130
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -3283,20 +3283,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 75012
+        "$arrayRef": 84199
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -3319,20 +3319,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 21646
+        "$arrayRef": 21727
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -3356,20 +3356,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 8222
+        "$arrayRef": 8303
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -3393,20 +3393,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 5839
+        "$arrayRef": 5920
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -3428,7 +3428,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
@@ -3440,10 +3440,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -3466,20 +3466,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 195
+        "$arrayRef": 194
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -3503,20 +3503,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 1563
+        "$arrayRef": 1644
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -3538,20 +3538,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 73627
+        "$arrayRef": 82710
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -3573,20 +3573,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76989
+        "$arrayRef": 86227
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 43190
+        "$arrayRef": 43270
       },
       "BattleGroupID": 0,
       "UnlockTime": 21600,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {
-        "$arrayRef": 77004
+        "$arrayRef": 86241
       }
     },
     {
@@ -3610,20 +3610,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76989
+        "$arrayRef": 86227
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 206
+        "$arrayRef": 205
       },
       "BattleGroupID": 0,
       "UnlockTime": 21600,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 76994
+        "$arrayRef": 86231
       },
       "UnitJobRule": {
-        "$arrayRef": 76999
+        "$arrayRef": 86236
       }
     },
     {
@@ -3644,7 +3644,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76989
+        "$arrayRef": 86227
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
@@ -3655,10 +3655,10 @@
       "UnlockTime": 21600,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "UnitJobRule": {
-        "$arrayRef": 77000
+        "$arrayRef": 86237
       }
     },
     {
@@ -3683,20 +3683,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76989
+        "$arrayRef": 86227
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 55522
+        "$arrayRef": 64403
       },
       "BattleGroupID": 0,
       "UnlockTime": 21600,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "UnitJobRule": {
-        "$arrayRef": 77001
+        "$arrayRef": 86238
       }
     },
     {
@@ -3724,7 +3724,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76989
+        "$arrayRef": 86227
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -3732,10 +3732,10 @@
       "UnlockTime": 21600,
       "UnlockHeroNum": 3,
       "UnitRaceRule": {
-        "$arrayRef": 76993
+        "$arrayRef": 82041
       },
       "UnitJobRule": {
-        "$arrayRef": 77002
+        "$arrayRef": 86239
       }
     },
     {
@@ -3761,20 +3761,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 58152
+        "$arrayRef": 67117
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -3784,28 +3784,28 @@
       "Width": 10,
       "Height": 10,
       "NeighborRegionIDs": {
-        "$arrayRef": 76567
+        "$arrayRef": 85797
       },
       "AroundRegionIDs": {
-        "$arrayRef": 76567
+        "$arrayRef": 85797
       },
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 75433
+        "$arrayRef": 84643
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -3828,20 +3828,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 75422
+        "$arrayRef": 84632
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -3865,20 +3865,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 75432
+        "$arrayRef": 84642
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -3899,20 +3899,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76980
+        "$arrayRef": 86218
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 71504
+        "$arrayRef": 80485
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -3922,7 +3922,7 @@
       "Width": 10,
       "Height": 10,
       "NeighborRegionIDs": {
-        "$arrayRef": 75326
+        "$arrayRef": 84528
       },
       "AroundRegionIDs": {
         "1": 111,
@@ -3933,7 +3933,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -3941,10 +3941,10 @@
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -3965,20 +3965,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 68091
+        "$arrayRef": 77046
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -4002,20 +4002,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 75014
+        "$arrayRef": 63877
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -4042,7 +4042,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -4050,10 +4050,10 @@
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -4080,20 +4080,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76981
+        "$arrayRef": 86219
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 76556
+        "$arrayRef": 85786
       },
       "BattleGroupID": 0,
       "UnlockTime": 32400,
       "UnlockHeroNum": 4,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -4117,20 +4117,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 1448
+        "$arrayRef": 1529
       },
       "BattleGroupID": 0,
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -4152,20 +4152,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 69175
+        "$arrayRef": 78154
       },
       "BattleGroupID": 0,
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -4189,20 +4189,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 2781
+        "$arrayRef": 2862
       },
       "BattleGroupID": 0,
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -4230,7 +4230,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -4238,10 +4238,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -4269,7 +4269,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76982
+        "$arrayRef": 86220
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -4277,10 +4277,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -4308,7 +4308,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -4316,10 +4316,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -4346,7 +4346,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -4354,10 +4354,10 @@
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -4380,20 +4380,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 68090
+        "$arrayRef": 77045
       },
       "BattleGroupID": 0,
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -4415,20 +4415,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 207
+        "$arrayRef": 206
       },
       "BattleGroupID": 0,
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -4455,20 +4455,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76983
+        "$arrayRef": 86221
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 192
+        "$arrayRef": 191
       },
       "BattleGroupID": 0,
       "UnlockTime": 43200,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -4496,7 +4496,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -4504,10 +4504,10 @@
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -4535,7 +4535,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -4543,10 +4543,10 @@
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -4574,7 +4574,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -4582,10 +4582,10 @@
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -4612,20 +4612,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 34291
+        "$arrayRef": 34371
       },
       "BattleGroupID": 0,
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -4647,20 +4647,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76984
+        "$arrayRef": 86222
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 21643
+        "$arrayRef": 21724
       },
       "BattleGroupID": 0,
       "UnlockTime": 54000,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -4685,20 +4685,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 22474
+        "$arrayRef": 22554
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -4726,7 +4726,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -4734,10 +4734,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -4765,7 +4765,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -4773,10 +4773,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -4804,7 +4804,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -4812,10 +4812,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -4843,7 +4843,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76985
+        "$arrayRef": 86223
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -4851,10 +4851,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -4878,20 +4878,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 14088
+        "$arrayRef": 14169
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -4915,20 +4915,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 58140
+        "$arrayRef": 67105
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -4956,7 +4956,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40003,
       "SpecfogID": {},
@@ -4964,10 +4964,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -4995,7 +4995,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40004,
       "SpecfogID": {},
@@ -5003,10 +5003,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -5034,7 +5034,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76986
+        "$arrayRef": 86224
       },
       "SystemEntityID": 40002,
       "SpecfogID": {},
@@ -5042,10 +5042,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -5072,20 +5072,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 212
+        "$arrayRef": 211
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -5109,20 +5109,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 1459
+        "$arrayRef": 1540
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -5143,20 +5143,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 76565
+        "$arrayRef": 85795
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -5180,20 +5180,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 5842
+        "$arrayRef": 5923
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -5217,20 +5217,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76987
+        "$arrayRef": 86225
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 76421
+        "$arrayRef": 85645
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -5254,20 +5254,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 205
+        "$arrayRef": 204
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -5289,20 +5289,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 76563
+        "$arrayRef": 85793
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -5323,20 +5323,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 75015
+        "$arrayRef": 84201
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -5360,20 +5360,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 208
+        "$arrayRef": 207
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -5397,20 +5397,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76988
+        "$arrayRef": 86226
       },
       "SystemEntityID": 40004,
       "SpecfogID": {
-        "$arrayRef": 220
+        "$arrayRef": 219
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -5431,20 +5431,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 76992
+        "$arrayRef": 86230
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -5468,20 +5468,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40001,
       "SpecfogID": {
-        "$arrayRef": 197
+        "$arrayRef": 196
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -5508,7 +5508,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -5516,10 +5516,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -5531,7 +5531,8 @@
       "NeighborRegionIDs": {
         "1": 152,
         "2": 149,
-        "3": 154
+        "3": 154,
+        "4": 156
       },
       "AroundRegionIDs": {
         "1": 148,
@@ -5544,7 +5545,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40001,
       "SpecfogID": {},
@@ -5552,10 +5553,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77010
+        "$arrayRef": 86247
       }
     },
     {
@@ -5577,20 +5578,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 7012
+        "$arrayRef": 7093
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77005
+        "$arrayRef": 86242
       }
     },
     {
@@ -5615,20 +5616,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 5945
+        "$arrayRef": 6026
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76998
+        "$arrayRef": 86235
       },
       "UnitJobRule": {
-        "$arrayRef": 77006
+        "$arrayRef": 86243
       }
     },
     {
@@ -5655,7 +5656,7 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40002,
       "SpecfogID": {
@@ -5666,10 +5667,10 @@
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76995
+        "$arrayRef": 86232
       },
       "UnitJobRule": {
-        "$arrayRef": 77007
+        "$arrayRef": 86244
       }
     },
     {
@@ -5691,20 +5692,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 8228
+        "$arrayRef": 8309
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76996
+        "$arrayRef": 86233
       },
       "UnitJobRule": {
-        "$arrayRef": 77008
+        "$arrayRef": 86245
       }
     },
     {
@@ -5725,20 +5726,20 @@
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {
-        "$arrayRef": 76990
+        "$arrayRef": 86228
       },
       "SystemEntityID": 40003,
       "SpecfogID": {
-        "$arrayRef": 211
+        "$arrayRef": 210
       },
       "BattleGroupID": 0,
       "UnlockTime": 64800,
       "UnlockHeroNum": 5,
       "UnitRaceRule": {
-        "$arrayRef": 76997
+        "$arrayRef": 86234
       },
       "UnitJobRule": {
-        "$arrayRef": 77009
+        "$arrayRef": 86246
       }
     },
     {
@@ -5748,17 +5749,17 @@
       "Width": 26,
       "Height": 20,
       "NeighborRegionIDs": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "AroundRegionIDs": {
-        "$arrayRef": 76967
+        "$arrayRef": 86205
       },
       "UnlockCondition": "true",
       "InteractCondition": "true",
       "UnlockCost": {},
       "SystemEntityID": 40002,
       "SpecfogID": {
-        "$arrayRef": 248
+        "$arrayRef": 247
       },
       "BattleGroupID": 0,
       "UnlockTime": 0,

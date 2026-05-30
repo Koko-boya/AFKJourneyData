@@ -4,7 +4,7 @@
     "header_table": "RevivalEntranceHeaderTable",
     "format": "flat_rows",
     "schema_size": 14,
-    "row_count": 8,
+    "row_count": 9,
     "array_fields": [
       "Reward"
     ],
@@ -107,6 +107,22 @@
       "ShowScheduleID": null
     },
     {
+      "ScheduleID": 233,
+      "ID": 5,
+      "Type": 1,
+      "ShowCondition": "ed.ConditionX.IsInSchedule(758)",
+      "Title": "7023789425978292876",
+      "IntroduceText": null,
+      "EntranceType": "RevivalGoToBoundCode",
+      "BGImage": "UI/Icon/ActivityPortal/spui_activity_tab_bg_return_invitation.png",
+      "Reward": {},
+      "Order": 6,
+      "RedDotID": 0,
+      "SubTitleType": 1,
+      "Text": null,
+      "ShowScheduleID": "0"
+    },
+    {
       "ScheduleID": 369,
       "ID": 1,
       "Type": 0,
@@ -116,7 +132,7 @@
       "EntranceType": "RevivalGoToMilestone",
       "BGImage": null,
       "Reward": {
-        "$arrayRef": 78
+        "$arrayRef": 77
       },
       "Order": 2,
       "RedDotID": 0,

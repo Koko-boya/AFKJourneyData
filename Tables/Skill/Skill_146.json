@@ -4,17 +4,15 @@
     "header_table": "Skill_146HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 3,
+    "row_count": 2,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 15
+    "unresolved_array_refs": 10
   },
   "default": {
     "CasterID": "null",
@@ -141,14 +139,13 @@
   },
   "row_keys": [
     0,
-    11,
     21
   ],
   "rows": [
     {
-      "CasterID": 1025,
+      "CasterID": 1020,
       "SkillID": 0,
-      "SkillName": "goblinmagemageelite_atk",
+      "SkillName": "goblinarcherbullet_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -177,7 +174,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -189,7 +186,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -197,19 +194,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinarcherbullet",
       "CastDisplays": {
-        "$arrayRef": 96660
+        "$arrayRef": 106927
       },
       "HitDisplay": {
-        "$arrayRef": 96660
+        "$arrayRef": 106927
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96660
+        "$arrayRef": 106927
       },
       "Action(s)": {
-        "$arrayRef": 96660
+        "$arrayRef": 106927
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -219,7 +216,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.1,
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -279,145 +276,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1025,
-      "SkillID": 11,
-      "SkillName": "goblinmagemageelite_ult",
-      "DisplayName": "1219285824033554149",
-      "IsShow": true,
-      "HeroDetailActionShow": true,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": null,
-      "IsPositiveManual": true,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_goblintiny.png",
-      "Description": "2920004224763892472",
-      "SimpleDescription": "14021193927715784478",
-      "ActiveType": "manual",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 190
-      },
-      "TargetCamp": 1,
-      "TargetPriority": "random",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 10,
-      "CD": 1.25,
-      "InitCD": 1.25,
-      "GlobalCD": 1,
-      "CostMP": 1000,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
-      "CastDisplays": {
-        "$arrayRef": 96649
-      },
-      "HitDisplay": {
-        "$arrayRef": 96649
-      },
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96649
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": 1,
-      "AOEOrigin": "self",
-      "AOEShape": null,
-      "AOEShapeArgs": {
-        "$arrayRef": 190
-      },
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96792
-      }
-    },
-    {
-      "CasterID": 1025,
+      "CasterID": 1020,
       "SkillID": 21,
-      "SkillName": "goblinmagemageelite_atk2",
-      "DisplayName": "7239494457825427811",
+      "SkillName": "goblinarcherbullet_atk2",
+      "DisplayName": "17094754448854383906",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -436,16 +298,16 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
-      "Description": "1780561553564338497",
-      "SimpleDescription": "17110949310988747732",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_aoe.png",
+      "Description": "17173262652968958483",
+      "SimpleDescription": "11681118088030199760",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -457,35 +319,37 @@
       "InitCD": 2,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 113,
+      "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinarcherbullet",
       "CastDisplays": {
-        "$arrayRef": 96648
+        "$arrayRef": 106915
       },
       "HitDisplay": {
-        "$arrayRef": 96648
+        "$arrayRef": 106915
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 106915
+      },
       "Action(s)": {
-        "$arrayRef": 96648
+        "$arrayRef": 106915
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 0,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.5,
+      "PlusRatio": 1.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,

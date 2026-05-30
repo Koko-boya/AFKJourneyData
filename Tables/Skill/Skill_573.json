@@ -10,9 +10,10 @@
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 10
+    "unresolved_array_refs": 11
   },
   "default": {
     "CasterID": "null",
@@ -143,9 +144,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5036,
+      "CasterID": 4073,
       "SkillID": 0,
-      "SkillName": "sk_atk",
+      "SkillName": "EliteIceCube_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -168,43 +169,45 @@
       "Icon": null,
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "active",
-      "ThumpCondition": 0,
+      "ActiveType": "passive",
+      "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": "noblock",
       "Priority": 1,
       "CD": 9999,
       "InitCD": 9999,
-      "GlobalCD": 1,
+      "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
+      "VictimMP": 0,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sk",
+      "UseWhich": "icecube",
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "HitDisplay": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 106910
+      },
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -214,7 +217,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -244,19 +247,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -271,17 +274,15 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 96840
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 5036,
+      "CasterID": 4073,
       "SkillID": 11,
-      "SkillName": "sk_ult",
-      "DisplayName": "4975283016553633331",
-      "IsShow": false,
-      "HeroDetailActionShow": false,
+      "SkillName": "EliteIceCube_ult",
+      "DisplayName": "3435905163112545133",
+      "IsShow": true,
+      "HeroDetailActionShow": true,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
       "UnlockLevel": 1,
@@ -290,54 +291,56 @@
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
       "Slot": 1,
-      "DisplaySlot": 2,
+      "DisplaySlot": 1,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
+      "SkillType": "manual",
+      "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_chain.png",
-      "Description": "790655334007681249",
-      "SimpleDescription": "10371544966571951564",
-      "ActiveType": "active",
-      "ThumpCondition": 15,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_aoe.png",
+      "Description": "7335048957226803424",
+      "SimpleDescription": "12867400519890947577",
+      "ActiveType": "manual",
+      "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 2,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1,
-      "CostMP": 0,
+      "TargetBlockType": "noblock",
+      "Priority": 100,
+      "CD": 0,
+      "InitCD": 0,
+      "GlobalCD": 1.25,
+      "CostMP": 1000,
       "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
+      "VictimMP": 0,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sk",
+      "UseWhich": "icecube",
       "CastDisplays": {
-        "$arrayRef": 96648
+        "$arrayRef": 106921
       },
       "HitDisplay": {
-        "$arrayRef": 96648
+        "$arrayRef": 106921
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 106921
+      },
       "Action(s)": {
-        "$arrayRef": 96648
+        "$arrayRef": 106921
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -346,15 +349,15 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
+      "PlusAttr": null,
       "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.18,
-      "SArg1": 0.13,
-      "SArg2": 6,
-      "SArg3": 0,
+      "SArg0": 3.5,
+      "SArg1": 5,
+      "SArg2": 5,
+      "SArg3": 1,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -378,19 +381,19 @@
       "HasUpDownAction": false,
       "DamagePopupList": {},
       "TileCollideType": "target",
-      "TileArt": "pbfx_chain_sk_atk2_lh",
+      "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 1,
-      "TileRadius": 0.3,
+      "TileScale": 0,
+      "TileRadius": 0.5,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
-      "TileXZSpeed": 8,
+      "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
-      "FollowTarget": true,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -405,7 +408,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 96842
+        "$arrayRef": 107520
       }
     }
   ]

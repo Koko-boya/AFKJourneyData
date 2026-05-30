@@ -10,10 +10,11 @@
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "TargetShapeArgs",
-      "Trajectory"
+      "ReselectTargetArgs",
+      "ResourceList",
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 14
   },
   "default": {
     "CasterID": "null",
@@ -145,9 +146,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1521,
+      "CasterID": 1471,
       "SkillID": 0,
-      "SkillName": "fearmagic_atk",
+      "SkillName": "devilsoldier_b_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -167,7 +168,7 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
+      "Icon": null,
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
       "ActiveType": "active",
@@ -190,25 +191,21 @@
       "CostMP": 0,
       "GainMP": 60,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fearmagic",
+      "UseWhich": "devilsoldier",
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
-      "HitDisplay": {
-        "$arrayRef": 96643
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96643
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -248,21 +245,21 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 1,
-      "TileRadius": 0.5,
+      "TileScale": 0,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
-      "TileRemain": 0.1,
+      "AimTarget": false,
+      "FollowTarget": false,
+      "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
@@ -275,13 +272,15 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 107235
+      }
     },
     {
-      "CasterID": 1521,
+      "CasterID": 1471,
       "SkillID": 11,
-      "SkillName": "fearmagic_ult",
-      "DisplayName": "14820140883182318631",
+      "SkillName": "devilsoldier_b_ult",
+      "DisplayName": "5492665234210604551",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -300,9 +299,9 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
-      "Description": "8291631732246273264",
-      "SimpleDescription": "16402086471611494720",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_around.png",
+      "Description": "847275457964079940",
+      "SimpleDescription": "16437760888981552227",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -329,33 +328,33 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fearmagic",
+      "UseWhich": "devilsoldier",
       "CastDisplays": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "HitDisplay": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "self",
       "AOEShape": "sector",
       "AOEShapeArgs": {
-        "$arrayRef": 72437
+        "$arrayRef": 67156
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 3.5,
+      "PlusRatio": 1.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.3,
+      "SArg0": 30,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -411,10 +410,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1521,
+      "CasterID": 1471,
       "SkillID": 21,
-      "SkillName": "fearmagic_atk2",
-      "DisplayName": "14336382955605848910",
+      "SkillName": "devilsoldier_b_atk2",
+      "DisplayName": "4590072039115022199",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -433,42 +432,46 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_fear.png",
-      "Description": "171855483448306668",
-      "SimpleDescription": "7099862236076790506",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_drain.png",
+      "Description": "18262729405913453771",
+      "SimpleDescription": "15814729736145919709",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "TargetCamp": -1,
-      "TargetPriority": null,
+      "TargetPriority": "maxhp",
       "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": -1,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 9999,
+      "ReselectTargetArgs": {
+        "$arrayRef": 107119
+      },
+      "TargetBlockType": null,
+      "Priority": 3,
+      "CD": 15,
+      "InitCD": 10,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 60,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": false,
+      "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fearmagic",
-      "CastDisplays": {},
+      "UseWhich": "devilsoldier",
+      "CastDisplays": {
+        "$arrayRef": 106935
+      },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106935
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -482,9 +485,9 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.01,
-      "SArg1": 0.03,
-      "SArg2": 0,
+      "SArg0": 100,
+      "SArg1": 1,
+      "SArg2": 5,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -535,7 +538,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 107284
+      }
     }
   ]
 }

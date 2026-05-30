@@ -3,8 +3,8 @@
     "table": "Dungeon",
     "header_table": "DungeonHeaderTable",
     "format": "flat_rows",
-    "schema_size": 39,
-    "row_count": 24,
+    "schema_size": 40,
+    "row_count": 27,
     "array_fields": [
       "BattleRecoverStamina",
       "ControlObjs",
@@ -14,12 +14,13 @@
       "DungeonModeDes",
       "DungeonModeRes",
       "InitItem",
+      "LineID",
       "MoveCutStamina",
       "NpcTeamList",
       "RecommendCamp",
       "ResourceBarAssets"
     ],
-    "unresolved_array_refs": 155
+    "unresolved_array_refs": 173
   },
   "default": {
     "ID": "null",
@@ -28,6 +29,7 @@
     "DisplayOrder": 0,
     "MapsID": {},
     "EnterCondition": "true",
+    "FinishCondition": "true",
     "DisplayCondition": {},
     "DisaplayConditionDesc": {},
     "InitialObj": 0,
@@ -86,7 +88,10 @@
     10602,
     10603,
     10604,
-    10605
+    10605,
+    10701,
+    10702,
+    10703
   ],
   "rows": [
     {
@@ -98,13 +103,14 @@
         "1": 7001
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 700100074,
       "ControlObjs": {
-        "$arrayRef": 72966
+        "$arrayRef": 82010
       },
       "TargetID": {
         "1": 700101,
@@ -119,7 +125,7 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72988
+        "$arrayRef": 82034
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_1_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_1.png",
@@ -127,17 +133,17 @@
       "IsUseNpcTeam": true,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {
-        "$arrayRef": 72490
+        "$arrayRef": 81524
       },
       "QuestGroupID": 1073,
       "DungeonMode": {
-        "$arrayRef": 72996
+        "$arrayRef": 82043
       },
       "DungeonModeDes": {
-        "$arrayRef": 73002
+        "$arrayRef": 82050
       },
       "DungeonModeRes": {
-        "$arrayRef": 73007
+        "$arrayRef": 82056
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -160,6 +166,7 @@
         "1": 7002
       },
       "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700101)",
+      "FinishCondition": "true",
       "DisplayCondition": {
         "1": "ed.ConditionX.IsDungeonTargetFinished(700101)"
       },
@@ -168,7 +175,7 @@
       },
       "InitialObj": 700200065,
       "ControlObjs": {
-        "$arrayRef": 72967
+        "$arrayRef": 82011
       },
       "TargetID": {
         "1": 700201,
@@ -183,27 +190,27 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72988
+        "$arrayRef": 82034
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_2_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_2.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": true,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {
-        "$arrayRef": 55102
+        "$arrayRef": 55182
       },
       "QuestGroupID": 1073,
       "DungeonMode": {
-        "$arrayRef": 72996
+        "$arrayRef": 82043
       },
       "DungeonModeDes": {
-        "$arrayRef": 73002
+        "$arrayRef": 82050
       },
       "DungeonModeRes": {
-        "$arrayRef": 73007
+        "$arrayRef": 82056
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -226,13 +233,14 @@
         "1": 7003
       },
       "EnterCondition": "false",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72963
+        "$arrayRef": 82007
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 700300089,
       "ControlObjs": {
-        "$arrayRef": 72968
+        "$arrayRef": 82012
       },
       "TargetID": {
         "1": 700301,
@@ -255,20 +263,20 @@
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_3_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_3.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1073,
       "DungeonMode": {
-        "$arrayRef": 72997
+        "$arrayRef": 82044
       },
       "DungeonModeDes": {
-        "$arrayRef": 73003
+        "$arrayRef": 82051
       },
       "DungeonModeRes": {
-        "$arrayRef": 73008
+        "$arrayRef": 82057
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -291,13 +299,14 @@
         "1": 7004
       },
       "EnterCondition": "false",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72963
+        "$arrayRef": 82007
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 700400095,
       "ControlObjs": {
-        "$arrayRef": 72969
+        "$arrayRef": 82013
       },
       "TargetID": {
         "1": 700401,
@@ -312,25 +321,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72989
+        "$arrayRef": 82035
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_4_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_4.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1073,
       "DungeonMode": {
-        "$arrayRef": 72998
+        "$arrayRef": 82045
       },
       "DungeonModeDes": {
-        "$arrayRef": 73004
+        "$arrayRef": 82052
       },
       "DungeonModeRes": {
-        "$arrayRef": 73009
+        "$arrayRef": 82058
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -353,13 +362,14 @@
         "1": 7005
       },
       "EnterCondition": "false",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72963
+        "$arrayRef": 82007
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 700500002,
       "ControlObjs": {
-        "$arrayRef": 72970
+        "$arrayRef": 82014
       },
       "TargetID": {
         "1": 700501,
@@ -374,25 +384,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72990
+        "$arrayRef": 82036
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_5_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_5.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1073,
       "DungeonMode": {
-        "$arrayRef": 72998
+        "$arrayRef": 82045
       },
       "DungeonModeDes": {
-        "$arrayRef": 73004
+        "$arrayRef": 82052
       },
       "DungeonModeRes": {
-        "$arrayRef": 73009
+        "$arrayRef": 82058
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -415,13 +425,14 @@
         "1": 7007
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 700700003,
       "ControlObjs": {
-        "$arrayRef": 72971
+        "$arrayRef": 82015
       },
       "TargetID": {
         "1": 700701,
@@ -436,25 +447,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72990
+        "$arrayRef": 82036
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_8_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_8.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1094,
       "DungeonMode": {
-        "$arrayRef": 72997
+        "$arrayRef": 82044
       },
       "DungeonModeDes": {
-        "$arrayRef": 73003
+        "$arrayRef": 82051
       },
       "DungeonModeRes": {
-        "$arrayRef": 73008
+        "$arrayRef": 82057
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -477,13 +488,14 @@
         "1": 7008
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 700800150,
       "ControlObjs": {
-        "$arrayRef": 72972
+        "$arrayRef": 82016
       },
       "TargetID": {
         "1": 700801,
@@ -506,20 +518,20 @@
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_6_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_6.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1094,
       "DungeonMode": {
-        "$arrayRef": 72999
+        "$arrayRef": 82046
       },
       "DungeonModeDes": {
-        "$arrayRef": 73005
+        "$arrayRef": 82053
       },
       "DungeonModeRes": {
-        "$arrayRef": 73010
+        "$arrayRef": 82059
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -542,13 +554,14 @@
         "1": 7012
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 701200001,
       "ControlObjs": {
-        "$arrayRef": 72973
+        "$arrayRef": 82017
       },
       "TargetID": {
         "1": 701201,
@@ -563,25 +576,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72991
+        "$arrayRef": 82037
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_10_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_10.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1094,
       "DungeonMode": {
-        "$arrayRef": 72999
+        "$arrayRef": 82046
       },
       "DungeonModeDes": {
-        "$arrayRef": 73005
+        "$arrayRef": 82053
       },
       "DungeonModeRes": {
-        "$arrayRef": 73010
+        "$arrayRef": 82059
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -604,13 +617,14 @@
         "1": 7010
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 701000001,
       "ControlObjs": {
-        "$arrayRef": 72974
+        "$arrayRef": 82018
       },
       "TargetID": {
         "1": 701001,
@@ -633,20 +647,20 @@
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_11_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_11.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1094,
       "DungeonMode": {
-        "$arrayRef": 72998
+        "$arrayRef": 82045
       },
       "DungeonModeDes": {
-        "$arrayRef": 73004
+        "$arrayRef": 82052
       },
       "DungeonModeRes": {
-        "$arrayRef": 73009
+        "$arrayRef": 82058
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -669,13 +683,14 @@
         "1": 7006
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 700600147,
       "ControlObjs": {
-        "$arrayRef": 72975
+        "$arrayRef": 82019
       },
       "TargetID": {
         "1": 700601,
@@ -690,25 +705,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72988
+        "$arrayRef": 82034
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_7_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_7.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1094,
       "DungeonMode": {
-        "$arrayRef": 72997
+        "$arrayRef": 82044
       },
       "DungeonModeDes": {
-        "$arrayRef": 73003
+        "$arrayRef": 82051
       },
       "DungeonModeRes": {
-        "$arrayRef": 73008
+        "$arrayRef": 82057
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -731,13 +746,14 @@
         "1": 7011
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 701100001,
       "ControlObjs": {
-        "$arrayRef": 72976
+        "$arrayRef": 82020
       },
       "TargetID": {
         "1": 701101,
@@ -752,19 +768,19 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72992
+        "$arrayRef": 82038
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_9_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_9.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1094,
       "DungeonMode": {
-        "$arrayRef": 73000
+        "$arrayRef": 82047
       },
       "DungeonModeDes": {
         "1": "15195460015403636414"
@@ -793,8 +809,9 @@
         "1": 7014
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {
         "1": "1389876512400123156",
@@ -802,7 +819,7 @@
       },
       "InitialObj": 701400001,
       "ControlObjs": {
-        "$arrayRef": 72977
+        "$arrayRef": 82021
       },
       "TargetID": {
         "1": 701401,
@@ -817,25 +834,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72988
+        "$arrayRef": 82034
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_13_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_13.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 72997
+        "$arrayRef": 82044
       },
       "DungeonModeDes": {
-        "$arrayRef": 73003
+        "$arrayRef": 82051
       },
       "DungeonModeRes": {
-        "$arrayRef": 73008
+        "$arrayRef": 82057
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -858,8 +875,9 @@
         "1": 7016
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {
         "1": "474390179335195172",
@@ -867,7 +885,7 @@
       },
       "InitialObj": 701600073,
       "ControlObjs": {
-        "$arrayRef": 72978
+        "$arrayRef": 82022
       },
       "TargetID": {
         "1": 701601,
@@ -882,25 +900,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72989
+        "$arrayRef": 82035
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_15_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_15.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 72998
+        "$arrayRef": 82045
       },
       "DungeonModeDes": {
-        "$arrayRef": 73004
+        "$arrayRef": 82052
       },
       "DungeonModeRes": {
-        "$arrayRef": 73009
+        "$arrayRef": 82058
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -923,8 +941,9 @@
         "1": 7015
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {
         "1": "5115063342304943967",
@@ -955,20 +974,20 @@
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_14_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_14.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 73001
+        "$arrayRef": 82048
       },
       "DungeonModeDes": {
-        "$arrayRef": 73006
+        "$arrayRef": 82054
       },
       "DungeonModeRes": {
-        "$arrayRef": 73011
+        "$arrayRef": 82060
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -991,8 +1010,9 @@
         "1": 7018
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {
         "1": "4191763432467235473",
@@ -1000,7 +1020,7 @@
       },
       "InitialObj": 701800008,
       "ControlObjs": {
-        "$arrayRef": 72979
+        "$arrayRef": 82023
       },
       "TargetID": {
         "1": 701801,
@@ -1015,25 +1035,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72992
+        "$arrayRef": 82038
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_17_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_17.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 72998
+        "$arrayRef": 82045
       },
       "DungeonModeDes": {
-        "$arrayRef": 73004
+        "$arrayRef": 82052
       },
       "DungeonModeRes": {
-        "$arrayRef": 73009
+        "$arrayRef": 82058
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -1057,8 +1077,9 @@
         "2": 7013
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {
         "1": "3049336910912925146",
@@ -1082,25 +1103,25 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72990
+        "$arrayRef": 82036
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_12_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_12.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 72999
+        "$arrayRef": 82046
       },
       "DungeonModeDes": {
-        "$arrayRef": 73005
+        "$arrayRef": 82053
       },
       "DungeonModeRes": {
-        "$arrayRef": 73010
+        "$arrayRef": 82059
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -1123,8 +1144,9 @@
         "1": 7017
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {
         "1": "7214134096956948740",
@@ -1132,7 +1154,7 @@
       },
       "InitialObj": 701700010,
       "ControlObjs": {
-        "$arrayRef": 72980
+        "$arrayRef": 82024
       },
       "TargetID": {
         "1": 701701,
@@ -1155,20 +1177,20 @@
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_16_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_16.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 73001
+        "$arrayRef": 82048
       },
       "DungeonModeDes": {
-        "$arrayRef": 73006
+        "$arrayRef": 82054
       },
       "DungeonModeRes": {
-        "$arrayRef": 73011
+        "$arrayRef": 82060
       },
       "MoveCutStamina": {},
       "BattleRecoverStamina": {},
@@ -1191,13 +1213,14 @@
         "1": 7019
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 701900001,
       "ControlObjs": {
-        "$arrayRef": 72981
+        "$arrayRef": 82025
       },
       "TargetID": {
         "1": 701901,
@@ -1212,12 +1235,12 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72988
+        "$arrayRef": 82034
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_18_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_18.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": true,
       "CanUseNonNpcUnit": false,
@@ -1227,24 +1250,24 @@
       },
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 72996
+        "$arrayRef": 82043
       },
       "DungeonModeDes": {
-        "$arrayRef": 73002
+        "$arrayRef": 82050
       },
       "DungeonModeRes": {
-        "$arrayRef": 73007
+        "$arrayRef": 82056
       },
       "MoveCutStamina": {
-        "$arrayRef": 73012
+        "$arrayRef": 82062
       },
       "BattleRecoverStamina": {
-        "$arrayRef": 73013
+        "$arrayRef": 82063
       },
       "CanUseStamina": false,
       "SpecialRuleDesc": "11811405538368996473",
       "InitItem": {
-        "$arrayRef": 73014
+        "$arrayRef": 82064
       },
       "LeaderSlot": 1,
       "LineID": {},
@@ -1262,13 +1285,14 @@
         "1": 7020
       },
       "EnterCondition": "true",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72962
+        "$arrayRef": 82006
       },
       "DisaplayConditionDesc": {},
       "InitialObj": 702000001,
       "ControlObjs": {
-        "$arrayRef": 72982
+        "$arrayRef": 82026
       },
       "TargetID": {
         "1": 702001,
@@ -1283,36 +1307,36 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72988
+        "$arrayRef": 82034
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_19_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_19.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
       "NpcTeamList": {},
       "QuestGroupID": 1133,
       "DungeonMode": {
-        "$arrayRef": 72999
+        "$arrayRef": 82046
       },
       "DungeonModeDes": {
-        "$arrayRef": 73005
+        "$arrayRef": 82053
       },
       "DungeonModeRes": {
-        "$arrayRef": 73010
+        "$arrayRef": 82059
       },
       "MoveCutStamina": {
-        "$arrayRef": 73012
+        "$arrayRef": 82062
       },
       "BattleRecoverStamina": {
-        "$arrayRef": 73013
+        "$arrayRef": 82063
       },
       "CanUseStamina": false,
       "SpecialRuleDesc": "11811405538368996473",
       "InitItem": {
-        "$arrayRef": 73014
+        "$arrayRef": 82064
       },
       "LeaderSlot": 0,
       "LineID": {},
@@ -1330,15 +1354,16 @@
         "1": 7025
       },
       "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72964
+        "$arrayRef": 82008
       },
       "DisaplayConditionDesc": {
-        "$arrayRef": 72965
+        "$arrayRef": 82009
       },
       "InitialObj": 702500003,
       "ControlObjs": {
-        "$arrayRef": 72983
+        "$arrayRef": 82027
       },
       "TargetID": {
         "1": 702501
@@ -1350,12 +1375,12 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72991
+        "$arrayRef": 82037
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_20_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_20.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
@@ -1403,15 +1428,16 @@
         "1": 7024
       },
       "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72964
+        "$arrayRef": 82008
       },
       "DisaplayConditionDesc": {
-        "$arrayRef": 72965
+        "$arrayRef": 82009
       },
       "InitialObj": 702400003,
       "ControlObjs": {
-        "$arrayRef": 72984
+        "$arrayRef": 82028
       },
       "TargetID": {
         "1": 702401
@@ -1423,12 +1449,12 @@
       "TeamNum": 1,
       "FormationBattleGroupID": 4200002,
       "RecommendCamp": {
-        "$arrayRef": 72993
+        "$arrayRef": 82039
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_21_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_21.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
@@ -1476,15 +1502,16 @@
         "1": 7027
       },
       "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72964
+        "$arrayRef": 82008
       },
       "DisaplayConditionDesc": {
-        "$arrayRef": 72965
+        "$arrayRef": 82009
       },
       "InitialObj": 702700002,
       "ControlObjs": {
-        "$arrayRef": 72985
+        "$arrayRef": 82029
       },
       "TargetID": {
         "1": 702701
@@ -1496,12 +1523,12 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72988
+        "$arrayRef": 82034
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_22_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_22.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
@@ -1549,15 +1576,16 @@
         "1": 7022
       },
       "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72964
+        "$arrayRef": 82008
       },
       "DisaplayConditionDesc": {
-        "$arrayRef": 72965
+        "$arrayRef": 82009
       },
       "InitialObj": 702200005,
       "ControlObjs": {
-        "$arrayRef": 72986
+        "$arrayRef": 82030
       },
       "TargetID": {
         "1": 702201
@@ -1569,12 +1597,12 @@
       "TeamNum": 1,
       "FormationBattleGroupID": 4200002,
       "RecommendCamp": {
-        "$arrayRef": 72994
+        "$arrayRef": 82040
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_23_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_23.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
@@ -1632,15 +1660,16 @@
         "1": 7023
       },
       "EnterCondition": "ed.ConditionX.IsDungeonTargetFinished(700201)",
+      "FinishCondition": "true",
       "DisplayCondition": {
-        "$arrayRef": 72964
+        "$arrayRef": 82008
       },
       "DisaplayConditionDesc": {
-        "$arrayRef": 72965
+        "$arrayRef": 82009
       },
       "InitialObj": 702300001,
       "ControlObjs": {
-        "$arrayRef": 72987
+        "$arrayRef": 82031
       },
       "TargetID": {
         "1": 702301
@@ -1652,12 +1681,12 @@
       "TeamNum": 2,
       "FormationBattleGroupID": 4200003,
       "RecommendCamp": {
-        "$arrayRef": 72990
+        "$arrayRef": 82036
       },
       "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_24_mini.png",
       "BgPic": "UI/Image/Dungeon/spui_dungeon_background_24.png",
       "ResourceBarAssets": {
-        "$arrayRef": 72995
+        "$arrayRef": 82042
       },
       "IsUseNpcTeam": false,
       "CanUseNonNpcUnit": false,
@@ -1699,6 +1728,228 @@
         "8": 702300215,
         "9": 702300224,
         "10": 702300225
+      }
+    },
+    {
+      "ID": 10701,
+      "Name": "17017588602647923959",
+      "Group": 12,
+      "DisplayOrder": 20,
+      "MapsID": {
+        "1": 5125
+      },
+      "EnterCondition": "true",
+      "FinishCondition": "not ed.ConditionX.IsExplTaskFinished(17010604,1)",
+      "DisplayCondition": {
+        "$arrayRef": 82006
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 512500021,
+      "ControlObjs": {
+        "$arrayRef": 82032
+      },
+      "TargetID": {
+        "1": 512501
+      },
+      "InitTeamStamina": 195,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 1,
+      "FormationBattleGroupID": 4200002,
+      "RecommendCamp": {
+        "$arrayRef": 82041
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_25_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_25.png",
+      "ResourceBarAssets": {},
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1190,
+      "DungeonMode": {
+        "$arrayRef": 82049
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 82055
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 82061
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {
+        "1": 17010604,
+        "2": 17010317
+      },
+      "CanUseTransform": true,
+      "RangeRadius": 2,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {
+        "1": 512500122,
+        "2": 512500123,
+        "3": 512500124,
+        "4": 512500125,
+        "5": 512500127,
+        "6": 512500130,
+        "7": 512500131,
+        "8": 512500132,
+        "9": 512500133,
+        "10": 512500134,
+        "11": 512500135,
+        "12": 512500346
+      }
+    },
+    {
+      "ID": 10702,
+      "Name": "12585070087620790973",
+      "Group": 13,
+      "DisplayOrder": 21,
+      "MapsID": {
+        "1": 5126
+      },
+      "EnterCondition": "true",
+      "FinishCondition": "not ed.ConditionX.IsExplTaskFinished(17010601,1)",
+      "DisplayCondition": {
+        "$arrayRef": 82006
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 512600002,
+      "ControlObjs": {
+        "1": 512600003
+      },
+      "TargetID": {
+        "1": 512601
+      },
+      "InitTeamStamina": 100,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 1,
+      "FormationBattleGroupID": 4200002,
+      "RecommendCamp": {
+        "$arrayRef": 82041
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_26_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_26.png",
+      "ResourceBarAssets": {},
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1190,
+      "DungeonMode": {
+        "$arrayRef": 82049
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 82055
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 82061
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {
+        "1": 17010601,
+        "2": 17010309
+      },
+      "CanUseTransform": true,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {
+        "1": 512600081,
+        "2": 512600082,
+        "3": 512600083,
+        "4": 512600090,
+        "5": 512600093,
+        "6": 512600094,
+        "7": 512600095,
+        "8": 512600226,
+        "9": 512600227
+      }
+    },
+    {
+      "ID": 10703,
+      "Name": "651422166633879942",
+      "Group": 14,
+      "DisplayOrder": 22,
+      "MapsID": {
+        "1": 5140
+      },
+      "EnterCondition": "true",
+      "FinishCondition": "not ed.ConditionX.IsExplTaskFinished(17010602,1)",
+      "DisplayCondition": {
+        "$arrayRef": 82006
+      },
+      "DisaplayConditionDesc": {},
+      "InitialObj": 514000042,
+      "ControlObjs": {
+        "$arrayRef": 82033
+      },
+      "TargetID": {
+        "1": 514001
+      },
+      "InitTeamStamina": 125,
+      "PotionAddStamina": 20,
+      "RecommendTeamStrength": 125,
+      "StdLv": 31000,
+      "TeamNum": 1,
+      "FormationBattleGroupID": 4200002,
+      "RecommendCamp": {
+        "$arrayRef": 82041
+      },
+      "EntrancePic": "UI/Image/Dungeon/spui_dungeon_background_27_mini.png",
+      "BgPic": "UI/Image/Dungeon/spui_dungeon_background_27.png",
+      "ResourceBarAssets": {},
+      "IsUseNpcTeam": false,
+      "CanUseNonNpcUnit": false,
+      "NpcTeamList": {},
+      "QuestGroupID": 1190,
+      "DungeonMode": {
+        "$arrayRef": 82049
+      },
+      "DungeonModeDes": {
+        "$arrayRef": 82055
+      },
+      "DungeonModeRes": {
+        "$arrayRef": 82061
+      },
+      "MoveCutStamina": {},
+      "BattleRecoverStamina": {},
+      "CanUseStamina": true,
+      "SpecialRuleDesc": null,
+      "InitItem": {},
+      "LeaderSlot": 0,
+      "LineID": {
+        "$arrayRef": 82065
+      },
+      "CanUseTransform": true,
+      "RangeRadius": 0,
+      "NeedMinimapItem": 0,
+      "RetainedFinalObjectIDs": {
+        "1": 514000083,
+        "2": 514000084,
+        "3": 514000093,
+        "4": 514000095,
+        "5": 514000098,
+        "6": 514000099,
+        "7": 514000100,
+        "8": 514000107,
+        "9": 514000108,
+        "10": 514000088,
+        "11": 514000089,
+        "12": 514000090,
+        "13": 514000092,
+        "14": 514000101,
+        "15": 514000112,
+        "16": 514000116
       }
     }
   ]

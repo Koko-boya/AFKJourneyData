@@ -4,7 +4,7 @@
     "header_table": "ErrorCodeHeaderTable",
     "format": "flat_rows",
     "schema_size": 6,
-    "row_count": 2030,
+    "row_count": 2090,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -1962,10 +1962,10 @@
     212007,
     212008,
     214001,
-    215001,
-    215002,
-    215003,
-    215004,
+    220002,
+    220007,
+    220008,
+    220009,
     109018,
     171068,
     185003,
@@ -2046,7 +2046,67 @@
     219003,
     219004,
     219005,
-    219006
+    219006,
+    34017,
+    62073,
+    62074,
+    62075,
+    62076,
+    62077,
+    62078,
+    62079,
+    62080,
+    62081,
+    62082,
+    62083,
+    62084,
+    62085,
+    62086,
+    62087,
+    62088,
+    62090,
+    166017,
+    186007,
+    220001,
+    220003,
+    220004,
+    220005,
+    220006,
+    220010,
+    220011,
+    220012,
+    220013,
+    220014,
+    220015,
+    220016,
+    220017,
+    220018,
+    223001,
+    223002,
+    223003,
+    223004,
+    224001,
+    224002,
+    224003,
+    224004,
+    224005,
+    224006,
+    224007,
+    224008,
+    224009,
+    224010,
+    224011,
+    224012,
+    224013,
+    224014,
+    224015,
+    224016,
+    224017,
+    224018,
+    225001,
+    220019,
+    223005,
+    211005
   ],
   "rows": [
     {
@@ -10277,8 +10337,8 @@
       "ErrorInfo": 82010,
       "AlertType": "Tips",
       "ErrorCode": 82010,
-      "SecurityType": "ErrorCode",
-      "DisplayText": null,
+      "SecurityType": "Display",
+      "DisplayText": "240018402234282807",
       "CodeNote": "<NotForUser>活动未处在激活阶段"
     },
     {
@@ -17610,33 +17670,33 @@
       "CodeNote": "查询Fau失败"
     },
     {
-      "ErrorInfo": 215001,
+      "ErrorInfo": 220002,
       "AlertType": "Tips",
-      "ErrorCode": 215001,
+      "ErrorCode": 220002,
       "SecurityType": "ErrorCode",
       "DisplayText": null,
       "CodeNote": "<NotForUser>当前玩家数据未找到"
     },
     {
-      "ErrorInfo": 215002,
+      "ErrorInfo": 220007,
       "AlertType": "Tips",
-      "ErrorCode": 215002,
+      "ErrorCode": 220007,
       "SecurityType": "ErrorCode",
       "DisplayText": null,
       "CodeNote": "还不是你的回合"
     },
     {
-      "ErrorInfo": 215003,
+      "ErrorInfo": 220008,
       "AlertType": "Tips",
-      "ErrorCode": 215003,
+      "ErrorCode": 220008,
       "SecurityType": "ErrorCode",
       "DisplayText": null,
       "CodeNote": "手里没有这张牌"
     },
     {
-      "ErrorInfo": 215004,
+      "ErrorInfo": 220009,
       "AlertType": "Tips",
-      "ErrorCode": 215004,
+      "ErrorCode": 220009,
       "SecurityType": "ErrorCode",
       "DisplayText": null,
       "CodeNote": "这张牌不能打出"
@@ -18288,6 +18348,486 @@
       "SecurityType": "Display",
       "DisplayText": "17297505911782550060",
       "CodeNote": "不能邀请自己"
+    },
+    {
+      "ErrorInfo": 34017,
+      "AlertType": "Tips",
+      "ErrorCode": 34017,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "条件不满足"
+    },
+    {
+      "ErrorInfo": 62073,
+      "AlertType": "Tips",
+      "ErrorCode": 62073,
+      "SecurityType": "Display",
+      "DisplayText": "4997419081158317730",
+      "CodeNote": "公会正在合并中"
+    },
+    {
+      "ErrorInfo": 62074,
+      "AlertType": "Tips",
+      "ErrorCode": 62074,
+      "SecurityType": "Display",
+      "DisplayText": "16017325470160311553",
+      "CodeNote": "不能邀请自己的公会"
+    },
+    {
+      "ErrorInfo": 62075,
+      "AlertType": "Tips",
+      "ErrorCode": 62075,
+      "SecurityType": "Display",
+      "DisplayText": "11521294939880884409",
+      "CodeNote": "已经邀请过合并"
+    },
+    {
+      "ErrorInfo": 62076,
+      "AlertType": "Tips",
+      "ErrorCode": 62076,
+      "SecurityType": "Display",
+      "DisplayText": "8043154538468593321",
+      "CodeNote": "8043154538468593321"
+    },
+    {
+      "ErrorInfo": 62077,
+      "AlertType": "Tips",
+      "ErrorCode": 62077,
+      "SecurityType": "Display",
+      "DisplayText": "5978371924143086708",
+      "CodeNote": "没有进行中的合并"
+    },
+    {
+      "ErrorInfo": 62078,
+      "AlertType": "Tips",
+      "ErrorCode": 62078,
+      "SecurityType": "Display",
+      "DisplayText": "7675274534785515367",
+      "CodeNote": "合并状态不正确"
+    },
+    {
+      "ErrorInfo": 62079,
+      "AlertType": "Tips",
+      "ErrorCode": 62079,
+      "SecurityType": "Display",
+      "DisplayText": "7590908798754016334",
+      "CodeNote": "不是合并发起方"
+    },
+    {
+      "ErrorInfo": 62080,
+      "AlertType": "Tips",
+      "ErrorCode": 62080,
+      "SecurityType": "Display",
+      "DisplayText": "17150312803237079843",
+      "CodeNote": "合并名单无效"
+    },
+    {
+      "ErrorInfo": 62081,
+      "AlertType": "Tips",
+      "ErrorCode": 62081,
+      "SecurityType": "Display",
+      "DisplayText": "15430289854837314538",
+      "CodeNote": "新会长非法"
+    },
+    {
+      "ErrorInfo": 62082,
+      "AlertType": "Tips",
+      "ErrorCode": 62082,
+      "SecurityType": "Display",
+      "DisplayText": "3637061458353880860",
+      "CodeNote": "小组不存在"
+    },
+    {
+      "ErrorInfo": 62083,
+      "AlertType": "Tips",
+      "ErrorCode": 62083,
+      "SecurityType": "Display",
+      "DisplayText": "13371197891268775764",
+      "CodeNote": "小组名不能为空"
+    },
+    {
+      "ErrorInfo": 62084,
+      "AlertType": "Tips",
+      "ErrorCode": 62084,
+      "SecurityType": "Display",
+      "DisplayText": "14108778398300406614",
+      "CodeNote": "小组名太长"
+    },
+    {
+      "ErrorInfo": 62085,
+      "AlertType": "Tips",
+      "ErrorCode": 62085,
+      "SecurityType": "Display",
+      "DisplayText": "16849755296550483155",
+      "CodeNote": "成员已在其他小组中"
+    },
+    {
+      "ErrorInfo": 62086,
+      "AlertType": "Tips",
+      "ErrorCode": 62086,
+      "SecurityType": "Display",
+      "DisplayText": "17807915283649982431",
+      "CodeNote": "成员不在该小组中"
+    },
+    {
+      "ErrorInfo": 62087,
+      "AlertType": "Tips",
+      "ErrorCode": 62087,
+      "SecurityType": "Display",
+      "DisplayText": "9074113926103432041",
+      "CodeNote": "无小组管理权限"
+    },
+    {
+      "ErrorInfo": 62088,
+      "AlertType": "Tips",
+      "ErrorCode": 62088,
+      "SecurityType": "Display",
+      "DisplayText": "17471252609217684641",
+      "CodeNote": "小组数量已达上限"
+    },
+    {
+      "ErrorInfo": 62090,
+      "AlertType": "Tips",
+      "ErrorCode": 62090,
+      "SecurityType": "Display",
+      "DisplayText": "18302339273767466237",
+      "CodeNote": "仅副会长可设置管理权限"
+    },
+    {
+      "ErrorInfo": 166017,
+      "AlertType": "Tips",
+      "ErrorCode": 166017,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "副本不能结束"
+    },
+    {
+      "ErrorInfo": 186007,
+      "AlertType": "Tips",
+      "ErrorCode": 186007,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "战宠升级不能重置到0级"
+    },
+    {
+      "ErrorInfo": 220001,
+      "AlertType": "Tips",
+      "ErrorCode": 220001,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>卡牌游戏类型不匹配"
+    },
+    {
+      "ErrorInfo": 220003,
+      "AlertType": "Tips",
+      "ErrorCode": 220003,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>卡牌游戏上一个玩家未找到"
+    },
+    {
+      "ErrorInfo": 220004,
+      "AlertType": "Tips",
+      "ErrorCode": 220004,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>卡牌游戏获胜玩家未找到"
+    },
+    {
+      "ErrorInfo": 220005,
+      "AlertType": "Tips",
+      "ErrorCode": 220005,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>该UID的卡牌游戏玩家未找到"
+    },
+    {
+      "ErrorInfo": 220006,
+      "AlertType": "Tips",
+      "ErrorCode": 220006,
+      "SecurityType": "Display",
+      "DisplayText": "7436777288488427862",
+      "CodeNote": "7436777288488427862"
+    },
+    {
+      "ErrorInfo": 220010,
+      "AlertType": "Tips",
+      "ErrorCode": 220010,
+      "SecurityType": "Display",
+      "DisplayText": "7468583967011408067",
+      "CodeNote": "还能出牌时不能抽牌"
+    },
+    {
+      "ErrorInfo": 220011,
+      "AlertType": "Tips",
+      "ErrorCode": 220011,
+      "SecurityType": "Display",
+      "DisplayText": "16276824851436142623",
+      "CodeNote": "需要对谎言牌回应，而不是出牌"
+    },
+    {
+      "ErrorInfo": 220012,
+      "AlertType": "Tips",
+      "ErrorCode": 220012,
+      "SecurityType": "Display",
+      "DisplayText": "13434092647082632195",
+      "CodeNote": "不存在需要回应的谎言牌"
+    },
+    {
+      "ErrorInfo": 220013,
+      "AlertType": "Tips",
+      "ErrorCode": 220013,
+      "SecurityType": "Display",
+      "DisplayText": "5738822371980948246",
+      "CodeNote": "谎言出牌次数超过限制"
+    },
+    {
+      "ErrorInfo": 220014,
+      "AlertType": "Tips",
+      "ErrorCode": 220014,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>PVP模式下不能作弊"
+    },
+    {
+      "ErrorInfo": 220015,
+      "AlertType": "Tips",
+      "ErrorCode": 220015,
+      "SecurityType": "Display",
+      "DisplayText": "8561193310134435641",
+      "CodeNote": "作弊次数超过限制"
+    },
+    {
+      "ErrorInfo": 220016,
+      "AlertType": "Tips",
+      "ErrorCode": 220016,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>手里没有卡牌"
+    },
+    {
+      "ErrorInfo": 220017,
+      "AlertType": "Tips",
+      "ErrorCode": 220017,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>机器人未能成功选择卡牌"
+    },
+    {
+      "ErrorInfo": 220018,
+      "AlertType": "Tips",
+      "ErrorCode": 220018,
+      "SecurityType": "Display",
+      "DisplayText": "16385745389030688444",
+      "CodeNote": "变色牌不能作为谎言牌"
+    },
+    {
+      "ErrorInfo": 223001,
+      "AlertType": "Tips",
+      "ErrorCode": 223001,
+      "SecurityType": "Display",
+      "DisplayText": "14494066815367072602",
+      "CodeNote": "小游戏完成过了"
+    },
+    {
+      "ErrorInfo": 223002,
+      "AlertType": "Tips",
+      "ErrorCode": 223002,
+      "SecurityType": "Display",
+      "DisplayText": "10292240336566776807",
+      "CodeNote": "奖励领取过了"
+    },
+    {
+      "ErrorInfo": 223003,
+      "AlertType": "Tips",
+      "ErrorCode": 223003,
+      "SecurityType": "Display",
+      "DisplayText": "5137538902686135639",
+      "CodeNote": "id非法"
+    },
+    {
+      "ErrorInfo": 223004,
+      "AlertType": "Tips",
+      "ErrorCode": 223004,
+      "SecurityType": "Display",
+      "DisplayText": "7262393331678702764",
+      "CodeNote": "分数不满足领取条件"
+    },
+    {
+      "ErrorInfo": 224001,
+      "AlertType": "Tips",
+      "ErrorCode": 224001,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>WzSvr值非法"
+    },
+    {
+      "ErrorInfo": 224002,
+      "AlertType": "Tips",
+      "ErrorCode": 224002,
+      "SecurityType": "Display",
+      "DisplayText": "2656142695484476927",
+      "CodeNote": "巅峰联赛不开放"
+    },
+    {
+      "ErrorInfo": 224003,
+      "AlertType": "Tips",
+      "ErrorCode": 224003,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>SpanID不合法"
+    },
+    {
+      "ErrorInfo": 224004,
+      "AlertType": "Tips",
+      "ErrorCode": 224004,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>找不到玩家战斗数据"
+    },
+    {
+      "ErrorInfo": 224005,
+      "AlertType": "Tips",
+      "ErrorCode": 224005,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>找不到分组信息"
+    },
+    {
+      "ErrorInfo": 224006,
+      "AlertType": "Tips",
+      "ErrorCode": 224006,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>猜题参数不合法"
+    },
+    {
+      "ErrorInfo": 224007,
+      "AlertType": "Tips",
+      "ErrorCode": 224007,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>找不到轮次信息"
+    },
+    {
+      "ErrorInfo": 224008,
+      "AlertType": "Tips",
+      "ErrorCode": 224008,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>找不到猜题答案"
+    },
+    {
+      "ErrorInfo": 224009,
+      "AlertType": "Tips",
+      "ErrorCode": 224009,
+      "SecurityType": "Display",
+      "DisplayText": "2216499075323075182",
+      "CodeNote": "竞猜下注币不足"
+    },
+    {
+      "ErrorInfo": 224010,
+      "AlertType": "Tips",
+      "ErrorCode": 224010,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>猜题不存在"
+    },
+    {
+      "ErrorInfo": 224011,
+      "AlertType": "Tips",
+      "ErrorCode": 224011,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>猜题选项不存在"
+    },
+    {
+      "ErrorInfo": 224012,
+      "AlertType": "Tips",
+      "ErrorCode": 224012,
+      "SecurityType": "Display",
+      "DisplayText": "竞猜暂未开放",
+      "CodeNote": "竞猜未开放"
+    },
+    {
+      "ErrorInfo": 224013,
+      "AlertType": "Tips",
+      "ErrorCode": 224013,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>猜题数据异常"
+    },
+    {
+      "ErrorInfo": 224014,
+      "AlertType": "Tips",
+      "ErrorCode": 224014,
+      "SecurityType": "Display",
+      "DisplayText": "2485090550367002444",
+      "CodeNote": "锁定阶段不能改阵容"
+    },
+    {
+      "ErrorInfo": 224015,
+      "AlertType": "Tips",
+      "ErrorCode": 224015,
+      "SecurityType": "Display",
+      "DisplayText": "10920876145187372788",
+      "CodeNote": "领取战斗奖励阶段不合法"
+    },
+    {
+      "ErrorInfo": 224016,
+      "AlertType": "Tips",
+      "ErrorCode": 224016,
+      "SecurityType": "Display",
+      "DisplayText": "10920876145187372788",
+      "CodeNote": "领取Rank奖励阶段不合法"
+    },
+    {
+      "ErrorInfo": 224017,
+      "AlertType": "Tips",
+      "ErrorCode": 224017,
+      "SecurityType": "Display",
+      "DisplayText": "11425724948708952602",
+      "CodeNote": "参赛选手不可参与竞猜下注"
+    },
+    {
+      "ErrorInfo": 224018,
+      "AlertType": "Tips",
+      "ErrorCode": 224018,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>阶段ID不合法"
+    },
+    {
+      "ErrorInfo": 225001,
+      "AlertType": "Tips",
+      "ErrorCode": 225001,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>巅峰联赛积分数据未找到"
+    },
+    {
+      "ErrorInfo": 220019,
+      "AlertType": "Tips",
+      "ErrorCode": 220019,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>卡牌游戏CSV数据异常"
+    },
+    {
+      "ErrorInfo": 223005,
+      "AlertType": "Tips",
+      "ErrorCode": 223005,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>分数超过合法上限"
+    },
+    {
+      "ErrorInfo": 211005,
+      "AlertType": "Tips",
+      "ErrorCode": 211005,
+      "SecurityType": "Display",
+      "DisplayText": "11976349921554331176",
+      "CodeNote": "梦神英雄不存在"
     }
   ]
 }

@@ -6,14 +6,13 @@
     "schema_size": 121,
     "row_count": 4,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "TargetShapeArgs",
-      "Trajectory"
+      "ResourceList",
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 18
+    "unresolved_array_refs": 14
   },
   "default": {
     "CasterID": "null",
@@ -146,9 +145,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1245,
+      "CasterID": 1240,
       "SkillID": 0,
-      "SkillName": "dftsupport_atk",
+      "SkillName": "dfttank_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -177,19 +176,19 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 47
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 75,
+      "GainMP": 65,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -197,17 +196,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtsupport",
+      "UseWhich": "ybttank",
       "CastDisplays": {
-        "$arrayRef": 96660
+        "$arrayRef": 106910
       },
       "HitDisplay": {
-        "$arrayRef": 96660
+        "$arrayRef": 106910
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96660
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -277,10 +276,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1245,
+      "CasterID": 1240,
       "SkillID": 11,
-      "SkillName": "dftsupport_ult",
-      "DisplayName": "11589848374497926345",
+      "SkillName": "dfttank_ult",
+      "DisplayName": "5018845580608357996",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -299,25 +298,25 @@
       "SkillPerformData": "heal",
       "IsPositiveManual": true,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
-      "Description": "16553246790813275945",
-      "SimpleDescription": "12738502231923214341",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal.png",
+      "Description": "15375233534096624652",
+      "SimpleDescription": "5861056539475032966",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": null,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
-      "TargetCamp": 1,
-      "TargetPriority": "weakest",
+      "TargetCamp": 0,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
-      "CD": 0,
-      "InitCD": 1,
+      "CD": 1.25,
+      "InitCD": 1.25,
       "GlobalCD": 1.25,
       "CostMP": 1000,
       "GainMP": 0,
@@ -328,35 +327,31 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtsupport",
+      "UseWhich": "ybttank",
       "CastDisplays": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
-      "HitDisplay": {
-        "$arrayRef": 96644
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96644
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 190
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "HP",
+      "PlusRatio": -0.04,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 6,
-      "SArg1": 50,
-      "SArg2": 1.2,
+      "SArg1": 0.5,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -410,10 +405,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1245,
+      "CasterID": 1240,
       "SkillID": 21,
-      "SkillName": "dftsupport_atk2",
-      "DisplayName": "12222196127507010056",
+      "SkillName": "dfttank_atk2",
+      "DisplayName": "6440905070686709784",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -432,49 +427,45 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal.png",
-      "Description": "17109577873609356360",
-      "SimpleDescription": "1638887858366047850",
-      "ActiveType": "active",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_up.png",
+      "Description": "5597001090722239349",
+      "SimpleDescription": "9877692952589243941",
+      "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 189
       },
       "TargetCamp": 1,
-      "TargetPriority": "weakest",
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 3,
-      "CD": 6,
-      "InitCD": 1,
-      "GlobalCD": 0.5,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 9999,
       "CostMP": 0,
-      "GainMP": 120,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": true,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtsupport",
-      "CastDisplays": {
-        "$arrayRef": 96648
-      },
-      "HitDisplay": {
-        "$arrayRef": 96648
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96648
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 1,
+      "AffectedCamp": -1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
@@ -485,7 +476,7 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1.5,
+      "SArg0": 0.4,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -538,13 +529,15 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 107096
+      }
     },
     {
-      "CasterID": 1245,
+      "CasterID": 1240,
       "SkillID": 31,
-      "SkillName": "dftsupport_atk3",
-      "DisplayName": "17568542009391158078",
+      "SkillName": "dfttank_atk3",
+      "DisplayName": "4309923649349322459",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -563,48 +556,46 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_stun.png",
-      "Description": "1325441274600675504",
-      "SimpleDescription": "6806533002530938235",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_dft_1.png",
+      "Description": "15776862081410637555",
+      "SimpleDescription": "11596864687658865327",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 47
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 4,
-      "CD": 10,
-      "InitCD": 1.5,
-      "GlobalCD": 1.25,
+      "Priority": 20,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 0,
       "CostMP": 0,
-      "GainMP": 100,
+      "GainMP": 50,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtsupport",
+      "UseWhich": "ybttank",
       "CastDisplays": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
       "HitDisplay": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96649
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96649
+        "$arrayRef": 106916
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -613,13 +604,13 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 7,
-      "SArg1": 0,
+      "SArg0": 30,
+      "SArg1": 3,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -632,8 +623,8 @@
       "SArg11": 0,
       "SArg12": 0,
       "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
+      "Buff": "dfttank_atk3",
+      "BuffID": 124001,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -644,19 +635,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0.2,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,

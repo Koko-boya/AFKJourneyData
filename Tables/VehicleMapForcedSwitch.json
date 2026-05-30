@@ -4,7 +4,7 @@
     "header_table": "VehicleMapForcedSwitchHeaderTable",
     "format": "flat_rows",
     "schema_size": 3,
-    "row_count": 4,
+    "row_count": 11,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -31,9 +31,44 @@
       "MapVehicleID": 11
     },
     {
+      "MapID": 5131,
+      "Condition": "not ed.ConditionX.IsExplTaskFinished(17010108,4)",
+      "MapVehicleID": 21
+    },
+    {
       "MapID": 5132,
-      "Condition": "ed.ConditionX.IsExplTaskFinished(17010102,4) and not ed.ConditionX.IsExplTaskFinished(17010103,1)",
+      "Condition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010107)",
+      "MapVehicleID": 22
+    },
+    {
+      "MapID": 5145,
+      "Condition": "true",
       "MapVehicleID": 20
+    },
+    {
+      "MapID": 14,
+      "Condition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010215) or ed.ConditionX.C_CheckFollowTaskByLineID(17010216) or ed.ConditionX.C_CheckFollowTaskByLineID(17010217) or ed.ConditionX.C_CheckFollowTaskByLineID(17010218)",
+      "MapVehicleID": 25
+    },
+    {
+      "MapID": 5123,
+      "Condition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010215) or ed.ConditionX.C_CheckFollowTaskByLineID(17010217)",
+      "MapVehicleID": 25
+    },
+    {
+      "MapID": 5133,
+      "Condition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010215)",
+      "MapVehicleID": 25
+    },
+    {
+      "MapID": 5122,
+      "Condition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010216) or ed.ConditionX.C_CheckFollowTaskByLineID(17010218)",
+      "MapVehicleID": 25
+    },
+    {
+      "MapID": 5135,
+      "Condition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010218)",
+      "MapVehicleID": 25
     }
   ]
 }

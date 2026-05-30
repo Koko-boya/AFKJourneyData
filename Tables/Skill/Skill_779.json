@@ -8,12 +8,9 @@
     "array_fields": [
       "Action(s)",
       "CastDisplays",
-      "HitDisplay",
-      "SkinUseWhich",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 6
+    "unresolved_array_refs": 3
   },
   "default": {
     "CasterID": "null",
@@ -139,15 +136,15 @@
     "ResourceList": {}
   },
   "row_keys": [
-    0
+    1
   ],
   "rows": [
     {
-      "CasterID": 8002,
-      "SkillID": 0,
-      "SkillName": "storymerlin_atk",
-      "DisplayName": "（不用翻译）占坑普攻",
-      "IsShow": false,
+      "CasterID": 7128,
+      "SkillID": 1,
+      "SkillName": "ybtassassin_playlab_1",
+      "DisplayName": "13294593467694819962",
+      "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
@@ -156,59 +153,53 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 0,
-      "DisplaySlot": 0,
+      "Slot": 1,
+      "DisplaySlot": 1,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "basic",
-      "SkillPerformData": null,
+      "SkillType": "manual",
+      "SkillPerformData": "dmg",
       "IsPositiveManual": false,
-      "SkillScript": null,
+      "SkillScript": "lab_monsterEconomy",
       "Icon": "UI/Icon/HeroSkill/icon_skill_thorn.png",
-      "Description": "普通攻击（不用翻译）",
-      "SimpleDescription": null,
-      "ActiveType": "active",
+      "Description": "12175231848012737014",
+      "SimpleDescription": "12175231848012737014",
+      "ActiveType": "manual",
       "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
+      "SetSpeeder": 0,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 189
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "h_random",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
-      "InitCD": 2,
-      "GlobalCD": 1.5,
+      "InitCD": 0,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 130,
-      "VictimMP": 1,
-      "TrackType": "projectile",
+      "GainMP": 0,
+      "VictimMP": 0,
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
-      "SkinUseWhich": {
-        "$arrayRef": 97744
-      },
-      "UseWhich": "originalmerlin",
+      "SkinUseWhich": {},
+      "UseWhich": "ybtassassin",
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
-      "HitDisplay": {
-        "$arrayRef": 96643
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96643
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -217,15 +208,15 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
+      "SArg0": 1062,
+      "SArg1": 100,
+      "SArg2": 30,
+      "SArg3": 2,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -248,7 +239,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -260,7 +251,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,

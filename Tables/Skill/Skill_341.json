@@ -4,16 +4,17 @@
     "header_table": "Skill_341HeaderTable",
     "format": "flat_rows",
     "schema_size": 121,
-    "row_count": 5,
+    "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
+      "ResourceList",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 22
+    "unresolved_array_refs": 20
   },
   "default": {
     "CasterID": "null",
@@ -142,14 +143,13 @@
     0,
     11,
     21,
-    31,
-    41
+    31
   ],
   "rows": [
     {
-      "CasterID": 1548,
+      "CasterID": 1501,
       "SkillID": 0,
-      "SkillName": "sewermagemine_atk",
+      "SkillName": "believermagic_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -169,7 +169,7 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
       "ActiveType": "active",
@@ -178,19 +178,19 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 61
+        "$arrayRef": 47
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
-      "CD": 20,
-      "InitCD": 4,
-      "GlobalCD": 0.5,
+      "Priority": 1,
+      "CD": 0,
+      "InitCD": 0,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 60,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -198,19 +198,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "HitDisplay": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -254,8 +254,8 @@
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
+      "TileScale": 1,
+      "TileRadius": 0.1,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
@@ -263,7 +263,7 @@
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
-      "FollowTarget": true,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -276,16 +276,14 @@
       "ChainJumpDistance": 0,
       "MaxAffectTimes": 0,
       "ChainEffect": null,
-      "SummonUnitList": {
-        "1": 1548
-      },
+      "SummonUnitList": {},
       "ResourceList": {}
     },
     {
-      "CasterID": 1548,
+      "CasterID": 1501,
       "SkillID": 11,
-      "SkillName": "sewermagemine_ult",
-      "DisplayName": "2102306886688249066",
+      "SkillName": "believermagic_ult",
+      "DisplayName": "12757654302983816972",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -304,164 +302,27 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_around.png",
-      "Description": "3642666255657939361",
-      "SimpleDescription": "13447777580140861195",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_mp_heal.png",
+      "Description": "13232754202618021093",
+      "SimpleDescription": "17900448068280064223",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 44
+        "$arrayRef": 45
       },
-      "TargetCamp": 0,
-      "TargetPriority": "target",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": -2,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1.25,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
-      "CastDisplays": {
-        "$arrayRef": 96644
-      },
-      "HitDisplay": {
-        "$arrayRef": 96644
-      },
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 96644
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 44
-      },
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 2,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 1,
-      "SArg1": 3,
-      "SArg2": 0.5,
-      "SArg3": -0.2,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_action_sewermage_mine_ult",
-        "2": "pbfx_point_sewermage_mine_ult_1",
-        "3": "pbfx_point_sewermage_mine_ult_2"
-      }
-    },
-    {
-      "CasterID": 1548,
-      "SkillID": 21,
-      "SkillName": "sewermagemine_atk2",
-      "DisplayName": "14003450882614585481",
-      "IsShow": true,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 2,
-      "DisplaySlot": 2,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
-      "Description": "2541512320583835704",
-      "SimpleDescription": "6021311576957975134",
-      "ActiveType": "active",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": "hex",
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 61
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "h_front",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": "noblock",
-      "Priority": 1,
+      "Priority": 2,
       "CD": 0,
       "InitCD": 0,
-      "GlobalCD": 0,
-      "CostMP": 0,
+      "GlobalCD": 1.25,
+      "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
@@ -470,33 +331,33 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96648
+        "$arrayRef": 106911
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96648
+        "$arrayRef": 106911
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 1,
       "AOEOrigin": "target",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 1470
+        "$arrayRef": 189
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0.5,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": -0.2,
-      "SArg1": 6,
-      "SArg2": 0,
+      "SArg0": 0.3,
+      "SArg1": 100,
+      "SArg2": 200,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -548,15 +409,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_point_sewermage_mine_atk2",
-        "2": "pbfx_action_sewermage_mine_atk2"
+        "$arrayRef": 107291
       }
     },
     {
-      "CasterID": 1548,
-      "SkillID": 31,
-      "SkillName": "sewermagemine_atk3",
-      "DisplayName": "16604534201505324214",
+      "CasterID": 1501,
+      "SkillID": 21,
+      "SkillName": "believermagic_atk2",
+      "DisplayName": "10460536364212637025",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -566,8 +426,8 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 3,
-      "DisplaySlot": 3,
+      "Slot": 2,
+      "DisplaySlot": 2,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
@@ -575,48 +435,46 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_multi.png",
-      "Description": "17474565389208075794",
-      "SimpleDescription": "14164983227231615650",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap.png",
+      "Description": "3232121065434590270",
+      "SimpleDescription": "5264684899764581169",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 45
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 3,
-      "CD": 12,
-      "InitCD": 8,
-      "GlobalCD": 0.5,
+      "CD": 3,
+      "InitCD": 12,
+      "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 80,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96649
+        "$arrayRef": 106915
       },
       "HitDisplay": {
-        "$arrayRef": 96649
+        "$arrayRef": 106915
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 96649
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96649
+        "$arrayRef": 106915
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -630,10 +488,10 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2,
-      "SArg1": 2,
-      "SArg2": -20,
-      "SArg3": 3,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -683,14 +541,16 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 107292
+      }
     },
     {
-      "CasterID": 1548,
-      "SkillID": 41,
-      "SkillName": "sewermagemine_atk4",
-      "DisplayName": "分裂生成小怪(不用翻译)",
-      "IsShow": false,
+      "CasterID": 1501,
+      "SkillID": 31,
+      "SkillName": "believermagic_atk3",
+      "DisplayName": "9349299838272897950",
+      "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
@@ -699,8 +559,8 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 4,
-      "DisplaySlot": 4,
+      "Slot": 3,
+      "DisplaySlot": 3,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
@@ -708,23 +568,23 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_summon.png",
-      "Description": null,
-      "SimpleDescription": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_sacrifice.png",
+      "Description": "6352861289472140820",
+      "SimpleDescription": "7532188373677031492",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 46
+        "$arrayRef": 45
       },
       "TargetCamp": 0,
-      "TargetPriority": "self",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": -1,
+      "TargetBlockType": "noblock",
+      "Priority": 10,
       "CD": 9999,
       "InitCD": 9999,
       "GlobalCD": 1.25,
@@ -737,15 +597,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 96654
+        "$arrayRef": 106916
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 106916
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 96654
+        "$arrayRef": 106916
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -759,11 +621,11 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
+      "SArg0": 0.1,
+      "SArg1": 20,
+      "SArg2": 1,
+      "SArg3": 4,
+      "SArg4": 3,
       "SArg5": 0,
       "SArg6": 0,
       "SArg7": 0,
@@ -812,7 +674,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 107290
+      }
     }
   ]
 }

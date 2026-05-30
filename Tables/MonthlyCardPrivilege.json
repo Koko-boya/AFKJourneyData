@@ -4,11 +4,11 @@
     "header_table": "MonthlyCardPrivilegeHeaderTable",
     "format": "flat_rows",
     "schema_size": 12,
-    "row_count": 5,
+    "row_count": 6,
     "array_fields": [
       "ActivationReq"
     ],
-    "unresolved_array_refs": 5
+    "unresolved_array_refs": 6
   },
   "default": {
     "ID": "null",
@@ -29,7 +29,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "rows": [
     {
@@ -40,7 +41,7 @@
       "ShortDescription": null,
       "PrivilegeParam": 0,
       "ActivationReq": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PrefabRes": "pbui_monthlycard_privilege_banner_comingsoon",
       "IsBothPurchased": false,
@@ -56,7 +57,7 @@
       "ShortDescription": "7508113332492741961",
       "PrivilegeParam": 0,
       "ActivationReq": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PrefabRes": "pbui_monthlycard_privilege_banner_frame",
       "IsBothPurchased": true,
@@ -72,7 +73,7 @@
       "ShortDescription": "4433218419252073600",
       "PrivilegeParam": 0,
       "ActivationReq": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PrefabRes": "pbui_monthlycard_privilege_banner_seasonbookaccelerate",
       "IsBothPurchased": false,
@@ -88,7 +89,7 @@
       "ShortDescription": "1487738503078314186",
       "PrivilegeParam": 3,
       "ActivationReq": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PrefabRes": "pbui_monthlycard_privilege_banner_gridreward",
       "IsBothPurchased": false,
@@ -104,9 +105,25 @@
       "ShortDescription": "496128716860118174",
       "PrivilegeParam": 0,
       "ActivationReq": {
-        "$arrayRef": 452
+        "$arrayRef": 460
       },
       "PrefabRes": "pbui_monthlycard_privilege_banner_homesteadaccelerate",
+      "IsBothPurchased": false,
+      "Order": 1,
+      "IsRedDotPushed": false,
+      "PromoPrefabRes": null
+    },
+    {
+      "ID": 6,
+      "MonthlyCardPrivilege": 1,
+      "Title": "17599851501792220200",
+      "RuleDescription": "6199291290617641616",
+      "ShortDescription": "17041405179523477774",
+      "PrivilegeParam": 0,
+      "ActivationReq": {
+        "$arrayRef": 460
+      },
+      "PrefabRes": "pbui_monthlycard_privilege_banner_idle",
       "IsBothPurchased": false,
       "Order": 1,
       "IsRedDotPushed": false,

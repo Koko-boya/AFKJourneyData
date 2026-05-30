@@ -6,11 +6,15 @@
     "schema_size": 121,
     "row_count": 1,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "TargetShapeArgs"
+      "EvaluateDisplay",
+      "HitDisplay",
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 3
+    "unresolved_array_refs": 7
   },
   "default": {
     "CasterID": "null",
@@ -136,15 +140,15 @@
     "ResourceList": {}
   },
   "row_keys": [
-    1
+    10
   ],
   "rows": [
     {
-      "CasterID": 7026,
-      "SkillID": 1,
-      "SkillName": "goblinmeleebarelite_playlab_1",
-      "DisplayName": "13294593467694819962",
-      "IsShow": true,
+      "CasterID": 6006,
+      "SkillID": 10,
+      "SkillName": "equip_skill_atk",
+      "DisplayName": "18381526316096517438",
+      "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
@@ -153,35 +157,35 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
+      "Slot": 10,
+      "DisplaySlot": 10,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
-      "SkillScript": "lab_monsterEconomy",
-      "Icon": "UI/Icon/HeroSkill/icon_skill_thorn.png",
-      "Description": "12175231848012737014",
-      "SimpleDescription": "12175231848012737014",
+      "SkillScript": "roller",
+      "Icon": null,
+      "Description": "2425834996875973154",
+      "SimpleDescription": null,
       "ActiveType": "manual",
       "ThumpCondition": -1,
-      "SetSpeeder": 0,
+      "SetSpeeder": -1,
       "TargetType": "hex",
-      "TargetShape": null,
+      "TargetShape": "diy_lock",
       "TargetShapeArgs": {
-        "$arrayRef": 190
+        "$arrayRef": 108017
       },
-      "TargetCamp": -1,
-      "TargetPriority": "h_random",
+      "TargetCamp": 0,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 1,
+      "Priority": 10,
       "CD": 0,
       "InitCD": 0,
-      "GlobalCD": 1,
+      "GlobalCD": 0,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 0,
@@ -191,32 +195,40 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmelee",
+      "UseWhich": "battle_object_roller",
       "CastDisplays": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
+      "HitDisplay": {
+        "$arrayRef": 106910
+      },
+      "EvaluateDisplay": {
+        "$arrayRef": 106910
+      },
+      "Trajectory": {
+        "$arrayRef": 106910
+      },
       "Action(s)": {
-        "$arrayRef": 96643
+        "$arrayRef": 106910
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AffectedCamp": 0,
+      "AOEOrigin": "self",
+      "AOEShape": "diy_lock",
+      "AOEShapeArgs": {
+        "$arrayRef": 108017
+      },
       "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
-      "DamageType": null,
+      "PlusAttrUnit": "target",
+      "PlusAttr": "HP",
+      "PlusRatio": 0.1,
+      "DamageType": "Holy",
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1018,
-      "SArg1": 100,
-      "SArg2": 30,
-      "SArg3": 2,
+      "SArg0": 2,
+      "SArg1": 3,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -228,7 +240,7 @@
       "SArg12": 0,
       "DamageExtraEff": false,
       "Buff": null,
-      "BuffID": 0,
+      "BuffID": 40033004,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,

@@ -3,12 +3,12 @@
     "table": "ChestLimitChest",
     "header_table": "ChestLimitChestHeaderTable",
     "format": "flat_rows",
-    "schema_size": 10,
-    "row_count": 1,
+    "schema_size": 11,
+    "row_count": 4,
     "array_fields": [
       "Conversion"
     ],
-    "unresolved_array_refs": 1
+    "unresolved_array_refs": 4
   },
   "default": {
     "ID": "null",
@@ -20,25 +20,75 @@
     "LootInfoKey": null,
     "DropGroup": 0,
     "Icon": null,
-    "Tip": null
+    "Tip": null,
+    "DrawWithReplacement": false
   },
   "row_keys": [
-    3
+    4,
+    701,
+    702,
+    703
   ],
   "rows": [
     {
-      "ID": 3,
-      "Name": "13540955930585623694",
-      "SeasonType": 106,
+      "ID": 4,
+      "Name": "3377102873727454212",
+      "SeasonType": 107,
       "Quality": 6,
       "Limit": 0,
       "Conversion": {
-        "$arrayRef": 72403
+        "$arrayRef": 81434
       },
       "LootInfoKey": 195,
-      "DropGroup": 2,
+      "DropGroup": 3,
       "Icon": "UI/Icon/Item/item_limitchest_deco_ep5.png",
-      "Tip": "23112515399325156"
+      "Tip": "23112515399325156",
+      "DrawWithReplacement": true
+    },
+    {
+      "ID": 701,
+      "Name": "17784987107901678531",
+      "SeasonType": 107,
+      "Quality": 6,
+      "Limit": 100,
+      "Conversion": {
+        "$arrayRef": 81434
+      },
+      "LootInfoKey": null,
+      "DropGroup": 4,
+      "Icon": "UI/Icon/Item/item_limitchest_stage_apex.png",
+      "Tip": "12189464864332036680",
+      "DrawWithReplacement": false
+    },
+    {
+      "ID": 702,
+      "Name": "8079969957979858062",
+      "SeasonType": 107,
+      "Quality": 6,
+      "Limit": 100,
+      "Conversion": {
+        "$arrayRef": 81434
+      },
+      "LootInfoKey": null,
+      "DropGroup": 5,
+      "Icon": "UI/Icon/Item/item_limitchest_stage_apex.png",
+      "Tip": "12189464864332036680",
+      "DrawWithReplacement": false
+    },
+    {
+      "ID": 703,
+      "Name": "10560927329711784018",
+      "SeasonType": 107,
+      "Quality": 6,
+      "Limit": 180,
+      "Conversion": {
+        "$arrayRef": 81434
+      },
+      "LootInfoKey": null,
+      "DropGroup": 6,
+      "Icon": "UI/Icon/Item/item_limitchest_stage_apex.png",
+      "Tip": "12189464864332036680",
+      "DrawWithReplacement": false
     }
   ]
 }
