@@ -4,7 +4,7 @@
     "header_table": "SeasonHeaderTable",
     "format": "flat_rows",
     "schema_size": 22,
-    "row_count": 8,
+    "row_count": 9,
     "array_fields": [
       "DungeonGroupID"
     ],
@@ -42,7 +42,8 @@
     104,
     105,
     106,
-    107
+    107,
+    108
   ],
   "rows": [
     {
@@ -227,6 +228,30 @@
       "LastOpenTs": 1789772399,
       "CloseTs": 1790132400,
       "ClientCloseTs": 1790128800,
+      "MinMnDays": 20,
+      "StartTimeStr": "434049985628092160",
+      "EndTimeStr": "13650706546249030104",
+      "PlayerOpenSeasonCondition": "ed.ConditionX.KnightLevel()>=240 and ed.ConditionX.IsStageReachPoint(1125)",
+      "PlayerEnterSeasonCondition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
+      "OpenSeasonTaskLine": 17010101,
+      "SeasonCloseRuleID": null,
+      "MapID": 14,
+      "SeasonOpenWindowCondition": "ed.ConditionX.IsExplStepFinished(17010101,1,1)",
+      "SeasonOpenBtnName": "11157769694250529498",
+      "DungeonGroupID": {}
+    },
+    {
+      "SeasonType": 108,
+      "Name": "3203758765417324001",
+      "SeasonTitle": "15166690689248428725",
+      "SwitchViewIcon": "UI/Icon/Zoomswitch/spui_retroscape_map_button_icon_ep7.png",
+      "SeasonIcon": "UI/Icon/Zoomswitch/spui_zoom_switch_epicon_07.png",
+      "SeasonOpenIcon": "UI/Sprites/ActivitySeasonEp7/spui_main_btn_season.png",
+      "IsOnline": false,
+      "OpenTs": 1790128800,
+      "LastOpenTs": 1799971199,
+      "CloseTs": 1800500400,
+      "ClientCloseTs": 1800496800,
       "MinMnDays": 20,
       "StartTimeStr": "434049985628092160",
       "EndTimeStr": "13650706546249030104",

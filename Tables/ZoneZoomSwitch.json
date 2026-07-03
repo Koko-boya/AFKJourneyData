@@ -746,10 +746,10 @@
       "ZoomSwitchBanner": "UI/Icon/Zoomswitch/spui_zoom_switch_banner_ep7_6.png",
       "UnlockTip": "17395210208200524406",
       "BeginObjIDs": {
-        "1": 513100251
+        "1": 513100063
       },
       "EnterCondition": "true",
-      "ShowCondition": "ed.ConditionX.IsExplStepFinished(17010108,4,3)"
+      "ShowCondition": "(ed.ConditionX.IsExplStepFinished(17010103,3,11) and not ed.ConditionX.IsExplStepFinished(17010103,4,10)) or ed.ConditionX.IsExplStepFinished(17010108,4,3)"
     },
     {
       "SeasonType": 107,

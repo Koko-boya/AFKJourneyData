@@ -3,17 +3,16 @@
     "table": "Skill_161",
     "header_table": "Skill_161HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 15
+    "unresolved_array_refs": 13
   },
   "default": {
     "CasterID": "null",
@@ -96,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -145,9 +152,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1041,
+      "CasterID": 1040,
       "SkillID": 0,
-      "SkillName": "fogmelee_atk",
+      "SkillName": "fogmage_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -176,21 +183,21 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 68,
+      "GainMP": 83,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -198,15 +205,17 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 108516
+      },
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -216,7 +225,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.05,
+      "PlusRatio": 1.4,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -233,6 +242,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -246,7 +263,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -258,7 +275,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -276,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1041,
+      "CasterID": 1040,
       "SkillID": 11,
-      "SkillName": "fogmelee_ult",
-      "DisplayName": "15318380020199896054",
+      "SkillName": "fogmage_ult",
+      "DisplayName": "8589094281278008346",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -298,30 +315,30 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
-      "Description": "14280925194108369374",
-      "SimpleDescription": "6474948248489396430",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_stun.png",
+      "Description": "13152955120373536541",
+      "SimpleDescription": "9935335147257187596",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
-      "InitCD": 0,
+      "InitCD": 1,
       "GlobalCD": 1.25,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -329,31 +346,31 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 108517
+      },
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector",
-      "AOEShapeArgs": {
-        "$arrayRef": 67156
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.4,
+      "PlusRatio": 0.7,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 20,
+      "SArg0": 2.5,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -366,9 +383,17 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
+      "Buff": "common_stun",
+      "BuffID": 1,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -379,19 +404,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.3,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -407,16 +432,17 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_action_fogmelee_death_00",
-        "2": "pbfx_buff_fogmage_body_Bip001 Spine3",
-        "3": "pbfx_suit_s1_soldier_T3"
+        "1": "pbfx_action_fogmage_death_00",
+        "2": "pbfx_buff_common_fear",
+        "3": "pbfx_buff_fogmage_body_Bip001 Spine3",
+        "4": "pbfx_buff_common_stun"
       }
     },
     {
-      "CasterID": 1041,
+      "CasterID": 1040,
       "SkillID": 21,
-      "SkillName": "fogmelee_atk2",
-      "DisplayName": "6101462435632403075",
+      "SkillName": "fogmage_atk2",
+      "DisplayName": "6180720312767679918",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -436,8 +462,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_stun_aoe.png",
-      "Description": "13327683464286656749",
-      "SimpleDescription": "5626785674881331292",
+      "Description": "8145295235990558269",
+      "SimpleDescription": "17207209373081189364",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -446,17 +472,17 @@
       "TargetShapeArgs": {
         "$arrayRef": 43
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
-      "Priority": 2,
-      "CD": 15,
+      "TargetBlockType": null,
+      "Priority": 11,
+      "CD": 9999,
       "InitCD": 0,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 94,
+      "GainMP": 90,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -466,32 +492,28 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
-      "HitDisplay": {
-        "$arrayRef": 106915
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
+      "AffectedCamp": 1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1.4,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 2,
-      "SArg1": 0,
+      "SArg1": 1.6,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -503,9 +525,17 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
-      "Buff": "common_stun",
-      "BuffID": 1,
+      "Buff": null,
+      "BuffID": 0,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -544,7 +574,10 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107092
+        "1": "pbfx_buff_common_fear",
+        "2": "pbfx_impact_facelessmage_atk2a",
+        "3": "pbfx_impact_facelessmage_atk2c",
+        "4": "pbfx_impact_facelessmage_atk2b"
       }
     }
   ]

@@ -1,0 +1,302 @@
+{
+  "_meta": {
+    "table": "AchvGoogle",
+    "header_table": "AchvGoogleHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 28,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "ID": "null",
+    "GroupID": 0,
+    "Condition": "true",
+    "ServerEvents": {},
+    "ParkwayID": null
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "GroupID": 1,
+      "Condition": "ed.ConditionX.Counter(25)>=30",
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "ParkwayID": "tavern_recruit_30"
+    },
+    {
+      "ID": 2,
+      "GroupID": 1,
+      "Condition": "ed.ConditionX.Counter(25)>=100",
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "ParkwayID": "tavern_recruit_100"
+    },
+    {
+      "ID": 3,
+      "GroupID": 1,
+      "Condition": "ed.ConditionX.Counter(25)>=1000",
+      "ServerEvents": {
+        "1": "UpdateCounter:25"
+      },
+      "ParkwayID": "tavern_recruit_1000"
+    },
+    {
+      "ID": 4,
+      "GroupID": 2,
+      "Condition": "ed.ConditionX.Best(23)>=1",
+      "ServerEvents": {
+        "1": "UpdateBest:23"
+      },
+      "ParkwayID": "join_guild"
+    },
+    {
+      "ID": 5,
+      "GroupID": 3,
+      "Condition": "ed.ConditionX.Best(2)>=1",
+      "ServerEvents": {
+        "1": "UpdateBest:2"
+      },
+      "ParkwayID": "friends_1"
+    },
+    {
+      "ID": 6,
+      "GroupID": 3,
+      "Condition": "ed.ConditionX.Best(2)>=10",
+      "ServerEvents": {
+        "1": "UpdateBest:2"
+      },
+      "ParkwayID": "friends_10"
+    },
+    {
+      "ID": 7,
+      "GroupID": 3,
+      "Condition": "ed.ConditionX.Best(2)>=40",
+      "ServerEvents": {
+        "1": "UpdateBest:2"
+      },
+      "ParkwayID": "friends_40"
+    },
+    {
+      "ID": 8,
+      "GroupID": 4,
+      "Condition": "ed.ConditionX.Counter(24)>=7",
+      "ServerEvents": {
+        "1": "UpdateCounter:24"
+      },
+      "ParkwayID": "login_7d"
+    },
+    {
+      "ID": 9,
+      "GroupID": 4,
+      "Condition": "ed.ConditionX.Counter(24)>=30",
+      "ServerEvents": {
+        "1": "UpdateCounter:24"
+      },
+      "ParkwayID": "login_30d"
+    },
+    {
+      "ID": 10,
+      "GroupID": 4,
+      "Condition": "ed.ConditionX.Counter(24)>=100",
+      "ServerEvents": {
+        "1": "UpdateCounter:24"
+      },
+      "ParkwayID": "login_100d"
+    },
+    {
+      "ID": 11,
+      "GroupID": 5,
+      "Condition": "ed.ConditionX.HeroCount()>=10",
+      "ServerEvents": {
+        "1": "AddHero:*"
+      },
+      "ParkwayID": "hero_collect_10"
+    },
+    {
+      "ID": 12,
+      "GroupID": 5,
+      "Condition": "ed.ConditionX.HeroCount()>=30",
+      "ServerEvents": {
+        "1": "AddHero:*"
+      },
+      "ParkwayID": "hero_collect_30"
+    },
+    {
+      "ID": 13,
+      "GroupID": 5,
+      "Condition": "ed.ConditionX.HeroCount()>=100",
+      "ServerEvents": {
+        "1": "AddHero:*"
+      },
+      "ParkwayID": "hero_collect_100"
+    },
+    {
+      "ID": 14,
+      "GroupID": 6,
+      "Condition": "ed.ConditionX.Counter(26)>=50",
+      "ServerEvents": {
+        "1": "UpdateCounter:26"
+      },
+      "ParkwayID": "world_monster_50"
+    },
+    {
+      "ID": 15,
+      "GroupID": 6,
+      "Condition": "ed.ConditionX.Counter(26)>=200",
+      "ServerEvents": {
+        "1": "UpdateCounter:26"
+      },
+      "ParkwayID": "world_monster_200"
+    },
+    {
+      "ID": 16,
+      "GroupID": 6,
+      "Condition": "ed.ConditionX.Counter(26)>=1000",
+      "ServerEvents": {
+        "1": "UpdateCounter:26"
+      },
+      "ParkwayID": "world_monster_1000"
+    },
+    {
+      "ID": 17,
+      "GroupID": 7,
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=5",
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "ParkwayID": "divine_tower_5"
+    },
+    {
+      "ID": 18,
+      "GroupID": 7,
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=10",
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "ParkwayID": "divine_tower_10"
+    },
+    {
+      "ID": 19,
+      "GroupID": 7,
+      "Condition": "ed.ConditionX.HSBuildingMaxLv(2,1)>=20",
+      "ServerEvents": {
+        "1": "HSUpgradeConfirm:2:1"
+      },
+      "ParkwayID": "divine_tower_20"
+    },
+    {
+      "ID": 20,
+      "GroupID": 8,
+      "Condition": "ed.ConditionX.HeroCountByQuality(12)>=1",
+      "ServerEvents": {
+        "1": "HeroQualityUpByQuality:12"
+      },
+      "ParkwayID": "hero_peak_1"
+    },
+    {
+      "ID": 21,
+      "GroupID": 8,
+      "Condition": "ed.ConditionX.HeroCountByQuality(12)>=10",
+      "ServerEvents": {
+        "1": "HeroQualityUpByQuality:12"
+      },
+      "ParkwayID": "hero_peak_10"
+    },
+    {
+      "ID": 22,
+      "GroupID": 8,
+      "Condition": "ed.ConditionX.HeroCountByQuality(12)>=50",
+      "ServerEvents": {
+        "1": "HeroQualityUpByQuality:12"
+      },
+      "ParkwayID": "hero_peak_50"
+    },
+    {
+      "ID": 23,
+      "GroupID": 9,
+      "Condition": "ed.ConditionX.Counter(37)>=10",
+      "ServerEvents": {
+        "1": "UpdateCounter:37"
+      },
+      "ParkwayID": "arena_win_10"
+    },
+    {
+      "ID": 24,
+      "GroupID": 9,
+      "Condition": "ed.ConditionX.Counter(37)>=100",
+      "ServerEvents": {
+        "1": "UpdateCounter:37"
+      },
+      "ParkwayID": "arena_win_100"
+    },
+    {
+      "ID": 25,
+      "GroupID": 9,
+      "Condition": "ed.ConditionX.Counter(37)>=1000",
+      "ServerEvents": {
+        "1": "UpdateCounter:37"
+      },
+      "ParkwayID": "arena_win_1000"
+    },
+    {
+      "ID": 26,
+      "GroupID": 10,
+      "Condition": "ed.ConditionX.Counter(39)>=10",
+      "ServerEvents": {
+        "1": "UpdateCounter:39"
+      },
+      "ParkwayID": "side_quest_10"
+    },
+    {
+      "ID": 27,
+      "GroupID": 10,
+      "Condition": "ed.ConditionX.Counter(39)>=30",
+      "ServerEvents": {
+        "1": "UpdateCounter:39"
+      },
+      "ParkwayID": "side_quest_30"
+    },
+    {
+      "ID": 28,
+      "GroupID": 10,
+      "Condition": "ed.ConditionX.Counter(39)>=100",
+      "ServerEvents": {
+        "1": "UpdateCounter:39"
+      },
+      "ParkwayID": "side_quest_100"
+    }
+  ]
+}

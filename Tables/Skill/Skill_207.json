@@ -3,14 +3,15 @@
     "table": "Skill_207",
     "header_table": "Skill_207HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 5,
     "array_fields": [
+      "AOEOriginFix",
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "HitDisplay",
       "ReselectTargetArgs",
+      "ResourceList",
       "TargetShapeArgs"
     ],
     "unresolved_array_refs": 16
@@ -96,6 +97,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -147,9 +156,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1141,
+      "CasterID": 1140,
       "SkillID": 0,
-      "SkillName": "botwood_atk",
+      "SkillName": "botroad_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -198,17 +207,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botmedium",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106927
+        "$arrayRef": 108516
       },
-      "HitDisplay": {
-        "$arrayRef": 106927
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106927
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -218,7 +225,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.35,
+      "PlusRatio": 2.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -235,6 +242,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -278,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1141,
+      "CasterID": 1140,
       "SkillID": 11,
-      "SkillName": "botwood_atk2",
-      "DisplayName": "16051381616425152433",
+      "SkillName": "botroad_atk2",
+      "DisplayName": "6354043881213716867",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -300,24 +315,24 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arm_down.png",
-      "Description": "17813791579499465105",
-      "SimpleDescription": "233848550394197677",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_knock.png",
+      "Description": "5196339689713962939",
+      "SimpleDescription": "2617026213810904434",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
+      "TargetType": "hex",
+      "TargetShape": "line",
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 108628
       },
       "TargetCamp": -1,
-      "TargetPriority": "current_target",
+      "TargetPriority": "h_mostunits",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 107119
+        "$arrayRef": 108730
       },
-      "TargetBlockType": "allblock",
+      "TargetBlockType": "noblock",
       "Priority": 2,
       "CD": 15,
       "InitCD": 1.25,
@@ -331,33 +346,35 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botmedium",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108709
       },
-      "HitDisplay": {
-        "$arrayRef": 106915
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108709
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
+      "AOEOrigin": "self",
+      "AOEShape": "segment",
+      "AOEShapeArgs": {
+        "$arrayRef": 108529
+      },
+      "AOEOriginFix": {
+        "$arrayRef": 87888
+      },
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 4.8,
+      "PlusRatio": 3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.05,
-      "SArg1": 5,
-      "SArg2": 8,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -368,6 +385,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -408,12 +433,14 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_buff_botroad_atk2b"
+      }
     },
     {
-      "CasterID": 1141,
+      "CasterID": 1140,
       "SkillID": 21,
-      "SkillName": "botwood_atk3",
+      "SkillName": "botroad_atk3",
       "DisplayName": "6274231336913766213",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -434,15 +461,15 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_bot.png",
-      "Description": "8673625549946420023",
-      "SimpleDescription": "12535791922721179185",
+      "Description": "2814608044379486881",
+      "SimpleDescription": "13595250271449678697",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": "hex",
-      "TargetShape": "line",
+      "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 67156
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "h_mostunits",
@@ -462,29 +489,27 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "botmedium",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106928
+        "$arrayRef": 108534
       },
-      "HitDisplay": {
-        "$arrayRef": 106916
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106928
+        "$arrayRef": 108534
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector",
+      "AOEOrigin": "target",
+      "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 67156
+        "$arrayRef": 43
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 3.6,
+      "PlusRatio": 4,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -501,15 +526,23 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
       "MoveForward": 0,
       "KnockUp": 0.125,
-      "KnockBack": 2,
+      "KnockBack": 0,
       "KnockDirectionReason": false,
       "FallFrozenTime": 0,
-      "KnockNotFall": true,
+      "KnockNotFall": false,
       "IsNoLaunch": true,
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
@@ -542,15 +575,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_buff_botroad_atk3",
-        "2": "pbfx_buff_botroad_atk3",
-        "3": "pbfx_action_botfire_atk3"
+        "$arrayRef": 108746
       }
     },
     {
-      "CasterID": 1141,
+      "CasterID": 1140,
       "SkillID": 100,
-      "SkillName": "botwood_atk3b",
+      "SkillName": "botroad_atk3b",
       "DisplayName": "能量过载(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -563,7 +594,7 @@
       "EnhanceAttr": null,
       "Slot": 100,
       "DisplaySlot": 100,
-      "FatherSkillSlot": -1,
+      "FatherSkillSlot": 2,
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "basic",
@@ -630,6 +661,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -673,10 +712,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1141,
+      "CasterID": 1140,
       "SkillID": 31,
-      "SkillName": "botwood_atk4",
-      "DisplayName": "10901400593350686531",
+      "SkillName": "botroad_atk4",
+      "DisplayName": "8236599368170432901",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -696,18 +735,18 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
-      "Description": "9255895348574484486",
-      "SimpleDescription": "14928374593293686673",
+      "Description": "14502276911242767534",
+      "SimpleDescription": "3864701660570722082",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 189
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -737,12 +776,12 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 3.6,
+      "PlusAttr": "ATK",
+      "PlusRatio": 4,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2,
+      "SArg0": 0,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -755,6 +794,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,

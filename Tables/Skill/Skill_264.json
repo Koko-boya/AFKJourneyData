@@ -3,7 +3,7 @@
     "table": "Skill_264",
     "header_table": "Skill_264HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 4,
     "array_fields": [
       "Action(s)",
@@ -12,7 +12,7 @@
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 19
+    "unresolved_array_refs": 17
   },
   "default": {
     "CasterID": "null",
@@ -95,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -145,9 +153,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1244,
+      "CasterID": 1243,
       "SkillID": 0,
-      "SkillName": "dftmage_atk",
+      "SkillName": "dftarcher_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -176,7 +184,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 46
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -196,19 +204,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtmage",
+      "UseWhich": "ybtarcher",
       "CastDisplays": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "HitDisplay": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106910
+        "$arrayRef": 108533
       },
       "Action(s)": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -235,6 +243,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -245,7 +261,7 @@
       "FallFrozenTime": 0,
       "KnockNotFall": false,
       "IsNoLaunch": false,
-      "RandomBasicAtk": false,
+      "RandomBasicAtk": true,
       "HasUpDownAction": false,
       "DamagePopupList": {},
       "TileCollideType": "target",
@@ -278,10 +294,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1244,
+      "CasterID": 1243,
       "SkillID": 11,
-      "SkillName": "dftmage_ult",
-      "DisplayName": "16305686780441147172",
+      "SkillName": "dftarcher_ult",
+      "DisplayName": "3927175803807148581",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -300,25 +316,25 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
-      "Description": "3681944726079065669",
-      "SimpleDescription": "14373573568367124940",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_aoe.png",
+      "Description": "17847320807224179223",
+      "SimpleDescription": "4683871567648521676",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 46
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "random",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
-      "CD": 1.25,
-      "InitCD": 1.25,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1.25,
       "CostMP": 1000,
       "GainMP": 0,
@@ -329,19 +345,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtmage",
+      "UseWhich": "ybtarcher",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -351,7 +367,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 0.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -368,6 +384,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -411,10 +435,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1244,
+      "CasterID": 1243,
       "SkillID": 21,
-      "SkillName": "dftmage_atk2",
-      "DisplayName": "13025289543731429778",
+      "SkillName": "dftarcher_atk2",
+      "DisplayName": "8995543122842093985",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -433,46 +457,42 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_mp_heal.png",
-      "Description": "10691711752133814293",
-      "SimpleDescription": "14130243254777676759",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_dot.png",
+      "Description": "17909983022492114108",
+      "SimpleDescription": "2224372385436248175",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 45
+        "$arrayRef": 43
       },
-      "TargetCamp": 1,
+      "TargetCamp": -1,
       "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 3,
-      "CD": 20,
-      "InitCD": 1.5,
+      "Priority": -1,
+      "CD": 9999,
+      "InitCD": 9999,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": true,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtmage",
-      "CastDisplays": {
-        "$arrayRef": 107098
-      },
-      "HitDisplay": {
-        "$arrayRef": 107099
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 107098
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -481,12 +501,12 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 0.05,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 160,
+      "SArg0": 0,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -499,6 +519,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -542,10 +570,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1244,
+      "CasterID": 1243,
       "SkillID": 31,
-      "SkillName": "dftmage_atk3",
-      "DisplayName": "13686834862232148636",
+      "SkillName": "dftarcher_atk3",
+      "DisplayName": "14792519712328852267",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -564,25 +592,25 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_mr_down.png",
-      "Description": "6686921095139387397",
-      "SimpleDescription": "6822730632674243650",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_down.png",
+      "Description": "17630272464420853591",
+      "SimpleDescription": "8315322360799080213",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 46
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "current_target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 4,
-      "CD": 20,
-      "InitCD": 1.5,
+      "Priority": 5,
+      "CD": 12,
+      "InitCD": 3,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 100,
@@ -593,19 +621,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "ybtmage",
+      "UseWhich": "ybtarcher",
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "HitDisplay": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -614,13 +642,13 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.25,
-      "SArg1": 15,
+      "SArg0": 20,
+      "SArg1": 0.3,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -632,6 +660,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -659,7 +695,7 @@
       "TileGravity": 0,
       "AimTarget": true,
       "FollowTarget": false,
-      "TileRemain": 0.2,
+      "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},

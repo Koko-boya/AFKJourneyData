@@ -3,8 +3,8 @@
     "table": "Skill_329",
     "header_table": "Skill_329HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
-    "row_count": 5,
+    "schema_size": 129,
+    "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
@@ -14,7 +14,7 @@
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 23
+    "unresolved_array_refs": 20
   },
   "default": {
     "CasterID": "null",
@@ -97,6 +97,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -141,16 +149,15 @@
   },
   "row_keys": [
     0,
-    101,
     11,
     21,
     31
   ],
   "rows": [
     {
-      "CasterID": 1440,
+      "CasterID": 1439,
       "SkillID": 0,
-      "SkillName": "lowdeadwarc_atk",
+      "SkillName": "lowdeadsoldierf_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -191,7 +198,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 40,
+      "GainMP": 52,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -199,15 +206,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadwar",
+      "UseWhich": "lowdeadsoldier",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -217,7 +224,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.65,
+      "PlusRatio": 0.86,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -234,6 +241,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -275,147 +290,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107267
+        "$arrayRef": 108887
       }
     },
     {
-      "CasterID": 1440,
-      "SkillID": 101,
-      "SkillName": "lowdeadwarc_atkb",
-      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
-      "IsShow": false,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 101,
-      "DisplaySlot": 101,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": "subbasic",
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": null,
-      "Description": "普通攻击（不用翻译）",
-      "SimpleDescription": null,
-      "ActiveType": "active",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 43
-      },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
-      "Priority": 2,
-      "CD": 0,
-      "InitCD": 0,
-      "GlobalCD": 1,
-      "CostMP": 0,
-      "GainMP": 40,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": "lowdeadwar",
-      "CastDisplays": {
-        "$arrayRef": 106987
-      },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 106987
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector_s",
-      "AOEShapeArgs": {
-        "$arrayRef": 67156
-      },
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 107268
-      }
-    },
-    {
-      "CasterID": 1440,
+      "CasterID": 1439,
       "SkillID": 11,
-      "SkillName": "lowdeadwarc_ult",
-      "DisplayName": "6741098948457941955",
+      "SkillName": "lowdeadsoldierf_ult",
+      "DisplayName": "12815607911533776183",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -434,19 +316,19 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_power_up.png",
-      "Description": "10005224229619069153",
-      "SimpleDescription": "11569356315220019662",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_around.png",
+      "Description": "8582052555547966390",
+      "SimpleDescription": "4498448542021738765",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 44
       },
-      "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetCamp": -1,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -463,30 +345,32 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadwar",
+      "UseWhich": "lowdeadsoldier",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 43
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 3.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 40,
-      "SArg1": 1,
+      "SArg0": 3,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -498,6 +382,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -538,13 +430,15 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 108888
+      }
     },
     {
-      "CasterID": 1440,
+      "CasterID": 1439,
       "SkillID": 21,
-      "SkillName": "lowdeadwarc_atk2",
-      "DisplayName": "1521240683060015620",
+      "SkillName": "lowdeadsoldierf_atk2",
+      "DisplayName": "16182420566315439406",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -564,15 +458,15 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_collide.png",
-      "Description": "11416598229519460055",
-      "SimpleDescription": "12605753402612025703",
+      "Description": "3888013743368194302",
+      "SimpleDescription": "2177646874235585077",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -580,11 +474,11 @@
       "ReselectTargetArgs": {},
       "TargetBlockType": "allblock",
       "Priority": 3,
-      "CD": 5,
-      "InitCD": 0,
+      "CD": 7,
+      "InitCD": 3,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
+      "GainMP": 66,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -592,17 +486,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadwar",
+      "UseWhich": "lowdeadsoldier",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -612,11 +506,11 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.5,
+      "PlusRatio": 2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 1,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -629,6 +523,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -672,9 +574,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1440,
+      "CasterID": 1439,
       "SkillID": 31,
-      "SkillName": "lowdeadwarc_atk3",
+      "SkillName": "lowdeadsoldierf_atk3",
       "DisplayName": "11606784740282893082",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -695,7 +597,7 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_lowdead.png",
-      "Description": "1923584374629967431",
+      "Description": "16580036222427149807",
       "SimpleDescription": "9682976678633995509",
       "ActiveType": "passive",
       "ThumpCondition": -1,
@@ -723,19 +625,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "lowdeadwar",
+      "UseWhich": "lowdeadsoldier",
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "HitDisplay": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -764,6 +666,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -805,7 +715,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107269
+        "$arrayRef": 108883
       }
     }
   ]

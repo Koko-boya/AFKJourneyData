@@ -3,13 +3,14 @@
     "table": "Skill_559",
     "header_table": "Skill_559HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 1,
     "array_fields": [
       "Action(s)",
+      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 2
+    "unresolved_array_refs": 3
   },
   "default": {
     "CasterID": "null",
@@ -92,6 +93,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -139,12 +148,12 @@
   ],
   "rows": [
     {
-      "CasterID": 4051,
+      "CasterID": 4027,
       "SkillID": 0,
-      "SkillName": "storyhuman_atk",
+      "SkillName": "carriage_atk",
       "DisplayName": "（不用翻译）占坑普攻",
-      "IsShow": false,
-      "HeroDetailActionShow": false,
+      "IsShow": true,
+      "HeroDetailActionShow": true,
       "UnlockByImba": false,
       "UnlockAwakenLevel": 0,
       "UnlockLevel": 1,
@@ -196,7 +205,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -223,6 +232,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -263,7 +280,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 109517
+      }
     }
   ]
 }

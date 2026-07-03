@@ -2,23 +2,31 @@
   "_meta": {
     "table": "GuildVSMatchGroup",
     "header_table": "GuildVSMatchGroupHeaderTable",
-    "source_table": "GuildVSMatchGroupTable",
-    "format": "explicit_rows",
+    "format": "flat_rows",
     "schema_size": 6,
     "row_count": 1,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "ID": "null",
+    "HistoryRoundForAvg": 0,
+    "MatchGroupSize": 0,
+    "RandomUpDownGroupSize": 0,
+    "EmptyHistoryGroupID": 0,
+    "ActivePlayerDays": 0
+  },
+  "row_keys": [
+    1
+  ],
   "rows": [
     {
       "ID": 1,
       "HistoryRoundForAvg": 5,
-      "MergeNeighborWhenExhausted": true,
       "MatchGroupSize": 3,
       "RandomUpDownGroupSize": 3,
-      "EmptyHistoryGroupID": 999
+      "EmptyHistoryGroupID": 999,
+      "ActivePlayerDays": 7
     }
   ]
 }

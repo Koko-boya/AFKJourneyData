@@ -4,11 +4,11 @@
     "header_table": "DraftBetRankRewardHeaderTable",
     "format": "flat_rows",
     "schema_size": 6,
-    "row_count": 1,
+    "row_count": 2,
     "array_fields": [
       "RankNumb"
     ],
-    "unresolved_array_refs": 1
+    "unresolved_array_refs": 2
   },
   "default": {
     "ParamID": "null",
@@ -18,21 +18,33 @@
     "DisplayText": null,
     "RankReward": {}
   },
-  "row_keys": [
-    1
-  ],
+  "row_keys": [],
   "rows": [
     {
       "ParamID": 1,
       "ID": 1,
       "RankNumbType": 1,
       "RankNumb": {
-        "$arrayRef": 81346
+        "$arrayRef": 82834
       },
       "DisplayText": "835522235557326703",
       "RankReward": {
         "1": 20,
         "2": 72001,
+        "3": 1
+      }
+    },
+    {
+      "ParamID": 2,
+      "ID": 1,
+      "RankNumbType": 1,
+      "RankNumb": {
+        "$arrayRef": 82834
+      },
+      "DisplayText": "835522235557326703",
+      "RankReward": {
+        "1": 20,
+        "2": 81004,
         "3": 1
       }
     }

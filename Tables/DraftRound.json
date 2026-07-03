@@ -3,13 +3,14 @@
     "table": "DraftRound",
     "header_table": "DraftRoundHeaderTable",
     "format": "flat_rows",
-    "schema_size": 3,
-    "row_count": 6,
+    "schema_size": 4,
+    "row_count": 8,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
   "default": {
     "ID": "null",
+    "IsBan": false,
     "DraftSide": null,
     "RoundTimeSec": 0
   },
@@ -19,36 +20,56 @@
     3,
     4,
     5,
-    6
+    6,
+    7,
+    8
   ],
   "rows": [
     {
       "ID": 1,
+      "IsBan": true,
       "DraftSide": 2,
-      "RoundTimeSec": 45
+      "RoundTimeSec": 15
     },
     {
       "ID": 2,
+      "IsBan": true,
       "DraftSide": 1,
-      "RoundTimeSec": 30
+      "RoundTimeSec": 15
     },
     {
       "ID": 3,
-      "DraftSide": 1,
+      "IsBan": false,
+      "DraftSide": 2,
       "RoundTimeSec": 30
     },
     {
       "ID": 4,
-      "DraftSide": 2,
+      "IsBan": false,
+      "DraftSide": 1,
       "RoundTimeSec": 30
     },
     {
       "ID": 5,
-      "DraftSide": 2,
+      "IsBan": false,
+      "DraftSide": 1,
       "RoundTimeSec": 30
     },
     {
       "ID": 6,
+      "IsBan": false,
+      "DraftSide": 2,
+      "RoundTimeSec": 30
+    },
+    {
+      "ID": 7,
+      "IsBan": false,
+      "DraftSide": 2,
+      "RoundTimeSec": 30
+    },
+    {
+      "ID": 8,
+      "IsBan": false,
       "DraftSide": 1,
       "RoundTimeSec": 30
     }

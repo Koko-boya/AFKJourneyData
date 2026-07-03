@@ -3,17 +3,16 @@
     "table": "Skill_279",
     "header_table": "Skill_279HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 14
+    "unresolved_array_refs": 13
   },
   "default": {
     "CasterID": "null",
@@ -96,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -145,9 +152,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1298,
+      "CasterID": 1297,
       "SkillID": 0,
-      "SkillName": "spidertank_atk",
+      "SkillName": "spiderwar_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -196,17 +203,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "spidertank",
+      "UseWhich": "spiderwar",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -233,6 +240,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -276,10 +291,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1298,
+      "CasterID": 1297,
       "SkillID": 11,
-      "SkillName": "spidertank_ult",
-      "DisplayName": "7821443644152035660",
+      "SkillName": "spiderwar_ult",
+      "DisplayName": "5879571541698180116",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -299,21 +314,21 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_power.png",
-      "Description": "488868371655825990",
-      "SimpleDescription": "14346949098238130907",
+      "Description": "2301756719344392649",
+      "SimpleDescription": "6442967173408006866",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
         "$arrayRef": 189
       },
-      "TargetCamp": 1,
-      "TargetPriority": "h_mostunits",
+      "TargetCamp": -1,
+      "TargetPriority": "back",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 1.25,
@@ -327,33 +342,31 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "spidertank",
+      "UseWhich": "spiderwar",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.3,
-      "SArg1": 2.5,
-      "SArg2": 4,
+      "SArg0": 3,
+      "SArg1": 2,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -364,6 +377,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -377,7 +398,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -389,8 +410,8 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
+      "AimTarget": true,
+      "FollowTarget": true,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -405,14 +426,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107203
+        "$arrayRef": 108816
       }
     },
     {
-      "CasterID": 1298,
+      "CasterID": 1297,
       "SkillID": 21,
-      "SkillName": "spidertank_atk2",
-      "DisplayName": "12110188799029732106",
+      "SkillName": "spiderwar_atk2",
+      "DisplayName": "利爪",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -432,8 +453,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_bramblecleaner.png",
-      "Description": "17233549033703679640",
-      "SimpleDescription": "2392548443052294091",
+      "Description": "18273189879506855532",
+      "SimpleDescription": "17131239665733953908",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -449,7 +470,7 @@
       "TargetBlockType": null,
       "Priority": 2,
       "CD": 10,
-      "InitCD": 2,
+      "InitCD": 4,
       "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 0,
@@ -460,33 +481,33 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "spidertank",
+      "UseWhich": "spiderwar",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108521
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 40,
-      "SArg1": 6,
-      "SArg2": 1,
+      "SArg0": 0.25,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -497,6 +518,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -538,7 +567,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107204
+        "$arrayRef": 108794
       }
     }
   ]

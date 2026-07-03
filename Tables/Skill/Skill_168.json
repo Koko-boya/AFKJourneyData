@@ -3,16 +3,16 @@
     "table": "Skill_168",
     "header_table": "Skill_168HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
+      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 10
   },
   "default": {
     "CasterID": "null",
@@ -95,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -144,9 +152,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1061,
+      "CasterID": 1060,
       "SkillID": 0,
-      "SkillName": "ybtsoldier_atk",
+      "SkillName": "ybttank_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -187,7 +195,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
+      "GainMP": 49,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -197,23 +205,21 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106927
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106927
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106927
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector",
-      "AOEShapeArgs": {
-        "$arrayRef": 67156
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -234,6 +240,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -277,10 +291,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1061,
+      "CasterID": 1060,
       "SkillID": 11,
-      "SkillName": "ybtsoldier_ult",
-      "DisplayName": "18182166761549607895",
+      "SkillName": "ybttank_ult",
+      "DisplayName": "5018845580608357996",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -296,26 +310,26 @@
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
-      "SkillPerformData": "dmg",
-      "IsPositiveManual": false,
+      "SkillPerformData": "heal",
+      "IsPositiveManual": true,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
-      "Description": "14417858269456374801",
-      "SimpleDescription": "5693649596255719308",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_self.png",
+      "Description": "15375233534096624652",
+      "SimpleDescription": "5861056539475032966",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": null,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 189
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
+      "Priority": 10,
       "CD": 1.25,
       "InitCD": 1.25,
       "GlobalCD": 1.25,
@@ -330,32 +344,28 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
-      "HitDisplay": {
-        "$arrayRef": 106911
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector",
-      "AOEShapeArgs": {
-        "$arrayRef": 67156
-      },
+      "AffectedCamp": 1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 2,
+      "PlusAttr": "HP",
+      "PlusRatio": -0.04,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
+      "SArg0": 6,
+      "SArg1": 0.5,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -367,6 +377,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -410,10 +428,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1061,
+      "CasterID": 1060,
       "SkillID": 21,
-      "SkillName": "ybtsoldier_atk2",
-      "DisplayName": "7045532714803307060",
+      "SkillName": "ybttank_atk2",
+      "DisplayName": "6440905070686709784",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -432,31 +450,31 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_around.png",
-      "Description": "7947760081256149942",
-      "SimpleDescription": "15042109367952169716",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arm_up.png",
+      "Description": "5597001090722239349",
+      "SimpleDescription": "9877692952589243941",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 189
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 3,
       "CD": 9999,
       "InitCD": 9999,
-      "GlobalCD": 1.25,
+      "GlobalCD": 9999,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": true,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
@@ -467,7 +485,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -481,7 +499,7 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
+      "SArg0": 0.4,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -494,6 +512,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -534,7 +560,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 108707
+      }
     }
   ]
 }

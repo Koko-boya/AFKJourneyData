@@ -3,12 +3,16 @@
     "table": "Draft",
     "header_table": "DraftHeaderTable",
     "format": "flat_rows",
-    "schema_size": 35,
-    "row_count": 1,
+    "schema_size": 37,
+    "row_count": 2,
     "array_fields": [
-      "BetCurrencyInit"
+      "BetCurrency",
+      "BetCurrencyInit",
+      "RewardDisplay",
+      "WinReward",
+      "WinRewardFirst"
     ],
-    "unresolved_array_refs": 1
+    "unresolved_array_refs": 10
   },
   "default": {
     "ID": "null",
@@ -30,6 +34,7 @@
     "RankScoreDefault": 0,
     "SearchRangeLow": 0,
     "SearchRangeHigh": 0,
+    "EnvResetScore": 0,
     "WinReward": {},
     "WinRewardFirst": {},
     "RewardDisplay": {},
@@ -45,10 +50,12 @@
     "ChatEmojiBatchLimit": 0,
     "GrowthID": 0,
     "CloseInAdvanceSec": 0,
-    "RecordLimit": 0
+    "RecordLimit": 0,
+    "FriendlyMatchBufferTimeSec": 0
   },
   "row_keys": [
-    1
+    1,
+    2
   ],
   "rows": [
     {
@@ -57,12 +64,10 @@
       "ExchangeID": 43,
       "Rake": 0.2,
       "BetCurrency": {
-        "1": 1002,
-        "2": 110017001,
-        "3": 1
+        "$arrayRef": 83284
       },
       "BetCurrencyInit": {
-        "$arrayRef": 81795
+        "$arrayRef": 83285
       },
       "DefaultBet": 100,
       "BetLimit": 5000,
@@ -77,33 +82,15 @@
       "RankScoreDefault": 100,
       "SearchRangeLow": 50,
       "SearchRangeHigh": 500,
-      "WinReward": {},
-      "WinRewardFirst": {},
+      "EnvResetScore": 4000,
+      "WinReward": {
+        "$arrayRef": 83286
+      },
+      "WinRewardFirst": {
+        "$arrayRef": 83287
+      },
       "RewardDisplay": {
-        "1": 1,
-        "2": 9,
-        "3": 1,
-        "4": 1,
-        "5": 201002,
-        "6": 5,
-        "7": 1,
-        "8": 201003,
-        "9": 5,
-        "10": 1,
-        "11": 201001,
-        "12": 5,
-        "13": 1,
-        "14": 37,
-        "15": 15,
-        "16": 1,
-        "17": 10000400,
-        "18": 1,
-        "19": 1,
-        "20": 10000401,
-        "21": 1,
-        "22": 1001,
-        "23": 100000002,
-        "24": 10
+        "$arrayRef": 83288
       },
       "HeroLimit": 20,
       "StdLv": 29014,
@@ -117,7 +104,57 @@
       "ChatEmojiBatchLimit": 5,
       "GrowthID": 2000005,
       "CloseInAdvanceSec": 1200,
-      "RecordLimit": 200
+      "RecordLimit": 200,
+      "FriendlyMatchBufferTimeSec": 5
+    },
+    {
+      "ID": 2,
+      "TitleTxt": "7724027321532422243",
+      "ExchangeID": 50,
+      "Rake": 0.2,
+      "BetCurrency": {
+        "$arrayRef": 83284
+      },
+      "BetCurrencyInit": {
+        "$arrayRef": 83285
+      },
+      "DefaultBet": 100,
+      "BetLimit": 5000,
+      "AudienceLockRound": 7,
+      "MaxAudiencePerRoom": 2000,
+      "BetWinExchangeRate": 0.3,
+      "BetLoseExchangeRate": 0.6,
+      "ManualID": 187,
+      "EventDes": "14234930796271520567",
+      "FightNPCID": 1401033,
+      "BetNPCID": 1401032,
+      "RankScoreDefault": 100,
+      "SearchRangeLow": 50,
+      "SearchRangeHigh": 500,
+      "EnvResetScore": 4000,
+      "WinReward": {
+        "$arrayRef": 83286
+      },
+      "WinRewardFirst": {
+        "$arrayRef": 83287
+      },
+      "RewardDisplay": {
+        "$arrayRef": 83288
+      },
+      "HeroLimit": 20,
+      "StdLv": 29016,
+      "ChatEmojiGroupID": 6,
+      "FormationTimeSec": 30,
+      "BetForceWaitTimeSec": 10,
+      "MatchmakingOvertimeSec": 300,
+      "MatchmakingSearchRangeIncSec": 30,
+      "BattleGroupID": 511102,
+      "ChatLingerTimeSec": 360,
+      "ChatEmojiBatchLimit": 5,
+      "GrowthID": 2000005,
+      "CloseInAdvanceSec": 1200,
+      "RecordLimit": 200,
+      "FriendlyMatchBufferTimeSec": 5
     }
   ]
 }

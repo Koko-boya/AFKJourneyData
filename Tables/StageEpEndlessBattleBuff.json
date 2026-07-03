@@ -5,13 +5,15 @@
     "format": "flat_rows",
     "schema_size": 7,
     "row_count": 1,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "array_fields": [
+      "SkillID"
+    ],
+    "unresolved_array_refs": 1
   },
   "default": {
     "SeasonType": "null",
     "CasterID": 0,
-    "SkillID": 0,
+    "SkillID": {},
     "BattleBuff": null,
     "BuffBg": null,
     "BuffIcon": null,
@@ -24,7 +26,9 @@
     {
       "SeasonType": 107,
       "CasterID": 4005,
-      "SkillID": 151,
+      "SkillID": {
+        "$arrayRef": 109963
+      },
       "BattleBuff": "ui/prefabs/prepare/prepareextensions/pbui_battle_pattern_char_bonus_idle_buff.prefab",
       "BuffBg": "ui/sprites/idle/spui_idle_ep7_buff_bg.png",
       "BuffIcon": "ui/sprites/idle/spui_idle_ep7_buff_icon.png",

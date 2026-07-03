@@ -3,15 +3,16 @@
     "table": "Skill_604",
     "header_table": "Skill_604HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 1,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
+      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 4
+    "unresolved_array_refs": 5
   },
   "default": {
     "CasterID": "null",
@@ -94,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -141,9 +150,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5041,
+      "CasterID": 5031,
       "SkillID": 0,
-      "SkillName": "bombgirlsummon_atk",
+      "SkillName": "activitywindspecter_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -194,15 +203,15 @@
       "SkinUseWhich": {},
       "UseWhich": "woodspecter",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -216,9 +225,9 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2,
-      "SArg1": 1,
-      "SArg2": 0.5,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -229,6 +238,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -269,7 +286,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 108778
+      }
     }
   ]
 }

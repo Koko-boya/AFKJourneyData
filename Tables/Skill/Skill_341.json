@@ -3,7 +3,7 @@
     "table": "Skill_341",
     "header_table": "Skill_341HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
@@ -11,10 +11,9 @@
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 20
+    "unresolved_array_refs": 18
   },
   "default": {
     "CasterID": "null",
@@ -97,6 +96,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -147,9 +154,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1501,
+      "CasterID": 1500,
       "SkillID": 0,
-      "SkillName": "believermagic_atk",
+      "SkillName": "believertank_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -178,7 +185,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 47
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -192,7 +199,7 @@
       "CostMP": 0,
       "GainMP": 60,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -200,17 +207,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106910
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -237,6 +242,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -250,19 +263,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 1,
-      "TileRadius": 0.1,
+      "TileScale": 0,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -280,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1501,
+      "CasterID": 1500,
       "SkillID": 11,
-      "SkillName": "believermagic_ult",
-      "DisplayName": "12757654302983816972",
+      "SkillName": "believertank_ult",
+      "DisplayName": "16291299576991299399",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -299,12 +312,12 @@
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
-      "SkillPerformData": "dmg",
-      "IsPositiveManual": false,
+      "SkillPerformData": null,
+      "IsPositiveManual": true,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_mp_heal.png",
-      "Description": "13232754202618021093",
-      "SimpleDescription": "17900448068280064223",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_reflect.png",
+      "Description": "8837620393839826082",
+      "SimpleDescription": "1828483473915364823",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -313,11 +326,11 @@
       "TargetShapeArgs": {
         "$arrayRef": 45
       },
-      "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetCamp": 0,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 2,
       "CD": 0,
       "InitCD": 0,
@@ -333,21 +346,21 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108517
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 189
-      },
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": null,
@@ -355,11 +368,11 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.3,
-      "SArg1": 100,
-      "SArg2": 200,
-      "SArg3": 0,
-      "SArg4": 0,
+      "SArg0": 0.15,
+      "SArg1": 0.2,
+      "SArg2": 5,
+      "SArg3": 0.8,
+      "SArg4": 1,
       "SArg5": 0,
       "SArg6": 0,
       "SArg7": 0,
@@ -368,6 +381,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -409,14 +430,16 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107291
+        "1": "pbfx_buff_believertank_ult",
+        "2": "pbfx_impact_sk_atk2",
+        "3": "pbfx_impact_common_heal"
       }
     },
     {
-      "CasterID": 1501,
+      "CasterID": 1500,
       "SkillID": 21,
-      "SkillName": "believermagic_atk2",
-      "DisplayName": "10460536364212637025",
+      "SkillName": "believertank_atk2",
+      "DisplayName": "4144722291781657626",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -435,25 +458,25 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap.png",
-      "Description": "3232121065434590270",
-      "SimpleDescription": "5264684899764581169",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_taunt.png",
+      "Description": "1422806504962041849",
+      "SimpleDescription": "7689976464111283542",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 45
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 0,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 3,
-      "CD": 3,
-      "InitCD": 12,
+      "CD": 10,
+      "InitCD": 14,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 80,
@@ -466,31 +489,33 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 43
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1.5,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
+      "SArg0": 0.3,
+      "SArg1": 2,
+      "SArg2": 1,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -501,6 +526,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -514,7 +547,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -526,8 +559,8 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -541,14 +574,12 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 107292
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1501,
+      "CasterID": 1500,
       "SkillID": 31,
-      "SkillName": "believermagic_atk3",
+      "SkillName": "believertank_atk3",
       "DisplayName": "9349299838272897950",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -599,15 +630,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "HitDisplay": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -634,6 +665,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -675,7 +714,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107290
+        "$arrayRef": 108901
       }
     }
   ]

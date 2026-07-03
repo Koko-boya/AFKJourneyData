@@ -3,19 +3,17 @@
     "table": "Skill_645",
     "header_table": "Skill_645HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 1,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "EvaluateDisplay",
       "HitDisplay",
       "ResourceList",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 8
+    "unresolved_array_refs": 6
   },
   "default": {
     "CasterID": "null",
@@ -98,6 +96,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -141,14 +147,14 @@
     "ResourceList": {}
   },
   "row_keys": [
-    10
+    0
   ],
   "rows": [
     {
-      "CasterID": 6004,
-      "SkillID": 10,
-      "SkillName": "equip_skill_atk",
-      "DisplayName": "14307318333963472553",
+      "CasterID": 5601,
+      "SkillID": 0,
+      "SkillName": "skullminion1_atk",
+      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -158,77 +164,73 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 10,
-      "DisplaySlot": 10,
+      "Slot": 0,
+      "DisplaySlot": 0,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": "basic",
+      "SkillPerformData": null,
       "IsPositiveManual": false,
-      "SkillScript": "goblin_fire",
-      "Icon": null,
-      "Description": "14956877141767159819",
+      "SkillScript": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
+      "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "manual",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
-      "TargetShape": "oddsector",
+      "TargetType": null,
+      "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 79827
+        "$arrayRef": 189
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 10,
+      "Priority": 1,
       "CD": 0,
-      "InitCD": 0,
-      "GlobalCD": 0,
+      "InitCD": 0.25,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 0,
-      "TrackType": null,
+      "GainMP": 130,
+      "VictimMP": 0.1,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "battle_object_firegun",
+      "UseWhich": "skullminion",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
-      "EvaluateDisplay": {
-        "$arrayRef": 106910
-      },
+      "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 0,
-      "AOEOrigin": "self",
-      "AOEShape": "oddsector",
-      "AOEShapeArgs": {
-        "$arrayRef": 79827
-      },
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
-      "PlusAttrUnit": "target",
-      "PlusAttr": "HP",
-      "PlusRatio": 0.04,
-      "DamageType": "Holy",
-      "DamageTrigger": "fire",
+      "PlusAttrUnit": null,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1,
+      "DamageType": null,
+      "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 3,
-      "SArg1": 0.16,
-      "SArg2": 10,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -239,6 +241,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -252,7 +262,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -264,7 +274,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -280,7 +290,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107169
+        "$arrayRef": 109631
       }
     }
   ]

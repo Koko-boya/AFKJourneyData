@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "table": "DraftDraftKing",
+    "header_table": "DraftDraftKingHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 12,
+    "row_count": 5,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {
+    "SpanID": "null",
+    "Level": "null",
+    "Item": {},
+    "Condition": "true",
+    "Event": {},
+    "IncomeMult": 0,
+    "BetLimit": 0,
+    "FontColor": null,
+    "BgResDir": null,
+    "BadgeResDir": null,
+    "TitleIconResDir": null,
+    "EntryEffectPrefabDir": null
+  },
+  "row_keys": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "rows": [
+    {
+      "SpanID": 2,
+      "Level": 0,
+      "Item": {},
+      "Condition": "true",
+      "Event": {},
+      "IncomeMult": 1,
+      "BetLimit": 5000,
+      "FontColor": null,
+      "BgResDir": null,
+      "BadgeResDir": null,
+      "TitleIconResDir": null,
+      "EntryEffectPrefabDir": null
+    },
+    {
+      "SpanID": 2,
+      "Level": 1,
+      "Item": {
+        "1": 1,
+        "2": 252,
+        "3": 1
+      },
+      "Condition": "ed.ConditionX.HasItem(252)",
+      "Event": {
+        "1": "AddItem:252"
+      },
+      "IncomeMult": 1.5,
+      "BetLimit": 7500,
+      "FontColor": null,
+      "BgResDir": null,
+      "BadgeResDir": null,
+      "TitleIconResDir": null,
+      "EntryEffectPrefabDir": null
+    },
+    {
+      "SpanID": 2,
+      "Level": 2,
+      "Item": {
+        "1": 1,
+        "2": 253,
+        "3": 1
+      },
+      "Condition": "ed.ConditionX.HasItem(253)",
+      "Event": {
+        "1": "AddItem:253"
+      },
+      "IncomeMult": 2,
+      "BetLimit": 15000,
+      "FontColor": "#635858",
+      "BgResDir": "ui/textures/fightpitdraft/spui_chat_bg_bubble_2.png",
+      "BadgeResDir": "ui/textures/fightpitdraft/spui_chat_bg_bubble_deco_2.png",
+      "TitleIconResDir": "UI/Textures/FightpitDraft/spui_chat_vip_icon_2.png",
+      "EntryEffectPrefabDir": null
+    },
+    {
+      "SpanID": 2,
+      "Level": 3,
+      "Item": {
+        "1": 1,
+        "2": 254,
+        "3": 1
+      },
+      "Condition": "ed.ConditionX.HasItem(254)",
+      "Event": {
+        "1": "AddItem:254"
+      },
+      "IncomeMult": 4,
+      "BetLimit": 60000,
+      "FontColor": "#F56000",
+      "BgResDir": "ui/textures/fightpitdraft/spui_chat_bg_bubble_3.png",
+      "BadgeResDir": "ui/textures/fightpitdraft/spui_chat_bg_bubble_deco_3.png",
+      "TitleIconResDir": "UI/Textures/FightpitDraft/spui_chat_vip_icon_3.png",
+      "EntryEffectPrefabDir": "ui/prefabs/fightpitdraft/pbui_activity_fightpit_vip_in_01.prefab"
+    },
+    {
+      "SpanID": 2,
+      "Level": 4,
+      "Item": {
+        "1": 1,
+        "2": 255,
+        "3": 1
+      },
+      "Condition": "ed.ConditionX.HasItem(255)",
+      "Event": {
+        "1": "AddItem:255"
+      },
+      "IncomeMult": 10,
+      "BetLimit": 600000,
+      "FontColor": "#F0DD86",
+      "BgResDir": "ui/textures/fightpitdraft/spui_chat_bg_bubble_4.png",
+      "BadgeResDir": "ui/textures/fightpitdraft/spui_chat_bg_bubble_deco_4.png",
+      "TitleIconResDir": "UI/Textures/FightpitDraft/spui_chat_vip_icon_4.png",
+      "EntryEffectPrefabDir": "ui/prefabs/fightpitdraft/pbui_activity_fightpit_vip_in_02.prefab"
+    }
+  ]
+}

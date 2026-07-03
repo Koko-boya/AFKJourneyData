@@ -2,55 +2,80 @@
   "_meta": {
     "table": "GuildVSDamageWeight",
     "header_table": "GuildVSDamageWeightHeaderTable",
-    "source_table": "GuildVSDamageWeightTable",
-    "format": "explicit_rows",
+    "format": "flat_rows",
     "schema_size": 3,
-    "row_count": 5,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "row_count": 7,
+    "array_fields": [
+      "RankRange"
+    ],
+    "unresolved_array_refs": 4
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "ID": "null",
+    "RankRange": {},
+    "Weight": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
   "rows": [
     {
       "ID": 1,
       "RankRange": {
-        "1": 1,
-        "2": 10
+        "$arrayRef": 82265
       },
-      "Weight": 1
+      "Weight": 1.5
     },
     {
       "ID": 2,
       "RankRange": {
-        "1": 11,
-        "2": 20
+        "$arrayRef": 26
       },
-      "Weight": 0.8
+      "Weight": 1.25
     },
     {
       "ID": 3,
       "RankRange": {
-        "1": 21,
-        "2": 40
+        "$arrayRef": 82599
       },
-      "Weight": 0.7
+      "Weight": 1.15
     },
     {
       "ID": 4,
       "RankRange": {
-        "1": 41,
-        "2": 90
+        "1": 21,
+        "2": 30
       },
-      "Weight": 0.5
+      "Weight": 1
     },
     {
       "ID": 5,
       "RankRange": {
-        "1": 91,
-        "2": 9999
+        "1": 31,
+        "2": 45
       },
-      "Weight": 0
+      "Weight": 0.8
+    },
+    {
+      "ID": 6,
+      "RankRange": {
+        "1": 46,
+        "2": 60
+      },
+      "Weight": 0.6
+    },
+    {
+      "ID": 7,
+      "RankRange": {
+        "$arrayRef": 86983
+      },
+      "Weight": 0.3
     }
   ]
 }

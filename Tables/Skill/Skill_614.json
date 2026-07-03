@@ -3,16 +3,15 @@
     "table": "Skill_614",
     "header_table": "Skill_614HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 1,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "SkinId",
-      "SkinUseWhich",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 5
+    "unresolved_array_refs": 4
   },
   "default": {
     "CasterID": "null",
@@ -95,6 +94,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -142,10 +149,10 @@
   ],
   "rows": [
     {
-      "CasterID": 5054,
+      "CasterID": 5046,
       "SkillID": 0,
-      "SkillName": "fairygirlpony_atk",
-      "DisplayName": "普通攻击(不用翻译)",
+      "SkillName": "cubebosssmallwind_atk",
+      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -167,7 +174,7 @@
       "Icon": null,
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
-      "ActiveType": "active",
+      "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
@@ -176,14 +183,14 @@
         "$arrayRef": 189
       },
       "TargetCamp": -1,
-      "TargetPriority": "self",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 5,
-      "CD": 0,
-      "InitCD": 0,
-      "GlobalCD": 0,
+      "Priority": 1,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
@@ -191,31 +198,29 @@
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
-      "SkinId": {
-        "$arrayRef": 82804
-      },
-      "SkinUseWhich": {
-        "$arrayRef": 85742
-      },
-      "UseWhich": null,
+      "SkinId": {},
+      "SkinUseWhich": {},
+      "UseWhich": "woodspecter",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 43
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -232,6 +237,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,

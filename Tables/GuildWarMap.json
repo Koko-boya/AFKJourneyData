@@ -4,7 +4,7 @@
     "header_table": "GuildWarMapHeaderTable",
     "format": "flat_rows",
     "schema_size": 13,
-    "row_count": 8,
+    "row_count": 9,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -31,7 +31,8 @@
     5,
     6,
     7,
-    9
+    9,
+    10
   ],
   "rows": [
     {
@@ -306,6 +307,39 @@
         "2": 90003,
         "3": 90002,
         "4": 90004
+      },
+      "MatchConstant": 3,
+      "MatchGuildNum": 4,
+      "MaxSlot": 13,
+      "MaxFarmVictory": 60,
+      "FarmGsPercent": 70
+    },
+    {
+      "ID": 10,
+      "Name": "GVG十期地图",
+      "AreaID": {
+        "1": 100001,
+        "2": 100002,
+        "3": 100003,
+        "4": 100004,
+        "5": 100005,
+        "6": 100006,
+        "7": 100007,
+        "8": 100008,
+        "9": 100009,
+        "10": 100010,
+        "11": 100011,
+        "12": 100012
+      },
+      "SoldierBattleGroupID": 506002,
+      "GeneralBattleGroupID": 506003,
+      "NodePrefabAddress": "prefabs/guildwar/pbui_guildwar_area_group_10.prefab",
+      "ArtMapPath": "sc_guildwar",
+      "BotBornAreaOrder": {
+        "1": 100001,
+        "2": 100003,
+        "3": 100002,
+        "4": 100004
       },
       "MatchConstant": 3,
       "MatchGuildNum": 4,

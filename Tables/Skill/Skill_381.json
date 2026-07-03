@@ -3,16 +3,15 @@
     "table": "Skill_381",
     "header_table": "Skill_381HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 10
   },
   "default": {
     "CasterID": "null",
@@ -95,6 +94,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -144,9 +151,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1634,
+      "CasterID": 1633,
       "SkillID": 0,
-      "SkillName": "dndlarmor_atk",
+      "SkillName": "dndwarmor_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -195,15 +202,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "dndlarmor",
+      "UseWhich": "dndwarmor",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -230,6 +237,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -261,7 +276,7 @@
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
-      "ImpactEffect": "pbfx_impact_dndlarmor_atk",
+      "ImpactEffect": "pbfx_impact_dndwarmor_atk",
       "ImpactEffArgs": {},
       "ImpactBone": "Body",
       "ChainJumps": 0,
@@ -271,14 +286,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_impact_dndlarmor_atk"
+        "1": "pbfx_impact_dndwarmor_atk"
       }
     },
     {
-      "CasterID": 1634,
+      "CasterID": 1633,
       "SkillID": 21,
-      "SkillName": "dndlarmor_atk2",
-      "DisplayName": "750570727873059460",
+      "SkillName": "dndwarmor_atk2",
+      "DisplayName": "16182420566315439406",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -298,8 +313,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "12753294692507334608",
-      "SimpleDescription": "14950993851970099172",
+      "Description": "6071080996524652068",
+      "SimpleDescription": "290997821196599946",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -314,8 +329,8 @@
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 3,
-      "CD": 8,
-      "InitCD": 8,
+      "CD": 10,
+      "InitCD": 10,
       "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
@@ -326,19 +341,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "dndlarmor",
+      "UseWhich": "dndwarmor",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
+      "AOEOrigin": "target",
       "AOEShape": "around",
       "AOEShapeArgs": {
         "$arrayRef": 43
@@ -346,13 +361,13 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.6,
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1,
-      "SArg1": 2,
-      "SArg2": 0,
+      "SArg0": 2,
+      "SArg1": 1,
+      "SArg2": 6,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -363,6 +378,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -394,9 +417,9 @@
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
-      "ImpactEffect": null,
+      "ImpactEffect": "pbfx_impact_dndwarmor_atk2",
       "ImpactEffArgs": {},
-      "ImpactBone": null,
+      "ImpactBone": "Body",
       "ChainJumps": 0,
       "ChainGap": 0,
       "ChainJumpDistance": 0,
@@ -404,14 +427,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_impact_dndlarmor_atk2"
+        "1": "pbfx_impact_dndwarmor_atk2"
       }
     },
     {
-      "CasterID": 1634,
+      "CasterID": 1633,
       "SkillID": 31,
-      "SkillName": "dndlarmor_atk3",
-      "DisplayName": "17090759968207427608",
+      "SkillName": "dndwarmor_atk3",
+      "DisplayName": "2857883630677731071",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -431,8 +454,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_lfs_up.png",
-      "Description": "12767884154230485695",
-      "SimpleDescription": "12205010808020994697",
+      "Description": "8482817111431369246",
+      "SimpleDescription": "3434652416953046106",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -453,31 +476,27 @@
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "dndlarmor",
+      "UseWhich": "dndwarmor",
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108534
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106916
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108534
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -498,6 +517,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -511,20 +538,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
-      "TileArt": "pbfx_tile_dndlarmor_atk3",
+      "TileCollideType": null,
+      "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0.3,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -539,8 +566,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_impact_dndlarmor_atk3",
-        "2": "pbfx_point_dndlarmor_atk3"
+        "1": "pbfx_buff_dndwarmor_atk3"
       }
     }
   ]

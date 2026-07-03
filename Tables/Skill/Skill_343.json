@@ -3,8 +3,8 @@
     "table": "Skill_343",
     "header_table": "Skill_343HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
-    "row_count": 5,
+    "schema_size": 129,
+    "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
@@ -14,7 +14,7 @@
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 21
+    "unresolved_array_refs": 20
   },
   "default": {
     "CasterID": "null",
@@ -97,6 +97,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -143,14 +151,13 @@
     0,
     11,
     21,
-    31,
-    41
+    31
   ],
   "rows": [
     {
-      "CasterID": 1503,
+      "CasterID": 1502,
       "SkillID": 0,
-      "SkillName": "believermageelite_atk",
+      "SkillName": "believermage_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -199,19 +206,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "believermage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -238,6 +245,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -281,9 +296,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1503,
+      "CasterID": 1502,
       "SkillID": 11,
-      "SkillName": "believermageelite_ult",
+      "SkillName": "believermage_ult",
       "DisplayName": "5168333174907849176",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -303,7 +318,7 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_around.png",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_summon.png",
       "Description": "13061004358747978002",
       "SimpleDescription": "12197293422091266898",
       "ActiveType": "manual",
@@ -332,17 +347,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "believermage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
-      "HitDisplay": {
-        "$arrayRef": 106911
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -354,7 +367,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 3,
+      "PlusRatio": 2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -371,6 +384,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -412,13 +433,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_impact_believermage_ult"
+        "$arrayRef": 108902
       }
     },
     {
-      "CasterID": 1503,
+      "CasterID": 1502,
       "SkillID": 21,
-      "SkillName": "believermageelite_atk2",
+      "SkillName": "believermage_atk2",
       "DisplayName": "17468271654710412816",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -438,7 +459,7 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_assassinate.png",
       "Description": "12601121730052706173",
       "SimpleDescription": "590167336770852689",
       "ActiveType": "active",
@@ -467,17 +488,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "believermage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -492,7 +513,7 @@
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 3,
-      "SArg1": 1.2,
+      "SArg1": 0.8,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -504,6 +525,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -544,12 +573,14 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 108903
+      }
     },
     {
-      "CasterID": 1503,
+      "CasterID": 1502,
       "SkillID": 31,
-      "SkillName": "believermageelite_atk3",
+      "SkillName": "believermage_atk3",
       "DisplayName": "9349299838272897950",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -585,7 +616,7 @@
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": -2,
+      "Priority": -1,
       "CD": 9999,
       "InitCD": 9999,
       "GlobalCD": 1.25,
@@ -598,15 +629,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "believermage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
@@ -635,135 +666,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 107293
-      }
-    },
-    {
-      "CasterID": 1503,
-      "SkillID": 41,
-      "SkillName": "believermageelite_atk4",
-      "DisplayName": "4390493436368712205",
-      "IsShow": true,
-      "HeroDetailActionShow": false,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 4,
-      "DisplaySlot": 4,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_summon.png",
-      "Description": "4596671287027398832",
-      "SimpleDescription": "7590797068698403055",
-      "ActiveType": "passive",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 45
-      },
-      "TargetCamp": 0,
-      "TargetPriority": "self",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": -1,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1.25,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {},
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {},
-      "DisplayAction(s)": {},
-      "AffectedCamp": 1,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 20,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -804,7 +714,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "$arrayRef": 108904
+      }
     }
   ]
 }

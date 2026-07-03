@@ -3,7 +3,7 @@
     "table": "Skill_178",
     "header_table": "Skill_178HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
       "Action(s)",
@@ -12,7 +12,7 @@
       "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 10
+    "unresolved_array_refs": 12
   },
   "default": {
     "CasterID": "null",
@@ -95,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -139,14 +147,14 @@
   },
   "row_keys": [
     0,
-    21,
-    11
+    11,
+    21
   ],
   "rows": [
     {
-      "CasterID": 1081,
+      "CasterID": 1080,
       "SkillID": 0,
-      "SkillName": "flowertankgreen_atk",
+      "SkillName": "flowertankblue_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -197,15 +205,15 @@
       "SkinUseWhich": {},
       "UseWhich": "flowertank",
       "CastDisplays": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "HitDisplay": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -232,6 +240,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -273,13 +289,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107102
+        "$arrayRef": 108713
       }
     },
     {
-      "CasterID": 1081,
-      "SkillID": 21,
-      "SkillName": "flowertankgreen_atk2",
+      "CasterID": 1080,
+      "SkillID": 11,
+      "SkillName": "flowertankblue_atk2",
       "DisplayName": "18286675108121453859",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -310,7 +326,7 @@
       "TargetShapeArgs": {
         "$arrayRef": 43
       },
-      "TargetCamp": -1,
+      "TargetCamp": 1,
       "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
@@ -334,7 +350,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -361,6 +377,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -404,10 +428,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1081,
-      "SkillID": 11,
-      "SkillName": "flowertankgreen_ult",
-      "DisplayName": "15867635658802984540",
+      "CasterID": 1080,
+      "SkillID": 21,
+      "SkillName": "flowertankblue_ult",
+      "DisplayName": "9300283238139866239",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -426,9 +450,9 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_up.png",
-      "Description": "6311774555598959521",
-      "SimpleDescription": "6744994952463998670",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
+      "Description": "9222288986948046700",
+      "SimpleDescription": "13317254263701753888",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -437,15 +461,15 @@
       "TargetShapeArgs": {
         "$arrayRef": 43
       },
-      "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetCamp": -1,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 3,
       "CD": 3,
       "InitCD": 1.25,
-      "GlobalCD": 1.25,
+      "GlobalCD": 1,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
@@ -457,13 +481,15 @@
       "SkinUseWhich": {},
       "UseWhich": "flowertank",
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108527
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108527
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108527
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -477,9 +503,9 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.4,
-      "SArg1": 6,
-      "SArg2": 5,
+      "SArg0": 0.2,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -490,6 +516,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -531,8 +565,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_buff_flowertank_atk2",
-        "2": "pbfx_action_flowertank_ulta1_taunt"
+        "$arrayRef": 108713
       }
     }
   ]

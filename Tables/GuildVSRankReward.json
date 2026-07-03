@@ -4,8 +4,8 @@
     "header_table": "GuildVSRankRewardHeaderTable",
     "source_table": "GuildVSRankRewardTable",
     "format": "explicit_rows",
-    "schema_size": 5,
-    "row_count": 5,
+    "schema_size": 6,
+    "row_count": 20,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -13,134 +13,304 @@
   "row_keys": [],
   "rows": [
     {
-      "1": {
-        "11": {
-          "ParamID": 1,
-          "ID": 1,
-          "Module": 11,
-          "PercentMax": 20,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 5
-          }
-        },
-        "14": {
-          "ParamID": 1,
-          "ID": 1,
-          "Module": 14,
-          "PercentMax": 20,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 10
-          }
-        }
-      }
+      "ID": 1,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 0,
+        "2": 5
+      },
+      "DisplayText": "前3名到前5%",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 250
+      },
+      "DisplayModule": "DreamBoss"
     },
     {
-      "1": {
-        "11": {
-          "ParamID": 2,
-          "ID": 1,
-          "Module": 11,
-          "PercentMax": 40,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 6
-          }
-        },
-        "14": {
-          "ParamID": 2,
-          "ID": 1,
-          "Module": 14,
-          "PercentMax": 40,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 11
-          }
-        }
-      }
+      "ID": 2,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 5,
+        "2": 10
+      },
+      "DisplayText": "前5%至前10%",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 200
+      },
+      "DisplayModule": "DreamBoss"
     },
     {
-      "1": {
-        "11": {
-          "ParamID": 3,
-          "ID": 1,
-          "Module": 11,
-          "PercentMax": 60,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 7
-          }
-        },
-        "14": {
-          "ParamID": 3,
-          "ID": 1,
-          "Module": 14,
-          "PercentMax": 60,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 12
-          }
-        }
-      }
+      "ID": 3,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 10,
+        "2": 20
+      },
+      "DisplayText": "6173998547432926584",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 150
+      },
+      "DisplayModule": "DreamBoss"
     },
     {
-      "1": {
-        "11": {
-          "ParamID": 4,
-          "ID": 1,
-          "Module": 11,
-          "PercentMax": 80,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 8
-          }
-        },
-        "14": {
-          "ParamID": 4,
-          "ID": 1,
-          "Module": 14,
-          "PercentMax": 80,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 13
-          }
-        }
-      }
+      "ID": 4,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 20,
+        "2": 30
+      },
+      "DisplayText": "15014863228090735425",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 125
+      },
+      "DisplayModule": "DreamBoss"
     },
     {
-      "1": {
-        "11": {
-          "ParamID": 5,
-          "ID": 1,
-          "Module": 11,
-          "PercentMax": 100,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 9
-          }
-        },
-        "14": {
-          "ParamID": 5,
-          "ID": 1,
-          "Module": 14,
-          "PercentMax": 100,
-          "Reward": {
-            "1": 1,
-            "2": 2,
-            "3": 14
-          }
-        }
-      }
+      "ID": 5,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 30,
+        "2": 50
+      },
+      "DisplayText": "前30%至前50%",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 100
+      },
+      "DisplayModule": "DreamBoss"
+    },
+    {
+      "ID": 6,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 50,
+        "2": 75
+      },
+      "DisplayText": "12821437693250760942",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 75
+      },
+      "DisplayModule": "DreamBoss"
+    },
+    {
+      "ID": 7,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 75,
+        "2": 100
+      },
+      "DisplayText": "10945645035784859216",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 50
+      },
+      "DisplayModule": "DreamBoss"
+    },
+    {
+      "ID": 8,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 0,
+        "2": 5
+      },
+      "DisplayText": "前3名到前5%",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 200
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 9,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 5,
+        "2": 10
+      },
+      "DisplayText": "前5%至前10%",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 160
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 10,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 10,
+        "2": 20
+      },
+      "DisplayText": "6173998547432926584",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 120
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 11,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 20,
+        "2": 30
+      },
+      "DisplayText": "15014863228090735425",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 100
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 12,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 30,
+        "2": 50
+      },
+      "DisplayText": "前30%至前50%",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 80
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 13,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 50,
+        "2": 75
+      },
+      "DisplayText": "12821437693250760942",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 60
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 14,
+      "RankNumbType": 2,
+      "RankNumb": {
+        "1": 75,
+        "2": 100
+      },
+      "DisplayText": "10945645035784859216",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 40
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 15,
+      "RankNumbType": 1,
+      "RankNumb": {
+        "1": 1,
+        "2": 1
+      },
+      "DisplayText": "2802741721527651573",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 400
+      },
+      "DisplayModule": "DreamBoss"
+    },
+    {
+      "ID": 16,
+      "RankNumbType": 1,
+      "RankNumb": {
+        "1": 2,
+        "2": 2
+      },
+      "DisplayText": "493855811209219968",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 350
+      },
+      "DisplayModule": "DreamBoss"
+    },
+    {
+      "ID": 17,
+      "RankNumbType": 1,
+      "RankNumb": {
+        "1": 3,
+        "2": 3
+      },
+      "DisplayText": "7897458382649038435",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 300
+      },
+      "DisplayModule": "DreamBoss"
+    },
+    {
+      "ID": 18,
+      "RankNumbType": 1,
+      "RankNumb": {
+        "1": 1,
+        "2": 1
+      },
+      "DisplayText": "2802741721527651573",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 350
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 19,
+      "RankNumbType": 1,
+      "RankNumb": {
+        "1": 2,
+        "2": 2
+      },
+      "DisplayText": "493855811209219968",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 300
+      },
+      "DisplayModule": "Idle"
+    },
+    {
+      "ID": 20,
+      "RankNumbType": 1,
+      "RankNumb": {
+        "1": 3,
+        "2": 3
+      },
+      "DisplayText": "7897458382649038435",
+      "RankReward": {
+        "1": 1002,
+        "2": 160000001,
+        "3": 250
+      },
+      "DisplayModule": "Idle"
     }
   ]
 }

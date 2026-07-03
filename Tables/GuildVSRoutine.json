@@ -2,57 +2,73 @@
   "_meta": {
     "table": "GuildVSRoutine",
     "header_table": "GuildVSRoutineHeaderTable",
-    "source_table": "GuildVSRoutineTable",
-    "format": "explicit_rows",
-    "schema_size": 4,
-    "row_count": 1,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 5,
+    "array_fields": [
+      "QuestGroupIDs"
+    ],
+    "unresolved_array_refs": 5
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "ID": "null",
+    "Weekday": "null",
+    "QuestGroupIDs": {},
+    "QuestManagerID": 0,
+    "SharedQuestGroupID": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "rows": [
     {
-      "1": {
-        "ID": 1,
-        "Weekday": 1,
-        "QuestGroupIDs": {
-          "1": 2008
-        },
-        "MilestoneQuestGroupID": 3
+      "ID": 1,
+      "Weekday": 1,
+      "QuestGroupIDs": {
+        "$arrayRef": 86993
       },
-      "2": {
-        "ID": 1,
-        "Weekday": 2,
-        "QuestGroupIDs": {
-          "1": 2009
-        },
-        "MilestoneQuestGroupID": 3
+      "QuestManagerID": 157,
+      "SharedQuestGroupID": 1
+    },
+    {
+      "ID": 1,
+      "Weekday": 2,
+      "QuestGroupIDs": {
+        "$arrayRef": 86993
       },
-      "3": {
-        "ID": 1,
-        "Weekday": 3,
-        "QuestGroupIDs": {
-          "1": 2010
-        },
-        "MilestoneQuestGroupID": 3
+      "QuestManagerID": 157,
+      "SharedQuestGroupID": 1
+    },
+    {
+      "ID": 1,
+      "Weekday": 3,
+      "QuestGroupIDs": {
+        "$arrayRef": 86993
       },
-      "4": {
-        "ID": 1,
-        "Weekday": 4,
-        "QuestGroupIDs": {
-          "1": 2011
-        },
-        "MilestoneQuestGroupID": 3
+      "QuestManagerID": 157,
+      "SharedQuestGroupID": 1
+    },
+    {
+      "ID": 1,
+      "Weekday": 4,
+      "QuestGroupIDs": {
+        "$arrayRef": 86993
       },
-      "5": {
-        "ID": 1,
-        "Weekday": 5,
-        "QuestGroupIDs": {
-          "1": 2012
-        },
-        "MilestoneQuestGroupID": 3
-      }
+      "QuestManagerID": 157,
+      "SharedQuestGroupID": 1
+    },
+    {
+      "ID": 1,
+      "Weekday": 5,
+      "QuestGroupIDs": {
+        "$arrayRef": 86993
+      },
+      "QuestManagerID": 157,
+      "SharedQuestGroupID": 1
     }
   ]
 }

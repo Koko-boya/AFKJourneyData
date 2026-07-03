@@ -3,17 +3,16 @@
     "table": "Skill_304",
     "header_table": "Skill_304HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 4,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 15
+    "unresolved_array_refs": 16
   },
   "default": {
     "CasterID": "null",
@@ -96,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -146,9 +153,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1391,
+      "CasterID": 1390,
       "SkillID": 0,
-      "SkillName": "crewcook_atk",
+      "SkillName": "crewbutcher_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -179,7 +186,7 @@
       "TargetShapeArgs": {
         "$arrayRef": 43
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
@@ -199,13 +206,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108533
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -232,6 +241,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -272,13 +289,15 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_impact_crewbutcher_atk"
+      }
     },
     {
-      "CasterID": 1391,
+      "CasterID": 1390,
       "SkillID": 11,
-      "SkillName": "crewcook_ult",
-      "DisplayName": "15945115519081437389",
+      "SkillName": "crewbutcher_ult",
+      "DisplayName": "7553333898919832167",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -298,8 +317,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "13140391640727718596",
-      "SimpleDescription": "15024071367715227958",
+      "Description": "415175969389547108",
+      "SimpleDescription": "4142037374838686014",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -328,15 +347,15 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -350,9 +369,9 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.9,
+      "SArg0": 1,
       "SArg1": 1.5,
-      "SArg2": 3,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -363,6 +382,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -404,14 +431,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_impact_crewcook_ult",
-        "2": "pbfx_impact_crewcook_ult2"
+        "1": "pbfx_impact_crewbutcher_ult",
+        "2": "pbfx_impact_crewbutcher_ult2"
       }
     },
     {
-      "CasterID": 1391,
+      "CasterID": 1390,
       "SkillID": 21,
-      "SkillName": "crewcook_atk2",
+      "SkillName": "crewbutcher_atk2",
       "DisplayName": "16867883395478192850",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -440,7 +467,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 47
       },
       "TargetCamp": 0,
       "TargetPriority": "self",
@@ -462,13 +489,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -495,6 +522,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -536,14 +571,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107258
+        "$arrayRef": 108869
       }
     },
     {
-      "CasterID": 1391,
+      "CasterID": 1390,
       "SkillID": 31,
-      "SkillName": "crewcook_atk3",
-      "DisplayName": "13466867641572342643",
+      "SkillName": "crewbutcher_atk3",
+      "DisplayName": "10233702530172212458",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -562,9 +597,9 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_atk_down.png",
-      "Description": "15131862998271208961",
-      "SimpleDescription": "803839255928427896",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_self.png",
+      "Description": "6277708894092139779",
+      "SimpleDescription": "16766758086917411167",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -573,7 +608,7 @@
       "TargetShapeArgs": {
         "$arrayRef": 43
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
@@ -583,7 +618,7 @@
       "InitCD": 5,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 100,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -593,30 +628,30 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108522
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.3,
-      "SArg1": 5,
+      "SArg0": 1.8,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -628,6 +663,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -668,7 +711,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_impact_crewbutcher_atk3"
+      }
     }
   ]
 }

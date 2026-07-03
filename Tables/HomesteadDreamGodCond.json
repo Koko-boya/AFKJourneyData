@@ -5,10 +5,8 @@
     "format": "flat_rows",
     "schema_size": 9,
     "row_count": 172,
-    "array_fields": [
-      "FinishClientEvent"
-    ],
-    "unresolved_array_refs": 160
+    "array_fields": [],
+    "unresolved_array_refs": 0
   },
   "default": {
     "ID": "null",
@@ -16,7 +14,7 @@
     "HSLevel": 0,
     "Des": null,
     "DesParam": null,
-    "FinishClientEvent": {},
+    "FinishEvent": {},
     "FinishCondition": "true",
     "EnableCondition": "true",
     "EntranceType": null
@@ -202,7 +200,7 @@
       "HSLevel": 0,
       "Des": "17418746702955902550",
       "DesParam": "1",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3000"
       },
       "FinishCondition": "ed.ConditionX.Counter(3000)>=1",
@@ -215,7 +213,7 @@
       "HSLevel": 0,
       "Des": "3450274764565701378",
       "DesParam": "1",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3001"
       },
       "FinishCondition": "ed.ConditionX.Counter(3001)>=1",
@@ -228,7 +226,7 @@
       "HSLevel": 0,
       "Des": "6031670259614278699",
       "DesParam": "1",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3002"
       },
       "FinishCondition": "ed.ConditionX.Counter(3002)>=1",
@@ -241,7 +239,7 @@
       "HSLevel": 0,
       "Des": "6449929163857520727",
       "DesParam": "5",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3003"
       },
       "FinishCondition": "ed.ConditionX.Counter(3003)>=5",
@@ -254,7 +252,7 @@
       "HSLevel": 0,
       "Des": "18158994935216817281",
       "DesParam": "5",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3004"
       },
       "FinishCondition": "ed.ConditionX.Counter(3004)>=5",
@@ -267,7 +265,7 @@
       "HSLevel": 0,
       "Des": "8376389011007826356",
       "DesParam": "5",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3005"
       },
       "FinishCondition": "ed.ConditionX.Counter(3005)>=5",
@@ -280,7 +278,7 @@
       "HSLevel": 0,
       "Des": "2371745243005532089",
       "DesParam": "1",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3006"
       },
       "FinishCondition": "ed.ConditionX.Counter(3006)>=1",
@@ -293,7 +291,7 @@
       "HSLevel": 0,
       "Des": "5011951163098600604",
       "DesParam": "5",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3007"
       },
       "FinishCondition": "ed.ConditionX.Counter(3007)>=5",
@@ -306,7 +304,7 @@
       "HSLevel": 0,
       "Des": "13956289733865322320",
       "DesParam": "5",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3008"
       },
       "FinishCondition": "ed.ConditionX.Counter(3008)>=5",
@@ -319,7 +317,7 @@
       "HSLevel": 0,
       "Des": "8954043201568818808",
       "DesParam": "5",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3009"
       },
       "FinishCondition": "ed.ConditionX.Counter(3009)>=5",
@@ -332,7 +330,7 @@
       "HSLevel": 0,
       "Des": "5512106594496161182",
       "DesParam": "3",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3010"
       },
       "FinishCondition": "ed.ConditionX.Counter(3010)>=3",
@@ -345,7 +343,7 @@
       "HSLevel": 0,
       "Des": "16834438730443856155",
       "DesParam": "3",
-      "FinishClientEvent": {
+      "FinishEvent": {
         "1": "UpdateCounter:3011"
       },
       "FinishCondition": "ed.ConditionX.Counter(3011)>=3",
@@ -358,8 +356,8 @@
       "HSLevel": 1,
       "Des": "18220487602220585102",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -371,8 +369,8 @@
       "HSLevel": 2,
       "Des": "18220487602220585102",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -384,8 +382,8 @@
       "HSLevel": 3,
       "Des": "18220487602220585102",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -397,8 +395,8 @@
       "HSLevel": 4,
       "Des": "18220487602220585102",
       "DesParam": "20",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=20",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -410,8 +408,8 @@
       "HSLevel": 5,
       "Des": "18220487602220585102",
       "DesParam": "40",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=40",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -423,8 +421,8 @@
       "HSLevel": 6,
       "Des": "18220487602220585102",
       "DesParam": "60",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=60",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -436,8 +434,8 @@
       "HSLevel": 7,
       "Des": "18220487602220585102",
       "DesParam": "80",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=80",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -449,8 +447,8 @@
       "HSLevel": 8,
       "Des": "18220487602220585102",
       "DesParam": "100",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=100",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -462,8 +460,8 @@
       "HSLevel": 9,
       "Des": "18220487602220585102",
       "DesParam": "120",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=120",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -475,8 +473,8 @@
       "HSLevel": 10,
       "Des": "18220487602220585102",
       "DesParam": "170",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=170",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -488,8 +486,8 @@
       "HSLevel": 11,
       "Des": "18220487602220585102",
       "DesParam": "190",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=190",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -501,8 +499,8 @@
       "HSLevel": 12,
       "Des": "18220487602220585102",
       "DesParam": "210",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=210",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -514,8 +512,8 @@
       "HSLevel": 13,
       "Des": "18220487602220585102",
       "DesParam": "240",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=240",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -527,8 +525,8 @@
       "HSLevel": 14,
       "Des": "18220487602220585102",
       "DesParam": "280",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=280",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -540,8 +538,8 @@
       "HSLevel": 15,
       "Des": "18220487602220585102",
       "DesParam": "340",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=340",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -553,8 +551,8 @@
       "HSLevel": 16,
       "Des": "18220487602220585102",
       "DesParam": "390",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=390",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -566,8 +564,8 @@
       "HSLevel": 17,
       "Des": "18220487602220585102",
       "DesParam": "430",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=430",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -579,8 +577,8 @@
       "HSLevel": 18,
       "Des": "18220487602220585102",
       "DesParam": "520",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=520",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -592,8 +590,8 @@
       "HSLevel": 19,
       "Des": "18220487602220585102",
       "DesParam": "580",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=580",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -605,8 +603,8 @@
       "HSLevel": 20,
       "Des": "18220487602220585102",
       "DesParam": "650",
-      "FinishClientEvent": {
-        "$arrayRef": 85999
+      "FinishEvent": {
+        "1": "UpdateCounter:3014"
       },
       "FinishCondition": "ed.ConditionX.Counter(3014)>=650",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,2)>=1",
@@ -618,8 +616,8 @@
       "HSLevel": 1,
       "Des": "8781269752596448998",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -631,8 +629,8 @@
       "HSLevel": 2,
       "Des": "8781269752596448998",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -644,8 +642,8 @@
       "HSLevel": 3,
       "Des": "8781269752596448998",
       "DesParam": "130",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=130",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -657,8 +655,8 @@
       "HSLevel": 4,
       "Des": "8781269752596448998",
       "DesParam": "190",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=190",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -670,8 +668,8 @@
       "HSLevel": 5,
       "Des": "8781269752596448998",
       "DesParam": "290",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=290",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -683,8 +681,8 @@
       "HSLevel": 6,
       "Des": "8781269752596448998",
       "DesParam": "710",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=710",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -696,8 +694,8 @@
       "HSLevel": 7,
       "Des": "8781269752596448998",
       "DesParam": "920",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=920",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -709,8 +707,8 @@
       "HSLevel": 8,
       "Des": "8781269752596448998",
       "DesParam": "1200",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=1200",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -722,8 +720,8 @@
       "HSLevel": 9,
       "Des": "8781269752596448998",
       "DesParam": "1680",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=1680",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -735,8 +733,8 @@
       "HSLevel": 10,
       "Des": "8781269752596448998",
       "DesParam": "3540",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=3540",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -748,8 +746,8 @@
       "HSLevel": 11,
       "Des": "8781269752596448998",
       "DesParam": "3900",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=3900",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -761,8 +759,8 @@
       "HSLevel": 12,
       "Des": "8781269752596448998",
       "DesParam": "4290",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=4290",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -774,8 +772,8 @@
       "HSLevel": 13,
       "Des": "8781269752596448998",
       "DesParam": "4720",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=4720",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -787,8 +785,8 @@
       "HSLevel": 14,
       "Des": "8781269752596448998",
       "DesParam": "6610",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=6610",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -800,8 +798,8 @@
       "HSLevel": 15,
       "Des": "8781269752596448998",
       "DesParam": "7270",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=7270",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -813,8 +811,8 @@
       "HSLevel": 16,
       "Des": "8781269752596448998",
       "DesParam": "8000",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=8000",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -826,8 +824,8 @@
       "HSLevel": 17,
       "Des": "8781269752596448998",
       "DesParam": "8800",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=8800",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -839,8 +837,8 @@
       "HSLevel": 18,
       "Des": "8781269752596448998",
       "DesParam": "9680",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=9680",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -852,8 +850,8 @@
       "HSLevel": 19,
       "Des": "8781269752596448998",
       "DesParam": "10640",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=10640",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -865,8 +863,8 @@
       "HSLevel": 20,
       "Des": "8781269752596448998",
       "DesParam": "11710",
-      "FinishClientEvent": {
-        "$arrayRef": 86000
+      "FinishEvent": {
+        "1": "UpdateCounter:3015"
       },
       "FinishCondition": "ed.ConditionX.Counter(3015)>=11710",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,3)>=1",
@@ -878,8 +876,8 @@
       "HSLevel": 1,
       "Des": "11158847114287485200",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -891,8 +889,8 @@
       "HSLevel": 2,
       "Des": "11158847114287485200",
       "DesParam": "120",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=120",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -904,8 +902,8 @@
       "HSLevel": 3,
       "Des": "11158847114287485200",
       "DesParam": "170",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=170",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -917,8 +915,8 @@
       "HSLevel": 4,
       "Des": "11158847114287485200",
       "DesParam": "240",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=240",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -930,8 +928,8 @@
       "HSLevel": 5,
       "Des": "11158847114287485200",
       "DesParam": "690",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=690",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -943,8 +941,8 @@
       "HSLevel": 6,
       "Des": "11158847114287485200",
       "DesParam": "950",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=950",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -956,8 +954,8 @@
       "HSLevel": 7,
       "Des": "11158847114287485200",
       "DesParam": "1140",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=1140",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -969,8 +967,8 @@
       "HSLevel": 8,
       "Des": "11158847114287485200",
       "DesParam": "2060",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=2060",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -982,8 +980,8 @@
       "HSLevel": 9,
       "Des": "11158847114287485200",
       "DesParam": "2670",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=2670",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -995,8 +993,8 @@
       "HSLevel": 10,
       "Des": "11158847114287485200",
       "DesParam": "3480",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=3480",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1008,8 +1006,8 @@
       "HSLevel": 11,
       "Des": "11158847114287485200",
       "DesParam": "3760",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=3760",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1021,8 +1019,8 @@
       "HSLevel": 12,
       "Des": "11158847114287485200",
       "DesParam": "6510",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=6510",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1034,8 +1032,8 @@
       "HSLevel": 13,
       "Des": "11158847114287485200",
       "DesParam": "7160",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=7160",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1047,8 +1045,8 @@
       "HSLevel": 14,
       "Des": "11158847114287485200",
       "DesParam": "7880",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=7880",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1060,8 +1058,8 @@
       "HSLevel": 15,
       "Des": "11158847114287485200",
       "DesParam": "8510",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=8510",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1073,8 +1071,8 @@
       "HSLevel": 16,
       "Des": "11158847114287485200",
       "DesParam": "9190",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=9190",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1086,8 +1084,8 @@
       "HSLevel": 17,
       "Des": "11158847114287485200",
       "DesParam": "9930",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=9930",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1099,8 +1097,8 @@
       "HSLevel": 18,
       "Des": "11158847114287485200",
       "DesParam": "10730",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=10730",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1112,8 +1110,8 @@
       "HSLevel": 19,
       "Des": "11158847114287485200",
       "DesParam": "12010",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=12010",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1125,8 +1123,8 @@
       "HSLevel": 20,
       "Des": "11158847114287485200",
       "DesParam": "13210",
-      "FinishClientEvent": {
-        "$arrayRef": 86001
+      "FinishEvent": {
+        "1": "UpdateCounter:3016"
       },
       "FinishCondition": "ed.ConditionX.Counter(3016)>=13210",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,4)>=1",
@@ -1138,8 +1136,8 @@
       "HSLevel": 1,
       "Des": "16788333726343628546",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1151,8 +1149,8 @@
       "HSLevel": 2,
       "Des": "16788333726343628546",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1164,8 +1162,8 @@
       "HSLevel": 3,
       "Des": "16788333726343628546",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1177,8 +1175,8 @@
       "HSLevel": 4,
       "Des": "16788333726343628546",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1190,8 +1188,8 @@
       "HSLevel": 5,
       "Des": "16788333726343628546",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1203,8 +1201,8 @@
       "HSLevel": 6,
       "Des": "16788333726343628546",
       "DesParam": "350",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=350",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1216,8 +1214,8 @@
       "HSLevel": 7,
       "Des": "16788333726343628546",
       "DesParam": "440",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=440",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1229,8 +1227,8 @@
       "HSLevel": 8,
       "Des": "16788333726343628546",
       "DesParam": "580",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=580",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1242,8 +1240,8 @@
       "HSLevel": 9,
       "Des": "16788333726343628546",
       "DesParam": "810",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=810",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1255,8 +1253,8 @@
       "HSLevel": 10,
       "Des": "16788333726343628546",
       "DesParam": "1130",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=1130",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1268,8 +1266,8 @@
       "HSLevel": 11,
       "Des": "16788333726343628546",
       "DesParam": "2780",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=2780",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1281,8 +1279,8 @@
       "HSLevel": 12,
       "Des": "16788333726343628546",
       "DesParam": "3060",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=3060",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1294,8 +1292,8 @@
       "HSLevel": 13,
       "Des": "16788333726343628546",
       "DesParam": "3370",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=3370",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1307,8 +1305,8 @@
       "HSLevel": 14,
       "Des": "16788333726343628546",
       "DesParam": "3700",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=3700",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1320,8 +1318,8 @@
       "HSLevel": 15,
       "Des": "16788333726343628546",
       "DesParam": "5840",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=5840",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1333,8 +1331,8 @@
       "HSLevel": 16,
       "Des": "16788333726343628546",
       "DesParam": "6420",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=6420",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1346,8 +1344,8 @@
       "HSLevel": 17,
       "Des": "16788333726343628546",
       "DesParam": "7060",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=7060",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1359,8 +1357,8 @@
       "HSLevel": 18,
       "Des": "16788333726343628546",
       "DesParam": "9890",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=9890",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1372,8 +1370,8 @@
       "HSLevel": 19,
       "Des": "16788333726343628546",
       "DesParam": "10880",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=10880",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1385,8 +1383,8 @@
       "HSLevel": 20,
       "Des": "16788333726343628546",
       "DesParam": "11970",
-      "FinishClientEvent": {
-        "$arrayRef": 86002
+      "FinishEvent": {
+        "1": "UpdateCounter:3017"
       },
       "FinishCondition": "ed.ConditionX.Counter(3017)>=11970",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,5)>=1",
@@ -1398,8 +1396,8 @@
       "HSLevel": 1,
       "Des": "619800995842672805",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1411,8 +1409,8 @@
       "HSLevel": 2,
       "Des": "619800995842672805",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1424,8 +1422,8 @@
       "HSLevel": 3,
       "Des": "619800995842672805",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1437,8 +1435,8 @@
       "HSLevel": 4,
       "Des": "619800995842672805",
       "DesParam": "20",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=20",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1450,8 +1448,8 @@
       "HSLevel": 5,
       "Des": "619800995842672805",
       "DesParam": "40",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=40",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1463,8 +1461,8 @@
       "HSLevel": 6,
       "Des": "619800995842672805",
       "DesParam": "60",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=60",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1476,8 +1474,8 @@
       "HSLevel": 7,
       "Des": "619800995842672805",
       "DesParam": "80",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=80",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1489,8 +1487,8 @@
       "HSLevel": 8,
       "Des": "619800995842672805",
       "DesParam": "100",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=100",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1502,8 +1500,8 @@
       "HSLevel": 9,
       "Des": "619800995842672805",
       "DesParam": "120",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=120",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1515,8 +1513,8 @@
       "HSLevel": 10,
       "Des": "619800995842672805",
       "DesParam": "170",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=170",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1528,8 +1526,8 @@
       "HSLevel": 11,
       "Des": "619800995842672805",
       "DesParam": "190",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=190",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1541,8 +1539,8 @@
       "HSLevel": 12,
       "Des": "619800995842672805",
       "DesParam": "210",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=210",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1554,8 +1552,8 @@
       "HSLevel": 13,
       "Des": "619800995842672805",
       "DesParam": "240",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=240",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1567,8 +1565,8 @@
       "HSLevel": 14,
       "Des": "619800995842672805",
       "DesParam": "280",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=280",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1580,8 +1578,8 @@
       "HSLevel": 15,
       "Des": "619800995842672805",
       "DesParam": "340",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=340",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1593,8 +1591,8 @@
       "HSLevel": 16,
       "Des": "619800995842672805",
       "DesParam": "390",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=390",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1606,8 +1604,8 @@
       "HSLevel": 17,
       "Des": "619800995842672805",
       "DesParam": "430",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=430",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1619,8 +1617,8 @@
       "HSLevel": 18,
       "Des": "619800995842672805",
       "DesParam": "520",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=520",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1632,8 +1630,8 @@
       "HSLevel": 19,
       "Des": "619800995842672805",
       "DesParam": "580",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=580",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1645,8 +1643,8 @@
       "HSLevel": 20,
       "Des": "619800995842672805",
       "DesParam": "650",
-      "FinishClientEvent": {
-        "$arrayRef": 86003
+      "FinishEvent": {
+        "1": "UpdateCounter:3018"
       },
       "FinishCondition": "ed.ConditionX.Counter(3018)>=650",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,10)>=1",
@@ -1658,8 +1656,8 @@
       "HSLevel": 1,
       "Des": "6870850636945709216",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1671,8 +1669,8 @@
       "HSLevel": 2,
       "Des": "6870850636945709216",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1684,8 +1682,8 @@
       "HSLevel": 3,
       "Des": "6870850636945709216",
       "DesParam": "130",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=130",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1697,8 +1695,8 @@
       "HSLevel": 4,
       "Des": "6870850636945709216",
       "DesParam": "190",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=190",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1710,8 +1708,8 @@
       "HSLevel": 5,
       "Des": "6870850636945709216",
       "DesParam": "290",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=290",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1723,8 +1721,8 @@
       "HSLevel": 6,
       "Des": "6870850636945709216",
       "DesParam": "710",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=710",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1736,8 +1734,8 @@
       "HSLevel": 7,
       "Des": "6870850636945709216",
       "DesParam": "920",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=920",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1749,8 +1747,8 @@
       "HSLevel": 8,
       "Des": "6870850636945709216",
       "DesParam": "1200",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=1200",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1762,8 +1760,8 @@
       "HSLevel": 9,
       "Des": "6870850636945709216",
       "DesParam": "1680",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=1680",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1775,8 +1773,8 @@
       "HSLevel": 10,
       "Des": "6870850636945709216",
       "DesParam": "3540",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=3540",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1788,8 +1786,8 @@
       "HSLevel": 11,
       "Des": "6870850636945709216",
       "DesParam": "3900",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=3900",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1801,8 +1799,8 @@
       "HSLevel": 12,
       "Des": "6870850636945709216",
       "DesParam": "4290",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=4290",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1814,8 +1812,8 @@
       "HSLevel": 13,
       "Des": "6870850636945709216",
       "DesParam": "4720",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=4720",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1827,8 +1825,8 @@
       "HSLevel": 14,
       "Des": "6870850636945709216",
       "DesParam": "6610",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=6610",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1840,8 +1838,8 @@
       "HSLevel": 15,
       "Des": "6870850636945709216",
       "DesParam": "7270",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=7270",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1853,8 +1851,8 @@
       "HSLevel": 16,
       "Des": "6870850636945709216",
       "DesParam": "8000",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=8000",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1866,8 +1864,8 @@
       "HSLevel": 17,
       "Des": "6870850636945709216",
       "DesParam": "8800",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=8800",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1879,8 +1877,8 @@
       "HSLevel": 18,
       "Des": "6870850636945709216",
       "DesParam": "9680",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=9680",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1892,8 +1890,8 @@
       "HSLevel": 19,
       "Des": "6870850636945709216",
       "DesParam": "10640",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=10640",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1905,8 +1903,8 @@
       "HSLevel": 20,
       "Des": "6870850636945709216",
       "DesParam": "11710",
-      "FinishClientEvent": {
-        "$arrayRef": 86004
+      "FinishEvent": {
+        "1": "UpdateCounter:3019"
       },
       "FinishCondition": "ed.ConditionX.Counter(3019)>=11710",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,8)>=1",
@@ -1918,8 +1916,8 @@
       "HSLevel": 1,
       "Des": "18340644586886751889",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -1931,8 +1929,8 @@
       "HSLevel": 2,
       "Des": "18340644586886751889",
       "DesParam": "120",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=120",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -1944,8 +1942,8 @@
       "HSLevel": 3,
       "Des": "18340644586886751889",
       "DesParam": "170",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=170",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -1957,8 +1955,8 @@
       "HSLevel": 4,
       "Des": "18340644586886751889",
       "DesParam": "240",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=240",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -1970,8 +1968,8 @@
       "HSLevel": 5,
       "Des": "18340644586886751889",
       "DesParam": "690",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=690",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -1983,8 +1981,8 @@
       "HSLevel": 6,
       "Des": "18340644586886751889",
       "DesParam": "950",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=950",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -1996,8 +1994,8 @@
       "HSLevel": 7,
       "Des": "18340644586886751889",
       "DesParam": "1140",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=1140",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2009,8 +2007,8 @@
       "HSLevel": 8,
       "Des": "18340644586886751889",
       "DesParam": "2060",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=2060",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2022,8 +2020,8 @@
       "HSLevel": 9,
       "Des": "18340644586886751889",
       "DesParam": "2670",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=2670",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2035,8 +2033,8 @@
       "HSLevel": 10,
       "Des": "18340644586886751889",
       "DesParam": "3480",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=3480",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2048,8 +2046,8 @@
       "HSLevel": 11,
       "Des": "18340644586886751889",
       "DesParam": "3760",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=3760",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2061,8 +2059,8 @@
       "HSLevel": 12,
       "Des": "18340644586886751889",
       "DesParam": "6510",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=6510",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2074,8 +2072,8 @@
       "HSLevel": 13,
       "Des": "18340644586886751889",
       "DesParam": "7160",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=7160",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2087,8 +2085,8 @@
       "HSLevel": 14,
       "Des": "18340644586886751889",
       "DesParam": "7880",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=7880",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2100,8 +2098,8 @@
       "HSLevel": 15,
       "Des": "18340644586886751889",
       "DesParam": "8510",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=8510",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2113,8 +2111,8 @@
       "HSLevel": 16,
       "Des": "18340644586886751889",
       "DesParam": "9190",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=9190",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2126,8 +2124,8 @@
       "HSLevel": 17,
       "Des": "18340644586886751889",
       "DesParam": "9930",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=9930",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2139,8 +2137,8 @@
       "HSLevel": 18,
       "Des": "18340644586886751889",
       "DesParam": "10730",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=10730",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2152,8 +2150,8 @@
       "HSLevel": 19,
       "Des": "18340644586886751889",
       "DesParam": "12010",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=12010",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2165,8 +2163,8 @@
       "HSLevel": 20,
       "Des": "18340644586886751889",
       "DesParam": "13210",
-      "FinishClientEvent": {
-        "$arrayRef": 86005
+      "FinishEvent": {
+        "1": "UpdateCounter:3020"
       },
       "FinishCondition": "ed.ConditionX.Counter(3020)>=13210",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,7)>=1",
@@ -2178,8 +2176,8 @@
       "HSLevel": 1,
       "Des": "16999528300046503254",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2191,8 +2189,8 @@
       "HSLevel": 2,
       "Des": "16999528300046503254",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2204,8 +2202,8 @@
       "HSLevel": 3,
       "Des": "16999528300046503254",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2217,8 +2215,8 @@
       "HSLevel": 4,
       "Des": "16999528300046503254",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2230,8 +2228,8 @@
       "HSLevel": 5,
       "Des": "16999528300046503254",
       "DesParam": "10",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=10",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2243,8 +2241,8 @@
       "HSLevel": 6,
       "Des": "16999528300046503254",
       "DesParam": "350",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=350",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2256,8 +2254,8 @@
       "HSLevel": 7,
       "Des": "16999528300046503254",
       "DesParam": "440",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=440",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2269,8 +2267,8 @@
       "HSLevel": 8,
       "Des": "16999528300046503254",
       "DesParam": "580",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=580",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2282,8 +2280,8 @@
       "HSLevel": 9,
       "Des": "16999528300046503254",
       "DesParam": "810",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=810",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2295,8 +2293,8 @@
       "HSLevel": 10,
       "Des": "16999528300046503254",
       "DesParam": "1130",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=1130",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2308,8 +2306,8 @@
       "HSLevel": 11,
       "Des": "16999528300046503254",
       "DesParam": "2780",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=2780",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2321,8 +2319,8 @@
       "HSLevel": 12,
       "Des": "16999528300046503254",
       "DesParam": "3060",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=3060",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2334,8 +2332,8 @@
       "HSLevel": 13,
       "Des": "16999528300046503254",
       "DesParam": "3370",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=3370",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2347,8 +2345,8 @@
       "HSLevel": 14,
       "Des": "16999528300046503254",
       "DesParam": "3700",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=3700",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2360,8 +2358,8 @@
       "HSLevel": 15,
       "Des": "16999528300046503254",
       "DesParam": "5840",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=5840",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2373,8 +2371,8 @@
       "HSLevel": 16,
       "Des": "16999528300046503254",
       "DesParam": "6420",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=6420",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2386,8 +2384,8 @@
       "HSLevel": 17,
       "Des": "16999528300046503254",
       "DesParam": "7060",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=7060",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2399,8 +2397,8 @@
       "HSLevel": 18,
       "Des": "16999528300046503254",
       "DesParam": "9890",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=9890",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2412,8 +2410,8 @@
       "HSLevel": 19,
       "Des": "16999528300046503254",
       "DesParam": "10880",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=10880",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",
@@ -2425,8 +2423,8 @@
       "HSLevel": 20,
       "Des": "16999528300046503254",
       "DesParam": "11970",
-      "FinishClientEvent": {
-        "$arrayRef": 86006
+      "FinishEvent": {
+        "1": "UpdateCounter:3021"
       },
       "FinishCondition": "ed.ConditionX.Counter(3021)>=11970",
       "EnableCondition": "ed.ConditionX.HSBuildingMaxLv(2,9)>=1",

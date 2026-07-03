@@ -3,8 +3,8 @@
     "table": "Skill_285",
     "header_table": "Skill_285HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
-    "row_count": 4,
+    "schema_size": 129,
+    "row_count": 5,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
@@ -15,7 +15,7 @@
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 19
+    "unresolved_array_refs": 25
   },
   "default": {
     "CasterID": "null",
@@ -98,6 +98,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -144,13 +152,14 @@
     0,
     11,
     21,
-    31
+    31,
+    41
   ],
   "rows": [
     {
-      "CasterID": 1304,
+      "CasterID": 1303,
       "SkillID": 0,
-      "SkillName": "sandsupport_atk",
+      "SkillName": "sandmage_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -179,7 +188,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 423
+        "$arrayRef": 429
       },
       "TargetCamp": 0,
       "TargetPriority": "target",
@@ -191,7 +200,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 60,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -199,19 +208,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sandmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 107214
+        "$arrayRef": 108833
       },
       "HitDisplay": {
-        "$arrayRef": 107214
+        "$arrayRef": 108833
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 107214
+        "$arrayRef": 108833
       },
       "Action(s)": {
-        "$arrayRef": 107214
+        "$arrayRef": 108833
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -221,7 +230,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.2,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -238,6 +247,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -281,10 +298,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1304,
+      "CasterID": 1303,
       "SkillID": 11,
-      "SkillName": "sandsupport_ult",
-      "DisplayName": "10691078718045549272",
+      "SkillName": "sandmage_ult",
+      "DisplayName": "13732213572807024692",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -303,22 +320,22 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
-      "Description": "52787531405080647",
-      "SimpleDescription": "7122365784408027587",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_aoe.png",
+      "Description": "14877471365650896096",
+      "SimpleDescription": "17436930656460970610",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": "hex",
-      "TargetShape": null,
+      "TargetShape": "line",
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 106344
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "h_mostunits",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 107210
+        "$arrayRef": 108821
       },
       "TargetBlockType": "noblock",
       "Priority": 10,
@@ -334,36 +351,38 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sandmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 107226
+        "$arrayRef": 108834
       },
       "HitDisplay": {
-        "$arrayRef": 107226
+        "$arrayRef": 108834
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 108834
+      },
       "Action(s)": {
-        "$arrayRef": 107226
+        "$arrayRef": 108834
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
+      "AOEOrigin": "self",
+      "AOEShape": "line",
       "AOEShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 79585
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.3,
-      "SArg1": 0.15,
-      "SArg2": 0.4,
-      "SArg3": 3,
+      "SArg0": 0.1,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -373,6 +392,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -386,13 +413,13 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "front",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
+      "TileRadius": 6,
+      "TilePiercing": true,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
@@ -414,17 +441,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_point_sandsupport_ult_start",
-        "2": "pbfx_point_sandsupport_ult_loop",
-        "3": "pbfx_point_sandsupport_ult_end",
-        "4": "pbfx_impact_sandmage_ult"
+        "$arrayRef": 108823
       }
     },
     {
-      "CasterID": 1304,
+      "CasterID": 1303,
       "SkillID": 21,
-      "SkillName": "sandsupport_atk2",
-      "DisplayName": "13417991085003050472",
+      "SkillName": "sandmage_atk2",
+      "DisplayName": "6031686490764685001",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -443,58 +467,62 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
-      "Description": "7405592435507572463",
-      "SimpleDescription": "559216899948558988",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_multi.png",
+      "Description": "4750836442792691759",
+      "SimpleDescription": "17338122086829798304",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 429
       },
-      "TargetCamp": 1,
-      "TargetPriority": "weakest",
+      "TargetCamp": -1,
+      "TargetPriority": "nearest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 3,
       "CD": 5,
       "InitCD": 5,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 80,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sandmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 107227
+        "$arrayRef": 108835
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108835
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 108835
+      },
       "Action(s)": {
-        "$arrayRef": 107227
+        "$arrayRef": 108835
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 1,
+      "AffectedCamp": -1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": -0.6,
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": -0.2,
+      "SArg0": 0,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -507,6 +535,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -550,9 +586,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1304,
+      "CasterID": 1303,
       "SkillID": 31,
-      "SkillName": "sandsupport_atk3",
+      "SkillName": "sandmage_atk3",
       "DisplayName": "10424846727575648299",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -581,7 +617,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 423
+        "$arrayRef": 429
       },
       "TargetCamp": -1,
       "TargetPriority": "nearest",
@@ -601,17 +637,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sandmage",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 107104
+        "$arrayRef": 108715
       },
-      "HitDisplay": {
-        "$arrayRef": 107104
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 107104
+        "$arrayRef": 108715
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -638,6 +672,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -679,7 +721,147 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107225
+        "$arrayRef": 108836
+      }
+    },
+    {
+      "CasterID": 1303,
+      "SkillID": 41,
+      "SkillName": "sandmage_atk4",
+      "DisplayName": "活动用死亡表现（不用翻译）",
+      "IsShow": false,
+      "HeroDetailActionShow": false,
+      "UnlockByImba": false,
+      "UnlockAwakenLevel": 0,
+      "UnlockLevel": 1,
+      "UnlockExclusive": -1,
+      "UnlockMastery": -1,
+      "UnlockSeasonLevel": 0,
+      "EnhanceAttr": null,
+      "Slot": 4,
+      "DisplaySlot": 4,
+      "FatherSkillSlot": -1,
+      "SeasonID": 0,
+      "SkillLevel": 1,
+      "SkillType": null,
+      "SkillPerformData": null,
+      "IsPositiveManual": false,
+      "SkillScript": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_sand.png",
+      "Description": "活动用死亡表现技能（不用翻译）",
+      "SimpleDescription": "（不用翻译）",
+      "ActiveType": "passive",
+      "ThumpCondition": -1,
+      "SetSpeeder": -1,
+      "TargetType": null,
+      "TargetShape": null,
+      "TargetShapeArgs": {
+        "$arrayRef": 60
+      },
+      "TargetCamp": 1,
+      "TargetPriority": "self",
+      "FirstPriority": {},
+      "ReselectTargetArgs": {},
+      "TargetBlockType": null,
+      "Priority": -9999,
+      "CD": 9999,
+      "InitCD": 9999,
+      "GlobalCD": 9999,
+      "CostMP": 0,
+      "GainMP": 0,
+      "VictimMP": 1,
+      "TrackType": "projectile",
+      "UseNewDisplay": true,
+      "CameraType": 0,
+      "CameraHideGround": false,
+      "SkinId": {},
+      "SkinUseWhich": {},
+      "UseWhich": null,
+      "CastDisplays": {
+        "$arrayRef": 96803
+      },
+      "HitDisplay": {},
+      "EvaluateDisplay": {},
+      "Trajectory": {},
+      "Action(s)": {
+        "$arrayRef": 96803
+      },
+      "DisplayAction(s)": {},
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
+      "AOEOriginFix": {},
+      "PlusAttrUnit": null,
+      "PlusAttr": null,
+      "PlusRatio": 0,
+      "DamageType": null,
+      "DamageTrigger": null,
+      "DamageTriggerParam": null,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
+      "SArg4": 0,
+      "SArg5": 0,
+      "SArg6": 0,
+      "SArg7": 0,
+      "SArg8": 0,
+      "SArg9": 0,
+      "SArg10": 0,
+      "SArg11": 0,
+      "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
+      "DamageExtraEff": false,
+      "Buff": null,
+      "BuffID": 0,
+      "MoveForward": 0,
+      "KnockUp": 0,
+      "KnockBack": 0,
+      "KnockDirectionReason": false,
+      "FallFrozenTime": 0,
+      "KnockNotFall": false,
+      "IsNoLaunch": false,
+      "RandomBasicAtk": false,
+      "HasUpDownAction": false,
+      "DamagePopupList": {},
+      "TileCollideType": "target",
+      "TileArt": "pbfx_tile_activitymidautumn",
+      "TileArtSkinId": {},
+      "TileArtSkinName": {},
+      "TileScale": 0,
+      "TileRadius": 0,
+      "TilePiercing": true,
+      "TileDistance": 0,
+      "TileOTTHeight": 0,
+      "TileXZSpeed": 0,
+      "TileYSpeed": 0,
+      "TileGravity": 0,
+      "AimTarget": false,
+      "FollowTarget": false,
+      "TileRemain": 0,
+      "PointEffect": null,
+      "PointEffArgs": {},
+      "SkinImpactEffect": {},
+      "ImpactEffect": null,
+      "ImpactEffArgs": {},
+      "ImpactBone": null,
+      "ChainJumps": 0,
+      "ChainGap": 0,
+      "ChainJumpDistance": 0,
+      "MaxAffectTimes": 0,
+      "ChainEffect": null,
+      "SummonUnitList": {},
+      "ResourceList": {
+        "1": "pbfx_tile_activitymidautumn",
+        "2": "pbfx_point_activitymidautumn"
       }
     }
   ]

@@ -4,7 +4,7 @@
     "header_table": "ProfileFrameHeaderTable",
     "format": "flat_rows",
     "schema_size": 18,
-    "row_count": 202,
+    "row_count": 207,
     "array_fields": [
       "LootInfo"
     ],
@@ -232,7 +232,12 @@
     205,
     206,
     207,
-    208
+    208,
+    210,
+    211,
+    212,
+    213,
+    214
   ],
   "rows": [
     {
@@ -379,7 +384,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 2194
+        "$arrayRef": 2201
       },
       "ShowCondition": "true",
       "RequireDes": "7079569289416142098",
@@ -401,7 +406,7 @@
       "FadeType": 4,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 2528
+        "$arrayRef": 2533
       },
       "ShowCondition": "true",
       "RequireDes": "12238636131846613970",
@@ -511,7 +516,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 2194
+        "$arrayRef": 2201
       },
       "ShowCondition": "ed.ConditionX.HasProfileFrame(15)",
       "RequireDes": "13596136714452274293",
@@ -4297,6 +4302,106 @@
       "LootInfo": {},
       "ShowCondition": "ed.ConditionX.HasProfileFrame(208)",
       "RequireDes": "15808515619191120367",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 210,
+      "Order": 210,
+      "Name": "3188185690182156444",
+      "Description": "5185993200342676584",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_207.png",
+      "PrefabRes": null,
+      "Quality": 6,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.IsUserInCurEp()",
+      "RequireDes": "1007230493302992388",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 211,
+      "Order": 211,
+      "Name": "9733587588399594925",
+      "Description": "18279414977890822289",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_208.png",
+      "PrefabRes": null,
+      "Quality": 4,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "true",
+      "RequireDes": "13596136714452274293",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 212,
+      "Order": 212,
+      "Name": "4944711838623243070",
+      "Description": "17424084686747167559",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_210.png",
+      "PrefabRes": null,
+      "Quality": 6,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.IsUserInCurEp()",
+      "RequireDes": "205244071500900172",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 213,
+      "Order": 213,
+      "Name": "14243925512400884864",
+      "Description": "16838916653858834607",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_189.png",
+      "PrefabRes": null,
+      "Quality": 8,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.HasProfileFrame(213)",
+      "RequireDes": "17689672406296349957",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 214,
+      "Order": 214,
+      "Name": "4294501510970413343",
+      "Description": "9328657210214665330",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_189.png",
+      "PrefabRes": null,
+      "Quality": 6,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.HasProfileFrame(214)",
+      "RequireDes": "298071262403502754",
       "FadeDes": null,
       "FrameText": null,
       "Enable": true,

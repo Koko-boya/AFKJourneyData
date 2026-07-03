@@ -4,12 +4,13 @@
     "header_table": "BattlePassHeaderTable",
     "format": "flat_rows",
     "schema_size": 13,
-    "row_count": 29,
+    "row_count": 33,
     "array_fields": [
       "BuyLevelCost",
+      "UltimateInstantRewards",
       "UltimateUpgradeCost"
     ],
-    "unresolved_array_refs": 56
+    "unresolved_array_refs": 65
   },
   "default": {
     "ID": "null",
@@ -38,6 +39,8 @@
     1005,
     1006,
     1007,
+    1008,
+    1009,
     2003,
     2004,
     2005,
@@ -55,7 +58,9 @@
     3002,
     2016,
     2017,
-    2018
+    2018,
+    2019,
+    3003
   ],
   "rows": [
     {
@@ -64,11 +69,11 @@
       "AdvancedGoodsID": 10,
       "UltimateGoodsID": 11,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 30,
       "BuyLevelCost": {
-        "$arrayRef": 377
+        "$arrayRef": 383
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -100,11 +105,11 @@
       "AdvancedGoodsID": 15,
       "UltimateGoodsID": 16,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 108,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -139,11 +144,11 @@
       "AdvancedGoodsID": 17,
       "UltimateGoodsID": 18,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -175,11 +180,11 @@
       "AdvancedGoodsID": 19,
       "UltimateGoodsID": 20,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -211,20 +216,15 @@
       "AdvancedGoodsID": 49,
       "UltimateGoodsID": 50,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 30,
       "BuyLevelCost": {
-        "$arrayRef": 377
+        "$arrayRef": 383
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
-        "1": 1,
-        "2": 2,
-        "3": 10,
-        "4": 1,
-        "5": 77,
-        "6": 12
+        "$arrayRef": 82111
       },
       "BannerDisplay": {
         "1": 1,
@@ -244,11 +244,11 @@
       "AdvancedGoodsID": 22,
       "UltimateGoodsID": 23,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 112,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -280,11 +280,11 @@
       "AdvancedGoodsID": 31,
       "UltimateGoodsID": 32,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 119,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -322,11 +322,11 @@
       "AdvancedGoodsID": 43,
       "UltimateGoodsID": 44,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 119,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -364,11 +364,11 @@
       "AdvancedGoodsID": 56,
       "UltimateGoodsID": 57,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 119,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -406,11 +406,11 @@
       "AdvancedGoodsID": 67,
       "UltimateGoodsID": 68,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 112,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -448,11 +448,11 @@
       "AdvancedGoodsID": 76,
       "UltimateGoodsID": 77,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80650
+        "$arrayRef": 82108
       },
       "BuyLevelUnlockDays": 112,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -485,16 +485,89 @@
       "BuyRemindDays": 35
     },
     {
+      "ID": 1008,
+      "QuestGroupID": 2039,
+      "AdvancedGoodsID": 78,
+      "UltimateGoodsID": 79,
+      "UltimateUpgradeCost": {
+        "$arrayRef": 82108
+      },
+      "BuyLevelUnlockDays": 75,
+      "BuyLevelCost": {
+        "$arrayRef": 82110
+      },
+      "UltimateInstantLevel": 20,
+      "UltimateInstantRewards": {
+        "1": 1,
+        "2": 2,
+        "3": 10,
+        "4": 8,
+        "5": 211,
+        "6": 1,
+        "7": 1,
+        "8": 77,
+        "9": 12
+      },
+      "BannerDisplay": {
+        "1": 10,
+        "2": 945,
+        "3": 1,
+        "4": 10,
+        "5": 946,
+        "6": 1,
+        "7": 1,
+        "8": 101267,
+        "9": 1,
+        "10": 1,
+        "11": 77,
+        "12": 1
+      },
+      "MailKey": 556,
+      "RemindDays": 7,
+      "BuyRemindDays": 35
+    },
+    {
+      "ID": 1009,
+      "QuestGroupID": 2040,
+      "AdvancedGoodsID": 80,
+      "UltimateGoodsID": 81,
+      "UltimateUpgradeCost": {
+        "$arrayRef": 82108
+      },
+      "BuyLevelUnlockDays": 40,
+      "BuyLevelCost": {
+        "$arrayRef": 82110
+      },
+      "UltimateInstantLevel": 20,
+      "UltimateInstantRewards": {
+        "$arrayRef": 82111
+      },
+      "BannerDisplay": {
+        "1": 10,
+        "2": 951,
+        "3": 1,
+        "4": 10,
+        "5": 952,
+        "6": 1,
+        "7": 1,
+        "8": 77,
+        "9": 1
+      },
+      "MailKey": 556,
+      "RemindDays": 7,
+      "BuyRemindDays": 35
+    },
+    {
       "ID": 2003,
       "QuestGroupID": 2008,
       "AdvancedGoodsID": 24,
       "UltimateGoodsID": 25,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -526,11 +599,11 @@
       "AdvancedGoodsID": 26,
       "UltimateGoodsID": 27,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -562,11 +635,11 @@
       "AdvancedGoodsID": 28,
       "UltimateGoodsID": 29,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -598,11 +671,11 @@
       "AdvancedGoodsID": 33,
       "UltimateGoodsID": 34,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -640,11 +713,11 @@
       "AdvancedGoodsID": 35,
       "UltimateGoodsID": 36,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -682,11 +755,11 @@
       "AdvancedGoodsID": 38,
       "UltimateGoodsID": 39,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -724,11 +797,11 @@
       "AdvancedGoodsID": 40,
       "UltimateGoodsID": 41,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -766,11 +839,11 @@
       "AdvancedGoodsID": 45,
       "UltimateGoodsID": 46,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -808,11 +881,11 @@
       "AdvancedGoodsID": 47,
       "UltimateGoodsID": 48,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -852,7 +925,7 @@
       "UltimateUpgradeCost": {},
       "BuyLevelUnlockDays": 9,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 0,
       "UltimateInstantRewards": {},
@@ -880,11 +953,11 @@
       "AdvancedGoodsID": 51,
       "UltimateGoodsID": 52,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -922,11 +995,11 @@
       "AdvancedGoodsID": 58,
       "UltimateGoodsID": 59,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -964,11 +1037,11 @@
       "AdvancedGoodsID": 60,
       "UltimateGoodsID": 61,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -1006,11 +1079,11 @@
       "AdvancedGoodsID": 65,
       "UltimateGoodsID": 66,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -1050,7 +1123,7 @@
       "UltimateUpgradeCost": {},
       "BuyLevelUnlockDays": 9,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 0,
       "UltimateInstantRewards": {},
@@ -1078,11 +1151,11 @@
       "AdvancedGoodsID": 70,
       "UltimateGoodsID": 71,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -1120,11 +1193,11 @@
       "AdvancedGoodsID": 72,
       "UltimateGoodsID": 73,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -1162,11 +1235,11 @@
       "AdvancedGoodsID": 74,
       "UltimateGoodsID": 75,
       "UltimateUpgradeCost": {
-        "$arrayRef": 80651
+        "$arrayRef": 82109
       },
       "BuyLevelUnlockDays": 35,
       "BuyLevelCost": {
-        "$arrayRef": 80652
+        "$arrayRef": 82110
       },
       "UltimateInstantLevel": 20,
       "UltimateInstantRewards": {
@@ -1197,6 +1270,75 @@
       "MailKey": 141,
       "RemindDays": 7,
       "BuyRemindDays": 28
+    },
+    {
+      "ID": 2019,
+      "QuestGroupID": 2041,
+      "AdvancedGoodsID": 82,
+      "UltimateGoodsID": 83,
+      "UltimateUpgradeCost": {
+        "$arrayRef": 82109
+      },
+      "BuyLevelUnlockDays": 35,
+      "BuyLevelCost": {
+        "$arrayRef": 82110
+      },
+      "UltimateInstantLevel": 20,
+      "UltimateInstantRewards": {
+        "1": 1,
+        "2": 2,
+        "3": 10,
+        "4": 20,
+        "5": 20019,
+        "6": 1,
+        "7": 1,
+        "8": 77,
+        "9": 8
+      },
+      "BannerDisplay": {
+        "1": 10,
+        "2": 1001,
+        "3": 1,
+        "4": 10,
+        "5": 1002,
+        "6": 1,
+        "7": 1,
+        "8": 9,
+        "9": 1,
+        "10": 1,
+        "11": 77,
+        "12": 1
+      },
+      "MailKey": 141,
+      "RemindDays": 7,
+      "BuyRemindDays": 28
+    },
+    {
+      "ID": 3003,
+      "QuestGroupID": 2042,
+      "AdvancedGoodsID": 84,
+      "UltimateGoodsID": 0,
+      "UltimateUpgradeCost": {},
+      "BuyLevelUnlockDays": 9,
+      "BuyLevelCost": {
+        "$arrayRef": 82110
+      },
+      "UltimateInstantLevel": 0,
+      "UltimateInstantRewards": {},
+      "BannerDisplay": {
+        "1": 10,
+        "2": 994,
+        "3": 1,
+        "4": 10,
+        "5": 995,
+        "6": 1,
+        "7": 1,
+        "8": 9,
+        "9": 1
+      },
+      "MailKey": 402,
+      "RemindDays": 5,
+      "BuyRemindDays": 9
     }
   ]
 }

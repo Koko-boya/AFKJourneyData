@@ -2,52 +2,59 @@
   "_meta": {
     "table": "GuildVSPioneer",
     "header_table": "GuildVSPioneerHeaderTable",
-    "source_table": "GuildVSPioneerTable",
-    "format": "explicit_rows",
-    "schema_size": 11,
+    "format": "flat_rows",
+    "schema_size": 13,
     "row_count": 1,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "array_fields": [
+      "PioneerReward1",
+      "PioneerReward2",
+      "PioneerReward3",
+      "PioneerRewardDisplay",
+      "PioneerWeekdays"
+    ],
+    "unresolved_array_refs": 5
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "ID": "null",
+    "PioneerBattleGroupID": 0,
+    "MnPioneerBattleGroupID": 0,
+    "PioneerStdlvID": 0,
+    "MnPioneerStdlvID": 0,
+    "PioneerRewardDisplay": {},
+    "PioneerReward1": {},
+    "PioneerReward2": {},
+    "PioneerReward3": {},
+    "PioneerWeekdays": {},
+    "PioneerReward0": {},
+    "LineupSetCount": 0,
+    "InheritFromWzArena": false
+  },
+  "row_keys": [
+    1
+  ],
   "rows": [
     {
       "ID": 1,
-      "PioneerBattleGroupID": 400901,
+      "PioneerBattleGroupID": 404663,
+      "MnPioneerBattleGroupID": 404613,
+      "PioneerStdlvID": 52002,
+      "MnPioneerStdlvID": 52001,
       "PioneerRewardDisplay": {
-        "1": 1,
-        "2": 2,
-        "3": 1
+        "$arrayRef": 86979
+      },
+      "PioneerReward1": {
+        "$arrayRef": 86991
       },
       "PioneerReward2": {
-        "1": 1,
-        "2": 2,
-        "3": 10
+        "$arrayRef": 86980
       },
       "PioneerReward3": {
-        "1": 1,
-        "2": 2,
-        "3": 15
+        "$arrayRef": 86989
       },
       "PioneerWeekdays": {
-        "1": 1,
-        "2": 2,
-        "3": 3,
-        "4": 4,
-        "5": 5
+        "$arrayRef": 44921
       },
-      "PioneerStdlvID": 9011,
-      "PioneerReward1": {
-        "1": 1,
-        "2": 2,
-        "3": 1
-      },
-      "PioneerReward0": {
-        "1": 1,
-        "2": 2,
-        "3": 5
-      },
+      "PioneerReward0": {},
       "LineupSetCount": 3,
       "InheritFromWzArena": true
     }

@@ -3,16 +3,17 @@
     "table": "Skill_603",
     "header_table": "Skill_603HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 2,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 10
+    "unresolved_array_refs": 11
   },
   "default": {
     "CasterID": "null",
@@ -95,6 +96,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -139,13 +148,13 @@
   },
   "row_keys": [
     0,
-    11
+    21
   ],
   "rows": [
     {
-      "CasterID": 5038,
+      "CasterID": 5030,
       "SkillID": 0,
-      "SkillName": "dwarf_atk",
+      "SkillName": "dwarfleaderturretlow_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -165,7 +174,7 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
       "ActiveType": "active",
@@ -174,19 +183,19 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 46
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 4,
-      "CD": 9999,
-      "InitCD": 9999,
+      "TargetBlockType": null,
+      "Priority": 1,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 100,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -194,19 +203,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "dwarfshooterturretlow",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -216,7 +225,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -233,6 +242,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -259,7 +276,7 @@
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
-      "FollowTarget": true,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -276,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5038,
-      "SkillID": 11,
-      "SkillName": "dwarf_ult",
-      "DisplayName": "7418097595811529345",
+      "CasterID": 5030,
+      "SkillID": 21,
+      "SkillName": "dwarfleaderturretlow_atk5",
+      "DisplayName": "火环(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -298,28 +315,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_shield.png",
-      "Description": "884830116142411696",
-      "SimpleDescription": "17813863349314553652",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
+      "Description": "普通攻击（不用翻译）",
+      "SimpleDescription": null,
       "ActiveType": "active",
-      "ThumpCondition": 100,
+      "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 46
       },
-      "TargetCamp": 1,
-      "TargetPriority": "weakest",
+      "TargetCamp": 0,
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
-      "Priority": 12,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1.25,
+      "TargetBlockType": null,
+      "Priority": 5,
+      "CD": 15,
+      "InitCD": 5,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 400,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -327,34 +344,36 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "dwarfshooterturretlow",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108548
       },
       "HitDisplay": {
-        "$arrayRef": 106915
+        "$arrayRef": 108548
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106915
+        "$arrayRef": 108548
       },
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108548
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "target",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 43
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 8,
-      "SArg1": 6,
+      "SArg0": 0,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -366,6 +385,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -384,7 +411,7 @@
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0.3,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
@@ -392,7 +419,7 @@
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
-      "FollowTarget": true,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -406,7 +433,9 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_tile_dwarfshooter_atk5"
+      }
     }
   ]
 }

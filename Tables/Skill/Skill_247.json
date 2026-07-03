@@ -3,15 +3,16 @@
     "table": "Skill_247",
     "header_table": "Skill_247HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 2,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 8
+    "unresolved_array_refs": 10
   },
   "default": {
     "CasterID": "null",
@@ -94,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -142,9 +151,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1205,
+      "CasterID": 1204,
       "SkillID": 0,
-      "SkillName": "goblinmeleeknifesnow_atk",
+      "SkillName": "goblinarcherarrowsnow_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -173,13 +182,13 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
@@ -187,23 +196,25 @@
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmelee",
+      "UseWhich": "goblinarcher",
       "CastDisplays": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "HitDisplay": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 108533
+      },
       "Action(s)": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -213,7 +224,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.9,
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -230,6 +241,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -243,19 +262,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -273,10 +292,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1205,
+      "CasterID": 1204,
       "SkillID": 21,
-      "SkillName": "goblinmeleeknifesnow_atk2",
-      "DisplayName": "12985385406911607322",
+      "SkillName": "goblinarcherarrowsnow_atk2",
+      "DisplayName": "17516769176724296620",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -295,22 +314,22 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "15386257883871277477",
-      "SimpleDescription": "17110949310988747732",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_power.png",
+      "Description": "3464206636672931689",
+      "SimpleDescription": "3621142345956484507",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 3,
       "CD": 15,
       "InitCD": 2,
@@ -318,23 +337,25 @@
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmelee",
+      "UseWhich": "goblinarcher",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 108521
+      },
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -344,7 +365,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.1,
+      "PlusRatio": 2.3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -361,6 +382,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -374,19 +403,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,

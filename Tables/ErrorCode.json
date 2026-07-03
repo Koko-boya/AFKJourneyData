@@ -4,7 +4,7 @@
     "header_table": "ErrorCodeHeaderTable",
     "format": "flat_rows",
     "schema_size": 6,
-    "row_count": 2090,
+    "row_count": 2107,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -2106,7 +2106,24 @@
     225001,
     220019,
     223005,
-    211005
+    211005,
+    29005,
+    62089,
+    62091,
+    151065,
+    218019,
+    226001,
+    226002,
+    226003,
+    226004,
+    226005,
+    226006,
+    226007,
+    226008,
+    226009,
+    227001,
+    22005,
+    227002
   ],
   "rows": [
     {
@@ -4682,7 +4699,7 @@
       "AlertType": "Tips",
       "ErrorCode": 62006,
       "SecurityType": "Display",
-      "DisplayText": "2374445122915940434",
+      "DisplayText": "3845060286423557168",
       "CodeNote": "公会没有权限进行操作"
     },
     {
@@ -18491,7 +18508,7 @@
       "ErrorCode": 62090,
       "SecurityType": "Display",
       "DisplayText": "18302339273767466237",
-      "CodeNote": "仅副会长可设置管理权限"
+      "CodeNote": "仅副会长/名誉副会长可设置管理权限"
     },
     {
       "ErrorInfo": 166017,
@@ -18746,7 +18763,7 @@
       "AlertType": "Tips",
       "ErrorCode": 224012,
       "SecurityType": "Display",
-      "DisplayText": "竞猜暂未开放",
+      "DisplayText": "7531566775699409922",
       "CodeNote": "竞猜未开放"
     },
     {
@@ -18828,6 +18845,142 @@
       "SecurityType": "Display",
       "DisplayText": "11976349921554331176",
       "CodeNote": "梦神英雄不存在"
+    },
+    {
+      "ErrorInfo": 29005,
+      "AlertType": "Hide",
+      "ErrorCode": 29005,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>服务器环境已被人锁住，禁止修改"
+    },
+    {
+      "ErrorInfo": 62089,
+      "AlertType": "Alert",
+      "ErrorCode": 62089,
+      "SecurityType": "Display",
+      "DisplayText": "5283787430843009131",
+      "CodeNote": "名誉副会长该职位已被占用"
+    },
+    {
+      "ErrorInfo": 62091,
+      "AlertType": "Hide",
+      "ErrorCode": 62091,
+      "SecurityType": "Display",
+      "DisplayText": "17456620689370883759",
+      "CodeNote": "合并执行中，无法取消"
+    },
+    {
+      "ErrorInfo": 151065,
+      "AlertType": "Alert",
+      "ErrorCode": 151065,
+      "SecurityType": "Display",
+      "DisplayText": "9481569379379352895",
+      "CodeNote": "gvg未报名或报名未通过审核，无法操作"
+    },
+    {
+      "ErrorInfo": 218019,
+      "AlertType": "Alert",
+      "ErrorCode": 218019,
+      "SecurityType": "Display",
+      "DisplayText": "11527557278581872958",
+      "CodeNote": "对战房间已结束"
+    },
+    {
+      "ErrorInfo": 226001,
+      "AlertType": "Hide",
+      "ErrorCode": 226001,
+      "SecurityType": "Display",
+      "DisplayText": "17246114073842546002",
+      "CodeNote": "公会对决未开启"
+    },
+    {
+      "ErrorInfo": 226002,
+      "AlertType": "Alert",
+      "ErrorCode": 226002,
+      "SecurityType": "Display",
+      "DisplayText": "11029998494464119578",
+      "CodeNote": "11029998494464119578"
+    },
+    {
+      "ErrorInfo": 226003,
+      "AlertType": "Hide",
+      "ErrorCode": 226003,
+      "SecurityType": "Display",
+      "DisplayText": "15942979702149479779",
+      "CodeNote": "15942979702149479779"
+    },
+    {
+      "ErrorInfo": 226004,
+      "AlertType": "Alert",
+      "ErrorCode": 226004,
+      "SecurityType": "Display",
+      "DisplayText": "2209842245936936928",
+      "CodeNote": "2209842245936936928"
+    },
+    {
+      "ErrorInfo": 226005,
+      "AlertType": "Hide",
+      "ErrorCode": 226005,
+      "SecurityType": "Display",
+      "DisplayText": "16333738171818309811",
+      "CodeNote": "徽令不足"
+    },
+    {
+      "ErrorInfo": 226006,
+      "AlertType": "Alert",
+      "ErrorCode": 226006,
+      "SecurityType": "Display",
+      "DisplayText": "1770251591520136176",
+      "CodeNote": "1770251591520136176"
+    },
+    {
+      "ErrorInfo": 226007,
+      "AlertType": "Hide",
+      "ErrorCode": 226007,
+      "SecurityType": "Display",
+      "DisplayText": "4085284626421784086",
+      "CodeNote": "4085284626421784086"
+    },
+    {
+      "ErrorInfo": 226008,
+      "AlertType": "Alert",
+      "ErrorCode": 226008,
+      "SecurityType": "Display",
+      "DisplayText": "8729773969402521611",
+      "CodeNote": "8729773969402521611"
+    },
+    {
+      "ErrorInfo": 226009,
+      "AlertType": "Hide",
+      "ErrorCode": 226009,
+      "SecurityType": "Display",
+      "DisplayText": "3104898561989781313",
+      "CodeNote": "入会当天（周一~五）禁止参与共享任务/先锋战，需等到次日"
+    },
+    {
+      "ErrorInfo": 227001,
+      "AlertType": "Alert",
+      "ErrorCode": 227001,
+      "SecurityType": "Display",
+      "DisplayText": "14762576238881888297",
+      "CodeNote": "公会战报名设置不合法"
+    },
+    {
+      "ErrorInfo": 22005,
+      "AlertType": "Hide",
+      "ErrorCode": 22005,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>codec:decompresseddatasizeexceed"
+    },
+    {
+      "ErrorInfo": 227002,
+      "AlertType": "Alert",
+      "ErrorCode": 227002,
+      "SecurityType": "Display",
+      "DisplayText": "10318481273770788236",
+      "CodeNote": "公会战报名未找到"
     }
   ]
 }

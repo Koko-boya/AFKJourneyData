@@ -3,18 +3,17 @@
     "table": "Skill_396",
     "header_table": "Skill_396HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
+      "HitDisplay",
       "ReselectTargetArgs",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 16
+    "unresolved_array_refs": 13
   },
   "default": {
     "CasterID": "null",
@@ -97,6 +96,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -146,9 +153,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1672,
+      "CasterID": 1671,
       "SkillID": 0,
-      "SkillName": "chaostwoa_atk",
+      "SkillName": "chaosoneb_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -177,13 +184,13 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 423
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {
-        "$arrayRef": 107184
+        "$arrayRef": 108937
       },
       "TargetBlockType": null,
       "Priority": 4,
@@ -199,15 +206,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "chaostwo",
+      "UseWhich": "chaosone",
       "CastDisplays": {
-        "$arrayRef": 107329
+        "$arrayRef": 108697
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 107329
+        "$arrayRef": 108697
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -234,6 +241,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -275,14 +290,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107330
+        "$arrayRef": 108938
       }
     },
     {
-      "CasterID": 1672,
+      "CasterID": 1671,
       "SkillID": 11,
-      "SkillName": "chaostwoa_ult",
-      "DisplayName": "7450256042180755079",
+      "SkillName": "chaosoneb_ult",
+      "DisplayName": "1815301237740626193",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -302,18 +317,18 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_aoe.png",
-      "Description": "3796084187681320022",
-      "SimpleDescription": "14582336951503136160",
+      "Description": "7938946356274852021",
+      "SimpleDescription": "14551766939065303794",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 423
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
-      "TargetPriority": "h_mostunits",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -324,31 +339,29 @@
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "chaostwo",
+      "UseWhich": "chaosone",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108517
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106911
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -356,9 +369,9 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.05,
-      "SArg1": 0.05,
-      "SArg2": 0.125,
+      "SArg0": 0.01,
+      "SArg1": 0.01,
+      "SArg2": 0.025,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -369,6 +382,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -382,20 +403,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "ground",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0.3,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -409,14 +430,12 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 107331
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1672,
+      "CasterID": 1671,
       "SkillID": 21,
-      "SkillName": "chaostwoa_atkd",
+      "SkillName": "chaosoneb_atkd",
       "DisplayName": "12933261358065637593",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -445,37 +464,35 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 423
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
-      "TargetPriority": "current_target",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
-      "InitCD": 3,
+      "InitCD": 0,
       "GlobalCD": 2.5,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "chaostwo",
+      "UseWhich": "chaosone",
       "CastDisplays": {
-        "$arrayRef": 106993
+        "$arrayRef": 108558
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106993
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106993
+        "$arrayRef": 108558
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -502,6 +519,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -515,20 +540,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 1,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -543,7 +568,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107332
+        "$arrayRef": 108939
       }
     }
   ]

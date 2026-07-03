@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "table": "GuildWarSignUp",
+    "header_table": "GuildWarSignUpHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 5,
+    "row_count": 1,
+    "array_fields": [
+      "Rewards"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "SpanID": "null",
+    "LimitNum": 0,
+    "BattleGroupID": 0,
+    "Rewards": {},
+    "Condition": "true"
+  },
+  "row_keys": [
+    10
+  ],
+  "rows": [
+    {
+      "SpanID": 10,
+      "LimitNum": 30,
+      "BattleGroupID": 506002,
+      "Rewards": {
+        "$arrayRef": 83951
+      },
+      "Condition": "ed.ConditionX.GuildLv()>=2 and ed.ConditionX.GuildMemberCnt()>=10"
+    }
+  ]
+}

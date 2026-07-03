@@ -3,7 +3,7 @@
     "table": "Skill_313",
     "header_table": "Skill_313HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
@@ -11,10 +11,9 @@
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 16
+    "unresolved_array_refs": 18
   },
   "default": {
     "CasterID": "null",
@@ -97,6 +96,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -147,9 +154,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1412,
+      "CasterID": 1411,
       "SkillID": 0,
-      "SkillName": "dieseamage_atk",
+      "SkillName": "dieseatank_b_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -178,7 +185,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 43
       },
       "TargetCamp": 0,
       "TargetPriority": "target",
@@ -190,27 +197,25 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 78,
+      "GainMP": 64,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "dieseatank",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106910
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -220,7 +225,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.2,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -237,6 +242,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -250,7 +263,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -262,8 +275,8 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -280,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1412,
+      "CasterID": 1411,
       "SkillID": 11,
-      "SkillName": "dieseamage_ult",
-      "DisplayName": "11026096392459748810",
+      "SkillName": "dieseatank_b_ult",
+      "DisplayName": "9576244450895652870",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -302,22 +315,22 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_aoe.png",
-      "Description": "5188701106603780290",
-      "SimpleDescription": "3110967956034221162",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_around.png",
+      "Description": "17254402958415993108",
+      "SimpleDescription": "17289640387203820189",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 43
       },
-      "TargetCamp": -1,
-      "TargetPriority": "h_mostunits",
+      "TargetCamp": 0,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 0,
@@ -331,19 +344,21 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "dieseatank",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108517
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
+      "AOEOrigin": "self",
       "AOEShape": "around",
       "AOEShapeArgs": {
         "$arrayRef": 43
@@ -351,14 +366,14 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.5,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 5,
-      "SArg1": 1,
-      "SArg2": 0.08,
-      "SArg3": 0,
+      "SArg0": 1,
+      "SArg1": 0.2,
+      "SArg2": 5,
+      "SArg3": 0.5,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -368,6 +383,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -399,9 +422,9 @@
       "PointEffect": null,
       "PointEffArgs": {},
       "SkinImpactEffect": {},
-      "ImpactEffect": null,
+      "ImpactEffect": "pbfx_impact_dieseamage_atk",
       "ImpactEffArgs": {},
-      "ImpactBone": null,
+      "ImpactBone": "Body",
       "ChainJumps": 0,
       "ChainGap": 0,
       "ChainJumpDistance": 0,
@@ -409,14 +432,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_impact_dieseamage_ult"
+        "$arrayRef": 108875
       }
     },
     {
-      "CasterID": 1412,
+      "CasterID": 1411,
       "SkillID": 21,
-      "SkillName": "dieseamage_atk2",
-      "DisplayName": "5299089420351292750",
+      "SkillName": "dieseatank_b_atk2",
+      "DisplayName": "6363930277329360727",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -435,28 +458,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_hast_down.png",
-      "Description": "17129144772973599415",
-      "SimpleDescription": "18364683283426852254",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_grow.png",
+      "Description": "746685903560555762",
+      "SimpleDescription": "12372606907989281429",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 45
       },
       "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 3,
       "CD": 10,
-      "InitCD": 0,
+      "InitCD": 10,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 160,
+      "GainMP": 78,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -464,15 +487,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "dieseatank",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -486,11 +509,11 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1,
-      "SArg1": 1,
-      "SArg2": 15,
-      "SArg3": 20,
-      "SArg4": 5,
+      "SArg0": 0.2,
+      "SArg1": 20,
+      "SArg2": 5,
+      "SArg3": 0,
+      "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
       "SArg7": 0,
@@ -499,6 +522,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -540,13 +571,13 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_buff_dieseamage_atk2"
+        "$arrayRef": 108876
       }
     },
     {
-      "CasterID": 1412,
+      "CasterID": 1411,
       "SkillID": 31,
-      "SkillName": "dieseamage_atk3",
+      "SkillName": "dieseatank_b_atk3",
       "DisplayName": "14168983202596325222",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -595,15 +626,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "dieseatank",
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -630,6 +661,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -671,7 +710,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107266
+        "$arrayRef": 108877
       }
     }
   ]

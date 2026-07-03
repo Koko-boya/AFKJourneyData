@@ -3,17 +3,15 @@
     "table": "Skill_248",
     "header_table": "Skill_248HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 2,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 10
+    "unresolved_array_refs": 8
   },
   "default": {
     "CasterID": "null",
@@ -96,6 +94,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -144,9 +150,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1206,
+      "CasterID": 1205,
       "SkillID": 0,
-      "SkillName": "goblinmagemagesnow_atk",
+      "SkillName": "goblinmeleeknifesnow_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -175,13 +181,13 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
@@ -189,25 +195,23 @@
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinmelee",
       "CastDisplays": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "HitDisplay": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106927
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106927
+        "$arrayRef": 108533
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -217,7 +221,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 0.9,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -234,6 +238,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -247,7 +259,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -259,7 +271,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -277,10 +289,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1206,
+      "CasterID": 1205,
       "SkillID": 21,
-      "SkillName": "goblinmagemagesnow_atk2",
-      "DisplayName": "7239494457825427811",
+      "SkillName": "goblinmeleeknifesnow_atk2",
+      "DisplayName": "12985385406911607322",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -299,8 +311,8 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
-      "Description": "1780561553564338497",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
+      "Description": "15386257883871277477",
       "SimpleDescription": "17110949310988747732",
       "ActiveType": "active",
       "ThumpCondition": -1,
@@ -308,13 +320,13 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 3,
       "CD": 15,
       "InitCD": 2,
@@ -328,17 +340,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinmelee",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -348,7 +360,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.5,
+      "PlusRatio": 2.1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -365,6 +377,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -378,7 +398,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -390,7 +410,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -405,9 +425,7 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 107079
-      }
+      "ResourceList": {}
     }
   ]
 }

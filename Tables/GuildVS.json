@@ -2,33 +2,85 @@
   "_meta": {
     "table": "GuildVS",
     "header_table": "GuildVSHeaderTable",
-    "source_table": "GuildVSTable",
-    "format": "explicit_rows",
-    "schema_size": 12,
+    "format": "flat_rows",
+    "schema_size": 18,
     "row_count": 1,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "array_fields": [
+      "BossCost",
+      "GuildVSMvpReward",
+      "GuildVSSvpReward",
+      "TicketItem"
+    ],
+    "unresolved_array_refs": 4
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "ID": "null",
+    "TicketItem": {},
+    "BossCost": {},
+    "TitleTxt": null,
+    "NoRepeatRound": 0,
+    "MinGuildMember": 0,
+    "InactiveSkipEnable": false,
+    "MatchSubGroupCount": 0,
+    "SweepUnlockBattleCount": 0,
+    "WinnerReward": {},
+    "LoserReward": {},
+    "SweepLimitPerCall": 0,
+    "FinalReward": null,
+    "QuestReward": null,
+    "MVPMail": null,
+    "SVPMail": null,
+    "GuildVSMvpReward": {},
+    "GuildVSSvpReward": {}
+  },
+  "row_keys": [
+    1
+  ],
   "rows": [
     {
       "ID": 1,
       "TicketItem": {
-        "1": 1,
-        "2": 2,
-        "3": 1
+        "$arrayRef": 86979
       },
-      "BossCost": 40,
-      "TitleTxt": "公会对决",
+      "BossCost": {
+        "$arrayRef": 86980
+      },
+      "TitleTxt": "14141696878849761891",
+      "NoRepeatRound": 8,
       "MinGuildMember": 10,
       "InactiveSkipEnable": true,
       "MatchSubGroupCount": 5,
       "SweepUnlockBattleCount": 1,
+      "WinnerReward": {
+        "1": 1001,
+        "2": 100000013,
+        "3": 1200,
+        "4": 1001,
+        "5": 100000002,
+        "6": 500,
+        "7": 20,
+        "8": 46002,
+        "9": 1
+      },
+      "LoserReward": {
+        "1": 1001,
+        "2": 100000013,
+        "3": 1200,
+        "4": 1001,
+        "5": 100000002,
+        "6": 300
+      },
       "SweepLimitPerCall": 5,
-      "LoseStreakDowngrade": 2,
-      "FinalReward": 532,
-      "QuestReward": 532
+      "FinalReward": 560,
+      "QuestReward": 559,
+      "MVPMail": 563,
+      "SVPMail": 562,
+      "GuildVSMvpReward": {
+        "$arrayRef": 86981
+      },
+      "GuildVSSvpReward": {
+        "$arrayRef": 86981
+      }
     }
   ]
 }

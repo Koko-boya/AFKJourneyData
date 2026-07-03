@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "table": "AcademyWorldTier",
+    "header_table": "AcademyWorldTierHeaderTable",
+    "source_table": "AcademyWorldTierTable",
+    "format": "explicit_rows",
+    "schema_size": 10,
+    "row_count": 4,
+    "array_fields": [],
+    "unresolved_array_refs": 0
+  },
+  "default": {},
+  "row_keys": [],
+  "rows": [
+    {
+      "TierID": 1,
+      "DisplayName": "Bronze",
+      "InitialPowerMin": 0,
+      "InitialPowerMax": 999999,
+      "StarCount": 3,
+      "WeeklyRankStarDelta": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": -1,
+        "5": -2
+      },
+      "IsNoTierDrop": true,
+      "ProtectionTimes": 1,
+      "SeasonResetTargetStar": 1,
+      "IconRes": "ui_icon_academyworld_tier_bronze"
+    },
+    {
+      "TierID": 2,
+      "DisplayName": "Silver",
+      "InitialPowerMin": 1000000,
+      "InitialPowerMax": 1999999,
+      "StarCount": 7,
+      "WeeklyRankStarDelta": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": -1,
+        "5": -2
+      },
+      "IsNoTierDrop": true,
+      "ProtectionTimes": 1,
+      "SeasonResetTargetStar": 1,
+      "IconRes": "ui_icon_academyworld_tier_silver"
+    },
+    {
+      "TierID": 3,
+      "DisplayName": "Gold",
+      "InitialPowerMin": 2000000,
+      "InitialPowerMax": 2999999,
+      "StarCount": 11,
+      "WeeklyRankStarDelta": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": -1,
+        "5": -2
+      },
+      "IsNoTierDrop": false,
+      "ProtectionTimes": 1,
+      "SeasonResetTargetStar": 4,
+      "IconRes": "ui_icon_academyworld_tier_gold"
+    },
+    {
+      "TierID": 4,
+      "DisplayName": "Diamond",
+      "InitialPowerMin": 3000000,
+      "InitialPowerMax": 999999999,
+      "StarCount": 15,
+      "WeeklyRankStarDelta": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": -1,
+        "5": -2
+      },
+      "IsNoTierDrop": false,
+      "ProtectionTimes": 0,
+      "SeasonResetTargetStar": 8,
+      "IconRes": "ui_icon_academyworld_tier_diamond"
+    }
+  ]
+}

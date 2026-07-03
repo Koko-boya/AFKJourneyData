@@ -4,7 +4,7 @@
     "header_table": "ShareSocialMediaHeaderTable",
     "format": "flat_rows",
     "schema_size": 4,
-    "row_count": 6,
+    "row_count": 7,
     "array_fields": [
       "FirstShareReward"
     ],
@@ -22,13 +22,14 @@
     3,
     4,
     5,
-    8
+    8,
+    9
   ],
   "rows": [
     {
       "ShareAction": 1,
       "FirstShareReward": {
-        "$arrayRef": 81056
+        "$arrayRef": 82537
       },
       "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "InsideBubbleHint": false
@@ -61,6 +62,12 @@
       "ShareAction": 8,
       "FirstShareReward": {},
       "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "InsideBubbleHint": false
+    },
+    {
+      "ShareAction": 9,
+      "FirstShareReward": {},
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"MainCity\")",
       "InsideBubbleHint": false
     }
   ]

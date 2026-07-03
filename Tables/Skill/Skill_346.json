@@ -3,16 +3,17 @@
     "table": "Skill_346",
     "header_table": "Skill_346HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 10
+    "unresolved_array_refs": 12
   },
   "default": {
     "CasterID": "null",
@@ -95,6 +96,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -144,9 +153,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1522,
+      "CasterID": 1521,
       "SkillID": 0,
-      "SkillName": "fearsupport_atk",
+      "SkillName": "fearmagic_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -195,19 +204,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fearsupport",
+      "UseWhich": "fearmagic",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -234,6 +243,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -277,10 +294,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1522,
+      "CasterID": 1521,
       "SkillID": 11,
-      "SkillName": "fearsupport_ult",
-      "DisplayName": "9307625142519104910",
+      "SkillName": "fearmagic_ult",
+      "DisplayName": "14820140883182318631",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -299,22 +316,22 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_power_down.png",
-      "Description": "2221632332409464672",
-      "SimpleDescription": "3151204769206696248",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
+      "Description": "8291631732246273264",
+      "SimpleDescription": "16402086471611494720",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 42
       },
       "TargetCamp": -1,
-      "TargetPriority": "maxdmg",
+      "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 0,
@@ -328,32 +345,36 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fearsupport",
+      "UseWhich": "fearmagic",
       "CastDisplays": {
-        "$arrayRef": 106920
+        "$arrayRef": 108517
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 108517
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106920
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "sector",
+      "AOEShapeArgs": {
+        "$arrayRef": 82961
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 3.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1,
-      "SArg1": 0.1,
-      "SArg2": 100,
-      "SArg3": 10,
+      "SArg0": 0.3,
+      "SArg1": 0,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -363,6 +384,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -406,9 +435,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1522,
+      "CasterID": 1521,
       "SkillID": 21,
-      "SkillName": "fearsupport_atk2",
+      "SkillName": "fearmagic_atk2",
       "DisplayName": "14336382955605848910",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -457,13 +486,13 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fearsupport",
+      "UseWhich": "fearmagic",
       "CastDisplays": {},
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -490,6 +519,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,

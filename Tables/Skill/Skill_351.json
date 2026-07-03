@@ -3,17 +3,18 @@
     "table": "Skill_351",
     "header_table": "Skill_351HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 5,
     "array_fields": [
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
+      "SummonUnitList",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 22
+    "unresolved_array_refs": 23
   },
   "default": {
     "CasterID": "null",
@@ -96,6 +97,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -147,9 +156,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1548,
+      "CasterID": 1547,
       "SkillID": 0,
-      "SkillName": "sewermagemine_atk",
+      "SkillName": "sewermagefire_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -198,19 +207,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": "sewermage_fire",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -237,6 +246,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -277,14 +294,14 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {
-        "1": 1548
+        "$arrayRef": 81131
       },
       "ResourceList": {}
     },
     {
-      "CasterID": 1548,
+      "CasterID": 1547,
       "SkillID": 11,
-      "SkillName": "sewermagemine_ult",
+      "SkillName": "sewermagefire_ult",
       "DisplayName": "2102306886688249066",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -333,17 +350,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": "sewermage_fire",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -372,6 +389,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -413,15 +438,15 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_action_sewermage_mine_ult",
-        "2": "pbfx_point_sewermage_mine_ult_1",
-        "3": "pbfx_point_sewermage_mine_ult_2"
+        "1": "pbfx_action_sewermage_fire_ult",
+        "2": "pbfx_point_sewermage_fire_ult_1",
+        "3": "pbfx_point_sewermage_fire_ult_2"
       }
     },
     {
-      "CasterID": 1548,
+      "CasterID": 1547,
       "SkillID": 21,
-      "SkillName": "sewermagemine_atk2",
+      "SkillName": "sewermagefire_atk2",
       "DisplayName": "14003450882614585481",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -470,22 +495,22 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": "sewermage_fire",
       "CastDisplays": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108521
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "target",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 1551
+        "$arrayRef": 1558
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
@@ -507,6 +532,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -548,14 +581,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_point_sewermage_mine_atk2",
-        "2": "pbfx_action_sewermage_mine_atk2"
+        "1": "pbfx_point_sewermage_fire_atk2",
+        "2": "pbfx_action_sewermage_fire_atk2"
       }
     },
     {
-      "CasterID": 1548,
+      "CasterID": 1547,
       "SkillID": 31,
-      "SkillName": "sewermagemine_atk3",
+      "SkillName": "sewermagefire_atk3",
       "DisplayName": "16604534201505324214",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -604,19 +637,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": "sewermage_fire",
       "CastDisplays": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "HitDisplay": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "Action(s)": {
-        "$arrayRef": 106916
+        "$arrayRef": 108522
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -643,6 +676,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -686,9 +727,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1548,
+      "CasterID": 1547,
       "SkillID": 41,
-      "SkillName": "sewermagemine_atk4",
+      "SkillName": "sewermagefire_atk4",
       "DisplayName": "分裂生成小怪(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -737,15 +778,15 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "sewermage_mine",
+      "UseWhich": "sewermage_fire",
       "CastDisplays": {
-        "$arrayRef": 106921
+        "$arrayRef": 108527
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106921
+        "$arrayRef": 108527
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -772,6 +813,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,

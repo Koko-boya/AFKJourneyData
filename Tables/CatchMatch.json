@@ -4,9 +4,11 @@
     "header_table": "CatchMatchHeaderTable",
     "format": "flat_rows",
     "schema_size": 6,
-    "row_count": 6,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "row_count": 7,
+    "array_fields": [
+      "ClearReward"
+    ],
+    "unresolved_array_refs": 1
   },
   "default": {
     "GroupID": "null",
@@ -22,7 +24,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "rows": [
     {
@@ -91,6 +94,16 @@
         "1": 1,
         "2": 7802080,
         "3": 1
+      },
+      "IsRanked": false,
+      "RankReward": {},
+      "RankScore": 0,
+      "MaxValidScore": 0
+    },
+    {
+      "GroupID": 7,
+      "ClearReward": {
+        "$arrayRef": 82823
       },
       "IsRanked": false,
       "RankReward": {},

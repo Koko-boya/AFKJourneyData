@@ -3,17 +3,16 @@
     "table": "Skill_165",
     "header_table": "Skill_165HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 3,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 10
   },
   "default": {
     "CasterID": "null",
@@ -96,6 +95,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -145,9 +152,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1045,
+      "CasterID": 1044,
       "SkillID": 0,
-      "SkillName": "fogsupport_atk",
+      "SkillName": "fogarcher_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -196,19 +203,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fogsupport",
+      "UseWhich": "fogarcher",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -235,6 +242,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -278,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1045,
+      "CasterID": 1044,
       "SkillID": 11,
-      "SkillName": "fogsupport_ult",
-      "DisplayName": "13439127583518118240",
+      "SkillName": "fogarcher_ult",
+      "DisplayName": "15324872007770477325",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -300,22 +315,22 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_speed_down.png",
-      "Description": "8005877569938818014",
-      "SimpleDescription": "15973467554601104227",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_power.png",
+      "Description": "16576088841814574633",
+      "SimpleDescription": "18036048386628727653",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
         "$arrayRef": 189
       },
-      "TargetCamp": -1,
-      "TargetPriority": "h_mostunits",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "noblock",
+      "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
       "InitCD": 1,
@@ -329,43 +344,49 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fogsupport",
+      "UseWhich": "fogarcher",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 44
-      },
+      "AffectedCamp": 1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1.25,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.1,
-      "SArg1": 10,
-      "SArg2": 0.1,
-      "SArg3": 0.3,
-      "SArg4": 90,
-      "SArg5": 0.9,
-      "SArg6": 1,
+      "SArg0": 0.05,
+      "SArg1": 8,
+      "SArg2": 0,
+      "SArg3": 0,
+      "SArg4": 0,
+      "SArg5": 0,
+      "SArg6": 0,
       "SArg7": 0,
       "SArg8": 0,
       "SArg9": 0,
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -407,14 +428,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_point_fogsupport_ult"
+        "1": "pbfx_buff_fogarcher_ult"
       }
     },
     {
-      "CasterID": 1045,
+      "CasterID": 1044,
       "SkillID": 21,
-      "SkillName": "fogsupport_atk2",
-      "DisplayName": "1260771453920754802",
+      "SkillName": "fogarcher_atk2",
+      "DisplayName": "1734734782072100486",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -433,28 +454,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_stun.png",
-      "Description": "15584228573625145384",
-      "SimpleDescription": "7892640971348544417",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow.png",
+      "Description": "8034459002678860813",
+      "SimpleDescription": "4397458156154917015",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 189
       },
-      "TargetCamp": -1,
-      "TargetPriority": "maxatk",
+      "TargetCamp": 1,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
-      "CD": 15,
+      "Priority": 3,
+      "CD": 9999,
       "InitCD": 0,
       "GlobalCD": 1.25,
       "CostMP": 0,
-      "GainMP": 94,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -462,18 +483,16 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fogsupport",
-      "CastDisplays": {
-        "$arrayRef": 106915
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106915
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
@@ -484,9 +503,9 @@
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 5,
-      "SArg1": 0.3,
-      "SArg2": 70,
+      "SArg0": 7,
+      "SArg1": 0.7,
+      "SArg2": 4,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -497,6 +516,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -538,7 +565,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "1": "pbfx_buff_fogsupport_atk2"
+        "1": "pbfx_impact_fogarcher_atk2"
       }
     }
   ]

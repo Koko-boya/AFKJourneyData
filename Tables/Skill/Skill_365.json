@@ -3,7 +3,7 @@
     "table": "Skill_365",
     "header_table": "Skill_365HeaderTable",
     "format": "flat_rows",
-    "schema_size": 121,
+    "schema_size": 129,
     "row_count": 4,
     "array_fields": [
       "AOEShapeArgs",
@@ -11,10 +11,9 @@
       "CastDisplays",
       "HitDisplay",
       "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 21
+    "unresolved_array_refs": 19
   },
   "default": {
     "CasterID": "null",
@@ -97,6 +96,14 @@
     "SArg10": 0,
     "SArg11": 0,
     "SArg12": 0,
+    "SArg13": 0,
+    "SArg14": 0,
+    "SArg15": 0,
+    "SArg16": 0,
+    "SArg17": 0,
+    "SArg18": 0,
+    "SArg19": 0,
+    "SArg20": 0,
     "DamageExtraEff": false,
     "Buff": null,
     "BuffID": 0,
@@ -147,9 +154,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1585,
+      "CasterID": 1584,
       "SkillID": 0,
-      "SkillName": "birdtwoold_atk",
+      "SkillName": "birdoneold_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -178,7 +185,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 43
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -192,25 +199,23 @@
       "CostMP": 0,
       "GainMP": 60,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "birdtwo",
+      "UseWhich": "birdone",
       "CastDisplays": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "HitDisplay": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106910
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106910
+        "$arrayRef": 108516
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -237,6 +242,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -250,19 +263,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 1,
-      "TileRadius": 0.3,
+      "TileScale": 0,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -280,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1585,
+      "CasterID": 1584,
       "SkillID": 11,
-      "SkillName": "birdtwoold_ult",
-      "DisplayName": "6318097208370930670",
+      "SkillName": "birdoneold_ult",
+      "DisplayName": "11973972963089378291",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -303,8 +316,8 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_multi.png",
-      "Description": "3551038126947692965",
-      "SimpleDescription": "3515716133718306383",
+      "Description": "5126050941627013678",
+      "SimpleDescription": "2215257790819728520",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": 0,
@@ -314,7 +327,7 @@
         "$arrayRef": 189
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "maxdmg",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
@@ -325,25 +338,23 @@
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "birdtwo",
+      "UseWhich": "birdone",
       "CastDisplays": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "HitDisplay": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 106911
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106911
+        "$arrayRef": 108517
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -353,7 +364,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.6,
+      "PlusRatio": 1.35,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -370,6 +381,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -383,19 +402,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 1,
-      "TileRadius": 0.3,
+      "TileScale": 0,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -413,9 +432,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1585,
+      "CasterID": 1584,
       "SkillID": 21,
-      "SkillName": "birdtwoold_atk2",
+      "SkillName": "birdoneold_atk2",
       "DisplayName": "7142014156311243491",
       "IsShow": true,
       "HeroDetailActionShow": false,
@@ -437,7 +456,7 @@
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_common_def_up.png",
       "Description": "7546765103196986420",
-      "SimpleDescription": "6421249452394214231",
+      "SimpleDescription": "6971069995659270103",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
@@ -464,17 +483,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "birdtwo",
+      "UseWhich": "birdone",
       "CastDisplays": {
-        "$arrayRef": 107303
+        "$arrayRef": 108914
       },
       "HitDisplay": {
-        "$arrayRef": 107303
+        "$arrayRef": 108914
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 107303
+        "$arrayRef": 108914
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -503,6 +522,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -546,9 +573,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1585,
+      "CasterID": 1584,
       "SkillID": 101,
-      "SkillName": "birdtwoold_atk2b",
+      "SkillName": "birdoneold_atk2b",
       "DisplayName": "7142014156311243491",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -597,24 +624,24 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "birdtwo",
+      "UseWhich": "birdone",
       "CastDisplays": {
-        "$arrayRef": 106935
+        "$arrayRef": 108541
       },
       "HitDisplay": {
-        "$arrayRef": 106935
+        "$arrayRef": 108541
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 106935
+        "$arrayRef": 108541
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "target",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 1551
+        "$arrayRef": 1558
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
@@ -636,6 +663,14 @@
       "SArg10": 0,
       "SArg11": 0,
       "SArg12": 0,
+      "SArg13": 0,
+      "SArg14": 0,
+      "SArg15": 0,
+      "SArg16": 0,
+      "SArg17": 0,
+      "SArg18": 0,
+      "SArg19": 0,
+      "SArg20": 0,
       "DamageExtraEff": false,
       "Buff": null,
       "BuffID": 0,
@@ -677,7 +712,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 107304
+        "$arrayRef": 108915
       }
     }
   ]
