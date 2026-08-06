@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "table": "BossRace",
+    "header_table": "BossRaceHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 6,
+    "row_count": 1,
+    "array_fields": [
+      "FirstKillRewards"
+    ],
+    "unresolved_array_refs": 1
+  },
+  "default": {
+    "SpanID": "null",
+    "StdLvID": 0,
+    "SeasonType": null,
+    "FirstKillRewards": {},
+    "ChallengeFreezeSeconds": 0,
+    "BattleTimeLimit": 0
+  },
+  "row_keys": [
+    1
+  ],
+  "rows": [
+    {
+      "SpanID": 1,
+      "StdLvID": 53001,
+      "SeasonType": 107,
+      "FirstKillRewards": {
+        "$arrayRef": 82971
+      },
+      "ChallengeFreezeSeconds": 30,
+      "BattleTimeLimit": 999999
+    }
+  ]
+}

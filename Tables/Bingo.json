@@ -3,32 +3,57 @@
     "table": "Bingo",
     "header_table": "BingoHeaderTable",
     "format": "flat_rows",
-    "schema_size": 7,
-    "row_count": 1,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "schema_size": 10,
+    "row_count": 2,
+    "array_fields": [
+      "OpenBingoTypes"
+    ],
+    "unresolved_array_refs": 2
   },
   "default": {
     "ID": "null",
+    "OpenBingoTypes": {},
     "ScheduleID": 0,
     "RecycleMailkey": null,
+    "MatchFlipMailkey": null,
     "DanmakuCount": 0,
     "LockTime": 0,
     "AutoSaveTime": 0,
-    "DanmakuLottoMinCorrect": 0
+    "DanmakuLottoMinCorrect": 0,
+    "MatchFlipID": 0
   },
   "row_keys": [
-    1
+    1,
+    2
   ],
   "rows": [
     {
       "ID": 1,
+      "OpenBingoTypes": {
+        "$arrayRef": 513
+      },
       "ScheduleID": 475,
       "RecycleMailkey": 199,
+      "MatchFlipMailkey": null,
       "DanmakuCount": 20,
       "LockTime": 300,
       "AutoSaveTime": 360,
-      "DanmakuLottoMinCorrect": 2
+      "DanmakuLottoMinCorrect": 2,
+      "MatchFlipID": 0
+    },
+    {
+      "ID": 2,
+      "OpenBingoTypes": {
+        "$arrayRef": 75
+      },
+      "ScheduleID": 882,
+      "RecycleMailkey": null,
+      "MatchFlipMailkey": 580,
+      "DanmakuCount": 0,
+      "LockTime": 0,
+      "AutoSaveTime": 0,
+      "DanmakuLottoMinCorrect": 0,
+      "MatchFlipID": 1
     }
   ]
 }

@@ -4,7 +4,7 @@
     "header_table": "Skill_195HeaderTable",
     "format": "flat_rows",
     "schema_size": 129,
-    "row_count": 5,
+    "row_count": 4,
     "array_fields": [
       "Action(s)",
       "CastDisplays",
@@ -12,7 +12,7 @@
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 18
+    "unresolved_array_refs": 17
   },
   "default": {
     "CasterID": "null",
@@ -149,14 +149,13 @@
     0,
     11,
     21,
-    31,
-    41
+    31
   ],
   "rows": [
     {
-      "CasterID": 1106,
+      "CasterID": 1102,
       "SkillID": 0,
-      "SkillName": "bramblecleanersummoner_atk",
+      "SkillName": "bramblecleanerarcherelite_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -185,7 +184,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -197,7 +196,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 85,
+      "GainMP": 68,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -207,17 +206,17 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "HitDisplay": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -227,7 +226,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.05,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -295,10 +294,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1106,
+      "CasterID": 1102,
       "SkillID": 11,
-      "SkillName": "bramblecleanersummoner_ult",
-      "DisplayName": "13872576977008742037",
+      "SkillName": "bramblecleanerarcherelite_ult",
+      "DisplayName": "16673037125245789165",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -314,19 +313,19 @@
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
-      "SkillPerformData": null,
-      "IsPositiveManual": true,
+      "SkillPerformData": "dmg",
+      "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_summon.png",
-      "Description": "13478765215907354030",
-      "SimpleDescription": "11062597360334066092",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_power.png",
+      "Description": "3579892868684683861",
+      "SimpleDescription": "5365811773881818284",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -334,13 +333,13 @@
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
-      "CD": 10,
+      "CD": 0,
       "InitCD": 1.25,
       "GlobalCD": 1,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -348,13 +347,17 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 108517
+        "$arrayRef": 109729
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 109729
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109729
+      },
       "Action(s)": {
-        "$arrayRef": 108517
+        "$arrayRef": 109729
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -364,13 +367,13 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 2.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 20,
-      "SArg1": 100,
-      "SArg2": 600,
+      "SArg0": 50,
+      "SArg1": 10,
+      "SArg2": 0.3,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -429,14 +432,12 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_point_bramblecleanersummoner_ult"
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1106,
+      "CasterID": 1102,
       "SkillID": 21,
-      "SkillName": "bramblecleanersummoner_atk2",
+      "SkillName": "bramblecleanerarcherelite_atk2",
       "DisplayName": "16621018953404264639",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -457,15 +458,15 @@
       "IsPositiveManual": false,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_bramblecleaner.png",
-      "Description": "3473310852773526102",
-      "SimpleDescription": "13310456432377486820",
+      "Description": "6064578106889858821",
+      "SimpleDescription": "9022293343026860632",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -491,7 +492,7 @@
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -506,8 +507,8 @@
       "DamageTrigger": null,
       "DamageTriggerParam": null,
       "SArg0": 0.75,
-      "SArg1": 0.2,
-      "SArg2": 15,
+      "SArg1": 40,
+      "SArg2": 0.06,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -569,10 +570,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1106,
+      "CasterID": 1102,
       "SkillID": 31,
-      "SkillName": "bramblecleanersummoner_atk3",
-      "DisplayName": "14005033003695352975",
+      "SkillName": "bramblecleanerarcherelite_atk3",
+      "DisplayName": "6039132999636959711",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -591,167 +592,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_summon.png",
-      "Description": "8830999363010125224",
-      "SimpleDescription": "13474471427536675864",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_multi.png",
+      "Description": "1140805078464864138",
+      "SimpleDescription": "11484436294231745538",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 5,
-      "CD": 6,
-      "InitCD": 1.5,
-      "GlobalCD": 1,
-      "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": true,
-      "CameraType": 0,
-      "CameraHideGround": false,
-      "SkinId": {},
-      "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 108521
-      },
-      "HitDisplay": {},
-      "EvaluateDisplay": {},
-      "Trajectory": {},
-      "Action(s)": {
-        "$arrayRef": 108521
-      },
-      "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
-      "AOEOriginFix": {},
-      "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0,
-      "DamageType": null,
-      "DamageTrigger": null,
-      "DamageTriggerParam": null,
-      "SArg0": 0.75,
-      "SArg1": 0.2,
-      "SArg2": 15,
-      "SArg3": 0,
-      "SArg4": 0,
-      "SArg5": 0,
-      "SArg6": 0,
-      "SArg7": 0,
-      "SArg8": 0,
-      "SArg9": 0,
-      "SArg10": 0,
-      "SArg11": 0,
-      "SArg12": 0,
-      "SArg13": 0,
-      "SArg14": 0,
-      "SArg15": 0,
-      "SArg16": 0,
-      "SArg17": 0,
-      "SArg18": 0,
-      "SArg19": 0,
-      "SArg20": 0,
-      "DamageExtraEff": false,
-      "Buff": null,
-      "BuffID": 0,
-      "MoveForward": 0,
-      "KnockUp": 0,
-      "KnockBack": 0,
-      "KnockDirectionReason": false,
-      "FallFrozenTime": 0,
-      "KnockNotFall": false,
-      "IsNoLaunch": false,
-      "RandomBasicAtk": false,
-      "HasUpDownAction": false,
-      "DamagePopupList": {},
-      "TileCollideType": null,
-      "TileArt": null,
-      "TileArtSkinId": {},
-      "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
-      "TileDistance": 0,
-      "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
-      "TileYSpeed": 0,
-      "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
-      "TileRemain": 0,
-      "PointEffect": null,
-      "PointEffArgs": {},
-      "SkinImpactEffect": {},
-      "ImpactEffect": null,
-      "ImpactEffArgs": {},
-      "ImpactBone": null,
-      "ChainJumps": 0,
-      "ChainGap": 0,
-      "ChainJumpDistance": 0,
-      "MaxAffectTimes": 0,
-      "ChainEffect": null,
-      "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_point_bramblecleanersummoner_atk2"
-      }
-    },
-    {
-      "CasterID": 1106,
-      "SkillID": 41,
-      "SkillName": "bramblecleanersummoner_atk4",
-      "DisplayName": "9208254785758008953",
-      "IsShow": true,
-      "HeroDetailActionShow": true,
-      "UnlockByImba": false,
-      "UnlockAwakenLevel": 0,
-      "UnlockLevel": 1,
-      "UnlockExclusive": -1,
-      "UnlockMastery": -1,
-      "UnlockSeasonLevel": 0,
-      "EnhanceAttr": null,
-      "Slot": 4,
-      "DisplaySlot": 4,
-      "FatherSkillSlot": -1,
-      "SeasonID": 0,
-      "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
-      "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_power_up.png",
-      "Description": "2853735470555631624",
-      "SimpleDescription": "4218714179262973125",
-      "ActiveType": "active",
-      "ThumpCondition": -1,
-      "SetSpeeder": -1,
-      "TargetType": null,
-      "TargetShape": null,
-      "TargetShapeArgs": {
-        "$arrayRef": 189
-      },
-      "TargetCamp": 1,
-      "TargetPriority": "nearest",
-      "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
       "Priority": 3,
       "CD": 8,
-      "InitCD": 4,
+      "InitCD": 1.25,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 100,
+      "GainMP": 60,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -761,17 +623,17 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 108522
+        "$arrayRef": 109710
       },
       "HitDisplay": {
-        "$arrayRef": 108522
+        "$arrayRef": 109710
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 108522
+        "$arrayRef": 109710
       },
       "Action(s)": {
-        "$arrayRef": 108522
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -781,14 +643,14 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
+      "PlusRatio": 0.6,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.25,
-      "SArg1": 30,
-      "SArg2": 15,
-      "SArg3": 30,
+      "SArg0": 1.2,
+      "SArg1": 200,
+      "SArg2": 0,
+      "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -824,7 +686,7 @@
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0.5,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
@@ -848,7 +710,7 @@
       "SummonUnitList": {},
       "ResourceList": {
         "1": "pbfx_buff_bramblecleaner_atk3_loop",
-        "2": "pbfx_impact_bramblecleanersummoner_atk3_loop"
+        "2": "pbfx_buff_bramblecleaner_atk3"
       }
     }
   ]

@@ -10,7 +10,6 @@
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs",
       "Trajectory"
     ],
@@ -154,9 +153,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1025,
+      "CasterID": 1021,
       "SkillID": 0,
-      "SkillName": "goblinmagemageelite_atk",
+      "SkillName": "goblinarcherarrowelite_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -185,7 +184,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -197,7 +196,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
+      "GainMP": 45,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -205,19 +204,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinarcher",
       "CastDisplays": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "HitDisplay": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "Action(s)": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -227,7 +226,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.1,
+      "PlusRatio": 0.9,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -295,9 +294,9 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1025,
+      "CasterID": 1021,
       "SkillID": 11,
-      "SkillName": "goblinmagemageelite_ult",
+      "SkillName": "goblinarcherarrowelite_ult",
       "DisplayName": "1219285824033554149",
       "IsShow": true,
       "HeroDetailActionShow": true,
@@ -318,15 +317,15 @@
       "IsPositiveManual": true,
       "SkillScript": null,
       "Icon": "UI/Icon/HeroSkill/icon_skill_goblintiny.png",
-      "Description": "2920004224763892472",
-      "SimpleDescription": "14021193927715784478",
+      "Description": "7627018396656731460",
+      "SimpleDescription": "15869570631807530008",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
       "TargetCamp": 1,
       "TargetPriority": "random",
@@ -346,24 +345,24 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinarcher",
       "CastDisplays": {
-        "$arrayRef": 108522
+        "$arrayRef": 109711
       },
       "HitDisplay": {
-        "$arrayRef": 108522
+        "$arrayRef": 109711
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108522
+        "$arrayRef": 109711
       },
       "DisplayAction(s)": {},
       "AffectedCamp": 1,
       "AOEOrigin": "self",
       "AOEShape": null,
       "AOEShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
@@ -433,15 +432,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 108693
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1025,
+      "CasterID": 1021,
       "SkillID": 21,
-      "SkillName": "goblinmagemageelite_atk2",
-      "DisplayName": "7239494457825427811",
+      "SkillName": "goblinarcherarrowelite_atk2",
+      "DisplayName": "17516769176724296620",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -460,16 +457,16 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
-      "Description": "1780561553564338497",
-      "SimpleDescription": "17110949310988747732",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_power.png",
+      "Description": "3464206636672931689",
+      "SimpleDescription": "3621142345956484507",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -481,25 +478,27 @@
       "InitCD": 2,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 113,
+      "GainMP": 83,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinarcher",
       "CastDisplays": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "HitDisplay": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109710
+      },
       "Action(s)": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -509,7 +508,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.5,
+      "PlusRatio": 2.3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,

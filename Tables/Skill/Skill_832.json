@@ -149,10 +149,10 @@
   ],
   "rows": [
     {
-      "CasterID": 8023,
+      "CasterID": 8003,
       "SkillID": 0,
-      "SkillName": "hendrick_story_atk",
-      "DisplayName": "（不用翻译）普通攻击",
+      "SkillName": "storymorgan_atk",
+      "DisplayName": "（不用翻译）占坑普攻",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -171,7 +171,7 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": null,
+      "Icon": "UI/Icon/HeroSkill/icon_skill_thorn.png",
       "Description": "普通攻击（不用翻译）",
       "SimpleDescription": null,
       "ActiveType": "active",
@@ -180,19 +180,19 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 1,
       "CD": 0,
-      "InitCD": 0,
-      "GlobalCD": 0,
+      "InitCD": 2,
+      "GlobalCD": 1.5,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 130,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -200,17 +200,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "hendrick",
+      "UseWhich": "morgan",
       "CastDisplays": {
-        "$arrayRef": 108533
+        "$arrayRef": 109705
       },
       "HitDisplay": {
-        "$arrayRef": 108533
+        "$arrayRef": 109705
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108533
+        "$arrayRef": 109705
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -220,7 +220,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 0.6,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,

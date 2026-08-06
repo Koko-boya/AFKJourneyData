@@ -2,61 +2,76 @@
   "_meta": {
     "table": "AcademyCupBuff",
     "header_table": "AcademyCupBuffHeaderTable",
-    "source_table": "AcademyCupBuffTable",
-    "format": "explicit_rows",
+    "format": "flat_rows",
     "schema_size": 8,
     "row_count": 5,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "array_fields": [
+      "ClearType"
+    ],
+    "unresolved_array_refs": 5
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "ID": "null",
+    "MapBuffID": 0,
+    "DurationMs": 0,
+    "StackMode": null,
+    "MaxStacks": 0,
+    "ClearType": {},
+    "BuffType": null,
+    "BuffParam": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "rows": [
     {
       "ID": 1,
-      "MapBuffID": 1,
+      "MapBuffID": 70,
       "DurationMs": 10000,
       "StackMode": 3,
       "MaxStacks": 1,
       "ClearType": {
-        "1": 1
+        "$arrayRef": 38
       },
       "BuffType": 1,
       "BuffParam": 50
     },
     {
       "ID": 2,
-      "MapBuffID": 2,
+      "MapBuffID": 68,
       "DurationMs": 5000,
       "StackMode": 2,
       "MaxStacks": 1,
       "ClearType": {
-        "1": 1
+        "$arrayRef": 38
       },
       "BuffType": 2,
       "BuffParam": 0
     },
     {
       "ID": 3,
-      "MapBuffID": 3,
+      "MapBuffID": 69,
       "DurationMs": 1800,
       "StackMode": 2,
       "MaxStacks": 1,
       "ClearType": {
-        "1": 1
+        "$arrayRef": 38
       },
       "BuffType": 3,
       "BuffParam": 0
     },
     {
       "ID": 4,
-      "MapBuffID": 4,
+      "MapBuffID": 71,
       "DurationMs": 1800,
       "StackMode": 3,
       "MaxStacks": 5,
       "ClearType": {
-        "1": 1,
-        "2": 2
+        "$arrayRef": 38
       },
       "BuffType": 4,
       "BuffParam": 1
@@ -68,7 +83,7 @@
       "StackMode": 2,
       "MaxStacks": 1,
       "ClearType": {
-        "1": 1
+        "$arrayRef": 38
       },
       "BuffType": 5,
       "BuffParam": 10

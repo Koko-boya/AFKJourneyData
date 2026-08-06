@@ -4,7 +4,7 @@
     "header_table": "FormationHeaderTable",
     "format": "flat_rows",
     "schema_size": 12,
-    "row_count": 61,
+    "row_count": 62,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -83,7 +83,8 @@
     66,
     67,
     68,
-    70
+    70,
+    71
   ],
   "rows": [
     {
@@ -867,7 +868,8 @@
       },
       "IsMulti": false,
       "PatternType": {
-        "1": 0
+        "1": 0,
+        "2": 9
       },
       "BattleSide": 1,
       "IsDefault": true,
@@ -1179,7 +1181,7 @@
       "BattleMode": {
         "1": 87
       },
-      "IsMulti": false,
+      "IsMulti": true,
       "PatternType": {
         "1": 0
       },
@@ -1211,7 +1213,7 @@
     },
     {
       "FormationType": 70,
-      "FormationIDRule": 6,
+      "FormationIDRule": 1,
       "FormationTypeCount": 3,
       "BattleMode": {
         "1": 91
@@ -1223,7 +1225,25 @@
       "BattleSide": 1,
       "IsDefault": true,
       "NeedSave": true,
-      "DefaultFormationType": 26,
+      "DefaultFormationType": 25,
+      "DefaultFormationKey": 0,
+      "DefaultAnyKey": true
+    },
+    {
+      "FormationType": 71,
+      "FormationIDRule": 6,
+      "FormationTypeCount": 10,
+      "BattleMode": {
+        "1": 94
+      },
+      "IsMulti": true,
+      "PatternType": {
+        "1": 2
+      },
+      "BattleSide": 1,
+      "IsDefault": true,
+      "NeedSave": true,
+      "DefaultFormationType": null,
       "DefaultFormationKey": 0,
       "DefaultAnyKey": true
     }

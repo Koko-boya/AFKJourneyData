@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "table": "HeroUpRewardLevel",
+    "header_table": "HeroUpRewardLevelHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 9,
+    "row_count": 8,
+    "array_fields": [
+      "AdvancedReward",
+      "BasicReward",
+      "Cost"
+    ],
+    "unresolved_array_refs": 24
+  },
+  "default": {
+    "SpanID": "null",
+    "ID": "null",
+    "HeroUpRewardType": null,
+    "IsStageReward": false,
+    "UnlockCondition": "true",
+    "BasicReward": {},
+    "AdvancedReward": {},
+    "Cost": {},
+    "LimitedPurchase": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rows": [
+    {
+      "SpanID": 1,
+      "ID": 1,
+      "HeroUpRewardType": 0,
+      "IsStageReward": false,
+      "UnlockCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(3)+ed.ConditionX.ItemCount(501003)>=6",
+      "BasicReward": {
+        "$arrayRef": 83374
+      },
+      "AdvancedReward": {
+        "$arrayRef": 83374
+      },
+      "Cost": {
+        "$arrayRef": 87816
+      },
+      "LimitedPurchase": 1
+    },
+    {
+      "SpanID": 1,
+      "ID": 2,
+      "HeroUpRewardType": 0,
+      "IsStageReward": false,
+      "UnlockCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(3)+ed.ConditionX.ItemCount(501003)>=8",
+      "BasicReward": {
+        "$arrayRef": 87809
+      },
+      "AdvancedReward": {
+        "$arrayRef": 87809
+      },
+      "Cost": {
+        "$arrayRef": 87817
+      },
+      "LimitedPurchase": 1
+    },
+    {
+      "SpanID": 1,
+      "ID": 3,
+      "HeroUpRewardType": 0,
+      "IsStageReward": true,
+      "UnlockCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(3)+ed.ConditionX.ItemCount(501003)>=16",
+      "BasicReward": {
+        "$arrayRef": 87810
+      },
+      "AdvancedReward": {
+        "$arrayRef": 87810
+      },
+      "Cost": {
+        "$arrayRef": 87818
+      },
+      "LimitedPurchase": 1
+    },
+    {
+      "SpanID": 1,
+      "ID": 4,
+      "HeroUpRewardType": 0,
+      "IsStageReward": false,
+      "UnlockCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(3)+ed.ConditionX.ItemCount(501003)>=18",
+      "BasicReward": {
+        "$arrayRef": 87811
+      },
+      "AdvancedReward": {
+        "$arrayRef": 87811
+      },
+      "Cost": {
+        "$arrayRef": 87819
+      },
+      "LimitedPurchase": 2
+    },
+    {
+      "SpanID": 1,
+      "ID": 5,
+      "HeroUpRewardType": 0,
+      "IsStageReward": true,
+      "UnlockCondition": "ed.ConditionX.HeroRaiseHeroStoneCount(3)+ed.ConditionX.ItemCount(501003)>=45",
+      "BasicReward": {
+        "$arrayRef": 87812
+      },
+      "AdvancedReward": {
+        "$arrayRef": 87812
+      },
+      "Cost": {
+        "$arrayRef": 87820
+      },
+      "LimitedPurchase": 2
+    },
+    {
+      "SpanID": 1,
+      "ID": 6,
+      "HeroUpRewardType": 1,
+      "IsStageReward": false,
+      "UnlockCondition": "ed.ConditionX.ExclusiveLvByHeroID(1)>=10",
+      "BasicReward": {
+        "$arrayRef": 87813
+      },
+      "AdvancedReward": {
+        "$arrayRef": 87813
+      },
+      "Cost": {
+        "$arrayRef": 87816
+      },
+      "LimitedPurchase": 1
+    },
+    {
+      "SpanID": 1,
+      "ID": 7,
+      "HeroUpRewardType": 1,
+      "IsStageReward": false,
+      "UnlockCondition": "ed.ConditionX.ExclusiveLvByHeroID(1)>=10",
+      "BasicReward": {
+        "$arrayRef": 87814
+      },
+      "AdvancedReward": {
+        "$arrayRef": 87814
+      },
+      "Cost": {
+        "$arrayRef": 87817
+      },
+      "LimitedPurchase": 1
+    },
+    {
+      "SpanID": 1,
+      "ID": 8,
+      "HeroUpRewardType": 1,
+      "IsStageReward": true,
+      "UnlockCondition": "ed.ConditionX.ExclusiveLvByHeroID(1)>=26",
+      "BasicReward": {
+        "$arrayRef": 87815
+      },
+      "AdvancedReward": {
+        "$arrayRef": 87815
+      },
+      "Cost": {
+        "$arrayRef": 87818
+      },
+      "LimitedPurchase": 2
+    }
+  ]
+}

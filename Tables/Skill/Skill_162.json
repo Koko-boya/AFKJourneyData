@@ -10,10 +10,10 @@
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
+      "ReselectTargetArgs",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 15
+    "unresolved_array_refs": 13
   },
   "default": {
     "CasterID": "null",
@@ -153,9 +153,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1041,
+      "CasterID": 1034,
       "SkillID": 0,
-      "SkillName": "fogmelee_atk",
+      "SkillName": "goblingiantboneelite_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -184,9 +184,9 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
@@ -196,7 +196,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 68,
+      "GainMP": 71,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -204,17 +204,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "goblingiant",
       "CastDisplays": {
-        "$arrayRef": 108516
+        "$arrayRef": 109912
       },
       "HitDisplay": {
-        "$arrayRef": 108516
+        "$arrayRef": 109912
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109912
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -224,7 +224,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.05,
+      "PlusRatio": 1.2,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -292,10 +292,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1041,
+      "CasterID": 1034,
       "SkillID": 11,
-      "SkillName": "fogmelee_ult",
-      "DisplayName": "15318380020199896054",
+      "SkillName": "goblingiantboneelite_ult",
+      "DisplayName": "11707215711730183952",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -314,26 +314,28 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_aoe.png",
-      "Description": "14280925194108369374",
-      "SimpleDescription": "6474948248489396430",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
+      "Description": "3706165174895916118",
+      "SimpleDescription": "3110465171881278134",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
-      "ReselectTargetArgs": {},
+      "ReselectTargetArgs": {
+        "$arrayRef": 109911
+      },
       "TargetBlockType": "allblock",
-      "Priority": 10,
-      "CD": 0,
+      "Priority": 2,
+      "CD": 3,
       "InitCD": 0,
-      "GlobalCD": 1.25,
+      "GlobalCD": 1,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
@@ -343,34 +345,32 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "goblingiant",
       "CastDisplays": {
-        "$arrayRef": 108517
+        "$arrayRef": 109706
       },
       "HitDisplay": {
-        "$arrayRef": 108517
+        "$arrayRef": 109706
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108517
+        "$arrayRef": 109706
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "self",
-      "AOEShape": "sector",
-      "AOEShapeArgs": {
-        "$arrayRef": 68626
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.4,
+      "PlusRatio": 0.6,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 20,
-      "SArg1": 0,
+      "SArg0": 1,
+      "SArg1": 2.5,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -430,17 +430,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "1": "pbfx_action_fogmelee_death_00",
-        "2": "pbfx_buff_fogmage_body_Bip001 Spine3",
-        "3": "pbfx_suit_s1_soldier_T3"
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1041,
+      "CasterID": 1034,
       "SkillID": 21,
-      "SkillName": "fogmelee_atk2",
-      "DisplayName": "6101462435632403075",
+      "SkillName": "goblingiantboneelite_atk2",
+      "DisplayName": "2225680405835959757",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -459,62 +455,60 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_stun_aoe.png",
-      "Description": "13327683464286656749",
-      "SimpleDescription": "5626785674881331292",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_goblingiant.png",
+      "Description": "10867854433261146275",
+      "SimpleDescription": "15588937676748065951",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 0,
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
-      "Priority": 2,
-      "CD": 15,
+      "TargetBlockType": null,
+      "Priority": 3,
+      "CD": 9999,
       "InitCD": 0,
-      "GlobalCD": 1.25,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 94,
+      "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "region",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "goblingiant",
       "CastDisplays": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
-      "HitDisplay": {
-        "$arrayRef": 108521
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": "target",
+      "AffectedCamp": 1,
+      "AOEOrigin": "self",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 74
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.4,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 2,
+      "SArg0": 0.2,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -536,8 +530,8 @@
       "SArg19": 0,
       "SArg20": 0,
       "DamageExtraEff": false,
-      "Buff": "common_stun",
-      "BuffID": 1,
+      "Buff": "goblingiantboneelite_atk2_buff",
+      "BuffID": 103401,
       "MoveForward": 0,
       "KnockUp": 0,
       "KnockBack": 0,
@@ -576,7 +570,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 108703
+        "1": "pbfx_point_goblingiant_atk2"
       }
     }
   ]

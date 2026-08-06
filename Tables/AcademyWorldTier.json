@@ -2,87 +2,132 @@
   "_meta": {
     "table": "AcademyWorldTier",
     "header_table": "AcademyWorldTierHeaderTable",
-    "source_table": "AcademyWorldTierTable",
-    "format": "explicit_rows",
-    "schema_size": 10,
-    "row_count": 4,
+    "format": "flat_rows",
+    "schema_size": 11,
+    "row_count": 3,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "SpanID": "null",
+    "TierID": "null",
+    "DisplayName": null,
+    "StarCount": 0,
+    "SeasonResetTargetStar": 0,
+    "MiniIconRes": null,
+    "IconRes": null,
+    "PrefabRes": null,
+    "TierReward": {},
+    "FinalStageReward": {},
+    "GuildSculptureID": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3
+  ],
   "rows": [
     {
+      "SpanID": 1,
       "TierID": 1,
-      "DisplayName": "Bronze",
-      "InitialPowerMin": 0,
-      "InitialPowerMax": 999999,
-      "StarCount": 3,
-      "WeeklyRankStarDelta": {
-        "1": 2,
-        "2": 1,
-        "3": 0,
-        "4": -1,
-        "5": -2
-      },
-      "IsNoTierDrop": true,
-      "ProtectionTimes": 1,
+      "DisplayName": "11809467788767338716",
+      "StarCount": 6,
       "SeasonResetTargetStar": 1,
-      "IconRes": "ui_icon_academyworld_tier_bronze"
+      "MiniIconRes": "UI/Textures/GuildWar/pbui_guildwar_level_icon_rookie_minititle.png",
+      "IconRes": "UI/Textures/GuildWar/pbui_guildwar_level_icon_rookie.png",
+      "PrefabRes": "UI/Prefabs/GuildWar/level/pbui_guildwar_level_icon_rookie.prefab",
+      "TierReward": {
+        "1": 1001,
+        "2": 100000013,
+        "3": 5000,
+        "4": 1,
+        "5": 201003,
+        "6": 30,
+        "7": 1001,
+        "8": 100000002,
+        "9": 400
+      },
+      "FinalStageReward": {
+        "1": 3001,
+        "2": 12006,
+        "3": 1,
+        "4": 1,
+        "5": 201003,
+        "6": 40
+      },
+      "GuildSculptureID": 81
     },
     {
+      "SpanID": 1,
       "TierID": 2,
-      "DisplayName": "Silver",
-      "InitialPowerMin": 1000000,
-      "InitialPowerMax": 1999999,
-      "StarCount": 7,
-      "WeeklyRankStarDelta": {
-        "1": 2,
-        "2": 1,
-        "3": 0,
-        "4": -1,
-        "5": -2
+      "DisplayName": "15882699517603631519",
+      "StarCount": 12,
+      "SeasonResetTargetStar": 6,
+      "MiniIconRes": "UI/Textures/GuildWar/pbui_guildwar_level_icon_elite_minititle.png",
+      "IconRes": "UI/Textures/GuildWar/pbui_guildwar_level_icon_elite.png",
+      "PrefabRes": "UI/Prefabs/GuildWar/level/pbui_guildwar_level_icon_elite.prefab",
+      "TierReward": {
+        "1": 1001,
+        "2": 100000013,
+        "3": 6000,
+        "4": 1,
+        "5": 201003,
+        "6": 40,
+        "7": 1001,
+        "8": 100000002,
+        "9": 500
       },
-      "IsNoTierDrop": true,
-      "ProtectionTimes": 1,
-      "SeasonResetTargetStar": 1,
-      "IconRes": "ui_icon_academyworld_tier_silver"
+      "FinalStageReward": {
+        "1": 3001,
+        "2": 12005,
+        "3": 1,
+        "4": 10,
+        "5": 436,
+        "6": 1,
+        "7": 1,
+        "8": 201003,
+        "9": 50
+      },
+      "GuildSculptureID": 80
     },
     {
+      "SpanID": 1,
       "TierID": 3,
-      "DisplayName": "Gold",
-      "InitialPowerMin": 2000000,
-      "InitialPowerMax": 2999999,
-      "StarCount": 11,
-      "WeeklyRankStarDelta": {
-        "1": 2,
-        "2": 1,
-        "3": 0,
-        "4": -1,
-        "5": -2
+      "DisplayName": "8078371492132022040",
+      "StarCount": 24,
+      "SeasonResetTargetStar": 12,
+      "MiniIconRes": "UI/Textures/GuildWar/pbui_guildwar_level_icon_epic_minititle.png",
+      "IconRes": "UI/Textures/GuildWar/pbui_guildwar_level_icon_epic.png",
+      "PrefabRes": "UI/Prefabs/GuildWar/level/pbui_guildwar_level_icon_epic.prefab",
+      "TierReward": {
+        "1": 1001,
+        "2": 100000013,
+        "3": 7000,
+        "4": 1,
+        "5": 201003,
+        "6": 50,
+        "7": 1001,
+        "8": 100000002,
+        "9": 600
       },
-      "IsNoTierDrop": false,
-      "ProtectionTimes": 1,
-      "SeasonResetTargetStar": 4,
-      "IconRes": "ui_icon_academyworld_tier_gold"
-    },
-    {
-      "TierID": 4,
-      "DisplayName": "Diamond",
-      "InitialPowerMin": 3000000,
-      "InitialPowerMax": 999999999,
-      "StarCount": 15,
-      "WeeklyRankStarDelta": {
-        "1": 2,
-        "2": 1,
-        "3": 0,
-        "4": -1,
-        "5": -2
+      "FinalStageReward": {
+        "1": 3001,
+        "2": 12004,
+        "3": 1,
+        "4": 10,
+        "5": 436,
+        "6": 1,
+        "7": 10,
+        "8": 435,
+        "9": 1,
+        "10": 1,
+        "11": 201003,
+        "12": 60,
+        "13": 20,
+        "14": 82002,
+        "15": 1
       },
-      "IsNoTierDrop": false,
-      "ProtectionTimes": 0,
-      "SeasonResetTargetStar": 8,
-      "IconRes": "ui_icon_academyworld_tier_diamond"
+      "GuildSculptureID": 79
     }
   ]
 }

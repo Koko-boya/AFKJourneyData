@@ -3,12 +3,13 @@
     "table": "SoulLink",
     "header_table": "SoulLinkHeaderTable",
     "format": "flat_rows",
-    "schema_size": 7,
+    "schema_size": 11,
     "row_count": 1,
     "array_fields": [
-      "BattleRequiredHeroIDs"
+      "BattleRequiredHeroIDs",
+      "ExchangeItem"
     ],
-    "unresolved_array_refs": 1
+    "unresolved_array_refs": 2
   },
   "default": {
     "SpanID": "null",
@@ -17,7 +18,11 @@
     "PotentialSlotCount": 0,
     "PendingPickCount": 0,
     "TrainRefreshCnt": 0,
-    "BattleRequiredHeroIDs": {}
+    "BattleRequiredHeroIDs": {},
+    "ExchangeItem": {},
+    "PartnerDefaultLevel": 0,
+    "Name": null,
+    "AttrRatio": 0
   },
   "row_keys": [
     1
@@ -31,8 +36,14 @@
       "PendingPickCount": 2,
       "TrainRefreshCnt": 5,
       "BattleRequiredHeroIDs": {
-        "$arrayRef": 460
-      }
+        "$arrayRef": 513
+      },
+      "ExchangeItem": {
+        "$arrayRef": 84396
+      },
+      "PartnerDefaultLevel": 1,
+      "Name": "6941355361969860543",
+      "AttrRatio": 100
     }
   ]
 }

@@ -6,13 +6,10 @@
     "schema_size": 129,
     "row_count": 1,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
-      "CastDisplays",
-      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 5
+    "unresolved_array_refs": 2
   },
   "default": {
     "CasterID": "null",
@@ -150,9 +147,9 @@
   ],
   "rows": [
     {
-      "CasterID": 4074,
+      "CasterID": 4053,
       "SkillID": 0,
-      "SkillName": "idoltowersupport_atk",
+      "SkillName": "storyhuman_atk",
       "DisplayName": "（不用翻译）占坑普攻",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -168,7 +165,7 @@
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": null,
+      "SkillType": "basic",
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
@@ -181,51 +178,47 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 75
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": -1,
+      "Priority": 1,
       "CD": 9999,
       "InitCD": 9999,
-      "GlobalCD": 0,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 0,
-      "VictimMP": 0,
+      "GainMP": 130,
+      "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": true,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "woodspecter",
-      "CastDisplays": {
-        "$arrayRef": 108516
-      },
+      "UseWhich": null,
+      "CastDisplays": {},
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 0,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 60
-      },
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0,
-      "DamageType": "Holy",
+      "PlusRatio": 1,
+      "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 8,
+      "SArg0": 0,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -286,9 +279,7 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 109535
-      }
+      "ResourceList": {}
     }
   ]
 }

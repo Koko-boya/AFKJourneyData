@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "table": "WorkshopUnlock",
+    "header_table": "WorkshopUnlockHeaderTable",
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 6,
+    "array_fields": [
+      "Buildings"
+    ],
+    "unresolved_array_refs": 6
+  },
+  "default": {
+    "ID": "null",
+    "Buildings": {},
+    "UnlockCondition": "true",
+    "UnlockScore": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "rows": [
+    {
+      "ID": 1,
+      "Buildings": {
+        "$arrayRef": 14060
+      },
+      "UnlockCondition": "ed.ConditionX.Best(128)>=30000",
+      "UnlockScore": 30000
+    },
+    {
+      "ID": 2,
+      "Buildings": {
+        "$arrayRef": 14177
+      },
+      "UnlockCondition": "ed.ConditionX.Best(128)>=50000",
+      "UnlockScore": 50000
+    },
+    {
+      "ID": 3,
+      "Buildings": {
+        "$arrayRef": 2616
+      },
+      "UnlockCondition": "ed.ConditionX.Best(128)>=75000",
+      "UnlockScore": 75000
+    },
+    {
+      "ID": 4,
+      "Buildings": {
+        "$arrayRef": 2425
+      },
+      "UnlockCondition": "ed.ConditionX.Best(128)>=100000",
+      "UnlockScore": 100000
+    },
+    {
+      "ID": 5,
+      "Buildings": {
+        "$arrayRef": 22368
+      },
+      "UnlockCondition": "ed.ConditionX.Best(128)>=130000",
+      "UnlockScore": 130000
+    },
+    {
+      "ID": 6,
+      "Buildings": {
+        "$arrayRef": 2371
+      },
+      "UnlockCondition": "ed.ConditionX.Best(128)>=160000",
+      "UnlockScore": 160000
+    }
+  ]
+}

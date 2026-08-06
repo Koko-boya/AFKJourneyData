@@ -3,19 +3,28 @@
     "table": "BackCloth",
     "header_table": "BackClothHeaderTable",
     "format": "flat_rows",
-    "schema_size": 7,
-    "row_count": 7,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "schema_size": 14,
+    "row_count": 9,
+    "array_fields": [
+      "LootInfo"
+    ],
+    "unresolved_array_refs": 2
   },
   "default": {
     "ID": "null",
     "Name": null,
     "BackClothDes": null,
+    "Quality": 0,
+    "RequireDes": null,
+    "LootInfo": {},
+    "IconRes": null,
     "BackClothRes": null,
     "BackClothIconRes": null,
     "BackClothProfileRes": null,
-    "IsDefault": false
+    "IsDefault": false,
+    "ShowCondition": "true",
+    "BackClothSourceType": null,
+    "SourceTypeParam": 0
   },
   "row_keys": [
     1,
@@ -24,71 +33,158 @@
     4,
     5,
     6,
-    7
+    7,
+    8,
+    9
   ],
   "rows": [
     {
       "ID": 1,
       "Name": "6520570532418446984",
       "BackClothDes": "14486189273997893556",
+      "Quality": 4,
+      "RequireDes": null,
+      "LootInfo": {},
+      "IconRes": null,
       "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_common.prefab",
       "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_common.png",
       "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_common_playerinfo.png",
-      "IsDefault": true
+      "IsDefault": true,
+      "ShowCondition": "true",
+      "BackClothSourceType": null,
+      "SourceTypeParam": 0
     },
     {
       "ID": 2,
       "Name": "9661025156276039721",
       "BackClothDes": "7956392077213615218",
+      "Quality": 4,
+      "RequireDes": null,
+      "LootInfo": {},
+      "IconRes": null,
       "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_lightbearer.prefab",
       "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_lightbearer.png",
       "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_lightbearer_playerinfo.png",
-      "IsDefault": true
+      "IsDefault": true,
+      "ShowCondition": "true",
+      "BackClothSourceType": null,
+      "SourceTypeParam": 0
     },
     {
       "ID": 3,
       "Name": "14144506421443496704",
       "BackClothDes": "4414225373582328065",
+      "Quality": 4,
+      "RequireDes": null,
+      "LootInfo": {},
+      "IconRes": null,
       "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_mauler.prefab",
       "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_mauler.png",
       "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_mauler_playerinfo.png",
-      "IsDefault": true
+      "IsDefault": true,
+      "ShowCondition": "true",
+      "BackClothSourceType": null,
+      "SourceTypeParam": 0
     },
     {
       "ID": 4,
       "Name": "3578054603973334566",
       "BackClothDes": "3809143244109218208",
+      "Quality": 4,
+      "RequireDes": null,
+      "LootInfo": {},
+      "IconRes": null,
       "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_graveborn.prefab",
       "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_graveborn.png",
       "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_graveborn_playerinfo.png",
-      "IsDefault": true
+      "IsDefault": true,
+      "ShowCondition": "true",
+      "BackClothSourceType": null,
+      "SourceTypeParam": 0
     },
     {
       "ID": 5,
       "Name": "15149530637535414498",
       "BackClothDes": "10080614417426382329",
+      "Quality": 4,
+      "RequireDes": null,
+      "LootInfo": {},
+      "IconRes": null,
       "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_wilder.prefab",
       "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_wilder.png",
       "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_wilder_playerinfo.png",
-      "IsDefault": true
+      "IsDefault": true,
+      "ShowCondition": "true",
+      "BackClothSourceType": null,
+      "SourceTypeParam": 0
     },
     {
       "ID": 6,
       "Name": "7458482467197096266",
       "BackClothDes": "8759617513120548348",
+      "Quality": 4,
+      "RequireDes": null,
+      "LootInfo": {},
+      "IconRes": null,
       "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_heartgrid.prefab",
       "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_heartgrid.png",
       "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_heartgrid_playerinfo.png",
-      "IsDefault": true
+      "IsDefault": true,
+      "ShowCondition": "true",
+      "BackClothSourceType": null,
+      "SourceTypeParam": 0
     },
     {
       "ID": 7,
       "Name": "15191976482164405677",
       "BackClothDes": "5713010136135723490",
+      "Quality": 4,
+      "RequireDes": null,
+      "LootInfo": {},
+      "IconRes": null,
       "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_fireworks.prefab",
       "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_fireworks.png",
       "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_fireworks_playerinfo.png",
-      "IsDefault": true
+      "IsDefault": true,
+      "ShowCondition": "true",
+      "BackClothSourceType": null,
+      "SourceTypeParam": 0
+    },
+    {
+      "ID": 8,
+      "Name": "18340595420846041146",
+      "BackClothDes": "4011917838078944400",
+      "Quality": 6,
+      "RequireDes": "554117191087356305",
+      "LootInfo": {
+        "$arrayRef": 86
+      },
+      "IconRes": "UI/Icon/Item/item_backcloth_dg_1.png",
+      "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_dg_1.prefab",
+      "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_dg_1.png",
+      "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_dg_1_playerinfo.png",
+      "IsDefault": false,
+      "ShowCondition": "ed.ConditionX.DateAfter(2026,8,18)",
+      "BackClothSourceType": 0,
+      "SourceTypeParam": 884
+    },
+    {
+      "ID": 9,
+      "Name": "17817115797050079198",
+      "BackClothDes": "2061132013880344343",
+      "Quality": 6,
+      "RequireDes": "554117191087356305",
+      "LootInfo": {
+        "$arrayRef": 86
+      },
+      "IconRes": "UI/Icon/Item/item_backcloth_dg_2.png",
+      "BackClothRes": "Scene/Avatar/prefab/pbsc_dualcapture_background_dg_2.prefab",
+      "BackClothIconRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_dg_2.png",
+      "BackClothProfileRes": "UI/Icon/Dualcapture/spui_dualcapture_bg_dg_2_playerinfo.png",
+      "IsDefault": false,
+      "ShowCondition": "ed.ConditionX.DateAfter(2026,8,18)",
+      "BackClothSourceType": 0,
+      "SourceTypeParam": 884
     }
   ]
 }

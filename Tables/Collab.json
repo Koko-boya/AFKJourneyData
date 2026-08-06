@@ -3,8 +3,8 @@
     "table": "Collab",
     "header_table": "CollabHeaderTable",
     "format": "flat_rows",
-    "schema_size": 31,
-    "row_count": 2,
+    "schema_size": 32,
+    "row_count": 3,
     "array_fields": [
       "EntryTicket",
       "IdleSources",
@@ -14,7 +14,7 @@
       "PlotRewardDisplay",
       "TavernPoolID"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 18
   },
   "default": {
     "CollabID": "null",
@@ -47,11 +47,13 @@
     "IsBuffDrawEnabled": false,
     "MaxFailureCnt": 0,
     "PerMapHintCnt": 0,
-    "SpecialStaticUnit": false
+    "SpecialStaticUnit": false,
+    "MallAvatar": {}
   },
   "row_keys": [
     1,
-    2
+    2,
+    3
   ],
   "rows": [
     {
@@ -60,22 +62,22 @@
       "CollabResName": "FairyTail",
       "CollabName": "13303890868425255483",
       "TavernPoolID": {
-        "$arrayRef": 82953
+        "$arrayRef": 83403
       },
       "TavernName": "440167269707178482",
       "LootInfo": {
-        "$arrayRef": 79602
+        "$arrayRef": 79622
       },
       "QuestManagerID": 68,
       "LineQuestGroup": {
-        "$arrayRef": 82954
+        "$arrayRef": 83405
       },
       "AdventureQuestGroupID": 1083,
       "GalleryQuestGroup": {},
       "ExchangeID": 19,
       "MiniStoryGroupID": 4,
       "PlotRewardDisplay": {
-        "$arrayRef": 82955
+        "$arrayRef": 83406
       },
       "BattleRewardDisplay": {
         "1": 8,
@@ -98,13 +100,13 @@
         "6": 1
       },
       "LevelUpCurrency": {
-        "$arrayRef": 82956
+        "$arrayRef": 83407
       },
       "EntryTicket": {
-        "$arrayRef": 82957
+        "$arrayRef": 83408
       },
       "IdleSources": {
-        "$arrayRef": 82959
+        "$arrayRef": 83411
       },
       "IdleMaxSecs": 864000,
       "AttrLvLimit": 10,
@@ -116,7 +118,8 @@
       "IsBuffDrawEnabled": true,
       "MaxFailureCnt": 0,
       "PerMapHintCnt": 0,
-      "SpecialStaticUnit": false
+      "SpecialStaticUnit": false,
+      "MallAvatar": {}
     },
     {
       "CollabID": 2,
@@ -129,7 +132,7 @@
       },
       "TavernName": "440167269707178482",
       "LootInfo": {
-        "$arrayRef": 79602
+        "$arrayRef": 79622
       },
       "QuestManagerID": 102,
       "LineQuestGroup": {},
@@ -142,7 +145,7 @@
       "ExchangeID": 30,
       "MiniStoryGroupID": 7,
       "PlotRewardDisplay": {
-        "$arrayRef": 82955
+        "$arrayRef": 83406
       },
       "BattleRewardDisplay": {
         "1": 8,
@@ -165,13 +168,13 @@
         "6": 1
       },
       "LevelUpCurrency": {
-        "$arrayRef": 82956
+        "$arrayRef": 83407
       },
       "EntryTicket": {
-        "$arrayRef": 82958
+        "$arrayRef": 83409
       },
       "IdleSources": {
-        "$arrayRef": 82959
+        "$arrayRef": 83411
       },
       "IdleMaxSecs": 864000,
       "AttrLvLimit": 0,
@@ -183,7 +186,78 @@
       "IsBuffDrawEnabled": false,
       "MaxFailureCnt": 5,
       "PerMapHintCnt": 3,
-      "SpecialStaticUnit": false
+      "SpecialStaticUnit": false,
+      "MallAvatar": {}
+    },
+    {
+      "CollabID": 3,
+      "CollabType": 3,
+      "CollabResName": "SoulLink",
+      "CollabName": "5926727790963921686",
+      "TavernPoolID": {
+        "$arrayRef": 83404
+      },
+      "TavernName": "440167269707178482",
+      "LootInfo": {
+        "$arrayRef": 79622
+      },
+      "QuestManagerID": 158,
+      "LineQuestGroup": {},
+      "AdventureQuestGroupID": 10013,
+      "GalleryQuestGroup": {},
+      "ExchangeID": 51,
+      "MiniStoryGroupID": 19,
+      "PlotRewardDisplay": {
+        "$arrayRef": 83406
+      },
+      "BattleRewardDisplay": {
+        "1": 8,
+        "2": 131,
+        "3": 1,
+        "4": 1001,
+        "5": 100000002,
+        "6": 1,
+        "7": 1,
+        "8": 248,
+        "9": 1
+      },
+      "StdLvID": 29015,
+      "MainMenuCurrency": {
+        "1": 1,
+        "2": 248,
+        "3": 1,
+        "4": 1,
+        "5": 249,
+        "6": 1
+      },
+      "LevelUpCurrency": {
+        "$arrayRef": 83407
+      },
+      "EntryTicket": {
+        "$arrayRef": 83410
+      },
+      "IdleSources": {
+        "$arrayRef": 83411
+      },
+      "IdleMaxSecs": 864000,
+      "AttrLvLimit": 0,
+      "AttrMaxLv": 90,
+      "DefaultDrawQuality": 1,
+      "BuffDrawInterval": 3,
+      "IdleRedDotMinTime": 28800,
+      "IsIdleEnabled": false,
+      "IsBuffDrawEnabled": false,
+      "MaxFailureCnt": 5,
+      "PerMapHintCnt": 3,
+      "SpecialStaticUnit": true,
+      "MallAvatar": {
+        "1": 30,
+        "2": 121,
+        "3": 1,
+        "4": 30,
+        "5": 122,
+        "6": 1
+      }
     }
   ]
 }

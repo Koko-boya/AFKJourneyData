@@ -4,7 +4,7 @@
     "header_table": "ErrorCodeHeaderTable",
     "format": "flat_rows",
     "schema_size": 6,
-    "row_count": 2107,
+    "row_count": 2232,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -2111,6 +2111,7 @@
     62089,
     62091,
     151065,
+    151066,
     218019,
     226001,
     226002,
@@ -2121,9 +2122,133 @@
     226007,
     226008,
     226009,
-    227001,
+    231001,
     22005,
-    227002
+    231002,
+    63014,
+    63015,
+    141006,
+    168021,
+    168022,
+    168023,
+    168024,
+    187008,
+    187009,
+    187010,
+    187011,
+    187012,
+    187013,
+    221001,
+    221002,
+    221003,
+    221004,
+    221005,
+    221006,
+    221007,
+    221008,
+    221009,
+    221010,
+    221011,
+    221012,
+    221013,
+    221014,
+    221015,
+    221016,
+    221017,
+    221018,
+    221019,
+    221020,
+    221021,
+    221022,
+    221023,
+    221024,
+    221025,
+    221026,
+    221027,
+    221028,
+    221029,
+    221030,
+    221031,
+    221032,
+    221033,
+    221034,
+    221035,
+    221036,
+    221037,
+    221038,
+    221039,
+    221040,
+    222001,
+    222002,
+    222003,
+    222004,
+    222005,
+    222006,
+    227001,
+    227002,
+    227003,
+    227004,
+    227005,
+    227006,
+    227007,
+    227008,
+    227009,
+    227010,
+    227011,
+    227012,
+    227013,
+    227014,
+    227015,
+    227016,
+    227017,
+    227018,
+    227019,
+    227020,
+    227021,
+    227022,
+    227023,
+    227024,
+    227025,
+    227026,
+    227027,
+    227028,
+    227029,
+    227030,
+    227031,
+    227032,
+    227033,
+    227034,
+    227035,
+    227036,
+    227037,
+    227038,
+    227039,
+    227040,
+    227041,
+    227042,
+    227043,
+    227044,
+    227045,
+    227046,
+    227047,
+    228001,
+    228002,
+    229001,
+    229002,
+    229003,
+    229004,
+    229005,
+    229006,
+    229007,
+    229008,
+    229009,
+    227048,
+    227049,
+    221041,
+    221042,
+    227050,
+    221043,
+    221044
   ],
   "rows": [
     {
@@ -18879,6 +19004,14 @@
       "CodeNote": "gvg未报名或报名未通过审核，无法操作"
     },
     {
+      "ErrorInfo": 151066,
+      "AlertType": "Hide",
+      "ErrorCode": 151066,
+      "SecurityType": "Display",
+      "DisplayText": "9824485294903341351",
+      "CodeNote": "gvg已经报名，不能重复报名"
+    },
+    {
       "ErrorInfo": 218019,
       "AlertType": "Alert",
       "ErrorCode": 218019,
@@ -18959,9 +19092,9 @@
       "CodeNote": "入会当天（周一~五）禁止参与共享任务/先锋战，需等到次日"
     },
     {
-      "ErrorInfo": 227001,
+      "ErrorInfo": 231001,
       "AlertType": "Alert",
-      "ErrorCode": 227001,
+      "ErrorCode": 231001,
       "SecurityType": "Display",
       "DisplayText": "14762576238881888297",
       "CodeNote": "公会战报名设置不合法"
@@ -18975,12 +19108,1004 @@
       "CodeNote": "<NotForUser>codec:decompresseddatasizeexceed"
     },
     {
-      "ErrorInfo": 227002,
+      "ErrorInfo": 231002,
       "AlertType": "Alert",
-      "ErrorCode": 227002,
+      "ErrorCode": 231002,
       "SecurityType": "Display",
       "DisplayText": "10318481273770788236",
       "CodeNote": "公会战报名未找到"
+    },
+    {
+      "ErrorInfo": 63014,
+      "AlertType": "Alert",
+      "ErrorCode": 63014,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>设置内容不能为空"
+    },
+    {
+      "ErrorInfo": 63015,
+      "AlertType": "Hide",
+      "ErrorCode": 63015,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>Body不合法"
+    },
+    {
+      "ErrorInfo": 141006,
+      "AlertType": "Alert",
+      "ErrorCode": 141006,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "请求失败"
+    },
+    {
+      "ErrorInfo": 168021,
+      "AlertType": "Hide",
+      "ErrorCode": 168021,
+      "SecurityType": "Display",
+      "DisplayText": "5510570870070996075",
+      "CodeNote": "魂链Partner不存在"
+    },
+    {
+      "ErrorInfo": 168022,
+      "AlertType": "Alert",
+      "ErrorCode": 168022,
+      "SecurityType": "Display",
+      "DisplayText": "5510570870070996075",
+      "CodeNote": "魂链操作不允许（状态/参数）"
+    },
+    {
+      "ErrorInfo": 168023,
+      "AlertType": "Hide",
+      "ErrorCode": 168023,
+      "SecurityType": "Display",
+      "DisplayText": "5510570870070996075",
+      "CodeNote": "魂链Slot不存在"
+    },
+    {
+      "ErrorInfo": 168024,
+      "AlertType": "Alert",
+      "ErrorCode": 168024,
+      "SecurityType": "Display",
+      "DisplayText": "12689500618122830482",
+      "CodeNote": "魂链任务刷新次数限制"
+    },
+    {
+      "ErrorInfo": 187008,
+      "AlertType": "Alert",
+      "ErrorCode": 187008,
+      "SecurityType": "Display",
+      "DisplayText": "6857589068866960476",
+      "CodeNote": "小游戏没开放"
+    },
+    {
+      "ErrorInfo": 187009,
+      "AlertType": "Hide",
+      "ErrorCode": 187009,
+      "SecurityType": "Display",
+      "DisplayText": "15849953438620207259",
+      "CodeNote": "MatchFlipround没找到"
+    },
+    {
+      "ErrorInfo": 187010,
+      "AlertType": "Alert",
+      "ErrorCode": 187010,
+      "SecurityType": "Display",
+      "DisplayText": "5510570870070996075",
+      "CodeNote": "MatchFlipIndex已翻开"
+    },
+    {
+      "ErrorInfo": 187011,
+      "AlertType": "Hide",
+      "ErrorCode": 187011,
+      "SecurityType": "Display",
+      "DisplayText": "5510570870070996075",
+      "CodeNote": "MatchFlipIndex不合法"
+    },
+    {
+      "ErrorInfo": 187012,
+      "AlertType": "Alert",
+      "ErrorCode": 187012,
+      "SecurityType": "Display",
+      "DisplayText": "5390816811966580865",
+      "CodeNote": "MatchFlip没有奖励"
+    },
+    {
+      "ErrorInfo": 187013,
+      "AlertType": "Hide",
+      "ErrorCode": 187013,
+      "SecurityType": "Display",
+      "DisplayText": "6783772564802704833",
+      "CodeNote": "MatchFlip奖励已经领取"
+    },
+    {
+      "ErrorInfo": 221001,
+      "AlertType": "Hide",
+      "ErrorCode": 221001,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯地图未初始化"
+    },
+    {
+      "ErrorInfo": 221002,
+      "AlertType": "Hide",
+      "ErrorCode": 221002,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯成员扩展数据不存在"
+    },
+    {
+      "ErrorInfo": 221003,
+      "AlertType": "Hide",
+      "ErrorCode": 221003,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯阵营类型非法"
+    },
+    {
+      "ErrorInfo": 221004,
+      "AlertType": "Hide",
+      "ErrorCode": 221004,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯目标坐标为空"
+    },
+    {
+      "ErrorInfo": 221005,
+      "AlertType": "Hide",
+      "ErrorCode": 221005,
+      "SecurityType": "Display",
+      "DisplayText": "17776922700503727683",
+      "CodeNote": "超出出生点可移动范围"
+    },
+    {
+      "ErrorInfo": 221006,
+      "AlertType": "Tips",
+      "ErrorCode": 221006,
+      "SecurityType": "Display",
+      "DisplayText": "4050033341907828802",
+      "CodeNote": "仅可在出生点编辑队伍"
+    },
+    {
+      "ErrorInfo": 221007,
+      "AlertType": "Hide",
+      "ErrorCode": 221007,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯队伍不存在"
+    },
+    {
+      "ErrorInfo": 221008,
+      "AlertType": "Tips",
+      "ErrorCode": 221008,
+      "SecurityType": "Display",
+      "DisplayText": "8685221982967057387",
+      "CodeNote": "队伍已锁定，无法编辑"
+    },
+    {
+      "ErrorInfo": 221009,
+      "AlertType": "Tips",
+      "ErrorCode": 221009,
+      "SecurityType": "Display",
+      "DisplayText": "8970961890520679542",
+      "CodeNote": "队伍切换冷却中"
+    },
+    {
+      "ErrorInfo": 221010,
+      "AlertType": "Tips",
+      "ErrorCode": 221010,
+      "SecurityType": "Display",
+      "DisplayText": "18006152419104496582",
+      "CodeNote": "同阵营不可挑战"
+    },
+    {
+      "ErrorInfo": 221011,
+      "AlertType": "Tips",
+      "ErrorCode": 221011,
+      "SecurityType": "Display",
+      "DisplayText": "12493583195865651768",
+      "CodeNote": "不在同一POI，无法挑战"
+    },
+    {
+      "ErrorInfo": 221012,
+      "AlertType": "Hide",
+      "ErrorCode": 221012,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>挑战目标玩家战斗数据不存在"
+    },
+    {
+      "ErrorInfo": 221013,
+      "AlertType": "Hide",
+      "ErrorCode": 221013,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>当前出战队伍不存在"
+    },
+    {
+      "ErrorInfo": 221014,
+      "AlertType": "Hide",
+      "ErrorCode": 221014,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯成员坐标为空"
+    },
+    {
+      "ErrorInfo": 221015,
+      "AlertType": "Tips",
+      "ErrorCode": 221015,
+      "SecurityType": "Display",
+      "DisplayText": "12493583195865651768",
+      "CodeNote": "挑战距离超限"
+    },
+    {
+      "ErrorInfo": 221016,
+      "AlertType": "Hide",
+      "ErrorCode": 221016,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯战斗数据不存在"
+    },
+    {
+      "ErrorInfo": 221017,
+      "AlertType": "Hide",
+      "ErrorCode": 221017,
+      "SecurityType": "Display",
+      "DisplayText": "16940806418496888285",
+      "CodeNote": "11520687461558741970"
+    },
+    {
+      "ErrorInfo": 221018,
+      "AlertType": "Tips",
+      "ErrorCode": 221018,
+      "SecurityType": "Display",
+      "DisplayText": "9282761694803745180",
+      "CodeNote": "撤退距离超限"
+    },
+    {
+      "ErrorInfo": 221019,
+      "AlertType": "Hide",
+      "ErrorCode": 221019,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>拾取对象组不存在"
+    },
+    {
+      "ErrorInfo": 221020,
+      "AlertType": "Hide",
+      "ErrorCode": 221020,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>拾取对象不存在"
+    },
+    {
+      "ErrorInfo": 221021,
+      "AlertType": "Tips",
+      "ErrorCode": 221021,
+      "SecurityType": "Display",
+      "DisplayText": "8332111331349143575",
+      "CodeNote": "该系统掉落已被拾取"
+    },
+    {
+      "ErrorInfo": 221022,
+      "AlertType": "Tips",
+      "ErrorCode": 221022,
+      "SecurityType": "Display",
+      "DisplayText": "12976542976258757850",
+      "CodeNote": "当前玩家不可拾取该掉落"
+    },
+    {
+      "ErrorInfo": 221023,
+      "AlertType": "Hide",
+      "ErrorCode": 221023,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>触发buff清理时成员为空"
+    },
+    {
+      "ErrorInfo": 221024,
+      "AlertType": "Tips",
+      "ErrorCode": 221024,
+      "SecurityType": "Display",
+      "DisplayText": "607073603694435200",
+      "CodeNote": "拾取距离超限"
+    },
+    {
+      "ErrorInfo": 221025,
+      "AlertType": "Hide",
+      "ErrorCode": 221025,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>玩家掉落坐标不存在"
+    },
+    {
+      "ErrorInfo": 221026,
+      "AlertType": "Hide",
+      "ErrorCode": 221026,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯成员不存在"
+    },
+    {
+      "ErrorInfo": 221027,
+      "AlertType": "Tips",
+      "ErrorCode": 221027,
+      "SecurityType": "Display",
+      "DisplayText": "2168651286302441643",
+      "CodeNote": "队伍数量不合法"
+    },
+    {
+      "ErrorInfo": 221028,
+      "AlertType": "Tips",
+      "ErrorCode": 221028,
+      "SecurityType": "Display",
+      "DisplayText": "17649344490967043633",
+      "CodeNote": "队伍ID超出范围"
+    },
+    {
+      "ErrorInfo": 221029,
+      "AlertType": "Tips",
+      "ErrorCode": 221029,
+      "SecurityType": "Display",
+      "DisplayText": "17612946675319167849",
+      "CodeNote": "队伍ID重复"
+    },
+    {
+      "ErrorInfo": 221030,
+      "AlertType": "Tips",
+      "ErrorCode": 221030,
+      "SecurityType": "Display",
+      "DisplayText": "7246618700808034740",
+      "CodeNote": "玩家未进入地图"
+    },
+    {
+      "ErrorInfo": 221031,
+      "AlertType": "Hide",
+      "ErrorCode": 221031,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "玩家状态不合法"
+    },
+    {
+      "ErrorInfo": 221032,
+      "AlertType": "Tips",
+      "ErrorCode": 221032,
+      "SecurityType": "Display",
+      "DisplayText": "14386165946073828969",
+      "CodeNote": "队伍状态不合法"
+    },
+    {
+      "ErrorInfo": 221033,
+      "AlertType": "Hide",
+      "ErrorCode": 221033,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯阶段非法"
+    },
+    {
+      "ErrorInfo": 221034,
+      "AlertType": "Tips",
+      "ErrorCode": 221034,
+      "SecurityType": "Display",
+      "DisplayText": "421716048598710186",
+      "CodeNote": "对手队伍已变更"
+    },
+    {
+      "ErrorInfo": 221035,
+      "AlertType": "Hide",
+      "ErrorCode": 221035,
+      "SecurityType": "Display",
+      "DisplayText": "8355058190104421843",
+      "CodeNote": "玩家交战中，无法移动"
+    },
+    {
+      "ErrorInfo": 221036,
+      "AlertType": "Tips",
+      "ErrorCode": 221036,
+      "SecurityType": "Display",
+      "DisplayText": "14118244595036122030",
+      "CodeNote": "玩家狀態不合法"
+    },
+    {
+      "ErrorInfo": 221037,
+      "AlertType": "Tips",
+      "ErrorCode": 221037,
+      "SecurityType": "Display",
+      "DisplayText": "4122989222052487777",
+      "CodeNote": "玩家狀態不合法"
+    },
+    {
+      "ErrorInfo": 221038,
+      "AlertType": "Tips",
+      "ErrorCode": 221038,
+      "SecurityType": "Display",
+      "DisplayText": "12834793553982824491",
+      "CodeNote": "玩家无法参加"
+    },
+    {
+      "ErrorInfo": 221039,
+      "AlertType": "Tips",
+      "ErrorCode": 221039,
+      "SecurityType": "Display",
+      "DisplayText": "8455979147755489624",
+      "CodeNote": "玩家人数限制"
+    },
+    {
+      "ErrorInfo": 221040,
+      "AlertType": "Tips",
+      "ErrorCode": 221040,
+      "SecurityType": "Display",
+      "DisplayText": "13173149481903269571",
+      "CodeNote": "玩家时间限制"
+    },
+    {
+      "ErrorInfo": 222001,
+      "AlertType": "Alert",
+      "ErrorCode": 222001,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>slg_map成员不存在"
+    },
+    {
+      "ErrorInfo": 222002,
+      "AlertType": "Hide",
+      "ErrorCode": 222002,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>slg_map类型不支持"
+    },
+    {
+      "ErrorInfo": 222003,
+      "AlertType": "Alert",
+      "ErrorCode": 222003,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>slg_map类型非法"
+    },
+    {
+      "ErrorInfo": 222004,
+      "AlertType": "Alert",
+      "ErrorCode": 222004,
+      "SecurityType": "Display",
+      "DisplayText": "5331690047738787240",
+      "CodeNote": "玩家未进入地图"
+    },
+    {
+      "ErrorInfo": 222005,
+      "AlertType": "Hide",
+      "ErrorCode": 222005,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>当前地图不是学院杯或未初始化"
+    },
+    {
+      "ErrorInfo": 222006,
+      "AlertType": "Alert",
+      "ErrorCode": 222006,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>slg_mapid非法"
+    },
+    {
+      "ErrorInfo": 227001,
+      "AlertType": "Tips",
+      "ErrorCode": 227001,
+      "SecurityType": "Display",
+      "DisplayText": "10046769649219978100",
+      "CodeNote": "活动未开放或已进入收尾阶段，无法操作"
+    },
+    {
+      "ErrorInfo": 227002,
+      "AlertType": "Tips",
+      "ErrorCode": 227002,
+      "SecurityType": "Display",
+      "DisplayText": "11545897603160111641",
+      "CodeNote": "公会尚未匹配上桌"
+    },
+    {
+      "ErrorInfo": 227003,
+      "AlertType": "Tips",
+      "ErrorCode": 227003,
+      "SecurityType": "Display",
+      "DisplayText": "6980127287711275896",
+      "CodeNote": "没有公会管理权限"
+    },
+    {
+      "ErrorInfo": 227004,
+      "AlertType": "Hide",
+      "ErrorCode": 227004,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>AcademyWorld配表参数非法"
+    },
+    {
+      "ErrorInfo": 227005,
+      "AlertType": "Hide",
+      "ErrorCode": 227005,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>周结算名次超出段位WeeklyRankStarDelta配置范围"
+    },
+    {
+      "ErrorInfo": 227006,
+      "AlertType": "Hide",
+      "ErrorCode": 227006,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>桌内不存在该区域"
+    },
+    {
+      "ErrorInfo": 227007,
+      "AlertType": "Hide",
+      "ErrorCode": 227007,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>公会不在该匹配桌内"
+    },
+    {
+      "ErrorInfo": 227008,
+      "AlertType": "Tips",
+      "ErrorCode": 227008,
+      "SecurityType": "Display",
+      "DisplayText": "752975814043122191",
+      "CodeNote": "参战方未设置任何可用阵容"
+    },
+    {
+      "ErrorInfo": 227009,
+      "AlertType": "Tips",
+      "ErrorCode": 227009,
+      "SecurityType": "Display",
+      "DisplayText": "12347709832851391320",
+      "CodeNote": "阵容teamID超出合法范围"
+    },
+    {
+      "ErrorInfo": 227010,
+      "AlertType": "Tips",
+      "ErrorCode": 227010,
+      "SecurityType": "Display",
+      "DisplayText": "11539562033396831956",
+      "CodeNote": "阵容有重复teamID"
+    },
+    {
+      "ErrorInfo": 227011,
+      "AlertType": "Tips",
+      "ErrorCode": 227011,
+      "SecurityType": "Display",
+      "DisplayText": "3002848166580784220",
+      "CodeNote": "公会小队数量或squadID超出配置上限"
+    },
+    {
+      "ErrorInfo": 227012,
+      "AlertType": "Tips",
+      "ErrorCode": 227012,
+      "SecurityType": "Display",
+      "DisplayText": "7363512669818632581",
+      "CodeNote": "公会小队列表有重复squadID"
+    },
+    {
+      "ErrorInfo": 227013,
+      "AlertType": "Tips",
+      "ErrorCode": 227013,
+      "SecurityType": "Display",
+      "DisplayText": "7337606290967476513",
+      "CodeNote": "单个公会小队成员数量超过上限"
+    },
+    {
+      "ErrorInfo": 227014,
+      "AlertType": "Tips",
+      "ErrorCode": 227014,
+      "SecurityType": "Display",
+      "DisplayText": "15409132813142472550",
+      "CodeNote": "同一玩家进入多个小队"
+    },
+    {
+      "ErrorInfo": 227015,
+      "AlertType": "Tips",
+      "ErrorCode": 227015,
+      "SecurityType": "Display",
+      "DisplayText": "11467522766867460394",
+      "CodeNote": "小队成员不在本期参赛名单内（匹配后进会/非同桌成员不可参战）"
+    },
+    {
+      "ErrorInfo": 227016,
+      "AlertType": "Tips",
+      "ErrorCode": 227016,
+      "SecurityType": "Display",
+      "DisplayText": "14050216286846197022",
+      "CodeNote": "不能助力自己"
+    },
+    {
+      "ErrorInfo": 227017,
+      "AlertType": "Tips",
+      "ErrorCode": 227017,
+      "SecurityType": "Display",
+      "DisplayText": "15717701434596280024",
+      "CodeNote": "助力者已在小队中"
+    },
+    {
+      "ErrorInfo": 227018,
+      "AlertType": "Tips",
+      "ErrorCode": 227018,
+      "SecurityType": "Display",
+      "DisplayText": "5345325482860924195",
+      "CodeNote": "助力目标不在小队中"
+    },
+    {
+      "ErrorInfo": 227019,
+      "AlertType": "Tips",
+      "ErrorCode": 227019,
+      "SecurityType": "Display",
+      "DisplayText": "7291941490355457559",
+      "CodeNote": "当前不在宣战阶段"
+    },
+    {
+      "ErrorInfo": 227020,
+      "AlertType": "Tips",
+      "ErrorCode": 227020,
+      "SecurityType": "Display",
+      "DisplayText": "6868037667656054614",
+      "CodeNote": "目标区域尚未到开放阶段"
+    },
+    {
+      "ErrorInfo": 227021,
+      "AlertType": "Tips",
+      "ErrorCode": 227021,
+      "SecurityType": "Display",
+      "DisplayText": "14969705961977399996",
+      "CodeNote": "目标区域与已占领区域不相邻"
+    },
+    {
+      "ErrorInfo": 227022,
+      "AlertType": "Tips",
+      "ErrorCode": 227022,
+      "SecurityType": "Display",
+      "DisplayText": "12883175355632059654",
+      "CodeNote": "不能对自己占领的区域宣战"
+    },
+    {
+      "ErrorInfo": 227023,
+      "AlertType": "Tips",
+      "ErrorCode": 227023,
+      "SecurityType": "Display",
+      "DisplayText": "4041951686713149034",
+      "CodeNote": "出生地块受保护，不能被宣战或驻防"
+    },
+    {
+      "ErrorInfo": 227024,
+      "AlertType": "Tips",
+      "ErrorCode": 227024,
+      "SecurityType": "Display",
+      "DisplayText": "16858440493722242055",
+      "CodeNote": "已对该区域宣战"
+    },
+    {
+      "ErrorInfo": 227025,
+      "AlertType": "Tips",
+      "ErrorCode": 227025,
+      "SecurityType": "Display",
+      "DisplayText": "7630046352470382919",
+      "CodeNote": "未对该区域宣战，无法撤回或参战"
+    },
+    {
+      "ErrorInfo": 227026,
+      "AlertType": "Tips",
+      "ErrorCode": 227026,
+      "SecurityType": "Display",
+      "DisplayText": "9091121276318081873",
+      "CodeNote": "同时宣战数量已达上限"
+    },
+    {
+      "ErrorInfo": 227027,
+      "AlertType": "Tips",
+      "ErrorCode": 227027,
+      "SecurityType": "Display",
+      "DisplayText": "5271367442097646707",
+      "CodeNote": "宣战冷却中，无法再次宣战"
+    },
+    {
+      "ErrorInfo": 227028,
+      "AlertType": "Tips",
+      "ErrorCode": 227028,
+      "SecurityType": "Display",
+      "DisplayText": "15342634668783275940",
+      "CodeNote": "目标区域宣战公会名额已满"
+    },
+    {
+      "ErrorInfo": 227029,
+      "AlertType": "Tips",
+      "ErrorCode": 227029,
+      "SecurityType": "Display",
+      "DisplayText": "10001696124193629873",
+      "CodeNote": "放弃优先级列表必须恰好包含全部非出生占领区域"
+    },
+    {
+      "ErrorInfo": 227030,
+      "AlertType": "Tips",
+      "ErrorCode": 227030,
+      "SecurityType": "Display",
+      "DisplayText": "3388636845160653775",
+      "CodeNote": "只能驻防自己占领的区域"
+    },
+    {
+      "ErrorInfo": 227031,
+      "AlertType": "Tips",
+      "ErrorCode": 227031,
+      "SecurityType": "Display",
+      "DisplayText": "1872636298383730226",
+      "CodeNote": "已在该区域驻防"
+    },
+    {
+      "ErrorInfo": 227032,
+      "AlertType": "Tips",
+      "ErrorCode": 227032,
+      "SecurityType": "Display",
+      "DisplayText": "408023746030426549",
+      "CodeNote": "未在该区域驻防，无法撤回/更替"
+    },
+    {
+      "ErrorInfo": 227033,
+      "AlertType": "Tips",
+      "ErrorCode": 227033,
+      "SecurityType": "Display",
+      "DisplayText": "3150695133721572755",
+      "CodeNote": "同一小队同时只能派往一个区域"
+    },
+    {
+      "ErrorInfo": 227034,
+      "AlertType": "Tips",
+      "ErrorCode": 227034,
+      "SecurityType": "Display",
+      "DisplayText": "9581626254199763177",
+      "CodeNote": "目标魔晶不存在或ID非法"
+    },
+    {
+      "ErrorInfo": 227035,
+      "AlertType": "Tips",
+      "ErrorCode": 227035,
+      "SecurityType": "Display",
+      "DisplayText": "6703746608523241369",
+      "CodeNote": "魔晶所在区域不属于本公会"
+    },
+    {
+      "ErrorInfo": 227036,
+      "AlertType": "Tips",
+      "ErrorCode": 227036,
+      "SecurityType": "Display",
+      "DisplayText": "13342324621384366620",
+      "CodeNote": "魔晶守卫数量已达上限"
+    },
+    {
+      "ErrorInfo": 227037,
+      "AlertType": "Tips",
+      "ErrorCode": 227037,
+      "SecurityType": "Display",
+      "DisplayText": "12488754058223468176",
+      "CodeNote": "已在守卫该魔晶，无需重复挑战"
+    },
+    {
+      "ErrorInfo": 227038,
+      "AlertType": "Tips",
+      "ErrorCode": 227038,
+      "SecurityType": "Display",
+      "DisplayText": "13176774825832086595",
+      "CodeNote": "魔晶接力战斗尚未开始（非首场却无进行中的会话）"
+    },
+    {
+      "ErrorInfo": 227039,
+      "AlertType": "Tips",
+      "ErrorCode": 227039,
+      "SecurityType": "Display",
+      "DisplayText": "15479900800801878234",
+      "CodeNote": "目标玩家不在该魔晶的守卫列表中"
+    },
+    {
+      "ErrorInfo": 227040,
+      "AlertType": "Tips",
+      "ErrorCode": 227040,
+      "SecurityType": "Display",
+      "DisplayText": "11375969970723759106",
+      "CodeNote": "不能掠夺本公会占领区域的魔晶"
+    },
+    {
+      "ErrorInfo": 227041,
+      "AlertType": "Tips",
+      "ErrorCode": 227041,
+      "SecurityType": "Display",
+      "DisplayText": "2077249980300482744",
+      "CodeNote": "该防守者今日被掠夺次数已达上限"
+    },
+    {
+      "ErrorInfo": 227042,
+      "AlertType": "Tips",
+      "ErrorCode": 227042,
+      "SecurityType": "Display",
+      "DisplayText": "4964719099297087835",
+      "CodeNote": "战斗录像不存在"
+    },
+    {
+      "ErrorInfo": 227043,
+      "AlertType": "Tips",
+      "ErrorCode": 227043,
+      "SecurityType": "Display",
+      "DisplayText": "17256090386445015860",
+      "CodeNote": "管理员选择时间段次数已达上限"
+    },
+    {
+      "ErrorInfo": 227044,
+      "AlertType": "Tips",
+      "ErrorCode": 227044,
+      "SecurityType": "Display",
+      "DisplayText": "7929460354143797795",
+      "CodeNote": "当前阶段不可进行魔晶守矿"
+    },
+    {
+      "ErrorInfo": 227045,
+      "AlertType": "Tips",
+      "ErrorCode": 227045,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>公会本期已匹配上桌，不能重复匹配"
+    },
+    {
+      "ErrorInfo": 227046,
+      "AlertType": "Tips",
+      "ErrorCode": 227046,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯单局结束回调重复到达，本局已处理过"
+    },
+    {
+      "ErrorInfo": 227047,
+      "AlertType": "Tips",
+      "ErrorCode": 227047,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>魔晶接力战斗输出缺少AcademyCup扩展(manaCut)，会话无法推进"
+    },
+    {
+      "ErrorInfo": 228001,
+      "AlertType": "Tips",
+      "ErrorCode": 228001,
+      "SecurityType": "Display",
+      "DisplayText": "15483374992209507089",
+      "CodeNote": "免费挑战次数还没用完，不能购买"
+    },
+    {
+      "ErrorInfo": 228002,
+      "AlertType": "Tips",
+      "ErrorCode": 228002,
+      "SecurityType": "Display",
+      "DisplayText": "2102680808334360807",
+      "CodeNote": "临近本周结算的冻结期内，不能再挑战"
+    },
+    {
+      "ErrorInfo": 229001,
+      "AlertType": "Tips",
+      "ErrorCode": 229001,
+      "SecurityType": "Display",
+      "DisplayText": "365426671423882242",
+      "CodeNote": "幸运房东活动未开启"
+    },
+    {
+      "ErrorInfo": 229002,
+      "AlertType": "Tips",
+      "ErrorCode": 229002,
+      "SecurityType": "Display",
+      "DisplayText": "16413521805632643710",
+      "CodeNote": "幸运房东配置缺失"
+    },
+    {
+      "ErrorInfo": 229003,
+      "AlertType": "Tips",
+      "ErrorCode": 229003,
+      "SecurityType": "Display",
+      "DisplayText": "13897913250926232243",
+      "CodeNote": "本局回合已打满，请先开奖结算"
+    },
+    {
+      "ErrorInfo": 229004,
+      "AlertType": "Tips",
+      "ErrorCode": 229004,
+      "SecurityType": "Display",
+      "DisplayText": "5367474781075860984",
+      "CodeNote": "当前回合没有可用的开奖次数"
+    },
+    {
+      "ErrorInfo": 229005,
+      "AlertType": "Tips",
+      "ErrorCode": 229005,
+      "SecurityType": "Display",
+      "DisplayText": "13773443601517615438",
+      "CodeNote": "有待选择的3选1，请先完成选择"
+    },
+    {
+      "ErrorInfo": 229006,
+      "AlertType": "Tips",
+      "ErrorCode": 229006,
+      "SecurityType": "Display",
+      "DisplayText": "11810228657298591987",
+      "CodeNote": "当前没有待选择的3选1奖励"
+    },
+    {
+      "ErrorInfo": 229007,
+      "AlertType": "Tips",
+      "ErrorCode": 229007,
+      "SecurityType": "Display",
+      "DisplayText": "15155256519811180143",
+      "CodeNote": "3选1选项序号非法"
+    },
+    {
+      "ErrorInfo": 229008,
+      "AlertType": "Tips",
+      "ErrorCode": 229008,
+      "SecurityType": "Display",
+      "DisplayText": "11103073815199806178",
+      "CodeNote": "升级所需的建筑卡数量不足"
+    },
+    {
+      "ErrorInfo": 229009,
+      "AlertType": "Tips",
+      "ErrorCode": 229009,
+      "SecurityType": "Display",
+      "DisplayText": "1171610550219361510",
+      "CodeNote": "对局未开始"
+    },
+    {
+      "ErrorInfo": 227048,
+      "AlertType": "Tips",
+      "ErrorCode": 227048,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>匹配桌已存在，不能重复创建（awID全局自增不复用，属异常重复建桌）"
+    },
+    {
+      "ErrorInfo": 227049,
+      "AlertType": "Tips",
+      "ErrorCode": 227049,
+      "SecurityType": "Display",
+      "DisplayText": "693571575240633674",
+      "CodeNote": "当前不在预告阶段，无法修改时段"
+    },
+    {
+      "ErrorInfo": 221041,
+      "AlertType": "Tips",
+      "ErrorCode": 221041,
+      "SecurityType": "Display",
+      "DisplayText": "9726793460225065968",
+      "CodeNote": "不在本场参战小队中"
+    },
+    {
+      "ErrorInfo": 221042,
+      "AlertType": "Tips",
+      "ErrorCode": 221042,
+      "SecurityType": "Display",
+      "DisplayText": "16519815053867068151",
+      "CodeNote": "公会进场人数已满"
+    },
+    {
+      "ErrorInfo": 227050,
+      "AlertType": "Tips",
+      "ErrorCode": 227050,
+      "SecurityType": "ErrorCode",
+      "DisplayText": null,
+      "CodeNote": "<NotForUser>学院杯单局结束回调不归属任何在册对阵（孤儿局/对阵已清理），整体拒绝"
+    },
+    {
+      "ErrorInfo": 221043,
+      "AlertType": "Tips",
+      "ErrorCode": 221043,
+      "SecurityType": "Display",
+      "DisplayText": "13897913250926232243",
+      "CodeNote": "324606110157780011"
+    },
+    {
+      "ErrorInfo": 221044,
+      "AlertType": "Tips",
+      "ErrorCode": 221044,
+      "SecurityType": "Display",
+      "DisplayText": "16012415598052329436",
+      "CodeNote": "无本期参赛资格"
     }
   ]
 }

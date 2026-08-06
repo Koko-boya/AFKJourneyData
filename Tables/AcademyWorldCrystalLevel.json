@@ -2,231 +2,375 @@
   "_meta": {
     "table": "AcademyWorldCrystalLevel",
     "header_table": "AcademyWorldCrystalLevelHeaderTable",
-    "source_table": "AcademyWorldCrystalLevelTable",
-    "format": "explicit_rows",
-    "schema_size": 7,
+    "format": "flat_rows",
+    "schema_size": 12,
     "row_count": 8,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "array_fields": [
+      "LeaderID",
+      "MonsterID"
+    ],
+    "unresolved_array_refs": 16
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "Level": "null",
+    "Scale": 0,
+    "FxScale": 0,
+    "DailyRewards": {},
+    "PlunderWinRewards": {},
+    "DefendWinRewards": {},
+    "MaxGarrison": 0,
+    "CrystalBotName": null,
+    "CrystalBattleGroupID": 0,
+    "MonsterID": {},
+    "MonsterSpGrowthID": {},
+    "LeaderID": {}
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
   "rows": [
     {
       "Level": 1,
       "Scale": 1,
+      "FxScale": 0.25,
       "DailyRewards": {
         "1": 1002,
-        "2": 110003006,
-        "3": 100
-      },
-      "PlunderWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 50,
-        "4": 1002,
-        "5": 110003005,
-        "6": 10
-      },
-      "DefendWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 20,
-        "4": 1002,
-        "5": 110003005,
-        "6": 10
-      },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030001
-    },
-    {
-      "Level": 2,
-      "Scale": 2,
-      "DailyRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 200
-      },
-      "PlunderWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 100,
-        "4": 1002,
-        "5": 110003005,
-        "6": 20
-      },
-      "DefendWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 40,
-        "4": 1002,
-        "5": 110003005,
-        "6": 20
-      },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030002
-    },
-    {
-      "Level": 3,
-      "Scale": 1,
-      "DailyRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 300
-      },
-      "PlunderWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 150,
-        "4": 1002,
-        "5": 110003005,
-        "6": 30
-      },
-      "DefendWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 60,
-        "4": 1002,
-        "5": 110003005,
-        "6": 30
-      },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030003
-    },
-    {
-      "Level": 4,
-      "Scale": 2,
-      "DailyRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 400
-      },
-      "PlunderWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 200,
-        "4": 1002,
-        "5": 110003005,
-        "6": 40
-      },
-      "DefendWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 80,
-        "4": 1002,
-        "5": 110003005,
-        "6": 40
-      },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030004
-    },
-    {
-      "Level": 5,
-      "Scale": 1,
-      "DailyRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 500
-      },
-      "PlunderWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 250,
-        "4": 1002,
-        "5": 110003005,
-        "6": 50
-      },
-      "DefendWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 100,
-        "4": 1002,
-        "5": 110003005,
-        "6": 50
-      },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030005
-    },
-    {
-      "Level": 6,
-      "Scale": 2,
-      "DailyRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 600
-      },
-      "PlunderWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 300,
-        "4": 1002,
-        "5": 110003005,
-        "6": 60
-      },
-      "DefendWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 120,
-        "4": 1002,
-        "5": 110003005,
-        "6": 60
-      },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030006
-    },
-    {
-      "Level": 7,
-      "Scale": 1,
-      "DailyRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 700
-      },
-      "PlunderWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 350,
-        "4": 1002,
-        "5": 110003005,
-        "6": 70
-      },
-      "DefendWinRewards": {
-        "1": 1002,
-        "2": 110003006,
-        "3": 140,
-        "4": 1002,
-        "5": 110003005,
-        "6": 70
-      },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030001
-    },
-    {
-      "Level": 8,
-      "Scale": 2,
-      "DailyRewards": {
-        "1": 1002,
-        "2": 110003006,
+        "2": 110019001,
         "3": 800
       },
       "PlunderWinRewards": {
         "1": 1002,
-        "2": 110003006,
+        "2": 110019001,
+        "3": 50,
+        "4": 1002,
+        "5": 110019002,
+        "6": 10
+      },
+      "DefendWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 20,
+        "4": 1002,
+        "5": 110019002,
+        "6": 10
+      },
+      "MaxGarrison": 30,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140001,
+        "2": 1140001,
+        "3": 1140001,
+        "4": 1140001,
+        "5": 1140001
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
+    },
+    {
+      "Level": 2,
+      "Scale": 1.15,
+      "FxScale": 0.28,
+      "DailyRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 880
+      },
+      "PlunderWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 100,
+        "4": 1002,
+        "5": 110019002,
+        "6": 20
+      },
+      "DefendWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 40,
+        "4": 1002,
+        "5": 110019002,
+        "6": 20
+      },
+      "MaxGarrison": 30,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140002,
+        "2": 1140002,
+        "3": 1140002,
+        "4": 1140002,
+        "5": 1140002
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
+    },
+    {
+      "Level": 3,
+      "Scale": 0.97,
+      "FxScale": 0.31,
+      "DailyRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 920
+      },
+      "PlunderWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 150,
+        "4": 1002,
+        "5": 110019002,
+        "6": 30
+      },
+      "DefendWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 60,
+        "4": 1002,
+        "5": 110019002,
+        "6": 30
+      },
+      "MaxGarrison": 30,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140003,
+        "2": 1140003,
+        "3": 1140003,
+        "4": 1140003,
+        "5": 1140003
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
+    },
+    {
+      "Level": 4,
+      "Scale": 1.12,
+      "FxScale": 0.34,
+      "DailyRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 960
+      },
+      "PlunderWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 200,
+        "4": 1002,
+        "5": 110019002,
+        "6": 40
+      },
+      "DefendWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 80,
+        "4": 1002,
+        "5": 110019002,
+        "6": 40
+      },
+      "MaxGarrison": 30,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140004,
+        "2": 1140004,
+        "3": 1140004,
+        "4": 1140004,
+        "5": 1140004
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
+    },
+    {
+      "Level": 5,
+      "Scale": 0.83,
+      "FxScale": 0.38,
+      "DailyRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 1040
+      },
+      "PlunderWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 250,
+        "4": 1002,
+        "5": 110019002,
+        "6": 50
+      },
+      "DefendWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 100,
+        "4": 1002,
+        "5": 110019002,
+        "6": 50
+      },
+      "MaxGarrison": 30,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140005,
+        "2": 1140005,
+        "3": 1140005,
+        "4": 1140005,
+        "5": 1140005
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
+    },
+    {
+      "Level": 6,
+      "Scale": 0.95,
+      "FxScale": 0.42,
+      "DailyRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 1120
+      },
+      "PlunderWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 300,
+        "4": 1002,
+        "5": 110019002,
+        "6": 60
+      },
+      "DefendWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 120,
+        "4": 1002,
+        "5": 110019002,
+        "6": 60
+      },
+      "MaxGarrison": 30,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140006,
+        "2": 1140006,
+        "3": 1140006,
+        "4": 1140006,
+        "5": 1140006
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
+    },
+    {
+      "Level": 7,
+      "Scale": 0.87,
+      "FxScale": 0.46,
+      "DailyRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 1200
+      },
+      "PlunderWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 350,
+        "4": 1002,
+        "5": 110019002,
+        "6": 70
+      },
+      "DefendWinRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 140,
+        "4": 1002,
+        "5": 110019002,
+        "6": 70
+      },
+      "MaxGarrison": 30,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140007,
+        "2": 1140007,
+        "3": 1140007,
+        "4": 1140007,
+        "5": 1140007
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
+    },
+    {
+      "Level": 8,
+      "Scale": 1,
+      "FxScale": 0.5,
+      "DailyRewards": {
+        "1": 1002,
+        "2": 110019001,
+        "3": 1280
+      },
+      "PlunderWinRewards": {
+        "1": 1002,
+        "2": 110019001,
         "3": 400,
         "4": 1002,
-        "5": 110003005,
+        "5": 110019002,
         "6": 80
       },
       "DefendWinRewards": {
         "1": 1002,
-        "2": 110003006,
+        "2": 110019001,
         "3": 160,
         "4": 1002,
-        "5": 110003005,
+        "5": 110019002,
         "6": 80
       },
-      "MaxGarrison": 30,
-      "CrystalBattleGroupID": 5030002
+      "MaxGarrison": 45,
+      "CrystalBotName": "3129372141302703096",
+      "CrystalBattleGroupID": 506503,
+      "MonsterID": {
+        "$arrayRef": 18
+      },
+      "MonsterSpGrowthID": {
+        "1": 1140008,
+        "2": 1140008,
+        "3": 1140008,
+        "4": 1140008,
+        "5": 1140008
+      },
+      "LeaderID": {
+        "$arrayRef": 33
+      }
     }
   ]
 }

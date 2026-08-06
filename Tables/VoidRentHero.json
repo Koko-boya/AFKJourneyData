@@ -4,11 +4,11 @@
     "header_table": "VoidRentHeroHeaderTable",
     "format": "flat_rows",
     "schema_size": 3,
-    "row_count": 6,
+    "row_count": 8,
     "array_fields": [
       "RentPrice"
     ],
-    "unresolved_array_refs": 6
+    "unresolved_array_refs": 8
   },
   "default": {
     "HeroID": "null",
@@ -21,50 +21,66 @@
     121,
     122,
     124,
-    125
+    125,
+    149,
+    150
   ],
   "rows": [
     {
       "HeroID": 72,
       "RentPrice": {
-        "$arrayRef": 91099
+        "$arrayRef": 92136
       },
       "CanRent": true
     },
     {
       "HeroID": 73,
       "RentPrice": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "CanRent": true
     },
     {
       "HeroID": 121,
       "RentPrice": {
-        "$arrayRef": 91099
+        "$arrayRef": 92136
       },
       "CanRent": true
     },
     {
       "HeroID": 122,
       "RentPrice": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "CanRent": true
     },
     {
       "HeroID": 124,
       "RentPrice": {
-        "$arrayRef": 91099
+        "$arrayRef": 92136
       },
       "CanRent": true
     },
     {
       "HeroID": 125,
       "RentPrice": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "CanRent": true
+    },
+    {
+      "HeroID": 149,
+      "RentPrice": {
+        "$arrayRef": 92136
+      },
+      "CanRent": false
+    },
+    {
+      "HeroID": 150,
+      "RentPrice": {
+        "$arrayRef": 92136
+      },
+      "CanRent": false
     }
   ]
 }

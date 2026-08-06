@@ -6,11 +6,10 @@
     "schema_size": 129,
     "row_count": 3,
     "array_fields": [
-      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "TargetShapeArgs",
-      "Trajectory"
+      "ReselectTargetArgs",
+      "TargetShapeArgs"
     ],
     "unresolved_array_refs": 12
   },
@@ -152,9 +151,9 @@
   ],
   "rows": [
     {
-      "CasterID": 5023,
+      "CasterID": 5007,
       "SkillID": 0,
-      "SkillName": "pandorabox_atk",
+      "SkillName": "hjqueencat_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -174,28 +173,30 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
+      "Icon": null,
       "Description": "普通攻击（不用翻译）",
-      "SimpleDescription": null,
-      "ActiveType": "passive",
+      "SimpleDescription": "（不用翻译）",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 1,
-      "CD": 9999,
-      "InitCD": 9999,
+      "ReselectTargetArgs": {
+        "$arrayRef": 110763
+      },
+      "TargetBlockType": "noblock",
+      "Priority": 5,
+      "CD": 0,
+      "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -205,13 +206,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 108527
+        "$arrayRef": 110766
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108527
+        "$arrayRef": 110766
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -221,7 +222,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -256,7 +257,7 @@
       "FallFrozenTime": 0,
       "KnockNotFall": false,
       "IsNoLaunch": false,
-      "RandomBasicAtk": false,
+      "RandomBasicAtk": true,
       "HasUpDownAction": false,
       "DamagePopupList": {},
       "TileCollideType": null,
@@ -289,10 +290,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5023,
+      "CasterID": 5007,
       "SkillID": 11,
-      "SkillName": "pandorabox_ult",
-      "DisplayName": "（不用翻译）盒子大招",
+      "SkillName": "hjqueencat_atk2",
+      "DisplayName": "卖萌伸懒腰(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -307,31 +308,33 @@
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": null,
+      "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_paladin.png",
-      "Description": null,
-      "SimpleDescription": null,
-      "ActiveType": "manual",
+      "Icon": null,
+      "Description": "（不用翻译）",
+      "SimpleDescription": "（不用翻译）",
+      "ActiveType": "active",
       "ThumpCondition": -1,
-      "SetSpeeder": 0,
-      "TargetType": "hex",
+      "SetSpeeder": -1,
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
-      "TargetCamp": 0,
+      "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
-      "ReselectTargetArgs": {},
+      "ReselectTargetArgs": {
+        "$arrayRef": 110763
+      },
       "TargetBlockType": "noblock",
-      "Priority": 10,
-      "CD": 0,
-      "InitCD": 0,
-      "GlobalCD": 1.25,
-      "CostMP": 1000,
+      "Priority": 3,
+      "CD": 30,
+      "InitCD": 30,
+      "GlobalCD": 1,
+      "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
@@ -342,23 +345,19 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 108517
+        "$arrayRef": 109710
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 108517
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108517
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 0,
-      "AOEOrigin": "self",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 189
-      },
+      "AffectedCamp": -1,
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
@@ -430,10 +429,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 5023,
+      "CasterID": 5007,
       "SkillID": 21,
-      "SkillName": "pandorabox_atk4",
-      "DisplayName": "（不用翻译）atk3",
+      "SkillName": "hjqueencat_atk3",
+      "DisplayName": "卖萌转圈圈(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -452,30 +451,32 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad.png",
-      "Description": null,
-      "SimpleDescription": null,
+      "Icon": null,
+      "Description": "（不用翻译）",
+      "SimpleDescription": "（不用翻译）",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
       "TargetCamp": -1,
-      "TargetPriority": "random",
+      "TargetPriority": "target",
       "FirstPriority": {},
-      "ReselectTargetArgs": {},
+      "ReselectTargetArgs": {
+        "$arrayRef": 110763
+      },
       "TargetBlockType": "noblock",
-      "Priority": 3,
-      "CD": 5,
-      "InitCD": 2,
-      "GlobalCD": 1.25,
+      "Priority": 2,
+      "CD": 30,
+      "InitCD": 30,
+      "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
@@ -483,15 +484,13 @@
       "SkinUseWhich": {},
       "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 109566
+        "$arrayRef": 109711
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 108527
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 109566
+        "$arrayRef": 109711
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -500,7 +499,7 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
+      "PlusAttr": "ATK",
       "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
@@ -539,7 +538,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -551,8 +550,8 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},

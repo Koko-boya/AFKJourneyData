@@ -4,13 +4,13 @@
     "header_table": "ExplTask_1701HeaderTable",
     "format": "flat_rows",
     "schema_size": 10,
-    "row_count": 146,
+    "row_count": 152,
     "array_fields": [
       "ActionRewards",
       "ClientRecvEvents",
       "NextTaskIDs"
     ],
-    "unresolved_array_refs": 88
+    "unresolved_array_refs": 90
   },
   "default": {
     "LineID": "null",
@@ -31,7 +31,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85522
+        "$arrayRef": 86010
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(10010100,4)",
       "ClientRecvActionByMove": "true",
@@ -59,7 +59,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85700
+        "$arrayRef": 86188
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010101,1)",
       "ClientRecvActionByMove": "true",
@@ -109,14 +109,14 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85701
+        "$arrayRef": 86189
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,4)",
       "ClientRecvActionByMove": "true",
       "RecvAction": "true",
       "LastStepID": 5,
       "ActionRewards": {
-        "$arrayRef": 85718
+        "$arrayRef": 86206
       },
       "HasTimelinePlot": false
     },
@@ -137,7 +137,7 @@
       "TaskID": 3,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85702
+        "$arrayRef": 86190
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,2)",
       "ClientRecvActionByMove": "true",
@@ -163,7 +163,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85431
+        "$arrayRef": 85911
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,4)",
       "ClientRecvActionByMove": "true",
@@ -225,7 +225,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85703
+        "$arrayRef": 86191
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010104,5)",
       "ClientRecvActionByMove": "true",
@@ -250,7 +250,7 @@
       "LineID": 17010105,
       "TaskID": 3,
       "NextTaskIDs": {
-        "$arrayRef": 85546
+        "$arrayRef": 86034
       },
       "ClientRecvEvents": {},
       "RecvCondition": "true",
@@ -264,10 +264,10 @@
       "LineID": 17010105,
       "TaskID": 300,
       "NextTaskIDs": {
-        "$arrayRef": 7131
+        "$arrayRef": 7174
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85704
+        "$arrayRef": 86192
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17105230)==1",
       "ClientRecvActionByMove": "true",
@@ -280,10 +280,10 @@
       "LineID": 17010105,
       "TaskID": 400,
       "NextTaskIDs": {
-        "$arrayRef": 7131
+        "$arrayRef": 7174
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85704
+        "$arrayRef": 86192
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17105230)==2",
       "ClientRecvActionByMove": "true",
@@ -345,7 +345,7 @@
       "TaskID": 405,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85705
+        "$arrayRef": 86193
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,404)",
       "ClientRecvActionByMove": "true",
@@ -359,7 +359,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85436
+        "$arrayRef": 85916
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,405)",
       "ClientRecvActionByMove": "true",
@@ -499,7 +499,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85706
+        "$arrayRef": 86194
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010107,6)",
       "ClientRecvActionByMove": "true",
@@ -545,11 +545,73 @@
       "HasTimelinePlot": false
     },
     {
+      "LineID": 17010109,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 85909
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.C_RunPlot(17110010) and ed.ActionX.AddStates(513300136,\"Show\",\"Interactive\",\"CMark_1\") and ed.ActionX.DelStates(1500480,\"TriggerClickable\")",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 17010109,
+      "TaskID": 2,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 9,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 17010109,
+      "TaskID": 3,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(513900142,\"Show\",\"Interactive\")",
+      "LastStepID": 17,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 17010109,
+      "TaskID": 4,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "true",
+      "LastStepID": 10,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 17010109,
+      "TaskID": 5,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {},
+      "RecvCondition": "true",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(513300232,\"Show\",\"Interactive\")",
+      "LastStepID": 11,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
       "LineID": 17010201,
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85707
+        "$arrayRef": 86195
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010104,3) and ed.ConditionX.StateCount(\"CMark_1\",512200063)>=1",
       "ClientRecvActionByMove": "true",
@@ -563,14 +625,14 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85707
+        "$arrayRef": 86195
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010104,3) and ed.ConditionX.StateCount(\"CMark_1\",512200063)>=1",
       "ClientRecvActionByMove": "true",
       "RecvAction": "ed.ActionX.AddStates(1400377,\"Show\",\"Interactive\")",
       "LastStepID": 10,
       "ActionRewards": {
-        "$arrayRef": 85544
+        "$arrayRef": 86032
       },
       "HasTimelinePlot": false
     },
@@ -579,7 +641,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -593,7 +655,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -607,7 +669,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -657,7 +719,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -719,7 +781,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85703
+        "$arrayRef": 86191
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010104,5)",
       "ClientRecvActionByMove": "true",
@@ -745,7 +807,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85709
+        "$arrayRef": 86197
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,401)",
       "ClientRecvActionByMove": "true",
@@ -807,7 +869,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -910,7 +972,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85436
+        "$arrayRef": 85916
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,405)",
       "ClientRecvActionByMove": "true",
@@ -936,7 +998,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85706
+        "$arrayRef": 86194
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010107,6)",
       "ClientRecvActionByMove": "true",
@@ -1030,7 +1092,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85710
+        "$arrayRef": 86198
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,3)",
       "ClientRecvActionByMove": "true",
@@ -1044,7 +1106,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85711
+        "$arrayRef": 86199
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,1)",
       "ClientRecvActionByMove": "true",
@@ -1058,7 +1120,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85710
+        "$arrayRef": 86198
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,3)",
       "ClientRecvActionByMove": "true",
@@ -1072,7 +1134,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1086,7 +1148,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85435
+        "$arrayRef": 85915
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,1)",
       "ClientRecvActionByMove": "true",
@@ -1115,7 +1177,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85711
+        "$arrayRef": 86199
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,1)",
       "ClientRecvActionByMove": "true",
@@ -1129,7 +1191,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85434
+        "$arrayRef": 85914
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010106,1)",
       "ClientRecvActionByMove": "true",
@@ -1143,7 +1205,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1157,7 +1219,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85711
+        "$arrayRef": 86199
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,1)",
       "ClientRecvActionByMove": "true",
@@ -1171,7 +1233,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1185,7 +1247,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85700
+        "$arrayRef": 86188
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010101,1)",
       "ClientRecvActionByMove": "true",
@@ -1227,7 +1289,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85431
+        "$arrayRef": 85911
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,4)",
       "ClientRecvActionByMove": "true",
@@ -1241,7 +1303,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1255,7 +1317,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1269,7 +1331,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1283,7 +1345,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85709
+        "$arrayRef": 86197
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,401)",
       "ClientRecvActionByMove": "true",
@@ -1297,7 +1359,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1311,7 +1373,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1325,7 +1387,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1353,7 +1415,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1367,7 +1429,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1380,10 +1442,10 @@
       "LineID": 17010363,
       "TaskID": 1,
       "NextTaskIDs": {
-        "$arrayRef": 85545
+        "$arrayRef": 86033
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1396,10 +1458,10 @@
       "LineID": 17010363,
       "TaskID": 200,
       "NextTaskIDs": {
-        "$arrayRef": 3078
+        "$arrayRef": 3121
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85712
+        "$arrayRef": 86200
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17363030)==1",
       "ClientRecvActionByMove": "true",
@@ -1412,10 +1474,10 @@
       "LineID": 17010363,
       "TaskID": 300,
       "NextTaskIDs": {
-        "$arrayRef": 3078
+        "$arrayRef": 3121
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85712
+        "$arrayRef": 86200
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17363030)==2",
       "ClientRecvActionByMove": "true",
@@ -1455,7 +1517,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1469,7 +1531,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1483,7 +1545,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1497,7 +1559,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85436
+        "$arrayRef": 85916
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,405)",
       "ClientRecvActionByMove": "true",
@@ -1511,7 +1573,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85432
+        "$arrayRef": 85912
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,1)",
       "ClientRecvActionByMove": "true",
@@ -1525,7 +1587,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85713
+        "$arrayRef": 86201
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010208,5)",
       "ClientRecvActionByMove": "true",
@@ -1539,7 +1601,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85713
+        "$arrayRef": 86201
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010208,5)",
       "ClientRecvActionByMove": "true",
@@ -1566,10 +1628,10 @@
       "LineID": 17010375,
       "TaskID": 1,
       "NextTaskIDs": {
-        "$arrayRef": 85580
+        "$arrayRef": 86068
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85714
+        "$arrayRef": 86202
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,2)",
       "ClientRecvActionByMove": "true",
@@ -1582,10 +1644,10 @@
       "LineID": 17010375,
       "TaskID": 400,
       "NextTaskIDs": {
-        "$arrayRef": 32127
+        "$arrayRef": 32170
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85715
+        "$arrayRef": 86203
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17371010)==1",
       "ClientRecvActionByMove": "true",
@@ -1598,10 +1660,10 @@
       "LineID": 17010375,
       "TaskID": 500,
       "NextTaskIDs": {
-        "$arrayRef": 32127
+        "$arrayRef": 32170
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85715
+        "$arrayRef": 86203
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17371010)==2",
       "ClientRecvActionByMove": "true",
@@ -1627,7 +1689,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85703
+        "$arrayRef": 86191
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010104,5)",
       "ClientRecvActionByMove": "true",
@@ -1656,7 +1718,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1670,7 +1732,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85700
+        "$arrayRef": 86188
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010101,1)",
       "ClientRecvActionByMove": "true",
@@ -1684,7 +1746,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85701
+        "$arrayRef": 86189
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,4)",
       "ClientRecvActionByMove": "true",
@@ -1698,7 +1760,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85716
+        "$arrayRef": 86204
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010380,1)",
       "ClientRecvActionByMove": "true",
@@ -1712,7 +1774,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1726,7 +1788,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1740,7 +1802,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85716
+        "$arrayRef": 86204
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010380,1)",
       "ClientRecvActionByMove": "true",
@@ -1754,7 +1816,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85716
+        "$arrayRef": 86204
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010380,1)",
       "ClientRecvActionByMove": "true",
@@ -1768,7 +1830,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85701
+        "$arrayRef": 86189
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,4)",
       "ClientRecvActionByMove": "true",
@@ -1782,7 +1844,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85709
+        "$arrayRef": 86197
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010105,401)",
       "ClientRecvActionByMove": "true",
@@ -1796,7 +1858,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1810,7 +1872,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85429
+        "$arrayRef": 85909
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
       "ClientRecvActionByMove": "true",
@@ -1835,7 +1897,7 @@
       "LineID": 17010391,
       "TaskID": 1,
       "NextTaskIDs": {
-        "$arrayRef": 85545
+        "$arrayRef": 86033
       },
       "ClientRecvEvents": {
         "1": "ExplTaskFinish:17010208:5",
@@ -1852,14 +1914,14 @@
       "LineID": 17010391,
       "TaskID": 200,
       "NextTaskIDs": {
-        "$arrayRef": 3078
+        "$arrayRef": 3121
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85717
+        "$arrayRef": 86205
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17372042)==1",
       "ClientRecvActionByMove": "true",
-      "RecvAction": "ed.ActionX.AddStates(512400216,\"Show\",\"Interactive\") and ed.ActionX.C_InteractObj(512400216) and ed.ActionX.DelStates(512400212,\"Show\")",
+      "RecvAction": "ed.ActionX.AddStates(512400216,\"Show\",\"Interactive\") and ed.ActionX.DelStates(512400212,\"Show\")",
       "LastStepID": 1,
       "ActionRewards": {},
       "HasTimelinePlot": false
@@ -1868,10 +1930,10 @@
       "LineID": 17010391,
       "TaskID": 300,
       "NextTaskIDs": {
-        "$arrayRef": 3078
+        "$arrayRef": 3121
       },
       "ClientRecvEvents": {
-        "$arrayRef": 85717
+        "$arrayRef": 86205
       },
       "RecvCondition": "ed.ConditionX.PlotChoiceScore(17372042)==2",
       "ClientRecvActionByMove": "true",
@@ -1911,7 +1973,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85708
+        "$arrayRef": 86196
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010102,1)",
       "ClientRecvActionByMove": "true",
@@ -1925,7 +1987,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85711
+        "$arrayRef": 86199
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,1)",
       "ClientRecvActionByMove": "true",
@@ -1939,7 +2001,7 @@
       "TaskID": 1,
       "NextTaskIDs": {},
       "ClientRecvEvents": {
-        "$arrayRef": 85711
+        "$arrayRef": 86199
       },
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010103,1)",
       "ClientRecvActionByMove": "true",
@@ -1958,6 +2020,20 @@
       "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010208,2)",
       "ClientRecvActionByMove": "true",
       "RecvAction": "true",
+      "LastStepID": 5,
+      "ActionRewards": {},
+      "HasTimelinePlot": false
+    },
+    {
+      "LineID": 17010397,
+      "TaskID": 1,
+      "NextTaskIDs": {},
+      "ClientRecvEvents": {
+        "$arrayRef": 85909
+      },
+      "RecvCondition": "ed.ConditionX.IsExplTaskFinished(17010108,4)",
+      "ClientRecvActionByMove": "true",
+      "RecvAction": "ed.ActionX.AddStates(1500625,\"Show\",\"Interactive\") and ed.ActionX.AddStates(1500623,\"Show\")",
       "LastStepID": 5,
       "ActionRewards": {},
       "HasTimelinePlot": false

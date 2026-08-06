@@ -2,36 +2,34 @@
   "_meta": {
     "table": "AcademyWorldTimeSlot",
     "header_table": "AcademyWorldTimeSlotHeaderTable",
-    "source_table": "AcademyWorldTimeSlotTable",
-    "format": "explicit_rows",
-    "schema_size": 5,
-    "row_count": 3,
+    "format": "flat_rows",
+    "schema_size": 4,
+    "row_count": 2,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "TimeSlotID": "null",
+    "InformTs": 0,
+    "StartTs": 0,
+    "SecondTs": 0
+  },
+  "row_keys": [
+    1,
+    2
+  ],
   "rows": [
     {
       "TimeSlotID": 1,
-      "InformTs": 42900,
-      "StartTs": 43200,
-      "SecondTs": 43800,
-      "ThirdTs": 44400
+      "InformTs": 39300,
+      "StartTs": 39600,
+      "SecondTs": 40500
     },
     {
       "TimeSlotID": 2,
-      "InformTs": 50100,
-      "StartTs": 50400,
-      "SecondTs": 51000,
-      "ThirdTs": 51600
-    },
-    {
-      "TimeSlotID": 3,
-      "InformTs": 71700,
-      "StartTs": 72000,
-      "SecondTs": 72600,
-      "ThirdTs": 73200
+      "InformTs": 3300,
+      "StartTs": 3600,
+      "SecondTs": 4500
     }
   ]
 }

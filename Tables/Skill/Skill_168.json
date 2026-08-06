@@ -9,10 +9,10 @@
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 10
+    "unresolved_array_refs": 14
   },
   "default": {
     "CasterID": "null",
@@ -152,10 +152,10 @@
   ],
   "rows": [
     {
-      "CasterID": 1060,
+      "CasterID": 1043,
       "SkillID": 0,
-      "SkillName": "ybttank_atk",
-      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
+      "SkillName": "fogmagewater_atk",
+      "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -183,37 +183,39 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 49,
+      "GainMP": 95,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "fogmage_water",
       "CastDisplays": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "HitDisplay": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109705
+      },
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -223,7 +225,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.05,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -261,7 +263,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -273,7 +275,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -291,10 +293,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1060,
+      "CasterID": 1043,
       "SkillID": 11,
-      "SkillName": "ybttank_ult",
-      "DisplayName": "5018845580608357996",
+      "SkillName": "fogmagewater_ult",
+      "DisplayName": "4656796849372433530",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -310,62 +312,66 @@
       "SeasonID": 0,
       "SkillLevel": 1,
       "SkillType": "manual",
-      "SkillPerformData": "heal",
-      "IsPositiveManual": true,
+      "SkillPerformData": "dmg",
+      "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_self.png",
-      "Description": "15375233534096624652",
-      "SimpleDescription": "5861056539475032966",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
+      "Description": "16142910060758619502",
+      "SimpleDescription": "18214215155263161859",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": "hex",
+      "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
-      "TargetCamp": 0,
+      "TargetCamp": 1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 10,
-      "CD": 1.25,
-      "InitCD": 1.25,
+      "CD": 0,
+      "InitCD": 1,
       "GlobalCD": 1.25,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
+      "UseWhich": "fogmage_water",
       "CastDisplays": {
-        "$arrayRef": 108517
+        "$arrayRef": 109706
       },
-      "HitDisplay": {},
+      "HitDisplay": {
+        "$arrayRef": 109706
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109706
+      },
       "Action(s)": {
-        "$arrayRef": 108517
+        "$arrayRef": 109706
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": 1,
+      "AffectedCamp": -1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "HP",
-      "PlusRatio": -0.04,
+      "PlusAttr": "ATK",
+      "PlusRatio": -1.25,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 6,
-      "SArg1": 0.5,
+      "SArg0": 5,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -398,19 +404,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.3,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -428,10 +434,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1060,
+      "CasterID": 1043,
       "SkillID": 21,
-      "SkillName": "ybttank_atk2",
-      "DisplayName": "6440905070686709784",
+      "SkillName": "fogmagewater_atk2",
+      "DisplayName": "5996088417489487383",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -450,56 +456,60 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arm_up.png",
-      "Description": "5597001090722239349",
-      "SimpleDescription": "9877692952589243941",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal.png",
+      "Description": "5812132100743748838",
+      "SimpleDescription": "3623668373904149676",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
       "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetPriority": "front",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 3,
-      "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 9999,
+      "Priority": 11,
+      "CD": 12,
+      "InitCD": 0,
+      "GlobalCD": 1.25,
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": false,
+      "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": null,
-      "CastDisplays": {},
-      "HitDisplay": {},
+      "UseWhich": "fogmage_water",
+      "CastDisplays": {
+        "$arrayRef": 109710
+      },
+      "HitDisplay": {
+        "$arrayRef": 109710
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": -1.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.4,
+      "SArg0": 5,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -561,7 +571,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 108707
+        "1": "pbfx_buff_fogmage_atk2x"
       }
     }
   ]

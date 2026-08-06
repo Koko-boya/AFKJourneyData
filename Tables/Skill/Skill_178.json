@@ -6,13 +6,13 @@
     "schema_size": 129,
     "row_count": 3,
     "array_fields": [
+      "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 12
+    "unresolved_array_refs": 13
   },
   "default": {
     "CasterID": "null",
@@ -152,9 +152,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1080,
+      "CasterID": 1066,
       "SkillID": 0,
-      "SkillName": "flowertankblue_atk",
+      "SkillName": "ybtsupport_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -183,19 +183,19 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 76
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 75,
+      "GainMP": 56,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -203,17 +203,17 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "flowertank",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "HitDisplay": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -288,15 +288,13 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 108713
-      }
+      "ResourceList": {}
     },
     {
-      "CasterID": 1080,
+      "CasterID": 1066,
       "SkillID": 11,
-      "SkillName": "flowertankblue_atk2",
-      "DisplayName": "18286675108121453859",
+      "SkillName": "ybtsupport_ult",
+      "DisplayName": "11589848374497926345",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -306,67 +304,73 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 2,
-      "DisplaySlot": 2,
+      "Slot": 1,
+      "DisplaySlot": 1,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": null,
-      "SkillPerformData": null,
-      "IsPositiveManual": false,
+      "SkillType": "manual",
+      "SkillPerformData": "heal",
+      "IsPositiveManual": true,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_flower.png",
-      "Description": "14305340613016890604",
-      "SimpleDescription": "5779534720469221569",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal_aoe.png",
+      "Description": "16553246790813275945",
+      "SimpleDescription": "12738502231923214341",
+      "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 220
       },
       "TargetCamp": 1,
-      "TargetPriority": "self",
+      "TargetPriority": "weakest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
+      "Priority": 10,
       "CD": 0,
-      "InitCD": 999999,
-      "GlobalCD": 1,
-      "CostMP": 0,
+      "InitCD": 1,
+      "GlobalCD": 1.25,
+      "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
-      "UseNewDisplay": false,
+      "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
       "UseWhich": null,
-      "CastDisplays": {},
-      "HitDisplay": {},
+      "CastDisplays": {
+        "$arrayRef": 109706
+      },
+      "HitDisplay": {
+        "$arrayRef": 109706
+      },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109706
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AffectedCamp": 1,
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 220
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusAttr": null,
+      "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.6,
-      "SArg1": 0.2,
-      "SArg2": 0.3,
+      "SArg0": 6,
+      "SArg1": 50,
+      "SArg2": 1.2,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -428,10 +432,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1080,
+      "CasterID": 1066,
       "SkillID": 21,
-      "SkillName": "flowertankblue_ult",
-      "DisplayName": "9300283238139866239",
+      "SkillName": "ybtsupport_atk2",
+      "DisplayName": "12222196127507010056",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -441,37 +445,37 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 1,
-      "DisplaySlot": 1,
+      "Slot": 2,
+      "DisplaySlot": 2,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": "manual",
-      "SkillPerformData": "dmg",
+      "SkillType": null,
+      "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad_power.png",
-      "Description": "9222288986948046700",
-      "SimpleDescription": "13317254263701753888",
-      "ActiveType": "manual",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_heal.png",
+      "Description": "17109577873609356360",
+      "SimpleDescription": "1638887858366047850",
+      "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 220
       },
-      "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetCamp": 1,
+      "TargetPriority": "weakest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": "allblock",
+      "TargetBlockType": null,
       "Priority": 3,
-      "CD": 3,
-      "InitCD": 1.25,
-      "GlobalCD": 1,
-      "CostMP": 1000,
-      "GainMP": 0,
+      "CD": 6,
+      "InitCD": 1,
+      "GlobalCD": 0.5,
+      "CostMP": 0,
+      "GainMP": 90,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -479,31 +483,31 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "flowertank",
+      "UseWhich": null,
       "CastDisplays": {
-        "$arrayRef": 108527
+        "$arrayRef": 109710
       },
       "HitDisplay": {
-        "$arrayRef": 108527
+        "$arrayRef": 109710
       },
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108527
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
-      "AffectedCamp": -1,
+      "AffectedCamp": 1,
       "AOEOrigin": null,
       "AOEShape": null,
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
+      "PlusAttr": null,
       "PlusRatio": 0,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.2,
+      "SArg0": 1.5,
       "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
@@ -564,9 +568,7 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 108713
-      }
+      "ResourceList": {}
     }
   ]
 }

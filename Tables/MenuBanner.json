@@ -53,6 +53,7 @@
     32,
     33,
     34,
+    35,
     36,
     37,
     38,
@@ -61,7 +62,6 @@
     44,
     45,
     46,
-    47,
     39,
     48,
     49,
@@ -201,7 +201,7 @@
       "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_treefestival.png",
       "EntranceType": "AnniversarySeed",
       "DecorateLineColor": "#ebe172",
-      "Condition": "ed.ConditionX.IsInActivity(64)",
+      "Condition": "false",
       "ActivityID": 64
     },
     {
@@ -246,7 +246,7 @@
       "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_tycoon.png",
       "EntranceType": "Activity|109",
       "DecorateLineColor": "#c1593a",
-      "Condition": "ed.ConditionX.IsInActivity(109)",
+      "Condition": "false",
       "ActivityID": 109
     },
     {
@@ -505,6 +505,21 @@
       "ActivityID": 529
     },
     {
+      "ID": 35,
+      "TitleText": "5716411212264141054",
+      "Order": 17,
+      "Group": 15,
+      "TitleColor": "#fdf9f0",
+      "TitlePosition": "Right",
+      "SubTitleText": "13521728812439213457",
+      "SubTitleColor": "#FFF2A3",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_collab_tournament_2.png",
+      "EntranceType": "Activity|584",
+      "DecorateLineColor": "#FFF2A3",
+      "Condition": "false",
+      "ActivityID": 584
+    },
+    {
       "ID": 36,
       "TitleText": "8077642057245608156",
       "Order": 23,
@@ -606,7 +621,7 @@
       "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_s_img_task.png",
       "EntranceType": "MainTask",
       "DecorateLineColor": "#E9BD3F",
-      "Condition": "ed.ConditionX.IsStageReachPoint(20)",
+      "Condition": "ed.ConditionX.IsStageReachPoint(20) and ed.ConditionX.HasState(1500480,\"TriggerClickable\")",
       "ActivityID": 0
     },
     {
@@ -616,27 +631,12 @@
       "Group": 3,
       "TitleColor": "#fdf9f0",
       "TitlePosition": "Right",
-      "SubTitleText": "17627559329263087123",
+      "SubTitleText": "13118174601833925228",
       "SubTitleColor": "#E9BD3F",
-      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_task_ep6_club.png",
+      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_task_ep7_trick.png",
       "EntranceType": "MainTask",
       "DecorateLineColor": "#E9BD3F",
-      "Condition": "ed.ConditionX.HasState(513300138,\"CShow_1\")",
-      "ActivityID": 0
-    },
-    {
-      "ID": 47,
-      "TitleText": "17632177436017781269",
-      "Order": 98,
-      "Group": 4,
-      "TitleColor": "#fdf9f0",
-      "TitlePosition": "Right",
-      "SubTitleText": "15917734281863266310",
-      "SubTitleColor": "#E9BD3F",
-      "BannerRes": "UI/Icon/MainMenuBanner/spui_main_menu_banner_img_task_ep6_drama.png",
-      "EntranceType": "MainTask",
-      "DecorateLineColor": "#E9BD3F",
-      "Condition": "ed.ConditionX.HasState(513300138,\"CShow_1\")",
+      "Condition": "ed.ConditionX.IsExplTaskFinished(17010108,4) and ed.ConditionX.IsExplTaskFinished(17010109,5)~=true",
       "ActivityID": 0
     },
     {

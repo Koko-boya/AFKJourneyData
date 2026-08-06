@@ -3,15 +3,20 @@
     "table": "SoulLinkPotentialSkill",
     "header_table": "SoulLinkPotentialSkillHeaderTable",
     "format": "flat_rows",
-    "schema_size": 3,
-    "row_count": 17,
+    "schema_size": 8,
+    "row_count": 14,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
   "default": {
     "ID": "null",
+    "TaskType": null,
+    "Action": "true",
     "Times": 0,
-    "Param": 0
+    "SkillDes": null,
+    "SkillName": null,
+    "Order": 0,
+    "SkillEffectDesc": null
   },
   "row_keys": [
     1,
@@ -27,96 +32,148 @@
     11,
     12,
     13,
-    14,
-    15,
-    16,
-    17
+    14
   ],
   "rows": [
     {
       "ID": 1,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 1,
+      "Action": "ed.ActionX.AttrMul(1000,\"All\",2000)",
+      "Times": 1,
+      "SkillDes": "10965978521191703934",
+      "SkillName": "2150548929496700008",
+      "Order": 3,
+      "SkillEffectDesc": "6912200149430642250"
     },
     {
       "ID": 2,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 1,
+      "Action": "ed.ActionX.StaminaMul(1000,2000) and ed.ActionX.AttrMul(1000,\"All\",5000)",
+      "Times": 1,
+      "SkillDes": "2102697867410322358",
+      "SkillName": "5542212369850689633",
+      "Order": 4,
+      "SkillEffectDesc": "6912200149430642250"
     },
     {
       "ID": 3,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 1,
+      "Action": "ed.ActionX.AttrMul(1000,\"All\",1400)",
+      "Times": 2,
+      "SkillDes": "14665185613011550353",
+      "SkillName": "1661005791465813815",
+      "Order": 5,
+      "SkillEffectDesc": "6912200149430642250"
     },
     {
       "ID": 4,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 1,
+      "Action": "ed.ActionX.StaminaMul(1000,500)",
+      "Times": 2,
+      "SkillDes": "6792773715094947651",
+      "SkillName": "4960511520737469952",
+      "Order": 6,
+      "SkillEffectDesc": "6912200149430642250"
     },
     {
       "ID": 5,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 1,
+      "Action": "ed.ActionX.PotentialPointMul(1000,2000)",
+      "Times": 2,
+      "SkillDes": "6336734697555400020",
+      "SkillName": "16603288251807211199",
+      "Order": 7,
+      "SkillEffectDesc": "6912200149430642250"
     },
     {
       "ID": 6,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 1,
+      "Action": "ed.ActionX.AttrAdd(1000,\"All\",30)",
+      "Times": 1,
+      "SkillDes": "427486169417767747",
+      "SkillName": "4630635855341182752",
+      "Order": 9,
+      "SkillEffectDesc": "6912200149430642250"
     },
     {
       "ID": 7,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 1,
+      "Action": "ed.ActionX.StaminaMul(1000,0)",
+      "Times": 1,
+      "SkillDes": "31102695650317280",
+      "SkillName": "9894557928907766785",
+      "Order": 10,
+      "SkillEffectDesc": "6912200149430642250"
     },
     {
       "ID": 8,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 2,
+      "Action": "ed.ActionX.RefreshCountFree(1000)",
+      "Times": 3,
+      "SkillDes": "18108081571850635359",
+      "SkillName": "2182286949901320759",
+      "Order": 11,
+      "SkillEffectDesc": "9377482312200645682"
     },
     {
       "ID": 9,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 3,
+      "Action": "ed.ActionX.AttrShareMax(100)",
+      "Times": 1,
+      "SkillDes": "10324178291782213004",
+      "SkillName": "12210742757997919508",
+      "Order": 12,
+      "SkillEffectDesc": "5391529653243592369"
     },
     {
       "ID": 10,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 3,
+      "Action": "ed.ActionX.AttrMinToMax(1000)",
+      "Times": 1,
+      "SkillDes": "17182146606992748026",
+      "SkillName": "5144000454961607563",
+      "Order": 13,
+      "SkillEffectDesc": "5391529653243592369"
     },
     {
       "ID": 11,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 3,
+      "Action": "ed.ActionX.AttrAdd(1000,\"Min\",150)",
+      "Times": 1,
+      "SkillDes": "4596334920838800023",
+      "SkillName": "7219715153925577141",
+      "Order": 14,
+      "SkillEffectDesc": "5391529653243592369"
     },
     {
       "ID": 12,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 3,
+      "Action": "ed.ActionX.AttrAverage() and ed.ActionX.AttrAdd(1000,\"All\",50)",
+      "Times": 1,
+      "SkillDes": "3659841071074517090",
+      "SkillName": "6503951376982852161",
+      "Order": 15,
+      "SkillEffectDesc": "5391529653243592369"
     },
     {
       "ID": 13,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 3,
+      "Action": "ed.ActionX.StaminaAdd(1000,40)",
+      "Times": 1,
+      "SkillDes": "16139190690824148689",
+      "SkillName": "344932490634940383",
+      "Order": 16,
+      "SkillEffectDesc": "5391529653243592369"
     },
     {
       "ID": 14,
-      "Times": 0,
-      "Param": 0
-    },
-    {
-      "ID": 15,
-      "Times": 0,
-      "Param": 0
-    },
-    {
-      "ID": 16,
-      "Times": 0,
-      "Param": 0
-    },
-    {
-      "ID": 17,
-      "Times": 0,
-      "Param": 0
+      "TaskType": 3,
+      "Action": "ed.ActionX.PotentialPointAdd(1000,100)",
+      "Times": 1,
+      "SkillDes": "9251425660186933680",
+      "SkillName": "4044820221386982406",
+      "Order": 17,
+      "SkillEffectDesc": "5391529653243592369"
     }
   ]
 }

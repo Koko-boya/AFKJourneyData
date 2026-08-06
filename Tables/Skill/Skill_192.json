@@ -8,11 +8,12 @@
     "array_fields": [
       "Action(s)",
       "CastDisplays",
+      "DisplayAction(s)",
       "HitDisplay",
       "TargetShapeArgs",
       "Trajectory"
     ],
-    "unresolved_array_refs": 17
+    "unresolved_array_refs": 19
   },
   "default": {
     "CasterID": "null",
@@ -153,9 +154,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1103,
+      "CasterID": 1092,
       "SkillID": 0,
-      "SkillName": "bramblecleanerarcherkuien_atk",
+      "SkillName": "flowerarcherelite_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -184,7 +185,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -196,7 +197,7 @@
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 98,
+      "GainMP": 60,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -204,19 +205,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "bramblecleanerarcherelite",
+      "UseWhich": "flowerarchergreen",
       "CastDisplays": {
-        "$arrayRef": 108516
+        "$arrayRef": 109787
       },
       "HitDisplay": {
-        "$arrayRef": 108516
+        "$arrayRef": 109787
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 108516
+        "$arrayRef": 109787
       },
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109787
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -294,10 +295,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1103,
+      "CasterID": 1092,
       "SkillID": 11,
-      "SkillName": "bramblecleanerarcherkuien_ult",
-      "DisplayName": "16673037125245789165",
+      "SkillName": "flowerarcherelite_ult",
+      "DisplayName": "6528108629397009207",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -316,16 +317,16 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_power.png",
-      "Description": "3579892868684683861",
-      "SimpleDescription": "5365811773881818284",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_aoe.png",
+      "Description": "4071331539601501408",
+      "SimpleDescription": "2926780485940411439",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -334,7 +335,7 @@
       "TargetBlockType": null,
       "Priority": 10,
       "CD": 0,
-      "InitCD": 1.25,
+      "InitCD": 1,
       "GlobalCD": 1,
       "CostMP": 1000,
       "GainMP": 0,
@@ -345,21 +346,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "bramblecleanerarcherelite",
+      "UseWhich": "flowerarchergreen",
       "CastDisplays": {
-        "$arrayRef": 108540
+        "$arrayRef": 109751
       },
-      "HitDisplay": {
-        "$arrayRef": 108540
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 108540
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108540
+        "$arrayRef": 109751
       },
-      "DisplayAction(s)": {},
+      "DisplayAction(s)": {
+        "$arrayRef": 38
+      },
       "AffectedCamp": -1,
       "AOEOrigin": null,
       "AOEShape": null,
@@ -367,13 +366,13 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 3,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 50,
-      "SArg1": 10,
-      "SArg2": 0.3,
+      "SArg0": 7,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -405,16 +404,16 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
-      "TileArt": null,
+      "TileCollideType": "front",
+      "TileArt": "pbfx_tile_flowerarcherelite_atk",
       "TileArtSkinId": {},
       "TileArtSkinName": {},
-      "TileScale": 0,
-      "TileRadius": 0,
+      "TileScale": 1,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
-      "TileXZSpeed": 0,
+      "TileXZSpeed": 14,
       "TileYSpeed": 0,
       "TileGravity": 0,
       "AimTarget": true,
@@ -435,10 +434,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1103,
+      "CasterID": 1092,
       "SkillID": 21,
-      "SkillName": "bramblecleanerarcherkuien_atk2",
-      "DisplayName": "16621018953404264639",
+      "SkillName": "flowerarcherelite_atk2",
+      "DisplayName": "18286675108121453859",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -457,16 +456,16 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_bramblecleaner.png",
-      "Description": "6064578106889858821",
-      "SimpleDescription": "9022293343026860632",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_flower.png",
+      "Description": "3381424848364035648",
+      "SimpleDescription": "12133236935042913573",
       "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -474,25 +473,31 @@
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 2,
-      "CD": 9999,
+      "CD": 0,
       "InitCD": 9999,
-      "GlobalCD": 9999,
+      "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 60,
       "VictimMP": 1,
-      "TrackType": null,
-      "UseNewDisplay": false,
+      "TrackType": "projectile",
+      "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "bramblecleanerarcherelite",
-      "CastDisplays": {},
-      "HitDisplay": {},
+      "UseWhich": "flowerarchergreen",
+      "CastDisplays": {
+        "$arrayRef": 109817
+      },
+      "HitDisplay": {
+        "$arrayRef": 109817
+      },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109817
+      },
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109817
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -501,14 +506,14 @@
       "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": null,
-      "PlusRatio": 0,
+      "PlusAttr": "ATK",
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0.75,
-      "SArg1": 40,
-      "SArg2": 0.06,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -540,19 +545,19 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "front",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
-      "TilePiercing": false,
+      "TileRadius": 0.2,
+      "TilePiercing": true,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
+      "AimTarget": true,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -567,13 +572,16 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {}
+      "ResourceList": {
+        "1": "pbfx_action_flowerarcher_atk3",
+        "2": "pbfx_impact_flowerarcherelite_atk2"
+      }
     },
     {
-      "CasterID": 1103,
+      "CasterID": 1092,
       "SkillID": 31,
-      "SkillName": "bramblecleanerarcherkuien_atk3",
-      "DisplayName": "6039132999636959711",
+      "SkillName": "flowerarcherelite_atk3",
+      "DisplayName": "2786781810114457870",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -592,28 +600,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_multi.png",
-      "Description": "1140805078464864138",
-      "SimpleDescription": "11484436294231745538",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow.png",
+      "Description": "8947122206913887734",
+      "SimpleDescription": "5402222706007210627",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 90
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "farthest",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 3,
       "CD": 8,
-      "InitCD": 1.25,
+      "InitCD": 1,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 60,
+      "GainMP": 83,
       "VictimMP": 1,
       "TrackType": "projectile",
       "UseNewDisplay": true,
@@ -621,19 +629,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "bramblecleanerarcherelite",
+      "UseWhich": "flowerarchergreen",
       "CastDisplays": {
-        "$arrayRef": 108521
+        "$arrayRef": 109890
       },
       "HitDisplay": {
-        "$arrayRef": 108521
+        "$arrayRef": 109890
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 108521
+        "$arrayRef": 109890
       },
       "Action(s)": {
-        "$arrayRef": 108521
+        "$arrayRef": 109890
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -643,12 +651,12 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.6,
+      "PlusRatio": 1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1.2,
-      "SArg1": 100,
+      "SArg0": 0,
+      "SArg1": 0,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,

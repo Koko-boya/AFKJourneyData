@@ -4,7 +4,7 @@
     "header_table": "ObjectTypeHeaderTable",
     "format": "flat_rows",
     "schema_size": 27,
-    "row_count": 358,
+    "row_count": 361,
     "array_fields": [
       "ObjFxRes",
       "ObjectFuncTag",
@@ -343,6 +343,8 @@
     "SeaMonster",
     "TreasureMonster",
     "StatueMonster",
+    "AWorldStatue",
+    "AWorldCrystal",
     "NextMonster",
     "ZoneMonster",
     "Common",
@@ -399,7 +401,8 @@
     "DeathTreasure",
     "CatchMatchNPC",
     "FindingPoint",
-    "ChampionshipDeco"
+    "ChampionshipDeco",
+    "AWorldHonorRecord"
   ],
   "rows": [
     {
@@ -1906,7 +1909,7 @@
       "IsVisibleToPlayer": false,
       "QuickInteractRange": 0,
       "ObjectFuncTag": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
       "InteractConditionGroupID": {},
       "VehicleInteractionBlacklist": {},
@@ -1937,7 +1940,7 @@
       "IsVisibleToPlayer": false,
       "QuickInteractRange": 0,
       "ObjectFuncTag": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
       "InteractConditionGroupID": {},
       "VehicleInteractionBlacklist": {},
@@ -2637,7 +2640,7 @@
       "ObjectFuncTag": {},
       "InteractConditionGroupID": {},
       "VehicleInteractionBlacklist": {
-        "$arrayRef": 106195
+        "$arrayRef": 107286
       },
       "AutoSwitchVehicle": 0
     },
@@ -2871,7 +2874,7 @@
       "ObjectFuncTag": {},
       "InteractConditionGroupID": {},
       "VehicleInteractionBlacklist": {
-        "$arrayRef": 106195
+        "$arrayRef": 107286
       },
       "AutoSwitchVehicle": 0
     },
@@ -4641,7 +4644,7 @@
       "WayNetType": 1,
       "Module": null,
       "ObjFxRes": {
-        "$arrayRef": 106194
+        "$arrayRef": 107285
       },
       "PuzzleType": null,
       "AutoInteract": false,
@@ -5167,7 +5170,7 @@
       "WayNetType": 1,
       "Module": null,
       "ObjFxRes": {
-        "$arrayRef": 106194
+        "$arrayRef": 107285
       },
       "PuzzleType": null,
       "AutoInteract": false,
@@ -8833,7 +8836,7 @@
       "ObjectFuncTag": {},
       "InteractConditionGroupID": {},
       "VehicleInteractionBlacklist": {
-        "$arrayRef": 106195
+        "$arrayRef": 107286
       },
       "AutoSwitchVehicle": 0
     },
@@ -9150,6 +9153,64 @@
       "AutoInteract": false,
       "FuzzySearchListName": "10501498128018838177",
       "IsVisibleToPlayer": false,
+      "QuickInteractRange": 0,
+      "ObjectFuncTag": {},
+      "InteractConditionGroupID": {},
+      "VehicleInteractionBlacklist": {},
+      "AutoSwitchVehicle": null
+    },
+    {
+      "ClientType": "AWorldStatue",
+      "Type": 20006,
+      "IsFogVisible": false,
+      "IsMistVisible": false,
+      "InteractID": 205,
+      "PrefabSize": 1,
+      "FlowCanvas": null,
+      "BindingPathfindingName": null,
+      "AntiCheatBlockType": 1,
+      "NotGenerateObjLoc": false,
+      "HasAxialBlock": false,
+      "HeadTipsType": 1,
+      "DefaultTipName": "13470254559051276615",
+      "SpecialMapIconRes": null,
+      "InteractiveShowEffects": false,
+      "WayNetType": 1,
+      "Module": null,
+      "ObjFxRes": {},
+      "PuzzleType": null,
+      "AutoInteract": false,
+      "FuzzySearchListName": "6678549571402440724",
+      "IsVisibleToPlayer": false,
+      "QuickInteractRange": 0,
+      "ObjectFuncTag": {},
+      "InteractConditionGroupID": {},
+      "VehicleInteractionBlacklist": {},
+      "AutoSwitchVehicle": null
+    },
+    {
+      "ClientType": "AWorldCrystal",
+      "Type": 20007,
+      "IsFogVisible": false,
+      "IsMistVisible": false,
+      "InteractID": 206,
+      "PrefabSize": 1,
+      "FlowCanvas": null,
+      "BindingPathfindingName": null,
+      "AntiCheatBlockType": 1,
+      "NotGenerateObjLoc": false,
+      "HasAxialBlock": false,
+      "HeadTipsType": 1,
+      "DefaultTipName": "1045944709339947895",
+      "SpecialMapIconRes": null,
+      "InteractiveShowEffects": false,
+      "WayNetType": 1,
+      "Module": null,
+      "ObjFxRes": {},
+      "PuzzleType": null,
+      "AutoInteract": false,
+      "FuzzySearchListName": "1045944709339947895",
+      "IsVisibleToPlayer": true,
       "QuickInteractRange": 0,
       "ObjectFuncTag": {},
       "InteractConditionGroupID": {},
@@ -9908,7 +9969,7 @@
       "ObjectFuncTag": {},
       "InteractConditionGroupID": {},
       "VehicleInteractionBlacklist": {
-        "$arrayRef": 106195
+        "$arrayRef": 107286
       },
       "AutoSwitchVehicle": 0
     },
@@ -10055,7 +10116,7 @@
       "ObjectFuncTag": {},
       "InteractConditionGroupID": {},
       "VehicleInteractionBlacklist": {
-        "$arrayRef": 106195
+        "$arrayRef": 107286
       },
       "AutoSwitchVehicle": 0
     },
@@ -10806,6 +10867,35 @@
       "PuzzleType": null,
       "AutoInteract": false,
       "FuzzySearchListName": "8019943929142120518",
+      "IsVisibleToPlayer": false,
+      "QuickInteractRange": 0,
+      "ObjectFuncTag": {},
+      "InteractConditionGroupID": {},
+      "VehicleInteractionBlacklist": {},
+      "AutoSwitchVehicle": null
+    },
+    {
+      "ClientType": "AWorldHonorRecord",
+      "Type": 10011,
+      "IsFogVisible": false,
+      "IsMistVisible": false,
+      "InteractID": 208,
+      "PrefabSize": 1,
+      "FlowCanvas": null,
+      "BindingPathfindingName": null,
+      "AntiCheatBlockType": 0,
+      "NotGenerateObjLoc": false,
+      "HasAxialBlock": false,
+      "HeadTipsType": 1,
+      "DefaultTipName": null,
+      "SpecialMapIconRes": null,
+      "InteractiveShowEffects": false,
+      "WayNetType": 1,
+      "Module": null,
+      "ObjFxRes": {},
+      "PuzzleType": null,
+      "AutoInteract": false,
+      "FuzzySearchListName": "141900337302042065",
       "IsVisibleToPlayer": false,
       "QuickInteractRange": 0,
       "ObjectFuncTag": {},

@@ -3,16 +3,24 @@
     "table": "SoulLinkPartner",
     "header_table": "SoulLinkPartnerHeaderTable",
     "format": "flat_rows",
-    "schema_size": 2,
+    "schema_size": 10,
     "row_count": 2,
     "array_fields": [
       "AttrType"
     ],
-    "unresolved_array_refs": 2
+    "unresolved_array_refs": 1
   },
   "default": {
     "ID": "null",
-    "AttrType": {}
+    "AttrType": {},
+    "Name": null,
+    "TabIcon": null,
+    "StaminaItemID": 0,
+    "DefaultLine": null,
+    "Line1": null,
+    "Line2": null,
+    "Line3": null,
+    "AttrDecs": null
   },
   "row_keys": [
     1,
@@ -22,14 +30,32 @@
     {
       "ID": 1,
       "AttrType": {
-        "$arrayRef": 94792
-      }
+        "$arrayRef": 82543
+      },
+      "Name": "13772922800464249909",
+      "TabIcon": "UI/Icon/Hero/spui_herohead_128.png",
+      "StaminaItemID": 246,
+      "DefaultLine": "2838251956621185903",
+      "Line1": "7997267882571964016",
+      "Line2": "13040403306387424358",
+      "Line3": "15752626871513027365",
+      "AttrDecs": "16510943711775331159"
     },
     {
       "ID": 2,
       "AttrType": {
-        "$arrayRef": 94792
-      }
+        "1": 2,
+        "2": 3,
+        "3": 6
+      },
+      "Name": "17532969092451933090",
+      "TabIcon": "UI/Icon/Hero/spui_herohead_127.png",
+      "StaminaItemID": 247,
+      "DefaultLine": "14676766677324456582",
+      "Line1": "11742501416959667468",
+      "Line2": "16007585283954542988",
+      "Line3": "18031770082044268180",
+      "AttrDecs": "4704683796534799441"
     }
   ]
 }

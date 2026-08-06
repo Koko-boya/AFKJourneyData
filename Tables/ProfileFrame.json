@@ -4,7 +4,7 @@
     "header_table": "ProfileFrameHeaderTable",
     "format": "flat_rows",
     "schema_size": 18,
-    "row_count": 207,
+    "row_count": 214,
     "array_fields": [
       "LootInfo"
     ],
@@ -233,11 +233,18 @@
     206,
     207,
     208,
+    209,
     210,
     211,
     212,
     213,
-    214
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220
   ],
   "rows": [
     {
@@ -252,7 +259,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": null,
@@ -274,7 +281,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": null,
@@ -296,7 +303,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": "14290966346398615976",
@@ -318,7 +325,7 @@
       "FadeType": 1,
       "FadeParam": 604800,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": "6809386023791175141",
@@ -340,7 +347,7 @@
       "FadeType": 1,
       "FadeParam": 604800,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": "5765590066037328888",
@@ -362,7 +369,7 @@
       "FadeType": 1,
       "FadeParam": 604800,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": "683815987333334684",
@@ -384,7 +391,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 2201
+        "$arrayRef": 2248
       },
       "ShowCondition": "true",
       "RequireDes": "7079569289416142098",
@@ -406,7 +413,7 @@
       "FadeType": 4,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 2533
+        "$arrayRef": 2578
       },
       "ShowCondition": "true",
       "RequireDes": "12238636131846613970",
@@ -428,7 +435,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "ed.ConditionX.HasProfileFrame(11)",
       "RequireDes": "3763256140262549181",
@@ -450,7 +457,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "ed.ConditionX.HasProfileFrame(12)",
       "RequireDes": "16972046587960109921",
@@ -472,7 +479,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": "10946919403599748132",
@@ -494,7 +501,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "ShowCondition": "true",
       "RequireDes": "13652800790916664308",
@@ -516,7 +523,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 2201
+        "$arrayRef": 2248
       },
       "ShowCondition": "ed.ConditionX.HasProfileFrame(15)",
       "RequireDes": "13596136714452274293",
@@ -538,7 +545,7 @@
       "FadeType": null,
       "FadeParam": 0,
       "LootInfo": {
-        "$arrayRef": 181
+        "$arrayRef": 212
       },
       "ShowCondition": "ed.ConditionX.HasProfileFrame(16)",
       "RequireDes": null,
@@ -4309,6 +4316,26 @@
       "BuyPriceDiamond": 100
     },
     {
+      "ID": 209,
+      "Order": 209,
+      "Name": "13028421377341924161",
+      "Description": "7064183969459466437",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_209.png",
+      "PrefabRes": null,
+      "Quality": 8,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.HasProfileFrame(209)",
+      "RequireDes": "16777411471839143791",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
       "ID": 210,
       "Order": 210,
       "Name": "3188185690182156444",
@@ -4373,7 +4400,7 @@
       "Order": 213,
       "Name": "14243925512400884864",
       "Description": "16838916653858834607",
-      "IconRes": "ui/icon/profile/spui_avatar_frame_189.png",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_205.png",
       "PrefabRes": null,
       "Quality": 8,
       "URL": null,
@@ -4393,7 +4420,7 @@
       "Order": 214,
       "Name": "4294501510970413343",
       "Description": "9328657210214665330",
-      "IconRes": "ui/icon/profile/spui_avatar_frame_189.png",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_206.png",
       "PrefabRes": null,
       "Quality": 6,
       "URL": null,
@@ -4402,6 +4429,126 @@
       "LootInfo": {},
       "ShowCondition": "ed.ConditionX.HasProfileFrame(214)",
       "RequireDes": "298071262403502754",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 215,
+      "Order": 215,
+      "Name": "328318315150855509",
+      "Description": "14570565956478445466",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_214.png",
+      "PrefabRes": null,
+      "Quality": 6,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.HasProfileFrame(215)",
+      "RequireDes": "15870029280547719979",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 216,
+      "Order": 216,
+      "Name": "307119858826941033",
+      "Description": "1484442417451426514",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_211.png",
+      "PrefabRes": null,
+      "Quality": 4,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "true",
+      "RequireDes": "13596136714452274293",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 217,
+      "Order": 217,
+      "Name": "221348504075959367",
+      "Description": "17993548295928429461",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_212.png",
+      "PrefabRes": null,
+      "Quality": 10,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.HasProfileFrame(217)",
+      "RequireDes": "9762637117680484059",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 218,
+      "Order": 218,
+      "Name": "16292163799162009422",
+      "Description": "2090327763243647493",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_213.png",
+      "PrefabRes": null,
+      "Quality": 8,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.HasProfileFrame(218)",
+      "RequireDes": "9762637117680484059",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 219,
+      "Order": 219,
+      "Name": "1396859698687712664",
+      "Description": "12958988943714188858",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_215.png",
+      "PrefabRes": null,
+      "Quality": 8,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "true",
+      "RequireDes": "4737402113321670659",
+      "FadeDes": null,
+      "FrameText": null,
+      "Enable": true,
+      "IsDefault": false,
+      "BuyPriceDiamond": 100
+    },
+    {
+      "ID": 220,
+      "Order": 220,
+      "Name": "16015404696262060762",
+      "Description": "3129756375765087626",
+      "IconRes": "ui/icon/profile/spui_avatar_frame_216.png",
+      "PrefabRes": null,
+      "Quality": 6,
+      "URL": null,
+      "FadeType": null,
+      "FadeParam": 0,
+      "LootInfo": {},
+      "ShowCondition": "ed.ConditionX.IsUserInCurEp()",
+      "RequireDes": "3274672398878743176",
       "FadeDes": null,
       "FrameText": null,
       "Enable": true,

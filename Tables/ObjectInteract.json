@@ -4,12 +4,12 @@
     "header_table": "ObjectInteractHeaderTable",
     "format": "flat_rows",
     "schema_size": 12,
-    "row_count": 376,
+    "row_count": 382,
     "array_fields": [
       "InteractOptions",
       "InteractOutlineColor"
     ],
-    "unresolved_array_refs": 474
+    "unresolved_array_refs": 485
   },
   "default": {
     "ID": "null",
@@ -32,10 +32,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 183
+        "$arrayRef": 214
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -50,10 +50,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 70
+        "$arrayRef": 100
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -66,7 +66,7 @@
     {
       "ID": 5,
       "State": 1,
-      "Condition": "ed.ConditionX.IsWaitSocialBehaviour()",
+      "Condition": "not ed.ConditionX.UserIsBot() and ed.ConditionX.IsWaitSocialBehaviour()",
       "InteractOptions": {
         "1": 200002,
         "2": 0,
@@ -74,7 +74,7 @@
         "4": 200001
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -87,7 +87,7 @@
     {
       "ID": 5,
       "State": 2,
-      "Condition": "true",
+      "Condition": "not ed.ConditionX.UserIsBot()",
       "InteractOptions": {
         "1": 0,
         "2": 0,
@@ -95,7 +95,7 @@
         "4": 200001
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -110,10 +110,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.HasState(\"TransportTower_Active\")",
       "InteractOptions": {
-        "$arrayRef": 42
+        "$arrayRef": 73
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -128,10 +128,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()>5",
       "InteractOptions": {
-        "$arrayRef": 47
+        "$arrayRef": 77
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -146,10 +146,10 @@
       "State": 3,
       "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()<=5",
       "InteractOptions": {
-        "$arrayRef": 449
+        "$arrayRef": 497
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -164,10 +164,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.HasBindedObject()",
       "InteractOptions": {
-        "$arrayRef": 45
+        "$arrayRef": 75
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -182,10 +182,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.CanBeOverwhelmedInRetro()",
       "InteractOptions": {
-        "$arrayRef": 12367
+        "$arrayRef": 12410
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106190
+        "$arrayRef": 107281
       },
       "InteractOutlineWidth": 0.08,
       "InteractOutlineLayer": 8,
@@ -205,7 +205,7 @@
         "3": 1
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106190
+        "$arrayRef": 107281
       },
       "InteractOutlineWidth": 0.08,
       "InteractOutlineLayer": 8,
@@ -220,7 +220,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 81287
+        "$arrayRef": 81424
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -236,10 +236,10 @@
       "State": 4,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 81287
+        "$arrayRef": 81424
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106190
+        "$arrayRef": 107281
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -258,7 +258,7 @@
         "2": 1
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106190
+        "$arrayRef": 107281
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -273,10 +273,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 82666
+        "$arrayRef": 83108
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106190
+        "$arrayRef": 107281
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -291,10 +291,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -309,10 +309,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -327,10 +327,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 12369
+        "$arrayRef": 12412
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -345,10 +345,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -363,10 +363,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -381,10 +381,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -399,10 +399,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 61
+        "$arrayRef": 91
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -417,10 +417,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_ObjHasTimeOfDayTask(false)",
       "InteractOptions": {
-        "$arrayRef": 5927
+        "$arrayRef": 5970
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -435,10 +435,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_ObjHasTimeOfDayTask(true)",
       "InteractOptions": {
-        "$arrayRef": 74533
+        "$arrayRef": 74554
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -453,10 +453,10 @@
       "State": 3,
       "Condition": "ed.ConditionX.HasState(\"NPC_FluteTask_Submit\")",
       "InteractOptions": {
-        "$arrayRef": 86045
+        "$arrayRef": 86533
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -471,10 +471,10 @@
       "State": 4,
       "Condition": "ed.ConditionX.C_WearingAvatar(false)",
       "InteractOptions": {
-        "$arrayRef": 79602
+        "$arrayRef": 79622
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -489,10 +489,10 @@
       "State": 5,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 60
+        "$arrayRef": 90
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -507,10 +507,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.IsCarrierInStationPark() and not ed.ConditionX.IsModuleLocked(\"MainCity\")",
       "InteractOptions": {
-        "$arrayRef": 61
+        "$arrayRef": 91
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -525,7 +525,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 56
+        "$arrayRef": 86
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -555,10 +555,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.HasState(\"LaserLauncher_Active\")",
       "InteractOptions": {
-        "$arrayRef": 188
+        "$arrayRef": 219
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -587,10 +587,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 2497
+        "$arrayRef": 2542
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -605,10 +605,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 2497
+        "$arrayRef": 2542
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -623,10 +623,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 187
+        "$arrayRef": 218
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -641,10 +641,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -659,10 +659,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 450
+        "$arrayRef": 498
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -692,7 +692,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -708,7 +708,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -751,10 +751,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 450
+        "$arrayRef": 498
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -769,10 +769,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -787,10 +787,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 86119
+        "$arrayRef": 86607
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106190
+        "$arrayRef": 107281
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -808,7 +808,7 @@
         "1": 100007
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -826,7 +826,7 @@
         "1": 100008
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -844,7 +844,7 @@
         "1": 100009
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -862,7 +862,7 @@
         "1": 100003
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -893,7 +893,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 86123
+        "$arrayRef": 86611
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -910,7 +910,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -925,10 +925,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 7103
+        "$arrayRef": 7146
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -943,10 +943,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -961,7 +961,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -977,10 +977,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -995,7 +995,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -1011,10 +1011,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1029,10 +1029,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1047,10 +1047,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 13582
+        "$arrayRef": 13625
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1065,10 +1065,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"RunnerControl_Off\")",
       "InteractOptions": {
-        "$arrayRef": 2231
+        "$arrayRef": 2278
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1083,10 +1083,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 13582
+        "$arrayRef": 13625
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1101,10 +1101,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.HasBindedObject()",
       "InteractOptions": {
-        "$arrayRef": 77521
+        "$arrayRef": 77542
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1119,10 +1119,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()>5",
       "InteractOptions": {
-        "$arrayRef": 47
+        "$arrayRef": 77
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1137,10 +1137,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.HasState(\"TransportTower_Active\") and ed.ConditionX.PlayerDistance()<=5",
       "InteractOptions": {
-        "$arrayRef": 449
+        "$arrayRef": 497
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1155,10 +1155,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 62
+        "$arrayRef": 92
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1173,10 +1173,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CShow_1\") and ed.ConditionX.CheckInteractTimes()",
       "InteractOptions": {
-        "$arrayRef": 79579
+        "$arrayRef": 79599
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1196,7 +1196,7 @@
         "3": 1
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1215,7 +1215,7 @@
         "2": 1
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1234,7 +1234,7 @@
         "2": 1
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1249,10 +1249,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 194
+        "$arrayRef": 225
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1268,7 +1268,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106191
+        "$arrayRef": 107282
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1284,7 +1284,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106192
+        "$arrayRef": 107283
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1299,10 +1299,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.IsModuleLocked(\"Hunt\")",
       "InteractOptions": {
-        "$arrayRef": 195
+        "$arrayRef": 226
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1317,10 +1317,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 197
+        "$arrayRef": 228
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1335,10 +1335,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 193
+        "$arrayRef": 224
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1353,10 +1353,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 5924
+        "$arrayRef": 5967
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1371,10 +1371,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"NPC_CanBattle\") and not ed.ConditionX.HasState(\"NPC_Killed\")",
       "InteractOptions": {
-        "$arrayRef": 79590
+        "$arrayRef": 79610
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1389,10 +1389,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 60
+        "$arrayRef": 90
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1407,7 +1407,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 8307
+        "$arrayRef": 8350
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -1423,10 +1423,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"DoorClosed\")",
       "InteractOptions": {
-        "$arrayRef": 21970
+        "$arrayRef": 22013
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1441,10 +1441,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.HasState(\"CShow_1\")",
       "InteractOptions": {
-        "$arrayRef": 21731
+        "$arrayRef": 21774
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1459,10 +1459,10 @@
       "State": 3,
       "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 67759
+        "$arrayRef": 67766
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1477,10 +1477,10 @@
       "State": 4,
       "Condition": "ed.ConditionX.HasState(\"CMark_2\")",
       "InteractOptions": {
-        "$arrayRef": 5945
+        "$arrayRef": 5988
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1495,7 +1495,7 @@
       "State": 5,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 21731
+        "$arrayRef": 21774
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -1511,7 +1511,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 2137
+        "$arrayRef": 2184
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -1527,10 +1527,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 86179
+        "$arrayRef": 86667
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106192
+        "$arrayRef": 107283
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1545,10 +1545,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 65
+        "$arrayRef": 95
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106192
+        "$arrayRef": 107283
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1563,10 +1563,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasBindedObject()",
       "InteractOptions": {
-        "$arrayRef": 82666
+        "$arrayRef": 83108
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1581,10 +1581,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 45
+        "$arrayRef": 75
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1599,10 +1599,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.IsMegaBossActive()",
       "InteractOptions": {
-        "$arrayRef": 202
+        "$arrayRef": 233
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106193
+        "$arrayRef": 107284
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1617,10 +1617,10 @@
       "State": 2,
       "Condition": "not ed.ConditionX.IsMegaBossDead()",
       "InteractOptions": {
-        "$arrayRef": 86181
+        "$arrayRef": 86669
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106193
+        "$arrayRef": 107284
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1635,10 +1635,10 @@
       "State": 3,
       "Condition": "not ed.ConditionX.IsMegaBossOverwhelmed()",
       "InteractOptions": {
-        "$arrayRef": 14173
+        "$arrayRef": 14216
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106190
+        "$arrayRef": 107281
       },
       "InteractOutlineWidth": 0.08,
       "InteractOutlineLayer": 8,
@@ -1653,10 +1653,10 @@
       "State": 4,
       "Condition": "not ed.ConditionX.IsMegaBossReceivedReward()",
       "InteractOptions": {
-        "$arrayRef": 86171
+        "$arrayRef": 86659
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1671,10 +1671,10 @@
       "State": 5,
       "Condition": "ed.ConditionX.IsMegaBossReceivedReward()",
       "InteractOptions": {
-        "$arrayRef": 86182
+        "$arrayRef": 86670
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1690,7 +1690,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106193
+        "$arrayRef": 107284
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -1705,10 +1705,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasHeroHubPreset()",
       "InteractOptions": {
-        "$arrayRef": 21730
+        "$arrayRef": 21773
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1723,10 +1723,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 65875
+        "$arrayRef": 65886
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1741,10 +1741,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 79617
+        "$arrayRef": 79754
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1759,10 +1759,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.IsAbyssComplete()",
       "InteractOptions": {
-        "$arrayRef": 21728
+        "$arrayRef": 21771
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1777,10 +1777,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.IsAbyssUnlock()",
       "InteractOptions": {
-        "$arrayRef": 78510
+        "$arrayRef": 78531
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1795,10 +1795,10 @@
       "State": 3,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 195
+        "$arrayRef": 226
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1817,7 +1817,7 @@
         "2": 30
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1832,10 +1832,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.IsNPCStatus(\"None\") or ed.ConditionX.IsNPCStatus(\"Submit\")",
       "InteractOptions": {
-        "$arrayRef": 1547
+        "$arrayRef": 1594
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1850,10 +1850,10 @@
       "State": 3,
       "Condition": "ed.ConditionX.IsNPCStatus(\"Pending\")",
       "InteractOptions": {
-        "$arrayRef": 1547
+        "$arrayRef": 1594
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1868,10 +1868,10 @@
       "State": 4,
       "Condition": "ed.ConditionX.IsNPCStatus(\"Doing\")",
       "InteractOptions": {
-        "$arrayRef": 1547
+        "$arrayRef": 1594
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1886,10 +1886,10 @@
       "State": 5,
       "Condition": "ed.ConditionX.IsNPCStatus(\"Completed\")",
       "InteractOptions": {
-        "$arrayRef": 1547
+        "$arrayRef": 1594
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1904,10 +1904,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 7096
+        "$arrayRef": 7139
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1922,10 +1922,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89398
+        "$arrayRef": 90387
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1940,10 +1940,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 204
+        "$arrayRef": 235
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1958,10 +1958,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 87205
+        "$arrayRef": 87696
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1976,10 +1976,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.IsVehicleUsed() and ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -1994,10 +1994,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.IsVehicleUsed() and ed.ConditionX.HasState(\"CMark_2\")",
       "InteractOptions": {
-        "$arrayRef": 243
+        "$arrayRef": 274
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2012,10 +2012,10 @@
       "State": 3,
       "Condition": "ed.ConditionX.HasState(\"CMark_2\")",
       "InteractOptions": {
-        "$arrayRef": 67765
+        "$arrayRef": 67772
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2030,10 +2030,10 @@
       "State": 4,
       "Condition": "ed.ConditionX.IsVehicleUsed()",
       "InteractOptions": {
-        "$arrayRef": 68575
+        "$arrayRef": 68597
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2048,10 +2048,10 @@
       "State": 5,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 85740
+        "$arrayRef": 86229
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2066,10 +2066,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 22558
+        "$arrayRef": 22601
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2084,10 +2084,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 206
+        "$arrayRef": 237
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2102,10 +2102,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.IsPuzzleEnter(2)",
       "InteractOptions": {
-        "$arrayRef": 2867
+        "$arrayRef": 2911
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2120,10 +2120,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 13573
+        "$arrayRef": 13616
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2138,10 +2138,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.IsPuzzleEnter(1)",
       "InteractOptions": {
-        "$arrayRef": 65225
+        "$arrayRef": 65240
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2156,10 +2156,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 13573
+        "$arrayRef": 13616
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2174,10 +2174,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2192,10 +2192,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.IsPuzzleEnter(4)",
       "InteractOptions": {
-        "$arrayRef": 13573
+        "$arrayRef": 13616
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2210,10 +2210,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.IsIAmGuildPresident()",
       "InteractOptions": {
-        "$arrayRef": 196
+        "$arrayRef": 227
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106192
+        "$arrayRef": 107283
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2228,10 +2228,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.HasGuildSculpture()",
       "InteractOptions": {
-        "$arrayRef": 209
+        "$arrayRef": 240
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106192
+        "$arrayRef": 107283
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2246,10 +2246,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsAnniversaryDanceActive()",
       "InteractOptions": {
-        "$arrayRef": 6030
+        "$arrayRef": 6073
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2264,10 +2264,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.IsPuzzleEnter(3)",
       "InteractOptions": {
-        "$arrayRef": 208
+        "$arrayRef": 239
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2282,10 +2282,10 @@
       "State": 3,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 68589
+        "$arrayRef": 68612
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2300,10 +2300,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 219
+        "$arrayRef": 250
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2318,10 +2318,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.IsPuzzleEnter(5)",
       "InteractOptions": {
-        "$arrayRef": 13573
+        "$arrayRef": 13616
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2336,10 +2336,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_WearingAvatar(false)",
       "InteractOptions": {
-        "$arrayRef": 79602
+        "$arrayRef": 79622
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2358,7 +2358,7 @@
         "2": 94
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2373,10 +2373,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.IsTaskFishSlot() or ed.ConditionX.IsSpringFishSlot()",
       "InteractOptions": {
-        "$arrayRef": 207
+        "$arrayRef": 238
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2395,7 +2395,7 @@
         "2": 94
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2410,7 +2410,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 212
+        "$arrayRef": 243
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0.06,
@@ -2426,7 +2426,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 213
+        "$arrayRef": 244
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0.06,
@@ -2442,10 +2442,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 450
+        "$arrayRef": 498
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2474,10 +2474,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.ScheduleOpenedDays(64)>0",
       "InteractOptions": {
-        "$arrayRef": 13574
+        "$arrayRef": 13617
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2492,10 +2492,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CShow_1\")",
       "InteractOptions": {
-        "$arrayRef": 70
+        "$arrayRef": 100
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2510,10 +2510,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.HasState(\"CShow_2\")",
       "InteractOptions": {
-        "$arrayRef": 450
+        "$arrayRef": 498
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2528,10 +2528,10 @@
       "State": 3,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 70
+        "$arrayRef": 100
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -2547,7 +2547,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.03,
       "InteractOutlineLayer": 8,
@@ -2562,10 +2562,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 13575
+        "$arrayRef": 13618
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2580,7 +2580,7 @@
       "State": 1,
       "Condition": "not ed.ConditionX.HasBindedObject()",
       "InteractOptions": {
-        "$arrayRef": 45
+        "$arrayRef": 75
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2597,7 +2597,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106192
+        "$arrayRef": 107283
       },
       "InteractOutlineWidth": 0.03,
       "InteractOutlineLayer": 8,
@@ -2612,10 +2612,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 215
+        "$arrayRef": 246
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2630,10 +2630,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 21961
+        "$arrayRef": 22004
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2648,10 +2648,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 193
+        "$arrayRef": 224
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2666,10 +2666,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 5932
+        "$arrayRef": 5975
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2684,7 +2684,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 55153
+        "$arrayRef": 55194
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2700,7 +2700,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 55153
+        "$arrayRef": 55194
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2716,10 +2716,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 214
+        "$arrayRef": 245
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2734,10 +2734,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.CanUnlockKeyConsumingDoor()",
       "InteractOptions": {
-        "$arrayRef": 55177
+        "$arrayRef": 55218
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2752,10 +2752,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 82666
+        "$arrayRef": 83108
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2770,10 +2770,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 450
+        "$arrayRef": 498
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2802,10 +2802,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 67758
+        "$arrayRef": 67765
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2820,10 +2820,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 60
+        "$arrayRef": 90
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2838,10 +2838,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasBindedObject()",
       "InteractOptions": {
-        "$arrayRef": 82666
+        "$arrayRef": 83108
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2856,10 +2856,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.HasBindedObject()",
       "InteractOptions": {
-        "$arrayRef": 450
+        "$arrayRef": 498
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2875,7 +2875,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -2890,7 +2890,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_RegionIdIsCase(-1,8) and ed.ConditionX.C_IsMonsterRegion() and ed.ConditionX.HasState(\"Interactive\")",
       "InteractOptions": {
-        "$arrayRef": 220
+        "$arrayRef": 251
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2906,7 +2906,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_RegionIdIsCase(-1,8) and ed.ConditionX.HasState(\"Interactive\") and ed.ConditionX.C_RegionUnlockNeedResEnough()",
       "InteractOptions": {
-        "$arrayRef": 220
+        "$arrayRef": 251
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2922,7 +2922,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.C_RegionIdIsCase(-1,8) and ed.ConditionX.HasState(\"Interactive\")",
       "InteractOptions": {
-        "$arrayRef": 220
+        "$arrayRef": 251
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2938,7 +2938,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.C_RegionStateIsEqual(2) and ed.ConditionX.HasState(\"Interactive\")",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2954,7 +2954,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.C_RegionStateIsEqual(3) and ed.ConditionX.HasState(\"Interactive\")",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2970,7 +2970,7 @@
       "State": 6,
       "Condition": "ed.ConditionX.C_IsMonsterRegion() and ed.ConditionX.HasState(\"Interactive\") and not ed.ConditionX.C_IsRegionUnlockReachedCurrLimit()",
       "InteractOptions": {
-        "$arrayRef": 220
+        "$arrayRef": 251
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -2986,7 +2986,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.HasState(\"Interactive\") and not ed.ConditionX.C_IsRegionUnlockReachedCurrLimit() and ed.ConditionX.C_RegionUnlockNeedResEnough()",
       "InteractOptions": {
-        "$arrayRef": 220
+        "$arrayRef": 251
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3002,7 +3002,7 @@
       "State": 8,
       "Condition": "ed.ConditionX.C_RegionUnlockNeedResEnough() and ed.ConditionX.C_RegionIdIsCase(1,100) and ed.ConditionX.HasState(\"Interactive\")",
       "InteractOptions": {
-        "$arrayRef": 220
+        "$arrayRef": 251
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3018,7 +3018,7 @@
       "State": 9,
       "Condition": "ed.ConditionX.HasState(\"Interactive\")",
       "InteractOptions": {
-        "$arrayRef": 220
+        "$arrayRef": 251
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3034,10 +3034,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 67759
+        "$arrayRef": 67766
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -3052,10 +3052,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 1683
+        "$arrayRef": 1730
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -3070,7 +3070,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3086,7 +3086,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3102,7 +3102,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
       "InteractOptions": {
-        "$arrayRef": 63904
+        "$arrayRef": 63908
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3118,7 +3118,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3167,7 +3167,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.IsExplTaskFinished(10010610,1)",
       "InteractOptions": {
-        "$arrayRef": 12759
+        "$arrayRef": 12802
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3183,7 +3183,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3199,7 +3199,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3215,7 +3215,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 2476
+        "$arrayRef": 2521
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3231,7 +3231,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3283,7 +3283,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3299,7 +3299,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3315,7 +3315,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
       "InteractOptions": {
-        "$arrayRef": 63904
+        "$arrayRef": 63908
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3350,7 +3350,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 2517
+        "$arrayRef": 2562
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3384,7 +3384,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3451,7 +3451,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3467,7 +3467,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3483,7 +3483,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
       "InteractOptions": {
-        "$arrayRef": 63904
+        "$arrayRef": 63908
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3518,7 +3518,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 225
+        "$arrayRef": 256
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3552,7 +3552,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3619,7 +3619,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3635,7 +3635,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3651,7 +3651,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.HSIsInDarkInvasion()",
       "InteractOptions": {
-        "$arrayRef": 63904
+        "$arrayRef": 63908
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3686,7 +3686,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 67760
+        "$arrayRef": 67767
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3720,7 +3720,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3787,7 +3787,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3803,7 +3803,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3819,7 +3819,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 227
+        "$arrayRef": 258
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3853,7 +3853,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3887,7 +3887,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3903,7 +3903,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3919,7 +3919,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 224
+        "$arrayRef": 255
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3953,7 +3953,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -3987,7 +3987,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4003,7 +4003,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4019,7 +4019,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 228
+        "$arrayRef": 259
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4053,7 +4053,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4087,7 +4087,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHasHSVisitPermission()",
       "InteractOptions": {
-        "$arrayRef": 87362
+        "$arrayRef": 87870
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4103,7 +4103,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_IsHSVisitor() and ed.ConditionX.C_IsHasHSVisitPermission()",
       "InteractOptions": {
-        "$arrayRef": 239
+        "$arrayRef": 270
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4119,7 +4119,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4135,7 +4135,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4151,7 +4151,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 13515
+        "$arrayRef": 13558
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4185,7 +4185,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4201,7 +4201,7 @@
       "State": 8,
       "Condition": "ed.ConditionX.C_HSGetMainBuildingLevel(2)<3",
       "InteractOptions": {
-        "$arrayRef": 106187
+        "$arrayRef": 107278
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4217,7 +4217,7 @@
       "State": 9,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 106187
+        "$arrayRef": 107278
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4233,7 +4233,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHasHSVisitPermission()",
       "InteractOptions": {
-        "$arrayRef": 87362
+        "$arrayRef": 87870
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4249,7 +4249,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_IsHSVisitor() and ed.ConditionX.C_IsHasHSVisitPermission()",
       "InteractOptions": {
-        "$arrayRef": 239
+        "$arrayRef": 270
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4265,7 +4265,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4281,7 +4281,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4297,7 +4297,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 67761
+        "$arrayRef": 67768
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4331,7 +4331,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4347,7 +4347,7 @@
       "State": 8,
       "Condition": "ed.ConditionX.C_HSGetMainBuildingLevel(2)<3",
       "InteractOptions": {
-        "$arrayRef": 106188
+        "$arrayRef": 107279
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4363,7 +4363,7 @@
       "State": 9,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 106188
+        "$arrayRef": 107279
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4379,7 +4379,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsHSVisitor() and not ed.ConditionX.C_IsHasHSVisitPermission()",
       "InteractOptions": {
-        "$arrayRef": 87362
+        "$arrayRef": 87870
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4395,7 +4395,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_IsHSVisitor() and ed.ConditionX.C_IsHasHSVisitPermission()",
       "InteractOptions": {
-        "$arrayRef": 239
+        "$arrayRef": 270
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4411,7 +4411,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4427,7 +4427,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4443,7 +4443,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 67762
+        "$arrayRef": 67769
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4477,7 +4477,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4511,7 +4511,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4527,7 +4527,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 66
+        "$arrayRef": 96
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4543,7 +4543,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(20) and not ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 67763
+        "$arrayRef": 67770
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4577,7 +4577,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4611,10 +4611,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CMark_2\")",
       "InteractOptions": {
-        "$arrayRef": 76133
+        "$arrayRef": 76154
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -4629,10 +4629,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 67764
+        "$arrayRef": 67771
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -4647,10 +4647,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 229
+        "$arrayRef": 260
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4665,7 +4665,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.ItemCount(10000408)>=3 and not ed.ConditionX.IsExplTaskFinished(10010610,1)",
       "InteractOptions": {
-        "$arrayRef": 85969
+        "$arrayRef": 86458
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4695,7 +4695,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4725,7 +4725,7 @@
       "State": 5,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0)",
       "InteractOptions": {
-        "$arrayRef": 78512
+        "$arrayRef": 78533
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4755,7 +4755,7 @@
       "State": 7,
       "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4771,7 +4771,7 @@
       "State": 8,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4787,7 +4787,7 @@
       "State": 9,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89188
+        "$arrayRef": 90293
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -4804,7 +4804,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106191
+        "$arrayRef": 107282
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4833,10 +4833,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 233
+        "$arrayRef": 264
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4851,10 +4851,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 234
+        "$arrayRef": 265
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4869,10 +4869,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 67759
+        "$arrayRef": 67766
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4887,10 +4887,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 235
+        "$arrayRef": 266
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4905,10 +4905,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 414
+        "$arrayRef": 459
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4923,10 +4923,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 407
+        "$arrayRef": 445
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4941,10 +4941,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.Counter(2532)>=5 or ed.ConditionX.Best(16)<=300",
       "InteractOptions": {
-        "$arrayRef": 407
+        "$arrayRef": 445
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4959,10 +4959,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 407
+        "$arrayRef": 445
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4977,10 +4977,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.Counter(2533)>=5 or ed.ConditionX.Best(16)<=150",
       "InteractOptions": {
-        "$arrayRef": 407
+        "$arrayRef": 445
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -4995,10 +4995,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 407
+        "$arrayRef": 445
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5013,7 +5013,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 68
+        "$arrayRef": 98
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5030,7 +5030,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5046,7 +5046,7 @@
       "Condition": "true",
       "InteractOptions": {},
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5061,7 +5061,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5077,10 +5077,10 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 62
+        "$arrayRef": 92
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -5095,7 +5095,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 75734
+        "$arrayRef": 75755
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5125,7 +5125,7 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89191
+        "$arrayRef": 90296
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5141,7 +5141,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsHSMidAutumnHasMonster()",
       "InteractOptions": {
-        "$arrayRef": 87363
+        "$arrayRef": 87871
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5157,7 +5157,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.IsInSchedule(472,\"nil\",false) and ed.ConditionX.C_IsMidAutumnSelfPlayPlot(1) and ed.ConditionX.C_IsCurrentHSMidAutumnFeed()",
       "InteractOptions": {
-        "$arrayRef": 2480
+        "$arrayRef": 2525
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5173,7 +5173,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.IsInSchedule(472,\"nil\",false) and ed.ConditionX.C_IsMidAutumnSelfPlayPlot(15602370) and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 2480
+        "$arrayRef": 2525
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5189,7 +5189,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.IsInSchedule(472,\"nil\",false)",
       "InteractOptions": {
-        "$arrayRef": 2879
+        "$arrayRef": 2923
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5219,10 +5219,10 @@
       "State": 1,
       "Condition": "not ed.ConditionX.C_IsInVehicleCategory(\"Ship\") and ed.ConditionX.C_IsAllowTransform(10)",
       "InteractOptions": {
-        "$arrayRef": 5938
+        "$arrayRef": 5981
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -5237,7 +5237,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89194
+        "$arrayRef": 90299
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5253,10 +5253,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"CMark_1\")",
       "InteractOptions": {
-        "$arrayRef": 67759
+        "$arrayRef": 67766
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5271,7 +5271,7 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89195
+        "$arrayRef": 90300
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5287,7 +5287,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsHarvestGodCanBattleBoss()",
       "InteractOptions": {
-        "$arrayRef": 257
+        "$arrayRef": 288
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5303,7 +5303,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_CanKillHarvestGodBoss()",
       "InteractOptions": {
-        "$arrayRef": 237
+        "$arrayRef": 268
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5319,7 +5319,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.C_CanGetHarvestGodBossReward()",
       "InteractOptions": {
-        "$arrayRef": 1541
+        "$arrayRef": 1588
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5335,7 +5335,7 @@
       "State": 4,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 97003
+        "$arrayRef": 98086
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5351,7 +5351,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5383,7 +5383,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(1) and ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5399,7 +5399,7 @@
       "State": 4,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(1) and not ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 2880
+        "$arrayRef": 2924
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5415,7 +5415,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.CI_IsTeamMatching()",
       "InteractOptions": {
-        "$arrayRef": 97002
+        "$arrayRef": 98085
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5431,7 +5431,7 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 75742
+        "$arrayRef": 75763
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5450,7 +5450,7 @@
         "1": 182
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5465,10 +5465,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 236
+        "$arrayRef": 267
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5483,10 +5483,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 87580
+        "$arrayRef": 88088
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5501,10 +5501,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 5939
+        "$arrayRef": 5982
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5537,7 +5537,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_IsCrystalBallState(2)",
       "InteractOptions": {
-        "$arrayRef": 78514
+        "$arrayRef": 78535
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5567,7 +5567,7 @@
       "State": 4,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 75739
+        "$arrayRef": 75760
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5597,7 +5597,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.CI_InAssistedCasting()",
       "InteractOptions": {
-        "$arrayRef": 3041
+        "$arrayRef": 3085
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5629,7 +5629,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 105536
+        "$arrayRef": 106626
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5645,7 +5645,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 21964
+        "$arrayRef": 22007
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5661,7 +5661,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89402
+        "$arrayRef": 90391
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5691,7 +5691,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5707,7 +5707,7 @@
       "State": 3,
       "Condition": "ed.ConditionX.IsInteractBuildingNotCompeted()",
       "InteractOptions": {
-        "$arrayRef": 226
+        "$arrayRef": 257
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5723,7 +5723,7 @@
       "State": 4,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89192
+        "$arrayRef": 90297
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5739,7 +5739,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 8342
+        "$arrayRef": 8385
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5755,7 +5755,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 87579
+        "$arrayRef": 88087
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5771,7 +5771,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89399
+        "$arrayRef": 90388
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5787,7 +5787,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 240
+        "$arrayRef": 271
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5803,7 +5803,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 20316
+        "$arrayRef": 20359
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5819,7 +5819,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 241
+        "$arrayRef": 272
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5835,7 +5835,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.CI_BossIsSurvival()",
       "InteractOptions": {
-        "$arrayRef": 87579
+        "$arrayRef": 88087
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -5865,10 +5865,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.GetInteractBuildingEqualLvl(0) and ed.ConditionX.IsInteractBuildingNotCompeted() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 7192
+        "$arrayRef": 7235
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -5883,10 +5883,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_IsHSBuildingUpgrading() and not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 232
+        "$arrayRef": 263
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -5901,10 +5901,10 @@
       "State": 3,
       "Condition": "ed.ConditionX.PlayerDistance()>5",
       "InteractOptions": {
-        "$arrayRef": 71
+        "$arrayRef": 101
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -5924,7 +5924,7 @@
         "3": 209
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -5939,10 +5939,10 @@
       "State": 5,
       "Condition": "ed.ConditionX.PlayerDistance()<=5 and ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 449
+        "$arrayRef": 497
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 4,
@@ -5975,10 +5975,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 85972
+        "$arrayRef": 86461
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -5993,10 +5993,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 45
+        "$arrayRef": 75
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6011,10 +6011,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsRemoteInteract()",
       "InteractOptions": {
-        "$arrayRef": 244
+        "$arrayRef": 275
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6029,10 +6029,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsRemoteInteract() and not ed.ConditionX.C_IsCinerariumJumperActivated()",
       "InteractOptions": {
-        "$arrayRef": 198
+        "$arrayRef": 229
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6047,10 +6047,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 246
+        "$arrayRef": 277
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6079,10 +6079,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_HSEnvelopeIsAcc()",
       "InteractOptions": {
-        "$arrayRef": 245
+        "$arrayRef": 276
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6097,10 +6097,10 @@
       "State": 2,
       "Condition": "ed.ConditionX.C_HSEnvelopeIsAccDone()",
       "InteractOptions": {
-        "$arrayRef": 416
+        "$arrayRef": 461
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6115,10 +6115,10 @@
       "State": 3,
       "Condition": "ed.ConditionX.C_HSEnvelopeIsRoll()",
       "InteractOptions": {
-        "$arrayRef": 415
+        "$arrayRef": 460
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6133,7 +6133,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 249
+        "$arrayRef": 280
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6149,7 +6149,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.CO_CheckVacuityParam(\"ready\",1)",
       "InteractOptions": {
-        "$arrayRef": 89196
+        "$arrayRef": 90301
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6179,7 +6179,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89197
+        "$arrayRef": 90302
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6195,7 +6195,7 @@
       "State": 1,
       "Condition": "not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 254
+        "$arrayRef": 285
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6211,7 +6211,7 @@
       "State": 1,
       "Condition": "not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 252
+        "$arrayRef": 283
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6227,7 +6227,7 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 242
+        "$arrayRef": 273
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6260,7 +6260,7 @@
       "State": 2,
       "Condition": "not ed.ConditionX.C_IsHSVisitor()",
       "InteractOptions": {
-        "$arrayRef": 251
+        "$arrayRef": 282
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6276,7 +6276,7 @@
       "State": 1,
       "Condition": "ed.ConditionX.HasState(\"FragmentCollect_LampGive\")",
       "InteractOptions": {
-        "$arrayRef": 79623
+        "$arrayRef": 79760
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6292,7 +6292,7 @@
       "State": 2,
       "Condition": "ed.ConditionX.HasState(\"FragmentCollect_LampGet\")",
       "InteractOptions": {
-        "$arrayRef": 255
+        "$arrayRef": 286
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6308,7 +6308,7 @@
       "State": 3,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 255
+        "$arrayRef": 286
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,
@@ -6324,10 +6324,10 @@
       "State": 1,
       "Condition": "ed.ConditionX.C_IsRemoteInteract()",
       "InteractOptions": {
-        "$arrayRef": 256
+        "$arrayRef": 287
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6342,10 +6342,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 46
+        "$arrayRef": 76
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6360,10 +6360,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 258
+        "$arrayRef": 289
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6378,10 +6378,10 @@
       "State": 1,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 2847
+        "$arrayRef": 2892
       },
       "InteractOutlineColor": {
-        "$arrayRef": 106189
+        "$arrayRef": 107280
       },
       "InteractOutlineWidth": 0.06,
       "InteractOutlineLayer": 8,
@@ -6410,7 +6410,113 @@
       "State": 2,
       "Condition": "true",
       "InteractOptions": {
-        "$arrayRef": 89191
+        "$arrayRef": 90296
+      },
+      "InteractOutlineColor": {},
+      "InteractOutlineWidth": 0,
+      "InteractOutlineLayer": 0,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 205,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_AcademyWorldStatueCanEnterBattle()",
+      "InteractOptions": {
+        "$arrayRef": 463
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 107280
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 205,
+      "State": 2,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 2503
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 107280
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 206,
+      "State": 1,
+      "Condition": "ed.ConditionX.C_AcademyWorldCrystalCanPlunder()",
+      "InteractOptions": {
+        "$arrayRef": 2506
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 107280
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 206,
+      "State": 2,
+      "Condition": "ed.ConditionX.C_AcademyWorldCrystalCanGarrison()",
+      "InteractOptions": {
+        "$arrayRef": 2507
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 107280
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 206,
+      "State": 3,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 462
+      },
+      "InteractOutlineColor": {
+        "$arrayRef": 107280
+      },
+      "InteractOutlineWidth": 0.06,
+      "InteractOutlineLayer": 8,
+      "DisplayRange": 0,
+      "MotionLess": false,
+      "HeadIcon": 0,
+      "HasBracket": true,
+      "CanClickInteract": true
+    },
+    {
+      "ID": 208,
+      "State": 1,
+      "Condition": "true",
+      "InteractOptions": {
+        "$arrayRef": 14272
       },
       "InteractOutlineColor": {},
       "InteractOutlineWidth": 0,

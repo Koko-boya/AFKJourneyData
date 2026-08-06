@@ -4,7 +4,7 @@
     "header_table": "HeroSkinHeaderTable",
     "format": "flat_rows",
     "schema_size": 22,
-    "row_count": 63,
+    "row_count": 69,
     "array_fields": [
       "ExchangeItem",
       "HeroStartAction",
@@ -12,7 +12,7 @@
       "PreviewOffset",
       "PuppetName"
     ],
-    "unresolved_array_refs": 276
+    "unresolved_array_refs": 303
   },
   "default": {
     "HeroSkinID": "null",
@@ -99,9 +99,15 @@
     50,
     51,
     53,
+    54,
+    55,
     10010,
     10011,
-    52
+    52,
+    56,
+    10012,
+    57,
+    58
   ],
   "rows": [
     {
@@ -122,19 +128,19 @@
         "1": "faye_s1"
       },
       "LootInfo": {
-        "$arrayRef": 82676
+        "$arrayRef": 83118
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_faye_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_faye_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -157,10 +163,10 @@
         "2": "lady_night_s1"
       },
       "LootInfo": {
-        "$arrayRef": 1651
+        "$arrayRef": 1698
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
         "1": "show2",
@@ -170,7 +176,7 @@
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_lady_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -192,19 +198,19 @@
         "1": "ldoublesword_s1"
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_ldoublesword_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_ldoublesword_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -223,22 +229,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_greenmage.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_greenmage.png",
       "PuppetName": {
-        "$arrayRef": 87265
+        "$arrayRef": 87756
       },
       "LootInfo": {
-        "$arrayRef": 2137
+        "$arrayRef": 2184
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_greenmage_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_greenmage_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -257,22 +263,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_fw.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_fw.png",
       "PuppetName": {
-        "$arrayRef": 87266
+        "$arrayRef": 87757
       },
       "LootInfo": {
-        "$arrayRef": 85740
+        "$arrayRef": 86229
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_fw_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_fw_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -294,19 +300,19 @@
         "1": "lion_s1"
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_lion_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_lion_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -325,22 +331,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_odie.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_odie.png",
       "PuppetName": {
-        "$arrayRef": 87267
+        "$arrayRef": 87758
       },
       "LootInfo": {
-        "$arrayRef": 85740
+        "$arrayRef": 86229
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_odie_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_odie_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -362,22 +368,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_thorn.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_thorn.png",
       "PuppetName": {
-        "$arrayRef": 87268
+        "$arrayRef": 87759
       },
       "LootInfo": {
-        "$arrayRef": 85740
+        "$arrayRef": 86229
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_thorn_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_thorn_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -396,14 +402,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87269
+        "$arrayRef": 87760
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -429,19 +435,19 @@
         "1": "merchant_s1"
       },
       "LootInfo": {
-        "$arrayRef": 1681
+        "$arrayRef": 1728
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_merchant_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_merchant_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -463,19 +469,19 @@
         "1": "archer_s1"
       },
       "LootInfo": {
-        "$arrayRef": 8313
+        "$arrayRef": 8356
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_archer_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_archer_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -497,19 +503,19 @@
         "1": "sindbad_s1"
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_sindbad_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_sindbad_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -528,22 +534,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_silvina.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_silvina.png",
       "PuppetName": {
-        "$arrayRef": 87270
+        "$arrayRef": 87761
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_silvina_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_silvina_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -562,22 +568,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_fireblade.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_fireblade.png",
       "PuppetName": {
-        "$arrayRef": 87271
+        "$arrayRef": 87762
       },
       "LootInfo": {
-        "$arrayRef": 13574
+        "$arrayRef": 13617
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_fireblade_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_fireblade_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -596,22 +602,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_lich.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_lich.png",
       "PuppetName": {
-        "$arrayRef": 87272
+        "$arrayRef": 87763
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_lich_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_lich_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -633,19 +639,19 @@
         "1": "lorsan_s1"
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_lorsan_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_lorsan_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -667,19 +673,19 @@
         "1": "swordswoman_s1"
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_swordswoman_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_swordswoman_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -698,22 +704,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_tasi.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_tasi.png",
       "PuppetName": {
-        "$arrayRef": 87273
+        "$arrayRef": 87764
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_tasi_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_tasi_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -732,22 +738,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_meerkat.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_meerkat.png",
       "PuppetName": {
-        "$arrayRef": 87274
+        "$arrayRef": 87765
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_meerkat_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_meerkat_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -766,22 +772,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_loli.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_loli.png",
       "PuppetName": {
-        "$arrayRef": 87275
+        "$arrayRef": 87766
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_loli_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_loli_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -800,22 +806,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_captain.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_captain.png",
       "PuppetName": {
-        "$arrayRef": 87276
+        "$arrayRef": 87767
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_captain_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_captain_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -834,22 +840,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_longbow_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_longbow_s1.png",
       "PuppetName": {
-        "$arrayRef": 87277
+        "$arrayRef": 87768
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_longbow_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_longbow_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -868,22 +874,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_shemira_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_shemira_s1.png",
       "PuppetName": {
-        "$arrayRef": 87278
+        "$arrayRef": 87769
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_shemira_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_shemira_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -906,10 +912,10 @@
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_longbow_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_longbow_1.png",
@@ -932,22 +938,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_darkhair_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_darkhair_s1.png",
       "PuppetName": {
-        "$arrayRef": 87279
+        "$arrayRef": 87770
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_darkhair_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_darkhair_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -966,22 +972,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_suoen_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_suoen_s1.png",
       "PuppetName": {
-        "$arrayRef": 87280
+        "$arrayRef": 87771
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_suoen_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_suoen_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1003,22 +1009,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_twinsbrosis_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_twinsbrosis_s1.png",
       "PuppetName": {
-        "$arrayRef": 87281
+        "$arrayRef": 87772
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_twinsbrosis_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_twinsbro_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1037,14 +1043,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87282
+        "$arrayRef": 87773
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1067,22 +1073,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_tree_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_tree_s1.png",
       "PuppetName": {
-        "$arrayRef": 87283
+        "$arrayRef": 87774
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_tree_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_tree_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1101,22 +1107,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_phoenix_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_phoenix_s1.png",
       "PuppetName": {
-        "$arrayRef": 87284
+        "$arrayRef": 87775
       },
       "LootInfo": {
-        "$arrayRef": 407
+        "$arrayRef": 445
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_phoenix_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_phoenix_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1138,22 +1144,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_magicarcher_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_magicarcher_s1.png",
       "PuppetName": {
-        "$arrayRef": 87285
+        "$arrayRef": 87776
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_magicarcher_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_magicarcher_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1172,14 +1178,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87286
+        "$arrayRef": 87777
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1205,19 +1211,19 @@
         "1": "jjcmaster_s1"
       },
       "LootInfo": {
-        "$arrayRef": 2876
+        "$arrayRef": 2920
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_jjcmaster_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_jjcmaster_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1239,22 +1245,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_scorpion_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_scorpion_s1.png",
       "PuppetName": {
-        "$arrayRef": 87287
+        "$arrayRef": 87778
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_scorpion_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_scorpion_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1273,14 +1279,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87287
+        "$arrayRef": 87778
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1303,22 +1309,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_cheetah_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_cheetah_s1.png",
       "PuppetName": {
-        "$arrayRef": 87288
+        "$arrayRef": 87779
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_cheetah_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_cheetah_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1337,22 +1343,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_wolf_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_wolf_s1.png",
       "PuppetName": {
-        "$arrayRef": 87289
+        "$arrayRef": 87780
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_wolf_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_wolf_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1371,22 +1377,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_beargirl_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_beargirl_s1.png",
       "PuppetName": {
-        "$arrayRef": 87290
+        "$arrayRef": 87781
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_beargirl_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_beargirl_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1405,22 +1411,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_isabella_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_isabella_s1.png",
       "PuppetName": {
-        "$arrayRef": 87291
+        "$arrayRef": 87782
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_isabella_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_isabella_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1439,22 +1445,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_gala_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_gala_s1.png",
       "PuppetName": {
-        "$arrayRef": 87292
+        "$arrayRef": 87783
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_gala_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_gala_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1473,22 +1479,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_sonya_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_sonya_s1.png",
       "PuppetName": {
-        "$arrayRef": 87293
+        "$arrayRef": 87784
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_sonya_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_sonya_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1510,22 +1516,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_daimon_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_daimon_s1.png",
       "PuppetName": {
-        "$arrayRef": 87294
+        "$arrayRef": 87785
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_daimon_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_daimon_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1544,14 +1550,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87295
+        "$arrayRef": 87786
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1574,22 +1580,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_mask_s1.png",
       "PuppetName": {
-        "$arrayRef": 87296
+        "$arrayRef": 87787
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_mask_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_mask_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1611,22 +1617,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_kid_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_kid_s1.png",
       "PuppetName": {
-        "$arrayRef": 87297
+        "$arrayRef": 87788
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_kid_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_kid_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1645,14 +1651,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87298
+        "$arrayRef": 87789
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1675,22 +1681,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_bonnie_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_bonnie_s1.png",
       "PuppetName": {
-        "$arrayRef": 87299
+        "$arrayRef": 87790
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_bonnie_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_bonnie_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1709,22 +1715,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_catwoman_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_catwoman_s1.png",
       "PuppetName": {
-        "$arrayRef": 87300
+        "$arrayRef": 87791
       },
       "LootInfo": {
-        "$arrayRef": 201
+        "$arrayRef": 232
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_catwoman_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_catwoman_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1746,19 +1752,19 @@
         "1": "ella_s1"
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_ella_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_ella_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1780,19 +1786,19 @@
         "1": "rabbitbow_s1"
       },
       "LootInfo": {
-        "$arrayRef": 416
+        "$arrayRef": 461
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_rabbitbow_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_rabbitbow_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1818,22 +1824,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_fairygirl_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_fairygirl_s1.png",
       "PuppetName": {
-        "$arrayRef": 87301
+        "$arrayRef": 87792
       },
       "LootInfo": {
-        "$arrayRef": 415
+        "$arrayRef": 460
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_fairygirl_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_fairygirl_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1852,14 +1858,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87302
+        "$arrayRef": 87793
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1882,14 +1888,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87303
+        "$arrayRef": 87794
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1912,14 +1918,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87304
+        "$arrayRef": 87795
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -1945,19 +1951,19 @@
         "1": "aabb5_s1"
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_aabb5_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_aabb5_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -1976,22 +1982,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_pharmacist_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_pharmacist_s1.png",
       "PuppetName": {
-        "$arrayRef": 87305
+        "$arrayRef": 87796
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_pharmacist_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_pharmacist_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -2010,22 +2016,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_shark_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_shark_s1.png",
       "PuppetName": {
-        "$arrayRef": 87306
+        "$arrayRef": 87797
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_shark_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_shark_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -2044,22 +2050,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_chris_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_chris_s1.png",
       "PuppetName": {
-        "$arrayRef": 87307
+        "$arrayRef": 87798
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_chris_mask.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_chris_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -2078,22 +2084,22 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_dragonbow_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_dragonbow_s1.png",
       "PuppetName": {
-        "$arrayRef": 87308
+        "$arrayRef": 87799
       },
       "LootInfo": {
-        "$arrayRef": 200
+        "$arrayRef": 231
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_dragonbow_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_dragonbow_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -2112,22 +2118,95 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_solise_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_solise_s1.png",
       "PuppetName": {
-        "$arrayRef": 87309
+        "$arrayRef": 87800
       },
       "LootInfo": {
-        "$arrayRef": 216
+        "$arrayRef": 247
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_solise_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_solise_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
+      },
+      "BuyPriceDiamond": 100
+    },
+    {
+      "HeroSkinID": 54,
+      "UnitID": 110,
+      "Name": "8614208894212246377",
+      "Quality": 8,
+      "QualityDes": "17953600870645715925",
+      "Tail": "s1",
+      "SummonSkinID": {},
+      "SubordinateSkinID": {},
+      "Description": "10969877555583113066",
+      "RequireDes": "12321531444624450701",
+      "HeroSkinListIcon": "ui/icon/hero/spui_herohead_110_s1.png",
+      "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_succubus_s1.png",
+      "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_succubus_s1.png",
+      "PuppetName": {
+        "$arrayRef": 87801
+      },
+      "LootInfo": {
+        "$arrayRef": 247
+      },
+      "PreviewOffset": {
+        "$arrayRef": 68649
+      },
+      "HeroStartAction": {
+        "$arrayRef": 83833
+      },
+      "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_succubus_s1.png",
+      "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_succubus_1.png",
+      "IsDisplay": true,
+      "ExchangeItem": {
+        "$arrayRef": 86352
+      },
+      "BuyPriceDiamond": 100
+    },
+    {
+      "HeroSkinID": 55,
+      "UnitID": 127,
+      "Name": "4985664116236750681",
+      "Quality": 6,
+      "QualityDes": "8078371492132022040",
+      "Tail": "s1",
+      "SummonSkinID": {
+        "1": 5063,
+        "2": 10010,
+        "3": 5064,
+        "4": 10011
+      },
+      "SubordinateSkinID": {},
+      "Description": "13556377822830382389",
+      "RequireDes": "4773089379664708486",
+      "HeroSkinListIcon": "ui/icon/hero/spui_herohead_127_s1.png",
+      "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_peggy_s1.png",
+      "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_peggy_s1.png",
+      "PuppetName": {
+        "$arrayRef": 87802
+      },
+      "LootInfo": {
+        "$arrayRef": 22012
+      },
+      "PreviewOffset": {
+        "$arrayRef": 68649
+      },
+      "HeroStartAction": {
+        "$arrayRef": 83833
+      },
+      "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_peggy_s1.png",
+      "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_peggy_1.png",
+      "IsDisplay": true,
+      "ExchangeItem": {
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     },
@@ -2146,14 +2225,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87310
+        "$arrayRef": 87803
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -2176,14 +2255,14 @@
       "GetSkinShowPic": null,
       "HeroSkinRewardIcon": null,
       "PuppetName": {
-        "$arrayRef": 87311
+        "$arrayRef": 87804
       },
       "LootInfo": {},
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": null,
       "HeroSkinChooseBg": null,
@@ -2206,22 +2285,157 @@
       "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_whitewolf_s1.png",
       "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_whitewolf_s1.png",
       "PuppetName": {
-        "$arrayRef": 87312
+        "$arrayRef": 87805
       },
       "LootInfo": {
-        "$arrayRef": 21969
+        "$arrayRef": 22012
       },
       "PreviewOffset": {
-        "$arrayRef": 68626
+        "$arrayRef": 68649
       },
       "HeroStartAction": {
-        "$arrayRef": 83372
+        "$arrayRef": 83833
       },
       "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_whitewolf_s1.png",
       "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_whitewolf_1.png",
       "IsDisplay": true,
       "ExchangeItem": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
+      },
+      "BuyPriceDiamond": 100
+    },
+    {
+      "HeroSkinID": 56,
+      "UnitID": 99,
+      "Name": "2937436022377697109",
+      "Quality": 6,
+      "QualityDes": "8078371492132022040",
+      "Tail": "s1",
+      "SummonSkinID": {
+        "1": 5049,
+        "2": 10012
+      },
+      "SubordinateSkinID": {},
+      "Description": "10514432844825924367",
+      "RequireDes": "9271314551440041647",
+      "HeroSkinListIcon": "ui/icon/hero/spui_herohead_99_s1.png",
+      "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_agent_s1.png",
+      "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_agent_s1.png",
+      "PuppetName": {
+        "$arrayRef": 87806
+      },
+      "LootInfo": {
+        "$arrayRef": 232
+      },
+      "PreviewOffset": {
+        "$arrayRef": 68649
+      },
+      "HeroStartAction": {
+        "$arrayRef": 83833
+      },
+      "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_agent_s1.png",
+      "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_agent_1.png",
+      "IsDisplay": true,
+      "ExchangeItem": {
+        "$arrayRef": 86352
+      },
+      "BuyPriceDiamond": 100
+    },
+    {
+      "HeroSkinID": 10012,
+      "UnitID": 5049,
+      "Name": null,
+      "Quality": 6,
+      "QualityDes": "8078371492132022040",
+      "Tail": "s1",
+      "SummonSkinID": {},
+      "SubordinateSkinID": {},
+      "Description": null,
+      "RequireDes": null,
+      "HeroSkinListIcon": "ui/icon/hero/spui_herohead_5049_s1.png",
+      "GetSkinShowPic": null,
+      "HeroSkinRewardIcon": null,
+      "PuppetName": {
+        "1": "agentpen_s1"
+      },
+      "LootInfo": {},
+      "PreviewOffset": {
+        "$arrayRef": 68649
+      },
+      "HeroStartAction": {
+        "$arrayRef": 83833
+      },
+      "GetSkinShowBgPic": null,
+      "HeroSkinChooseBg": null,
+      "IsDisplay": false,
+      "ExchangeItem": {},
+      "BuyPriceDiamond": 100
+    },
+    {
+      "HeroSkinID": 57,
+      "UnitID": 82,
+      "Name": "12253653684504250135",
+      "Quality": 4,
+      "QualityDes": "15882699517603631519",
+      "Tail": "s1",
+      "SummonSkinID": {},
+      "SubordinateSkinID": {},
+      "Description": "12578088449470260261",
+      "RequireDes": "5734049192709591780",
+      "HeroSkinListIcon": "ui/icon/hero/spui_herohead_82_s1.png",
+      "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_blackmagician_s1.png",
+      "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_blackmagician_s1.png",
+      "PuppetName": {
+        "$arrayRef": 87807
+      },
+      "LootInfo": {
+        "$arrayRef": 462
+      },
+      "PreviewOffset": {
+        "$arrayRef": 68649
+      },
+      "HeroStartAction": {
+        "$arrayRef": 83833
+      },
+      "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_blackmagician_s1.png",
+      "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_blackmagician_1.png",
+      "IsDisplay": true,
+      "ExchangeItem": {
+        "$arrayRef": 86352
+      },
+      "BuyPriceDiamond": 100
+    },
+    {
+      "HeroSkinID": 58,
+      "UnitID": 92,
+      "Name": "16705818411305764594",
+      "Quality": 8,
+      "QualityDes": "17953600870645715925",
+      "Tail": "s1",
+      "SummonSkinID": {},
+      "SubordinateSkinID": {},
+      "Description": "434870051187633967",
+      "RequireDes": "2583308330857074320",
+      "HeroSkinListIcon": "ui/icon/hero/spui_herohead_92_s1.png",
+      "GetSkinShowPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_bombgirl_s1.png",
+      "HeroSkinRewardIcon": "ui/icon/heroskin/spui_heroskinhead_bombgirl_s1.png",
+      "PuppetName": {
+        "$arrayRef": 87808
+      },
+      "LootInfo": {
+        "$arrayRef": 463
+      },
+      "PreviewOffset": {
+        "$arrayRef": 68649
+      },
+      "HeroStartAction": {
+        "$arrayRef": 83833
+      },
+      "GetSkinShowBgPic": "UI/Icon/HeroSkin/spui_heroskin_hero_show_mask_bombgirl_s1.png",
+      "HeroSkinChooseBg": "UI/Icon/HeroSkin/spui_heroskin_bombgirl_1.png",
+      "IsDisplay": true,
+      "ExchangeItem": {
+        "$arrayRef": 86352
       },
       "BuyPriceDiamond": 100
     }

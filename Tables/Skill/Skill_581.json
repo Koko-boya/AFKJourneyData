@@ -7,12 +7,9 @@
     "row_count": 1,
     "array_fields": [
       "Action(s)",
-      "CastDisplays",
-      "HitDisplay",
-      "TargetShapeArgs",
-      "Trajectory"
+      "TargetShapeArgs"
     ],
-    "unresolved_array_refs": 5
+    "unresolved_array_refs": 2
   },
   "default": {
     "CasterID": "null",
@@ -150,10 +147,10 @@
   ],
   "rows": [
     {
-      "CasterID": 5002,
+      "CasterID": 4054,
       "SkillID": 0,
-      "SkillName": "sporeminion_atk",
-      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
+      "SkillName": "storyhuman_atk",
+      "DisplayName": "（不用翻译）占坑普攻",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -174,46 +171,40 @@
       "SkillScript": null,
       "Icon": null,
       "Description": "普通攻击（不用翻译）",
-      "SimpleDescription": "（不用翻译）",
-      "ActiveType": "active",
+      "SimpleDescription": null,
+      "ActiveType": "passive",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 75
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
       "Priority": 1,
-      "CD": 0,
-      "InitCD": 0.25,
+      "CD": 9999,
+      "InitCD": 9999,
       "GlobalCD": 1,
       "CostMP": 0,
       "GainMP": 130,
       "VictimMP": 1,
-      "TrackType": "projectile",
-      "UseNewDisplay": true,
+      "TrackType": null,
+      "UseNewDisplay": false,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
       "UseWhich": null,
-      "CastDisplays": {
-        "$arrayRef": 108516
-      },
-      "HitDisplay": {
-        "$arrayRef": 108516
-      },
+      "CastDisplays": {},
+      "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 108516
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -261,7 +252,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -273,7 +264,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,

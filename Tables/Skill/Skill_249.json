@@ -8,10 +8,10 @@
     "array_fields": [
       "Action(s)",
       "CastDisplays",
+      "EvaluateDisplay",
       "HitDisplay",
-      "ResourceList",
-      "TargetShapeArgs",
-      "Trajectory"
+      "ReselectTargetArgs",
+      "TargetShapeArgs"
     ],
     "unresolved_array_refs": 10
   },
@@ -148,14 +148,14 @@
   },
   "row_keys": [
     0,
-    21
+    11
   ],
   "rows": [
     {
-      "CasterID": 1206,
+      "CasterID": 1202,
       "SkillID": 0,
-      "SkillName": "goblinmagemagesnow_atk",
-      "DisplayName": "（不用翻译）普通攻击(不用翻译)",
+      "SkillName": "goblingiantforest_atk",
+      "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -183,39 +183,37 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 38
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
-      "TargetBlockType": null,
+      "TargetBlockType": "allblock",
       "Priority": 1,
       "CD": 0,
       "InitCD": 0,
       "GlobalCD": 1,
       "CostMP": 0,
-      "GainMP": 0,
+      "GainMP": 95,
       "VictimMP": 1,
-      "TrackType": "projectile",
+      "TrackType": null,
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblingiant",
       "CastDisplays": {
-        "$arrayRef": 108533
+        "$arrayRef": 109912
       },
       "HitDisplay": {
-        "$arrayRef": 108533
+        "$arrayRef": 109912
       },
       "EvaluateDisplay": {},
-      "Trajectory": {
-        "$arrayRef": 108533
-      },
+      "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108533
+        "$arrayRef": 109912
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -225,7 +223,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 1.1,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -263,7 +261,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -275,7 +273,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -293,10 +291,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1206,
-      "SkillID": 21,
-      "SkillName": "goblinmagemagesnow_atk2",
-      "DisplayName": "7239494457825427811",
+      "CasterID": 1202,
+      "SkillID": 11,
+      "SkillName": "goblingiantforest_ult",
+      "DisplayName": "11707215711730183952",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -306,36 +304,38 @@
       "UnlockMastery": -1,
       "UnlockSeasonLevel": 0,
       "EnhanceAttr": null,
-      "Slot": 2,
-      "DisplaySlot": 2,
+      "Slot": 1,
+      "DisplaySlot": 1,
       "FatherSkillSlot": -1,
       "SeasonID": 0,
       "SkillLevel": 1,
-      "SkillType": null,
+      "SkillType": "manual",
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
-      "Description": "1780561553564338497",
-      "SimpleDescription": "17110949310988747732",
-      "ActiveType": "active",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_dot.png",
+      "Description": "16267746617424995670",
+      "SimpleDescription": "16612581684806878063",
+      "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 38
       },
-      "TargetCamp": -1,
+      "TargetCamp": 0,
       "TargetPriority": "target",
       "FirstPriority": {},
-      "ReselectTargetArgs": {},
-      "TargetBlockType": null,
-      "Priority": 3,
-      "CD": 15,
-      "InitCD": 2,
+      "ReselectTargetArgs": {
+        "$arrayRef": 109911
+      },
+      "TargetBlockType": "allblock",
+      "Priority": 2,
+      "CD": 3,
+      "InitCD": 0,
       "GlobalCD": 1,
-      "CostMP": 0,
+      "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
@@ -344,17 +344,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblingiant",
       "CastDisplays": {
-        "$arrayRef": 108521
+        "$arrayRef": 109706
       },
       "HitDisplay": {
-        "$arrayRef": 108521
+        "$arrayRef": 109706
       },
-      "EvaluateDisplay": {},
+      "EvaluateDisplay": {
+        "$arrayRef": 109706
+      },
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108521
+        "$arrayRef": 109706
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -364,14 +366,14 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.5,
+      "PlusRatio": 0.5,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 0,
-      "SArg1": 0,
-      "SArg2": 0,
-      "SArg3": 0,
+      "SArg0": 4,
+      "SArg1": 1,
+      "SArg2": 10,
+      "SArg3": 0.07,
       "SArg4": 0,
       "SArg5": 0,
       "SArg6": 0,
@@ -402,7 +404,7 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
@@ -414,7 +416,7 @@
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
+      "AimTarget": false,
       "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
@@ -429,9 +431,7 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 108693
-      }
+      "ResourceList": {}
     }
   ]
 }

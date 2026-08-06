@@ -3,10 +3,11 @@
     "table": "ParamGradient",
     "header_table": "ParamGradientHeaderTable",
     "format": "flat_rows",
-    "schema_size": 28,
+    "schema_size": 29,
     "row_count": 50,
     "array_fields": [
       "AvatarUnlockSlotCost",
+      "BossRaceBuyTimesCost",
       "BossRushBuyTimesCost",
       "DancePartyPlanePrice",
       "DisasterTicketPrice",
@@ -32,7 +33,7 @@
       "WzArenaTicketsPrice",
       "ZoneRetryCost"
     ],
-    "unresolved_array_refs": 378
+    "unresolved_array_refs": 388
   },
   "default": {
     "Order": "null",
@@ -62,7 +63,8 @@
     "TycoonBossBattleCost": {},
     "AvatarUnlockSlotCost": {},
     "BossRushBuyTimesCost": {},
-    "MegaBossTicket": {}
+    "MegaBossTicket": {},
+    "BossRaceBuyTimesCost": {}
   },
   "row_keys": [
     1,
@@ -120,34 +122,34 @@
     {
       "Order": 1,
       "HarvestGodChallenge": {
-        "$arrayRef": 82823
+        "$arrayRef": 83265
       },
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 82823
+        "$arrayRef": 83265
       },
       "QuickIdleCost": {
-        "$arrayRef": 82823
+        "$arrayRef": 83265
       },
       "LocalArenaTicketsPrice": {
-        "$arrayRef": 82528
+        "$arrayRef": 82963
       },
       "NormalShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -155,13 +157,13 @@
         "3": 10
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {
-        "$arrayRef": 106355
+        "$arrayRef": 107446
       },
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {
         "1": 1002,
@@ -169,28 +171,28 @@
         "3": 25
       },
       "HuntChallengeTimesBuyCost": {
-        "$arrayRef": 106347
+        "$arrayRef": 107438
       },
       "DreamBossTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 84148
+        "$arrayRef": 84612
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82935
+        "$arrayRef": 83385
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 106358
+        "$arrayRef": 107449
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {
-        "$arrayRef": 106360
+        "$arrayRef": 107451
       },
       "TycoonBossBattleCost": {
         "1": 1,
@@ -198,32 +200,35 @@
         "3": 0
       },
       "AvatarUnlockSlotCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "BossRushBuyTimesCost": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "MegaBossTicket": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 82964
       }
     },
     {
       "Order": 2,
       "HarvestGodChallenge": {
-        "$arrayRef": 82537
+        "$arrayRef": 82988
       },
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 82537
+        "$arrayRef": 82988
       },
       "QuickIdleCost": {
-        "$arrayRef": 82537
+        "$arrayRef": 82988
       },
       "LocalArenaTicketsPrice": {
-        "$arrayRef": 82935
+        "$arrayRef": 83385
       },
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
         "1": 1001,
@@ -231,13 +236,13 @@
         "3": 230
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -245,36 +250,36 @@
         "3": 14
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {
-        "$arrayRef": 106356
+        "$arrayRef": 107447
       },
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 84148
+        "$arrayRef": 84612
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82823
+        "$arrayRef": 83265
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 106358
+        "$arrayRef": 107449
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {
-        "$arrayRef": 106360
+        "$arrayRef": 107451
       },
       "TycoonBossBattleCost": {
         "1": 1,
@@ -282,44 +287,47 @@
         "3": 10
       },
       "AvatarUnlockSlotCost": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "BossRushBuyTimesCost": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "MegaBossTicket": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 82964
       }
     },
     {
       "Order": 3,
       "HarvestGodChallenge": {
-        "$arrayRef": 82222
+        "$arrayRef": 82654
       },
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "QuickIdleCost": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "LocalArenaTicketsPrice": {
-        "$arrayRef": 82935
+        "$arrayRef": 83385
       },
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 91246
+        "$arrayRef": 92279
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -327,7 +335,7 @@
         "3": 18
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {
         "1": 1001,
@@ -335,55 +343,58 @@
         "3": 200
       },
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82823
+        "$arrayRef": 83265
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 106359
+        "$arrayRef": 107450
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "MegaBossTicket": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 84613
       }
     },
     {
       "Order": 4,
       "HarvestGodChallenge": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 383
+        "$arrayRef": 420
       },
       "QuickIdleCost": {
-        "$arrayRef": 383
+        "$arrayRef": 420
       },
       "LocalArenaTicketsPrice": {
-        "$arrayRef": 82935
+        "$arrayRef": 83385
       },
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
         "1": 1001,
@@ -391,13 +402,13 @@
         "3": 280
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -405,7 +416,7 @@
         "3": 22
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {
         "1": 1001,
@@ -413,67 +424,70 @@
         "3": 250
       },
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82537
+        "$arrayRef": 82988
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 106359
+        "$arrayRef": 107450
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "MegaBossTicket": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 84613
       }
     },
     {
       "Order": 5,
       "HarvestGodChallenge": {
-        "$arrayRef": 383
+        "$arrayRef": 420
       },
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 83283
+        "$arrayRef": 83743
       },
       "QuickIdleCost": {
-        "$arrayRef": 83283
+        "$arrayRef": 83743
       },
       "LocalArenaTicketsPrice": {
-        "$arrayRef": 82936
+        "$arrayRef": 83386
       },
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -481,7 +495,7 @@
         "3": 26
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {
         "1": 1001,
@@ -489,63 +503,66 @@
         "3": 300
       },
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82537
+        "$arrayRef": 82988
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 106359
+        "$arrayRef": 107450
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
       },
       "MegaBossTicket": {
-        "$arrayRef": 84149
+        "$arrayRef": 84613
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 84613
       }
     },
     {
       "Order": 6,
       "HarvestGodChallenge": {},
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 91106
+        "$arrayRef": 92143
       },
       "QuickIdleCost": {
-        "$arrayRef": 91106
+        "$arrayRef": 92143
       },
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -553,67 +570,70 @@
         "3": 30
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82537
+        "$arrayRef": 82988
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 91228
+        "$arrayRef": 92263
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "MegaBossTicket": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 107448
       }
     },
     {
       "Order": 7,
       "HarvestGodChallenge": {},
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 91106
+        "$arrayRef": 92143
       },
       "QuickIdleCost": {
-        "$arrayRef": 91106
+        "$arrayRef": 92143
       },
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -621,67 +641,70 @@
         "3": 34
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 91228
+        "$arrayRef": 92263
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "MegaBossTicket": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 107448
       }
     },
     {
       "Order": 8,
       "HarvestGodChallenge": {},
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "QuickIdleCost": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -689,67 +712,70 @@
         "3": 38
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 91228
+        "$arrayRef": 92263
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
       },
       "MegaBossTicket": {
-        "$arrayRef": 106357
+        "$arrayRef": 107448
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 107448
       }
     },
     {
       "Order": 9,
       "HarvestGodChallenge": {},
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "QuickIdleCost": {
-        "$arrayRef": 85863
+        "$arrayRef": 86352
       },
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -757,67 +783,70 @@
         "3": 42
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 91228
+        "$arrayRef": 92263
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
       },
       "MegaBossTicket": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 84420
       }
     },
     {
       "Order": 10,
       "HarvestGodChallenge": {},
       "GuildWarSkirmishRefreshCost": {
-        "$arrayRef": 91096
+        "$arrayRef": 92133
       },
       "QuickIdleCost": {
-        "$arrayRef": 91096
+        "$arrayRef": 92133
       },
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -825,40 +854,43 @@
         "3": 46
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
       },
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "DisasterTicketPrice": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
       },
       "DancePartyPlanePrice": {
-        "$arrayRef": 91228
+        "$arrayRef": 92263
       },
       "IdolTowerRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
       },
       "MegaBossTicket": {
-        "$arrayRef": 83961
+        "$arrayRef": 84420
+      },
+      "BossRaceBuyTimesCost": {
+        "$arrayRef": 84420
       }
     },
     {
@@ -869,49 +901,50 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
-        "$arrayRef": 106348
+        "$arrayRef": 107439
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 82813
+        "$arrayRef": 83255
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 12,
@@ -921,19 +954,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -941,31 +974,32 @@
         "3": 54
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {
-        "$arrayRef": 82110
+        "$arrayRef": 82542
       },
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 83115
+        "$arrayRef": 83573
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 13,
@@ -975,19 +1009,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -995,29 +1029,30 @@
         "3": 58
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 106354
+        "$arrayRef": 107445
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 14,
@@ -1027,19 +1062,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1047,29 +1082,30 @@
         "3": 62
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 96410
+        "$arrayRef": 97494
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 15,
@@ -1079,19 +1115,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1099,29 +1135,30 @@
         "3": 66
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 96949
+        "$arrayRef": 98033
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 16,
@@ -1131,19 +1168,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1151,29 +1188,30 @@
         "3": 70
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 96359
+        "$arrayRef": 97443
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 17,
@@ -1183,19 +1221,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1203,29 +1241,30 @@
         "3": 74
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 96962
+        "$arrayRef": 98046
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 18,
@@ -1235,19 +1274,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1255,29 +1294,30 @@
         "3": 78
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 96262
+        "$arrayRef": 97346
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 19,
@@ -1287,19 +1327,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1307,17 +1347,17 @@
         "3": 82
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1331,7 +1371,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 20,
@@ -1341,19 +1382,19 @@
       "LocalArenaTicketsPrice": {},
       "NormalShopRefreshCost": {},
       "LocalArenaShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DisbandShopRefreshCost": {
-        "$arrayRef": 82534
+        "$arrayRef": 82985
       },
       "MazeCoinShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "DreamBossShopRefreshCost": {
-        "$arrayRef": 106353
+        "$arrayRef": 107444
       },
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1361,29 +1402,30 @@
         "3": 86
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
       "DancePartyPlanePrice": {},
       "IdolTowerRetryCost": {
-        "$arrayRef": 84148
+        "$arrayRef": 84612
       },
       "TycoonSearchCost": {},
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 21,
@@ -1397,7 +1439,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1405,17 +1447,17 @@
         "3": 90
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1425,7 +1467,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 22,
@@ -1439,7 +1482,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1447,17 +1490,17 @@
         "3": 94
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1467,7 +1510,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 23,
@@ -1481,7 +1525,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1489,17 +1533,17 @@
         "3": 98
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1509,7 +1553,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 24,
@@ -1523,7 +1568,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1531,17 +1576,17 @@
         "3": 102
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1551,7 +1596,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 25,
@@ -1565,7 +1611,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1573,17 +1619,17 @@
         "3": 106
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1593,7 +1639,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 26,
@@ -1607,7 +1654,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1615,17 +1662,17 @@
         "3": 110
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1635,7 +1682,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 27,
@@ -1649,7 +1697,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1657,17 +1705,17 @@
         "3": 114
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1677,7 +1725,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 28,
@@ -1691,7 +1740,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1699,17 +1748,17 @@
         "3": 118
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1719,7 +1768,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 29,
@@ -1733,7 +1783,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1741,17 +1791,17 @@
         "3": 122
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1761,7 +1811,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 30,
@@ -1775,7 +1826,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1783,17 +1834,17 @@
         "3": 126
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
       "DreamBossTicketsPrice": {},
       "DuelTicketsPrice": {
-        "$arrayRef": 82529
+        "$arrayRef": 82964
       },
       "WzArenaTicketsPrice": {},
       "DisasterTicketPrice": {},
@@ -1803,7 +1854,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 31,
@@ -1817,7 +1869,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1825,11 +1877,11 @@
         "3": 130
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -1843,7 +1895,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 32,
@@ -1857,7 +1910,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1865,11 +1918,11 @@
         "3": 134
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -1883,7 +1936,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 33,
@@ -1897,7 +1951,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1905,11 +1959,11 @@
         "3": 138
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -1923,7 +1977,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 34,
@@ -1937,7 +1992,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1945,11 +2000,11 @@
         "3": 142
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -1963,7 +2018,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 35,
@@ -1977,7 +2033,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -1985,11 +2041,11 @@
         "3": 146
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2003,7 +2059,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 36,
@@ -2017,7 +2074,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2025,11 +2082,11 @@
         "3": 150
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2043,7 +2100,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 37,
@@ -2057,7 +2115,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2065,11 +2123,11 @@
         "3": 154
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2083,7 +2141,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 38,
@@ -2097,7 +2156,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2105,11 +2164,11 @@
         "3": 158
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2123,7 +2182,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 39,
@@ -2137,7 +2197,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2145,11 +2205,11 @@
         "3": 162
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2163,7 +2223,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 40,
@@ -2177,7 +2238,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2185,11 +2246,11 @@
         "3": 166
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2203,7 +2264,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 41,
@@ -2217,7 +2279,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2225,11 +2287,11 @@
         "3": 170
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2243,7 +2305,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 42,
@@ -2257,7 +2320,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2265,11 +2328,11 @@
         "3": 174
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2283,7 +2346,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 43,
@@ -2297,7 +2361,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2305,11 +2369,11 @@
         "3": 178
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2323,7 +2387,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 44,
@@ -2337,7 +2402,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2345,11 +2410,11 @@
         "3": 182
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2363,7 +2428,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 45,
@@ -2377,7 +2443,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2385,11 +2451,11 @@
         "3": 186
       },
       "ZoneRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 88683
+        "$arrayRef": 89190
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2403,7 +2469,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 46,
@@ -2417,7 +2484,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 82813
+        "$arrayRef": 83255
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2425,11 +2492,11 @@
         "3": 190
       },
       "ZoneRetryCost": {
-        "$arrayRef": 82813
+        "$arrayRef": 83255
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 82813
+        "$arrayRef": 83255
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2443,7 +2510,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 47,
@@ -2457,7 +2525,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 83115
+        "$arrayRef": 83573
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2465,11 +2533,11 @@
         "3": 194
       },
       "ZoneRetryCost": {
-        "$arrayRef": 83115
+        "$arrayRef": 83573
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 83115
+        "$arrayRef": 83573
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2483,7 +2551,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 48,
@@ -2497,7 +2566,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 106354
+        "$arrayRef": 107445
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2505,11 +2574,11 @@
         "3": 198
       },
       "ZoneRetryCost": {
-        "$arrayRef": 106354
+        "$arrayRef": 107445
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 106354
+        "$arrayRef": 107445
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2523,7 +2592,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 49,
@@ -2537,7 +2607,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 96410
+        "$arrayRef": 97494
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2545,11 +2615,11 @@
         "3": 202
       },
       "ZoneRetryCost": {
-        "$arrayRef": 96410
+        "$arrayRef": 97494
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 96410
+        "$arrayRef": 97494
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2563,7 +2633,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     },
     {
       "Order": 50,
@@ -2577,7 +2648,7 @@
       "MazeCoinShopRefreshCost": {},
       "DreamBossShopRefreshCost": {},
       "StageRetryCost": {
-        "$arrayRef": 96949
+        "$arrayRef": 98033
       },
       "MazeSuitReplaceCost": {
         "1": 1002,
@@ -2585,11 +2656,11 @@
         "3": 206
       },
       "ZoneRetryCost": {
-        "$arrayRef": 96949
+        "$arrayRef": 98033
       },
       "RecruitShopRefreshCost": {},
       "StageMultiRetryCost": {
-        "$arrayRef": 96949
+        "$arrayRef": 98033
       },
       "MazeSuitRefreshCost": {},
       "HuntChallengeTimesBuyCost": {},
@@ -2603,7 +2674,8 @@
       "TycoonBossBattleCost": {},
       "AvatarUnlockSlotCost": {},
       "BossRushBuyTimesCost": {},
-      "MegaBossTicket": {}
+      "MegaBossTicket": {},
+      "BossRaceBuyTimesCost": {}
     }
   ]
 }

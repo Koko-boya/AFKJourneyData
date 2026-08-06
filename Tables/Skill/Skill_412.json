@@ -9,13 +9,12 @@
       "AOEShapeArgs",
       "Action(s)",
       "CastDisplays",
-      "FirstPriority",
       "HitDisplay",
-      "ReselectTargetArgs",
       "ResourceList",
-      "TargetShapeArgs"
+      "TargetShapeArgs",
+      "Trajectory"
     ],
-    "unresolved_array_refs": 21
+    "unresolved_array_refs": 19
   },
   "default": {
     "CasterID": "null",
@@ -156,9 +155,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1733,
+      "CasterID": 1715,
       "SkillID": 0,
-      "SkillName": "fairymeleeb_atk",
+      "SkillName": "magicpumpkinb_atk",
       "DisplayName": "普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -187,7 +186,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 74
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -201,23 +200,25 @@
       "CostMP": 0,
       "GainMP": 90,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fairymelee",
+      "UseWhich": "magicpumpkin",
       "CastDisplays": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "HitDisplay": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109705
+      },
       "Action(s)": {
-        "$arrayRef": 108516
+        "$arrayRef": 109705
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -265,20 +266,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "target",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
-      "TileOTTHeight": 0,
+      "TileOTTHeight": 10,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
+      "AimTarget": true,
+      "FollowTarget": true,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -295,10 +296,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1733,
+      "CasterID": 1715,
       "SkillID": 11,
-      "SkillName": "fairymeleeb_ult",
-      "DisplayName": "12171013438914085930",
+      "SkillName": "magicpumpkinb_ult",
+      "DisplayName": "9818638025564960692",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -317,62 +318,64 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_knock.png",
-      "Description": "2292988271433571359",
-      "SimpleDescription": "9886978673673214725",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_circle.png",
+      "Description": "14722937084738830285",
+      "SimpleDescription": "4374810293433008735",
       "ActiveType": "manual",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
-      "TargetType": null,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       },
       "TargetCamp": -1,
-      "TargetPriority": "farthest",
+      "TargetPriority": "h_mostunits",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 3,
+      "Priority": 5,
       "CD": 0,
       "InitCD": 0,
-      "GlobalCD": 1,
+      "GlobalCD": 0,
       "CostMP": 1000,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fairymelee",
+      "UseWhich": "magicpumpkin",
       "CastDisplays": {
-        "$arrayRef": 108517
+        "$arrayRef": 109706
       },
       "HitDisplay": {},
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109706
+      },
       "Action(s)": {
-        "$arrayRef": 108517
+        "$arrayRef": 109706
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
       "AOEOrigin": "target",
       "AOEShape": "around",
       "AOEShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1.5,
-      "DamageType": "AD",
+      "PlusRatio": 2.5,
+      "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1,
-      "SArg1": 1,
-      "SArg2": 2,
+      "SArg0": 0,
+      "SArg1": 0,
+      "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
       "SArg5": 0,
@@ -404,20 +407,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": null,
+      "TileCollideType": "ground",
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": false,
-      "FollowTarget": false,
+      "AimTarget": true,
+      "FollowTarget": true,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -432,14 +435,14 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 108968
+        "$arrayRef": 110172
       }
     },
     {
-      "CasterID": 1733,
+      "CasterID": 1715,
       "SkillID": 21,
-      "SkillName": "fairymeleeb_atk2",
-      "DisplayName": "13610628998328306591",
+      "SkillName": "magicpumpkinb_atk2",
+      "DisplayName": "14674444202977792812",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -458,28 +461,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ad.png",
-      "Description": "11600021080597310636",
-      "SimpleDescription": "2592226257819018383",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_magicplant.png",
+      "Description": "4932740819731260904",
+      "SimpleDescription": "3628469536559460122",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 43
+        "$arrayRef": 38
       },
       "TargetCamp": -1,
-      "TargetPriority": "target",
+      "TargetPriority": "self",
       "FirstPriority": {},
       "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 2,
-      "CD": 8,
-      "InitCD": 5,
+      "Priority": 20,
+      "CD": 9999,
+      "InitCD": 0,
       "GlobalCD": 0,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -487,34 +490,30 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fairymelee",
+      "UseWhich": "magicpumpkin",
       "CastDisplays": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
-      "HitDisplay": {
-        "$arrayRef": 108521
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": "target",
-      "AOEShape": "around",
-      "AOEShapeArgs": {
-        "$arrayRef": 43
-      },
+      "AOEOrigin": null,
+      "AOEShape": null,
+      "AOEShapeArgs": {},
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
-      "PlusAttr": "ATK",
-      "PlusRatio": 0.8,
-      "DamageType": "AD",
+      "PlusAttr": null,
+      "PlusRatio": 0,
+      "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 1,
-      "SArg1": 1,
+      "SArg0": 0.3,
+      "SArg1": 0.5,
       "SArg2": 0,
       "SArg3": 0,
       "SArg4": 0,
@@ -577,10 +576,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1733,
+      "CasterID": 1715,
       "SkillID": 31,
-      "SkillName": "fairymeleeb_atk3",
-      "DisplayName": "11827753360700147347",
+      "SkillName": "magicpumpkinb_atk3",
+      "DisplayName": "2922516684022912067",
       "IsShow": true,
       "HeroDetailActionShow": false,
       "UnlockByImba": false,
@@ -599,32 +598,28 @@
       "SkillPerformData": null,
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_monster_fairy.png",
-      "Description": "10334309401115877849",
-      "SimpleDescription": "6551225227800069442",
-      "ActiveType": "passive",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_stomp.png",
+      "Description": "13704655922345184122",
+      "SimpleDescription": "11910430585767083072",
+      "ActiveType": "active",
       "ThumpCondition": -1,
-      "SetSpeeder": 5,
-      "TargetType": null,
+      "SetSpeeder": -1,
+      "TargetType": "hex",
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 38
       },
       "TargetCamp": -1,
-      "TargetPriority": "nearest",
-      "FirstPriority": {
-        "$arrayRef": 108520
-      },
-      "ReselectTargetArgs": {
-        "$arrayRef": 108573
-      },
+      "TargetPriority": "self",
+      "FirstPriority": {},
+      "ReselectTargetArgs": {},
       "TargetBlockType": null,
-      "Priority": 5,
+      "Priority": 10,
       "CD": 9999,
-      "InitCD": 9999,
-      "GlobalCD": 1,
+      "InitCD": 0,
+      "GlobalCD": 0,
       "CostMP": 0,
-      "GainMP": 90,
+      "GainMP": 0,
       "VictimMP": 1,
       "TrackType": null,
       "UseNewDisplay": true,
@@ -632,36 +627,36 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "fairymelee",
+      "UseWhich": "magicpumpkin",
       "CastDisplays": {
-        "$arrayRef": 108564
+        "$arrayRef": 109711
       },
-      "HitDisplay": {
-        "$arrayRef": 108522
-      },
+      "HitDisplay": {},
       "EvaluateDisplay": {},
       "Trajectory": {},
       "Action(s)": {
-        "$arrayRef": 108564
+        "$arrayRef": 109711
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
-      "AOEOrigin": null,
-      "AOEShape": null,
-      "AOEShapeArgs": {},
+      "AOEOrigin": "self",
+      "AOEShape": "around",
+      "AOEShapeArgs": {
+        "$arrayRef": 74
+      },
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 0.03,
+      "PlusRatio": 10,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
-      "SArg0": 10,
-      "SArg1": 40,
-      "SArg2": 70,
-      "SArg3": 1,
-      "SArg4": 10,
-      "SArg5": 0.15,
+      "SArg0": 0.2,
+      "SArg1": 0.2,
+      "SArg2": 0,
+      "SArg3": 0,
+      "SArg4": 0,
+      "SArg5": 0,
       "SArg6": 0,
       "SArg7": 0,
       "SArg8": 0,
@@ -690,20 +685,20 @@
       "RandomBasicAtk": false,
       "HasUpDownAction": false,
       "DamagePopupList": {},
-      "TileCollideType": "target",
+      "TileCollideType": null,
       "TileArt": null,
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0.2,
+      "TileRadius": 0,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
       "TileXZSpeed": 0,
       "TileYSpeed": 0,
       "TileGravity": 0,
-      "AimTarget": true,
-      "FollowTarget": true,
+      "AimTarget": false,
+      "FollowTarget": false,
       "TileRemain": 0,
       "PointEffect": null,
       "PointEffArgs": {},
@@ -718,7 +713,7 @@
       "ChainEffect": null,
       "SummonUnitList": {},
       "ResourceList": {
-        "$arrayRef": 108959
+        "$arrayRef": 110173
       }
     }
   ]

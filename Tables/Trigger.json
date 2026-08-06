@@ -4,7 +4,7 @@
     "header_table": "TriggerHeaderTable",
     "format": "flat_rows",
     "schema_size": 4,
-    "row_count": 221,
+    "row_count": 222,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -235,7 +235,8 @@
     21003,
     21004,
     11801,
-    24001
+    24001,
+    25001
   ],
   "rows": [
     {
@@ -2098,6 +2099,14 @@
       },
       "Condition": "ed.ConditionX.IsUserInEp(\"Ep07\")",
       "Action": "ed.ActionX.UnlockModule(\"CampPet\") and ed.ActionX.RefreshShop(\"Ep07TownEquipShop\") and ed.ActionX.UnlockExchange(48)"
+    },
+    {
+      "ID": 25001,
+      "ServerEvents": {
+        "1": "UnlockModule:Guild"
+      },
+      "Condition": "ed.ConditionX.IsModuleUnlocked(\"Guild\")",
+      "Action": "ed.ActionX.UnlockQuestGroup(9401)"
     }
   ]
 }

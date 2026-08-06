@@ -9,7 +9,6 @@
       "Action(s)",
       "CastDisplays",
       "HitDisplay",
-      "ResourceList",
       "TargetShapeArgs",
       "Trajectory"
     ],
@@ -152,9 +151,9 @@
   ],
   "rows": [
     {
-      "CasterID": 1023,
+      "CasterID": 1019,
       "SkillID": 0,
-      "SkillName": "goblinmagemage_atk",
+      "SkillName": "goblinarcherarrow_atk",
       "DisplayName": "（不用翻译）普通攻击(不用翻译)",
       "IsShow": false,
       "HeroDetailActionShow": false,
@@ -183,7 +182,7 @@
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 42
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -203,19 +202,19 @@
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinarcher",
       "CastDisplays": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "HitDisplay": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "EvaluateDisplay": {},
       "Trajectory": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "Action(s)": {
-        "$arrayRef": 108533
+        "$arrayRef": 109722
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -225,7 +224,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 1,
+      "PlusRatio": 0.8,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -268,7 +267,7 @@
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
@@ -293,10 +292,10 @@
       "ResourceList": {}
     },
     {
-      "CasterID": 1023,
+      "CasterID": 1019,
       "SkillID": 21,
-      "SkillName": "goblinmagemage_atk2",
-      "DisplayName": "7239494457825427811",
+      "SkillName": "goblinarcherarrow_atk2",
+      "DisplayName": "17516769176724296620",
       "IsShow": true,
       "HeroDetailActionShow": true,
       "UnlockByImba": false,
@@ -315,16 +314,16 @@
       "SkillPerformData": "dmg",
       "IsPositiveManual": false,
       "SkillScript": null,
-      "Icon": "UI/Icon/HeroSkill/icon_skill_common_ap_powerful.png",
-      "Description": "1780561553564338497",
-      "SimpleDescription": "17110949310988747732",
+      "Icon": "UI/Icon/HeroSkill/icon_skill_common_arrow_power.png",
+      "Description": "3464206636672931689",
+      "SimpleDescription": "3621142345956484507",
       "ActiveType": "active",
       "ThumpCondition": -1,
       "SetSpeeder": -1,
       "TargetType": null,
       "TargetShape": null,
       "TargetShapeArgs": {
-        "$arrayRef": 189
+        "$arrayRef": 73
       },
       "TargetCamp": -1,
       "TargetPriority": "target",
@@ -338,23 +337,25 @@
       "CostMP": 0,
       "GainMP": 0,
       "VictimMP": 1,
-      "TrackType": null,
+      "TrackType": "projectile",
       "UseNewDisplay": true,
       "CameraType": 0,
       "CameraHideGround": false,
       "SkinId": {},
       "SkinUseWhich": {},
-      "UseWhich": "goblinmage",
+      "UseWhich": "goblinarcher",
       "CastDisplays": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "HitDisplay": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "EvaluateDisplay": {},
-      "Trajectory": {},
+      "Trajectory": {
+        "$arrayRef": 109710
+      },
       "Action(s)": {
-        "$arrayRef": 108521
+        "$arrayRef": 109710
       },
       "DisplayAction(s)": {},
       "AffectedCamp": -1,
@@ -364,7 +365,7 @@
       "AOEOriginFix": {},
       "PlusAttrUnit": null,
       "PlusAttr": "ATK",
-      "PlusRatio": 2.5,
+      "PlusRatio": 2.3,
       "DamageType": null,
       "DamageTrigger": null,
       "DamageTriggerParam": null,
@@ -407,7 +408,7 @@
       "TileArtSkinId": {},
       "TileArtSkinName": {},
       "TileScale": 0,
-      "TileRadius": 0,
+      "TileRadius": 0.2,
       "TilePiercing": false,
       "TileDistance": 0,
       "TileOTTHeight": 0,
@@ -429,9 +430,7 @@
       "MaxAffectTimes": 0,
       "ChainEffect": null,
       "SummonUnitList": {},
-      "ResourceList": {
-        "$arrayRef": 108693
-      }
+      "ResourceList": {}
     }
   ]
 }

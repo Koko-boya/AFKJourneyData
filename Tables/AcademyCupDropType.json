@@ -2,15 +2,39 @@
   "_meta": {
     "table": "AcademyCupDropType",
     "header_table": "AcademyCupDropTypeHeaderTable",
-    "source_table": "AcademyCupDropTypeTable",
-    "format": "explicit_rows",
+    "format": "flat_rows",
     "schema_size": 8,
     "row_count": 13,
-    "array_fields": [],
-    "unresolved_array_refs": 0
+    "array_fields": [
+      "PickUpReward"
+    ],
+    "unresolved_array_refs": 6
   },
-  "default": {},
-  "row_keys": [],
+  "default": {
+    "DropTypeID": "null",
+    "PickUpName": null,
+    "ObjType": null,
+    "EffectParam": 0,
+    "PickUpReward": {},
+    "PickUpRadius": 0,
+    "RadiusCheck": 0,
+    "MapDynObjGroupID": 0
+  },
+  "row_keys": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
   "rows": [
     {
       "DropTypeID": 1,
@@ -38,9 +62,7 @@
       "ObjType": 20004,
       "EffectParam": 0,
       "PickUpReward": {
-        "1": 1001,
-        "2": 100000001,
-        "3": 100000
+        "$arrayRef": 39
       },
       "PickUpRadius": 1,
       "RadiusCheck": 2,
@@ -62,9 +84,7 @@
       "ObjType": 20005,
       "EffectParam": 0,
       "PickUpReward": {
-        "1": 1001,
-        "2": 100000001,
-        "3": 100000
+        "$arrayRef": 39
       },
       "PickUpRadius": 1,
       "RadiusCheck": 2,
@@ -86,9 +106,7 @@
       "ObjType": 20005,
       "EffectParam": 0,
       "PickUpReward": {
-        "1": 1001,
-        "2": 100000001,
-        "3": 100000
+        "$arrayRef": 39
       },
       "PickUpRadius": 1,
       "RadiusCheck": 2,
@@ -110,9 +128,7 @@
       "ObjType": 20005,
       "EffectParam": 0,
       "PickUpReward": {
-        "1": 1001,
-        "2": 100000001,
-        "3": 100000
+        "$arrayRef": 39
       },
       "PickUpRadius": 1,
       "RadiusCheck": 2,
@@ -134,9 +150,7 @@
       "ObjType": 20005,
       "EffectParam": 0,
       "PickUpReward": {
-        "1": 1001,
-        "2": 100000001,
-        "3": 100000
+        "$arrayRef": 39
       },
       "PickUpRadius": 1,
       "RadiusCheck": 2,
@@ -158,9 +172,7 @@
       "ObjType": 20005,
       "EffectParam": 0,
       "PickUpReward": {
-        "1": 1001,
-        "2": 100000001,
-        "3": 100000
+        "$arrayRef": 39
       },
       "PickUpRadius": 1,
       "RadiusCheck": 2,

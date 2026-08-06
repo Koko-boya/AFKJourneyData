@@ -4,7 +4,7 @@
     "header_table": "ChatEmojiGroupHeaderTable",
     "format": "flat_rows",
     "schema_size": 3,
-    "row_count": 6,
+    "row_count": 7,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -19,7 +19,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "rows": [
     {
@@ -51,6 +52,11 @@
       "GroupID": 6,
       "ShowCondition": "true",
       "GroupIconRes": "UI/Icon/Emoji/spui_behaviour_icon_emoji_draft_allin.png"
+    },
+    {
+      "GroupID": 7,
+      "ShowCondition": "ed.ConditionX.DateAfter(2026,8,18)",
+      "GroupIconRes": "UI/Icon/Emoji/emoji_dg_2.png"
     }
   ]
 }

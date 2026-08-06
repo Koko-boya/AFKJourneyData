@@ -4,7 +4,7 @@
     "header_table": "ParamCDHeaderTable",
     "format": "flat_rows",
     "schema_size": 10,
-    "row_count": 122,
+    "row_count": 125,
     "array_fields": [
       "EffectKey"
     ],
@@ -144,7 +144,10 @@
     129,
     130,
     132,
-    133
+    133,
+    134,
+    135,
+    136
   ],
   "rows": [
     {
@@ -158,7 +161,7 @@
       "RefreshHour": 0,
       "IntervalTime": 0,
       "EffectKey": {
-        "$arrayRef": 189
+        "$arrayRef": 220
       }
     },
     {
@@ -280,7 +283,7 @@
       "RefreshHour": 0,
       "IntervalTime": 0,
       "EffectKey": {
-        "$arrayRef": 187
+        "$arrayRef": 218
       }
     },
     {
@@ -318,7 +321,7 @@
       "RefreshHour": 0,
       "IntervalTime": 0,
       "EffectKey": {
-        "$arrayRef": 58
+        "$arrayRef": 88
       }
     },
     {
@@ -368,7 +371,7 @@
       "RefreshHour": 0,
       "IntervalTime": 0,
       "EffectKey": {
-        "$arrayRef": 186
+        "$arrayRef": 217
       }
     },
     {
@@ -382,7 +385,7 @@
       "RefreshHour": 0,
       "IntervalTime": 0,
       "EffectKey": {
-        "$arrayRef": 2497
+        "$arrayRef": 2542
       }
     },
     {
@@ -600,7 +603,7 @@
       "RefreshHour": 0,
       "IntervalTime": 0,
       "EffectKey": {
-        "$arrayRef": 183
+        "$arrayRef": 214
       }
     },
     {
@@ -1469,14 +1472,14 @@
     },
     {
       "Name": 120,
-      "AccMax": 1,
-      "PeriodAdd": 1,
-      "InitTimes": 1,
+      "AccMax": 3,
+      "PeriodAdd": 3,
+      "InitTimes": 3,
       "Type": 2,
       "TimePeriodType": null,
       "PeriodLoop": 0,
       "RefreshHour": 0,
-      "IntervalTime": 2,
+      "IntervalTime": 1,
       "EffectKey": {}
     },
     {
@@ -1621,6 +1624,42 @@
       "PeriodLoop": 0,
       "RefreshHour": 0,
       "IntervalTime": 60,
+      "EffectKey": {}
+    },
+    {
+      "Name": 134,
+      "AccMax": 5,
+      "PeriodAdd": 5,
+      "InitTimes": 5,
+      "Type": 1,
+      "TimePeriodType": 1,
+      "PeriodLoop": 1,
+      "RefreshHour": 0,
+      "IntervalTime": 0,
+      "EffectKey": {}
+    },
+    {
+      "Name": 135,
+      "AccMax": 10,
+      "PeriodAdd": 10,
+      "InitTimes": 10,
+      "Type": 1,
+      "TimePeriodType": 1,
+      "PeriodLoop": 1,
+      "RefreshHour": 0,
+      "IntervalTime": 0,
+      "EffectKey": {}
+    },
+    {
+      "Name": 136,
+      "AccMax": 10,
+      "PeriodAdd": 10,
+      "InitTimes": 10,
+      "Type": 1,
+      "TimePeriodType": 1,
+      "PeriodLoop": 1,
+      "RefreshHour": 0,
+      "IntervalTime": 0,
       "EffectKey": {}
     }
   ]

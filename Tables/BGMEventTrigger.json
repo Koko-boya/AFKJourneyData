@@ -4,7 +4,7 @@
     "header_table": "BGMEventTriggerHeaderTable",
     "format": "flat_rows",
     "schema_size": 4,
-    "row_count": 6,
+    "row_count": 7,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -20,7 +20,8 @@
     "reset_midautumn_playhead",
     "reset_deliciousdungeon_playhead",
     "reset_harvestgodafter_playhead",
-    "reset_harvestgodbefore_playhead"
+    "reset_harvestgodbefore_playhead",
+    "reset_academycup_playhead"
   ],
   "rows": [
     {
@@ -58,6 +59,12 @@
       "Function": "ResetPlaybackPosition",
       "Param1": "event:/BGM/Menu/HarvestGod_beforebattle",
       "Param2": "event:/BGM/Menu/HarvestGod_afterbattle"
+    },
+    {
+      "BCCustomEvent": "reset_academycup_playhead",
+      "Function": "ResetPlaybackPosition",
+      "Param1": "event:/BGM/Menu/HarvestGod_afterbattle",
+      "Param2": null
     }
   ]
 }

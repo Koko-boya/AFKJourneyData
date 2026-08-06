@@ -4,7 +4,7 @@
     "header_table": "CrowdStatusHeaderTable",
     "format": "flat_rows",
     "schema_size": 2,
-    "row_count": 16,
+    "row_count": 18,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -28,7 +28,9 @@
     "pbui_team_join",
     "pbui_crowdstatus_magicduel_win",
     "pbui_crowdstatus_magicduel_lose",
-    "pbui_crowdstatus_magicduel_same"
+    "pbui_crowdstatus_magicduel_same",
+    "pbui_crowdstatus_academycup_streak",
+    "pbui_crowdstatus_academycup_streak_special"
   ],
   "rows": [
     {
@@ -94,6 +96,14 @@
     {
       "ModuleUIPrefab": "pbui_crowdstatus_magicduel_same",
       "CrowdStatusIcon": "ui/prefabs/crowdstatus/pbui_crowdstatus_magicduel_same.prefab"
+    },
+    {
+      "ModuleUIPrefab": "pbui_crowdstatus_academycup_streak",
+      "CrowdStatusIcon": "ui/prefabs/crowdstatus/pbui_crowdstatus_academycup_streak.prefab"
+    },
+    {
+      "ModuleUIPrefab": "pbui_crowdstatus_academycup_streak_special",
+      "CrowdStatusIcon": "ui/prefabs/crowdstatus/pbui_crowdstatus_academycup_streak_special.prefab"
     }
   ]
 }

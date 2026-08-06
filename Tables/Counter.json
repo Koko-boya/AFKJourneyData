@@ -4,7 +4,7 @@
     "header_table": "CounterHeaderTable",
     "format": "flat_rows",
     "schema_size": 7,
-    "row_count": 1234,
+    "row_count": 1263,
     "array_fields": [],
     "unresolved_array_refs": 0
   },
@@ -1237,6 +1237,8 @@
     3118,
     3119,
     3120,
+    3121,
+    3122,
     3123,
     3124,
     3125,
@@ -1245,13 +1247,40 @@
     3128,
     3129,
     3130,
+    3131,
+    3132,
+    3133,
+    3134,
+    3135,
+    3136,
+    3137,
     3138,
     3139,
     3140,
     3141,
     3142,
     3143,
-    3144
+    3144,
+    3145,
+    3146,
+    3147,
+    3148,
+    3149,
+    3150,
+    3151,
+    3152,
+    3153,
+    3154,
+    3155,
+    3156,
+    3157,
+    3158,
+    3159,
+    3160,
+    3161,
+    3162,
+    3163,
+    3164
   ],
   "rows": [
     {
@@ -14731,6 +14760,28 @@
       "CounterCondition": "true"
     },
     {
+      "ID": 3121,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 190,
+      "CounterCondition": "ed.ConditionX.IsSoulLinkPartnerID(1)"
+    },
+    {
+      "ID": 3122,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 190,
+      "CounterCondition": "ed.ConditionX.IsSoulLinkPartnerID(2)"
+    },
+    {
       "ID": 3123,
       "CounterPeriodType": {
         "1": 7
@@ -14819,6 +14870,83 @@
       "CounterCondition": "true"
     },
     {
+      "ID": 3131,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 10,
+      "CounterCondition": "ed.ConditionX.IsCollabSquareFinished(3,1,5)"
+    },
+    {
+      "ID": 3132,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 6,
+      "CounterCondition": "ed.ConditionX.IsCollabSquareFinished(3,2,5)"
+    },
+    {
+      "ID": 3133,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 5,
+      "CounterCondition": "ed.ConditionX.IsCollabSquareFinished(3,3,5)"
+    },
+    {
+      "ID": 3134,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 10,
+      "CounterCondition": "ed.ConditionX.IsCollabSquareFinished(3,4,5)"
+    },
+    {
+      "ID": 3135,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 6,
+      "CounterCondition": "ed.ConditionX.IsCollabSquareFinished(3,5,5)"
+    },
+    {
+      "ID": 3136,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 5,
+      "CounterCondition": "ed.ConditionX.IsCollabSquareFinished(3,6,5)"
+    },
+    {
+      "ID": 3137,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 851,
+      "ScheduleType": null,
+      "CounterType": 10,
+      "CounterCondition": "ed.ConditionX.IsCollabSquareFinished(3,7,5)"
+    },
+    {
       "ID": 3138,
       "CounterPeriodType": {
         "1": 7
@@ -14894,6 +15022,226 @@
       "ScheduleType": null,
       "CounterType": 185,
       "CounterCondition": "true"
+    },
+    {
+      "ID": 3145,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 890,
+      "ScheduleType": null,
+      "CounterType": 8,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3146,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 890,
+      "ScheduleType": null,
+      "CounterType": 43,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3147,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 890,
+      "ScheduleType": null,
+      "CounterType": 93,
+      "CounterCondition": "ed.ConditionX.IsContainHero(133)"
+    },
+    {
+      "ID": 3148,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 890,
+      "ScheduleType": null,
+      "CounterType": 90,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3149,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 891,
+      "ScheduleType": null,
+      "CounterType": 103,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3150,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 891,
+      "ScheduleType": null,
+      "CounterType": 43,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3151,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 891,
+      "ScheduleType": null,
+      "CounterType": 90,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3152,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 891,
+      "ScheduleType": null,
+      "CounterType": 8,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3153,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 892,
+      "ScheduleType": null,
+      "CounterType": 166,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3154,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 893,
+      "ScheduleType": null,
+      "CounterType": 46,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3155,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 893,
+      "ScheduleType": null,
+      "CounterType": 3,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3156,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 893,
+      "ScheduleType": null,
+      "CounterType": 13,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3157,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 885,
+      "ScheduleType": null,
+      "CounterType": 192,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3158,
+      "CounterPeriodType": {
+        "1": 1
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 0,
+      "ScheduleType": null,
+      "CounterType": 10001,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3159,
+      "CounterPeriodType": {
+        "1": 2
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 0,
+      "ScheduleType": null,
+      "CounterType": 10001,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3160,
+      "CounterPeriodType": {
+        "1": 2
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 0,
+      "ScheduleType": null,
+      "CounterType": 10002,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3161,
+      "CounterPeriodType": {
+        "1": 2
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 0,
+      "ScheduleType": null,
+      "CounterType": 191,
+      "CounterCondition": "ed.ConditionX.IsRewardHubType(\"AcademyWorldCrystal\")"
+    },
+    {
+      "ID": 3162,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 906,
+      "ScheduleType": null,
+      "CounterType": 10003,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3163,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 906,
+      "ScheduleType": null,
+      "CounterType": 10004,
+      "CounterCondition": "true"
+    },
+    {
+      "ID": 3164,
+      "CounterPeriodType": {
+        "1": 7
+      },
+      "LineQuestID": 0,
+      "ScheduleID": 906,
+      "ScheduleType": null,
+      "CounterType": 10005,
+      "CounterCondition": "ed.ConditionX.AcademyWorldOppoKillStreak()>=4"
     }
   ]
 }

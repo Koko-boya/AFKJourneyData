@@ -4,11 +4,11 @@
     "header_table": "ObjectExtraRulesHeaderTable",
     "format": "flat_rows",
     "schema_size": 5,
-    "row_count": 157,
+    "row_count": 158,
     "array_fields": [
       "ClientExtraRulesEvents"
     ],
-    "unresolved_array_refs": 157
+    "unresolved_array_refs": 158
   },
   "default": {
     "ID": "null",
@@ -174,13 +174,14 @@
     89,
     90,
     91,
-    94
+    94,
+    97
   ],
   "rows": [
     {
       "ID": 1,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84361
+        "$arrayRef": 84841
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -189,7 +190,7 @@
     {
       "ID": 2,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106104
+        "$arrayRef": 107194
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInWeather(\"Rain\",\"HeavyRain\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -198,7 +199,7 @@
     {
       "ID": 3,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84361
+        "$arrayRef": 84841
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -207,7 +208,7 @@
     {
       "ID": 4,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84553
+        "$arrayRef": 85033
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -216,7 +217,7 @@
     {
       "ID": 5,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84556
+        "$arrayRef": 85036
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -225,7 +226,7 @@
     {
       "ID": 6,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84554
+        "$arrayRef": 85034
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -234,7 +235,7 @@
     {
       "ID": 7,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84553
+        "$arrayRef": 85033
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -243,7 +244,7 @@
     {
       "ID": 8,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84556
+        "$arrayRef": 85036
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -252,7 +253,7 @@
     {
       "ID": 9,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84554
+        "$arrayRef": 85034
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -261,7 +262,7 @@
     {
       "ID": 10,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84361
+        "$arrayRef": 84841
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
@@ -270,7 +271,7 @@
     {
       "ID": 11,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84553
+        "$arrayRef": 85033
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
@@ -279,7 +280,7 @@
     {
       "ID": 12,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84556
+        "$arrayRef": 85036
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
@@ -288,7 +289,7 @@
     {
       "ID": 13,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84554
+        "$arrayRef": 85034
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\") and ed.ActionX.CO_DelStates(\"C_Interactive\")",
@@ -297,7 +298,7 @@
     {
       "ID": 14,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(151)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -306,7 +307,7 @@
     {
       "ID": 15,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106105
+        "$arrayRef": 107195
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_HasBindedObject()",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -315,7 +316,7 @@
     {
       "ID": 16,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(196,197)>=2",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -324,7 +325,7 @@
     {
       "ID": 18,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106106
+        "$arrayRef": 107196
       },
       "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(64)>17 and ed.ConditionX.ScheduleOpenedDays(64)<25",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -333,7 +334,7 @@
     {
       "ID": 19,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(232)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -342,7 +343,7 @@
     {
       "ID": 20,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(231)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -351,7 +352,7 @@
     {
       "ID": 21,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106107
+        "$arrayRef": 107197
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInPairsShow()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -360,7 +361,7 @@
     {
       "ID": 22,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(196)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -369,7 +370,7 @@
     {
       "ID": 23,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106108
+        "$arrayRef": 107198
       },
       "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(145)>=1 and ed.ConditionX.ScheduleOpenedDays(145)<=10 and ed.ConditionX.CO_IsInActivity(145)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -378,7 +379,7 @@
     {
       "ID": 24,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84710
+        "$arrayRef": 85190
       },
       "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",1)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -387,7 +388,7 @@
     {
       "ID": 25,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106109
+        "$arrayRef": 107199
       },
       "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",2)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -396,7 +397,7 @@
     {
       "ID": 26,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106110
+        "$arrayRef": 107200
       },
       "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",3)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -405,7 +406,7 @@
     {
       "ID": 27,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106111
+        "$arrayRef": 107201
       },
       "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SkateFlower\",4)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -414,7 +415,7 @@
     {
       "ID": 2001,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106112
+        "$arrayRef": 107202
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(507300140)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -423,7 +424,7 @@
     {
       "ID": 2002,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106112
+        "$arrayRef": 107202
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(507300140)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -432,7 +433,7 @@
     {
       "ID": 28,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106113
+        "$arrayRef": 107203
       },
       "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(156)>=1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -441,7 +442,7 @@
     {
       "ID": 29,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106114
+        "$arrayRef": 107204
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336,337)>=2 and ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -450,7 +451,7 @@
     {
       "ID": 30,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -459,7 +460,7 @@
     {
       "ID": 31,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84554
+        "$arrayRef": 85034
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dusk\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -468,7 +469,7 @@
     {
       "ID": 32,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(369)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -477,7 +478,7 @@
     {
       "ID": 33,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336,337)>=2",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -486,7 +487,7 @@
     {
       "ID": 34,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336,337)>=2",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -495,7 +496,7 @@
     {
       "ID": 35,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106115
+        "$arrayRef": 107205
       },
       "ExtraRulesCondition": "ed.ConditionX.C_MiniGameSuccess(\"SnowballFight\",4) or ed.ConditionX.IsZoneUnlocked(6,4)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -504,7 +505,7 @@
     {
       "ID": 36,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106116
+        "$arrayRef": 107206
       },
       "ExtraRulesCondition": "ed.ConditionX.HasState(600395,\"CMark_2\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -513,7 +514,7 @@
     {
       "ID": 37,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(336)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -522,7 +523,7 @@
     {
       "ID": 2003,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106117
+        "$arrayRef": 107207
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(507700189)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -531,7 +532,7 @@
     {
       "ID": 2004,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106117
+        "$arrayRef": 107207
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(507700189)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -540,7 +541,7 @@
     {
       "ID": 38,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106118
+        "$arrayRef": 107208
       },
       "ExtraRulesCondition": "not ed.ConditionX.HasState(605481,\"Changeable\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -549,7 +550,7 @@
     {
       "ID": 39,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84553
+        "$arrayRef": 85033
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Dawn\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -558,7 +559,7 @@
     {
       "ID": 40,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84556
+        "$arrayRef": 85036
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Noon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -567,7 +568,7 @@
     {
       "ID": 2005,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106119
+        "$arrayRef": 107209
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(900709)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -576,7 +577,7 @@
     {
       "ID": 2006,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106119
+        "$arrayRef": 107209
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(900709)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -585,7 +586,7 @@
     {
       "ID": 2007,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106120
+        "$arrayRef": 107210
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(509000248)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -594,7 +595,7 @@
     {
       "ID": 2008,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106120
+        "$arrayRef": 107210
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(509000248)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -603,7 +604,7 @@
     {
       "ID": 50,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84361
+        "$arrayRef": 84841
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -612,7 +613,7 @@
     {
       "ID": 41,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(483)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -621,7 +622,7 @@
     {
       "ID": 42,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(479,480)>=2",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -630,7 +631,7 @@
     {
       "ID": 44,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106121
+        "$arrayRef": 107211
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_HasTherapyNPC()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -639,7 +640,7 @@
     {
       "ID": 45,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(88)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -648,7 +649,7 @@
     {
       "ID": 46,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106122
+        "$arrayRef": 107212
       },
       "ExtraRulesCondition": "ed.ConditionX.ScheduleOpenedDays(541)>=1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -657,7 +658,7 @@
     {
       "ID": 47,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(685)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -666,7 +667,7 @@
     {
       "ID": 2009,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106123
+        "$arrayRef": 107213
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(1002997)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -675,7 +676,7 @@
     {
       "ID": 2010,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106123
+        "$arrayRef": 107213
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(1002997)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -684,7 +685,7 @@
     {
       "ID": 2011,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106124
+        "$arrayRef": 107214
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(1002911)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -693,7 +694,7 @@
     {
       "ID": 2012,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106124
+        "$arrayRef": 107214
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(1002911)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -702,7 +703,7 @@
     {
       "ID": 48,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(816,817)>=2",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -711,7 +712,7 @@
     {
       "ID": 49,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106125
+        "$arrayRef": 107215
       },
       "ExtraRulesCondition": "not ed.ConditionX.HasState(1004084,\"Changeable\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -720,7 +721,7 @@
     {
       "ID": 51,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(684)==1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -729,7 +730,7 @@
     {
       "ID": 52,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84511
+        "$arrayRef": 84991
       },
       "ExtraRulesCondition": "ed.ConditionX.WearingAvatarCount(65)>=1",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -738,7 +739,7 @@
     {
       "ID": 2013,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106126
+        "$arrayRef": 107216
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510100308)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -747,7 +748,7 @@
     {
       "ID": 2014,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106126
+        "$arrayRef": 107216
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510100308)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -756,7 +757,7 @@
     {
       "ID": 2015,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106127
+        "$arrayRef": 107217
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510400068)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -765,7 +766,7 @@
     {
       "ID": 2016,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106127
+        "$arrayRef": 107217
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510400068)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -774,7 +775,7 @@
     {
       "ID": 3001,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85214
+        "$arrayRef": 85694
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -783,7 +784,7 @@
     {
       "ID": 3002,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -792,7 +793,7 @@
     {
       "ID": 3003,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -801,7 +802,7 @@
     {
       "ID": 2017,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106129
+        "$arrayRef": 107219
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(1101522)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -810,7 +811,7 @@
     {
       "ID": 2018,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106129
+        "$arrayRef": 107219
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(1101522)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -819,7 +820,7 @@
     {
       "ID": 2019,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106130
+        "$arrayRef": 107220
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_CheckInStalk(1004628)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -828,7 +829,7 @@
     {
       "ID": 53,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 84361
+        "$arrayRef": 84841
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -837,7 +838,7 @@
     {
       "ID": 54,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106131
+        "$arrayRef": 107221
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and (ed.ConditionX.CO_IsInDayNight(\"Dawn\") or ed.ConditionX.CO_IsInDayNight(\"Noon\") or ed.ConditionX.CO_IsInDayNight(\"Dusk\"))",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -846,7 +847,7 @@
     {
       "ID": 55,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -855,7 +856,7 @@
     {
       "ID": 56,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106132
+        "$arrayRef": 107222
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and (not ed.ConditionX.IsExplTaskFinished(16010332,2))",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -864,7 +865,7 @@
     {
       "ID": 57,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106133
+        "$arrayRef": 107223
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.IsExplTaskFinished(16010332,2) and (not ed.ConditionX.IsExplTaskFinished(16010332,3))",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -873,7 +874,7 @@
     {
       "ID": 58,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106134
+        "$arrayRef": 107224
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.IsExplTaskFinished(16010332,3) and (not ed.ConditionX.IsExplTaskFinished(16010332,4))",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -882,7 +883,7 @@
     {
       "ID": 59,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106135
+        "$arrayRef": 107225
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.IsExplTaskFinished(16010332,4)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -891,7 +892,7 @@
     {
       "ID": 60,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85214
+        "$arrayRef": 85694
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -900,7 +901,7 @@
     {
       "ID": 61,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -909,7 +910,7 @@
     {
       "ID": 3005,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\")",
@@ -918,7 +919,7 @@
     {
       "ID": 3006,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85214
+        "$arrayRef": 85694
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\")",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -927,7 +928,7 @@
     {
       "ID": 3007,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106136
+        "$arrayRef": 107226
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") or ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -936,7 +937,7 @@
     {
       "ID": 3008,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106137
+        "$arrayRef": 107227
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") and (ed.ConditionX.CO_IsInDayNight(\"Dawn\") or ed.ConditionX.CO_IsInDayNight(\"Noon\") or ed.ConditionX.CO_IsInDayNight(\"Dusk\"))",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -945,7 +946,7 @@
     {
       "ID": 3009,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -954,7 +955,7 @@
     {
       "ID": 3012,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106138
+        "$arrayRef": 107228
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701242)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -963,7 +964,7 @@
     {
       "ID": 3013,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106139
+        "$arrayRef": 107229
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701243)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -972,7 +973,7 @@
     {
       "ID": 3014,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106140
+        "$arrayRef": 107230
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701244)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -981,7 +982,7 @@
     {
       "ID": 3015,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106141
+        "$arrayRef": 107231
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701245)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -990,7 +991,7 @@
     {
       "ID": 3016,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106142
+        "$arrayRef": 107232
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701246)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -999,7 +1000,7 @@
     {
       "ID": 3017,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106143
+        "$arrayRef": 107233
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701247)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1008,7 +1009,7 @@
     {
       "ID": 3018,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106144
+        "$arrayRef": 107234
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701248)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1017,7 +1018,7 @@
     {
       "ID": 3019,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106145
+        "$arrayRef": 107235
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701249)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1026,7 +1027,7 @@
     {
       "ID": 3020,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106146
+        "$arrayRef": 107236
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701250)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1035,7 +1036,7 @@
     {
       "ID": 3021,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106147
+        "$arrayRef": 107237
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"FullMoon\") and ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701251)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1044,7 +1045,7 @@
     {
       "ID": 3022,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106148
+        "$arrayRef": 107238
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701252)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1053,7 +1054,7 @@
     {
       "ID": 3023,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106149
+        "$arrayRef": 107239
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"FullMoon\") and ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701253)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1062,7 +1063,7 @@
     {
       "ID": 3024,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106150
+        "$arrayRef": 107240
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"FullMoon\") and ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701254)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1071,7 +1072,7 @@
     {
       "ID": 3025,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106151
+        "$arrayRef": 107241
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701255)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1080,7 +1081,7 @@
     {
       "ID": 3026,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106152
+        "$arrayRef": 107242
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1801201)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1089,7 +1090,7 @@
     {
       "ID": 3027,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106153
+        "$arrayRef": 107243
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1801202)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1098,7 +1099,7 @@
     {
       "ID": 3028,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106154
+        "$arrayRef": 107244
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1801204)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1107,7 +1108,7 @@
     {
       "ID": 3029,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106155
+        "$arrayRef": 107245
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,515901201)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1116,7 +1117,7 @@
     {
       "ID": 3030,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106156
+        "$arrayRef": 107246
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,515901202)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1125,7 +1126,7 @@
     {
       "ID": 3031,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106157
+        "$arrayRef": 107247
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,515901203)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1134,7 +1135,7 @@
     {
       "ID": 3032,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106158
+        "$arrayRef": 107248
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,515601201)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1143,7 +1144,7 @@
     {
       "ID": 3033,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106159
+        "$arrayRef": 107249
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,515601202)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1152,7 +1153,7 @@
     {
       "ID": 3034,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106160
+        "$arrayRef": 107250
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,515501201)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1161,7 +1162,7 @@
     {
       "ID": 3035,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106161
+        "$arrayRef": 107251
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"FullMoon\") and ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1701260)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1170,7 +1171,7 @@
     {
       "ID": 3036,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106162
+        "$arrayRef": 107252
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"FullMoon\") and ed.ConditionX.C_IsPlaySocialBehaviourInRange(110,1800032)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1179,7 +1180,7 @@
     {
       "ID": 62,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106163
+        "$arrayRef": 107253
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(16010463,1)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1188,7 +1189,7 @@
     {
       "ID": 63,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106163
+        "$arrayRef": 107253
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(16010463,1)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1197,7 +1198,7 @@
     {
       "ID": 64,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85214
+        "$arrayRef": 85694
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformHamster\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1206,7 +1207,7 @@
     {
       "ID": 65,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106136
+        "$arrayRef": 107226
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") and ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1215,7 +1216,7 @@
     {
       "ID": 66,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106164
+        "$arrayRef": 107254
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj() and ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1224,7 +1225,7 @@
     {
       "ID": 67,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106165
+        "$arrayRef": 107255
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(15010512)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1233,7 +1234,7 @@
     {
       "ID": 68,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106166
+        "$arrayRef": 107256
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(15010520)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1242,7 +1243,7 @@
     {
       "ID": 69,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106167
+        "$arrayRef": 107257
       },
       "ExtraRulesCondition": "ed.ConditionX.HasState(510100197,\"CMark_2\") and ed.ConditionX.HasState(510100197,\"Show\")",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\")",
@@ -1251,7 +1252,7 @@
     {
       "ID": 2020,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106168
+        "$arrayRef": 107258
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510100180)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1260,7 +1261,7 @@
     {
       "ID": 2021,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106168
+        "$arrayRef": 107258
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510100180)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1269,7 +1270,7 @@
     {
       "ID": 3004,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1278,7 +1279,7 @@
     {
       "ID": 2022,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106169
+        "$arrayRef": 107259
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510600004)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1287,7 +1288,7 @@
     {
       "ID": 2023,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106169
+        "$arrayRef": 107259
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510600004)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1296,7 +1297,7 @@
     {
       "ID": 2024,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106170
+        "$arrayRef": 107260
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510700068)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1305,7 +1306,7 @@
     {
       "ID": 2025,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106170
+        "$arrayRef": 107260
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510700068)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1314,7 +1315,7 @@
     {
       "ID": 2026,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106171
+        "$arrayRef": 107261
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(510700071)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1323,7 +1324,7 @@
     {
       "ID": 2027,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106171
+        "$arrayRef": 107261
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(510700071)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1332,7 +1333,7 @@
     {
       "ID": 70,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106172
+        "$arrayRef": 107262
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(10010261)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1341,7 +1342,7 @@
     {
       "ID": 71,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106136
+        "$arrayRef": 107226
       },
       "ExtraRulesCondition": "ed.ConditionX.C_IsInVehicle(\"TransformWolf\") and ed.ConditionX.CO_IsInDayNight(\"Night\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1350,7 +1351,7 @@
     {
       "ID": 72,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106128
+        "$arrayRef": 107218
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckWolfAncestralObj()",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1359,7 +1360,7 @@
     {
       "ID": 73,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106173
+        "$arrayRef": 107263
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(15010234) or ed.ConditionX.C_CheckFollowTaskByLineID(15010238) or ed.ConditionX.C_CheckFollowTaskByLineID(15010241)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1368,7 +1369,7 @@
     {
       "ID": 74,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106173
+        "$arrayRef": 107263
       },
       "ExtraRulesCondition": "not ed.ConditionX.C_CheckFollowTaskByLineID(15010234) or not ed.ConditionX.C_CheckFollowTaskByLineID(15010238) or not ed.ConditionX.C_CheckFollowTaskByLineID(15010241)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1377,7 +1378,7 @@
     {
       "ID": 2028,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106174
+        "$arrayRef": 107264
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(513100237)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1386,7 +1387,7 @@
     {
       "ID": 2029,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106174
+        "$arrayRef": 107264
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(513100237)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1395,7 +1396,7 @@
     {
       "ID": 2030,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106175
+        "$arrayRef": 107265
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(513100238)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1404,7 +1405,7 @@
     {
       "ID": 2031,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106175
+        "$arrayRef": 107265
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(513100238)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1413,7 +1414,7 @@
     {
       "ID": 2032,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106176
+        "$arrayRef": 107266
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(514000019)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1422,7 +1423,7 @@
     {
       "ID": 2033,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106176
+        "$arrayRef": 107266
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(514000019)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1431,7 +1432,7 @@
     {
       "ID": 2034,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106177
+        "$arrayRef": 107267
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(513100364)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1440,7 +1441,7 @@
     {
       "ID": 2035,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106177
+        "$arrayRef": 107267
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(513100364)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1449,7 +1450,7 @@
     {
       "ID": 75,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106178
+        "$arrayRef": 107268
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"FullMoon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1458,7 +1459,7 @@
     {
       "ID": 76,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106179
+        "$arrayRef": 107269
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"LastMoon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1467,7 +1468,7 @@
     {
       "ID": 77,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106180
+        "$arrayRef": 107270
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"NewMoon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1476,7 +1477,7 @@
     {
       "ID": 78,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106181
+        "$arrayRef": 107271
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsInDayNight(\"FirstMoon\")",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1485,7 +1486,7 @@
     {
       "ID": 79,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106182
+        "$arrayRef": 107272
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010105) or ed.ConditionX.C_CheckFollowTaskByLineID(17010109) or ed.ConditionX.C_CheckFollowTaskByLineID(17010110)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1494,7 +1495,7 @@
     {
       "ID": 80,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106183
+        "$arrayRef": 107273
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010208)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1503,7 +1504,7 @@
     {
       "ID": 81,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85714
+        "$arrayRef": 86202
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(17010102,2)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1512,7 +1513,7 @@
     {
       "ID": 2036,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106184
+        "$arrayRef": 107274
       },
       "ExtraRulesCondition": "ed.ConditionX.CO_IsStealthEnd(1701282)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1521,7 +1522,7 @@
     {
       "ID": 2037,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106184
+        "$arrayRef": 107274
       },
       "ExtraRulesCondition": "not ed.ConditionX.CO_IsStealthEnd(1701282)",
       "TrueAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")",
@@ -1530,7 +1531,7 @@
     {
       "ID": 82,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106185
+        "$arrayRef": 107275
       },
       "ExtraRulesCondition": "ed.ConditionX.C_CheckFollowTaskByLineID(17010219)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1539,7 +1540,7 @@
     {
       "ID": 86,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 106186
+        "$arrayRef": 107276
       },
       "ExtraRulesCondition": "ed.ConditionX.HasState(512200299,\"Show\")",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1548,7 +1549,7 @@
     {
       "ID": 88,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85418
+        "$arrayRef": 85897
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(17010204,1)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1557,7 +1558,7 @@
     {
       "ID": 89,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85702
+        "$arrayRef": 86190
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(17010103,2)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1566,7 +1567,7 @@
     {
       "ID": 90,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85705
+        "$arrayRef": 86193
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(17010105,404)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1575,7 +1576,7 @@
     {
       "ID": 91,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85435
+        "$arrayRef": 85915
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(17010108,1)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
@@ -1584,11 +1585,20 @@
     {
       "ID": 94,
       "ClientExtraRulesEvents": {
-        "$arrayRef": 85706
+        "$arrayRef": 86194
       },
       "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(17010107,6)",
       "TrueAction": "ed.ActionX.CO_DelStates(\"C_Interactive\")",
       "FalseAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")"
+    },
+    {
+      "ID": 97,
+      "ClientExtraRulesEvents": {
+        "$arrayRef": 107277
+      },
+      "ExtraRulesCondition": "ed.ConditionX.IsExplTaskFinished(17010107,4)",
+      "TrueAction": "ed.ActionX.CO_DelStates(\"C_Show\",\"C_Interactive\")",
+      "FalseAction": "ed.ActionX.CO_AddStates(\"C_Show\",\"C_Interactive\")"
     }
   ]
 }

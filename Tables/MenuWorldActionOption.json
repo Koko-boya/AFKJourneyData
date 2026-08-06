@@ -4,7 +4,7 @@
     "header_table": "MenuWorldActionOptionHeaderTable",
     "format": "flat_rows",
     "schema_size": 14,
-    "row_count": 528,
+    "row_count": 539,
     "array_fields": [
       "AdditionalLuas",
       "AdditionalPrefabs"
@@ -553,9 +553,20 @@
     608,
     609,
     610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
     617,
     618,
-    620
+    620,
+    621,
+    622,
+    623,
+    624,
+    625
   ],
   "rows": [
     {
@@ -4572,10 +4583,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {
-        "$arrayRef": 105535
+        "$arrayRef": 106625
       }
     },
     {
@@ -4608,10 +4619,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {
-        "$arrayRef": 105535
+        "$arrayRef": 106625
       }
     },
     {
@@ -4644,10 +4655,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {
-        "$arrayRef": 105535
+        "$arrayRef": 106625
       }
     },
     {
@@ -4680,10 +4691,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {
-        "$arrayRef": 105535
+        "$arrayRef": 106625
       }
     },
     {
@@ -5964,10 +5975,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {
-        "$arrayRef": 105535
+        "$arrayRef": 106625
       }
     },
     {
@@ -6000,10 +6011,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {
-        "$arrayRef": 105535
+        "$arrayRef": 106625
       }
     },
     {
@@ -6036,10 +6047,10 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {
-        "$arrayRef": 105535
+        "$arrayRef": 106625
       }
     },
     {
@@ -7848,7 +7859,7 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {}
     },
@@ -8083,7 +8094,7 @@
       "ObjectClientType": null,
       "ShowCondition": "ed.ConditionX.HasState(513900144,\"CMark_1\")",
       "OptionStatement": "开始玩牌",
-      "ClickAction": "ed.ActionX.C_StartBoardCardPlay(14)",
+      "ClickAction": "ed.ActionX.C_StartBoardCardPlay(20)",
       "ReturnMenu": false,
       "PrefabName": "pbui_dialogue_icon_task_main",
       "Priority": 1,
@@ -8579,7 +8590,7 @@
       "ObjectClientType": null,
       "ShowCondition": "true",
       "OptionStatement": "7403850890959552082",
-      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"BagPuzzle\",349)",
+      "ClickAction": "ed.ActionX.C_StartBoardCardPlay(19)",
       "ReturnMenu": false,
       "PrefabName": "pbui_dialogue_icon_task_main",
       "Priority": 1,
@@ -8846,7 +8857,7 @@
     },
     {
       "ID": 600,
-      "ObjectID": 17009550,
+      "ObjectID": 1700955,
       "Mode": null,
       "ObjectClientType": null,
       "ShowCondition": "true",
@@ -8954,7 +8965,7 @@
       "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {
-        "$arrayRef": 105534
+        "$arrayRef": 106624
       },
       "AdditionalLuas": {}
     },
@@ -8986,6 +8997,102 @@
       "PrefabName": "pbui_dialogue_icon_shop",
       "Priority": 1,
       "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 611,
+      "ObjectID": 1701469,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "发生了什么？",
+      "ClickAction": "ed.ActionX.C_RunPlot(18311020)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 612,
+      "ObjectID": 1701472,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "你在找什么地方？",
+      "ClickAction": "ed.ActionX.C_RunPlot(18311070)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 613,
+      "ObjectID": 1701475,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "出了什么事？",
+      "ClickAction": "ed.ActionX.C_RunPlot(18311100)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 614,
+      "ObjectID": 1701476,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "你也是演员？",
+      "ClickAction": "ed.ActionX.C_RunPlot(18311150)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 615,
+      "ObjectID": 514700145,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "你是？",
+      "ClickAction": "ed.ActionX.C_RunPlot(18311170)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 616,
+      "ObjectID": 515100063,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "节哀",
+      "ClickAction": "ed.ActionX.C_RunPlot(18311130)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_choose",
+      "Priority": 1,
+      "Gender": true,
       "ReddotID": 0,
       "AdditionalPrefabs": {},
       "AdditionalLuas": {}
@@ -9034,6 +9141,86 @@
       "PrefabName": "pbui_dialogue_icon_choose",
       "Priority": 1,
       "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 621,
+      "ObjectID": 514700022,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "12492204870813617262",
+      "ClickAction": "ed.ActionX.C_StartMiniPlay(\"MapEscort\",59)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": false,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 622,
+      "ObjectID": 515700027,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "满月之下",
+      "ClickAction": "ed.ActionX.C_RunPlot(18105190)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 623,
+      "ObjectID": 1700151,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "满月之下",
+      "ClickAction": "ed.ActionX.C_RunPlot(18105300)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 624,
+      "ObjectID": 515900025,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "重重疑云",
+      "ClickAction": "ed.ActionX.C_RunPlot(18106420)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": true,
+      "ReddotID": 0,
+      "AdditionalPrefabs": {},
+      "AdditionalLuas": {}
+    },
+    {
+      "ID": 625,
+      "ObjectID": 515600055,
+      "Mode": null,
+      "ObjectClientType": null,
+      "ShowCondition": "true",
+      "OptionStatement": "最艰难的抉择",
+      "ClickAction": "ed.ActionX.C_RunPlot(18601014)",
+      "ReturnMenu": false,
+      "PrefabName": "pbui_dialogue_icon_task_main",
+      "Priority": 1,
+      "Gender": false,
       "ReddotID": 0,
       "AdditionalPrefabs": {},
       "AdditionalLuas": {}
